@@ -12,17 +12,62 @@ My fisrt slide
 Einführung der Kinder in Schlangen
 ==================================
 
-test
+Bedingungen
+-----------
 
-Basics
+
+
+Datentypen
+----------
+
+* strings
+* numbers
+* list
+* dict
+* set
+
+
+Schleifen 
+---------
+
+Iteratoren
+-----------
+
+Klassen
+-------
+
+Module
 ------
 
-* Bedingungen
-* Datentypen
-* Schleifen 
-* Iteratoren
-* Klassen
-* Module
+Übungen
+--------
+
+**1x1**:
+    Schreibe ein Programm dass das 1x1 zeilenweise ausgibt: ::
+
+      1x1 = 1, 1x2 = 2, ...
+      2x1 = 2, 2x2 = 4, ...
+
+**ZooP**:
+    Schreibe eine Klasse Tier die eine Methode ``make_loud`` 
+    bereitstellt. Leite von dieser eine Klasse ``Katze`` ab,
+    und überschreibe die ``make_loud`` Methode. 
+
+    Stecke Instanzen der Objekte in eine Liste ``Zoo``.
+    Durchlaufe diese Liste und stelle fest ob es sich beim Objekt 
+    um eine Katze handelt.
+
+----
+
+**1x1**:
+
+...
+
+**ZooP**:
+
+...
+
+Siehe auch: http://codingbat.com/python
 
 λ!
 --
@@ -31,8 +76,8 @@ Lambdas sind auch nur Funktionen:
 
 .. code-block:: python
 
-    fact = lambda x: 1 if x == 0 else x * fact(x-1)
-    fact(23) # 25852016738884976640000
+    fac = lambda x: 1 if x == 0 else x * fac(x-1)
+    fac(23) # 25852016738884976640000
 
 Vergleiche:
 
@@ -55,14 +100,13 @@ Das ist zwar weniger performant als good ol' Java, aber einfach bequemer.
 Spezielle Features
 ==================
 
-Python hat ein paar Features die es von den allermeisten
-kompilierten Sprachen hervorheben. 
+Python hat einige Features die es von vielen kompilierten und
+interpretierten Sprachen abheben.
 
 Higher Order Functions
 ----------------------
 
 .. code-block:: python
-
 
      def greeting_generator(name):
          def greeter():
@@ -77,7 +121,6 @@ Dekoratoren
 -----------
     
 .. code-block:: python
-
 
      def bold(fn):
         def wrapped():
@@ -95,6 +138,7 @@ Dekoratoren
          return 'Hello World'
 
      print(hello()) # <b><i>Hello World</i></b>
+     # Entspricht: bold(italic(hello()))
 
 List Comprehensions
 -------------------
@@ -106,7 +150,7 @@ Alle 2er Potenzen von 0 - 10:
     mylist = [2**x for x in range(10)]
     # [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
 
-Dasselbe, aber nur alle ungeraden 2er Potenzen,
+Dasselbe, aber nur mit allen ungeraden Exponenten,
 und als ``hex`` String repräsentiert:
 
 .. code-block:: python
@@ -132,7 +176,8 @@ Generatoren
 
     # Zeige alle Quadratzahlen,
     # deren Wurzel ungerade ist:
-    for i in (x**2 for x in range(10) if x % 2):
+    odd_quads = (x**2 for x in range(10) if x % 2)
+    for i in odd_quads:
         print(i)
 
 ``with`` 
@@ -156,9 +201,13 @@ Python way:
         f.write('hello world')
 
 
-``import this``
+Die Philosophie
 ---------------
-Zen of Python +  **Batteries included** 
+
+* Zen of Python: ``import this``
+* Explizit ist besser als Implizit.
+* **Batteries included**: Viele Funktionen bereits integriert
+* Man liest Code öfters als man ihn schreibt.
 
 Duck Typing
 -----------
@@ -178,9 +227,7 @@ Duck Typing
         if hasattr(duck, 'quak'):
             duck.quak()
         else:
-            print 'Sieht nicht aus wie ne Ente:', duck
-
-    #
+            print('Sieht nicht aus wie ne Ente:', duck)
 
 How short Python can be
 -----------------------

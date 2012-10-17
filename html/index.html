@@ -21,42 +21,96 @@ My fisrt slide<a class="headerlink" href="#my-fisrt-slide" title="Permalink to t
 <div class="step slide section" data-rotate-x="17.4532925199" data-x="1000" data-y="500" id="einfuhrung-der-kinder-in-schlangen">
 <h1>
 Einführung der Kinder in Schlangen<a class="headerlink" href="#einfuhrung-der-kinder-in-schlangen" title="Permalink to this headline">¶</a></h1>
-<p>
-test</p>
 </div>
 <div class="step slide section" data-rotate-x="34.9065850399" data-x="2000" data-y="1000" id="spezielle-features">
 <h1>
 Spezielle Features<a class="headerlink" href="#spezielle-features" title="Permalink to this headline">¶</a></h1>
 <p>
-Python hat ein paar Features die es von den allermeisten
-kompilierten Sprachen hervorheben.</p>
+Python hat einige Features die es von vielen kompilierten und
+interpretierten Sprachen abheben.</p>
 </div>
-<div class="step slide section" data-rotate-x="52.3598775598" data-x="3000" data-y="1500" id="basics">
+<div class="step slide section" data-rotate-x="52.3598775598" data-x="3000" data-y="1500" id="bedingungen">
 <h1>
-Basics<a class="headerlink" href="#basics" title="Permalink to this headline">¶</a></h1>
+Bedingungen<a class="headerlink" href="#bedingungen" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="step slide section" data-rotate-x="69.8131700798" data-x="4000" data-y="2000" id="datentypen">
+<h1>
+Datentypen<a class="headerlink" href="#datentypen" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li>
-Bedingungen</li>
+strings</li>
 <li>
-Datentypen</li>
+numbers</li>
 <li>
-Schleifen</li>
+list</li>
 <li>
-Iteratoren</li>
+dict</li>
 <li>
-Klassen</li>
-<li>
-Module</li>
+set</li>
 </ul>
 </div>
-<div class="step slide section" data-rotate-x="69.8131700798" data-x="4000" data-y="2000" id="id1">
+<div class="step slide section" data-rotate-x="87.2664625997" data-x="5000" data-y="2500" id="schleifen">
+<h1>
+Schleifen<a class="headerlink" href="#schleifen" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="step slide section" data-rotate-x="104.71975512" data-x="6000" data-y="3000" id="iteratoren">
+<h1>
+Iteratoren<a class="headerlink" href="#iteratoren" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="step slide section" data-rotate-x="122.17304764" data-x="7000" data-y="3500" id="klassen">
+<h1>
+Klassen<a class="headerlink" href="#klassen" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="step slide section" data-rotate-x="139.62634016" data-x="8000" data-y="4000" id="module">
+<h1>
+Module<a class="headerlink" href="#module" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="step slide section" data-rotate-x="157.079632679" data-x="9000" data-y="4500" id="ubungen">
+<h1>
+Übungen<a class="headerlink" href="#ubungen" title="Permalink to this headline">¶</a></h1>
+<dl class="docutils">
+<dt>
+<strong>
+1x1</strong>:</dt>
+<dd>
+<p class="first">
+Schreibe ein Programm dass das 1x1 zeilenweise ausgibt:</p>
+<div class="last highlight-python">
+<pre>1x1 = 1, 1x2 = 2, ...
+2x1 = 2, 2x2 = 4, ...</pre>
+</div>
+</dd>
+<dt>
+<strong>
+ZooP</strong>:</dt>
+<dd>
+<p class="first">
+Schreibe eine Klasse Tier die eine Methode <tt class="docutils literal">
+<span class="pre">make_loud</span></tt>
+bereitstellt. Leite von dieser eine Klasse <tt class="docutils literal">
+<span class="pre">Katze</span></tt> ab,
+und überschreibe die <tt class="docutils literal">
+<span class="pre">make_loud</span></tt> Methode.</p>
+<p class="last">
+Stecke Instanzen der Objekte in eine Liste <tt class="docutils literal">
+<span class="pre">Zoo</span></tt>.
+Durchlaufe diese Liste und stelle fest ob es sich beim Objekt
+um eine Katze handelt.</p>
+</dd>
+</dl>
+<hr class="docutils">
+<p>
+Siehe auch: <a class="reference external" href="http://codingbat.com/python">
+http://codingbat.com/python</a></p>
+</div>
+<div class="step slide section" data-rotate-x="174.532925199" data-x="10000" data-y="5000" id="id1">
 <h1>
 λ!<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <p>
 Lambdas sind auch nur Funktionen:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="n">fact</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="n">x</span> <span class="o">*</span> <span class="n">fact</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">fact</span><span class="p">(</span><span class="mi">23</span><span class="p">)</span> <span class="c"># 25852016738884976640000</span>
+<div class="highlight"><pre><span class="n">fac</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="n">x</span> <span class="o">*</span> <span class="n">fac</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fac</span><span class="p">(</span><span class="mi">23</span><span class="p">)</span> <span class="c"># 25852016738884976640000</span>
 </pre></div>
 </div>
 <p>
@@ -76,7 +130,7 @@ Vergleiche:</p>
 Python switcht bei Integer Overflows intern auf eine BigInteger Repräsentation.
 Das ist zwar weniger performant als good ol&#8217; Java, aber einfach bequemer.</p>
 </div>
-<div class="step slide section" data-rotate-x="87.2664625997" data-x="5000" data-y="2500" id="higher-order-functions">
+<div class="step slide section" data-rotate-x="191.986217719" data-x="11000" data-y="5500" id="higher-order-functions">
 <h1>
 Higher Order Functions<a class="headerlink" href="#higher-order-functions" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -90,7 +144,7 @@ Higher Order Functions<a class="headerlink" href="#higher-order-functions" title
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="104.71975512" data-x="6000" data-y="3000" id="dekoratoren">
+<div class="step slide section" data-rotate-x="209.439510239" data-x="12000" data-y="6000" id="dekoratoren">
 <h1>
 Dekoratoren<a class="headerlink" href="#dekoratoren" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -110,10 +164,11 @@ Dekoratoren<a class="headerlink" href="#dekoratoren" title="Permalink to this he
     <span class="k">return</span> <span class="s">&#39;Hello World&#39;</span>
 
 <span class="k">print</span><span class="p">(</span><span class="n">hello</span><span class="p">())</span> <span class="c"># &lt;b&gt;&lt;i&gt;Hello World&lt;/i&gt;&lt;/b&gt;</span>
+<span class="c"># Entspricht: bold(italic(hello()))</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="122.17304764" data-x="7000" data-y="3500" id="list-comprehensions">
+<div class="step slide section" data-rotate-x="226.892802759" data-x="13000" data-y="6500" id="list-comprehensions">
 <h1>
 List Comprehensions<a class="headerlink" href="#list-comprehensions" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -124,7 +179,7 @@ Alle 2er Potenzen von 0 - 10:</p>
 </pre></div>
 </div>
 <p>
-Dasselbe, aber nur alle ungeraden 2er Potenzen,
+Dasselbe, aber nur mit allen ungeraden Exponenten,
 und als <tt class="docutils literal">
 <span class="pre">hex</span></tt> String repräsentiert:</p>
 <div class="highlight-python">
@@ -133,7 +188,7 @@ und als <tt class="docutils literal">
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="139.62634016" data-x="8000" data-y="4000" id="generatoren">
+<div class="step slide section" data-rotate-x="244.346095279" data-x="14000" data-y="7000" id="generatoren">
 <h1>
 Generatoren<a class="headerlink" href="#generatoren" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -150,12 +205,13 @@ Generatoren<a class="headerlink" href="#generatoren" title="Permalink to this he
 <div class="highlight-python">
 <div class="highlight"><pre><span class="c"># Zeige alle Quadratzahlen,</span>
 <span class="c"># deren Wurzel ungerade ist:</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span><span class="p">):</span>
+<span class="n">odd_quads</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">odd_quads</span><span class="p">:</span>
     <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="157.079632679" data-x="9000" data-y="4500" id="with">
+<div class="step slide section" data-rotate-x="261.799387799" data-x="15000" data-y="7500" id="with">
 <h1>
 <tt class="docutils literal">
 <span class="pre">with</span></tt><a class="headerlink" href="#with" title="Permalink to this headline">¶</a></h1>
@@ -177,15 +233,23 @@ Python way:</p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="174.532925199" data-x="10000" data-y="5000" id="import-this">
+<div class="step slide section" data-rotate-x="279.252680319" data-x="16000" data-y="8000" id="die-philosophie">
 <h1>
-<tt class="docutils literal">
-<span class="pre">import</span> <span class="pre">this</span></tt><a class="headerlink" href="#import-this" title="Permalink to this headline">¶</a></h1>
-<p>
-Zen of Python +  <strong>
-Batteries included</strong></p>
+Die Philosophie<a class="headerlink" href="#die-philosophie" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li>
+Zen of Python: <tt class="docutils literal">
+<span class="pre">import</span> <span class="pre">this</span></tt></li>
+<li>
+Explizit ist besser als Implizit.</li>
+<li>
+<strong>
+Batteries included</strong>: Viele Funktionen bereits integriert</li>
+<li>
+Man liest Code öfters als man ihn schreibt.</li>
+</ul>
 </div>
-<div class="step slide section" data-rotate-x="191.986217719" data-x="11000" data-y="5500" id="duck-typing">
+<div class="step slide section" data-rotate-x="296.705972839" data-x="17000" data-y="8500" id="duck-typing">
 <h1>
 Duck Typing<a class="headerlink" href="#duck-typing" title="Permalink to this headline">¶</a></h1>
 <div class="line-block">
@@ -197,7 +261,7 @@ call</strong> that bird a duck.“</div>
 </div>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="k">class</span> <span class="nc">Bird</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">peep</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s">&#39;Beep?&#39;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">peep</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s">&#39;Peep?&#39;</span><span class="p">)</span>
 
 <span class="k">class</span> <span class="nc">Duck</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">quak</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s">&#39;Quak!&#39;</span><span class="p">)</span>
@@ -206,13 +270,11 @@ call</strong> that bird a duck.“</div>
     <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">duck</span><span class="p">,</span> <span class="s">&#39;quak&#39;</span><span class="p">):</span>
         <span class="n">duck</span><span class="o">.</span><span class="n">quak</span><span class="p">()</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="k">print</span> <span class="s">&#39;Sieht nicht aus wie ne Ente:&#39;</span><span class="p">,</span> <span class="n">duck</span>
-
-<span class="c">#</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">&#39;Sieht nicht aus wie ne Ente:&#39;</span><span class="p">,</span> <span class="n">duck</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="209.439510239" data-x="12000" data-y="6000" id="how-short-python-can-be">
+<div class="step slide section" data-rotate-x="314.159265359" data-x="18000" data-y="9000" id="how-short-python-can-be">
 <h1>
 How short Python can be<a class="headerlink" href="#how-short-python-can-be" title="Permalink to this headline">¶</a></h1>
 <p>
