@@ -10,23 +10,91 @@ Unterschiede Python2 vs. Python3
 
 * Search the Web.
 
+Die Shell (REPL)
+----------------
+
+Infos zu bpython und so.
+
 Datentypen
 ----------
 
-* strings
-* numbers
-* list
+* Python ist eine untypisierte Sprache. So what?
+* Man verlässt sich nicht auf den Typen einer Variable, sondern auf dessen Verhalten.
+* Bietet eine Klasse ``Liste`` die gleichen Funktionen wie ``Array`` so lassen sie sich gleich verwenden.
 
-    .. code-block:: python
-        
-        mylist = [1, 42, 23]
-        mylist[2]    # 23
-        mylist[1:]   # 42, 23
-        mylist[:1]   # 1, 42
-        mylist[::-1] # 23, 42, 1
+  * Ganz ohne Interfaces wie ``Iterable``.
+* Dieses Prinzip nennt sich ``Duck Typing``.
+* Zur Laufzeit lassen sich ``Array`` und ``Liste`` mittels ``type()`` auseinanderhalten.
+* Viele sehr oft genutzte Datenstrukturen sind in Python bereits implementiert.
 
-* dict
-* set
+  * Die meisten davon kommen in den nächsten Folien.
+
+Strings
+-------
+
+.. code-block:: python
+
+    'Hello World' # Ein Stringliteral
+    "Hello World" # Vollkommen dasselbe
+                  # (Unterschied zu zB Ruby!)
+
+    '''Geht auch
+    über mehrere
+    Zeilen'''
+
+    s = 'My String' # Zuweisung  
+
+Numbers
+-------
+
+.. code-block:: python
+
+    a = 42         # Integer
+    b = 23.21      # Floats
+    0o777          # Oktalzahlen
+    0xDEADBEEF     # Hexzahlen
+    a,b = b,a      # Swap a, b
+    truth = True   # Auch ein Integer.
+    tigges = False # Ebenfalls. 
+
+    # True/False sind globale Variablen.
+    # Don't do that. Really.
+    True, False = False, True 
+
+    # Wenn es True/False nicht gäbe:
+    True, False = not 0, 0
+
+List
+----
+
+.. code-block:: python
+
+    mylist = [42, 'Apple', []]
+    mylist[2]    # [] 
+    mylist[1:]   # 'Apple', [] 
+    mylist[:1]   # 42, 'Apple' 
+    mylist[::-1] # [], 'Apple', 42
+
+Dictionaries
+------------
+
+.. code-block:: python
+
+    mydict = {
+        'Apple': ['juicy', 'red', 'healthy'],
+        'Orange': ['juicy', 'not red'],
+        'Watermelon': 42
+    }
+
+    mydict['Apple'] # ['juicy', 'red', 'healthy']
+    mydict['Peach'] # throws a ,,KeyError''
+    mydict['Peach'] = 'A hairy fruit'
+    mydict['Peach'] # 'A hairy fruit'
+
+Java-Äquivalent: ``java.util.HashMap``
+
+
+Dictionaries werden in Python ständig eingesetzt.
 
 
 Getting Help
@@ -35,6 +103,9 @@ Getting Help
 * Use bpython
 * Use the ``__doc__`` member
 * Use ``dir()``
+* Die offziele Referenz. Empfehlenswert:
+
+  http://python.org/doc/
 
 Bedingungen
 -----------
@@ -48,25 +119,49 @@ Bedingungen
     else:
         pass
 
-
-Schleifen und Iteratoren
-------------------------
+Bedingte Zuweisung:
 
 .. code-block:: python
-    
-    for i in range(1,10,2):
-        print(i)
 
-    # Alle ungeraden Zahlen von 1-10
-    # range([Anfang, ] Ende [, Step])
-    # 1  = Anfang (optional)
-    # 10 = Ende 
-    # 2  = Step (optional)
-    # 
-    # In C-Ähnlichen Sprachen:
-    # for(int i = 1; i < 10; i += 2) {
-    #   printf("%d\n", i)
-    # }
+    a = <val_on_truth> if <expr> else <val_on_untrue>
+
+Unwahrheitswerte:
+
+.. code-block:: python
+
+    0, 0.0, False, '', [], {}, set()
+
+Sonst gilt für gewöhnlich alles als ``True``.
+
+Schleifen 
+---------
+
+.. code-block:: python
+   
+   # 1,3,5,7,9            # Ungeraden Zahlen von 1-10
+   for i in range(1,10,2):#
+       print(i)           # 1  = Start (optional) 
+                          # 10 = End 
+    # 0-9                 # 2  = Step (optional)
+    for i in range(10):   # 
+         print(i)         # In C-Ähnlichen Sprachen:
+                          # for(int i=1; i<10; i+=2) {
+                          #   printf("%d\n", i)
+                          # }
+.. code-block:: python
+    
+    while <expr>: # while(<expr>) {
+        pass      #     do_something;
+                  # }
+
+Funktionen #1
+-------------
+
+Funktionen #1
+-------------
+
+Exceptions
+----------
 
 Klassen
 -------
@@ -118,19 +213,23 @@ Beispiel-Layout:
 ::
 
     app                  │ Import Beispiel:
+    │                    │
     ├── effects          │ 
     │   ├── __init__.py  │ # In app/logic/run.py
     │   ├── sinus.py     │ import app.sound.decode
     │   └── warp.py      │ ...
-    ├── __init__.py      │
+    │                    │
     ├── logic            │ # Use the Force:
     │   ├── __init__.py  │ app.sound.decode.some_func()
     │   └── run.py       │ 
+    │                    │
     ├── __main__.py      │ # Alternativ:
     ├── __init__.py      │ import app.sound.decode as dc
+    │                    │
     └── sound            │ ... 
         ├── decode.py    │ dc.some_func()
         └── __init__.py  │
+                         │
 
 
 Module #2
@@ -319,17 +418,16 @@ Die Philosophie
 * Explizit ist besser als Implizit.
 * **Batteries included**: Viele Funktionen bereits integriert
 * Man liest Code öfters als man ihn schreibt.
+* Programming should be fun.
 
 
-How short Python can be
------------------------
-
-Finde alle Duplikate in einem übergebenen Pfad:
+Python ist kurz
+---------------
 
 .. code-block:: python
 
     #!/usr/bin/env python
-    # encoding: utf-8
+    # Finde alle Duplikate in einem übergebenen Pfad
 
     import sys, pprint, os, hashlib
 

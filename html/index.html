@@ -33,57 +33,144 @@ Unterschiede Python2 vs. Python3<a class="headerlink" href="#unterschiede-python
 Search the Web.</li>
 </ul>
 </div>
-<div class="step slide section" data-rotate-x="52.3598775598" data-x="3000" data-y="1500" id="datentypen">
+<div class="step slide section" data-rotate-x="52.3598775598" data-x="3000" data-y="1500" id="die-shell-repl">
+<h1>
+Die Shell (REPL)<a class="headerlink" href="#die-shell-repl" title="Permalink to this headline">¶</a></h1>
+<p>
+Infos zu bpython und so.</p>
+</div>
+<div class="step slide section" data-rotate-x="69.8131700798" data-x="4000" data-y="2000" id="datentypen">
 <h1>
 Datentypen<a class="headerlink" href="#datentypen" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li>
+Python ist eine untypisierte Sprache. So what?</li>
+<li>
+Man verlässt sich nicht auf den Typen einer Variable, sondern auf dessen Verhalten.</li>
+<li>
+Bietet eine Klasse <tt class="docutils literal">
+<span class="pre">Liste</span></tt> die gleichen Funktionen wie <tt class="docutils literal">
+<span class="pre">Array</span></tt> so lassen sie sich gleich verwenden.<ul>
+<li>
+Ganz ohne Interfaces wie <tt class="docutils literal">
+<span class="pre">Iterable</span></tt>.</li>
+</ul>
+</li>
+<li>
+Dieses Prinzip nennt sich <tt class="docutils literal">
+<span class="pre">Duck</span> <span class="pre">Typing</span></tt>.</li>
+<li>
+Zur Laufzeit lassen sich <tt class="docutils literal">
+<span class="pre">Array</span></tt> und <tt class="docutils literal">
+<span class="pre">Liste</span></tt> mittels <tt class="docutils literal">
+<span class="pre">type()</span></tt> auseinanderhalten.</li>
+<li>
+Viele sehr oft genutzte Datenstrukturen sind in Python bereits implementiert.<ul>
+<li>
+Die meisten davon kommen in den nächsten Folien.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="step slide section" data-rotate-x="87.2664625997" data-x="5000" data-y="2500" id="strings">
+<h1>
+Strings<a class="headerlink" href="#strings" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="s">&#39;Hello World&#39;</span> <span class="c"># Ein Stringliteral</span>
+<span class="s">&quot;Hello World&quot;</span> <span class="c"># Vollkommen dasselbe</span>
+              <span class="c"># (Unterschied zu zB Ruby!)</span>
+
+<span class="sd">&#39;&#39;&#39;Geht auch</span>
+<span class="sd">über mehrere</span>
+<span class="sd">Zeilen&#39;&#39;&#39;</span>
+
+<span class="n">s</span> <span class="o">=</span> <span class="s">&#39;My String&#39;</span> <span class="c"># Zuweisung</span>
+</pre></div>
+</div>
+</div>
+<div class="step slide section" data-rotate-x="104.71975512" data-x="6000" data-y="3000" id="numbers">
+<h1>
+Numbers<a class="headerlink" href="#numbers" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="mi">42</span>         <span class="c"># Integer</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mf">23.21</span>      <span class="c"># Floats</span>
+<span class="mi">0</span><span class="n">o777</span>          <span class="c"># Oktalzahlen</span>
+<span class="mh">0xDEADBEEF</span>     <span class="c"># Hexzahlen</span>
+<span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span><span class="n">a</span>      <span class="c"># Swap a, b</span>
+<span class="n">truth</span> <span class="o">=</span> <span class="bp">True</span>   <span class="c"># Auch ein Integer.</span>
+<span class="n">tigges</span> <span class="o">=</span> <span class="bp">False</span> <span class="c"># Ebenfalls.</span>
+
+<span class="c"># True/False sind globale Variablen.</span>
+<span class="c"># Don&#39;t do that. Really.</span>
+<span class="bp">True</span><span class="p">,</span> <span class="bp">False</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="bp">True</span>
+
+<span class="c"># Wenn es True/False nicht gäbe:</span>
+<span class="bp">True</span><span class="p">,</span> <span class="bp">False</span> <span class="o">=</span> <span class="ow">not</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+</pre></div>
+</div>
+</div>
+<div class="step slide section" data-rotate-x="122.17304764" data-x="7000" data-y="3500" id="list">
+<h1>
+List<a class="headerlink" href="#list" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="n">mylist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">42</span><span class="p">,</span> <span class="s">&#39;Apple&#39;</span><span class="p">,</span> <span class="p">[]]</span>
+<span class="n">mylist</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>    <span class="c"># []</span>
+<span class="n">mylist</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>   <span class="c"># &#39;Apple&#39;, []</span>
+<span class="n">mylist</span><span class="p">[:</span><span class="mi">1</span><span class="p">]</span>   <span class="c"># 42, &#39;Apple&#39;</span>
+<span class="n">mylist</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c"># [], &#39;Apple&#39;, 42</span>
+</pre></div>
+</div>
+</div>
+<div class="step slide section" data-rotate-x="139.62634016" data-x="8000" data-y="4000" id="dictionaries">
+<h1>
+Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="n">mydict</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">&#39;Apple&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;juicy&#39;</span><span class="p">,</span> <span class="s">&#39;red&#39;</span><span class="p">,</span> <span class="s">&#39;healthy&#39;</span><span class="p">],</span>
+    <span class="s">&#39;Orange&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;juicy&#39;</span><span class="p">,</span> <span class="s">&#39;not red&#39;</span><span class="p">],</span>
+    <span class="s">&#39;Watermelon&#39;</span><span class="p">:</span> <span class="mi">42</span>
+<span class="p">}</span>
+
+<span class="n">mydict</span><span class="p">[</span><span class="s">&#39;Apple&#39;</span><span class="p">]</span> <span class="c"># [&#39;juicy&#39;, &#39;red&#39;, &#39;healthy&#39;]</span>
+<span class="n">mydict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span> <span class="c"># throws a ,,KeyError&#39;&#39;</span>
+<span class="n">mydict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;A hairy fruit&#39;</span>
+<span class="n">mydict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span> <span class="c"># &#39;A hairy fruit&#39;</span>
+</pre></div>
+</div>
+<p>
+Java-Äquivalent: <tt class="docutils literal">
+<span class="pre">java.util.HashMap</span></tt></p>
+<p>
+Dictionaries werden in Python ständig eingesetzt.</p>
+</div>
+<div class="step slide section" data-rotate-x="157.079632679" data-x="9000" data-y="4500" id="getting-help">
+<h1>
+Getting Help<a class="headerlink" href="#getting-help" title="Permalink to this headline">¶</a></h1>
 <ul>
 <li>
 <p class="first">
-strings</p>
+Use bpython</p>
 </li>
 <li>
 <p class="first">
-numbers</p>
-</li>
-<li>
-<p class="first">
-list</p>
-<blockquote>
-<div><div class="highlight-python">
-<div class="highlight"><pre><span class="n">mylist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">23</span><span class="p">]</span>
-<span class="n">mylist</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>    <span class="c"># 23</span>
-<span class="n">mylist</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>   <span class="c"># 42, 23</span>
-<span class="n">mylist</span><span class="p">[:</span><span class="mi">1</span><span class="p">]</span>   <span class="c"># 1, 42</span>
-<span class="n">mylist</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c"># 23, 42, 1</span>
-</pre></div>
-</div>
-</div></blockquote>
-</li>
-<li>
-<p class="first">
-dict</p>
-</li>
-<li>
-<p class="first">
-set</p>
-</li>
-</ul>
-</div>
-<div class="step slide section" data-rotate-x="69.8131700798" data-x="4000" data-y="2000" id="getting-help">
-<h1>
-Getting Help<a class="headerlink" href="#getting-help" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li>
-Use bpython</li>
-<li>
 Use the <tt class="docutils literal">
-<span class="pre">__doc__</span></tt> member</li>
+<span class="pre">__doc__</span></tt> member</p>
+</li>
 <li>
+<p class="first">
 Use <tt class="docutils literal">
-<span class="pre">dir()</span></tt></li>
+<span class="pre">dir()</span></tt></p>
+</li>
+<li>
+<p class="first">
+Die offziele Referenz. Empfehlenswert:</p>
+<p>
+<a class="reference external" href="http://python.org/doc/">
+http://python.org/doc/</a></p>
+</li>
 </ul>
 </div>
-<div class="step slide section" data-rotate-x="87.2664625997" data-x="5000" data-y="2500" id="bedingungen">
+<div class="step slide section" data-rotate-x="174.532925199" data-x="10000" data-y="5000" id="bedingungen">
 <h1>
 Bedingungen<a class="headerlink" href="#bedingungen" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -95,28 +182,58 @@ Bedingungen<a class="headerlink" href="#bedingungen" title="Permalink to this he
     <span class="k">pass</span>
 </pre></div>
 </div>
-</div>
-<div class="step slide section" data-rotate-x="104.71975512" data-x="6000" data-y="3000" id="schleifen-und-iteratoren">
-<h1>
-Schleifen und Iteratoren<a class="headerlink" href="#schleifen-und-iteratoren" title="Permalink to this headline">¶</a></h1>
+<p>
+Bedingte Zuweisung:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-
-<span class="c"># Alle ungeraden Zahlen von 1-10</span>
-<span class="c"># range([Anfang, ] Ende [, Step])</span>
-<span class="c"># 1  = Anfang (optional)</span>
-<span class="c"># 10 = Ende</span>
-<span class="c"># 2  = Step (optional)</span>
-<span class="c">#</span>
-<span class="c"># In C-Ähnlichen Sprachen:</span>
-<span class="c"># for(int i = 1; i &lt; 10; i += 2) {</span>
-<span class="c">#   printf(&quot;%d\n&quot;, i)</span>
-<span class="c"># }</span>
+<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">val_on_truth</span><span class="o">&gt;</span> <span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span> <span class="k">else</span> <span class="o">&lt;</span><span class="n">val_on_untrue</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>
+Unwahrheitswerte:</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="mi">0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="s">&#39;&#39;</span><span class="p">,</span> <span class="p">[],</span> <span class="p">{},</span> <span class="nb">set</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>
+Sonst gilt für gewöhnlich alles als <tt class="docutils literal">
+<span class="pre">True</span></tt>.</p>
+</div>
+<div class="step slide section" data-rotate-x="191.986217719" data-x="11000" data-y="5500" id="schleifen">
+<h1>
+Schleifen<a class="headerlink" href="#schleifen" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="c"># 1,3,5,7,9            # Ungeraden Zahlen von 1-10</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span><span class="c">#</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>           <span class="c"># 1  = Start (optional)</span>
+                       <span class="c"># 10 = End</span>
+ <span class="c"># 0-9                 # 2  = Step (optional)</span>
+ <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>   <span class="c">#</span>
+      <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>         <span class="c"># In C-Ähnlichen Sprachen:</span>
+                       <span class="c"># for(int i=1; i&lt;10; i+=2) {</span>
+                       <span class="c">#   printf(&quot;%d\n&quot;, i)</span>
+                       <span class="c"># }</span>
+</pre></div>
+</div>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="k">while</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span> <span class="c"># while(&lt;expr&gt;) {</span>
+    <span class="k">pass</span>      <span class="c">#     do_something;</span>
+              <span class="c"># }</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="122.17304764" data-x="7000" data-y="3500" id="klassen">
+<div class="step slide section" data-rotate-x="209.439510239" data-x="12000" data-y="6000" id="funktionen-1">
+<h1>
+Funktionen #1<a class="headerlink" href="#funktionen-1" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="step slide section" data-rotate-x="226.892802759" data-x="13000" data-y="6500" id="id1">
+<h1>
+Funktionen #1<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="step slide section" data-rotate-x="244.346095279" data-x="14000" data-y="7000" id="exceptions">
+<h1>
+Exceptions<a class="headerlink" href="#exceptions" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="step slide section" data-rotate-x="261.799387799" data-x="15000" data-y="7500" id="klassen">
 <h1>
 Klassen<a class="headerlink" href="#klassen" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -139,7 +256,7 @@ Klassen<a class="headerlink" href="#klassen" title="Permalink to this headline">
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="139.62634016" data-x="8000" data-y="4000" id="duck-typing">
+<div class="step slide section" data-rotate-x="279.252680319" data-x="16000" data-y="8000" id="duck-typing">
 <h1>
 Duck Typing<a class="headerlink" href="#duck-typing" title="Permalink to this headline">¶</a></h1>
 <div class="line-block">
@@ -164,29 +281,33 @@ call</strong> that bird a duck.“</div>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="157.079632679" data-x="9000" data-y="4500" id="module-1">
+<div class="step slide section" data-rotate-x="296.705972839" data-x="17000" data-y="8500" id="module-1">
 <h1>
 Module #1<a class="headerlink" href="#module-1" title="Permalink to this headline">¶</a></h1>
 <p>
 Beispiel-Layout:</p>
 <div class="highlight-python">
 <pre>app                  │ Import Beispiel:
+│                    │
 ├── effects          │
 │   ├── __init__.py  │ # In app/logic/run.py
 │   ├── sinus.py     │ import app.sound.decode
 │   └── warp.py      │ ...
-├── __init__.py      │
+│                    │
 ├── logic            │ # Use the Force:
 │   ├── __init__.py  │ app.sound.decode.some_func()
 │   └── run.py       │
+│                    │
 ├── __main__.py      │ # Alternativ:
 ├── __init__.py      │ import app.sound.decode as dc
+│                    │
 └── sound            │ ...
     ├── decode.py    │ dc.some_func()
-    └── __init__.py  │</pre>
+    └── __init__.py  │
+                     │</pre>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="174.532925199" data-x="10000" data-y="5000" id="module-2">
+<div class="step slide section" data-rotate-x="314.159265359" data-x="18000" data-y="9000" id="module-2">
 <h1>
 Module #2<a class="headerlink" href="#module-2" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -202,7 +323,7 @@ Andere Formen von <tt class="docutils literal">
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="191.986217719" data-x="11000" data-y="5500" id="ubungen">
+<div class="step slide section" data-rotate-x="331.612557879" data-x="19000" data-y="9500" id="ubungen">
 <h1>
 Übungen<a class="headerlink" href="#ubungen" title="Permalink to this headline">¶</a></h1>
 <dl class="docutils">
@@ -240,7 +361,7 @@ um eine Katze handelt.</p>
 Siehe auch: <a class="reference external" href="http://codingbat.com/python">
 http://codingbat.com/python</a></p>
 </div>
-<div class="step slide section" data-rotate-x="209.439510239" data-x="12000" data-y="6000" id="losungen">
+<div class="step slide section" data-rotate-x="349.065850399" data-x="20000" data-y="10000" id="losungen">
 <h1>
 Lösungen<a class="headerlink" href="#losungen" title="Permalink to this headline">¶</a></h1>
 <dl class="docutils">
@@ -256,9 +377,9 @@ ZooP</strong>:</dt>
 ...</dd>
 </dl>
 </div>
-<div class="step slide section" data-rotate-x="226.892802759" data-x="13000" data-y="6500" id="id1">
+<div class="step slide section" data-rotate-x="366.519142919" data-x="21000" data-y="10500" id="id2">
 <h1>
-λ!<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+λ!<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h1>
 <p>
 Lambdas sind auch nur Funktionen:</p>
 <div class="highlight-python">
@@ -283,7 +404,7 @@ Vergleiche:</p>
 Python switcht bei Integer Overflows intern auf eine BigInteger Repräsentation.
 Das ist zwar weniger performant als good ol&#8217; Java, aber einfach bequemer.</p>
 </div>
-<div class="step slide section" data-rotate-x="244.346095279" data-x="14000" data-y="7000" id="higher-order-functions">
+<div class="step slide section" data-rotate-x="383.972435439" data-x="22000" data-y="11000" id="higher-order-functions">
 <h1>
 Higher Order Functions<a class="headerlink" href="#higher-order-functions" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -297,7 +418,7 @@ Higher Order Functions<a class="headerlink" href="#higher-order-functions" title
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="261.799387799" data-x="15000" data-y="7500" id="dekoratoren">
+<div class="step slide section" data-rotate-x="401.425727959" data-x="23000" data-y="11500" id="dekoratoren">
 <h1>
 Dekoratoren<a class="headerlink" href="#dekoratoren" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -321,7 +442,7 @@ Dekoratoren<a class="headerlink" href="#dekoratoren" title="Permalink to this he
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="279.252680319" data-x="16000" data-y="8000" id="list-comprehensions">
+<div class="step slide section" data-rotate-x="418.879020479" data-x="24000" data-y="12000" id="list-comprehensions">
 <h1>
 List Comprehensions<a class="headerlink" href="#list-comprehensions" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -341,7 +462,7 @@ und als <tt class="docutils literal">
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="296.705972839" data-x="17000" data-y="8500" id="generatoren">
+<div class="step slide section" data-rotate-x="436.332312999" data-x="25000" data-y="12500" id="generatoren">
 <h1>
 Generatoren<a class="headerlink" href="#generatoren" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -364,7 +485,7 @@ Generatoren<a class="headerlink" href="#generatoren" title="Permalink to this he
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="314.159265359" data-x="18000" data-y="9000" id="with">
+<div class="step slide section" data-rotate-x="453.785605519" data-x="26000" data-y="13000" id="with">
 <h1>
 <tt class="docutils literal">
 <span class="pre">with</span></tt><a class="headerlink" href="#with" title="Permalink to this headline">¶</a></h1>
@@ -386,7 +507,7 @@ Python way:</p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-rotate-x="331.612557879" data-x="19000" data-y="9500" id="die-philosophie">
+<div class="step slide section" data-rotate-x="471.238898038" data-x="27000" data-y="13500" id="die-philosophie">
 <h1>
 Die Philosophie<a class="headerlink" href="#die-philosophie" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
@@ -400,16 +521,16 @@ Explizit ist besser als Implizit.</li>
 Batteries included</strong>: Viele Funktionen bereits integriert</li>
 <li>
 Man liest Code öfters als man ihn schreibt.</li>
+<li>
+Programming should be fun.</li>
 </ul>
 </div>
-<div class="step slide section" data-rotate-x="349.065850399" data-x="20000" data-y="10000" id="how-short-python-can-be">
+<div class="step slide section" data-rotate-x="488.692190558" data-x="28000" data-y="14000" id="python-ist-kurz">
 <h1>
-How short Python can be<a class="headerlink" href="#how-short-python-can-be" title="Permalink to this headline">¶</a></h1>
-<p>
-Finde alle Duplikate in einem übergebenen Pfad:</p>
+Python ist kurz<a class="headerlink" href="#python-ist-kurz" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="c">#!/usr/bin/env python</span>
-<span class="c"># encoding: utf-8</span>
+<span class="c"># Finde alle Duplikate in einem übergebenen Pfad</span>
 
 <span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">pprint</span><span class="o">,</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">hashlib</span>
 
