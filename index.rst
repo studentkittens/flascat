@@ -2,20 +2,13 @@
    :hide-title: True
    :data-scale: 1
 
-==============
-My fisrt slide
-==============
-
-.. slide::
-   :class: first
-
 Einführung der Kinder in Schlangen
 ==================================
 
-Bedingungen
------------
+Unterschiede Python2 vs. Python3
+--------------------------------
 
-
+* Search the Web.
 
 Datentypen
 ----------
@@ -23,21 +16,137 @@ Datentypen
 * strings
 * numbers
 * list
+
+    .. code-block:: python
+        
+        mylist = [1, 42, 23]
+        mylist[2]    # 23
+        mylist[1:]   # 42, 23
+        mylist[:1]   # 1, 42
+        mylist[::-1] # 23, 42, 1
+
 * dict
 * set
 
 
-Schleifen 
----------
+Getting Help
+------------
 
-Iteratoren
+* Use bpython
+* Use the ``__doc__`` member
+* Use ``dir()``
+
+Bedingungen
 -----------
+
+.. code-block:: python
+    
+    if <expr>:
+        pass
+    elif <expr>:
+        pass
+    else:
+        pass
+
+
+Schleifen und Iteratoren
+------------------------
+
+.. code-block:: python
+    
+    for i in range(1,10,2):
+        print(i)
+
+    # Alle ungeraden Zahlen von 1-10
+    # range([Anfang, ] Ende [, Step])
+    # 1  = Anfang (optional)
+    # 10 = Ende 
+    # 2  = Step (optional)
+    # 
+    # In C-Ähnlichen Sprachen:
+    # for(int i = 1; i < 10; i += 2) {
+    #   printf("%d\n", i)
+    # }
 
 Klassen
 -------
 
-Module
-------
+.. code-block:: python
+
+    class A(object):
+        def __init__(self, name):
+            self.name = name
+       
+        def call_me_please(self):
+            print('Mom:', self.name)
+
+    class B(A):
+        def __init__(self, name):
+            A.__init__(name)    
+
+        def call_me_please(self):
+            print('Son:', self.name)
+
+    son = B('Peter')
+    son.call_me_please() # same as: B.call_me_please(son)
+
+Duck Typing
+-----------
+
+| „When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I **call** that bird a duck.“
+| – James Whitcomb Riley
+
+.. code-block:: python
+    
+    class Bird(object):
+        def peep(self): print('Peep?')
+
+    class Duck(object):
+        def quak(self): print('Quak!')
+
+    for duck in [Duck(), Bird(), dict()]:
+        if hasattr(duck, 'quak'):
+            duck.quak()
+        else:
+            print('Sieht nicht aus wie ne Ente:', duck)
+
+Module #1
+---------
+
+Beispiel-Layout:
+
+::
+
+    app                  │ Import Beispiel:
+    ├── effects          │ 
+    │   ├── __init__.py  │ # In app/logic/run.py
+    │   ├── sinus.py     │ import app.sound.decode
+    │   └── warp.py      │ ...
+    ├── __init__.py      │
+    ├── logic            │ # Use the Force:
+    │   ├── __init__.py  │ app.sound.decode.some_func()
+    │   └── run.py       │ 
+    ├── __main__.py      │ # Alternativ:
+    ├── __init__.py      │ import app.sound.decode as dc
+    └── sound            │ ... 
+        ├── decode.py    │ dc.some_func()
+        └── __init__.py  │
+
+
+Module #2
+---------
+
+Andere Formen von ``import``:
+
+.. code-block:: python
+    
+    from app.sound.decode import some_func, some_var
+
+.. code-block:: python
+
+    # Not recommmended:
+    from app.sound.decode import * 
+
 
 Übungen
 --------
@@ -59,15 +168,17 @@ Module
 
 ----
 
-**1x1**:
+Siehe auch: http://codingbat.com/python
 
-...
+Lösungen
+--------
+
+**1x1**:
+    ...
 
 **ZooP**:
+    ...
 
-...
-
-Siehe auch: http://codingbat.com/python
 
 λ!
 --
@@ -209,27 +320,30 @@ Die Philosophie
 * **Batteries included**: Viele Funktionen bereits integriert
 * Man liest Code öfters als man ihn schreibt.
 
-Duck Typing
------------
-
-| „When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I **call** that bird a duck.“
-| – James Whitcomb Riley
-
-.. code-block:: python
-    
-    class Bird(object):
-        def peep(self): print('Peep?')
-
-    class Duck(object):
-        def quak(self): print('Quak!')
-
-    for duck in [Duck(), Bird(), dict()]:
-        if hasattr(duck, 'quak'):
-            duck.quak()
-        else:
-            print('Sieht nicht aus wie ne Ente:', duck)
 
 How short Python can be
 -----------------------
 
-XML Zeugs ( kitteh ).
+Finde alle Duplikate in einem übergebenen Pfad:
+
+.. code-block:: python
+
+    #!/usr/bin/env python
+    # encoding: utf-8
+
+    import sys, pprint, os, hashlib
+
+    hashes, dups = {}, {}
+
+    for path, dirs, files in os.walk(sys.argv[1]):
+        for filename in files:
+            fullname = os.path.join(path, filename)
+            with open(fullname, 'r') as f:
+                md5 = hashlib.md5(f.read()).hexdigest()
+            if hashes.get(md5):
+                if not dups.get(md5):
+                    dups[md5] = [hashes[md5]]
+                dups[md5].append(fullname)
+            else:
+                hashes[md5] = fullname
+    pprint.pprint(dups)
