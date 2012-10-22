@@ -1,19 +1,25 @@
-.. impress::
-   :hide-title: True
-   :data-scale: 1
-
 Einführung der Kinder in Schlangen
 ==================================
 
 Unterschiede Python2 vs. Python3
 --------------------------------
 
-* Search the Web.
+* Search the Web, dude.
 
 Die Shell (REPL)
 ----------------
 
-Infos zu bpython und so.
+* Python kann interaktiv ausprobiert werden.
+* Mitgeliefert gibt es den ``python`` - die REPL (Read-Eval-Print-Loop) ::
+
+    $ python 
+    >>> 1 + 1
+    2
+    >>> print('Oooh!')
+
+* Leider: Etwas unbequem, da keine Syntaxhighlighting / Autocomplete.
+* Wir empfehlen **bpython**.
+
 
 Datentypen
 ----------

@@ -1,6 +1,5 @@
 .. impress::
    :hide-title: True
-   :data-scale: 1
 
 Einführung der Kinder in Schlangen
 ==================================
