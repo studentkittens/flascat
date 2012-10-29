@@ -4,6 +4,7 @@ html, body {
     font-family:"Sans-serif";
     font-size: 11px;
 }
+
 #mainmenue{
     position: fixed;
     font-family: sans-serif;
@@ -29,10 +30,16 @@ html, body {
 }
 
 #header{
+    text-align: center;
     margin: 10px auto;
     width: 800px;
     border: 1px solid #ccc;
     padding: 0.8em;
+    background: white;
+}
+
+#searchbar{
+    text-align: center;
     background: white;
 }
 
@@ -44,13 +51,6 @@ html, body {
     background: white;
 }
 
-#searchbar{
-    padding: 0.8em;
-    text-align: center;
-    background: white;
-}
-
-
 #footer{
     position: fixed;
     font-family: sans-serif;
@@ -58,11 +58,21 @@ html, body {
     padding: 3px 0;
     bottom: 0;
     left: 0;
-    text-align: center;
+    text-align: right;
     margin: 0;
     background: black;
+    color: grey;
     -webkit-transition: background-color 0.25s linear;
     -webkit-box-shadow: 0 0 10px #000;
     -moz-box-shadow: 0 0 10px #000;
     z-index: 10;
+}
+
+.menue_button {
+    background-color: black;
+    color: grey;
+    border-style: none;
+    text-align: center;
+    width: 100px;
+
 }
