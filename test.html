@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9.1: http://docutils.sourceforge.net/" />
+<title></title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7434 2012-05-11 21:06:27Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { /* line numbers */
+  color: grey;
+}
+
+.code {
+  background-color: #eeeeee
+}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document">
+
+
+<div class="section" id="einfuhrung-der-kinder-in-schlangen">
+<h1>Einführung der Kinder in Schlangen</h1>
+<div class="section" id="unterschiede-python2-vs-python3">
+<h2>Unterschiede Python2 vs. Python3</h2>
+<ul class="simple">
+<li>Search the Web.</li>
+</ul>
+</div>
+<div class="section" id="die-shell-repl">
+<h2>Die Shell (REPL)</h2>
+<p>Infos zu bpython und so.</p>
+</div>
+<div class="section" id="datentypen">
+<h2>Datentypen</h2>
+<ul class="simple">
+<li>Python ist eine untypisierte Sprache. So what?</li>
+<li>Man verlässt sich nicht auf den Typen einer Variable, sondern auf dessen Verhalten.</li>
+<li>Bietet eine Klasse <tt class="docutils literal">Liste</tt> die gleichen Funktionen wie <tt class="docutils literal">Array</tt> so lassen sie sich gleich verwenden.<ul>
+<li>Ganz ohne Interfaces wie <tt class="docutils literal">Iterable</tt>.</li>
+</ul>
+</li>
+<li>Dieses Prinzip nennt sich <tt class="docutils literal">Duck Typing</tt>.</li>
+<li>Zur Laufzeit lassen sich <tt class="docutils literal">Array</tt> und <tt class="docutils literal">Liste</tt> mittels <tt class="docutils literal">type()</tt> auseinanderhalten.</li>
+<li>Viele sehr oft genutzte Datenstrukturen sind in Python bereits implementiert.<ul>
+<li>Die meisten davon kommen in den nächsten Folien.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="strings">
+<h2>Strings</h2>
+<pre class="code python literal-block">
+<span class="s">'Hello World'</span> <span class="c"># Ein Stringliteral</span>
+<span class="s">&quot;Hello World&quot;</span> <span class="c"># Vollkommen dasselbe</span>
+              <span class="c"># (Unterschied zu zB Ruby!)</span>
+
+<span class="sd">'''Geht auch
+über mehrere
+Zeilen'''</span>
+
+<span class="n">s</span> <span class="o">=</span> <span class="s">'My String'</span> <span class="c"># Zuweisung</span>
+</pre>
+</div>
+<div class="section" id="numbers">
+<h2>Numbers</h2>
+<pre class="code python literal-block">
+<span class="n">a</span> <span class="o">=</span> <span class="mi">42</span>         <span class="c"># Integer</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mf">23.21</span>      <span class="c"># Floats</span>
+<span class="mi">0</span><span class="n">o777</span>          <span class="c"># Oktalzahlen</span>
+<span class="mh">0xDEADBEEF</span>     <span class="c"># Hexzahlen</span>
+<span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span><span class="n">a</span>      <span class="c"># Swap a, b</span>
+<span class="n">truth</span> <span class="o">=</span> <span class="bp">True</span>   <span class="c"># Auch ein Integer.</span>
+<span class="n">tigges</span> <span class="o">=</span> <span class="bp">False</span> <span class="c"># Ebenfalls.</span>
+
+<span class="c"># True/False sind globale Variablen.</span>
+<span class="c"># Don't do that. Really.</span>
+<span class="bp">True</span><span class="p">,</span> <span class="bp">False</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="bp">True</span>
+
+<span class="c"># Wenn es True/False nicht gäbe:</span>
+<span class="bp">True</span><span class="p">,</span> <span class="bp">False</span> <span class="o">=</span> <span class="ow">not</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+</pre>
+</div>
+<div class="section" id="list">
+<h2>List</h2>
+<pre class="code python literal-block">
+<span class="n">mylist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">42</span><span class="p">,</span> <span class="s">'Apple'</span><span class="p">,</span> <span class="p">[]]</span>
+<span class="n">mylist</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>    <span class="c"># []</span>
+<span class="n">mylist</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>   <span class="c"># 'Apple', []</span>
+<span class="n">mylist</span><span class="p">[:</span><span class="mi">1</span><span class="p">]</span>   <span class="c"># 42, 'Apple'</span>
+<span class="n">mylist</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="c"># [], 'Apple', 42</span>
+</pre>
+</div>
+<div class="section" id="dictionaries">
+<h2>Dictionaries</h2>
+<pre class="code python literal-block">
+<span class="n">mydict</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">'Apple'</span><span class="p">:</span> <span class="p">[</span><span class="s">'juicy'</span><span class="p">,</span> <span class="s">'red'</span><span class="p">,</span> <span class="s">'healthy'</span><span class="p">],</span>
+    <span class="s">'Orange'</span><span class="p">:</span> <span class="p">[</span><span class="s">'juicy'</span><span class="p">,</span> <span class="s">'not red'</span><span class="p">],</span>
+    <span class="s">'Watermelon'</span><span class="p">:</span> <span class="mi">42</span>
+<span class="p">}</span>
+
+<span class="n">mydict</span><span class="p">[</span><span class="s">'Apple'</span><span class="p">]</span> <span class="c"># ['juicy', 'red', 'healthy']</span>
+<span class="n">mydict</span><span class="p">[</span><span class="s">'Peach'</span><span class="p">]</span> <span class="c"># throws a ,,KeyError''</span>
+<span class="n">mydict</span><span class="p">[</span><span class="s">'Peach'</span><span class="p">]</span> <span class="o">=</span> <span class="s">'A hairy fruit'</span>
+<span class="n">mydict</span><span class="p">[</span><span class="s">'Peach'</span><span class="p">]</span> <span class="c"># 'A hairy fruit'</span>
+</pre>
+<p>Java-Äquivalent: <tt class="docutils literal">java.util.HashMap</tt></p>
+<p>Dictionaries werden in Python ständig eingesetzt.</p>
+</div>
+<div class="section" id="getting-help">
+<h2>Getting Help</h2>
+<ul>
+<li><p class="first">Use bpython</p>
+</li>
+<li><p class="first">Use the <tt class="docutils literal">__doc__</tt> member</p>
+</li>
+<li><p class="first">Use <tt class="docutils literal">dir()</tt></p>
+</li>
+<li><p class="first">Die offziele Referenz. Empfehlenswert:</p>
+<p><a class="reference external" href="http://python.org/doc/">http://python.org/doc/</a></p>
+</li>
+</ul>
+</div>
+<div class="section" id="bedingungen">
+<h2>Bedingungen</h2>
+<pre class="code python literal-block">
+<span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span>
+    <span class="k">pass</span>
+<span class="k">elif</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span>
+    <span class="k">pass</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">pass</span>
+</pre>
+<p>Bedingte Zuweisung:</p>
+<pre class="code python literal-block">
+<span class="n">a</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">val_on_truth</span><span class="o">&gt;</span> <span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span> <span class="k">else</span> <span class="o">&lt;</span><span class="n">val_on_untrue</span><span class="o">&gt;</span>
+</pre>
+<p>Unwahrheitswerte:</p>
+<pre class="code python literal-block">
+<span class="mi">0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="bp">False</span><span class="p">,</span> <span class="s">''</span><span class="p">,</span> <span class="p">[],</span> <span class="p">{},</span> <span class="nb">set</span><span class="p">()</span>
+</pre>
+<p>Sonst gilt für gewöhnlich alles als <tt class="docutils literal">True</tt>.</p>
+</div>
+<div class="section" id="schleifen">
+<h2>Schleifen</h2>
+<pre class="code python literal-block">
+<span class="c"># 1,3,5,7,9            # Ungeraden Zahlen von 1-10</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span><span class="c">#</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>           <span class="c"># 1  = Start (optional)</span>
+                       <span class="c"># 10 = End</span>
+ <span class="c"># 0-9                 # 2  = Step (optional)</span>
+ <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>   <span class="c">#</span>
+      <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>         <span class="c"># In C-Ähnlichen Sprachen:</span>
+                       <span class="c"># for(int i=1; i&lt;10; i+=2) {</span>
+                       <span class="c">#   printf(&quot;%d\n&quot;, i)</span>
+                       <span class="c"># }</span>
+</pre>
+<pre class="code python literal-block">
+<span class="k">while</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span> <span class="c"># while(&lt;expr&gt;) {</span>
+    <span class="k">pass</span>      <span class="c">#     do_something;</span>
+              <span class="c"># }</span>
+</pre>
+</div>
+<div class="section" id="funktionen-1">
+<h2>Funktionen #1</h2>
+</div>
+<div class="section" id="id1">
+<h2>Funktionen #1</h2>
+</div>
+<div class="section" id="exceptions">
+<h2>Exceptions</h2>
+</div>
+<div class="section" id="klassen">
+<h2>Klassen</h2>
+<pre class="code python literal-block">
+<span class="k">class</span> <span class="nc">A</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+
+    <span class="k">def</span> <span class="nf">call_me_please</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">'Mom:'</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">B</span><span class="p">(</span><span class="n">A</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="n">A</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">call_me_please</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">'Son:'</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+
+<span class="n">son</span> <span class="o">=</span> <span class="n">B</span><span class="p">(</span><span class="s">'Peter'</span><span class="p">)</span>
+<span class="n">son</span><span class="o">.</span><span class="n">call_me_please</span><span class="p">()</span> <span class="c"># same as: B.call_me_please(son)</span>
+</pre>
+</div>
+<div class="section" id="duck-typing">
+<h2>Duck Typing</h2>
+<div class="line-block">
+<div class="line">„When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I <strong>call</strong> that bird a duck.“</div>
+<div class="line">– James Whitcomb Riley</div>
+</div>
+<pre class="code python literal-block">
+<span class="k">class</span> <span class="nc">Bird</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">peep</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s">'Peep?'</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Duck</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">quak</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="k">print</span><span class="p">(</span><span class="s">'Quak!'</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">duck</span> <span class="ow">in</span> <span class="p">[</span><span class="n">Duck</span><span class="p">(),</span> <span class="n">Bird</span><span class="p">(),</span> <span class="nb">dict</span><span class="p">()]:</span>
+    <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">duck</span><span class="p">,</span> <span class="s">'quak'</span><span class="p">):</span>
+        <span class="n">duck</span><span class="o">.</span><span class="n">quak</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">'Sieht nicht aus wie ne Ente:'</span><span class="p">,</span> <span class="n">duck</span><span class="p">)</span>
+</pre>
+</div>
+<div class="section" id="module-1">
+<h2>Module #1</h2>
+<p>Beispiel-Layout:</p>
+<pre class="literal-block">
+app                  │ Import Beispiel:
+│             &nbsp;&nbsp;     │
+├── effects          │
+│&nbsp;&nbsp; ├── __init__.py  │ # In app/logic/run.py
+│&nbsp;&nbsp; ├── sinus.py     │ import app.sound.decode
+│&nbsp;&nbsp; └── warp.py      │ ...
+│             &nbsp;&nbsp;     │
+├── logic            │ # Use the Force:
+│&nbsp;&nbsp; ├── __init__.py  │ app.sound.decode.some_func()
+│&nbsp;&nbsp; └── run.py       │
+│             &nbsp;&nbsp;     │
+├── __main__.py      │ # Alternativ:
+├── __init__.py      │ import app.sound.decode as dc
+│             &nbsp;&nbsp;     │
+└── sound            │ ...
+    ├── decode.py    │ dc.some_func()
+    └── __init__.py  │
+              &nbsp;&nbsp;     │
+</pre>
+</div>
+<div class="section" id="module-2">
+<h2>Module #2</h2>
+<p>Andere Formen von <tt class="docutils literal">import</tt>:</p>
+<pre class="code python literal-block">
+<span class="kn">from</span> <span class="nn">app.sound.decode</span> <span class="kn">import</span> <span class="n">some_func</span><span class="p">,</span> <span class="n">some_var</span>
+</pre>
+<pre class="code python literal-block">
+<span class="c"># Not recommmended:</span>
+<span class="kn">from</span> <span class="nn">app.sound.decode</span> <span class="kn">import</span> <span class="o">*</span>
+</pre>
+</div>
+<div class="section" id="ubungen">
+<h2>Übungen</h2>
+<dl class="docutils">
+<dt><strong>1x1</strong>:</dt>
+<dd><p class="first">Schreibe ein Programm dass das 1x1 zeilenweise ausgibt:</p>
+<pre class="last literal-block">
+1x1 = 1, 1x2 = 2, ...
+2x1 = 2, 2x2 = 4, ...
+</pre>
+</dd>
+<dt><strong>ZooP</strong>:</dt>
+<dd><p class="first">Schreibe eine Klasse Tier die eine Methode <tt class="docutils literal">make_loud</tt>
+bereitstellt. Leite von dieser eine Klasse <tt class="docutils literal">Katze</tt> ab,
+und überschreibe die <tt class="docutils literal">make_loud</tt> Methode.</p>
+<p class="last">Stecke Instanzen der Objekte in eine Liste <tt class="docutils literal">Zoo</tt>.
+Durchlaufe diese Liste und stelle fest ob es sich beim Objekt
+um eine Katze handelt.</p>
+</dd>
+</dl>
+<hr class="docutils" />
+<p>Siehe auch: <a class="reference external" href="http://codingbat.com/python">http://codingbat.com/python</a></p>
+</div>
+<div class="section" id="losungen">
+<h2>Lösungen</h2>
+<dl class="docutils">
+<dt><strong>1x1</strong>:</dt>
+<dd>...</dd>
+<dt><strong>ZooP</strong>:</dt>
+<dd>...</dd>
+</dl>
+</div>
+<div class="section" id="id2">
+<h2>λ!</h2>
+<p>Lambdas sind auch nur Funktionen:</p>
+<pre class="code python literal-block">
+<span class="n">fac</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="n">x</span> <span class="o">*</span> <span class="n">fac</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fac</span><span class="p">(</span><span class="mi">23</span><span class="p">)</span> <span class="c"># 25852016738884976640000</span>
+</pre>
+<p>Vergleiche:</p>
+<pre class="code java literal-block">
+<span class="kd">public</span> <span class="kt">long</span> <span class="nf">fac</span><span class="o">(</span><span class="kt">long</span> <span class="n">n</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="o">)</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="o">;</span>
+    <span class="k">else</span>
+        <span class="k">return</span> <span class="nf">fac</span><span class="o">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="o">)</span> <span class="o">*</span> <span class="n">n</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="n">fac</span><span class="o">(</span><span class="mi">23</span><span class="o">);</span> <span class="c1">// 8128291617894825984 huh?</span>
+</pre>
+<p>Python switcht bei Integer Overflows intern auf eine BigInteger Repräsentation.
+Das ist zwar weniger performant als good ol' Java, aber einfach bequemer.</p>
+</div>
+</div>
+<div class="section" id="spezielle-features">
+<h1>Spezielle Features</h1>
+<p>Python hat einige Features die es von vielen kompilierten und
+interpretierten Sprachen abheben.</p>
+<div class="section" id="higher-order-functions">
+<h2>Higher Order Functions</h2>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">greeting_generator</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">greeter</span><span class="p">():</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">'Hello'</span><span class="p">,</span> <span class="n">name</span> <span class="o">+</span> <span class="s">'!'</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">greeter</span>
+
+<span class="n">f</span> <span class="o">=</span> <span class="n">greeting_generator</span><span class="p">(</span><span class="s">'Python'</span><span class="p">)</span>
+<span class="n">f</span><span class="p">()</span> <span class="c"># Hello Python!</span>
+</pre>
+</div>
+<div class="section" id="dekoratoren">
+<h2>Dekoratoren</h2>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">bold</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span>
+   <span class="k">def</span> <span class="nf">wrapped</span><span class="p">():</span>
+       <span class="k">return</span> <span class="s">'&lt;b&gt;'</span> <span class="o">+</span> <span class="n">fn</span><span class="p">()</span> <span class="o">+</span> <span class="s">'&lt;/b&gt;'</span>
+   <span class="k">return</span> <span class="n">wrapped</span>
+
+<span class="k">def</span> <span class="nf">italic</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">wrapped</span><span class="p">():</span>
+       <span class="k">return</span> <span class="s">'&lt;i&gt;'</span> <span class="o">+</span> <span class="n">fn</span><span class="p">()</span> <span class="o">+</span> <span class="s">'&lt;/i&gt;'</span>
+    <span class="k">return</span> <span class="n">wrapped</span>
+
+<span class="nd">&#64;bold</span>
+<span class="nd">&#64;italic</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s">'Hello World'</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">hello</span><span class="p">())</span> <span class="c"># &lt;b&gt;&lt;i&gt;Hello World&lt;/i&gt;&lt;/b&gt;</span>
+<span class="c"># Entspricht: bold(italic(hello()))</span>
+</pre>
+</div>
+<div class="section" id="list-comprehensions">
+<h2>List Comprehensions</h2>
+<p>Alle 2er Potenzen von 0 - 10:</p>
+<pre class="code python literal-block">
+<span class="n">mylist</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="o">**</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+<span class="c"># [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]</span>
+</pre>
+<p>Dasselbe, aber nur mit allen ungeraden Exponenten,
+und als <tt class="docutils literal">hex</tt> String repräsentiert:</p>
+<pre class="code python literal-block">
+<span class="n">mylist</span> <span class="o">=</span> <span class="p">[</span><span class="nb">hex</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span><span class="p">]</span>
+<span class="c"># ['0x2', '0x8', '0x20', '0x80', '0x200']</span>
+</pre>
+</div>
+<div class="section" id="generatoren">
+<h2>Generatoren</h2>
+<pre class="code python literal-block">
+<span class="k">def</span> <span class="nf">random_generator</span><span class="p">(</span><span class="n">max_num</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_num</span><span class="p">):</span>
+        <span class="k">yield</span> <span class="n">random</span><span class="p">()</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">random_generator</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre>
+<p>Überfordert? Dann jetzt was einfaches:</p>
+<pre class="code python literal-block">
+<span class="c"># Zeige alle Quadratzahlen,</span>
+<span class="c"># deren Wurzel ungerade ist:</span>
+<span class="n">odd_quads</span> <span class="o">=</span> <span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">odd_quads</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre>
+</div>
+<div class="section" id="with">
+<h2><tt class="docutils literal">with</tt></h2>
+<p>Usual way:</p>
+<pre class="code python literal-block">
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">'file.txt'</span><span class="p">,</span><span class="s">'w'</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">'hello world'</span><span class="p">)</span>
+<span class="k">finally</span><span class="p">:</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre>
+<p>Python way:</p>
+<pre class="code python literal-block">
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'file.txt'</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">'hello world'</span><span class="p">)</span>
+</pre>
+</div>
+<div class="section" id="die-philosophie">
+<h2>Die Philosophie</h2>
+<ul class="simple">
+<li>Zen of Python: <tt class="docutils literal">import this</tt></li>
+<li>Explizit ist besser als Implizit.</li>
+<li><strong>Batteries included</strong>: Viele Funktionen bereits integriert</li>
+<li>Man liest Code öfters als man ihn schreibt.</li>
+<li>Programming should be fun.</li>
+</ul>
+</div>
+<div class="section" id="python-ist-kurz">
+<h2>Python ist kurz</h2>
+<pre class="code python literal-block">
+<span class="c">#!/usr/bin/env python</span>
+<span class="c"># Finde alle Duplikate in einem übergebenen Pfad</span>
+
+<span class="kn">import</span> <span class="nn">sys</span><span class="o">,</span> <span class="nn">pprint</span><span class="o">,</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">hashlib</span>
+
+<span class="n">hashes</span><span class="p">,</span> <span class="n">dups</span> <span class="o">=</span> <span class="p">{},</span> <span class="p">{}</span>
+
+<span class="k">for</span> <span class="n">path</span><span class="p">,</span> <span class="n">dirs</span><span class="p">,</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]):</span>
+    <span class="k">for</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+        <span class="n">fullname</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">fullname</span><span class="p">,</span> <span class="s">'r'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">md5</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">md5</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">hashes</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">md5</span><span class="p">):</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">dups</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">md5</span><span class="p">):</span>
+                <span class="n">dups</span><span class="p">[</span><span class="n">md5</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">hashes</span><span class="p">[</span><span class="n">md5</span><span class="p">]]</span>
+            <span class="n">dups</span><span class="p">[</span><span class="n">md5</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fullname</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">hashes</span><span class="p">[</span><span class="n">md5</span><span class="p">]</span> <span class="o">=</span> <span class="n">fullname</span>
+<span class="n">pprint</span><span class="o">.</span><span class="n">pprint</span><span class="p">(</span><span class="n">dups</span><span class="p">)</span>
+</pre>
+</div>
+</div>
+</div>
+</body>
+</html>

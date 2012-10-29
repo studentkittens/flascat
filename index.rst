@@ -1,10 +1,17 @@
+.. impress::
+   :hide-title: True
+   :data-scale: 1
+
 Einführung der Kinder in Schlangen
 ==================================
 
 Unterschiede Python2 vs. Python3
 --------------------------------
 
-* Search the Web, dude.
+* Unicode
+* ``print`` ist kein keyword mehr.
+  * Macht leider viel alten Code inkompatibel.
+* Search the Web, dude...
 
 Die Shell (REPL)
 ----------------
@@ -18,8 +25,8 @@ Die Shell (REPL)
     >>> print('Oooh!')
 
 * Leider: Etwas unbequem, da keine Syntaxhighlighting / Autocomplete.
-* Wir empfehlen **bpython**.
-
+* Wir empfehlen/verwenden daher **bpython**.
+* Unheimlich praktisch um sich mit der Sprache vertraut zu machen.
 
 Datentypen
 ----------
@@ -275,15 +282,38 @@ Andere Formen von ``import``:
 
 Siehe auch: http://codingbat.com/python
 
-Lösungen
---------
+1x1 Lösung
+----------
 
-**1x1**:
-    ...
+.. code-block:: python
 
-**ZooP**:
-    ...
+    # The clear one.
+    for x in range(1,10):
+        for y  in range(1,10):
+            print('%dx%d = %d' % (x, y, x * y))
+        print()
 
+.. code-block:: python
+    
+    # The cool/performant one. 
+    from itertools import product
+
+    ten = range(1,10)
+    for x,y in product(ten, ten):
+        print('%dx%d = %d' % (x, y, x * y))
+        
+.. code-block:: python
+
+    # The oblivious one-liner.
+    from itertools import product
+    ten = range(1,10)
+    ['%dx%d=%d'%(x,y,x*y) for x,y in product(ten,ten)]
+
+
+Zoo OOP
+-------
+
+TODO
 
 λ!
 --
@@ -420,15 +450,19 @@ Python way:
 Die Philosophie
 ---------------
 
-* Zen of Python: ``import this``
-* Explizit ist besser als Implizit.
-* **Batteries included**: Viele Funktionen bereits integriert
-* Man liest Code öfters als man ihn schreibt.
-* Programming should be fun.
+**Zen of Python:**
+    ``import this``
+**Explizit ist besser als Implizit**
+    Siehe ``self`` 
+**Batterien beigelegt**
+    Große Standardbibliothek.
+**Man liest Code öfters als man ihn schreibt.**
+    Auch wenn man seinen Code ungern liest.
+**Programmieren sollte Spass machen.**
+    Wer gegen seine Sprache kämpft, der hat wenig Spass.
 
-
-Python ist kurz
----------------
+Python ist 80% kürzer
+---------------------
 
 .. code-block:: python
 
@@ -445,8 +479,9 @@ Python ist kurz
             with open(fullname, 'r') as f:
                 md5 = hashlib.md5(f.read()).hexdigest()
             if hashes.get(md5):
-                if not dups.get(md5):
-                    dups[md5] = [hashes[md5]]
+                dups.setdefault(md5, [hashes[md5]])
+                #if not dups.get(md5):
+                #    dups[md5] = [hashes[md5]]
                 dups[md5].append(fullname)
             else:
                 hashes[md5] = fullname
