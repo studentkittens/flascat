@@ -10,6 +10,7 @@ Ein **Hochgeschwindigkeitskurs** in Python
    :data-x: 3500
    :data-y: -1000
 
+
 Unterschiede Python2 vs. Python3
 --------------------------------
 
@@ -470,8 +471,10 @@ Die Philosophie
 **Programmieren sollte Spass machen.**
     Wer gegen seine Sprache kämpft, der hat wenig Spass.
 
-Python ist 80% kürzer
----------------------
+Mit ``python-impress`` gerendert:  http://www.github.com/gawell/impress
+
+Python ist sehr kurz
+--------------------
 
 .. code-block:: python
 
@@ -489,8 +492,6 @@ Python ist 80% kürzer
                 md5 = hashlib.md5(f.read()).hexdigest()
             if hashes.get(md5):
                 dups.setdefault(md5, [hashes[md5]])
-                #if not dups.get(md5):
-                #    dups[md5] = [hashes[md5]]
                 dups[md5].append(fullname)
             else:
                 hashes[md5] = fullname
