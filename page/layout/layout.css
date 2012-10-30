@@ -43,7 +43,7 @@ html, body {
     background: white;
 }
 
-#song_title{
+#songtitle{
     text-align: center;
     background: white;
 }
@@ -87,10 +87,6 @@ html, body {
     height: 50px auto;
     border: 1px solid rgb(221, 221, 221);
 }
-#songtitle{
-    color: grey;
-    text-align: center;
-}
 
 h3 {
     color: brown;
@@ -99,13 +95,13 @@ h3 {
     text-align: center;
 }
 #song_header{
-    padding: 1px;
-text-align:center;
+    padding: 30px 10px 70px 10px;
+    text-align:center;
+
 }
 
-#lyric_text {
-    color: grey;
-    text-align: center;
+#lyric{
+position:relative;
+    margin: 10px auto;
     width: 300px;
-    padding: 1px;
 }
