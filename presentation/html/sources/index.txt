@@ -1,12 +1,25 @@
 .. impress::
+   :func: square 
    :hide-title: True
    :data-scale: 1
 
-Einführung der Kinder in Schlangen
-==================================
+========================================
+Ein *Hochgeschwindigkeitskurs* in Python
+========================================
+
+.. step::
+   :class: center
+   :data-x: 3500
+   :data-y: -1000
+
+Mit ``impress`` gerendert:  http://www.github.com/gawell/impress
 
 Unterschiede Python2 vs. Python3
 --------------------------------
+
+.. slide::
+   :data-x: 0
+   :data-y: 0
 
 * Unicode
 * ``print`` ist kein keyword mehr.
