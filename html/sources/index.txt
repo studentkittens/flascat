@@ -479,8 +479,9 @@ Python ist 80% kürzer
             with open(fullname, 'r') as f:
                 md5 = hashlib.md5(f.read()).hexdigest()
             if hashes.get(md5):
-                if not dups.get(md5):
-                    dups[md5] = [hashes[md5]]
+                dups.setdefault(md5, [hashes[md5]])
+                #if not dups.get(md5):
+                #    dups[md5] = [hashes[md5]]
                 dups[md5].append(fullname)
             else:
                 hashes[md5] = fullname

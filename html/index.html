@@ -609,8 +609,9 @@ Python ist 80% kürzer<a class="headerlink" href="#python-ist-80-kurzer" title="
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">fullname</span><span class="p">,</span> <span class="s">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
             <span class="n">md5</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">md5</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">())</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
         <span class="k">if</span> <span class="n">hashes</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">md5</span><span class="p">):</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="n">dups</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">md5</span><span class="p">):</span>
-                <span class="n">dups</span><span class="p">[</span><span class="n">md5</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">hashes</span><span class="p">[</span><span class="n">md5</span><span class="p">]]</span>
+            <span class="n">dups</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="n">md5</span><span class="p">,</span> <span class="p">[</span><span class="n">hashes</span><span class="p">[</span><span class="n">md5</span><span class="p">]])</span>
+            <span class="c">#if not dups.get(md5):</span>
+            <span class="c">#    dups[md5] = [hashes[md5]]</span>
             <span class="n">dups</span><span class="p">[</span><span class="n">md5</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fullname</span><span class="p">)</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">hashes</span><span class="p">[</span><span class="n">md5</span><span class="p">]</span> <span class="o">=</span> <span class="n">fullname</span>
