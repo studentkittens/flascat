@@ -1,18 +1,14 @@
 .. impress::
-   :func: square 
-   :hide-title: True
-   :data-scale: 1
+   :func: square2
 
-========================================
-Ein *Hochgeschwindigkeitskurs* in Python
-========================================
+==========================================
+Ein **Hochgeschwindigkeitskurs** in Python
+==========================================
 
 .. step::
    :class: center
    :data-x: 3500
    :data-y: -1000
-
-Mit ``impress`` gerendert:  http://www.github.com/gawell/impress
 
 Unterschiede Python2 vs. Python3
 --------------------------------
@@ -25,7 +21,6 @@ Unterschiede Python2 vs. Python3
 * ``print`` ist kein keyword mehr.
 
   * Macht leider viel alten Code inkompatibel.
-* Search the Web, dude...
 
 Die Shell (REPL)
 ----------------
@@ -500,3 +495,4 @@ Python ist 80% kürzer
             else:
                 hashes[md5] = fullname
     pprint.pprint(dups)
+
