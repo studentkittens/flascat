@@ -89,10 +89,23 @@ html, body {
 }
 #songtitle{
     color: grey;
+    text-align: center;
 }
 
 h3 {
     color: brown;
     font-size: 20pt;
     font-family:serif;
+    text-align: center;
+}
+#song_header{
+    padding: 1px;
+text-align:center;
+}
+
+#lyric_text {
+    color: grey;
+    text-align: center;
+    width: 300px;
+    padding: 1px;
 }
