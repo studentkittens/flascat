@@ -10,47 +10,53 @@ Ein **Hochgeschwindigkeitskurs** in Python
    :data-x: 3500
    :data-y: -1000
 
+.. image:: http://abstrusegoose.com/strips/batteries_included.PNG
+   :height: 300
+   :align: left
 
-Unterschiede Python2 vs. Python3
---------------------------------
+.. image:: /static/batteries_included.png
+   :height: 300
+
+Die Shell (REPL)
+----------------
 
 .. slide::
    :data-x: 0
    :data-y: 0
 
-* Unicode
-* ``print`` ist kein keyword mehr.
-
-  * Macht leider viel alten Code inkompatibel.
-
-Die Shell (REPL)
-----------------
-
 * Python kann interaktiv ausprobiert werden.
-* Mitgeliefert gibt es den ``python`` - die REPL (Read-Eval-Print-Loop) ::
+* Mitgeliefert gibt es die ``python`` Shell
+* Auch ,,REPL'' (Read-Eval-Print-Loop) genannt: ::
 
     $ python 
-    >>> 1 + 1
+    >>> a = 1 + 1
     2
-    >>> print('Oooh!')
+    >>> print('1 + 1 =', a)
+    1 + 1 = 2
 
 * Leider: Etwas unbequem, da keine Syntaxhighlighting / Autocomplete.
 * Wir empfehlen/verwenden daher **bpython**.
 * Unheimlich praktisch um sich mit der Sprache vertraut zu machen.
 
-Datentypen
-----------
+Datentypen?
+-----------
 
-* Python ist eine untypisierte Sprache. So what?
+Gibts nicht. Waren zu teuer.
+
+* Python ist eine untypisierte Sprache.
 * Man verlässt sich nicht auf den Typen einer Variable, sondern auf dessen Verhalten.
 * Bietet eine Klasse ``Liste`` die gleichen Funktionen wie ``Array`` so lassen sie sich gleich verwenden.
 
-  * Ganz ohne Interfaces wie ``Iterable``.
+  * Ganz ohne Interfaces wie ``Iterable`` oder ``List``.
 * Dieses Prinzip nennt sich ``Duck Typing``.
 * Zur Laufzeit lassen sich ``Array`` und ``Liste`` mittels ``type()`` auseinanderhalten.
-* Viele sehr oft genutzte Datenstrukturen sind in Python bereits implementiert.
+  
+  * Aber für gewöhnlich braucht man das nicht.
 
-  * Die meisten davon kommen in den nächsten Folien.
+::
+
+    todo.
+
 
 Strings
 -------
@@ -65,7 +71,11 @@ Strings
     über mehrere
     Zeilen'''
 
-    s = 'My String' # Zuweisung  
+    s = 'Workshop' # Zuweisung
+
+    # Manchmal braucht es explizite Konvertierung:
+    # ,,Explizit'' ist ein wichtiges Stichwort...
+    s = '1 + 1 = ' + str(2)
 
 Numbers
 -------
@@ -80,11 +90,8 @@ Numbers
     truth = True   # Auch ein Integer.
     tigges = False # Ebenfalls. 
 
-    # True/False sind globale Variablen.
-    # Don't do that. Really.
-    True, False = False, True 
-
-    # Wenn es True/False nicht gäbe:
+    # Wenn es True/False nicht gäbe,
+    # so könnte man sie sich sehr einfach definieren:
     True, False = not 0, 0
 
 List
@@ -92,11 +99,16 @@ List
 
 .. code-block:: python
 
-    mylist = [42, 'Apple', []]
-    mylist[2]    # [] 
-    mylist[1:]   # 'Apple', [] 
-    mylist[:1]   # 42, 'Apple' 
-    mylist[::-1] # [], 'Apple', 42
+    l = [42, 'Apple', []]
+    l[0]     # 42
+    l[0:1]   # 42, 'Apple'
+    l[1:]    # 'Apple', [] 
+    l[:1]    # 42, 'Apple' 
+    l[0:3:2] # 42, []
+    l[::-1]  # [], 'Apple', 42
+
+Java-Äquivalent: ``java.util.ArrayList``
+
 
 Dictionaries
 ------------
@@ -463,15 +475,14 @@ Die Philosophie
 **Zen of Python:**
     ``import this``
 **Explizit ist besser als Implizit**
-    Siehe ``self`` 
+    Siehe beispielsweise ``self`` statt ``this``.
 **Batterien beigelegt**
-    Große Standardbibliothek.
+    Große Standardbibliothek mit vielen Funktionen.
 **Man liest Code öfters als man ihn schreibt.**
-    Auch wenn man seinen Code ungern liest.
+    Und man sollte ihn nicht widerwillig lesen müssen.
 **Programmieren sollte Spass machen.**
     Wer gegen seine Sprache kämpft, der hat wenig Spass.
 
-Mit ``python-impress`` gerendert:  http://www.github.com/gawell/impress
 
 Python ist sehr kurz
 --------------------
@@ -497,3 +508,7 @@ Python ist sehr kurz
                 hashes[md5] = fullname
     pprint.pprint(dups)
 
+Sonstiges
+---------
+
+Mit ``python-impress`` gerendert:  http://www.github.com/gawell/impress
