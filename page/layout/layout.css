@@ -1,16 +1,16 @@
+
+#searchbar, #container, header, html, body {background: #FFCCCC;}
+#songtitle, #content {background: white;}
+
 html, body {
-    border-style: dotted;
-    background:  #CC6666;
-    color: #2a2521;
     font-family:"Sans-serif";
     font-size: 12px;
     padding: 0px;
     margin: 0px;
-    height: 100%;
 }
 
 #mainmenue{
-    background-position: top;
+    position: fixed;
     font-family: sans-serif;
     width: 100%;
     padding: 3px 0;
@@ -25,13 +25,26 @@ html, body {
     z-index: 10;
 }
 
+#footer {
+    position: fixed;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 3px 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    margin: 0;
+    background: black;
+    -webkit-transition: background-color 0.25s linear;
+    -webkit-box-shadow: 0 0 10px #000;
+    -moz-box-shadow: 0 0 10px #000;
+    z-index: 10;
+}
 #container{
     margin: 60px auto;
     background-position: bottom;
     width: 900px ;
-    border-style: dotted;
     padding: 0.8em;
-    background: #CC6666;
 }
 
 #header{
@@ -40,17 +53,14 @@ html, body {
     width: 800px;
     border: none; 
     padding: 0.8em;
-    background: #CC6666;
 }
 
 #searchbar{
     text-align: center;
-    background: #CC6666;
 }
 
 #songtitle{
     text-align: center;
-    background: #CC6666;
 }
 
 #content{
@@ -58,15 +68,15 @@ html, body {
     width: 800px;
     border: 1px solid #ccc;
     padding: 0.8em;
-    background: #CC6666;
     -moz-border-radius: 15px;
     border-radius: 15px;
 }
 
-#footer{
-    background-position: bottom;
+#footer2{
+    position: fixed;
     bottom: 0;
     left: 0;
+    margin: 0;
     text-align: right;
     background: black;
     color: grey;
@@ -94,8 +104,8 @@ html, body {
 }
 
 h3 {
-    color: brown;
-    font-size: 20pt;
+    color: black;
+    font-size: 33pt;
     font-family:serif;
     text-align: center;
 }
@@ -104,4 +114,84 @@ h3 {
     text-align:center;
 
 }
+
+/*
+http://designshack.net/articles/css/6-useful-css-button-recipes-you-can-copy-paste 
+ */
+    .button {
+
+        /*basic styles*/
+        width: 120px;
+        height: 30px;  
+        color: white; 
+        background-color: #99CF00;
+        text-align: center;  
+        margin: 5px 10px 5px; 
+
+
+        /*gradient styles*/
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700));
+        background: -moz-linear-gradient(19% 75% 90deg,#6DB700, #99CF00);
+
+        /*border styles*/
+        border-left: solid 1px #c3f83a;
+        border-top: solid 1px #c3f83a;
+        border-right: solid 1px #82a528;
+        border-bottom: solid 1px #58701b;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 5px;
+        -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700))
+
+    }
+
+    .button:hover {
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6DB700), to(#99CF00));
+        background: -moz-linear-gradient(19% 75% 90deg,#99CF00, #6DB700);
+    }
+
+    #custom {
+
+        background-color: #fff;
+        border:none;
+        font-size:14px;
+        height: 25px;
+        width: 200px;
+        padding: 0;
+    }
+
+    .search_button {
+
+        /*basic styles*/
+        width: 80px;
+        height: 30px;  
+        color: white; 
+        background-color: #99CF00;
+        text-align: center;  
+        border-left: solid 1px #c3f83a;
+        border-top: solid 1px #c3f83a;
+        border-right: solid 1px #82a528;
+        border-bottom: solid 1px #58701b;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700))
+    }
+    .search_button:active {
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6DB700), to(#99CF00));
+        background: -moz-linear-gradient(19% 75% 90deg,#99CF00, #6DB700);
+    }
+    .search_form{
+        background-color:#ffffff;
+        border:1px solid #dbdbdb;
+        padding:5px;
+        -webkit-border-radius:7px;
+        -moz-border-radius:7px;
+    }
+
+    .cover_stats{
+    
+        text-align: left;
+        font-size: 14px;
+        padding-left: 240px;
+    }
 
