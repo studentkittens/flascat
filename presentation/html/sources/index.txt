@@ -490,22 +490,21 @@ Python ist sehr kurz
 .. code-block:: python
 
     #!/usr/bin/env python
-    # Finde alle Duplikate in einem übergebenen Pfad
-
+    # encoding: utf8
     import sys, pprint, os, hashlib
 
     hashes, dups = {}, {}
 
     for path, dirs, files in os.walk(sys.argv[1]):
-        for filename in files:
-            fullname = os.path.join(path, filename)
-            with open(fullname, 'r') as f:
+        filtered = (os.path.join(path, n) for n in files)
+        for fpath in filter(os.path.isfile, filtered):
+            with open(fpath, 'r') as f:
                 md5 = hashlib.md5(f.read()).hexdigest()
-            if hashes.get(md5):
-                dups.setdefault(md5, [hashes[md5]])
-                dups[md5].append(fullname)
-            else:
-                hashes[md5] = fullname
+
+            if hashes.setdefault(md5, fpath) is not fpath:
+                at = dups.setdefault(md5, [hashes[md5]])
+                at.append(fpath)
+
     pprint.pprint(dups)
 
 Sonstiges
