@@ -1,9 +1,9 @@
 .. impress::
    :func: square2
 
-==========================================
-Ein **Hochgeschwindigkeitskurs** in Python
-==========================================
+=============================================
+Ein **Hochgeschwindigkeitskurs** durch Python
+=============================================
 
 .. step::
    :class: center
@@ -14,15 +14,31 @@ Ein **Hochgeschwindigkeitskurs** in Python
    :height: 300
    :align: left
 
-.. image:: /static/batteries_included.png
-   :height: 300
-
-Die Shell (REPL)
-----------------
+Vorwort
+-------
 
 .. slide::
    :data-x: 0
    :data-y: 0
+
+* Eine Stunde ist wenig Zeit um eine ganze, umfangreiche Sprache zu vermitteln, 
+  geschweige denn sie auch nur im Ansatz zu verstehen.
+* Deshalb soll der Vortrag eher dazu dienen euren Appetit zu wecken, und euch
+  ein gewisses Gefühl für die Sprache geben.
+
+  * Wenn jemand später Lust verspürt mit Python zu spielen haben wir unser Ziel erreicht.
+
+* Hier sollen nur Grundbegriffe vermittelt und ein Ausblick gegeben werden.
+
+  * Speziell auch ein paar von Python's coolen Features.
+
+* Falls jemand Fragen hat: einfach reinbrüllen.
+
+* Wer dazu Lust verspürt kann auch die Beispiele selbst ausprobieren, 
+  siehe nächste Folie.
+
+Die Shell (REPL)
+----------------
 
 * Python kann interaktiv ausprobiert werden.
 * Mitgeliefert gibt es die ``python`` Shell
@@ -55,92 +71,95 @@ Gibts nicht. Waren zu teuer.
 
 ::
 
-    todo.
+    a = []
 
 
-Strings
--------
+Literale
+--------
 
-.. code-block:: python
+Strings: ::
 
     'Hello World' # Ein Stringliteral
-    "Hello World" # Vollkommen dasselbe
-                  # (Unterschied zu zB Ruby!)
+    "Hello World" # Dasselb (Anders als in Ruby!)
 
-    '''Geht auch
+    '''Geht auch  # Das ist kein Kommentar.
     über mehrere
     Zeilen'''
 
-    s = 'Workshop' # Zuweisung
+Numbers: ::
 
-    # Manchmal braucht es explizite Konvertierung:
-    # ,,Explizit'' ist ein wichtiges Stichwort...
-    s = '1 + 1 = ' + str(2)
+    a, b = 42, 42.21 # Ganzzahlen, Floats + Zuweisung.
+    a, b = 0o777, 0xDEADBEEF  # Hex/Oktal-zahlen
 
-Numbers
--------
+Zuweisungen: ::
 
-.. code-block:: python
-
-    a = 42         # Integer
-    b = 23.21      # Floats
-    0o777          # Oktalzahlen
-    0xDEADBEEF     # Hexzahlen
     a,b = b,a      # Swap a, b
-    truth = True   # Auch ein Integer.
-    tigges = False # Ebenfalls. 
-
-    # Wenn es True/False nicht gäbe,
-    # so könnte man sie sich sehr einfach definieren:
-    True, False = not 0, 0
 
 List
 ----
 
+Listen werden wie Arrays in anderen Sprachen genutzt:
+
 .. code-block:: python
 
-    l = [42, 'Apple', []]
-    l[0]     # 42
-    l[0:1]   # 42, 'Apple'
-    l[1:]    # 'Apple', [] 
-    l[:1]    # 42, 'Apple' 
-    l[0:3:2] # 42, []
-    l[::-1]  # [], 'Apple', 42
+    pointless_list = [42, 'Apple', []]
 
-Java-Äquivalent: ``java.util.ArrayList``
+Zugriff auf Elemente und ,,Slicing'' (wie ``subList()``).
 
+Im Allgemeinen: ``liste[start{:end{:step}}]`` ::
+    
+    pointless_list[0]     # 42
+    pointless_list[0:1]   # 42, 'Apple'
+    pointless_list[1:]    # 'Apple', [] 
+    pointless_list[:1]    # 42, 'Apple' 
+    pointless_list[0:3:2] # 42, []
+    pointless_list[::-1]  # [], 'Apple', 42
+
+
+(In Etwa) Java-Äquivalent: ``java.util.ArrayList``
+
+Tupel
+-----
+
+* Tupel sind wie Listen, nur dass sie Immutable sind. 
+* Statt mit eckigen Klammern werden sie mit runden Klammern definiert: ::
+
+    pointless_tuple = (1, 2, 3)
+    pointless_tuple[0] = 2 # Nope, TypeError.
+
+* Tupel werden immer dann verwedent wenn man Dinge in einer bestimmten Reihenfolge packen muss.
+ 
+  * Beispielsweise einen Vertex mit 3 Koordianten: ``(1, 0, 42)``
+
+* Ein Tupel mit einem Element wird mit folgender Syntax deklariert: ::
+
+    one_elem_tuple = (1,) # Sieht seltsam aus
+
+    # Alternativ:
+    one_elem_tuple = tuple([1])
 
 Dictionaries
 ------------
 
 .. code-block:: python
 
-    mydict = {
+    pointless_dict = {
         'Apple': ['juicy', 'red', 'healthy'],
         'Orange': ['juicy', 'not red'],
         'Watermelon': 42
     }
 
-    mydict['Apple'] # ['juicy', 'red', 'healthy']
-    mydict['Peach'] # throws a ,,KeyError''
-    mydict['Peach'] = 'A hairy fruit'
-    mydict['Peach'] # 'A hairy fruit'
+    pointless_dict['Apple'] # ['juicy', 'red', 'healthy']
+    
+    # throws a ,,KeyError''
+    pointless_dict['Peach'] 
 
-Java-Äquivalent: ``java.util.HashMap``
+    pointless_dict['Peach'] = 'A hairy fruit'
+    pointless_dict['Peach']  # => liefert 'A hairy fruit'
 
+* Java-Äquivalent: ``java.util.HashMap``
+* Dictionaries werden in Python ständig eingesetzt.
 
-Dictionaries werden in Python ständig eingesetzt.
-
-
-Getting Help
-------------
-
-* Use bpython
-* Use the ``__doc__`` member
-* Use ``dir()``
-* Die offziele Referenz. Empfehlenswert:
-
-  http://python.org/doc/
 
 Bedingungen
 -----------
@@ -160,11 +179,11 @@ Bedingte Zuweisung:
 
     a = <val_on_truth> if <expr> else <val_on_untrue>
 
-Unwahrheitswerte:
+Unwahrheitswerte (unvollständig):
 
 .. code-block:: python
 
-    0, 0.0, False, '', [], {}, set()
+    0, 0.0, False, None, '', [], {}, set()
 
 Sonst gilt für gewöhnlich alles als ``True``.
 
@@ -183,6 +202,9 @@ Schleifen
                           # for(int i=1; i<10; i+=2) {
                           #   printf("%d\n", i)
                           # }
+
+* → ``range(10)`` gibt ein Iterator zurück. 
+
 .. code-block:: python
     
     while <expr>: # while(<expr>) {
@@ -192,14 +214,88 @@ Schleifen
 Funktionen #1
 -------------
 
-Funktionen #1
+::
+
+    # Defintion
+    def hello():
+        print('Hello')
+
+    # Redefinition
+    def hello():
+        return 'Hello'
+
+    # Aufruf
+    print(hello())
+
+    def doublegreet(message):
+        return message * 2
+
+    # Parametrisierter Aufruf
+    print(doublegreet('Hello')) # HelloHello
+
+    # Benannte Parameter:
+    print(doublegreet(message='Hello')) # -"-
+
+Funktionen #2
 -------------
+
+* **\*args** - Variable Argumentlisten ::
+
+    def print_bracketed(*args):
+        for i in args: print('[%d] ' % i)
+
+    print_bracketed(1, 2, 3) # Prints: [1] [2] [3]
+    
+* **\*kwargs** - Variable Paramter ::
+
+    def print_params(**kwargs):
+        for key, value in kwargs.items():
+            print(key, '=>', value)
+
+    print_params(name='Paul', job='Hauskatze')
+
+* Alle möglichen Mischformen möglich. 
+* ``kwargs`` muss als letztes stehen
+* ``args`` mindestens als vorletztes
 
 Exceptions
 ----------
 
+Fangen: ::
+
+    try:
+        a = b
+    except NameError:
+        print('Du hast vergessen b zu definieren.')
+    finally:
+        print('Wird immer ausgeführt')
+
+Werfen: ::
+
+    raise AttributeError('Kein Pelz.')
+
+Wurfeschosse erstellen: ::
+
+    class OnSuccessError(Exception):
+        pass
+
+Getting Help
+------------
+
+* Use bpython
+* Use the ``__doc__`` member
+* Use ``dir()``
+* Die offziele Referenz. Empfehlenswert:
+
+  http://python.org/doc/
+
+
+TODO
+
 Klassen
 -------
+
+TODO
 
 .. code-block:: python
 
@@ -259,10 +355,10 @@ Beispiel-Layout:
     │   └── run.py       │ 
     │                    │
     ├── __main__.py      │ # Alternativ:
-    ├── __init__.py      │ import app.sound.decode as dc
+    ├── __init__.py      │ import app.sound.decode as adc
     │                    │
     └── sound            │ ... 
-        ├── decode.py    │ dc.some_func()
+        ├── decode.py    │ adc.some_func()
         └── __init__.py  │
                          │
 
@@ -276,14 +372,28 @@ Andere Formen von ``import``:
     
     from app.sound.decode import some_func, some_var
 
+    some_func(some_var)
+
 .. code-block:: python
 
     # Not recommmended:
     from app.sound.decode import * 
 
+    some_func(some_var)
+
+Lange Modulnamen können abekürzt werden:
+
+.. code-block:: python
+
+    import app.sounde.decode as asd
+
+    asd.some_func(asd.some_var)
+
 
 Übungen
 --------
+
+TODO
 
 **1x1**:
     Schreibe ein Programm dass das 1x1 zeilenweise ausgibt: ::
@@ -352,10 +462,8 @@ Vergleiche:
 .. code-block:: java
 
     public long fac(long n) {
-        if (n == 0)
-            return 1;
-        else
-            return fac(n - 1) * n;
+        if (n == 0) return 1;
+        else        return fac(n - 1) * n;
     }
 
     fac(23); // 8128291617894825984 huh?
@@ -368,11 +476,21 @@ Das ist zwar weniger performant als good ol' Java, aber einfach bequemer.
 Spezielle Features
 ==================
 
+.. step::
+   :class: center
+   :data-x: 3500
+   :data-y: -1000
+
 Python hat einige Features die es von vielen kompilierten und
 interpretierten Sprachen abheben.
 
-Higher Order Functions
-----------------------
+Higher Order Functions (aka FunktionenDieFunktionenReturnen)
+------------------------------------------------------------
+
+* In Python können Funktionen Funktionen zurückgeben.
+* Da Funktionen auch nur Objekte sind können "speziliasierte" Funktionen auch zur Laufzeit instanziert werden.
+
+*Beispiel*: Eine Funktion die einen speziellen Greeter zurückgibt. 
 
 .. code-block:: python
 
@@ -384,20 +502,23 @@ Higher Order Functions
      f = greeting_generator('Python')
      f() # Hello Python!
 
+in Java vielleicht am ehesten vergleichbar mit dem ``Factory`` Pattern.
+
 
 Dekoratoren
 -----------
-    
+
+Funktionen/Klassen können "dekoriert" werden, ähnlich dem aus Java bekannten Decorator-Pattern. 
+Nur weitaus einfacher zu nutzen:
+
 .. code-block:: python
 
      def bold(fn):
-        def wrapped():
-            return '<b>' + fn() + '</b>'
+        def wrapped(): return '<b>' + fn() + '</b>'
         return wrapped
 
      def italic(fn):
-         def wrapped():
-            return '<i>' + fn() + '</i>'
+         def wrapped(): return '<i>' + fn() + '</i>'
          return wrapped
 
      @bold
@@ -405,38 +526,48 @@ Dekoratoren
      def hello():
          return 'Hello World'
 
-     print(hello()) # <b><i>Hello World</i></b>
      # Entspricht: bold(italic(hello()))
+     print(hello()) # => <b><i>Hello World</i></b>
 
 List Comprehensions
 -------------------
 
-Alle 2er Potenzen von 0 - 10:
+Wie kann man alle y in einem Intervall für eine
+bestimmte Funktion berechnen? ::
+
+    [f(x) for x in interval] # f(x) für x ∈ interval
+
+*Beispiel*: Die Funktion 2**x im Definitionsbereich 0-9:
 
 .. code-block:: python
 
-    mylist = [2**x for x in range(10)]
-    # [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+    print([2**x for x in range(10)])
+    # = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
 
-Dasselbe, aber nur mit allen ungeraden Exponenten,
-und als ``hex`` String repräsentiert:
+Oft nutzt man Comprehensions auch für das Filtern von Listen.
+
+*Beispiel*: Wie oben, aber nur alle ungeraden Exponenten, und als String formattiert:
 
 .. code-block:: python
 
-    mylist = [hex(2**x) for x in range(10) if x % 2]
-    # ['0x2', '0x8', '0x20', '0x80', '0x200']
+    print(['f(%d)=%d' %(x,2**x) for x in range(10) if x%2])
+    # = ['f(1)=2','f(3)=8','f(5)=32','f(7)=128','f(9)=512']
 
 Generatoren
 -----------
 
+``yield`` macht eine Funktion zum Generator:
+
 .. code-block:: python
 
-     def random_generator(max_num):
-         for i in range(max_num):
-             yield random()
-                               
-     for i in random_generator(10):
-         print(i)
+    # Ein mieser Random Generator
+    def random42(max_num):
+        for i in range(max_num):
+            yield 42 ** i
+    
+    # Printe 10 ,,Zufallszahlen''             
+    for i in random42(10):
+        print(i)
  
 Überfordert? Dann jetzt was einfaches:
 
@@ -451,37 +582,38 @@ Generatoren
 ``with`` 
 --------
 
-Usual way:
+Usual way: ::
 
-.. code-block:: python
-    
     try:
         f = open('file.txt','w')
         f.write('hello world')
     finally:
         f.close()
 
-Python way:
-
-.. code-block:: python
+Python way: ::
 
     with open('file.txt', 'w') as f:
         f.write('hello world')
 
+Es lassen sich eigene Funktionen/Klassen definieren die das ``with`` Statement nutzen. 
+Als Beispiel könnte man eine Mutex-Klasse implementieren: ::
+
+    with locked(some_mutex):
+        do_something_while_locked
 
 Die Philosophie
 ---------------
 
 **Zen of Python:**
-    ``import this``
+    In der Python-Shell abrufbar als: ``import this``
 **Explizit ist besser als Implizit**
-    Siehe beispielsweise ``self`` statt ``this``.
-**Batterien beigelegt**
+    Siehe beispielsweise explitizes ``self`` statt implizites ``this``.
+**Batteries included**
     Große Standardbibliothek mit vielen Funktionen.
 **Man liest Code öfters als man ihn schreibt.**
     Und man sollte ihn nicht widerwillig lesen müssen.
 **Programmieren sollte Spass machen.**
-    Wer gegen seine Sprache kämpft, der hat wenig Spass.
+    Gegen Compiler/Sprache kämpfen macht wenig Spaß.
 
 
 Python ist sehr kurz
@@ -490,22 +622,25 @@ Python ist sehr kurz
 .. code-block:: python
 
     #!/usr/bin/env python
-    # encoding: utf8
+    # encoding: utf-8
     import sys, pprint, os, hashlib
-
     hashes, dups = {}, {}
 
     for path, dirs, files in os.walk(sys.argv[1]):
-        filtered = (os.path.join(path, n) for n in files)
-        for fpath in filter(os.path.isfile, filtered):
+        # Make path absolute, filter by regular files
+        abspathes = (os.path.join(path, n) for n in files)
+        for fpath in filter(os.path.isfile, abspathes):
+            # Compute a md5sum of the file content
             with open(fpath, 'r') as f:
                 md5 = hashlib.md5(f.read()).hexdigest()
 
+            # Remember this hash, and if there, add as dup
             if hashes.setdefault(md5, fpath) is not fpath:
                 at = dups.setdefault(md5, [hashes[md5]])
                 at.append(fpath)
 
     pprint.pprint(dups)
+
 
 Sonstiges
 ---------
