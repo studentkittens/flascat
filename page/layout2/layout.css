@@ -1,16 +1,12 @@
 html, body {
-    border-style: dotted;
-    background:  #CC6666;
+    background: #2f2f2f;
     color: #2a2521;
     font-family:"Sans-serif";
-    font-size: 12px;
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
+    font-size: 11px;
 }
 
 #mainmenue{
-    background-position: top;
+    position: fixed;
     font-family: sans-serif;
     width: 100%;
     padding: 3px 0;
@@ -27,47 +23,47 @@ html, body {
 
 #container{
     margin: 60px auto;
-    background-position: bottom;
     width: 900px ;
-    border-style: dotted;
+    border: 1px solid #ccc;
     padding: 0.8em;
-    background: #CC6666;
+    background: #151b1e;
 }
 
 #header{
     text-align: center;
     margin: 10px auto;
     width: 800px;
-    border: none; 
+    border: 1px solid #ccc;
     padding: 0.8em;
-    background: #CC6666;
+    background: white;
 }
 
 #searchbar{
     text-align: center;
-    background: #CC6666;
+    background: white;
 }
 
 #songtitle{
     text-align: center;
-    background: #CC6666;
+    background: white;
 }
-
 #content{
     margin: 10px auto;
     width: 800px;
     border: 1px solid #ccc;
     padding: 0.8em;
-    background: #CC6666;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
+    background: white;
 }
 
 #footer{
-    background-position: bottom;
+    position: fixed;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 3px 0;
     bottom: 0;
     left: 0;
     text-align: right;
+    margin: 0;
     background: black;
     color: grey;
     -webkit-transition: background-color 0.25s linear;
@@ -85,12 +81,11 @@ html, body {
 }
 
 #frame{
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
     padding: 7px;
     width: 50px auto;
     height: 50px auto;
     border: 1px solid rgb(221, 221, 221);
-    background: white;
 }
 
 h3 {
@@ -105,3 +100,8 @@ h3 {
 
 }
 
+#lyric{
+    position:relative;
+    margin: 10px auto;
+    width: 300px;
+}
