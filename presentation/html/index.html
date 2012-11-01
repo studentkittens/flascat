@@ -14,40 +14,68 @@
   <body>
     <div id="impress">
       
-  <div class="step center section" data-incr-x="1000" data-x="4500.0" data-y="-1000" id="ein-hochgeschwindigkeitskurs-durch-python">
+  <div class="step center section" data-x="4500.0" data-y="-1000" id="ein-hochgeschwindigkeitskurs-durch-python">
 <h1>
 Ein <strong>
 Hochgeschwindigkeitskurs</strong> durch Python<a class="headerlink" href="#ein-hochgeschwindigkeitskurs-durch-python" title="Permalink to this headline">¶</a></h1>
-<img alt="http://abstrusegoose.com/strips/batteries_included.PNG" class="align-left" src="http://abstrusegoose.com/strips/batteries_included.PNG" style="height: 300px;">
+<img alt="http://imgs.xkcd.com/comics/python.png" class="align-center" src="http://imgs.xkcd.com/comics/python.png">
 </div>
-<div class="step slide section" data-incr-x="1000" data-x="1000.0" data-y="0" id="vorwort">
+<div class="step slide section" data-x="1000.0" data-y="0" id="vorwort">
 <h1>
 Vorwort<a class="headerlink" href="#vorwort" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
+<ul>
 <li>
+<p class="first">
 Eine Stunde ist wenig Zeit um eine ganze, umfangreiche Sprache zu vermitteln,
-geschweige denn sie auch nur im Ansatz zu verstehen.</li>
+geschweige denn sie auch nur im Ansatz zu verstehen.</p>
+</li>
 <li>
+<p class="first">
 Deshalb soll der Vortrag eher dazu dienen euren Appetit zu wecken, und euch
-ein gewisses Gefühl für die Sprache geben.<ul>
-<li>
-Wenn jemand später Lust verspürt mit Python zu spielen haben wir unser Ziel erreicht.</li>
-</ul>
+ein gewisses Gefühl für die Sprache geben.
+Wenn jemand später Lust verspürt mit Python zu spielen haben wir unser Ziel erreicht.</p>
 </li>
 <li>
-Hier sollen nur Grundbegriffe vermittelt und ein Ausblick gegeben werden.<ul>
-<li>
-Speziell auch ein paar von Python&#8217;s coolen Features.</li>
-</ul>
-</li>
+<p class="first">
+Hier sollen nur Grundbegriffe vermittelt und ein Ausblick gegeben werden.
+Speziell auch ein paar von Python&#8217;s coolen Features.</p>
+<blockquote>
+<div><ul class="simple">
 <li>
 Falls jemand Fragen hat: einfach reinbrüllen.</li>
+</ul>
+</div></blockquote>
+</li>
 <li>
+<p class="first">
 Wer dazu Lust verspürt kann auch die Beispiele selbst ausprobieren,
-siehe nächste Folie.</li>
+siehe nächste Folie.</p>
+</li>
+<li>
+<p class="first">
+Kurzbeschreibung von Python:</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line">
+<em>
+Python is a general-purpose, interpreted, garbage-collected,</em></div>
+<div class="line">
+<em>
+typeless high-level programming language whose</em></div>
+<div class="line">
+<em>
+design philosophy emphasizes code readability.</em></div>
+</div>
+</div></blockquote>
+</li>
+<li>
+<p class="first">
+<strong>
+Paradigmen:</strong> Object-Oriented, Imperative, Funktional, Prozedual, Reflektiv</p>
+</li>
 </ul>
 </div>
-<div class="step slide section" data-incr-x="1000" data-x="2000.0" data-y="0" id="die-shell-repl">
+<div class="step slide section" data-x="2000.0" data-y="0" id="die-shell-repl">
 <h1>
 Die Shell (REPL)<a class="headerlink" href="#die-shell-repl" title="Permalink to this headline">¶</a></h1>
 <ul>
@@ -63,13 +91,19 @@ Mitgeliefert gibt es die <tt class="docutils literal">
 <li>
 <p class="first">
 Auch ,,REPL&#8217;&#8217; (Read-Eval-Print-Loop) genannt:</p>
-<div class="highlight-python">
-<pre>$ python
-&gt;&gt;&gt; a = 1 + 1
-2
-&gt;&gt;&gt; print('1 + 1 =', a)
-1 + 1 = 2</pre>
+<blockquote>
+<div><div class="highlight-bash">
+<div class="highlight"><pre><span class="nv">$ </span>python
+</pre></div>
 </div>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="s">&#39;1 + 1 =&#39;</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
+<span class="go">1 + 1 = 2</span>
+</pre></div>
+</div>
+</div></blockquote>
 </li>
 <li>
 <p class="first">
@@ -86,20 +120,26 @@ Unheimlich praktisch um sich mit der Sprache vertraut zu machen.</p>
 </li>
 </ul>
 </div>
-<div class="step slide section" data-incr-x="1000" data-x="3000.0" data-y="0" id="datentypen">
+<div class="step slide section" data-x="3000.0" data-y="0" id="datentypen">
 <h1>
 Datentypen?<a class="headerlink" href="#datentypen" title="Permalink to this headline">¶</a></h1>
 <p>
 Gibts nicht. Waren zu teuer.</p>
-<ul class="simple">
+<ul>
 <li>
-Python ist eine untypisierte Sprache.</li>
+<p class="first">
+Python ist eine untypisierte Sprache.</p>
+</li>
 <li>
-Man verlässt sich nicht auf den Typen einer Variable, sondern auf dessen Verhalten.</li>
+<p class="first">
+Man verlässt sich nicht auf den Typen einer Variable, sondern auf dessen Verhalten.</p>
+</li>
 <li>
+<p class="first">
 Bietet eine Klasse <tt class="docutils literal">
 <span class="pre">Liste</span></tt> die gleichen Funktionen wie <tt class="docutils literal">
-<span class="pre">Array</span></tt> so lassen sie sich gleich verwenden.<ul>
+<span class="pre">Array</span></tt> so lassen sie sich gleich verwenden.</p>
+<ul class="simple">
 <li>
 Ganz ohne Interfaces wie <tt class="docutils literal">
 <span class="pre">Iterable</span></tt> oder <tt class="docutils literal">
@@ -107,80 +147,89 @@ Ganz ohne Interfaces wie <tt class="docutils literal">
 </ul>
 </li>
 <li>
+<p class="first">
 Dieses Prinzip nennt sich <tt class="docutils literal">
-<span class="pre">Duck</span> <span class="pre">Typing</span></tt>.</li>
+<span class="pre">Duck</span> <span class="pre">Typing</span></tt>.</p>
+</li>
 <li>
+<p class="first">
 Zur Laufzeit lassen sich <tt class="docutils literal">
 <span class="pre">Array</span></tt> und <tt class="docutils literal">
 <span class="pre">Liste</span></tt> mittels <tt class="docutils literal">
-<span class="pre">type()</span></tt> auseinanderhalten.<ul>
+<span class="pre">type()</span></tt> auseinanderhalten.</p>
+<ul>
 <li>
-Aber für gewöhnlich braucht man das nicht.</li>
+<p class="first">
+Aber für gewöhnlich braucht man das nicht, da sich viele Klassen ähnlich verhalten:</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">b</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+<span class="go">1 2</span>
+</pre></div>
+</div>
+</li>
 </ul>
 </li>
 </ul>
-<div class="highlight-python">
-<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="p">[]</span>
-</pre></div>
 </div>
-</div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="3000.0" data-y="800.0" id="literale">
+<div class="step slide section" data-x="0" data-y="800.0" id="literale">
 <h1>
 Literale<a class="headerlink" href="#literale" title="Permalink to this headline">¶</a></h1>
 <p>
-Strings:</p>
+Strings (immer Immutable):</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="s">&#39;Hello World&#39;</span> <span class="c"># Ein Stringliteral</span>
-<span class="s">&quot;Hello World&quot;</span> <span class="c"># Dasselb (Anders als in Ruby!)</span>
-
-<span class="sd">&#39;&#39;&#39;Geht auch  # Das ist kein Kommentar.</span>
-<span class="sd">über mehrere</span>
-<span class="sd">Zeilen&#39;&#39;&#39;</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="s">&#39;Hello World&#39;</span> <span class="c"># Ein Stringliteral</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s">&quot;Hello World&quot;</span> <span class="c"># Dasselbe (Anders als in Ruby!)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="sd">&#39;&#39;&#39;Geht auch  # Das ist kein Kommentar.</span>
+<span class="gp">... </span><span class="sd">über mehrere</span>
+<span class="gp">... </span><span class="sd">Zeilen&#39;&#39;&#39;</span>
 </pre></div>
 </div>
 <p>
-Numbers:</p>
+Numbers (auch Immutable):</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">42</span><span class="p">,</span> <span class="mf">42.21</span> <span class="c"># Ganzzahlen, Floats + Zuweisung.</span>
-<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">0</span><span class="n">o777</span><span class="p">,</span> <span class="mh">0xDEADBEEF</span>  <span class="c"># Hex/Oktal-zahlen</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">42</span><span class="p">,</span> <span class="mf">42.21</span> <span class="c"># Ganzzahlen, Floats + Zuweisung.</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">0</span><span class="n">o777</span><span class="p">,</span> <span class="mh">0xDEADBEEF</span>  <span class="c"># Hex/Oktal-zahlen</span>
 </pre></div>
 </div>
 <p>
 Zuweisungen:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span><span class="n">a</span>      <span class="c"># Swap a, b</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span><span class="n">a</span>      <span class="c"># Swap a, b</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="2000.0" data-y="800.0" id="list">
+<div class="step slide section" data-x="1000" data-y="800.0" id="listen">
 <h1>
-List<a class="headerlink" href="#list" title="Permalink to this headline">¶</a></h1>
+Listen<a class="headerlink" href="#listen" title="Permalink to this headline">¶</a></h1>
 <p>
 Listen werden wie Arrays in anderen Sprachen genutzt:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="n">pointless_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">42</span><span class="p">,</span> <span class="s">&#39;Apple&#39;</span><span class="p">,</span> <span class="p">[]]</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">42</span><span class="p">,</span> <span class="s">&#39;Apple&#39;</span><span class="p">,</span> <span class="p">[]]</span>
 </pre></div>
 </div>
 <p>
 Zugriff auf Elemente und ,,Slicing&#8217;&#8217; (wie <tt class="docutils literal">
-<span class="pre">subList()</span></tt>).</p>
+<span class="pre">subList()</span></tt>):</p>
 <p>
 Im Allgemeinen: <tt class="docutils literal">
 <span class="pre">liste[start{:end{:step}}]</span></tt></p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>     <span class="c"># 42</span>
-<span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span>   <span class="c"># 42, &#39;Apple&#39;</span>
-<span class="n">pointless_list</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>    <span class="c"># &#39;Apple&#39;, []</span>
-<span class="n">pointless_list</span><span class="p">[:</span><span class="mi">1</span><span class="p">]</span>    <span class="c"># 42, &#39;Apple&#39;</span>
-<span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span> <span class="c"># 42, []</span>
-<span class="n">pointless_list</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>  <span class="c"># [], &#39;Apple&#39;, 42</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="go">42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">[42, &#39;Apple&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[:</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">[42, &#39;Apple&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">[42, []]</span>
 </pre></div>
 </div>
 <p>
 (In Etwa) Java-Äquivalent: <tt class="docutils literal">
 <span class="pre">java.util.ArrayList</span></tt></p>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="1000.0" data-y="800.0" id="tupel">
+<div class="step slide section" data-x="2000" data-y="800.0" id="tupel">
 <h1>
 Tupel<a class="headerlink" href="#tupel" title="Permalink to this headline">¶</a></h1>
 <ul>
@@ -192,8 +241,8 @@ Tupel sind wie Listen, nur dass sie Immutable sind.</p>
 <p class="first">
 Statt mit eckigen Klammern werden sie mit runden Klammern definiert:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="n">pointless_tuple</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-<span class="n">pointless_tuple</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span> <span class="c"># Nope, TypeError.</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_tuple</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_tuple</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span> <span class="c"># Nope, TypeError.</span>
 </pre></div>
 </div>
 </li>
@@ -210,32 +259,29 @@ Beispielsweise einen Vertex mit 3 Koordianten: <tt class="docutils literal">
 <p class="first">
 Ein Tupel mit einem Element wird mit folgender Syntax deklariert:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="n">one_elem_tuple</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,)</span> <span class="c"># Sieht seltsam aus</span>
-
-<span class="c"># Alternativ:</span>
-<span class="n">one_elem_tuple</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">([</span><span class="mi">1</span><span class="p">])</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">one_elem_tuple</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,)</span> <span class="c"># Sieht seltsam aus</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">one_elem_tuple</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">([</span><span class="mi">1</span><span class="p">])</span> <span class="c"># Alternative</span>
 </pre></div>
 </div>
 </li>
 </ul>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="0.0" data-y="800.0" id="dictionaries">
+<div class="step slide section" data-x="3000" data-y="800.0" id="dictionaries">
 <h1>
 Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="n">pointless_dict</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s">&#39;Apple&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;juicy&#39;</span><span class="p">,</span> <span class="s">&#39;red&#39;</span><span class="p">,</span> <span class="s">&#39;healthy&#39;</span><span class="p">],</span>
-    <span class="s">&#39;Orange&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;juicy&#39;</span><span class="p">,</span> <span class="s">&#39;not red&#39;</span><span class="p">],</span>
-    <span class="s">&#39;Watermelon&#39;</span><span class="p">:</span> <span class="mi">42</span>
-<span class="p">}</span>
-
-<span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Apple&#39;</span><span class="p">]</span> <span class="c"># [&#39;juicy&#39;, &#39;red&#39;, &#39;healthy&#39;]</span>
-
-<span class="c"># throws a ,,KeyError&#39;&#39;</span>
-<span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span>
-
-<span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;A hairy fruit&#39;</span>
-<span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span>  <span class="c"># =&gt; liefert &#39;A hairy fruit&#39;</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_dict</span> <span class="o">=</span> <span class="p">{</span>
+<span class="gp">... </span> <span class="s">&#39;Apple&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;juicy&#39;</span><span class="p">,</span> <span class="s">&#39;red&#39;</span><span class="p">,</span> <span class="s">&#39;healthy&#39;</span><span class="p">],</span>
+<span class="gp">... </span> <span class="s">&#39;Orange&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s">&#39;juicy&#39;</span><span class="p">,</span> <span class="s">&#39;not red&#39;</span><span class="p">],</span>
+<span class="gp">... </span> <span class="s">&#39;Watermelon&#39;</span><span class="p">:</span> <span class="mi">42</span>
+<span class="go">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Apple&#39;</span><span class="p">]</span>
+<span class="go">[&#39;juicy&#39;, &#39;red&#39;, &#39;healthy&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span>
+<span class="go">&lt;KeyError&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;A hairy fruit&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span>
+<span class="go">&#39;A hairy fruit&#39;</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -246,22 +292,23 @@ Java-Äquivalent: <tt class="docutils literal">
 Dictionaries werden in Python ständig eingesetzt.</li>
 </ul>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="0.0" data-y="1600.0" id="bedingungen">
+<div class="step slide section" data-x="0" data-y="1600.0" id="bedingungen">
 <h1>
 Bedingungen<a class="headerlink" href="#bedingungen" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span>
+<div class="highlight"><pre><span class="c"># Beachte Einrückung statt {}!</span>
+<span class="k">if</span> <span class="s">&#39;cow&#39;</span> <span class="o">==</span> <span class="s">&#39;dog&#39;</span><span class="p">:</span>
     <span class="k">pass</span>
-<span class="k">elif</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span>
+<span class="k">elif</span> <span class="mi">1</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
     <span class="k">pass</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="k">pass</span>
+<span class="k">else</span><span class="p">:</span> <span class="k">pass</span>
 </pre></div>
 </div>
 <p>
 Bedingte Zuweisung:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">val_on_truth</span><span class="o">&gt;</span> <span class="k">if</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span> <span class="k">else</span> <span class="o">&lt;</span><span class="n">val_on_untrue</span><span class="o">&gt;</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">21</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">truth</span> <span class="k">else</span> <span class="mi">42</span> <span class="c"># a = (truth) ? 21:42;</span>
+<span class="go">42</span>
 </pre></div>
 </div>
 <p>
@@ -274,7 +321,7 @@ Unwahrheitswerte (unvollständig):</p>
 Sonst gilt für gewöhnlich alles als <tt class="docutils literal">
 <span class="pre">True</span></tt>.</p>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="1000.0" data-y="1600.0" id="schleifen">
+<div class="step slide section" data-x="1000" data-y="1600.0" id="schleifen">
 <h1>
 Schleifen<a class="headerlink" href="#schleifen" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -282,12 +329,13 @@ Schleifen<a class="headerlink" href="#schleifen" title="Permalink to this headli
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span><span class="c">#</span>
     <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>           <span class="c"># 1  = Start (optional)</span>
                        <span class="c"># 10 = End</span>
- <span class="c"># 0-9                 # 2  = Step (optional)</span>
- <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>   <span class="c">#</span>
-      <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>         <span class="c"># In C-Ähnlichen Sprachen:</span>
-                       <span class="c"># for(int i=1; i&lt;10; i+=2) {</span>
-                       <span class="c">#   printf(&quot;%d\n&quot;, i)</span>
+<span class="c"># 0-7                  # 2  = Step (optional)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>    <span class="c">#</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>           <span class="c"># In C-Ähnlichen Sprachen:</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">7</span><span class="p">:</span>         <span class="c"># for(int i=1; i&lt;10; i+=2) {</span>
+        <span class="k">break</span>          <span class="c">#   printf(&quot;%d\n&quot;, i)</span>
                        <span class="c"># }</span>
+                       <span class="c"># Kontrolle: continue, break</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -296,39 +344,38 @@ Schleifen<a class="headerlink" href="#schleifen" title="Permalink to this headli
 <span class="pre">range(10)</span></tt> gibt ein Iterator zurück.</li>
 </ul>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="k">while</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">:</span> <span class="c"># while(&lt;expr&gt;) {</span>
-    <span class="k">pass</span>      <span class="c">#     do_something;</span>
-              <span class="c"># }</span>
+<div class="highlight"><pre><span class="k">while</span> <span class="n">metal</span> <span class="ow">is</span> <span class="bp">True</span><span class="p">:</span>   <span class="c"># while(&lt;expression&gt;) {</span>
+    <span class="n">do_something</span>       <span class="c">#     do_something;</span>
+                       <span class="c"># }</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="2000.0" data-y="1600.0" id="funktionen-1">
+<div class="step slide section" data-x="2000" data-y="1600.0" id="funktionen-1">
 <h1>
 Funktionen #1<a class="headerlink" href="#funktionen-1" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="c"># Defintion</span>
-<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">&#39;Hello&#39;</span><span class="p">)</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="c"># Defintion</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="k">print</span><span class="p">(</span><span class="s">&#39;Hello&#39;</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c"># Redefinition</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+<span class="gp">... </span>    <span class="k">return</span> <span class="s">&#39;Hello&#39;</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="n">hello</span><span class="p">())</span>
 
-<span class="c"># Redefinition</span>
-<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">return</span> <span class="s">&#39;Hello&#39;</span>
-
-<span class="c"># Aufruf</span>
-<span class="k">print</span><span class="p">(</span><span class="n">hello</span><span class="p">())</span>
-
-<span class="k">def</span> <span class="nf">doublegreet</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">message</span> <span class="o">*</span> <span class="mi">2</span>
-
-<span class="c"># Parametrisierter Aufruf</span>
-<span class="k">print</span><span class="p">(</span><span class="n">doublegreet</span><span class="p">(</span><span class="s">&#39;Hello&#39;</span><span class="p">))</span> <span class="c"># HelloHello</span>
-
-<span class="c"># Benannte Parameter:</span>
-<span class="k">print</span><span class="p">(</span><span class="n">doublegreet</span><span class="p">(</span><span class="n">message</span><span class="o">=</span><span class="s">&#39;Hello&#39;</span><span class="p">))</span> <span class="c"># -&quot;-</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="c"># Parametrisierte Funktionen</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">def</span> <span class="nf">doublegreet</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="k">return</span> <span class="n">message</span> <span class="o">*</span> <span class="mi">2</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="n">doublegreet</span><span class="p">(</span><span class="s">&#39;Hello&#39;</span><span class="p">))</span>
+<span class="go">HelloHello</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="n">doublegreet</span><span class="p">(</span><span class="n">message</span><span class="o">=</span><span class="s">&#39;Hello&#39;</span><span class="p">))</span>
+<span class="go">HelloHello</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="3000.0" data-y="1600.0" id="funktionen-2">
+<div class="step slide section" data-x="3000" data-y="1600.0" id="funktionen-2">
 <h1>
 Funktionen #2<a class="headerlink" href="#funktionen-2" title="Permalink to this headline">¶</a></h1>
 <ul>
@@ -347,7 +394,7 @@ Funktionen #2<a class="headerlink" href="#funktionen-2" title="Permalink to this
 <li>
 <p class="first">
 <strong>
-*kwargs</strong> - Variable Paramter</p>
+**kwargs</strong> - Variable KeyWord Paramter</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="k">def</span> <span class="nf">print_params</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">kwargs</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
@@ -364,16 +411,16 @@ Alle möglichen Mischformen möglich.</p>
 <li>
 <p class="first">
 <tt class="docutils literal">
-<span class="pre">kwargs</span></tt> muss als letztes stehen</p>
+<span class="pre">kwargs</span></tt> muss als letztes stehen.</p>
 </li>
 <li>
 <p class="first">
 <tt class="docutils literal">
-<span class="pre">args</span></tt> mindestens als vorletztes</p>
+<span class="pre">args</span></tt> mindestens als vorletztes.</p>
 </li>
 </ul>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="3000.0" data-y="2400.0" id="exceptions">
+<div class="step slide section" data-x="0" data-y="2400.0" id="exceptions">
 <h1>
 Exceptions<a class="headerlink" href="#exceptions" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -384,57 +431,75 @@ Fangen:</p>
 <span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
     <span class="k">print</span><span class="p">(</span><span class="s">&#39;Du hast vergessen b zu definieren.&#39;</span><span class="p">)</span>
 <span class="k">finally</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">&#39;Wird immer ausgeführt&#39;</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">&#39;Wird immer ausgeführt.&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>
 Werfen:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="k">raise</span> <span class="ne">AttributeError</span><span class="p">(</span><span class="s">&#39;Kein Pelz.&#39;</span><span class="p">)</span>
+<div class="highlight"><pre><span class="k">raise</span> <span class="ne">AttributeError</span><span class="p">(</span><span class="s">&#39;Keine Kuscheldecke gefunden.&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>
-Wurfeschosse erstellen:</p>
+Eigene Wurfgeschosse erstellen:</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="k">class</span> <span class="nc">OnSuccessError</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
     <span class="k">pass</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="2000.0" data-y="2400.0" id="getting-help">
+<div class="step slide section" data-x="1000" data-y="2400.0" id="hilfe-don-t-panic">
 <h1>
-Getting Help<a class="headerlink" href="#getting-help" title="Permalink to this headline">¶</a></h1>
+Hilfe? (…Don&#8217;t Panic!)<a class="headerlink" href="#hilfe-don-t-panic" title="Permalink to this headline">¶</a></h1>
 <ul>
 <li>
 <p class="first">
-Use bpython</p>
+Python setzt auf Selbstdokumentation, sprich auslesbare Kommentare:</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="k">def</span> <span class="nf">make_money</span><span class="p">(</span><span class="n">papier</span><span class="p">,</span> <span class="n">tinte</span><span class="p">,</span> <span class="n">schein</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Erzeugt Geld aus Papier, Tinte.</span>
+
+<span class="sd">    :papier: Eine Instanz der Klasse Papier</span>
+<span class="sd">    :tinte: Die Helligkeit der Tinte von 0-100.</span>
+<span class="sd">    :returns: Eine neue Schein Instanz</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="n">Schein</span><span class="p">(</span><span class="n">papier</span><span class="p">,</span> <span class="n">tinte</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">make_money</span><span class="o">.</span><span class="n">__doc__</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li>
+<dl class="first docutils">
+<dt>
+<tt class="docutils literal">
+<span class="pre">RestructuredText</span></tt> ist dabei das gängige Dokumentationsformat.</dt>
+<dd>
+<p class="first last">
+Diese Folien sind beispielsweise darin verfasst.</p>
+</dd>
+</dl>
 </li>
 <li>
 <p class="first">
-Use the <tt class="docutils literal">
-<span class="pre">__doc__</span></tt> member</p>
-</li>
-<li>
-<p class="first">
-Use <tt class="docutils literal">
-<span class="pre">dir()</span></tt></p>
-</li>
-<li>
-<p class="first">
-Die offziele Referenz. Empfehlenswert:</p>
-<p>
-<a class="reference external" href="http://python.org/doc/">
+Die offizielle Referenz/Tutorial: <a class="reference external" href="http://python.org/doc/">
 http://python.org/doc/</a></p>
 </li>
+<li>
+<p class="first">
+Auch nützlich: die <tt class="docutils literal">
+<span class="pre">dir()</span></tt> Funktion, zum Auflisten von Membern.</p>
+</li>
 </ul>
-<p>
-TODO</p>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="1000.0" data-y="2400.0" id="klassen">
+<div class="step slide section" data-x="2000" data-y="2400.0" id="klassen-1">
 <h1>
-Klassen<a class="headerlink" href="#klassen" title="Permalink to this headline">¶</a></h1>
+Klassen #1<a class="headerlink" href="#klassen-1" title="Permalink to this headline">¶</a></h1>
 <p>
-TODO</p>
+<em>
+Überraschung</em>: Es gibt keine <tt class="docutils literal">
+<span class="pre">private</span></tt> / <tt class="docutils literal">
+<span class="pre">protected</span></tt> Variablen:</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="k">class</span> <span class="nc">A</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
@@ -455,7 +520,34 @@ TODO</p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="0.0" data-y="2400.0" id="duck-typing">
+<div class="step slide section" data-x="3000" data-y="2400.0" id="klassen-2">
+<h1>
+Klassen #2<a class="headerlink" href="#klassen-2" title="Permalink to this headline">¶</a></h1>
+<p>
+Properties machen das Ersetzen von Attributen mit Gettern/Settern einfach,
+<strong>
+ohne</strong> dabei die Schnittstelle seiner Klasse zu ändern:</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">Coffee</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vol</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_vol</span> <span class="o">=</span> <span class="n">vol</span>
+
+    <span class="k">def</span> <span class="nf">set_vol</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">new_vol</span><span class="p">):</span> <span class="bp">self</span><span class="o">.</span><span class="n">_vol</span> <span class="o">=</span> <span class="n">new_vol</span> <span class="o">*</span> <span class="mi">3</span>
+
+    <span class="k">def</span> <span class="nf">get_vol</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_vol</span>
+
+    <span class="n">vol</span> <span class="o">=</span> <span class="nb">property</span><span class="p">(</span><span class="n">get_vol</span><span class="p">,</span> <span class="n">set_vol</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">mocka</span> <span class="o">=</span> <span class="n">Coffee</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mocka</span><span class="o">.</span><span class="n">vol</span> <span class="o">=</span> <span class="mi">3</span>    <span class="c"># Setter Aufruf</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span><span class="p">(</span><span class="n">mocka</span><span class="o">.</span><span class="n">vol</span><span class="p">)</span> <span class="c"># Getter Afuruf</span>
+<span class="go">9</span>
+</pre></div>
+</div>
+</div>
+<div class="step slide section" data-x="0" data-y="3200.0" id="duck-typing">
 <h1>
 Duck Typing<a class="headerlink" href="#duck-typing" title="Permalink to this headline">¶</a></h1>
 <div class="line-block">
@@ -480,7 +572,7 @@ call</strong> that bird a duck.“</div>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="0.0" data-y="3200.0" id="module-1">
+<div class="step slide section" data-x="1000" data-y="3200.0" id="module-1">
 <h1>
 Module #1<a class="headerlink" href="#module-1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -490,55 +582,53 @@ Beispiel-Layout:</p>
 │                    │
 ├── effects          │
 │   ├── __init__.py  │ # In app/logic/run.py
-│   ├── sinus.py     │ import app.sound.decode
+│   ├── sinus.py     │ &gt;&gt;&gt; import app.sound.decode
 │   └── warp.py      │ ...
 │                    │
 ├── logic            │ # Use the Force:
-│   ├── __init__.py  │ app.sound.decode.some_func()
+│   ├── __init__.py  │ &gt;&gt;&gt; app.sound.decode.some_func()
 │   └── run.py       │
 │                    │
 ├── __main__.py      │ # Alternativ:
-├── __init__.py      │ import app.sound.decode as adc
-│                    │
-└── sound            │ ...
-    ├── decode.py    │ adc.some_func()
+├── __init__.py      │ &gt;&gt;&gt; import app.sound.decode as d
+│                    │ &gt;&gt;&gt; d.some_func()
+└── sound            │
+    ├── decode.py    │
     └── __init__.py  │
                      │</pre>
 </div>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="1000.0" data-y="3200.0" id="module-2">
+<div class="step slide section" data-x="2000" data-y="3200.0" id="module-2">
 <h1>
 Module #2<a class="headerlink" href="#module-2" title="Permalink to this headline">¶</a></h1>
 <p>
 Andere Formen von <tt class="docutils literal">
 <span class="pre">import</span></tt>:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="kn">from</span> <span class="nn">app.sound.decode</span> <span class="kn">import</span> <span class="n">some_func</span><span class="p">,</span> <span class="n">some_var</span>
-
-<span class="n">some_func</span><span class="p">(</span><span class="n">some_var</span><span class="p">)</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">app.sound.decode</span> <span class="kn">import</span> <span class="n">some_func</span><span class="p">,</span> <span class="n">some_var</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">some_func</span><span class="p">(</span><span class="n">some_var</span><span class="p">)</span>
 </pre></div>
 </div>
+<p>
+Unqualifizierter Import (<strong>
+Don&#8217;t do it</strong>):</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="c"># Not recommmended:</span>
-<span class="kn">from</span> <span class="nn">app.sound.decode</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="n">some_func</span><span class="p">(</span><span class="n">some_var</span><span class="p">)</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="c"># Bitte nicht tun da Namenskonflikte möglich:</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">app.sound.decode</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">some_func</span><span class="p">(</span><span class="n">some_var</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>
 Lange Modulnamen können abekürzt werden:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">app.sounde.decode</span> <span class="kn">as</span> <span class="nn">asd</span>
-
-<span class="n">asd</span><span class="o">.</span><span class="n">some_func</span><span class="p">(</span><span class="n">asd</span><span class="o">.</span><span class="n">some_var</span><span class="p">)</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">app.sounde.decode</span> <span class="kn">as</span> <span class="nn">asd</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">asd</span><span class="o">.</span><span class="n">some_func</span><span class="p">(</span><span class="n">asd</span><span class="o">.</span><span class="n">some_var</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="2000.0" data-y="3200.0" id="ubungen">
+<div class="step slide section" data-x="3000" data-y="3200.0" id="ubungen">
 <h1>
 Übungen<a class="headerlink" href="#ubungen" title="Permalink to this headline">¶</a></h1>
-<p>
-TODO</p>
 <dl class="docutils">
 <dt>
 <strong>
@@ -551,64 +641,97 @@ Schreibe ein Programm dass das 1x1 zeilenweise ausgibt:</p>
 2x1 = 2, 2x2 = 4, ...</pre>
 </div>
 </dd>
-<dt>
-<strong>
-ZooP</strong>:</dt>
-<dd>
-<p class="first">
-Schreibe eine Klasse Tier die eine Methode <tt class="docutils literal">
-<span class="pre">make_loud</span></tt>
-bereitstellt. Leite von dieser eine Klasse <tt class="docutils literal">
-<span class="pre">Katze</span></tt> ab,
-und überschreibe die <tt class="docutils literal">
-<span class="pre">make_loud</span></tt> Methode.</p>
-<p class="last">
-Stecke Instanzen der Objekte in eine Liste <tt class="docutils literal">
-<span class="pre">Zoo</span></tt>.
-Durchlaufe diese Liste und stelle fest ob es sich beim Objekt
-um eine Katze handelt.</p>
-</dd>
 </dl>
+<p>
+<strong>
+SortedList</strong>:</p>
+<blockquote>
+<div><p>
+Implementiere eine Collection die sich wie eine Liste verhält,
+nur dass <tt class="docutils literal">
+<span class="pre">append()</span></tt> Elemente sortiert hinzufügt.</p>
+<p>
+Zusätzliche Bemerkungen:</p>
+<blockquote>
+<div><ul class="simple">
+<li>
+Die Oberklasse sollte <tt class="docutils literal">
+<span class="pre">list</span></tt> sein.</li>
+<li>
+Methoden der Oberklasse können mit <tt class="docutils literal">
+<span class="pre">list.obermethode(self,</span> <span class="pre">argumente)</span></tt> angesprochen werden.</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
 <hr class="docutils">
 <p>
 Siehe auch: <a class="reference external" href="http://codingbat.com/python">
-http://codingbat.com/python</a></p>
+http://codingbat.com/python</a> wer etwas fürs Leben lernen will ☻</p>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="3000.0" data-y="3200.0" id="x1-losung">
+<div class="step slide section" data-x="0" data-y="4000.0" id="diese-folie-soll-spicken-verhindern">
+<h1>
+Diese Folie soll Spicken verhindern<a class="headerlink" href="#diese-folie-soll-spicken-verhindern" title="Permalink to this headline">¶</a></h1>
+<img alt="http://cl.jroo.me/z3/4/p/Y/d/a.baa-Waiting-For-The-One.jpg" class="align-center" src="http://cl.jroo.me/z3/4/p/Y/d/a.baa-Waiting-For-The-One.jpg" style="width: 700px;">
+</div>
+<div class="step slide section" data-x="1000" data-y="4000.0" id="x1-losung">
 <h1>
 1x1 Lösung<a class="headerlink" href="#x1-losung" title="Permalink to this headline">¶</a></h1>
-<div class="highlight-python">
-<div class="highlight"><pre><span class="c"># The clear one.</span>
-<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">y</span>  <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">&#39;</span><span class="si">%d</span><span class="s">x</span><span class="si">%d</span><span class="s"> = </span><span class="si">%d</span><span class="s">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">))</span>
-    <span class="k">print</span><span class="p">()</span>
-</pre></div>
-</div>
-<div class="highlight-python">
-<div class="highlight"><pre><span class="c"># The cool/performant one.</span>
-<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">product</span>
-
-<span class="n">ten</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="ow">in</span> <span class="n">product</span><span class="p">(</span><span class="n">ten</span><span class="p">,</span> <span class="n">ten</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">&#39;</span><span class="si">%d</span><span class="s">x</span><span class="si">%d</span><span class="s"> = </span><span class="si">%d</span><span class="s">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">))</span>
-</pre></div>
-</div>
-<div class="highlight-python">
-<div class="highlight"><pre><span class="c"># The oblivious one-liner.</span>
-<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">product</span>
-<span class="n">ten</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
-<span class="p">[</span><span class="s">&#39;</span><span class="si">%d</span><span class="s">x</span><span class="si">%d</span><span class="s">=</span><span class="si">%d</span><span class="s">&#39;</span><span class="o">%</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">x</span><span class="o">*</span><span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="ow">in</span> <span class="n">product</span><span class="p">(</span><span class="n">ten</span><span class="p">,</span><span class="n">ten</span><span class="p">)]</span>
-</pre></div>
-</div>
-</div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="3000.0" data-y="4000.0" id="zoo-oop">
-<h1>
-Zoo OOP<a class="headerlink" href="#zoo-oop" title="Permalink to this headline">¶</a></h1>
 <p>
-TODO</p>
+Die einfache, klare Lösung:</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="k">for</span> <span class="n">y</span>  <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
+<span class="gp">... </span>        <span class="k">print</span><span class="p">(</span><span class="s">&#39;</span><span class="si">%d</span><span class="s">x</span><span class="si">%d</span><span class="s"> = </span><span class="si">%d</span><span class="s">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">))</span>
+<span class="gp">... </span><span class="k">print</span><span class="p">()</span>
+</pre></div>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="2000.0" data-y="4000.0" id="id1">
+<p>
+Die Elegante und das Biest:</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">product</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ten</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="ow">in</span> <span class="n">product</span><span class="p">(</span><span class="n">ten</span><span class="p">,</span> <span class="n">ten</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="k">print</span><span class="p">(</span><span class="s">&#39;</span><span class="si">%d</span><span class="s">x</span><span class="si">%d</span><span class="s"> = </span><span class="si">%d</span><span class="s">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">))</span>
+</pre></div>
+</div>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">product</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">ten</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="s">&#39;</span><span class="si">%d</span><span class="s">x</span><span class="si">%d</span><span class="s">=</span><span class="si">%d</span><span class="s">&#39;</span><span class="o">%</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">x</span><span class="o">*</span><span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span> <span class="ow">in</span> <span class="n">product</span><span class="p">(</span><span class="n">ten</span><span class="p">,</span><span class="n">ten</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+<div class="step slide section" data-x="2000" data-y="4000.0" id="diese-folie-auch">
+<h1>
+Diese Folie auch<a class="headerlink" href="#diese-folie-auch" title="Permalink to this headline">¶</a></h1>
+<img alt="http://cdn.smosh.com/sites/default/files/bloguploads/meme-cows-mcdonald.jpg" class="align-center" src="http://cdn.smosh.com/sites/default/files/bloguploads/meme-cows-mcdonald.jpg" style="width: 500px;">
+</div>
+<div class="step slide section" data-x="3000" data-y="4000.0" id="sortedlist">
+<h1>
+SortedList<a class="headerlink" href="#sortedlist" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">SortedList</span><span class="p">(</span><span class="nb">list</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">iterable</span><span class="o">=</span><span class="p">[]):</span>
+        <span class="n">iterable</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+        <span class="nb">list</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">iterable</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">append</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">obj</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">elem</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">elem</span> <span class="o">&gt;=</span> <span class="n">obj</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">obj</span><span class="p">)</span>
+                <span class="k">break</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">obj</span><span class="p">)</span>
+
+<span class="n">sl</span> <span class="o">=</span> <span class="n">SortedList</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">])</span>
+<span class="n">sl</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">sl</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">sl</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">sl</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="step slide section" data-x="0" data-y="4800.0" id="id1">
 <h1>
 λ!<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -633,9 +756,9 @@ Vergleiche:</p>
 Python switcht bei Integer Overflows intern auf eine BigInteger Repräsentation.
 Das ist zwar weniger performant als good ol&#8217; Java, aber einfach bequemer.</p>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="1000.0" data-y="4000.0" id="higher-order-functions-aka-funktionendiefunktionenreturnen">
+<div class="step slide section" data-x="1000" data-y="4800.0" id="higher-order-functions-aka-closures">
 <h1>
-Higher Order Functions (aka FunktionenDieFunktionenReturnen)<a class="headerlink" href="#higher-order-functions-aka-funktionendiefunktionenreturnen" title="Permalink to this headline">¶</a></h1>
+Higher Order Functions (aka Closures)<a class="headerlink" href="#higher-order-functions-aka-closures" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li>
 In Python können Funktionen Funktionen zurückgeben.</li>
@@ -647,23 +770,27 @@ Da Funktionen auch nur Objekte sind können &#8220;speziliasierte&#8221; Funktio
 Beispiel</em>: Eine Funktion die einen speziellen Greeter zurückgibt.</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="k">def</span> <span class="nf">greeting_generator</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">greeter</span><span class="p">():</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">&#39;Hello&#39;</span><span class="p">,</span> <span class="n">name</span> <span class="o">+</span> <span class="s">&#39;!&#39;</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">greeter</span>
-
-<span class="n">f</span> <span class="o">=</span> <span class="n">greeting_generator</span><span class="p">(</span><span class="s">&#39;Python&#39;</span><span class="p">)</span>
-<span class="n">f</span><span class="p">()</span> <span class="c"># Hello Python!</span>
+     <span class="k">def</span> <span class="nf">greeter</span><span class="p">():</span>
+         <span class="k">print</span><span class="p">(</span><span class="s">&#39;Hello&#39;</span><span class="p">,</span> <span class="n">name</span> <span class="o">+</span> <span class="s">&#39;!&#39;</span><span class="p">)</span>
+     <span class="k">return</span> <span class="n">greeter</span>
+</pre></div>
+</div>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">f</span> <span class="o">=</span> <span class="n">greeting_generator</span><span class="p">(</span><span class="s">&#39;Python&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">f</span><span class="p">()</span>
+<span class="go">Hello Python!</span>
 </pre></div>
 </div>
 <p>
 in Java vielleicht am ehesten vergleichbar mit dem <tt class="docutils literal">
 <span class="pre">Factory</span></tt> Pattern.</p>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="0.0" data-y="4000.0" id="dekoratoren">
+<div class="step slide section" data-x="2000" data-y="4800.0" id="dekoratoren">
 <h1>
 Dekoratoren<a class="headerlink" href="#dekoratoren" title="Permalink to this headline">¶</a></h1>
 <p>
-Funktionen/Klassen können &#8220;dekoriert&#8221; werden, ähnlich dem aus Java bekannten Decorator-Pattern.
+Funktionen/Klassen können &#8220;dekoriert&#8221; werden, <em>
+ähnlich</em> dem aus Java bekannten Decorator-Pattern.
 Nur weitaus einfacher zu nutzen:</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="k">def</span> <span class="nf">bold</span><span class="p">(</span><span class="n">fn</span><span class="p">):</span>
@@ -676,15 +803,16 @@ Nur weitaus einfacher zu nutzen:</p>
 
 <span class="nd">@bold</span>
 <span class="nd">@italic</span>
-<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">return</span> <span class="s">&#39;Hello World&#39;</span>
-
-<span class="c"># Entspricht: bold(italic(hello()))</span>
-<span class="k">print</span><span class="p">(</span><span class="n">hello</span><span class="p">())</span> <span class="c"># =&gt; &lt;b&gt;&lt;i&gt;Hello World&lt;/i&gt;&lt;/b&gt;</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span> <span class="k">return</span> <span class="s">&#39;Hello World&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">hello</span><span class="p">()</span> <span class="c"># Entspricht: bold(italic(hello()))</span>
+<span class="go">&#39;&lt;b&gt;&lt;i&gt;Hello World&lt;/i&gt;&lt;/b&gt;&#39;</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="0.0" data-y="4800.0" id="list-comprehensions">
+<div class="step slide section" data-x="3000" data-y="4800.0" id="list-comprehensions">
 <h1>
 List Comprehensions<a class="headerlink" href="#list-comprehensions" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -698,8 +826,8 @@ bestimmte Funktion berechnen?</p>
 <em>
 Beispiel</em>: Die Funktion 2**x im Definitionsbereich 0-9:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="k">print</span><span class="p">([</span><span class="mi">2</span><span class="o">**</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)])</span>
-<span class="c"># = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="mi">2</span><span class="o">**</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+<span class="go">[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]</span>
 </pre></div>
 </div>
 <p>
@@ -708,12 +836,12 @@ Oft nutzt man Comprehensions auch für das Filtern von Listen.</p>
 <em>
 Beispiel</em>: Wie oben, aber nur alle ungeraden Exponenten, und als String formattiert:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="k">print</span><span class="p">([</span><span class="s">&#39;f(</span><span class="si">%d</span><span class="s">)=</span><span class="si">%d</span><span class="s">&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="mi">2</span><span class="o">**</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span><span class="o">%</span><span class="mi">2</span><span class="p">])</span>
-<span class="c"># = [&#39;f(1)=2&#39;,&#39;f(3)=8&#39;,&#39;f(5)=32&#39;,&#39;f(7)=128&#39;,&#39;f(9)=512&#39;]</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="s">&#39;f(</span><span class="si">%d</span><span class="s">)=</span><span class="si">%d</span><span class="s">&#39;</span> <span class="o">%</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="mi">2</span><span class="o">**</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span><span class="o">%</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">[&#39;f(1)=2&#39;,&#39;f(3)=8&#39;,&#39;f(5)=32&#39;,&#39;f(7)=128&#39;,&#39;f(9)=512&#39;]</span>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="1000.0" data-y="4800.0" id="generatoren">
+<div class="step slide section" data-x="0" data-y="5600.0" id="generatoren">
 <h1>
 Generatoren<a class="headerlink" href="#generatoren" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -731,7 +859,7 @@ Generatoren<a class="headerlink" href="#generatoren" title="Permalink to this he
 </pre></div>
 </div>
 <p>
-Überfordert? Dann jetzt was einfaches:</p>
+Generator Expressions nutzen die von LH bekannten Syntax:</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="c"># Zeige alle Quadratzahlen,</span>
 <span class="c"># deren Wurzel ungerade ist:</span>
@@ -741,12 +869,10 @@ Generatoren<a class="headerlink" href="#generatoren" title="Permalink to this he
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="2000.0" data-y="4800.0" id="with">
+<div class="step slide section" data-x="1000" data-y="5600.0" id="with">
 <h1>
 <tt class="docutils literal">
 <span class="pre">with</span></tt><a class="headerlink" href="#with" title="Permalink to this headline">¶</a></h1>
-<p>
-Usual way:</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="k">try</span><span class="p">:</span>
     <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;file.txt&#39;</span><span class="p">,</span><span class="s">&#39;w&#39;</span><span class="p">)</span>
@@ -772,7 +898,7 @@ Als Beispiel könnte man eine Mutex-Klasse implementieren:</p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="1000" data-rotate-z="0" data-x="3000.0" data-y="4800.0" id="die-philosophie">
+<div class="step slide section" data-x="2000" data-y="5600.0" id="die-philosophie">
 <h1>
 Die Philosophie<a class="headerlink" href="#die-philosophie" title="Permalink to this headline">¶</a></h1>
 <dl class="docutils">
@@ -804,9 +930,24 @@ Und man sollte ihn nicht widerwillig lesen müssen.</dd>
 Programmieren sollte Spass machen.</strong></dt>
 <dd>
 Gegen Compiler/Sprache kämpfen macht wenig Spaß.</dd>
+<dt>
+<strong>
+If the implementation is hard to explain, it&#8217;s a bad idea.</strong></dt>
+<dd>
+If the implementation is easy to explain, it may be a good idea.</dd>
+<dt>
+<strong>
+Special cases aren&#8217;t special enough to break the rules.</strong></dt>
+<dd>
+Although practicality beats purity.</dd>
+<dt>
+<strong>
+Errors should never pass silently.</strong></dt>
+<dd>
+Unless explicitly silenced.</dd>
 </dl>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="3000.0" data-y="5600.0" id="python-ist-sehr-kurz">
+<div class="step slide section" data-x="3000" data-y="5600.0" id="python-ist-sehr-kurz">
 <h1>
 Python ist sehr kurz<a class="headerlink" href="#python-ist-sehr-kurz" title="Permalink to this headline">¶</a></h1>
 <div class="highlight-python">
@@ -832,20 +973,21 @@ Python ist sehr kurz<a class="headerlink" href="#python-ist-sehr-kurz" title="Pe
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-incr-x="-1000" data-rotate-z="180" data-x="2000.0" data-y="5600.0" id="sonstiges">
+<div class="step slide section" data-x="0" data-y="6400.0" id="fragen">
 <h1>
-Sonstiges<a class="headerlink" href="#sonstiges" title="Permalink to this headline">¶</a></h1>
+Fragen?<a class="headerlink" href="#fragen" title="Permalink to this headline">¶</a></h1>
 <p>
-Mit <tt class="docutils literal">
+<em>
+Beispielsfrage</em>: <strong>
+Mit was wurde die Präsentation gemacht?</strong></p>
+<blockquote>
+<div><p>
+Blut, Spucke, Python und HTML.</p>
+<p>
+Genau genommen mit <tt class="docutils literal">
 <span class="pre">python-impress</span></tt> gerendert:  <a class="reference external" href="http://www.github.com/gawell/impress">
 http://www.github.com/gawell/impress</a></p>
-</div>
-<div class="step center section" data-incr-x="-1000" data-rotate-z="180" data-x="2500.0" data-y="-1000" id="spezielle-features">
-<h1>
-Spezielle Features<a class="headerlink" href="#spezielle-features" title="Permalink to this headline">¶</a></h1>
-<p>
-Python hat einige Features die es von vielen kompilierten und
-interpretierten Sprachen abheben.</p>
+</div></blockquote>
 </div>
 
 

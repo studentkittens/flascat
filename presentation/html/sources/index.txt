@@ -1,5 +1,5 @@
 .. impress::
-   :func: square2
+   :func: square
 
 =============================================
 Ein **Hochgeschwindigkeitskurs** durch Python
@@ -10,9 +10,8 @@ Ein **Hochgeschwindigkeitskurs** durch Python
    :data-x: 3500
    :data-y: -1000
 
-.. image:: http://abstrusegoose.com/strips/batteries_included.PNG
-   :height: 300
-   :align: left
+.. image:: http://imgs.xkcd.com/comics/python.png
+   :align: center
 
 Vorwort
 -------
@@ -25,30 +24,41 @@ Vorwort
   geschweige denn sie auch nur im Ansatz zu verstehen.
 * Deshalb soll der Vortrag eher dazu dienen euren Appetit zu wecken, und euch
   ein gewisses Gefühl für die Sprache geben.
-
-  * Wenn jemand später Lust verspürt mit Python zu spielen haben wir unser Ziel erreicht.
+  Wenn jemand später Lust verspürt mit Python zu spielen haben wir unser Ziel erreicht.
 
 * Hier sollen nur Grundbegriffe vermittelt und ein Ausblick gegeben werden.
+  Speziell auch ein paar von Python's coolen Features.
 
-  * Speziell auch ein paar von Python's coolen Features.
-
-* Falls jemand Fragen hat: einfach reinbrüllen.
+    * Falls jemand Fragen hat: einfach reinbrüllen.
 
 * Wer dazu Lust verspürt kann auch die Beispiele selbst ausprobieren, 
   siehe nächste Folie.
+
+* Kurzbeschreibung von Python: 
+
+    | *Python is a general-purpose, interpreted, garbage-collected,*
+    | *typeless high-level programming language whose*
+    | *design philosophy emphasizes code readability.*
+
+* **Paradigmen:** Object-Oriented, Imperative, Funktional, Prozedual, Reflektiv
 
 Die Shell (REPL)
 ----------------
 
 * Python kann interaktiv ausprobiert werden.
 * Mitgeliefert gibt es die ``python`` Shell
-* Auch ,,REPL'' (Read-Eval-Print-Loop) genannt: ::
+* Auch ,,REPL'' (Read-Eval-Print-Loop) genannt:
 
-    $ python 
-    >>> a = 1 + 1
-    2
-    >>> print('1 + 1 =', a)
-    1 + 1 = 2
+    .. code-block:: bash
+        
+        $ python
+
+    ::
+
+        >>> a = 1 + 1
+        2
+        >>> print('1 + 1 =', a)
+        1 + 1 = 2
 
 * Leider: Etwas unbequem, da keine Syntaxhighlighting / Autocomplete.
 * Wir empfehlen/verwenden daher **bpython**.
@@ -67,53 +77,52 @@ Gibts nicht. Waren zu teuer.
 * Dieses Prinzip nennt sich ``Duck Typing``.
 * Zur Laufzeit lassen sich ``Array`` und ``Liste`` mittels ``type()`` auseinanderhalten.
   
-  * Aber für gewöhnlich braucht man das nicht.
+  * Aber für gewöhnlich braucht man das nicht, da sich viele Klassen ähnlich verhalten: ::
 
-::
-
-    a = []
+        >>> a, b = [1, 2, 3], (4, 5, 5)
+        >>> print(a.count(1), b.count(5))
+        1 2
 
 
 Literale
 --------
 
-Strings: ::
+Strings (immer Immutable): ::
 
-    'Hello World' # Ein Stringliteral
-    "Hello World" # Dasselb (Anders als in Ruby!)
+    >>> 'Hello World' # Ein Stringliteral
+    >>> "Hello World" # Dasselbe (Anders als in Ruby!)
+    >>> '''Geht auch  # Das ist kein Kommentar.
+    ... über mehrere
+    ... Zeilen'''
 
-    '''Geht auch  # Das ist kein Kommentar.
-    über mehrere
-    Zeilen'''
+Numbers (auch Immutable): ::
 
-Numbers: ::
-
-    a, b = 42, 42.21 # Ganzzahlen, Floats + Zuweisung.
-    a, b = 0o777, 0xDEADBEEF  # Hex/Oktal-zahlen
+    >>> a, b = 42, 42.21 # Ganzzahlen, Floats + Zuweisung.
+    >>> a, b = 0o777, 0xDEADBEEF  # Hex/Oktal-zahlen
 
 Zuweisungen: ::
 
-    a,b = b,a      # Swap a, b
+    >>> a,b = b,a      # Swap a, b
 
-List
-----
+Listen
+------
 
-Listen werden wie Arrays in anderen Sprachen genutzt:
+Listen werden wie Arrays in anderen Sprachen genutzt: ::
 
-.. code-block:: python
+    >>> pointless_list = [42, 'Apple', []]
 
-    pointless_list = [42, 'Apple', []]
-
-Zugriff auf Elemente und ,,Slicing'' (wie ``subList()``).
+Zugriff auf Elemente und ,,Slicing'' (wie ``subList()``):
 
 Im Allgemeinen: ``liste[start{:end{:step}}]`` ::
     
-    pointless_list[0]     # 42
-    pointless_list[0:1]   # 42, 'Apple'
-    pointless_list[1:]    # 'Apple', [] 
-    pointless_list[:1]    # 42, 'Apple' 
-    pointless_list[0:3:2] # 42, []
-    pointless_list[::-1]  # [], 'Apple', 42
+    >>> pointless_list[0] 
+    42
+    >>> pointless_list[0:2]
+    [42, 'Apple']
+    >>> pointless_list[:1]
+    [42, 'Apple']
+    >>> pointless_list[0:3:2]
+    [42, []]
 
 
 (In Etwa) Java-Äquivalent: ``java.util.ArrayList``
@@ -124,8 +133,8 @@ Tupel
 * Tupel sind wie Listen, nur dass sie Immutable sind. 
 * Statt mit eckigen Klammern werden sie mit runden Klammern definiert: ::
 
-    pointless_tuple = (1, 2, 3)
-    pointless_tuple[0] = 2 # Nope, TypeError.
+    >>> pointless_tuple = (1, 2, 3)
+    >>> pointless_tuple[0] = 2 # Nope, TypeError.
 
 * Tupel werden immer dann verwedent wenn man Dinge in einer bestimmten Reihenfolge packen muss.
  
@@ -133,29 +142,26 @@ Tupel
 
 * Ein Tupel mit einem Element wird mit folgender Syntax deklariert: ::
 
-    one_elem_tuple = (1,) # Sieht seltsam aus
-
-    # Alternativ:
-    one_elem_tuple = tuple([1])
+    >>> one_elem_tuple = (1,) # Sieht seltsam aus
+    >>> one_elem_tuple = tuple([1]) # Alternative
 
 Dictionaries
 ------------
 
 .. code-block:: python
 
-    pointless_dict = {
-        'Apple': ['juicy', 'red', 'healthy'],
-        'Orange': ['juicy', 'not red'],
-        'Watermelon': 42
+    >>> pointless_dict = {
+    ...  'Apple': ['juicy', 'red', 'healthy'],
+    ...  'Orange': ['juicy', 'not red'],
+    ...  'Watermelon': 42
     }
-
-    pointless_dict['Apple'] # ['juicy', 'red', 'healthy']
-    
-    # throws a ,,KeyError''
-    pointless_dict['Peach'] 
-
-    pointless_dict['Peach'] = 'A hairy fruit'
-    pointless_dict['Peach']  # => liefert 'A hairy fruit'
+    >>> pointless_dict['Apple']
+    ['juicy', 'red', 'healthy']
+    >>> pointless_dict['Peach'] 
+    <KeyError>
+    >>> pointless_dict['Peach'] = 'A hairy fruit'
+    >>> pointless_dict['Peach']
+    'A hairy fruit'
 
 * Java-Äquivalent: ``java.util.HashMap``
 * Dictionaries werden in Python ständig eingesetzt.
@@ -165,19 +171,20 @@ Bedingungen
 -----------
 
 .. code-block:: python
-    
-    if <expr>:
+
+    # Beachte Einrückung statt {}!
+    if 'cow' == 'dog':
         pass
-    elif <expr>:
+    elif 1 == 2:
         pass
-    else:
-        pass
+    else: pass
 
 Bedingte Zuweisung:
 
 .. code-block:: python
 
-    a = <val_on_truth> if <expr> else <val_on_untrue>
+    >>> a = 21 if not truth else 42 # a = (truth) ? 21:42;
+    42
 
 Unwahrheitswerte (unvollständig):
 
@@ -192,49 +199,49 @@ Schleifen
 
 .. code-block:: python
    
-   # 1,3,5,7,9            # Ungeraden Zahlen von 1-10
-   for i in range(1,10,2):#
-       print(i)           # 1  = Start (optional) 
-                          # 10 = End 
-    # 0-9                 # 2  = Step (optional)
-    for i in range(10):   # 
-         print(i)         # In C-Ähnlichen Sprachen:
-                          # for(int i=1; i<10; i+=2) {
-                          #   printf("%d\n", i)
-                          # }
+    # 1,3,5,7,9            # Ungeraden Zahlen von 1-10
+    for i in range(1,10,2):#
+        print(i)           # 1  = Start (optional) 
+                           # 10 = End 
+    # 0-7                  # 2  = Step (optional)
+    for i in range(10):    # 
+        print(i)           # In C-Ähnlichen Sprachen:
+        if i == 7:         # for(int i=1; i<10; i+=2) {
+            break          #   printf("%d\n", i)
+                           # }
+                           # Kontrolle: continue, break
 
 * → ``range(10)`` gibt ein Iterator zurück. 
 
 .. code-block:: python
     
-    while <expr>: # while(<expr>) {
-        pass      #     do_something;
-                  # }
+    while metal is True:   # while(<expression>) {
+        do_something       #     do_something;
+                           # }
 
 Funktionen #1
 -------------
 
 ::
 
-    # Defintion
-    def hello():
-        print('Hello')
+    >>> # Defintion
+    >>> def hello():
+    ...     print('Hello')
+    ...
+    >>> # Redefinition
+    >>> def hello():
+    ...     return 'Hello'
+    ...
+    >>> print(hello())
 
-    # Redefinition
-    def hello():
-        return 'Hello'
-
-    # Aufruf
-    print(hello())
-
-    def doublegreet(message):
-        return message * 2
-
-    # Parametrisierter Aufruf
-    print(doublegreet('Hello')) # HelloHello
-
-    # Benannte Parameter:
-    print(doublegreet(message='Hello')) # -"-
+    >>> # Parametrisierte Funktionen 
+    >>> def doublegreet(message):
+    ...     return message * 2
+    ...
+    >>> print(doublegreet('Hello'))
+    HelloHello
+    >>> print(doublegreet(message='Hello'))
+    HelloHello
 
 Funktionen #2
 -------------
@@ -246,7 +253,7 @@ Funktionen #2
 
     print_bracketed(1, 2, 3) # Prints: [1] [2] [3]
     
-* **\*kwargs** - Variable Paramter ::
+* **\*\*kwargs** - Variable KeyWord Paramter ::
 
     def print_params(**kwargs):
         for key, value in kwargs.items():
@@ -255,8 +262,8 @@ Funktionen #2
     print_params(name='Paul', job='Hauskatze')
 
 * Alle möglichen Mischformen möglich. 
-* ``kwargs`` muss als letztes stehen
-* ``args`` mindestens als vorletztes
+* ``kwargs`` muss als letztes stehen.
+* ``args`` mindestens als vorletztes.
 
 Exceptions
 ----------
@@ -268,34 +275,43 @@ Fangen: ::
     except NameError:
         print('Du hast vergessen b zu definieren.')
     finally:
-        print('Wird immer ausgeführt')
+        print('Wird immer ausgeführt.')
 
 Werfen: ::
 
-    raise AttributeError('Kein Pelz.')
+    raise AttributeError('Keine Kuscheldecke gefunden.')
 
-Wurfeschosse erstellen: ::
+Eigene Wurfgeschosse erstellen: ::
 
     class OnSuccessError(Exception):
         pass
 
-Getting Help
-------------
+Hilfe? (…Don't Panic!)
+----------------------
 
-* Use bpython
-* Use the ``__doc__`` member
-* Use ``dir()``
-* Die offziele Referenz. Empfehlenswert:
+* Python setzt auf Selbstdokumentation, sprich auslesbare Kommentare: ::
 
-  http://python.org/doc/
+    def make_money(papier, tinte, schein):
+        '''
+        Erzeugt Geld aus Papier, Tinte.
+
+        :papier: Eine Instanz der Klasse Papier
+        :tinte: Die Helligkeit der Tinte von 0-100.
+        :returns: Eine neue Schein Instanz
+        '''
+        return Schein(papier, tinte)
+    print(make_money.__doc__)
 
 
-TODO
+* ``RestructuredText`` ist dabei das gängige Dokumentationsformat.
+   Diese Folien sind beispielsweise darin verfasst.
+* Die offizielle Referenz/Tutorial: http://python.org/doc/
+* Auch nützlich: die ``dir()`` Funktion, zum Auflisten von Membern.
 
-Klassen
--------
+Klassen #1
+----------
 
-TODO
+*Überraschung*: Es gibt keine ``private`` / ``protected`` Variablen:
 
 .. code-block:: python
 
@@ -315,6 +331,29 @@ TODO
 
     son = B('Peter')
     son.call_me_please() # same as: B.call_me_please(son)
+
+Klassen #2
+----------
+
+Properties machen das Ersetzen von Attributen mit Gettern/Settern einfach,
+**ohne** dabei die Schnittstelle seiner Klasse zu ändern: :: 
+
+    class Coffee:
+        def __init__(self, vol=1):
+            self._vol = vol
+
+        def set_vol(self, new_vol): self._vol = new_vol * 3
+
+        def get_vol(self): return self._vol
+
+        vol = property(get_vol, set_vol)
+
+::
+
+    >>> mocka = Coffee()
+    >>> mocka.vol = 3    # Setter Aufruf
+    >>> print(mocka.vol) # Getter Afuruf
+    9
 
 Duck Typing
 -----------
@@ -347,18 +386,18 @@ Beispiel-Layout:
     │                    │
     ├── effects          │ 
     │   ├── __init__.py  │ # In app/logic/run.py
-    │   ├── sinus.py     │ import app.sound.decode
+    │   ├── sinus.py     │ >>> import app.sound.decode
     │   └── warp.py      │ ...
     │                    │
     ├── logic            │ # Use the Force:
-    │   ├── __init__.py  │ app.sound.decode.some_func()
+    │   ├── __init__.py  │ >>> app.sound.decode.some_func()
     │   └── run.py       │ 
     │                    │
     ├── __main__.py      │ # Alternativ:
-    ├── __init__.py      │ import app.sound.decode as adc
-    │                    │
-    └── sound            │ ... 
-        ├── decode.py    │ adc.some_func()
+    ├── __init__.py      │ >>> import app.sound.decode as d 
+    │                    │ >>> d.some_func()
+    └── sound            │  
+        ├── decode.py    │ 
         └── __init__.py  │
                          │
 
@@ -366,34 +405,25 @@ Beispiel-Layout:
 Module #2
 ---------
 
-Andere Formen von ``import``:
+Andere Formen von ``import``: ::
 
-.. code-block:: python
-    
-    from app.sound.decode import some_func, some_var
+    >>> from app.sound.decode import some_func, some_var
+    >>> some_func(some_var)
 
-    some_func(some_var)
+Unqualifizierter Import (**Don't do it**): ::
 
-.. code-block:: python
+    >>> # Bitte nicht tun da Namenskonflikte möglich:
+    >>> from app.sound.decode import * 
+    >>> some_func(some_var)
 
-    # Not recommmended:
-    from app.sound.decode import * 
+Lange Modulnamen können abekürzt werden: ::
 
-    some_func(some_var)
-
-Lange Modulnamen können abekürzt werden:
-
-.. code-block:: python
-
-    import app.sounde.decode as asd
-
-    asd.some_func(asd.some_var)
+    >>> import app.sounde.decode as asd
+    >>> asd.some_func(asd.some_var)
 
 
 Übungen
 --------
-
-TODO
 
 **1x1**:
     Schreibe ein Programm dass das 1x1 zeilenweise ausgibt: ::
@@ -401,51 +431,86 @@ TODO
       1x1 = 1, 1x2 = 2, ...
       2x1 = 2, 2x2 = 4, ...
 
-**ZooP**:
-    Schreibe eine Klasse Tier die eine Methode ``make_loud`` 
-    bereitstellt. Leite von dieser eine Klasse ``Katze`` ab,
-    und überschreibe die ``make_loud`` Methode. 
+**SortedList**:
 
-    Stecke Instanzen der Objekte in eine Liste ``Zoo``.
-    Durchlaufe diese Liste und stelle fest ob es sich beim Objekt 
-    um eine Katze handelt.
+    Implementiere eine Collection die sich wie eine Liste verhält,
+    nur dass ``append()`` Elemente sortiert hinzufügt. 
+
+    Zusätzliche Bemerkungen: 
+
+        * Die Oberklasse sollte ``list`` sein.
+        * Methoden der Oberklasse können mit ``list.obermethode(self, argumente)`` angesprochen werden.
 
 ----
 
-Siehe auch: http://codingbat.com/python
+Siehe auch: http://codingbat.com/python wer etwas fürs Leben lernen will ☻
+
+Diese Folie soll Spicken verhindern
+-----------------------------------
+
+
+.. image:: http://cl.jroo.me/z3/4/p/Y/d/a.baa-Waiting-For-The-One.jpg
+   :width: 700
+   :align: center
 
 1x1 Lösung
 ----------
 
-.. code-block:: python
+Die einfache, klare Lösung:
 
-    # The clear one.
-    for x in range(1,10):
-        for y  in range(1,10):
-            print('%dx%d = %d' % (x, y, x * y))
-        print()
+::
 
-.. code-block:: python
+    >>> for x in range(1,10):
+    ...     for y  in range(1,10):
+    ...         print('%dx%d = %d' % (x, y, x * y))
+    ... print()
+
+Die Elegante und das Biest:
+
+::
     
-    # The cool/performant one. 
-    from itertools import product
-
-    ten = range(1,10)
-    for x,y in product(ten, ten):
-        print('%dx%d = %d' % (x, y, x * y))
+    >>> from itertools import product
+    >>> ten = range(1,10)
+    >>> for x,y in product(ten, ten):
+    ...     print('%dx%d = %d' % (x, y, x * y))
         
-.. code-block:: python
+::
 
-    # The oblivious one-liner.
-    from itertools import product
-    ten = range(1,10)
-    ['%dx%d=%d'%(x,y,x*y) for x,y in product(ten,ten)]
+    >>> from itertools import product
+    >>> ten = range(1,10)
+    >>> ['%dx%d=%d'%(x,y,x*y) for x,y in product(ten,ten)]
 
 
-Zoo OOP
--------
+Diese Folie auch
+----------------
 
-TODO
+.. image:: http://cdn.smosh.com/sites/default/files/bloguploads/meme-cows-mcdonald.jpg
+    :width: 500
+    :align: center
+
+SortedList
+----------
+
+::
+
+    class SortedList(list):
+        def __init__(self, iterable=[]):
+            iterable.sort()
+            list.__init__(self, iterable)
+
+        def append(self, obj):
+            for i, elem in enumerate(self):
+                if elem >= obj:
+                    self.insert(i, obj)
+                    break
+            else:
+                list.append(self, obj)
+
+    sl = SortedList([3,4,8,9])
+    sl.append(5)
+    sl.append(0)
+    sl.append(42)
+    print(sl)
 
 λ!
 --
@@ -472,35 +537,24 @@ Vergleiche:
 Python switcht bei Integer Overflows intern auf eine BigInteger Repräsentation.
 Das ist zwar weniger performant als good ol' Java, aber einfach bequemer.
 
-
-Spezielle Features
-==================
-
-.. step::
-   :class: center
-   :data-x: 3500
-   :data-y: -1000
-
-Python hat einige Features die es von vielen kompilierten und
-interpretierten Sprachen abheben.
-
-Higher Order Functions (aka FunktionenDieFunktionenReturnen)
+Higher Order Functions (aka Closures)
 ------------------------------------------------------------
 
 * In Python können Funktionen Funktionen zurückgeben.
 * Da Funktionen auch nur Objekte sind können "speziliasierte" Funktionen auch zur Laufzeit instanziert werden.
 
-*Beispiel*: Eine Funktion die einen speziellen Greeter zurückgibt. 
+*Beispiel*: Eine Funktion die einen speziellen Greeter zurückgibt. ::
 
-.. code-block:: python
-
-     def greeting_generator(name):
+    def greeting_generator(name):
          def greeter():
              print('Hello', name + '!')
          return greeter
 
-     f = greeting_generator('Python')
-     f() # Hello Python!
+::
+
+     >>> f = greeting_generator('Python')
+     >>> f()
+     Hello Python!
 
 in Java vielleicht am ehesten vergleichbar mit dem ``Factory`` Pattern.
 
@@ -508,10 +562,8 @@ in Java vielleicht am ehesten vergleichbar mit dem ``Factory`` Pattern.
 Dekoratoren
 -----------
 
-Funktionen/Klassen können "dekoriert" werden, ähnlich dem aus Java bekannten Decorator-Pattern. 
-Nur weitaus einfacher zu nutzen:
-
-.. code-block:: python
+Funktionen/Klassen können "dekoriert" werden, *ähnlich* dem aus Java bekannten Decorator-Pattern. 
+Nur weitaus einfacher zu nutzen: ::
 
      def bold(fn):
         def wrapped(): return '<b>' + fn() + '</b>'
@@ -523,11 +575,12 @@ Nur weitaus einfacher zu nutzen:
 
      @bold
      @italic
-     def hello():
-         return 'Hello World'
+     def hello(): return 'Hello World'
 
-     # Entspricht: bold(italic(hello()))
-     print(hello()) # => <b><i>Hello World</i></b>
+::
+     
+     >>> hello() # Entspricht: bold(italic(hello()))
+     '<b><i>Hello World</i></b>'
 
 List Comprehensions
 -------------------
@@ -537,12 +590,10 @@ bestimmte Funktion berechnen? ::
 
     [f(x) for x in interval] # f(x) für x ∈ interval
 
-*Beispiel*: Die Funktion 2**x im Definitionsbereich 0-9:
+*Beispiel*: Die Funktion 2**x im Definitionsbereich 0-9: ::
 
-.. code-block:: python
-
-    print([2**x for x in range(10)])
-    # = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+    >>> [2**x for x in range(10)]
+    [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
 
 Oft nutzt man Comprehensions auch für das Filtern von Listen.
 
@@ -550,8 +601,8 @@ Oft nutzt man Comprehensions auch für das Filtern von Listen.
 
 .. code-block:: python
 
-    print(['f(%d)=%d' %(x,2**x) for x in range(10) if x%2])
-    # = ['f(1)=2','f(3)=8','f(5)=32','f(7)=128','f(9)=512']
+    >>> ['f(%d)=%d' %(x,2**x) for x in range(10) if x%2]
+    ['f(1)=2','f(3)=8','f(5)=32','f(7)=128','f(9)=512']
 
 Generatoren
 -----------
@@ -569,7 +620,7 @@ Generatoren
     for i in random42(10):
         print(i)
  
-Überfordert? Dann jetzt was einfaches:
+Generator Expressions nutzen die von LH bekannten Syntax:
 
 .. code-block:: python
 
@@ -582,7 +633,7 @@ Generatoren
 ``with`` 
 --------
 
-Usual way: ::
+::
 
     try:
         f = open('file.txt','w')
@@ -614,6 +665,12 @@ Die Philosophie
     Und man sollte ihn nicht widerwillig lesen müssen.
 **Programmieren sollte Spass machen.**
     Gegen Compiler/Sprache kämpfen macht wenig Spaß.
+**If the implementation is hard to explain, it's a bad idea.**
+    If the implementation is easy to explain, it may be a good idea.
+**Special cases aren't special enough to break the rules.**
+    Although practicality beats purity.
+**Errors should never pass silently.**
+    Unless explicitly silenced.
 
 
 Python ist sehr kurz
@@ -642,7 +699,11 @@ Python ist sehr kurz
     pprint.pprint(dups)
 
 
-Sonstiges
----------
+Fragen?
+-------
 
-Mit ``python-impress`` gerendert:  http://www.github.com/gawell/impress
+*Beispielsfrage*: **Mit was wurde die Präsentation gemacht?**
+
+    Blut, Spucke, Python und HTML.
+
+    Genau genommen mit ``python-impress`` gerendert:  http://www.github.com/gawell/impress
