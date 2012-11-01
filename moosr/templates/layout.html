@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/1999/xhtml">
+
+<html>
+    <head>
+        <meta name="description" content="A music metadata search engine.">
+        <meta name="keywords" content="lyric, cover, search, artist, album, metadata">
+        <meta name="author" content="Kitteh & Elk">
+        <meta charset="utf-8">
+        <title>
+            Elchr.
+        </title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='layout.css') }}">
+    </head>
+    <body>
+
+        <div id="mainmenue">
+            <button class="button" type="button">home</button>
+            <button class="button" type="button">philosophy</button>
+            <button class="button" type="button">api</button>
+            <button class="button" type="button">help</button>
+            <button class="button" type="button">about us</button>
+        </div>
+
+        <div id="container">
+
+            <div id="header">
+                <p><img src="{{url_for('static', filename='logo_full.png')}}" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="150"></p>
+                <p>
+                A music metadata search engine.
+                </p>
+
+                <div id="searchbar">
+                    <form >
+                        <input  class="search_form" size="45" type="text" name="search_term">
+                        <button class="search_button" type="button">get it!</button>
+
+                    </form> 
+                </div>
+
+            </div>
+
+            {% block body %}{% endblock %}
+
+        </div>
+    </div>
+    <div id="footer">
+        impressum
+        <img src="img/icon_flickr.png" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+        <img src="img/icon_googleplus.png" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+        <img src="img/icon_facebook.png" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+        <img src="img/icon_twitter.png" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+        <img src="img/icon_email.png" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+        <img src="img/icon_rss.png" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+    </div>
+</body>
+</html>
