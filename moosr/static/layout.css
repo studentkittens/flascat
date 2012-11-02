@@ -179,6 +179,7 @@ http://designshack.net/articles/css/6-useful-css-button-recipes-you-can-copy-pas
 .search_button:active {
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6DB700), to(#99CF00));
     background: -moz-linear-gradient(19% 75% 90deg,#99CF00, #6DB700);
+    color:black;
 }
 .search_form{
     background-color:#ffffff;
@@ -195,3 +196,24 @@ http://designshack.net/articles/css/6-useful-css-button-recipes-you-can-copy-pas
     padding-left: 240px;
 }
 
+/*
+ *http://www.web-spirit.de/webdesign-tutorial/6/CSS-Tagcloud-(Schlagwortwolke)
+ */
+
+#tagcloud{
+    margin: 10px auto;
+    width: 500px;
+    border: 1px solid #ccc;
+    text-align:center;
+    background: #303030; 
+    padding:10px 5px 10px 5px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+}
+
+.tag1{ font-size:1em; color:#555555; line-height:1em; }
+.tag2{ font-size:1.2em; color:#606060; line-height:1em; }
+.tag3{ font-size:1.4em; color:#808080; line-height:1em; }
+
+#tagcloud a{ text-decoration:none; }
+#tagcloud a:hover{ text-decoration:underline; }
