@@ -25,11 +25,11 @@ def main_page():
 
 @app.route('/do_search', methods=['POST', 'GET'])
 def do_search():
-    if request.method == 'GET':
+    if request.method == 'POST':
         artist = "Slunt" #requestbform['artist']
         album  = "get a load of this" # request.form['album']
-        print(artist, album)
-
+        searchstr = request.form['search_term']
+        artist, album = searchstr.split('+')
         qry = plyr.Query(artist=artist, album=album, get_type='cover', database=plyr.Database('.'))
         qry.verbosity = 4
         results = qry.commit()

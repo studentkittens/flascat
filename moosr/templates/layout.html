@@ -30,9 +30,9 @@
                 </p>
 
                 <div id="searchbar">
-                    <form >
+                    <form action="{{ url_for('do_search') }}"  method=post>
                         <input  class="search_form" size="45" type="text" name="search_term">
-                        <button class="search_button" type="button">get it!</button>
+                        <button class="search_button" type="submit">get it!</button>
                         <select class="search_button">
                             <option>Album</option>
                             <option>Cover</option>
