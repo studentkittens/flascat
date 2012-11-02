@@ -2,20 +2,25 @@
 import sqlite3
 import os
 import plyr
-
 from pprint import pprint
 from flask import Flask, request, session, g, redirect, url_for, \
      abort, render_template, flash
-
 from contextlib import closing
 
 app = Flask(__name__)
 
-
+faketags = ['Rammstein','Farin Urlaub', 'Knorkator','Avril Lavigne']
 ### View ###
 @app.route('/')
 def main_page():
-    return render_template('layout.html')
+    inval = enumerate(faketags,1)
+    tagvalues = dict()
+    for item in inval:
+        st = "tag" + str(item[0])
+        tagvalues[st] = item[1]
+    print(tagvalues)
+
+    return render_template('cloud.html', entries=tagvalues)
 
 
 @app.route('/do_search', methods=['POST', 'GET'])
@@ -40,7 +45,6 @@ def do_search():
         return render_template('cover.html', image_path=image_path)
     else:
         return 'Uh.'
-
 
 if __name__ == '__main__':
     app.run()
