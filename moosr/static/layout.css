@@ -214,6 +214,7 @@ http://designshack.net/articles/css/6-useful-css-button-recipes-you-can-copy-pas
 .tag1{ font-size:1em; color:#555555; line-height:1em; }
 .tag2{ font-size:1.2em; color:#606060; line-height:1em; }
 .tag3{ font-size:1.4em; color:#808080; line-height:1em; }
+.tag4{ font-size:2em; color:#808080; line-height:1em; }
 
 #tagcloud a{ text-decoration:none; }
 #tagcloud a:hover{ text-decoration:underline; }
