@@ -2,7 +2,7 @@
    :func: square
 
 =============================================
-Ein **Hochgeschwindigkeitskurs** durch Python
+``Ein Hochgeschwindigkeitskurs durch Python``
 =============================================
 
 .. step::
@@ -10,7 +10,8 @@ Ein **Hochgeschwindigkeitskurs** durch Python
    :data-x: 3500
    :data-y: -1000
 
-.. image:: http://imgs.xkcd.com/comics/python.png
+
+.. image:: static/xkcd.png
    :align: center
 
 Vorwort
@@ -203,15 +204,15 @@ Schleifen
     for i in range(1,10,2):#
         print(i)           # 1  = Start (optional) 
                            # 10 = End 
-    # 0-7                  # 2  = Step (optional)
-    for i in range(10):    # 
-        print(i)           # In C-Ähnlichen Sprachen:
-        if i == 7:         # for(int i=1; i<10; i+=2) {
+                           # 2  = Step (optional)
+    for idx, char in enumerate('Hello'):
+        print(idx, char)   # In C-Ähnlichen Sprachen:
+        if i == 'l':       # for(int i=1; i<10; i+=2) {
             break          #   printf("%d\n", i)
-                           # }
-                           # Kontrolle: continue, break
+        else:              # }
+            continue       # Kontrolle: continue, break
 
-* → ``range(10)`` gibt ein Iterator zurück. 
+* → ``range()`` und ``enumerate()`` geben Iteratoren zurück. 
 
 .. code-block:: python
     
@@ -293,7 +294,7 @@ Hilfe? (…Don't Panic!)
 
     def make_money(papier, tinte, schein):
         '''
-        Erzeugt Geld aus Papier, Tinte.
+        Erzeugt Geld aus Papier und Tinte.
 
         :papier: Eine Instanz der Klasse Papier
         :tinte: Die Helligkeit der Tinte von 0-100.
@@ -304,33 +305,35 @@ Hilfe? (…Don't Panic!)
 
 
 * ``RestructuredText`` ist dabei das gängige Dokumentationsformat.
-   Diese Folien sind beispielsweise darin verfasst.
+
+   * Diese Folien sind zum Beispiel darin verfasst.
 * Die offizielle Referenz/Tutorial: http://python.org/doc/
 * Auch nützlich: die ``dir()`` Funktion, zum Auflisten von Membern.
 
 Klassen #1
 ----------
 
-*Überraschung*: Es gibt keine ``private`` / ``protected`` Variablen:
+**Überraschung**: Es gibt keine ``private`` / ``protected`` Variablen:
 
 .. code-block:: python
 
-    class A(object):
+    class Mom:
         def __init__(self, name):
             self.name = name
        
         def call_me_please(self):
-            print('Mom:', self.name)
+            print('<Mom>:', self.name)
 
-    class B(A):
+    class Son(Mom):
         def __init__(self, name):
-            A.__init__(name)    
+            Mom.__init__(self, name + "'s Son")
 
         def call_me_please(self):
-            print('Son:', self.name)
+            Mom.call_me_please(self)
+            print('<Son>:', self.name)
 
-    son = B('Peter')
-    son.call_me_please() # same as: B.call_me_please(son)
+    son = Son('Peter')
+    son.call_me_please() # same as: Son.call_me_please(son)
 
 Klassen #2
 ----------
@@ -425,7 +428,7 @@ Lange Modulnamen können abekürzt werden: ::
 Übungen
 --------
 
-**1x1**:
+**EinMalEins**:
     Schreibe ein Programm dass das 1x1 zeilenweise ausgibt: ::
 
       1x1 = 1, 1x2 = 2, ...
@@ -436,25 +439,25 @@ Lange Modulnamen können abekürzt werden: ::
     Implementiere eine Collection die sich wie eine Liste verhält,
     nur dass ``append()`` Elemente sortiert hinzufügt. 
 
-    Zusätzliche Bemerkungen: 
-
         * Die Oberklasse sollte ``list`` sein.
         * Methoden der Oberklasse können mit ``list.obermethode(self, argumente)`` angesprochen werden.
-
-----
-
-Siehe auch: http://codingbat.com/python wer etwas fürs Leben lernen will ☻
+        * Nützliche Funktionen: ``list.insert(idx, obj)``, ``list.sort()``, ``enumerate(iterable)``.
 
 Diese Folie soll Spicken verhindern
 -----------------------------------
 
 
-.. image:: http://cl.jroo.me/z3/4/p/Y/d/a.baa-Waiting-For-The-One.jpg
-   :width: 700
+.. image:: static/french_cat.png
+   :width: 550
    :align: center
 
-1x1 Lösung
-----------
+----
+
+Siehe auch: http://codingbat.com/python wer mehr Üben will ☻
+
+
+``EinMalEins`` - Lösung
+-----------------------
 
 Die einfache, klare Lösung:
 
@@ -484,12 +487,12 @@ Die Elegante und das Biest:
 Diese Folie auch
 ----------------
 
-.. image:: http://cdn.smosh.com/sites/default/files/bloguploads/meme-cows-mcdonald.jpg
+.. image:: static/mcdonald.png
     :width: 500
     :align: center
 
-SortedList
-----------
+``SortedList`` - Lösung
+-----------------------
 
 ::
 
@@ -499,6 +502,7 @@ SortedList
             list.__init__(self, iterable)
 
         def append(self, obj):
+            'Append obj sorted to list'
             for i, elem in enumerate(self):
                 if elem >= obj:
                     self.insert(i, obj)
@@ -611,7 +615,7 @@ Generatoren
 
 .. code-block:: python
 
-    # Ein mieser Random Generator
+    # Ein erbärmlicher Random Generator
     def random42(max_num):
         for i in range(max_num):
             yield 42 ** i
@@ -620,18 +624,18 @@ Generatoren
     for i in random42(10):
         print(i)
  
-Generator Expressions nutzen die von LH bekannten Syntax:
+Generator Expressions nutzen die von LH bekannten Syntax,
+erzeugen die Werte aber erst beim Iterieren:
 
 .. code-block:: python
 
-    # Zeige alle Quadratzahlen,
-    # deren Wurzel ungerade ist:
+    # Zeige alle Quadratzahlen mit ungerader Wurzel
     odd_quads = (x**2 for x in range(10) if x % 2)
     for i in odd_quads:
         print(i)
 
-``with`` 
---------
+``with`` - Context Management
+-----------------------------
 
 ::
 
@@ -641,7 +645,7 @@ Generator Expressions nutzen die von LH bekannten Syntax:
     finally:
         f.close()
 
-Python way: ::
+Python way (Strichwort **RAII** in C++): ::
 
     with open('file.txt', 'w') as f:
         f.write('hello world')
@@ -650,7 +654,7 @@ Es lassen sich eigene Funktionen/Klassen definieren die das ``with`` Statement n
 Als Beispiel könnte man eine Mutex-Klasse implementieren: ::
 
     with locked(some_mutex):
-        do_something_while_locked
+        do_something_while_locked()
 
 Die Philosophie
 ---------------
@@ -669,8 +673,8 @@ Die Philosophie
     If the implementation is easy to explain, it may be a good idea.
 **Special cases aren't special enough to break the rules.**
     Although practicality beats purity.
-**Errors should never pass silently.**
-    Unless explicitly silenced.
+**Fehler sollten stets behandelt werden.**
+    Wobei explizites Ignorieren auch eine Behandlungsform ist.
 
 
 Python ist sehr kurz
@@ -702,8 +706,23 @@ Python ist sehr kurz
 Fragen?
 -------
 
-*Beispielsfrage*: **Mit was wurde die Präsentation gemacht?**
+*Beispielsfrage #1*: **Mit was wurde die Präsentation gemacht?**
+
+----
 
     Blut, Spucke, Python und HTML.
 
     Genau genommen mit ``python-impress`` gerendert:  http://www.github.com/gawell/impress
+
+----
+
+|
+|
+|
+|
+
+----
+
+*Beispielsfrage #2*: **Machen wir 5 Minuten Pause?**
+
+    Ja.
