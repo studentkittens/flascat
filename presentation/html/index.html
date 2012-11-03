@@ -248,7 +248,7 @@ Statt mit eckigen Klammern werden sie mit runden Klammern definiert:</p>
 </li>
 <li>
 <p class="first">
-Tupel werden immer dann verwedent wenn man Dinge in einer bestimmten Reihenfolge packen muss.</p>
+Tupel werden immer dann verwendet wenn man Dinge in einer bestimmten Reihenfolge packen muss.</p>
 <ul class="simple">
 <li>
 Beispielsweise einen Vertex mit 3 Koordianten: <tt class="docutils literal">
@@ -282,6 +282,7 @@ Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this 
 <span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;A hairy fruit&#39;</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span>
 <span class="go">&#39;A hairy fruit&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">del</span> <span class="n">pointless_dict</span><span class="p">[</span><span class="s">&#39;Peach&#39;</span><span class="p">]</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -815,7 +816,7 @@ Nur weitaus einfacher zu nutzen:</p>
 </pre></div>
 </div>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">hello</span><span class="p">()</span> <span class="c"># Entspricht: bold(italic(hello()))</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">hello</span><span class="p">()</span> <span class="c"># Im Hintergrund: bold(italic(hello))()</span>
 <span class="go">&#39;&lt;b&gt;&lt;i&gt;Hello World&lt;/i&gt;&lt;/b&gt;&#39;</span>
 </pre></div>
 </div>
@@ -938,7 +939,7 @@ Und man sollte ihn nicht widerwillig lesen müssen.</dd>
 <strong>
 Programmieren sollte Spass machen.</strong></dt>
 <dd>
-Gegen Compiler/Sprache kämpfen macht wenig Spaß.</dd>
+Gegen Compiler/Sprache/Konfiguration kämpfen macht wenig Spaß.</dd>
 <dt>
 <strong>
 If the implementation is hard to explain, it&#8217;s a bad idea.</strong></dt>

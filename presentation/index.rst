@@ -137,7 +137,7 @@ Tupel
     >>> pointless_tuple = (1, 2, 3)
     >>> pointless_tuple[0] = 2 # Nope, TypeError.
 
-* Tupel werden immer dann verwedent wenn man Dinge in einer bestimmten Reihenfolge packen muss.
+* Tupel werden immer dann verwendet wenn man Dinge in einer bestimmten Reihenfolge packen muss.
  
   * Beispielsweise einen Vertex mit 3 Koordianten: ``(1, 0, 42)``
 
@@ -163,6 +163,7 @@ Dictionaries
     >>> pointless_dict['Peach'] = 'A hairy fruit'
     >>> pointless_dict['Peach']
     'A hairy fruit'
+    >>> del pointless_dict['Peach']
 
 * Java-Äquivalent: ``java.util.HashMap``
 * Dictionaries werden in Python ständig eingesetzt.
@@ -583,7 +584,7 @@ Nur weitaus einfacher zu nutzen: ::
 
 ::
      
-     >>> hello() # Entspricht: bold(italic(hello()))
+     >>> hello() # Im Hintergrund: bold(italic(hello))()
      '<b><i>Hello World</i></b>'
 
 List Comprehensions
@@ -668,7 +669,7 @@ Die Philosophie
 **Man liest Code öfters als man ihn schreibt.**
     Und man sollte ihn nicht widerwillig lesen müssen.
 **Programmieren sollte Spass machen.**
-    Gegen Compiler/Sprache kämpfen macht wenig Spaß.
+    Gegen Compiler/Sprache/Konfiguration kämpfen macht wenig Spaß.
 **If the implementation is hard to explain, it's a bad idea.**
     If the implementation is easy to explain, it may be a good idea.
 **Special cases aren't special enough to break the rules.**
