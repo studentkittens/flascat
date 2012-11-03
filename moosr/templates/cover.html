@@ -1,25 +1,28 @@
 {% extends "layout.html" %}
 {% block body %}
-            <div id="content">
+{% for item in option_list %}
+<div id="content">
 
-                <div id="song_header">
-                    <div id="cover_pic">
+    <div id="song_header">
+        <div id="cover_pic">
 
-                        <img  id="frame" src="{{ image_path }}" style="float:left" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="150">
-                    </div>
-                    <p class="cover_stats">
-                   From: da webz 
-                    </p>
-                    <p class="cover_stats">
-                    Size: 200x200
-                    </p>
-                    <p class="cover_stats">
-                    URL: www.rammstein.de
-                    </p>
-                    <p  class="cover_stats">
-                    Cached in Elchr: yes
-                    </p>
-                </div>
+            <img  id="frame" src="{{ item['image_path'] }}" style="float:left" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="150">
+        </div>
+        <p class="cover_stats">
+        <b>Provider:</b> {{ item['provider'] }} 
+        </p>
+        <p class="cover_stats">
+        <b>Size:</b>{{ item['image_size'] }} 
+        </p>
+        <p class="cover_stats">
+        <b>Source-URL:</b> <a href="{{ item['source_url_full'] }}">{{
+            item['source_url_short'] }}</a>
+        </p>
+        <p  class="cover_stats">
+        <b>Cached in MoosrDB (TM):</b> {{ item['is_cached'] }}
+        </p>
+    </div>
 
-            </div>
+</div>
+{% endfor %}
 {% endblock %}

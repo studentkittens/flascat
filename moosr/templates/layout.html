@@ -7,7 +7,7 @@
         <meta name="author" content="Kitteh & Elk">
         <meta charset="utf-8">
         <title>
-            Elchr.
+            moosr
         </title>
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='layout.css') }}">
     </head>
@@ -25,24 +25,28 @@
 
             <div id="header">
                 <p><img src="{{url_for('static', filename='logo_full.png')}}" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="150"></p>
-                <p>
-                A music metadata search engine.
-                </p>
 
                 <div id="searchbar">
                     <form action="{{ url_for('do_search') }}"  method=post>
                         <input  class="search_form" size="45" type="text" name="search_term">
-                        <button class="search_button" type="submit">get it!</button>
-                        <select class="search_button">
-                            <option>Album</option>
-                            <option>Cover</option>
-                            <option>Bio</option>
+                        <button class="search_button" type="submit">Go!</button>
+                        <select name="get_type" class="search_button">
+                            <option value="lyrics">Lyrics</option>
+                            <option value="cover">Cover</option>
+                            <option value="artistbio">Bio</option>
                         </select>
 
                     </form> 
                 </div>
-
             </div>
+
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <div id='flash_box'>
+                    <b>News Flash:</b> {{ messages[-1] }}
+                </div>
+                {% endif %}
+            {% endwith %}
 
             {% block body %}{% endblock %}
 
