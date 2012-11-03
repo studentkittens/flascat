@@ -1,19 +1,17 @@
-# all the imports
-import sqlite3
-import os
+#!/usr/bin/env python
+# encoding: utf-8
+
 import plyr
-from pprint import pprint
-from flask import Flask, request, session, g, redirect, url_for, \
-     abort, render_template, flash
-from contextlib import closing
+from flask import Flask, request, url_for, render_template
 
 app = Flask(__name__)
 
-faketags = ['Rammstein','Farin Urlaub', 'Knorkator','Avril Lavigne']
-### View ###
+faketags = ['Rammstein', 'Farin Urlaub', 'Knorkator', 'Avril Lavigne']
+
+
 @app.route('/')
 def main_page():
-    inval = enumerate(faketags,1)
+    inval = enumerate(faketags, 1)
     tagvalues = dict()
     for item in inval:
         st = "tag" + str(item[0])
@@ -26,8 +24,6 @@ def main_page():
 @app.route('/do_search', methods=['POST', 'GET'])
 def do_search():
     if request.method == 'POST':
-        artist = "Slunt" #requestbform['artist']
-        album  = "get a load of this" # request.form['album']
         searchstr = request.form['search_term']
         artist, album = searchstr.split('+')
         qry = plyr.Query(artist=artist, album=album, get_type='cover', database=plyr.Database('.'))
