@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Eine Einführung in</title>
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="static/impress.css" type="text/css" />
+    <link rel="stylesheet" href="static/custom.css" type="text/css" />
+  </head>
+  <body>
+    <div id="impress">
+      
+  <div class="step center section" data-scale="5" data-x="8500.0" data-y="-1000" id="eine-einfuhrung-in">
+<h1>
+<strong>
+Eine Einführung in</strong><a class="headerlink" href="#eine-einfuhrung-in" title="Permalink to this headline">¶</a></h1>
+<img alt="http://flask.pocoo.org/static/logo/flask.png" class="align-center" src="http://flask.pocoo.org/static/logo/flask.png" style="width: 500px;">
+<div class="line-block">
+<div class="line">
+<br /></div>
+</div>
+<p>
+<tt class="docutils literal">
+<span class="pre">http://flask.pocoo.org/</span></tt></p>
+</div>
+<div class="step slide section" data-x="1000.0" data-y="0" id="what">
+<h1>
+What?<a class="headerlink" href="#what" title="Permalink to this headline">¶</a></h1>
+<ul>
+<li>
+<p class="first">
+Flask ist ein <strong>
+Microwebframework</strong>.</p>
+</li>
+<li>
+<p class="first">
+Fokus: Erweiterbarkeit + gute Dokumentation.</p>
+</li>
+<li>
+<p class="first">
+Abhängigkeiten:</p>
+<blockquote>
+<div><ul class="simple">
+<li>
+<tt class="docutils literal">
+<span class="pre">Werkzeug</span></tt>:</li>
+<li>
+<tt class="docutils literal">
+<span class="pre">Jinja2</span></tt>: Eine Template Engine</li>
+</ul>
+</div></blockquote>
+</li>
+<li>
+<p class="first">
+BSD Lizenz → Kommerzielle Projekte möglich.</p>
+</li>
+</ul>
+<hr class="docutils">
+<dl class="docutils">
+<dt>
+<strong>
+Warum denn &#8220;micro&#8221;?</strong></dt>
+<dd>
+<div class="first last line-block">
+<div class="line">
+<br /></div>
+<div class="line">
+<em>
+Flask aims to keep the core simple but extensible.</em></div>
+<div class="line">
+<em>
+Flask won’t make many decisions for you, such as what database to use.</em></div>
+</div>
+</dd>
+</dl>
+<p>
+<strong>
+Statistiken:</strong></p>
+<blockquote>
+<div>800 LOC Code, 1500 LOC Testcases, 200 A4 Seiten Dokumentation.</div></blockquote>
+</div>
+<div class="step slide section" data-x="2000.0" data-y="0" id="features">
+<h1>
+Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h1>
+<p>
+list features, schön erklären und soweiter.</p>
+</div>
+<div class="step slide section" data-x="3000.0" data-y="0" id="hello-world">
+<h1>
+Hello World!<a class="headerlink" href="#hello-world" title="Permalink to this headline">¶</a></h1>
+<p>
+Die folgende Anwendung wird auf <tt class="docutils literal">
+<span class="pre">localhost:5000</span></tt>
+horchen und bei einem <tt class="docutils literal">
+<span class="pre">GET</span></tt>
+einem unformattieren <strong>
+Hallo Welt</strong> ausgeben.</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="c"># Importiere die Flask Libraries,</span>
+<span class="c"># und instanziere eine Flask-Anwendung.</span>
+<span class="kn">import</span> <span class="nn">flask</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">flask</span><span class="o">.</span><span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+
+<span class="c"># hello() soll für ein Zugriff auf</span>
+<span class="c"># die root-url aufgerufen werden.</span>
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s">&quot;Hallo Welt&quot;</span>
+
+<span class="c"># Falls das Skript direkt ausgeführt wird,</span>
+<span class="c"># so lasse die Anwendung laufen.</span>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="step slide section" data-x="0" data-y="800.0" id="routing-troubleshooting">
+<h1>
+Routing &amp; Troubleshooting<a class="headerlink" href="#routing-troubleshooting" title="Permalink to this headline">¶</a></h1>
+<p>
+app.route etc.</p>
+<p>
+http verben</p>
+<p>
+url_for</p>
+<p>
+static files</p>
+</div>
+<div class="step slide section" data-x="1000" data-y="800.0" id="templates-how-to-render-them">
+<h1>
+Templates &amp; How to render them<a class="headerlink" href="#templates-how-to-render-them" title="Permalink to this headline">¶</a></h1>
+<p>
+render_template()</p>
+<p>
+Jinja templates</p>
+</div>
+<div class="step slide section" data-x="2000" data-y="800.0" id="request-data">
+<h1>
+Request Data<a class="headerlink" href="#request-data" title="Permalink to this headline">¶</a></h1>
+<p>
+POST</p>
+</div>
+<div class="step slide section" data-x="3000" data-y="800.0" id="sessions">
+<h1>
+Sessions<a class="headerlink" href="#sessions" title="Permalink to this headline">¶</a></h1>
+<p>
+login beispiel</p>
+</div>
+
+
+    </div>
+    <script src="static/impress/js/impress.js"></script>
+    <script src="static/jquery.js"></script>
+    <script src="static/impress.js"></script>
+    <script src="static/custom.js"></script>
+    <script>
+      if (! /_modules/.exec(window.location.href)) {
+        impress().init();
+      }
+    </script>
+  </body>
+</html>
