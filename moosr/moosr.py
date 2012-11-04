@@ -1,64 +1,35 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-import plyr
-import Image
+import os
 import StringIO
 import urlparse
 import urllib
 
+# Python-Glyr
+import plyr
+
+# PIL
+import Image
+
+# Flask imports
 from flask import Flask, request, render_template, flash, redirect, url_for
 
+# Instance the Flask Application itself
 app = Flask(__name__)
 
 # echo '' | md5sum
 app.secret_key = '68b329da9893e34099c7d8ad5cb9c940'
 
-faketags = ['Rammstein', 'Farin Urlaub', 'Knorkator', 'Avril Lavigne']
-
-
-@app.route('/')
-def main_page():
-    inval = enumerate(faketags, 1)
-    tagvalues = dict()
-    for item in inval:
-        st = "tag" + str(item[0])
-        tagvalues[st] = item[1]
-    print(tagvalues)
-
-    return render_template('cloud.html', entries=tagvalues)
-
-
-def render_lyrics(results):
-    lyrics_list = []
-    for item in results:
-        try:
-            encoded_lyrics = unicode(item.data, 'utf-8')
-            lyrics_list.append({
-                'lyrics_text': encoded_lyrics.replace('\n', '<br />')
-            })
-        except UnicodeDecodeError as err:
-            print('Cannot render lyrics due to bad encoding: ', err)
-
-    return render_template('lyrics.html', lyrics_list=lyrics_list)
-
-
-def render_bio(results):
-    bio_list = []
-    for item in results:
-        try:
-            encoded_bio = unicode(item.data, 'utf-8')
-            bio_list.append({
-                'bio_text': encoded_bio.replace('\n', '<br /><br />')
-            })
-        except UnicodeDecodeError as err:
-            print('Cannot render bio due to bad encoding: ', err)
-
-    print(bio_list)
-    return render_template('bio.html', bio_list=bio_list)
+###########################################################################
+#                            Helper Functions                             #
+###########################################################################
 
 
 def get_imagesize_from_cache(cache):
+    '''
+    This is silly. Remove it later.
+    '''
     try:
         if cache.is_image is False:
             data = urllib.urlopen(cache.data).read()
@@ -74,15 +45,114 @@ def get_imagesize_from_cache(cache):
 
 
 def get_url_domain(full_url):
+    '''
+    Get the domain Part from an url.
+
+    :full_url: A full url e.g. http://www.google.de/?q=lala&b=23
+    :returns: www.google.de
+    '''
     return urlparse.urlparse(full_url).netloc
 
 
+def configure_query(get_type, search_str):
+    '''
+    Configure a Query from a get_type and a search string.
+
+    :get_type: What type of metadata to search
+    :search_str: the content of the search box
+    :returns: a new, committable plyr.Query
+    '''
+    # Make sure the search_str is correctly encoded
+    if type(search_str) is unicode:
+        encoded_search_str = search_str.encode('utf-8')
+    else:
+        encoded_search_str = search_str
+
+    # Split the search term into artist/(album|title)
+    terms = list(map(str.strip, encoded_search_str.split('+')))
+
+    # Build up a plyr.Query to
+    qry = plyr.Query(
+            number=1,           # Number of items to search
+            verbosity=3,        # How verbose the output should be
+            do_download=True,   # Download Images or just return the URL?
+            timeout=3,          # Timeout in seconds to wait before cancel
+            get_type=get_type)  # Metadata Type
+
+    qry.artist = terms[0]
+
+    if get_type == 'cover':
+        qry.album = unicode(terms[1], 'utf-8')
+    elif get_type == 'lyrics':
+        qry.title = unicode(terms[1], 'utf-8')
+        qry.parallel = 3  # Hack to fix silly lyrdb
+    elif get_type == 'artistbio':
+        qry.artist = search_str
+    else:
+        raise ValueError('Invalid get_type: ' + get_type)
+
+    return qry
+
+###########################################################################
+#                           Rendering Functions                           #
+###########################################################################
+
+
+def render_lyrics(results):
+    '''
+    Try to render a list of lyrics as textboxes.
+
+    :results: A list of result caches
+    :returns: A readily rendered template.
+    '''
+    lyrics_list = []
+    for item in results:
+        try:
+            encoded_lyrics = unicode(item.data, 'utf-8')
+            lyrics_list.append({
+                'lyrics_text': encoded_lyrics.replace('\n', '<br />')
+            })
+        except UnicodeDecodeError as err:
+            print('Warning: Cannot render lyrics due to bad encoding: ', err)
+
+    return render_template('lyrics.html', lyrics_list=lyrics_list)
+
+
+def render_bio(results):
+    '''
+    Try to render the biographies-list as textboxes.
+
+    :results: A list of result caches
+    :returns: A readily rendered template.
+    '''
+    bio_list = []
+    for item in results:
+        try:
+            encoded_bio = unicode(item.data, 'utf-8')
+            bio_list.append({
+                'bio_text': encoded_bio.replace('\n', '<br /><br />')
+            })
+        except UnicodeDecodeError as err:
+            print('Cannot render bio due to bad encoding: ', err)
+
+    print(bio_list)
+    return render_template('bio.html', bio_list=bio_list)
+
+
 def render_cover(results):
+    '''
+    Try to render the cover-list as list of cover-templates.
+
+    :results: A list of result caches
+    :returns: A readily rendered template.
+    '''
     option_list = []
     for item in results:
+        image_path = os.path.join('images', item.checksum)
+        item.write(image_path)
         option_list.append({
-                'image_path': item.data,
-                'image_size': 'N/A', #get_imagesize_from_cache(item),
+                'image_path': item.source_url,
+                'image_size': get_imagesize_from_cache(item),
                 'is_cached':  item.is_cached,
                 'provider':   item.provider,
                 'source_url_full': item.source_url,
@@ -91,13 +161,21 @@ def render_cover(results):
     return render_template('cover.html', option_list=option_list)
 
 
+###########################################################################
+#                            Routing functions                            #
+###########################################################################
+
 @app.route('/do_search', methods=['POST', 'GET'])
 def do_search():
     if request.method == 'POST':
 
         try:
-            search_str = request.form['search_term']
+            search_str = request.form['search_term'].strip()
             get_type = request.form['get_type']
+
+            if len(search_str) is 0:
+                flash('Please enter a Query.')
+                return redirect(url_for('main_page'))
 
             qry = configure_query(get_type, search_str)
             flash('Searching for items...')
@@ -105,51 +183,43 @@ def do_search():
             flash('Found %d items' % len(results))
 
             if len(results) > 0:
-                meta = {
+                render = {
                         'lyrics': render_lyrics,
                         'cover': render_cover,
                         'artistbio':  render_bio
                 }
 
-                return meta[get_type](results)
+                # Try to render the results.
+                return render[get_type](results)
             else:
-                # Flash message
                 flash('Woah! It seems no items were found!')
                 return redirect(url_for('main_page'))
         except KeyError as err:
             print('Something unexpected happened: ', err)
         except UnicodeDecodeError as err:
             print('Invalidly encoded search term: ', err)
+        except IndexError as err:
+            flash('It seems you also need an artist/album/title.')
+            return redirect(url_for('main_page'))
     else:
-        return 'This site should not be used from a GET.'
+        return redirect(url_for('main_page'))
 
 
-def configure_query(get_type, search_str):
-    print(search_str, type(search_str))
-    if type(search_str) is unicode:
-        encoded_search_str = search_str.encode('utf-8')
-    else:
-        encoded_search_str = search_str
+@app.route('/')
+def main_page():
+    faketags = ['Rammstein', 'Farin Urlaub', 'Knorkator', 'Avril Lavigne']
+    inval = enumerate(faketags, 1)
+    tagvalues = dict()
+    for item in inval:
+        st = "tag" + str(item[0])
+        tagvalues[st] = item[1]
 
-    terms = list(map(str.strip, encoded_search_str.split('+')))
-    qry = plyr.Query(number=2,
-            verbosity=3,
-            do_download=False,
-            get_type=get_type)
+    return render_template('cloud.html', entries=tagvalues)
 
-    qry.artist = terms[0]
 
-    if get_type == 'cover':
-        qry.album = unicode(terms[1], 'utf-8')
-    elif get_type == 'lyrics':
-        qry.title = unicode(terms[1], 'utf-8')
-    elif get_type == 'artistbio':
-        qry.artist = search_str
-    else:
-        raise ValueError('Invalid get_type: ' + get_type)
-
-    return qry
-
+###########################################################################
+#                               Let it run!                               #
+###########################################################################
 
 if __name__ == '__main__':
     app.run(debug=True)

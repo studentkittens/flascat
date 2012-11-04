@@ -46,6 +46,15 @@ What?
 
     800 LOC Code, 1500 LOC Testcases, 200 A4 Seiten Dokumentation.
 
+How?
+----
+
+Python2 only :-(
+
+Vergleich zu Django
+
+Austauschbare Template engine, DB
+
 Features
 --------
 
@@ -104,4 +113,7 @@ Sessions
 
 login beispiel
 
+Debugging
+---------
 
+Show the Debugger
