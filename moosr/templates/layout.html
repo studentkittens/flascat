@@ -14,17 +14,29 @@
     <body>
 
         <div id="mainmenue">
-            <button class="button" type="button">home</button>
-            <button class="button" type="button">philosophy</button>
-            <button class="button" type="button">api</button>
-            <button class="button" type="button">help</button>
-            <button class="button" type="button">about us</button>
+            <a href="{{ url_for('home_page') }}">
+                <button class="button" type="button">home</button>
+            </a>
+            <a href="{{ url_for('home_page') }}">
+                <button class="button" type="button">philosophy</button>
+            </a>
+            <a href="{{ url_for('home_page') }}">
+                <button class="button" type="button">api</button>
+            </a>
+            <a href="{{ url_for('home_page') }}">
+                <button class="button" type="button">help</button>
+            </a>
+            <a href="{{ url_for('home_page') }}">
+                <button class="button" type="button">about us</button>
+            </a>
         </div>
 
         <div id="container">
 
             <div id="header">
-                <p><img src="{{url_for('static', filename='logo_full.png')}}" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="150"></p>
+                <a href="{{ url_for('main_page') }}">
+                    <p><img src="{{url_for('static', filename='logo_full.png')}}" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="150"></p>
+                </a>
 
                 <div id="searchbar">
                     <form action="{{ url_for('do_search') }}"  method=post>
@@ -34,6 +46,7 @@
                             <option value="lyrics">Lyrics</option>
                             <option value="cover">Cover</option>
                             <option value="artistbio">Bio</option>
+                            <option value="artistphoto">Artist Photos</option>
                         </select>
                         <select name="number" class="search_button">
                             <option value="1">1</option>
@@ -53,11 +66,11 @@
             </div>
 
             {% with messages = get_flashed_messages() %}
-                {% if messages %}
-                <div id='flash_box'>
-                    <b>News Flash:</b> {{ messages[-1] }}
-                </div>
-                {% endif %}
+            {% if messages %}
+            <div id='flash_box'>
+                <b>News Flash:</b> {{ messages[-1] }}
+            </div>
+            {% endif %}
             {% endwith %}
 
             {% block body %}{% endblock %}

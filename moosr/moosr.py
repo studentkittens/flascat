@@ -3,7 +3,6 @@
 
 # Standard Modules
 import os
-import traceback
 import StringIO
 import urlparse
 import urllib
@@ -93,7 +92,7 @@ def configure_query(get_type, search_str, number=1):
     elif get_type == 'lyrics':
         qry.title = unicode(terms[1], 'utf-8')
         qry.parallel = 3  # Hack to fix silly lyrdb
-    elif get_type == 'artistbio':
+    elif get_type in ('artistbio', 'artistphoto'):
         qry.artist = search_str
     else:
         raise ValueError('Invalid get_type: ' + get_type)
@@ -174,13 +173,16 @@ def render_cover(results):
         })
     return render_template('cover.html', option_list=option_list)
 
-
 ###########################################################################
 #                            Routing functions                            #
 ###########################################################################
 
+
 @app.route('/do_search', methods=['POST', 'GET'])
 def do_search():
+    '''
+    Actual route to drawing the page.
+    '''
     if request.method == 'POST':
 
         try:
@@ -201,7 +203,8 @@ def do_search():
                 render = {
                         'lyrics': render_lyrics,
                         'cover': render_cover,
-                        'artistbio':  render_bio
+                        'artistbio':  render_bio,
+                        'artistphoto': render_cover
                 }
 
                 # Try to render the results.
@@ -211,9 +214,6 @@ def do_search():
                 return redirect(url_for('main_page'))
         except KeyError as err:
             print('Something unexpected happened: ', err)
-        #except UnicodeDecodeError as err:
-        #    print('Invalidly encoded search term: ', err)
-        #    traceback.print_exc()
         except IndexError as err:
             flash('It seems you also need an artist/album/title.')
             return redirect(url_for('main_page'))
@@ -221,8 +221,21 @@ def do_search():
         return redirect(url_for('main_page'))
 
 
+@app.route('/home')
+def home_page():
+    return 'No content here yet.', 404
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
+
 @app.route('/')
 def main_page():
+    '''
+    The mainpage seen on localhost:5000
+    '''
     faketags = ['Rammstein', 'Farin Urlaub', 'Knorkator', 'Avril Lavigne']
     inval = enumerate(faketags, 1)
     tagvalues = dict()
