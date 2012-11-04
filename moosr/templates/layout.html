@@ -1,18 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/1999/xhtml">
-
 <html>
     <head>
         <meta name="description" content="A music metadata search engine.">
         <meta name="keywords" content="lyric, cover, search, artist, album, metadata">
         <meta name="author" content="Kitteh & Elk">
         <meta charset="utf-8">
-        <title>
-            moosr
-        </title>
+        <title>moosr</title>
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='layout.css') }}">
     </head>
     <body>
-
         <div id="mainmenue">
             <a href="{{ url_for('home_page') }}">
                 <button class="button" type="button">home</button>
@@ -30,14 +26,11 @@
                 <button class="button" type="button">about us</button>
             </a>
         </div>
-
         <div id="container">
-
             <div id="header">
                 <a href="{{ url_for('main_page') }}">
                     <p><img src="{{url_for('static', filename='logo_full.png')}}" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="150"></p>
                 </a>
-
                 <div id="searchbar">
                     <form action="{{ url_for('do_search') }}"  method=post>
                         <input  class="search_form" size="45" type="text" name="search_term">
@@ -49,34 +42,28 @@
                             <option value="artistphoto">Artist Photos</option>
                         </select>
                         <select name="number" class="search_button">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
+                            {% for i in range(1, 21) %}
+                                <option value="{{ i }}">{{ i }} Item</option>
+                            {% endfor %}
                         </select>
 
                     </form> 
                 </div>
             </div>
-
+            <!-- Flashbox (right under the searchbar) -->
             {% with messages = get_flashed_messages() %}
             {% if messages %}
             <div id='flash_box'>
+                <!-- Only draw the latest flash message. -->
                 <b>News Flash:</b> {{ messages[-1] }}
             </div>
             {% endif %}
             {% endwith %}
 
-            {% block body %}{% endblock %}
-
+            <!-- Render inherited content here -->
+            {% block body %}
+            {% endblock %}
         </div>
-
     </div>
     <div id="footer">
         impressum
