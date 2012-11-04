@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+# Standard Modules
 import os
+import traceback
 import StringIO
 import urlparse
 import urllib
@@ -84,7 +86,7 @@ def configure_query(get_type, search_str, number=1):
             database=metadatadb,  # Database connection.
             get_type=get_type)    # Metadata Type
 
-    qry.artist = terms[0]
+    qry.artist = unicode(terms[0], 'utf-8')
 
     if get_type == 'cover':
         qry.album = unicode(terms[1], 'utf-8')
@@ -209,8 +211,9 @@ def do_search():
                 return redirect(url_for('main_page'))
         except KeyError as err:
             print('Something unexpected happened: ', err)
-        except UnicodeDecodeError as err:
-            print('Invalidly encoded search term: ', err)
+        #except UnicodeDecodeError as err:
+        #    print('Invalidly encoded search term: ', err)
+        #    traceback.print_exc()
         except IndexError as err:
             flash('It seems you also need an artist/album/title.')
             return redirect(url_for('main_page'))
