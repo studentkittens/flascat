@@ -144,9 +144,9 @@ http://designshack.net/articles/css/6-useful-css-button-recipes-you-can-copy-pas
     /*basic styles*/
     width: 120px;
     height: 30px;  
-    color: white; 
+    color: black; 
     background-color: #99CF00;
-    text-align: center;  
+    text-align: center; 
     margin: 5px 10px 5px; 
 
 
@@ -186,7 +186,7 @@ http://designshack.net/articles/css/6-useful-css-button-recipes-you-can-copy-pas
     /*basic styles*/
     width: 80px;
     height: 30px;  
-    color: white; 
+    color: black; 
     background-color: #99CF00;
     text-align: center;  
     border-left: solid 1px #c3f83a;

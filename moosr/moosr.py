@@ -57,12 +57,13 @@ def get_url_domain(full_url):
     return urlparse.urlparse(full_url).netloc
 
 
-def configure_query(get_type, search_str):
+def configure_query(get_type, search_str, number=1):
     '''
     Configure a Query from a get_type and a search string.
 
     :get_type: What type of metadata to search
     :search_str: the content of the search box
+    :number: The number of items to search
     :returns: a new, committable plyr.Query
     '''
     # Make sure the search_str is correctly encoded
@@ -76,7 +77,7 @@ def configure_query(get_type, search_str):
 
     # Build up a plyr.Query to
     qry = plyr.Query(
-            number=1,             # Number of items to search
+            number=number,        # Number of items to search
             verbosity=3,          # How verbose the output should be
             do_download=True,     # Download Images or just return the URL?
             timeout=3,            # Timeout in seconds to wait before cancel
@@ -183,12 +184,13 @@ def do_search():
         try:
             search_str = request.form['search_term'].strip()
             get_type = request.form['get_type']
+            number = int(request.form['number'])
 
             if len(search_str) is 0:
                 flash('Please enter a Query.')
                 return redirect(url_for('main_page'))
 
-            qry = configure_query(get_type, search_str)
+            qry = configure_query(get_type, search_str, number)
             flash('Searching for items...')
             results = qry.commit()
             flash('Found %d items' % len(results))
