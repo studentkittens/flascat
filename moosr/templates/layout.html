@@ -1,6 +1,18 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/1999/xhtml">
 <html>
     <head>
+        <script type="text/javascript">
+            (function() {
+                var s = document.createElement('script');
+                var t = document.getElementsByTagName('script')[0];
+
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = '//api.flattr.com/js/0.6/load.js?'+
+                        'mode=auto&uid=sahib_github&language=de_DE&category=text&button=compact';
+                t.parentNode.insertBefore(s, t);
+            })();
+        </script>
         <meta name="description" content="A music metadata search engine.">
         <meta name="keywords" content="lyric, cover, search, artist, album, metadata">
         <meta name="author" content="Kitteh & Elk">
@@ -66,13 +78,24 @@
         </div>
     </div>
     <div id="footer">
-        impressum
-        <img src="{{url_for('static', filename='icon_flickr.png')}}" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
-        <img src="{{url_for('static', filename='icon_googleplus.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
-        <img src="{{url_for('static', filename='icon_facebook.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
-        <img src="{{url_for('static', filename='icon_twitter.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
-        <img src="{{url_for('static', filename='icon_email.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
-        <img src="{{url_for('static', filename='icon_rss.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
-    </div>
+    <noscript>
+        <a href="http://flattr.com/thing/302682/libglyr" target="_blank">
+            <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
+        </a>
+    </noscript>
+    <a class="FlattrButton" title="Make a Donation!" lang="de"
+        style="display:none;" rev="flattr;button:compact"
+        href="http://github.com/sahib/glyr"
+        popup=0
+    >
+        Make a donation to the poor libglyr developers.
+    </a>
+    <img src="{{url_for('static', filename='icon_flickr.png')}}" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+    <img src="{{url_for('static', filename='icon_googleplus.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+    <img src="{{url_for('static', filename='icon_facebook.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+    <img src="{{url_for('static', filename='icon_twitter.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+    <img src="{{url_for('static', filename='icon_email.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+    <img src="{{url_for('static', filename='icon_rss.png')}}"alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="25px">
+</div>
 </body>
 </html>

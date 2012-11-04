@@ -6,6 +6,7 @@ import os
 import StringIO
 import urlparse
 import urllib
+import json
 
 # Python-Glyr
 import plyr
@@ -32,7 +33,7 @@ metadatadb = plyr.Database('.')
 
 def get_imagesize_from_cache(cache):
     '''
-    This is silly. Remove it later.
+    Determine the size of an image by loading it via PIL.
     '''
     try:
         if cache.is_image is False:
@@ -181,53 +182,97 @@ def render_cover(results):
 @app.route('/do_search', methods=['POST', 'GET'])
 def do_search():
     '''
-    Actual route to drawing the page.
+    Redirect to the Query Page.
     '''
+    search_str = request.form['search_term'].strip()
     if request.method == 'POST':
-
-        try:
-            search_str = request.form['search_term'].strip()
-            get_type = request.form['get_type']
-            number = int(request.form['number'])
-
-            if len(search_str) is 0:
-                flash('Please enter a Query.')
-                return redirect(url_for('main_page'))
-
-            qry = configure_query(get_type, search_str, number)
-            flash('Searching for items...')
-            results = qry.commit()
-            flash('Found %d items' % len(results))
-
-            if len(results) > 0:
-                render = {
-                        'lyrics': render_lyrics,
-                        'cover': render_cover,
-                        'artistbio':  render_bio,
-                        'artistphoto': render_cover
-                }
-
-                # Try to render the results.
-                return render[get_type](results)
-            else:
-                flash('Woah! It seems no items were found!')
-                return redirect(url_for('main_page'))
-        except KeyError as err:
-            print('Something unexpected happened: ', err)
-        except IndexError as err:
-            flash('It seems you also need an artist/album/title.')
+        if len(search_str) is 0:
+            flash('Please enter a Query.')
             return redirect(url_for('main_page'))
+        else:
+            return redirect(url_for('do_query',
+                    search_str=search_str,
+                    number=int(request.form['number']),
+                    get_type=request.form['get_type']))
     else:
         return redirect(url_for('main_page'))
 
 
+@app.route('/query/<get_type>/<int:number>/<search_str>')
+def do_query(get_type, number=1, search_str=''):
+    '''
+    Actual drawing of the results.
+    '''
+    try:
+
+        qry = configure_query(get_type, search_str, number)
+        flash('Searching for items...')
+        results = qry.commit()
+        flash('Found %d items' % len(results))
+
+        if len(results) > 0:
+            render = {
+                    'lyrics': render_lyrics,
+                    'cover': render_cover,
+                    'artistbio':  render_bio,
+                    'artistphoto': render_cover
+            }
+
+            # Try to render the results.
+            return render[get_type](results)
+        else:
+            flash('Woah! It seems no items were found!')
+            return redirect(url_for('main_page'))
+    except KeyError as err:
+        print('Something unexpected happened: ', err)
+    except IndexError as err:
+        flash('It seems you also need an artist/album/title.')
+        return redirect(url_for('main_page'))
+
+
+@app.route('/api/<get_type>/<int:number>/<search_str>')
+def api_root(get_type, search_str, number=1):
+    '''
+    Very simple JSON API
+    '''
+    try:
+        response = []
+        qry = configure_query(get_type, search_str, number)
+        for item in qry.commit():
+            response.append({
+                'size': item.size,
+                'provider': item.provider,
+                'url': item.source_url,
+                'md5sum': item.checksum,
+                'image_format': item.image_format,
+                'is_cached': item.is_cached
+                })
+    except IndexError:
+        return 'Search Query does not contain a "+"'
+    else:
+        return json.dumps({
+            'get_type': get_type,
+            'artist': qry.artist,
+            'album': qry.album,
+            'title': qry.title,
+            'number': qry.number,
+            'results': response
+            }, indent=4, sort_keys=True)
+
+
 @app.route('/home')
 def home_page():
+    '''
+    A Todo point...
+    '''
     return 'No content here yet.', 404
 
 
 @app.errorhandler(404)
 def page_not_found(e):
+    '''
+    Dead link handler :-)
+    '''
     return render_template('404.html'), 404
 
 
@@ -236,14 +281,15 @@ def main_page():
     '''
     The mainpage seen on localhost:5000
     '''
-    faketags = ['Rammstein', 'Farin Urlaub', 'Knorkator', 'Avril Lavigne']
-    inval = enumerate(faketags, 1)
-    tagvalues = dict()
-    for item in inval:
-        st = "tag" + str(item[0])
-        tagvalues[st] = item[1]
+    faketags = ['cover:Rammstein + Mutter', 'lyrics:Farin Urlaub + Lieber Staat', 'artistbio:Knorkator', 'artistphoto:Avril Lavigne']
 
-    return render_template('cloud.html', entries=tagvalues)
+    tags = []
+    for item in enumerate(faketags, 1):
+        size_class = "tag" + str(item[0])
+        split_tag = item[1].split(':')
+        tags.append((split_tag[0], split_tag[1], size_class))
+
+    return render_template('cloud.html', tags=tags)
 
 
 ###########################################################################

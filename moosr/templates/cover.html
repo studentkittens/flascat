@@ -2,11 +2,11 @@
 {% block body %}
 {% for item in option_list %}
 <div id="content">
-
     <div id="song_header">
         <div id="cover_pic">
-
-            <img  id="frame" src="{{ item['image_path'] }}" style="float:left" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="150">
+            <a href="{{ item['source_url_full'] }}">
+               <img  id="frame" src="{{ item['image_path'] }}" style="float:left" alt="Cover" height="150">
+            </a>
         </div>
         <p class="cover_stats">
         <b>Provider:</b> {{ item['provider'] }} 
@@ -22,7 +22,6 @@
         <b>Cached in MoosrDB™:</b> {{ item['is_cached'] }}
         </p>
     </div>
-
 </div>
 {% endfor %}
 {% endblock %}
