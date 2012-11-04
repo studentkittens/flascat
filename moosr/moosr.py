@@ -148,8 +148,15 @@ def render_cover(results):
     '''
     option_list = []
     for item in results:
+        # Save image in images/
         image_path = os.path.join('images', item.checksum)
         item.write(image_path)
+
+        try:
+            os.mkdir('images')
+        except OSError:
+            pass
+
         option_list.append({
                 'image_path': item.source_url,
                 'image_size': get_imagesize_from_cache(item),
