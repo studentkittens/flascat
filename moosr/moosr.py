@@ -142,7 +142,6 @@ def render_bio(results):
         except UnicodeDecodeError as err:
             print('Cannot render bio due to bad encoding: ', err)
 
-    print(bio_list)
     return render_template('bio.html', bio_list=bio_list)
 
 
@@ -223,9 +222,7 @@ def do_query(get_type, number=1, search_str=''):
         else:
             flash('Woah! It seems no items were found!')
             return redirect(url_for('main_page'))
-    except KeyError as err:
-        print('Something unexpected happened: ', err)
-    except IndexError as err:
+    except IndexError:
         flash('It seems you also need an artist/album/title.')
         return redirect(url_for('main_page'))
 
