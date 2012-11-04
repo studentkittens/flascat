@@ -2,7 +2,9 @@
 {% block body %}
 <div id="tagcloud">
     {% for tag in tags %}
-    <a href="{{ url_for('do_query', search_str=tag[1], get_type=tag[0], number=1) }}" class="{{ tag[2] }}">{{ tag[1] }}</a> 
+    <a href="{{ url_for('do_query', search_str=tag[1], get_type=tag[0], number=1) }}" class="tag{{tag[2]}}">
+        {{ tag[0] }}:{{ tag[1] }}
+    </a> 
     {% endfor %}
 </div>
 {% endblock %}

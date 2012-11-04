@@ -7,6 +7,8 @@ import StringIO
 import urlparse
 import urllib
 import json
+import pickle
+import random
 
 # Python-Glyr
 import plyr
@@ -22,6 +24,9 @@ app = Flask(__name__)
 
 # echo '' | md5sum
 app.secret_key = '68b329da9893e34099c7d8ad5cb9c940'
+
+# tagcloud
+tagcloud = {}
 
 # plyr's Database
 metadatadb = plyr.Database('.')
@@ -99,6 +104,45 @@ def configure_query(get_type, search_str, number=1):
         raise ValueError('Invalid get_type: ' + get_type)
 
     return qry
+
+
+###########################################################################
+#                       Tagcloud Related Functions                        #
+###########################################################################
+
+def tagcloud_save(path):
+    'Save the tagcloud to path'
+    pickle.dump(tagcloud, open(path, 'wb'))
+
+
+def tagcloud_add(get_type, search_str):
+    'Add the search node defined by get_type and search_str to tagcloud'
+    taglist = tagcloud.setdefault(get_type, [])
+
+    # See if it is already in the list,
+    # if so we increment the tag_size
+    for idx, prio_tag in enumerate(taglist):
+        if prio_tag[1] == search_str:
+            taglist[idx] = (max(prio_tag[0] + 1, 4), search_str)
+            break
+    else:
+        # This search_str was not yet in.
+        taglist.append((2, search_str))
+
+
+def tagcloud_load(path):
+    'Load tagcloud from disk'
+    global tagcloud
+    try:
+        tagcloud = pickle.load(open(path, 'rb'))
+    except IOError:
+        # Some sort of ,,default''
+        tagcloud = {
+            'cover': [(2, 'Rammstein + Mutter')],
+            'lyrics': [(3, 'Farin Urlaub + Lieber Staat')],
+            'artistphoto': [(4, 'Avril Lavigne')],
+            'artistbio': [(1, 'Knorkator')]
+        }
 
 ###########################################################################
 #                           Rendering Functions                           #
@@ -183,16 +227,20 @@ def do_search():
     '''
     Redirect to the Query Page.
     '''
-    search_str = request.form['search_term'].strip()
     if request.method == 'POST':
+        search_str = request.form['search_term'].strip()
+        number = int(request.form['number'])
+        get_type = request.form['get_type']
+
         if len(search_str) is 0:
             flash('Please enter a Query.')
             return redirect(url_for('main_page'))
         else:
+            tagcloud_add(get_type, search_str)
             return redirect(url_for('do_query',
                     search_str=search_str,
-                    number=int(request.form['number']),
-                    get_type=request.form['get_type']))
+                    number=number,
+                    get_type=get_type))
     else:
         return redirect(url_for('main_page'))
 
@@ -278,13 +326,13 @@ def main_page():
     '''
     The mainpage seen on localhost:5000
     '''
-    faketags = ['cover:Rammstein + Mutter', 'lyrics:Farin Urlaub + Lieber Staat', 'artistbio:Knorkator', 'artistphoto:Avril Lavigne']
-
     tags = []
-    for item in enumerate(faketags, 1):
-        size_class = "tag" + str(item[0])
-        split_tag = item[1].split(':')
-        tags.append((split_tag[0], split_tag[1], size_class))
+    for get_type, sublist in tagcloud.items():
+        # The size of a tag is 75% the amount of searchings, 25% random
+        calc_size = lambda x: int((x[0] * 3 + random.randrange(1, 5)) / 4)
+
+        # Convert the dictionary to a template usable taglist
+        tags += map(lambda x: (get_type, x[1], calc_size(x)), sublist)
 
     return render_template('cloud.html', tags=tags)
 
@@ -294,4 +342,7 @@ def main_page():
 ###########################################################################
 
 if __name__ == '__main__':
+    tagcloud_path = 'tagcloud.pickle'
+    tagcloud_load(tagcloud_path)
     app.run(debug=True)
+    tagcloud_save(tagcloud_path)
