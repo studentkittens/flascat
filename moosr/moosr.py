@@ -21,6 +21,9 @@ app = Flask(__name__)
 # echo '' | md5sum
 app.secret_key = '68b329da9893e34099c7d8ad5cb9c940'
 
+# plyr's Database
+metadatadb = plyr.Database('.')
+
 ###########################################################################
 #                            Helper Functions                             #
 ###########################################################################
@@ -73,11 +76,12 @@ def configure_query(get_type, search_str):
 
     # Build up a plyr.Query to
     qry = plyr.Query(
-            number=1,           # Number of items to search
-            verbosity=3,        # How verbose the output should be
-            do_download=True,   # Download Images or just return the URL?
-            timeout=3,          # Timeout in seconds to wait before cancel
-            get_type=get_type)  # Metadata Type
+            number=1,             # Number of items to search
+            verbosity=3,          # How verbose the output should be
+            do_download=True,     # Download Images or just return the URL?
+            timeout=3,            # Timeout in seconds to wait before cancel
+            database=metadatadb,  # Database connection.
+            get_type=get_type)    # Metadata Type
 
     qry.artist = terms[0]
 
