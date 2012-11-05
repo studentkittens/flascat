@@ -1,8 +1,0 @@
-{% extends "layout.html" %}
-{% block body %}
-{% for item in bio_list %}
-<div id="content">
-    {{ item['bio_text']|safe }}
-</div>
-{% endfor %}
-{% endblock %}

@@ -10,6 +10,9 @@ import json
 import pickle
 import random
 
+# This is great.
+from functools import partial
+
 # Python-Glyr
 import plyr
 
@@ -149,7 +152,7 @@ def tagcloud_load(path):
 ###########################################################################
 
 
-def render_lyrics(results):
+def render_lyrics(results, newlines=1):
     '''
     Try to render a list of lyrics as textboxes.
 
@@ -161,32 +164,12 @@ def render_lyrics(results):
         try:
             encoded_lyrics = unicode(item.data, 'utf-8')
             lyrics_list.append({
-                'lyrics_text': encoded_lyrics.replace('\n', '<br />')
+                'lyrics_text': encoded_lyrics.replace('\n', '<br />' * newlines)
             })
         except UnicodeDecodeError as err:
             print('Warning: Cannot render lyrics due to bad encoding: ', err)
 
     return render_template('lyrics.html', lyrics_list=lyrics_list)
-
-
-def render_bio(results):
-    '''
-    Try to render the biographies-list as textboxes.
-
-    :results: A list of result caches
-    :returns: A readily rendered template.
-    '''
-    bio_list = []
-    for item in results:
-        try:
-            encoded_bio = unicode(item.data, 'utf-8')
-            bio_list.append({
-                'bio_text': encoded_bio.replace('\n', '<br /><br />')
-            })
-        except UnicodeDecodeError as err:
-            print('Cannot render bio due to bad encoding: ', err)
-
-    return render_template('bio.html', bio_list=bio_list)
 
 
 def render_cover(results):
@@ -261,7 +244,7 @@ def do_query(get_type, number=1, search_str=''):
             render = {
                     'lyrics': render_lyrics,
                     'cover': render_cover,
-                    'artistbio':  render_bio,
+                    'artistbio':  partial(render_lyrics, newlines=2),
                     'artistphoto': render_cover
             }
 
