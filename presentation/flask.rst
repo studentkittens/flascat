@@ -19,6 +19,13 @@
 
 ``http://flask.pocoo.org/``
 
+Vorwort
+-------
+
+Präsentation angelehnt an:
+    
+    http://flask.pocoo.org/docs/quickstart/
+
 What?
 -----
 
@@ -30,8 +37,8 @@ What?
 * Fokus: Erweiterbarkeit + gute Dokumentation.
 * Abhängigkeiten:
 
-    * ``Werkzeug``:
-    * ``Jinja2``: Eine Template Engine
+    * ``Werkzeug``: WSGI Middleware.
+    * ``Jinja2``: Eine Template Engine.
 
 * BSD Lizenz → Kommerzielle Projekte möglich.
 
@@ -49,16 +56,26 @@ What?
 How?
 ----
 
-Python2 only :-(
+Python2 only. Python 3 Port in ferner Zukunft.
 
-Vergleich zu Django
 
-Austauschbare Template engine, DB
+Im Vergleich zu Django:
+
+    * Beschränkung auf Kernfunktionalität.
+    * don't reinvent the wheel.
+    * Modular, Erweiterung durch Plugins.
+    * zB.: Datenbank und Templateengine austauschbar. 
+
 
 Features
 --------
 
-list features, schön erklären und soweiter.
+* Handhabung von Authentifizierung, Cookies, Sessions
+* konfigurierbares Caching
+* Internationalisierung
+* eine Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)
+* Kompatibilität zu vielen Datenbankmanagementsystemen 
+
 
 Hello World!
 ------------
@@ -85,27 +102,90 @@ einem unformattieren **Hallo Welt** ausgeben.
     if __name__ == "__main__":
         app.run(debug=True)
 
-Routing & Troubleshooting
--------------------------
+Routing & Troubleshooting #1
+----------------------------
 
-app.route etc.
+**Routing**:
 
-http verben
+    ::
 
-url_for
+        def compose_hello(name):
+            return '<b>Hello ' + name + '!</b>'
 
-static files
+        @app.route('/hello')
+        def hello():
+            return compose_hello('Workshop')
+      
+-----
+
+<Hier Bild einfügen>
+
+
+Routing & Troubleshooting #2
+----------------------------
+
+**Redirects**:
+  
+  * http://www.domain.de/newest_article → 
+    http://www.domain.de/article/month/week/day/blah.html
+
+  * Realisierbar mit ``redirect(url)`` ::
+
+     from flask import redirect
+     @app.route('/redirect_to_google')
+     def hello():
+        return redirect('www.google.de')
+    
+  * Würde bei einem GET von ``localhost:5000/redirect_to_google`` ``www.google.de``
+    mittels eines HTTP Redirects aufrufen.
+
+
+Routing & Troubleshooting #3
+----------------------------
+
+**HTTP Verben**:
+
+    * ``GET``, ``POST``, ``PUT``, ``HEAD``, ``OPTIONS``
+
+**URLs konstruieren**:
+
+    * Vermeidung von hardgecodeten URLs im Programm:
+
+        ``url_for('a_name_of_a_view_function')`` 
+
+**Statische Komponenten**:
+
+    * Werden in einem ``static/`` folder abgelegt (CSS, Bilder).
+    * Templates gehen per default nach ``template/``.
+    * Holen eines Images: ::
+
+        url_for('static/', filename='cover.png')
 
 Templates & How to render them
 ------------------------------
 
-render_template()
+**Templates**
 
-Jinja templates
+    * Mit ``render_template('hello.html)`` wird über Jinja die Seite
+      ``hello.html`` gerendert ::
+
+        @app.route('/<n>')
+        def hello(n):
+            return render_template('hello.html',n=n)
+
+    * .. code-block:: html
+
+        <!-- hello.html -->
+        <html>
+            <body>
+                <h1>Hello {{ n }}!</h1>
+            </body>
+        </html>
 
 Request Data
 ------------
 
+request.from etc
 POST 
 
 Sessions
@@ -117,3 +197,9 @@ Debugging
 ---------
 
 Show the Debugger
+
+moosr
+-----------
+yey!
+Übung
+-----------

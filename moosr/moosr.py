@@ -312,10 +312,10 @@ def main_page():
     tags = []
     for get_type, sublist in tagcloud.items():
         # The size of a tag is 75% the amount of searchings, 25% random
-        calc_size = lambda x: int((x[0] * 3 + random.randrange(1, 5)) / 4)
+        calc_size = lambda x: int((x * 3 + random.randrange(1, 5)) / 4)
 
         # Convert the dictionary to a template usable taglist
-        tags += map(lambda x: (get_type, x[1], calc_size(x)), sublist)
+        tags += map(lambda x: (get_type, x[1], calc_size(x[0])), sublist)
 
     return render_template('cloud.html', tags=tags)
 
