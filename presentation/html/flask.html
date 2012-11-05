@@ -27,6 +27,15 @@ Eine Einführung in</strong><a class="headerlink" href="#eine-einfuhrung-in" tit
 <tt class="docutils literal">
 <span class="pre">http://flask.pocoo.org/</span></tt></p>
 </div>
+<div class="step slide section" data-x="9500.0" data-y="-1000" id="vorwort">
+<h1>
+Vorwort<a class="headerlink" href="#vorwort" title="Permalink to this headline">¶</a></h1>
+<p>
+Präsentation angelehnt an:</p>
+<blockquote>
+<div><a class="reference external" href="http://flask.pocoo.org/docs/quickstart/">
+http://flask.pocoo.org/docs/quickstart/</a></div></blockquote>
+</div>
 <div class="step slide section" data-x="1000.0" data-y="0" id="what">
 <h1>
 What?<a class="headerlink" href="#what" title="Permalink to this headline">¶</a></h1>
@@ -47,10 +56,10 @@ Abhängigkeiten:</p>
 <div><ul class="simple">
 <li>
 <tt class="docutils literal">
-<span class="pre">Werkzeug</span></tt>:</li>
+<span class="pre">Werkzeug</span></tt>: WSGI Middleware.</li>
 <li>
 <tt class="docutils literal">
-<span class="pre">Jinja2</span></tt>: Eine Template Engine</li>
+<span class="pre">Jinja2</span></tt>: Eine Template Engine.</li>
 </ul>
 </div></blockquote>
 </li>
@@ -87,19 +96,39 @@ Statistiken:</strong></p>
 <h1>
 How?<a class="headerlink" href="#how" title="Permalink to this headline">¶</a></h1>
 <p>
-Python2 only :-(</p>
+Python2 only. Python 3 Port in ferner Zukunft.</p>
 <p>
-Vergleich zu Django</p>
-<p>
-Austauschbare Template engine, DB</p>
+Im Vergleich zu Django:</p>
+<blockquote>
+<div><ul class="simple">
+<li>
+Beschränkung auf Kernfunktionalität.</li>
+<li>
+don&#8217;t reinvent the wheel.</li>
+<li>
+Modular, Erweiterung durch Plugins.</li>
+<li>
+zB.: Datenbank und Templateengine austauschbar.</li>
+</ul>
+</div></blockquote>
 </div>
-<div class="step slide section" data-x="3000.0" data-y="0" id="features">
+<div class="step slide section" data-x="0" data-y="800.0" id="features">
 <h1>
 Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h1>
-<p>
-list features, schön erklären und soweiter.</p>
+<ul class="simple">
+<li>
+Handhabung von Authentifizierung, Cookies, Sessions</li>
+<li>
+konfigurierbares Caching</li>
+<li>
+Internationalisierung</li>
+<li>
+eine Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)</li>
+<li>
+Kompatibilität zu vielen Datenbankmanagementsystemen</li>
+</ul>
 </div>
-<div class="step slide section" data-x="0" data-y="800.0" id="hello-world">
+<div class="step slide section" data-x="1000" data-y="800.0" id="hello-world">
 <h1>
 Hello World!<a class="headerlink" href="#hello-world" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -128,43 +157,184 @@ Hallo Welt</strong> ausgeben.</p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="1000" data-y="800.0" id="routing-troubleshooting">
+<div class="step slide section" data-x="2000" data-y="800.0" id="routing-troubleshooting-1">
 <h1>
-Routing &amp; Troubleshooting<a class="headerlink" href="#routing-troubleshooting" title="Permalink to this headline">¶</a></h1>
+Routing &amp; Troubleshooting #1<a class="headerlink" href="#routing-troubleshooting-1" title="Permalink to this headline">¶</a></h1>
 <p>
-app.route etc.</p>
-<p>
-http verben</p>
-<p>
-url_for</p>
-<p>
-static files</p>
+<strong>
+Routing</strong>:</p>
+<blockquote>
+<div><div class="highlight-python">
+<div class="highlight"><pre><span class="k">def</span> <span class="nf">compose_hello</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">return</span> <span class="s">&#39;&lt;b&gt;Hello &#39;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">&#39;!&lt;/b&gt;&#39;</span>
+
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/hello&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">compose_hello</span><span class="p">(</span><span class="s">&#39;Workshop&#39;</span><span class="p">)</span>
+</pre></div>
 </div>
-<div class="step slide section" data-x="2000" data-y="800.0" id="templates-how-to-render-them">
+</div></blockquote>
+<hr class="docutils">
+<p>
+&lt;Hier Bild einfügen&gt;</p>
+</div>
+<div class="step slide section" data-x="3000" data-y="800.0" id="routing-troubleshooting-2">
+<h1>
+Routing &amp; Troubleshooting #2<a class="headerlink" href="#routing-troubleshooting-2" title="Permalink to this headline">¶</a></h1>
+<p>
+<strong>
+Redirects</strong>:</p>
+<blockquote>
+<div><ul>
+<li>
+<p class="first">
+<a class="reference external" href="http://www.domain.de/newest_article">
+http://www.domain.de/newest_article</a> →
+<a class="reference external" href="http://www.domain.de/article/month/week/day/blah.html">
+http://www.domain.de/article/month/week/day/blah.html</a></p>
+</li>
+<li>
+<p class="first">
+Realisierbar mit <tt class="docutils literal">
+<span class="pre">redirect(url)</span></tt></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">redirect</span>
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/redirect_to_google&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+   <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="s">&#39;www.google.de&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li>
+<p class="first">
+Würde bei einem GET von <tt class="docutils literal">
+<span class="pre">localhost:5000/redirect_to_google</span></tt> <tt class="docutils literal">
+<span class="pre">www.google.de</span></tt>
+mittels eines HTTP Redirects aufrufen.</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="step slide section" data-x="0" data-y="1600.0" id="routing-troubleshooting-3">
+<h1>
+Routing &amp; Troubleshooting #3<a class="headerlink" href="#routing-troubleshooting-3" title="Permalink to this headline">¶</a></h1>
+<p>
+<strong>
+HTTP Verben</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li>
+<tt class="docutils literal">
+<span class="pre">GET</span></tt>, <tt class="docutils literal">
+<span class="pre">POST</span></tt>, <tt class="docutils literal">
+<span class="pre">PUT</span></tt>, <tt class="docutils literal">
+<span class="pre">HEAD</span></tt>, <tt class="docutils literal">
+<span class="pre">OPTIONS</span></tt></li>
+</ul>
+</div></blockquote>
+<p>
+<strong>
+URLs konstruieren</strong>:</p>
+<blockquote>
+<div><ul>
+<li>
+<p class="first">
+Vermeidung von hardgecodeten URLs im Programm:</p>
+<blockquote>
+<div><p>
+<tt class="docutils literal">
+<span class="pre">url_for('a_name_of_a_view_function')</span></tt></p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p>
+<strong>
+Statische Komponenten</strong>:</p>
+<blockquote>
+<div><ul>
+<li>
+<p class="first">
+Werden in einem <tt class="docutils literal">
+<span class="pre">static/</span></tt> folder abgelegt (CSS, Bilder).</p>
+</li>
+<li>
+<p class="first">
+Templates gehen per default nach <tt class="docutils literal">
+<span class="pre">template/</span></tt>.</p>
+</li>
+<li>
+<p class="first">
+Holen eines Images:</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;static/&#39;</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s">&#39;cover.png&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="step slide section" data-x="1000" data-y="1600.0" id="templates-how-to-render-them">
 <h1>
 Templates &amp; How to render them<a class="headerlink" href="#templates-how-to-render-them" title="Permalink to this headline">¶</a></h1>
 <p>
-render_template()</p>
-<p>
-Jinja templates</p>
+<strong>
+Templates</strong></p>
+<blockquote>
+<div><ul>
+<li>
+<p class="first">
+Mit <tt class="docutils literal">
+<span class="pre">render_template('hello.html)</span></tt> wird über Jinja die Seite
+<tt class="docutils literal">
+<span class="pre">hello.html</span></tt> gerendert</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&lt;n&gt;&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;hello.html&#39;</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="n">n</span><span class="p">)</span>
+</pre></div>
 </div>
-<div class="step slide section" data-x="3000" data-y="800.0" id="request-data">
+</li>
+<li>
+<div class="first highlight-html">
+<div class="highlight"><pre><span class="c">&lt;!-- hello.html --&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;h1&gt;</span>Hello {{ n }}!<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="step slide section" data-x="2000" data-y="1600.0" id="request-data">
 <h1>
 Request Data<a class="headerlink" href="#request-data" title="Permalink to this headline">¶</a></h1>
 <p>
+request.from etc
 POST</p>
 </div>
-<div class="step slide section" data-x="0" data-y="1600.0" id="sessions">
+<div class="step slide section" data-x="3000" data-y="1600.0" id="sessions">
 <h1>
 Sessions<a class="headerlink" href="#sessions" title="Permalink to this headline">¶</a></h1>
 <p>
 login beispiel</p>
 </div>
-<div class="step slide section" data-x="1000" data-y="1600.0" id="debugging">
+<div class="step slide section" data-x="0" data-y="2400.0" id="debugging">
 <h1>
 Debugging<a class="headerlink" href="#debugging" title="Permalink to this headline">¶</a></h1>
 <p>
 Show the Debugger</p>
+</div>
+<div class="step slide section" data-x="1000" data-y="2400.0" id="moosr">
+<h1>
+moosr<a class="headerlink" href="#moosr" title="Permalink to this headline">¶</a></h1>
+<p>
+yey!
+Übung
+&#8212;&#8212;&#8212;&#8211;</p>
 </div>
 
 
