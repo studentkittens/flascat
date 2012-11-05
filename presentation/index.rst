@@ -430,7 +430,7 @@ Lange Modulnamen können abekürzt werden: ::
 --------
 
 **EinMalEins**:
-    Schreibe ein Programm dass das 1x1 zeilenweise ausgibt: ::
+    Schreibe ein Programm dass das 1x1 ausgibt (Formatierung egal): ::
 
       1x1 = 1, 1x2 = 2, ...
       2x1 = 2, 2x2 = 4, ...
@@ -464,24 +464,23 @@ Die einfache, klare Lösung:
 
 ::
 
-    >>> for x in range(1,10):
-    ...     for y  in range(1,10):
+    >>> for x in range(1,11):
+    ...     for y  in range(1,11):
     ...         print('%dx%d = %d' % (x, y, x * y))
-    ... print()
 
 Die Elegante und das Biest:
 
 ::
     
     >>> from itertools import product
-    >>> ten = range(1,10)
+    >>> ten = range(1,11)
     >>> for x,y in product(ten, ten):
     ...     print('%dx%d = %d' % (x, y, x * y))
         
 ::
 
     >>> from itertools import product
-    >>> ten = range(1,10)
+    >>> ten = range(1,11)
     >>> ['%dx%d=%d'%(x,y,x*y) for x,y in product(ten,ten)]
 
 
