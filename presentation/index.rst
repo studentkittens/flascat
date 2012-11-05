@@ -492,6 +492,10 @@ Diese Folie auch
     :width: 500
     :align: center
 
+----
+
+Für harte Männer: http://learnpythonthehardway.org/book/ (Empfehlung!) ☻
+
 ``SortedList`` - Lösung
 -----------------------
 
@@ -717,13 +721,13 @@ Fragen?
 
 ----
 
-|
-|
-|
-|
-
-----
-
 *Beispielsfrage #2*: **Machen wir 5 Minuten Pause?**
 
     Ja.
+
+----
+
+|
+|
+
+Folien sind verfügbar unter: http://www.github.com/studentkittens/flascat
