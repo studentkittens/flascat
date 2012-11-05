@@ -3,11 +3,9 @@
 {% for item in option_list %}
 <div id="content">
     <div id="song_header">
-        <div id="cover_pic">
             <a href="{{ item['source_url_full'] }}">
-               <img  id="frame" src="{{ item['image_path'] }}" style="float:left" alt="Cover" height="150">
+                <img  id="picture_frame" src="{{ item['image_path'] }}" style="float:left" alt="Cover" height="150">
             </a>
-        </div>
         <p class="cover_stats">
         <b>Provider:</b> {{ item['provider'] }} 
         </p>
