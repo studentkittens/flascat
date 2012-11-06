@@ -1,0 +1,207 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "08:00-09:30", 
+            "room": "FA007", 
+            "type": "HF:0", 
+            "name": "Fallstudien Planspiele I"
+        }, 
+        {
+            "prof": "Wolfgang Uschold", 
+            "time": "09:45-11:15", 
+            "room": "FA102/104", 
+            "type": "FWPF:0", 
+            "name": "SPSProgrammierung  SP (AT)", 
+            "note": "(Wing MT + IT AT 5)"
+        }, 
+        {
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "11:30-13:00", 
+            "room": "FA007", 
+            "type": "HF:0", 
+            "name": "Fallstudien Planspiele I"
+        }, 
+        {
+            "desc": "Praktikum  (Wing WT + MT + IT MB 5)", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
+            "time": "11:30-13:00", 
+            "room": "FC018", 
+            "type": "FWPF:0", 
+            "name": "Maschinenelemente  SP (MB)"
+        }, 
+        {
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "time": "14:00-15:30", 
+            "room": "FA102/104 + FA101", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Informationssysteme"
+        }, 
+        {
+            "desc": "\u00dcbungen in wechselnden Gruppen", 
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "15:45-17:15", 
+            "room": "FA102/104 + FB001/002", 
+            "type": "HF:0", 
+            "name": "Produktionsplanung und steuerung"
+        }
+    ], 
+    "Freitag": [
+        {
+            "desc": "\u00dcbungen/Praktikum", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "08:00-09:30", 
+            "room": "FB005", 
+            "type": "HF:0", 
+            "name": "Technische Materialflusssysteme"
+        }, 
+        {
+            "desc": "(Wing IT5/AT + MT5 MT/MT + Inf5)", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "09:45-11:15", 
+            "room": "FA011", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (AT)"
+        }, 
+        {
+            "desc": "(MB 3 + Wing IT/AT + MT 5)", 
+            "prof": "Wolfgang Major", 
+            "time": "11:30-13:00", 
+            "room": "FA201", 
+            "type": "FWPF:0", 
+            "name": "Arbeitsgestaltung und Montagetechnik  SP (AT)"
+        }, 
+        {
+            "desc": "(MB 3 + Wing IT/AT + MT 5)", 
+            "prof": "Wolfgang Major", 
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "type": "FWPF:0", 
+            "name": "Arbeitsgestaltung und Montagetechnik  SP (AT)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "08:00-09:30", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Technische Materialflusssysteme"
+        }, 
+        {
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "09:45-11:15", 
+            "room": "FB203", 
+            "type": "FWPF:0", 
+            "name": "Fertigungstechnik  SP (MB)", 
+            "note": "(WT 3 + IT/MT MB 5)"
+        }, 
+        {
+            "desc": "\u00dcbungen/ Praktikum  KW 02, 03", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FB203 + FC016 + FC019", 
+            "type": "FWPF:0", 
+            "name": "Fertigungstechnik  SP (MB)"
+        }, 
+        {
+            "desc": "\u00dcbungen/ Praktikum  KW 41  43, 45  50", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FC016 + FC019", 
+            "type": "FWPF:0", 
+            "name": "Fertigungstechnik  SP (MB)"
+        }, 
+        {
+            "desc": "\u00dcbungen/ Praktikum  KW 40, 51, 04", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FB203", 
+            "type": "FWPF:0", 
+            "name": "Fertigungstechnik  SP (MB)"
+        }, 
+        {
+            "desc": "11.10.2012  Sicherheitseinweisung / Gruppeneinteilung  (Voraussetzung f\u00fcr Praktikumsteilnahme, Pflichtveranstaltung)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "14:00-15:30", 
+            "room": "FC009S", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (AT)"
+        }, 
+        {
+            "desc": "Praktikum  (Wing IT5/AT + MT5 MT/MT + Inf5) (Termine nach Plan) (ab KW 42)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "14:00-15:30", 
+            "room": "FC009S", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (AT)"
+        }, 
+        {
+            "desc": "Praktikum  (Wing IT5/AT + MT5 MT/MT + Inf5) (Termine nach Plan) (ab KW 421)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "15:45-17:15", 
+            "room": "FC009S", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (AT)"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "time": "08:00-09:30", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Produktionsplanung und steuerung", 
+            "note": "(Wing + MB P 5)"
+        }, 
+        {
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "time": "09:45-11:15", 
+            "room": "FA102/104", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Informationssysteme"
+        }, 
+        {
+            "prof": "Wolfgang Uschold", 
+            "time": "11:30-13:00", 
+            "room": "FA102/104", 
+            "type": "FWPF:0", 
+            "name": "SPSProgrammierung  SP (AT)", 
+            "note": "(Wing MT + IT AT 5)"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "(Wing WT + MT + IT MB 5)", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
+            "time": "08:00-09:30", 
+            "room": "FA201", 
+            "type": "FWPF:0", 
+            "name": "Maschinenelemente  SP (MB)"
+        }, 
+        {
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "09:45-11:15", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Produktionsplanung und steuerung", 
+            "note": "(Wing + MB P 5)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (14t\u00e4gig) (Wing IT5/AT + MT5 MT/MT + Inf5) (Beginn KW 42)", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "11:30-13:00", 
+            "room": "FA014", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (AT)"
+        }, 
+        {
+            "desc": "\u00dcbungen in wechselnden Gruppen", 
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "14:00-15:30", 
+            "room": "FA008/010 + FA007", 
+            "type": "HF:0", 
+            "name": "Produktionsplanung und steuerung"
+        }
+    ]
+}

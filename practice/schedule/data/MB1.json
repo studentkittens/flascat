@@ -1,0 +1,227 @@
+{
+    "Dienstag": [
+        {
+            "desc": "(MB 1+2 + WT 1 + InnoTex 3)", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "08:00-09:30", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik"
+        }, 
+        {
+            "prof": "Prof. Dr. Wolfgang Batrla", 
+            "time": "09:45-11:15", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Analysis", 
+            "note": "(MB 1+2)"
+        }, 
+        {
+            "prof": "Prof. Dr. Wolfgang Batrla", 
+            "time": "11:30-13:00", 
+            "room": "FA017", 
+            "type": "HF:0", 
+            "name": "Analysis", 
+            "note": "\u00dcbungen  (MB 1+2)#(Gruppe III)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (MB 1+2 + WT 1) (ab KW 42) + Gruppe III", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "14:00-15:30", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "prof": "Prof. Dr. Wolfgang Batrla", 
+            "time": "14:00-15:30", 
+            "room": "FD248", 
+            "type": "HF:0", 
+            "name": "Analysis", 
+            "note": "\u00dcbungen  (MB 1)#(Gruppe II)"
+        }, 
+        {
+            "prof": "Prof. Dr. Wolfgang Batrla", 
+            "time": "15:45-17:15", 
+            "room": "FD248", 
+            "type": "HF:0", 
+            "name": "Analysis", 
+            "note": "\u00dcbungen  (MB 1)#(Gruppe I)"
+        }
+    ], 
+    "Freitag": [
+        {
+            "prof": "Prof. Dr. Michael Seidel", 
+            "time": "08:00-09:30", 
+            "room": "FB007/009", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "note": "(MB 1 + 2)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "08:00-09:30", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "(MB 1+2 + WT 1)"
+        }, 
+        {
+            "prof": "Prof. Dr. Michael Seidel", 
+            "time": "09:45-11:15", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "note": "(MB 1 + 2)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (MB  1)  (ab KW 42)", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "11:30-13:00", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "prof": "Steffen Unger", 
+            "time": "11:30-13:00", 
+            "room": "FA102/104", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "\u00dcbungen  (MB 1 + 2)#(Gruppe III)"
+        }, 
+        {
+            "desc": "(MB + WT + UT + InnoTex 1)", 
+            "prof": "Prof. Dr. Matthias Kilian", 
+            "time": "14:00-15:30", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }, 
+        {
+            "desc": "Tutorium  ab KW 43", 
+            "prof": "Tutorium", 
+            "time": "15:45-17:15", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }, 
+        {
+            "desc": "\u00dcbungen  (MB 1+2)  (ab KW 41)", 
+            "prof": "Dipl.Ing. Bernd Kandler", 
+            "time": "15:45-17:15", 
+            "room": "FB105 + FB110", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Elektrotechnik", 
+            "note": "(Gruppe III)"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Steffen Unger", 
+            "time": "08:00-09:30", 
+            "room": "FB110", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "\u00dcbungen  (MB 1)#(Gruppe I)"
+        }, 
+        {
+            "prof": "Steffen Unger", 
+            "time": "09:45-11:15", 
+            "room": "FB110", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "\u00dcbungen  (MB 1)#(Gruppe II)"
+        }, 
+        {
+            "desc": "Tutorium  ab KW 43", 
+            "prof": "Tutorium", 
+            "time": "11:30-13:00", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }, 
+        {
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "11:30-13:00", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "(MB 1+2 + WT 1)"
+        }, 
+        {
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "15:45-17:15", 
+            "room": "FA008/010", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "\u00dcbungen  (MB 1+2)#(Gruppe II)"
+        }, 
+        {
+            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
+            "prof": "Dipl.Ing. Peter Pinter", 
+            "time": "17:30-19:00", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Analysis"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "(MB 1+2 + Wing MT 3) (ab KW 41)", 
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "08:00-09:30", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Elektrotechnik"
+        }, 
+        {
+            "desc": "\u00dcbungen  (MB 1)  (ab KW 41)", 
+            "prof": "Dipl.Ing. Bernd Kandler", 
+            "time": "09:45-11:15", 
+            "room": "FB105 + FB110", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Elektrotechnik", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (MB 1 + InnoTex 3)  (ab KW 41)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "11:30-13:00", 
+            "room": "FA008/010", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Gruppe III)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (MB 1) (ab KW 41)", 
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "11:30-13:00", 
+            "room": "FB105 + FB110", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Elektrotechnik", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (ab KW 41) (MB 1)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "14:00-15:30", 
+            "room": "FA102/104", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "Tutorium  ab KW 43", 
+            "prof": "Tutorium", 
+            "time": "15:45-17:15", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }
+    ]
+}

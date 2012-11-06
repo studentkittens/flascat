@@ -1,0 +1,160 @@
+{
+    "Dienstag": [
+        {
+            "desc": "Praktikum  in M\u00fcnchberg/Hof   siehe Gruppeneinteilung", 
+            "prof": "Ulrich Lang", 
+            "time": "08:00-09:30-09:45-11:15-17:30-19:00", 
+            "room": "FA013", 
+            "type": "HF:0#HF:0#AWPM:0", 
+            "name": "Allgemeine und anorganische Chemie"
+        }, 
+        {
+            "desc": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
+            "prof": "Prof. Dr. med. Johannes Bodky", 
+            "time": "19:15-20:45", 
+            "room": "FB023", 
+            "type": "AWPM:0", 
+            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure"
+        }
+    ], 
+    "Freitag": [
+        {
+            "desc": "(InnoTex + UT + WT 1)", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "08:00-09:30", 
+            "room": "FA009", 
+            "type": "HF:0", 
+            "name": "Allgemeine und anorganische Chemie"
+        }, 
+        {
+            "desc": "(UT + WT + InnoTex 1)", 
+            "prof": "Prof. Dr. Michael Seidel", 
+            "time": "09:45-11:15", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "\u00dcbungen (UT + InnoTex) (ab KW 42)", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "08:00-09:30", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }, 
+        {
+            "desc": "(InnoTex + UT + WT 1)", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "09:45-11:15", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Allgemeine und anorganische Chemie"
+        }, 
+        {
+            "desc": "(UT + WT + InnoTex 1)", 
+            "prof": "Prof. Dr. Michael Seidel", 
+            "time": "11:30-13:00", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
+        }, 
+        {
+            "desc": "(MB + WT + UT + InnoTex 1)", 
+            "prof": "Prof. Dr. Matthias Kilian", 
+            "time": "14:00-15:30", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }, 
+        {
+            "desc": "Tutorium  ab KW 43", 
+            "prof": "Tutorium", 
+            "time": "15:45-17:15", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "Praktikum  in M\u00fcnchberg/Hof   siehe Gruppeneinteilung", 
+            "prof": "Tutorium", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00", 
+            "room": "FA202", 
+            "type": "HF:0#HF:0#HF:0", 
+            "name": "Allgemeine und anorganische Chemie"
+        }, 
+        {
+            "prof": "G\u00fcnther Schwab", 
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "type": "AWPM:0", 
+            "name": "Sport und Gesundheit"
+        }, 
+        {
+            "desc": "(UT + WT + InnoTex 1)", 
+            "prof": "Prof. Dr. Wolfgang Batrla", 
+            "time": "15:45-17:15", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Analysis"
+        }, 
+        {
+            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
+            "prof": "Dipl.Ing. Peter Pinter", 
+            "time": "17:30-19:00", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Analysis"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Virtuelle Vorlesung", 
+            "prof": "Dozent der VHB", 
+            "time": "04:00-05:30", 
+            "room": "Ex_Virtuell", 
+            "type": "AWPM:0", 
+            "name": "Gender und Diversity"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Tutorium", 
+            "time": "11:30-13:00-14:00-15:30-15:45-17:15", 
+            "room": "FA203", 
+            "type": "HF:0#HF:0#HF:0", 
+            "name": "Analysis"
+        }, 
+        {
+            "desc": "Prof. Dr. Reinhardt Schmalz", 
+            "prof": "Dr. Wolfgang Grond", 
+            "time": "15:45-17:15-17:30-19:00", 
+            "room": "FA013", 
+            "type": "HF:0#AWPM:0", 
+            "name": "Grundlagen der Umwelttechnik", 
+            "note": "(ab 15.10.)"
+        }, 
+        {
+            "prof": "Abschlussveranstaltung  (14.01.13)", 
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "type": "AWPM:0", 
+            "name": "Unternehmen in der Region HochFranken"
+        }, 
+        {
+            "prof": "Einf\u00fchrungsveranstaltung  (08.10.12)", 
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "type": "AWPM:0", 
+            "name": "Unternehmen in der Region HochFranken"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "Ex_Extern", 
+            "type": "AWPM:0", 
+            "name": "Unternehmen in der Region HochFranken"
+        }
+    ]
+}

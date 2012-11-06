@@ -1,0 +1,162 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "08:00-09:30", 
+            "room": "FB023", 
+            "type": "HF:1", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Inf3+MI3+Vinf5)"
+        }, 
+        {
+            "desc": "(Inf3 + MI3)  \u00dcbungen", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "09:45-11:15", 
+            "room": "FA008/010", 
+            "type": "HF:1", 
+            "name": "Internettechniken", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "time": "11:30-13:00", 
+            "room": "FB007/009", 
+            "type": "HF:1", 
+            "name": "Software Engineering II"
+        }, 
+        {
+            "prof": "Prof. Ina G\u00fcnther", 
+            "time": "14:00-15:30", 
+            "room": "FD177", 
+            "type": "HF:1", 
+            "name": "Grundlagen des Marketing"
+        }
+    ], 
+    "Freitag": [
+        {
+            "desc": "Vorlesung", 
+            "prof": "Dipl.Inf. J\u00fcrgen Ott", 
+            "time": "08:00-09:30", 
+            "room": "FB114", 
+            "type": "HF:1", 
+            "name": "Fotografie", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "time": "09:45-11:15", 
+            "room": "FB007/009", 
+            "type": "HF:1", 
+            "name": "Software Engineering II", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "time": "11:30-13:00", 
+            "room": "FB007/009", 
+            "type": "HF:1", 
+            "name": "Software Engineering II", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Inf. J\u00fcrgen Ott", 
+            "time": "11:30-13:00", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Fotografie", 
+            "note": "(Gruppe I)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "Vorlesung", 
+            "prof": "Dipl.Inf. J\u00fcrgen Ott", 
+            "time": "08:00-09:30", 
+            "room": "FB114", 
+            "type": "HF:1", 
+            "name": "Fotografie", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "(Inf3 + MI3)  \u00dcbungen (Beginn: KW 41)", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "09:45-11:15", 
+            "room": "FA008/010", 
+            "type": "HF:1", 
+            "name": "Internettechniken", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Inf. J\u00fcrgen Ott", 
+            "time": "09:45-11:15", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Fotografie", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen  Beginn KW 41", 
+            "prof": "Prof. Ina G\u00fcnther", 
+            "time": "11:30-13:00", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Kommunikationsdesign I", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Inf. Stefan M\u00fcller", 
+            "time": "11:30-13:00", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen  Beginn KW 41", 
+            "prof": "Prof. Ina G\u00fcnther", 
+            "time": "14:00-15:30", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Kommunikationsdesign I", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Inf. Stefan M\u00fcller", 
+            "time": "14:00-15:30", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Gruppe I)"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Prof. Ina G\u00fcnther", 
+            "time": "09:45-11:15", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Grundlagen des Marketing"
+        }, 
+        {
+            "prof": "Prof. Ina G\u00fcnther", 
+            "time": "11:30-13:00", 
+            "room": "FA011", 
+            "type": "HF:1", 
+            "name": "Kommunikationsdesign I"
+        }, 
+        {
+            "desc": "(Inf3 + MI3)  Vorlesung", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "15:45-17:15", 
+            "room": "FB007/009", 
+            "type": "HF:1", 
+            "name": "Internettechniken"
+        }
+    ]
+}

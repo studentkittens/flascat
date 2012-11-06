@@ -1,0 +1,20 @@
+{
+    "Mittwoch": [
+        {
+            "desc": "MindestTN 12, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "17:30-19:00", 
+            "room": "FA105", 
+            "name": "Italienisch Grundstufe (UNIcert I) Kurs 1"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "MindestTN 12, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "17:30-19:00", 
+            "room": "FA105", 
+            "name": "Italienisch Grundstufe (UNIcert I) Kurs 1"
+        }
+    ]
+}

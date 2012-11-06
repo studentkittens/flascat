@@ -1,0 +1,136 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Praktikum", 
+            "time": "08:00-09:30", 
+            "room": "FC018", 
+            "type": "HF:0", 
+            "name": "Grundlagen Maschinenbau", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "09:45-11:15", 
+            "room": "FD246", 
+            "type": "HF:0", 
+            "name": "Umweltmikrobiologie / Toxikologie", 
+            "note": "(UT 3 + MB W 5)"
+        }, 
+        {
+            "desc": "(UT + InnoTex + WT 3)", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Qualit\u00e4tsmanagement"
+        }, 
+        {
+            "prof": "Praktikum  (UT + WT 3)", 
+            "time": "14:00-15:30", 
+            "room": "FC018", 
+            "type": "HF:0", 
+            "name": "Grundlagen Maschinenbau", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "Thermodynamik  (Wing WT + MB + UT + WT 3)", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "time": "15:45-17:15", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Thermodynamik und Str\u00f6mungslehre"
+        }, 
+        {
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FB007/009 + FB012", 
+            "name": "Konstruktion"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "Tutorium", 
+            "prof": "Sonst:0", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15-17:30-19:00", 
+            "room": "FA201", 
+            "type": "HF:0#HF:0#HF:0#HF:0", 
+            "name": "Rechen\u00fcbungen f\u00fcr Analytische Chemie"
+        }, 
+        {
+            "desc": "(Wiederholer der Studienarbeit)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FB005 + FB012", 
+            "name": "Konstruktion"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "\u00dcbungen  (14t\u00e4gig) (Beginn: KW 41)", 
+            "prof": "Sonst:0", 
+            "time": "08:00-09:30-08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-14:00-15:30-15:45-17:15-15:45-17:15-17:30-19:00", 
+            "room": "FA011", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "name": "Grundlagen der Automatisierung", 
+            "note": "(Gruppe I)#(Gruppe II)#(UT + InnoTex 3)#(Gruppe II)#(Gruppe I)#(Gruppe IV)#(Gruppe III)"
+        }, 
+        {
+            "desc": "Tutorium Str\u00f6mungslehre  (ab KW 42)", 
+            "prof": "Jessica Wittmann", 
+            "time": "19:15-20:45", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Thermodynamik und Str\u00f6mungslehre"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Str\u00f6mungslehre  (Wing WT + MB + UT + WT 3)", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "time": "08:00-09:30", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Thermodynamik und Str\u00f6mungslehre"
+        }, 
+        {
+            "desc": "(UT + InnoTex + WT 3)", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "09:45-11:15", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Qualit\u00e4tsmanagement"
+        }, 
+        {
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
+            "time": "11:30-13:00", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Grundlagen Maschinenbau", 
+            "note": "(UT + WT 3)"
+        }, 
+        {
+            "prof": "Dr. Andreas Hofmann", 
+            "time": "15:45-17:15", 
+            "room": "FA017", 
+            "type": "HF:0", 
+            "name": "Umweltmikrobiologie / Toxikologie", 
+            "note": "(UT 3 + MB W 5)"
+        }, 
+        {
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer) (ab 15.10.)", 
+            "prof": "Sonst:0", 
+            "time": "15:45-17:15", 
+            "room": "FB001/002", 
+            "name": "Statistik"
+        }, 
+        {
+            "desc": "Tutorium Str\u00f6mungslehre  (ab KW 42)", 
+            "prof": "Jessica Wittmann", 
+            "time": "17:30-19:00", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Thermodynamik und Str\u00f6mungslehre"
+        }
+    ]
+}

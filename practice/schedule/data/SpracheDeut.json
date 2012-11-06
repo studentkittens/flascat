@@ -1,0 +1,48 @@
+{
+    "Donnerstag": [
+        {
+            "time": "14:00-15:30", 
+            "room": "FA109", 
+            "name": "Deutsch als Fremdsprache  Kurs A1", 
+            "prof": "WFSp:0"
+        }, 
+        {
+            "desc": "Krisztina Schneider", 
+            "prof": "WFSp:0", 
+            "time": "14:00-15:30", 
+            "room": "FA106", 
+            "name": "Deutsch als Fremdsprache  Kurs A2"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "room": "FA109", 
+            "name": "Deutsch als Fremdsprache  Kurs A1", 
+            "prof": "WFSp:0"
+        }, 
+        {
+            "desc": "Krisztina Schneider", 
+            "prof": "WFSp:0", 
+            "time": "15:45-17:15", 
+            "room": "FA106", 
+            "name": "Deutsch als Fremdsprache  Kurs A2"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "Krisztina Schneider", 
+            "prof": "WFSp:0", 
+            "time": "14:00-15:30", 
+            "room": "FA106", 
+            "name": "Deutsch als Fremdsprache  Kurs B1/B2"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Krisztina Schneider", 
+            "prof": "WFSp:0", 
+            "time": "08:00-09:30", 
+            "room": "FA106", 
+            "name": "Deutsch als Fremdsprache  Kurs B1/B2"
+        }
+    ]
+}

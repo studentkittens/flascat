@@ -1,0 +1,107 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Prof. Dr. Peter St\u00f6hr", 
+            "time": "09:45-11:15", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I"
+        }, 
+        {
+            "prof": "Prof. Dr. G\u00fcnther K\u00f6hler", 
+            "time": "11:30-13:00", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Diskrete Mathematik"
+        }, 
+        {
+            "prof": "Prof. Dr. Horst Heineck", 
+            "time": "14:00-15:30", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Betriebssysteme I"
+        }, 
+        {
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "15:45-17:15", 
+            "room": "FB007/009", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Inf1 + WI1)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Prof. Dr. G\u00fcnther K\u00f6hler", 
+            "time": "09:45-11:15", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Diskrete Mathematik"
+        }, 
+        {
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "11:30-13:00", 
+            "room": "FB001/002", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Inf1 + WI1)"
+        }, 
+        {
+            "desc": "Tutorium  (Inf1 + WI1) Beginn KW 43", 
+            "prof": "Herr Michael Schrepfer", 
+            "time": "15:45-17:15", 
+            "room": "FA009", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Prof. Ariane Hedayati", 
+            "time": "08:00-09:30", 
+            "room": "FB114", 
+            "type": "HF:1", 
+            "name": "Gestaltung und Pr\u00e4sentationstechniken"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. Horst Heineck", 
+            "time": "09:45-11:15", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Betriebssysteme I"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. Peter St\u00f6hr", 
+            "time": "11:30-13:00", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I"
+        }, 
+        {
+            "desc": "Tutorium  ab KW 42", 
+            "prof": "Dr. Gerd Kammerer", 
+            "time": "14:00-15:30", 
+            "room": "FD177", 
+            "type": "HF:1", 
+            "name": "Diskrete Mathematik"
+        }
+    ], 
+    "Montag": [
+        {
+            "prof": "Prof. Dr. Peter St\u00f6hr", 
+            "time": "11:30-13:00", 
+            "room": "FD177", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I"
+        }, 
+        {
+            "prof": "Prof. Ariane Hedayati", 
+            "time": "14:00-15:30", 
+            "room": "FB114", 
+            "type": "HF:1", 
+            "name": "Gestaltung und Pr\u00e4sentationstechniken"
+        }
+    ]
+}

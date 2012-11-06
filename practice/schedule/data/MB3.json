@@ -1,0 +1,252 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Prof. Dr. Matthias Kilian", 
+            "time": "11:30-13:00", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Maschinenelemente"
+        }, 
+        {
+            "desc": "Thermodynamik  (Wing WT + MB + UT + WT 3)", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "time": "15:45-17:15", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Thermodynamik und Str\u00f6mungslehre"
+        }, 
+        {
+            "prof": "Ulrich Lang", 
+            "time": "17:30-19:00", 
+            "room": "FA013", 
+            "type": "AWPM:0", 
+            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten"
+        }, 
+        {
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FB007/009 + FB012", 
+            "name": "Konstruktion"
+        }, 
+        {
+            "desc": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
+            "prof": "Prof. Dr. med. Johannes Bodky", 
+            "time": "19:15-20:45", 
+            "room": "FB023", 
+            "type": "AWPM:0", 
+            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure"
+        }
+    ], 
+    "Freitag": [
+        {
+            "desc": "(MB 3 + Wing IT/AT + MT 5)", 
+            "prof": "Wolfgang Major", 
+            "time": "11:30-13:00", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Arbeitsgestaltung und Montagetechnik"
+        }, 
+        {
+            "desc": "(MB 3 + Wing IT/AT + MT 5)", 
+            "prof": "Wolfgang Major", 
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Arbeitsgestaltung und Montagetechnik"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "\u00dcbungen/Praktika (ab KW 47)  (MB + WT 3)", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "09:45-11:15", 
+            "room": "FC019 + FC018", 
+            "type": "HF:0", 
+            "name": "Fertigungstechnik"
+        }, 
+        {
+            "desc": "Vorlesung (bis KW 46)  (MB + WT 3)", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "09:45-11:15", 
+            "room": "FB007/009", 
+            "type": "HF:0", 
+            "name": "Fertigungstechnik"
+        }, 
+        {
+            "desc": "Vorlesung  (MB + WT 3)", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "11:30-13:00", 
+            "room": "FB007/009", 
+            "type": "HF:0", 
+            "name": "Fertigungstechnik"
+        }, 
+        {
+            "desc": "Tutorium  (Wing, WT, MB, UT 3) (ab 4.10.)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FA201", 
+            "name": "Kinematik und Dynamik"
+        }, 
+        {
+            "desc": "(Wiederholer der Studienarbeit)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FB005 + FB012", 
+            "name": "Konstruktion"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "(MB 3 + Wing IT 3 + Wing  MT 5)", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "09:45-11:15", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierung"
+        }, 
+        {
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "Qualit\u00e4tsmanagement"
+        }, 
+        {
+            "prof": "G\u00fcnther Schwab", 
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "type": "AWPM:0", 
+            "name": "Sport und Gesundheit"
+        }, 
+        {
+            "prof": "Prof. Dr. Matthias Kilian", 
+            "time": "14:00-15:30", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Maschinenelemente"
+        }, 
+        {
+            "desc": "Praktikum  (Wing MT 5 + MB 3) (ab KW 42)", 
+            "prof": "Wolfgang Uschold", 
+            "time": "15:45-17:15", 
+            "room": "FC007", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierung"
+        }, 
+        {
+            "desc": "10.10.2012  Sicherheitseinweisung  (Pflicht f\u00fcr Praktikumsteilnahme)", 
+            "prof": "Wolfgang Uschold", 
+            "time": "15:45-16:30", 
+            "room": "FC009A", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierung"
+        }, 
+        {
+            "desc": "Praktikum  (Wing MT 5 + MB 3)  (ab KW 42)", 
+            "prof": "Wolfgang Uschold", 
+            "time": "17:30-19:00", 
+            "room": "FC007", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierung"
+        }, 
+        {
+            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FA011", 
+            "name": "Analysis"
+        }, 
+        {
+            "desc": "Tutorium Str\u00f6mungslehre  (ab KW 42)", 
+            "prof": "Jessica Wittmann", 
+            "time": "19:15-20:45", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Thermodynamik und Str\u00f6mungslehre"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Virtuelle Vorlesung", 
+            "prof": "Dozent der VHB", 
+            "time": "04:00-05:30", 
+            "room": "Ex_Virtuell", 
+            "type": "AWPM:0", 
+            "name": "Gender und Diversity"
+        }, 
+        {
+            "desc": "Str\u00f6mungslehre  (Wing WT + MB + UT + WT 3)", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "time": "08:00-09:30", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Thermodynamik und Str\u00f6mungslehre"
+        }, 
+        {
+            "desc": "\u00dcbungen  (Beginn: KW 42)", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "09:45-11:15", 
+            "room": "FA102/104", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierung"
+        }, 
+        {
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "14:00-15:30", 
+            "room": "FA103", 
+            "type": "HF:0", 
+            "name": "Qualit\u00e4tsmanagement"
+        }, 
+        {
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer) (ab 15.10.)", 
+            "prof": "Sonst:0", 
+            "time": "15:45-17:15", 
+            "room": "FB001/002", 
+            "name": "Statistik"
+        }, 
+        {
+            "desc": "Tutorium  (Wing, WT, MB, InnoTex 3) (ab 8.10.)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FA107", 
+            "name": "Ingenieurmathematik"
+        }, 
+        {
+            "desc": "Tutorium Str\u00f6mungslehre  (ab KW 42)", 
+            "prof": "Jessica Wittmann", 
+            "time": "17:30-19:00", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Thermodynamik und Str\u00f6mungslehre"
+        }, 
+        {
+            "prof": "Dr. Wolfgang Grond", 
+            "time": "17:30-19:00", 
+            "room": "FA013", 
+            "type": "AWPM:0", 
+            "name": "Wissens, Innovations und Technologiemanagement", 
+            "note": "(ab 15.10.)"
+        }, 
+        {
+            "prof": "Abschlussveranstaltung  (14.01.13)", 
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "type": "AWPM:0", 
+            "name": "Unternehmen in der Region HochFranken"
+        }, 
+        {
+            "prof": "Einf\u00fchrungsveranstaltung  (08.10.12)", 
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "type": "AWPM:0", 
+            "name": "Unternehmen in der Region HochFranken"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "Ex_Extern", 
+            "type": "AWPM:0", 
+            "name": "Unternehmen in der Region HochFranken"
+        }
+    ]
+}

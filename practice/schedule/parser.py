@@ -1,44 +1,19 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-import re, sys, urllib
+import re, sys, urllib, json
 from urllib.request import urlopen
 from html.parser import HTMLParser
 from urllib.parse import quote
 
 from pprint import pprint
 
-'''
-
-# Inf3
-
-11:30
-13:00
-Formale Sprachen -- -
- - (Inf3 + WI3)
-Prof. Dr. Richard Göbel
-HF:1
-FA009
-
-
-# Inf5
-
-11:30
-13:00
-Geographische Informationssysteme -- -
- - (Vinf+Inf+MI 5)
-Prof. Dr. Richard Göbel,  Carsten Kropf
-FWM:1
-FB001/002
-
-
-'''
 
 headers = ['room', 'type', 'time', 'note', 'prof', 'name', 'desc']
 
 
 def looks_like_room(data):
-    return re.match('F[A-Z][0-9]+', data) or re.match('Ex_*', data)
+    return re.match('F[A-Z][0-9]+', data) or re.match('F[A-Z][0-9]{3}/F[A-Z][0-9]{3}', data) or re.match('Ex_*', data)
 
 
 def guess_key_from_data(data):
@@ -123,11 +98,14 @@ class TableHTMLParser(HTMLParser):
                     del node['_tmp']
 
     def print_table(self):
-        import json
         print(json.dumps(self.schedule, indent=4))
+
+    def get_json(self):
+        return json.dumps(self.schedule, indent=4)
 
 
 def download_schedule(studiengang, semester):
+    print(type(studiengang))
     data = ''
     url = "http://www.hof-university.de/index.php?id=515&st={st}&fs={fs}&jahr=2012&semester={ws}".format(
             st=quote(studiengang),

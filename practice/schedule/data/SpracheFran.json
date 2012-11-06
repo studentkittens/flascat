@@ -1,0 +1,48 @@
+{
+    "Mittwoch": [
+        {
+            "desc": "Fortsetzung von UNIcert II, Kurs 1, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "11:30-13:00", 
+            "room": "FB005", 
+            "name": "Franz\u00f6sisch Mittelstufe (UNIcert II) Kurs 2"
+        }, 
+        {
+            "desc": "Fortsetzung von UNIcert I, Kurs 2, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "14:00-15:30", 
+            "room": "FB005", 
+            "name": "Franz\u00f6sisch Grundstufe (UNIcert I) Kurs 3"
+        }, 
+        {
+            "desc": "ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "14:00-15:30", 
+            "room": "FA108", 
+            "name": "Franz\u00f6sisch Grundstufe (UNIcert I) Kurs 1"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Fortsetzung von UNIcert I, Kurs 2, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "08:00-09:30", 
+            "room": "FB005", 
+            "name": "Franz\u00f6sisch Grundstufe (UNIcert I) Kurs 3"
+        }, 
+        {
+            "desc": "ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "08:00-09:30", 
+            "room": "FA108", 
+            "name": "Franz\u00f6sisch Grundstufe (UNIcert I) Kurs 1"
+        }, 
+        {
+            "desc": "Fortsetzung von UNIcert II, Kurs 1, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "09:45-11:15", 
+            "room": "FB005", 
+            "name": "Franz\u00f6sisch Mittelstufe (UNIcert II) Kurs 2"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "Dienstag": [
+        {
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "17:30-19:00", 
+            "room": "FA009", 
+            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Technik"
+        }, 
+        {
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "17:30-19:00", 
+            "room": "FD246", 
+            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Technik"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "17:30-19:00", 
+            "room": "FA105", 
+            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Technik"
+        }, 
+        {
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "17:30-19:00", 
+            "room": "FD246", 
+            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Technik"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "11:30-13:00", 
+            "room": "FD246", 
+            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Wirtschaft"
+        }, 
+        {
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "14:00-15:30", 
+            "room": "FD246", 
+            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Wirtschaft"
+        }, 
+        {
+            "desc": "Marketing Communications  Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "14:00-15:30", 
+            "room": "FA105", 
+            "name": "Englisch Perfektionsstufe (UNIcert IV) Kurs 1b ; Englisch Perfektionsstufe (UNIcert IV) Kurs 2 Marketing Communications"
+        }, 
+        {
+            "time": "14:00-15:30", 
+            "name": "Englisch f\u00fcr Textil und Design", 
+            "desc": "nur f\u00fcr Weitforgeschrittene, Einstufungstest UNIcert III oder IV", 
+            "prof": "Mueb_H9"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "08:00-09:30", 
+            "room": "FD246", 
+            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Wirtschaft"
+        }, 
+        {
+            "desc": "Kurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "08:00-09:30-08:00-09:30", 
+            "room": "FA203", 
+            "name": "Englisch f\u00fcr Textil und Design  Kurs 1 (ab WS 2011: Englisch UNIcert II, Kurs 1a)"
+        }, 
+        {
+            "desc": "Kurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "09:45-11:15-09:45-11:15", 
+            "room": "FA203", 
+            "name": "Englisch f\u00fcr Textil und Design  Kurs 3 (ab WS 2011: Englisch UNIcert II, Kurs 2a)"
+        }, 
+        {
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "09:45-11:15", 
+            "room": "FD246", 
+            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Wirtschaft"
+        }, 
+        {
+            "desc": "Negotiating Skills  Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "prof": "WFSp:0", 
+            "time": "09:45-11:15", 
+            "room": "FA101", 
+            "name": "Englisch Perfektionsstufe (UNIcert IV) Kurs 1a ; Englisch Perfektionsstufe (UNIcert IV) Kurs 1 Negotiating Skills"
+        }
+    ]
+}

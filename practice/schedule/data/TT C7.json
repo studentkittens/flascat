@@ -1,0 +1,51 @@
+{
+    "Dienstag": [
+        {
+            "desc": "Vorlesung", 
+            "prof": "Mueb_Ch2 + Mueb_CAD", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15-17:30-19:00", 
+            "name": "Textile Verbundwerkstoffe mit Pr", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "note": "(6 SWS Block)#(6 SWS Block)#(6 SWS Block)"
+        }
+    ], 
+    "Freitag": [
+        {
+            "time": "11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "desc": "Kurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine", 
+            "prof": "Mueb_H9A"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "time": "14:00-15:30", 
+            "name": "Englisch f\u00fcr Textil und Design", 
+            "desc": "nur f\u00fcr Weitforgeschrittene, Einstufungstest UNIcert III oder IV", 
+            "prof": "Mueb_H9"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41", 
+            "prof": "T_WPF:0", 
+            "time": "08:00-09:30-08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15-18:00-19:30", 
+            "room": "FB001/002", 
+            "type": "HF:0#HF:0#HF:0", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1"
+        }, 
+        {
+            "desc": "Einf\u00fchrungsveranstaltung  (08.10.12)", 
+            "prof": "T_WPF:0", 
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "Ex_Extern", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "prof": "T_WPF:0"
+        }
+    ]
+}

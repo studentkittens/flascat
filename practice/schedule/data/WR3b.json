@@ -1,0 +1,150 @@
+{
+    "Dienstag": [
+        {
+            "time": "08:00-09:30", 
+            "room": "FA009", 
+            "type": "HF:0", 
+            "name": "Rechtsdurchsetzung (gerichtlich und au\u00dfergerichtlich)"
+        }, 
+        {
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "09:45-11:15", 
+            "room": "FB001/002", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung in die Wirtschaftspolitik"
+        }, 
+        {
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "11:30-13:00", 
+            "room": "FA103", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung in die Wirtschaftspolitik"
+        }, 
+        {
+            "prof": "Prof. Dr. Johannes Schwarz", 
+            "time": "14:00-15:30", 
+            "room": "FA013", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung in das Insolvenzrecht und den Unternehmensumbau"
+        }, 
+        {
+            "prof": "aus dem 4. Semester vorgezogen  F\u00fchrungsmethoden, Beginn 30.10.2012", 
+            "time": "14:00-15:30", 
+            "room": "FA222", 
+            "type": "HF:0", 
+            "name": "Praxisprojekt Wirtschaft", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "prof": "aus dem 4. Semester vorgezogen  F\u00fchrungsmethoden, Beginn 30.10.2012", 
+            "time": "15:45-17:15", 
+            "room": "FA222", 
+            "type": "HF:0", 
+            "name": "Praxisprojekt Wirtschaft", 
+            "note": "(Gruppe II)"
+        }
+    ], 
+    "Freitag": [
+        {
+            "desc": "Polizei und Ordnungsrecht  wird aus dem 4. Sem vorgezogen", 
+            "prof": "Dr. Matthias Goers", 
+            "time": "09:00-18:00", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Praxisprojekt \u00d6ffentliches Recht"
+        }, 
+        {
+            "desc": "Polizei und Ordnungsrecht  wird aus dem 4. Sem vorgezogen", 
+            "prof": "Dr. Matthias Goers", 
+            "time": "09:00-18:00", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Praxisprojekt \u00d6ffentliches Recht"
+        }, 
+        {
+            "desc": "Praxisprojekt \u00d6ffentliches Recht", 
+            "prof": "Dr. Matthias Goers", 
+            "time": "09:00-15:00", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Samstag"
+        }, 
+        {
+            "desc": "Polizei und Ordnungsrecht  wird aus dem 4. Sem vorgezogen", 
+            "prof": "Dr. Matthias Goers", 
+            "time": "09:00-15:00", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Praxisprojekt \u00d6ffentliches Recht"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "time": "11:30-13:00", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "Unternehmenssteuer (Steuerrecht II)"
+        }, 
+        {
+            "prof": "Prof. Dr. Anja Feldberg", 
+            "time": "15:45-17:15", 
+            "room": "FA101", 
+            "type": "HF:0", 
+            "name": "Gesellschaftsrecht"
+        }, 
+        {
+            "prof": "Dr. Christoph Suttmann", 
+            "time": "17:30-19:00", 
+            "room": "FD242", 
+            "type": "HF:0", 
+            "name": "Recht der Kreditsicherung"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "time": "08:00-09:30", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Bilanzierung"
+        }, 
+        {
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "time": "09:45-11:15", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Bilanzierung"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Business Communication", 
+            "note": "(Gruppe III)"
+        }, 
+        {
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "time": "14:00-15:30", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Unternehmenssteuer (Steuerrecht II)"
+        }
+    ], 
+    "Montag": [
+        {
+            "time": "11:30-13:00", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Business Communication", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FA222", 
+            "type": "HF:0", 
+            "name": "Business Communication", 
+            "note": "(Gruppe I)"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "Montag": [
+        {
+            "desc": "Fortsetzung von UNIcert I, Kurs 2  MindestTN 10, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "08:00-09:30", 
+            "room": "FA109", 
+            "name": "Russisch UNIcertBasis Grundkurs 2"
+        }, 
+        {
+            "desc": "Fortsetzung von UNIcert I, Kurs 2  MindestTN 10, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "09:45-11:15", 
+            "room": "FA109", 
+            "name": "Russisch UNIcertBasis Grundkurs 2"
+        }
+    ]
+}

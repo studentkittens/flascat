@@ -1,0 +1,134 @@
+{
+    "Dienstag": [
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "08:00-09:30", 
+            "room": "FA014", 
+            "type": "HF:1", 
+            "name": "Betriebssysteme I", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "time": "09:45-11:15", 
+            "room": "FA011", 
+            "type": "HF:1", 
+            "name": "Mathematik"
+        }
+    ], 
+    "Freitag": [
+        {
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "08:00-09:30", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I"
+        }, 
+        {
+            "time": "09:45-11:15", 
+            "room": "FB005", 
+            "type": "HF:1", 
+            "name": "Englisch", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "09:45-11:15", 
+            "room": "FA012", 
+            "type": "HF:1", 
+            "name": "Grundlagen Rechnertechnik", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "11:30-13:00", 
+            "room": "FA012", 
+            "type": "HF:1", 
+            "name": "Grundlagen Rechnertechnik", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FB005", 
+            "type": "HF:1", 
+            "name": "Englisch", 
+            "note": "(Gruppe I)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "08:00-09:30", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "08:00-09:30", 
+            "room": "FA014", 
+            "type": "HF:1", 
+            "name": "Betriebssysteme I", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "09:45-11:15", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "time": "11:30-13:00", 
+            "room": "FA011", 
+            "type": "HF:1", 
+            "name": "Mathematik"
+        }, 
+        {
+            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
+            "time": "14:00-15:30", 
+            "room": "FD177", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Informatik"
+        }, 
+        {
+            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
+            "time": "15:45-17:15", 
+            "room": "FD177", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Informatik"
+        }
+    ], 
+    "Montag": [
+        {
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "09:45-11:15", 
+            "room": "FD177", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I"
+        }, 
+        {
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "11:30-13:00", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Betriebssysteme I"
+        }, 
+        {
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "14:00-15:30", 
+            "room": "FD175", 
+            "type": "HF:1", 
+            "name": "Grundlagen Rechnertechnik"
+        }
+    ]
+}

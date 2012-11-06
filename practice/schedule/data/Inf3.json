@@ -1,0 +1,111 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "08:00-09:30", 
+            "room": "FB023", 
+            "type": "HF:1", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Inf3+MI3+Vinf5)"
+        }, 
+        {
+            "desc": "(Inf3 + MI3)  \u00dcbungen", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "09:45-11:15", 
+            "room": "FA008/010", 
+            "type": "HF:1", 
+            "name": "Internettechniken", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "11:30-13:00", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "SoftwareProjektmanagement"
+        }, 
+        {
+            "prof": "Prof. Dr. G\u00fcnther K\u00f6hler", 
+            "time": "14:00-15:30", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Parallele Programmierung"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "(Inf3 + MI3)  \u00dcbungen (Beginn: KW 41)", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "09:45-11:15", 
+            "room": "FA008/010", 
+            "type": "HF:1", 
+            "name": "Internettechniken", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "time": "11:30-13:00", 
+            "room": "FA009", 
+            "type": "HF:1", 
+            "name": "Formale Sprachen", 
+            "note": "(Inf3 + WI3)"
+        }, 
+        {
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "time": "14:00-15:30", 
+            "room": "FA102/104", 
+            "type": "HF:1", 
+            "name": "Formale Sprachen", 
+            "note": "(Inf3 + WI3)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Inf. Stefan M\u00fcller", 
+            "time": "15:45-17:15", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Effizientes Programmieren mit C/C++"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. Peter St\u00f6hr", 
+            "time": "09:45-11:15", 
+            "room": "FB005", 
+            "type": "HF:1", 
+            "name": "Software Engineering II"
+        }, 
+        {
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "11:30-13:00", 
+            "room": "FA012", 
+            "type": "HF:1", 
+            "name": "SoftwareProjektmanagement"
+        }, 
+        {
+            "desc": "(Inf3 + MI3)  Vorlesung", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "15:45-17:15", 
+            "room": "FB007/009", 
+            "type": "HF:1", 
+            "name": "Internettechniken"
+        }
+    ], 
+    "Montag": [
+        {
+            "prof": "Prof. Dr. Peter St\u00f6hr", 
+            "time": "14:00-15:30", 
+            "room": "FD177", 
+            "type": "HF:1", 
+            "name": "Software Engineering II"
+        }, 
+        {
+            "prof": "Prof. Dr. G\u00fcnther K\u00f6hler", 
+            "time": "15:45-17:15", 
+            "room": "FD177", 
+            "type": "HF:1", 
+            "name": "Parallele Programmierung"
+        }
+    ]
+}

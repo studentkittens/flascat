@@ -1,0 +1,78 @@
+{
+    "Dienstag": [
+        {
+            "desc": "MindestTN 12, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "17:30-19:00", 
+            "room": "FA103", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Gruppe II)"
+        }
+    ], 
+    "Freitag": [
+        {
+            "time": "11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "desc": "Kurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine", 
+            "prof": "Mueb_H9A"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "MindestTN 12, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "17:30-19:00", 
+            "room": "FA103", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Gruppe II)"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "Fortsetzung von UNIcert II, Kurs 1, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "11:30-13:00", 
+            "room": "FA015", 
+            "name": "Spanisch Mittelstufe (UNIcert II) Kurs 2"
+        }, 
+        {
+            "desc": "ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "14:00-15:30", 
+            "room": "FA103", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "Fortsetzung von UNIcert I, Kurs 2, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "14:00-15:30", 
+            "room": "FB003", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 3"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "08:00-09:30-08:00-09:30", 
+            "room": "FA103", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "Fortsetzung von UNIcert I, Kurs 2, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "08:00-09:30", 
+            "room": "FB003", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 3"
+        }, 
+        {
+            "desc": "Fortsetzung von UNIcert II, Kurs 1, ab KW 41", 
+            "prof": "WFSp:0", 
+            "time": "14:00-15:30", 
+            "room": "FA017", 
+            "name": "Spanisch Mittelstufe (UNIcert II) Kurs 2"
+        }
+    ]
+}

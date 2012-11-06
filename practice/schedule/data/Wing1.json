@@ -1,0 +1,293 @@
+{
+    "Dienstag": [
+        {
+            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1)", 
+            "prof": "Prof. Dr. Reinhardt Schmalz", 
+            "time": "08:00-09:30", 
+            "room": "FB005", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1)", 
+            "prof": "Prof. Dr. Reinhardt Schmalz", 
+            "time": "09:45-11:15", 
+            "room": "FB005", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe III)"
+        }, 
+        {
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "09:45-11:15", 
+            "room": "FB110", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "\u00dcbungen  (ab KW 41)#(Gruppe I)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (Wing 1+2)  (ab KW 41)", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "09:45-11:15", 
+            "room": "FB007/009", 
+            "type": "HF:0", 
+            "name": "Analysis", 
+            "note": "(Gruppe IV)"
+        }, 
+        {
+            "desc": "\u00dcbungen   (ab KW 41)", 
+            "prof": "Steffen Unger", 
+            "time": "11:30-13:00", 
+            "room": "FA102/104", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1+2)", 
+            "prof": "Prof. Dr. Reinhardt Schmalz", 
+            "time": "11:30-13:00", 
+            "room": "FB005", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe IV)"
+        }, 
+        {
+            "desc": "(14t\u00e4gig) (Beginn: KW 40)", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "14:00-15:30-15:45-17:15", 
+            "room": "FB109", 
+            "type": "HF:0#HF:0", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Gruppe I)"
+        }
+    ], 
+    "Freitag": [
+        {
+            "time": "08:00-09:30", 
+            "room": "Externes Rechnungswesen"
+        }, 
+        {
+            "room": "FB001/002", 
+            "type": "HF:0", 
+            "name": "(Gr. IIIIV)  (+WI 1+ Wing 1+2)", 
+            "prof": "Prof. Dr. Ulrich Entrup"
+        }, 
+        {
+            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41) (Wing 1)", 
+            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
+            "time": "09:45-11:15", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
+        }, 
+        {
+            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41)  (Wing 1)", 
+            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
+            "time": "11:30-13:00", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
+        }, 
+        {
+            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41)  (Wing 1)", 
+            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
+            "time": "14:00-15:30", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
+        }, 
+        {
+            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41) (Wing 1)", 
+            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
+            "time": "15:45-17:15", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Steffen Unger", 
+            "time": "08:00-09:30", 
+            "room": "FB110", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "\u00dcbungen  (ab KW 41)#(Gruppe III)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (14t\u00e4gig) (Beginn: KW 41)", 
+            "prof": "Dipl.Ing. Bernd Kandler", 
+            "time": "09:45-11:15", 
+            "room": "FB110", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (14t\u00e4gig) (Beginn: KW 40)", 
+            "prof": "Dipl.Ing. Bernd Kandler", 
+            "time": "09:45-11:15", 
+            "room": "FB110", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "(Gr. III+IV) (Wing 1+2)", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "time": "09:45-11:15", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "Externes Rechnungswesen"
+        }, 
+        {
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Prof. Dr. Ulrich Entrup", 
+            "note": "(Gr. III)  (Wing 1)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (14t\u00e4gig) (Beginn: KW 40)", 
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "11:30-13:00", 
+            "room": "FB110", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Gruppe III)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (Wing 1) (ab KW 41)", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "14:00-15:30", 
+            "room": "FA009", 
+            "type": "HF:0", 
+            "name": "Analysis", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "Tutorium  ab KW 43", 
+            "prof": "Tutorium", 
+            "time": "15:45-17:15", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1)", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "time": "08:00-09:30", 
+            "room": "FD175", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "time": "09:45-11:15", 
+            "room": "Externes Rechnungswesen"
+        }, 
+        {
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Prof. Dr. Ulrich Entrup", 
+            "note": "(Gr. III) (Wing 1)"
+        }, 
+        {
+            "desc": "(Gr. III+IV) (Wing 1+2)", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "time": "09:45-11:15", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
+        }, 
+        {
+            "desc": "Tutorium  ab KW 43", 
+            "prof": "Tutorium", 
+            "time": "11:30-13:00", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "Externes Rechnungswesen"
+        }, 
+        {
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "(Gr. IIIIV) (+WI 1+ Wing 1+2)", 
+            "prof": "Prof. Dr. Ulrich Entrup"
+        }, 
+        {
+            "prof": "Prof. Dr. Robert Honke", 
+            "time": "14:00-15:30", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Wing 1+2)"
+        }, 
+        {
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "15:45-17:15", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure"
+        }, 
+        {
+            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
+            "prof": "Dipl.Ing. Peter Pinter", 
+            "time": "17:30-19:00", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Analysis"
+        }
+    ], 
+    "Montag": [
+        {
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "09:45-11:15", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik"
+        }, 
+        {
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "11:30-13:00", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Analysis", 
+            "note": "(Wing 1+2)"
+        }, 
+        {
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "14:00-15:30", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Programmieren f\u00fcr Ingenieure"
+        }, 
+        {
+            "desc": "Tutorium  ab KW 43", 
+            "prof": "Tutorium", 
+            "time": "15:45-17:15", 
+            "room": "FA203", 
+            "type": "HF:0", 
+            "name": "Statik und Festigkeitslehre"
+        }, 
+        {
+            "desc": "\u00dcbungen  (Wing 1)  (ab KW 41)", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "15:45-17:15", 
+            "room": "FA009", 
+            "type": "HF:0", 
+            "name": "Analysis", 
+            "note": "(Gruppe III)"
+        }
+    ]
+}

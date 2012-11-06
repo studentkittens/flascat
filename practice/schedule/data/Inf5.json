@@ -1,0 +1,297 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Prof. Dr. Peter St\u00f6hr", 
+            "time": "08:00-09:30", 
+            "room": "FB010", 
+            "type": "FWM:1", 
+            "name": "ObjectiveC und iOSProgrammierung", 
+            "note": "(Inf+MI5)"
+        }, 
+        {
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "11:30-13:00", 
+            "room": "FB102", 
+            "type": "FWM:1", 
+            "name": "RoutingSwitchingTroubleshooting 1", 
+            "note": "(Inf+MI+WI5)"
+        }, 
+        {
+            "prof": "Prof. Dr. Horst Heineck", 
+            "time": "11:30-13:00", 
+            "room": "FB114", 
+            "type": "FWM:1", 
+            "name": "Oracle 11g Release 2  Administration Workshop I", 
+            "note": "(Inf+MI+WI5)"
+        }, 
+        {
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "14:00-15:30", 
+            "room": "FA017", 
+            "type": "FWM:1", 
+            "name": "Wiederverwendungsbasierte Entwicklung von Systemen", 
+            "note": "(Inf5 + WI5)"
+        }, 
+        {
+            "prof": "Ulrich Lang", 
+            "time": "17:30-19:00", 
+            "room": "FA013", 
+            "type": "AWM:1", 
+            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten"
+        }, 
+        {
+            "desc": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
+            "prof": "Prof. Dr. med. Johannes Bodky", 
+            "time": "19:15-20:45", 
+            "room": "FB023", 
+            "type": "AWM:1", 
+            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure"
+        }
+    ], 
+    "Freitag": [
+        {
+            "prof": "Prof. Dr. J\u00f6rg Scheidt", 
+            "time": "08:00-09:30", 
+            "room": "FA105", 
+            "type": "FWM:1", 
+            "name": "Datensicherheit in Rechnernetzwerken"
+        }, 
+        {
+            "prof": "Dipl.Inf. Stefan M\u00fcller", 
+            "time": "09:45-11:15", 
+            "room": "FB102", 
+            "type": "FWM:1", 
+            "name": "TCPIPRouting I", 
+            "note": "(Inf+MI+WI 5)"
+        }, 
+        {
+            "desc": "(Wing IT5/AT + MT5 MT/MT + Inf5)", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "09:45-11:15", 
+            "room": "FA011", 
+            "type": "FWM:1", 
+            "name": "Signalverarbeitung"
+        }, 
+        {
+            "prof": "Prof. Dr. Richard G\u00f6bel,  Carsten Kropf", 
+            "time": "11:30-13:00", 
+            "room": "FB001/002", 
+            "type": "FWM:1", 
+            "name": "Geographische Informationssysteme", 
+            "note": "(Vinf+Inf+MI 5)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "KW 40  46     (Vinf+Inf+MI 5)   \u00dcbungen", 
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "time": "08:00-09:30", 
+            "room": "FA102/104", 
+            "type": "FWM:1", 
+            "name": "Geographische Informationssysteme", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "ab KW 47    (Vinf+Inf+MI 5)  \u00dcbungen", 
+            "prof": "Prof. Dr. Richard G\u00f6bel,  Carsten Kropf", 
+            "time": "09:45-11:15", 
+            "room": "FA102/104", 
+            "type": "FWM:1", 
+            "name": "Geographische Informationssysteme", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "KW 40  46     (Vinf+Inf+MI 5)   \u00dcbungen", 
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "time": "09:45-11:15", 
+            "room": "FA102/104", 
+            "type": "FWM:1", 
+            "name": "Geographische Informationssysteme", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "time": "11:30-13:00", 
+            "room": "FB012", 
+            "type": "FWM:1", 
+            "name": "Informationssysteme und ITInfrastrukturen", 
+            "note": "(Inf+MI+WI5)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. J\u00f6rg Scheidt,  Florian Wogenstein", 
+            "time": "11:30-13:00", 
+            "room": "FA109", 
+            "type": "FWM:1", 
+            "name": "Datensicherheit in Rechnernetzwerken"
+        }, 
+        {
+            "desc": "11.10.2012  Sicherheitseinweisung / Gruppeneinteilung  (Voraussetzung f\u00fcr Praktikumsteilnahme, Pflichtveranstaltung)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "14:00-15:30", 
+            "room": "FC009S", 
+            "type": "FWM:1", 
+            "name": "Signalverarbeitung"
+        }, 
+        {
+            "prof": "Dr. Alois KastnerMaresch", 
+            "time": "14:00-15:30", 
+            "room": "FB114", 
+            "type": "FWM:1", 
+            "name": "Webtechnologie und Webmarketing mit Open Source Software", 
+            "note": "(Inf+MI+WI5)"
+        }, 
+        {
+            "desc": "Praktikum  (Wing IT5/AT + MT5 MT/MT + Inf5) (Termine nach Plan) (ab KW 42)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "14:00-15:30", 
+            "room": "FC009S", 
+            "type": "FWM:1", 
+            "name": "Signalverarbeitung"
+        }, 
+        {
+            "prof": "Dr. Alois KastnerMaresch", 
+            "time": "15:45-17:15", 
+            "room": "FB114", 
+            "type": "FWM:1", 
+            "name": "Webtechnologie und Webmarketing mit Open Source Software", 
+            "note": "(Inf+MI+WI5)"
+        }, 
+        {
+            "desc": "Praktikum  (Wing IT5/AT + MT5 MT/MT + Inf5) (Termine nach Plan) (ab KW 421)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "15:45-17:15", 
+            "room": "FC009S", 
+            "type": "FWM:1", 
+            "name": "Signalverarbeitung"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "time": "08:00-09:30", 
+            "room": "FB012", 
+            "type": "FWM:1", 
+            "name": "Informationssysteme und ITInfrastrukturen", 
+            "note": "(Inf+MI+WI5)"
+        }, 
+        {
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "11:30-13:00", 
+            "room": "FB102", 
+            "type": "FWM:1", 
+            "name": "RoutingSwitchingTroubleshooting 1", 
+            "note": "(Inf+MI+WI5)"
+        }, 
+        {
+            "prof": "Prof. Dr. Horst Heineck", 
+            "time": "11:30-13:00", 
+            "room": "FB114", 
+            "type": "FWM:1", 
+            "name": "Oracle 11g Release 2  Administration Workshop I", 
+            "note": "(Inf+MI+WI5)"
+        }, 
+        {
+            "prof": "G\u00fcnther Schwab", 
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "type": "AWM:1", 
+            "name": "Sport und Gesundheit"
+        }, 
+        {
+            "desc": "ab KW 47    (Vinf+Inf+MI 5)  \u00dcbungen", 
+            "prof": "Prof. Dr. Richard G\u00f6bel,  Carsten Kropf", 
+            "time": "15:45-17:15", 
+            "room": "FA102/104", 
+            "type": "FWM:1", 
+            "name": "Geographische Informationssysteme", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "17:30-19:00", 
+            "room": "FA012", 
+            "type": "FWM:1", 
+            "name": "Programming Windows Phone", 
+            "note": "(Inf+MI5)"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Virtuelle Vorlesung", 
+            "prof": "Dozent der VHB", 
+            "time": "04:00-05:30", 
+            "room": "Ex_Virtuell", 
+            "type": "AWM:1", 
+            "name": "Gender und Diversity"
+        }, 
+        {
+            "prof": "Prof. Dr. Peter St\u00f6hr", 
+            "time": "09:45-11:15", 
+            "room": "FB010", 
+            "type": "FWM:1", 
+            "name": "ObjectiveC und iOSProgrammierung", 
+            "note": "(Inf+MI5)"
+        }, 
+        {
+            "prof": "Dipl.Inf. Stefan M\u00fcller", 
+            "time": "11:30-13:00", 
+            "room": "FB102", 
+            "type": "FWM:1", 
+            "name": "TCPIPRouting I", 
+            "note": "(Inf+MI+WI 5)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (14t\u00e4gig) (Wing IT5/AT + MT5 MT/MT + Inf5) (Beginn KW 42)", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "11:30-13:00", 
+            "room": "FA014", 
+            "type": "FWM:1", 
+            "name": "Signalverarbeitung"
+        }, 
+        {
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "14:00-15:30", 
+            "room": "FA012", 
+            "type": "FWM:1", 
+            "name": "Programming Windows Phone", 
+            "note": "(Inf+MI5)"
+        }, 
+        {
+            "prof": "Dr. Wolfgang Grond", 
+            "time": "17:30-19:00", 
+            "room": "FA013", 
+            "type": "AWM:1", 
+            "name": "Wissens, Innovations und Technologiemanagement", 
+            "note": "(ab 15.10.)"
+        }, 
+        {
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "17:30-19:00", 
+            "room": "FD177", 
+            "type": "FWM:1", 
+            "name": "Wiederverwendungsbasierte Entwicklung von Systemen", 
+            "note": "(Inf5 + WI5)"
+        }, 
+        {
+            "prof": "Abschlussveranstaltung  (14.01.13)", 
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "type": "AWM:1", 
+            "name": "Unternehmen in der Region HochFranken"
+        }, 
+        {
+            "prof": "Einf\u00fchrungsveranstaltung  (08.10.12)", 
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "type": "AWM:1", 
+            "name": "Unternehmen in der Region HochFranken"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "Ex_Extern", 
+            "type": "AWM:1", 
+            "name": "Unternehmen in der Region HochFranken"
+        }
+    ]
+}

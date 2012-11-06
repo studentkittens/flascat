@@ -1,0 +1,230 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Prof. Dr. Jens Kirchner", 
+            "time": "08:00-09:30", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung Marketing"
+        }, 
+        {
+            "prof": "AkORin Ingrid Schmidt", 
+            "time": "09:45-11:15", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Wirtschaftsenglisch II", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "time": "09:45-11:15", 
+            "room": "FA013", 
+            "type": "HF:0", 
+            "name": "Wirtschaftsenglisch II", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "1c f\u00fcr Dualer, vorgezogen aus 3. Sem. (Beginn: KW 41)", 
+            "prof": "Professoren Logistik", 
+            "time": "11:30-13:00", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Grundlagen Beschaffung, Produktion und Logistik"
+        }, 
+        {
+            "desc": "1c f\u00fcr Dualer, vorgezogen aus 3. Sem. (Beginn: KW 41)", 
+            "prof": "Professoren Logistik", 
+            "time": "14:00-15:30", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Grundlagen Beschaffung, Produktion und Logistik"
+        }, 
+        {
+            "prof": "Prof. Dr. Peter Sch\u00e4fer", 
+            "time": "17:30-19:00", 
+            "room": "FD242", 
+            "type": "HF:0", 
+            "name": "EURecht", 
+            "note": "(alte SPO)"
+        }
+    ], 
+    "Freitag": [
+        {
+            "prof": "Onlineanmeldung KW 40  Beginn KW 41  max. 25 TN", 
+            "time": "09:45-11:15", 
+            "room": "FA015", 
+            "type": "SMK:0", 
+            "name": "Organisationsentwicklung"
+        }, 
+        {
+            "desc": "Pr\u00e4sentation und Rhetorik", 
+            "prof": "Klaus KarlKraus", 
+            "time": "09:00-14:00", 
+            "room": "FA105", 
+            "type": "SMK:0", 
+            "name": "Samstag"
+        }, 
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Klaus KarlKraus", 
+            "time": "09:00-14:00", 
+            "room": "FA105", 
+            "type": "SMK:0", 
+            "name": "Pr\u00e4sentation und Rhetorik"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Stefan RuckdeschelFischer", 
+            "time": "08:00-09:30", 
+            "room": "FB001/002", 
+            "type": "HF:0", 
+            "name": "Einkommenssteuer"
+        }, 
+        {
+            "desc": "Beginn KW 41, OnlineAnmeldung; Pflicht f\u00fcr BW 7, SMK f\u00fcr BW 3", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "time": "09:45-11:15", 
+            "room": "FA204", 
+            "type": "SMK:0", 
+            "name": "Moderation", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "prof": "Michael Wietasch", 
+            "time": "09:45-11:15", 
+            "room": "FB001/002", 
+            "type": "HF:0", 
+            "name": "Einkommenssteuer"
+        }, 
+        {
+            "prof": "Prof. Dr. Michael Seidel", 
+            "time": "14:00-15:30", 
+            "room": "FB001/002", 
+            "type": "HF:0", 
+            "name": "Kosten und Leistungsrechnung"
+        }, 
+        {
+            "desc": "Onlineanmeldung KW 40  Beginn KW 41  max. 20 TN", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "time": "15:45-17:15", 
+            "room": "FA204", 
+            "type": "SMK:0", 
+            "name": "Gespr\u00e4chsf\u00fchrung"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Prof. Dr. Michael Seidel", 
+            "time": "08:00-09:30", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "Kosten und Leistungsrechnung"
+        }, 
+        {
+            "prof": "Prof. Dr. Jens Kirchner", 
+            "time": "09:45-11:15", 
+            "room": "FB007/009", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung Marketing"
+        }, 
+        {
+            "desc": "Onlineanmeldung KW 40  Beginn KW 41  max. 20 TN", 
+            "prof": "Dr. Claudia Jau\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FD177", 
+            "type": "SMK:0", 
+            "name": "Kommunikation in Konfliktsituationen"
+        }, 
+        {
+            "desc": "Tutorium Investitionswirtschaft, Start KW 44", 
+            "prof": "Susanna Hentschel", 
+            "time": "14:00-15:30", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Finanz und Investitionswirtschaft", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "prof": "AkORin Ingrid Schmidt", 
+            "time": "15:45-17:15", 
+            "room": "FA105", 
+            "type": "HF:0", 
+            "name": "Wirtschaftsenglisch II", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "room": "FB005", 
+            "type": "HF:0", 
+            "name": "Wirtschaftsenglisch II", 
+            "note": "(Gruppe II)"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Tutorium Investitionswirtschaft, Start KW 46", 
+            "prof": "Lena Hertel", 
+            "time": "09:45-11:15", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Finanz und Investitionswirtschaft", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "Beginn KW 41, OnlineAnmeldung; Pflicht f\u00fcr BW 7, SMK f\u00fcr BW 3", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "time": "09:45-11:15", 
+            "room": "FA204", 
+            "type": "SMK:0", 
+            "name": "Moderation", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "f\u00fcr Wiederholer", 
+            "prof": "Dr. Gerd Kammerer", 
+            "time": "09:45-11:15", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Wirtschaftsmathematik"
+        }, 
+        {
+            "desc": "\u00dcbung BW 3a; Beginn KW 41", 
+            "prof": "Dr. Gerd Kammerer", 
+            "time": "11:30-13:00", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Statistik"
+        }, 
+        {
+            "desc": "Beginn KW 42", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "time": "14:00-15:30", 
+            "room": "FA204", 
+            "type": "SMK:0", 
+            "name": "Moderation", 
+            "note": "(Gruppe III)"
+        }, 
+        {
+            "prof": "Prof. Dr. Gabriele Hornsteiner", 
+            "time": "14:00-15:30", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Statistik"
+        }, 
+        {
+            "prof": "Prof. Dr. Gabriele Hornsteiner", 
+            "time": "15:45-17:15", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Statistik"
+        }, 
+        {
+            "desc": "nur KW 43, 47, 48, 50, 51, 4/13.   max. 17 TN (Onlineanmeldung)", 
+            "prof": "Klaus KarlKraus", 
+            "time": "17:30-19:00", 
+            "room": "FA203", 
+            "type": "SMK:0", 
+            "name": "Pr\u00e4sentation und Rhetorik"
+        }
+    ]
+}

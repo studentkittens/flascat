@@ -1,0 +1,119 @@
+{
+    "Dienstag": [
+        {
+            "desc": "(MB 1+2 + WT 1 + InnoTex 3)", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "08:00-09:30", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik"
+        }, 
+        {
+            "desc": "(UT + InnoTex + WT 3)", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Qualit\u00e4tsmanagement"
+        }, 
+        {
+            "desc": "(Wing IT + InnoTex 3)", 
+            "prof": "Prof. Dr. Dietmar Wolff", 
+            "time": "15:45-17:15", 
+            "room": "FD242", 
+            "type": "HF:0", 
+            "name": "Verkaufskommunikation"
+        }, 
+        {
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FB007/009 + FB012", 
+            "name": "Konstruktion"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "Tutorium", 
+            "prof": "Sonst:0", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15-17:30-19:00", 
+            "room": "FB005 + FB012", 
+            "type": "HF:0#HF:0#HF:0#HF:0", 
+            "name": "Rechen\u00fcbungen f\u00fcr Analytische Chemie"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "Prof. Dr. Reinhart M\u00f6ckel", 
+            "prof": "Prof. Dr. Dietmar Wolff", 
+            "time": "11:30-13:00-14:00-15:30", 
+            "room": "FD242", 
+            "type": "HF:0#HF:0", 
+            "name": "Analytische Chemie", 
+            "note": "(UT + InnoTex 3)"
+        }, 
+        {
+            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FA011", 
+            "name": "Analysis"
+        }
+    ], 
+    "Montag": [
+        {
+            "prof": "Prof. Dr. Frank Ficker", 
+            "time": "08:00-09:30", 
+            "room": "FA204", 
+            "type": "HF:0", 
+            "name": "Technologie der Garnerzeugung"
+        }, 
+        {
+            "desc": "(UT + InnoTex + WT 3)", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "09:45-11:15", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Qualit\u00e4tsmanagement"
+        }, 
+        {
+            "desc": "\u00dcbungen  (MB 1 + InnoTex 3)  (ab KW 41)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "11:30-13:00", 
+            "room": "FA008/010", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Gruppe III)"
+        }, 
+        {
+            "desc": "Praktikum  (ab KW 41)", 
+            "prof": "Prof. Dr. Frank Ficker", 
+            "time": "14:00-15:30", 
+            "room": "Ex_Extern", 
+            "type": "HF:0", 
+            "name": "Technologie der Garnerzeugung"
+        }, 
+        {
+            "desc": "Praktikum  (ab KW 41)", 
+            "prof": "Prof. Dr. Frank Ficker", 
+            "time": "15:45-17:15", 
+            "room": "Ex_Extern", 
+            "type": "HF:0", 
+            "name": "Technologie der Garnerzeugung"
+        }, 
+        {
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer) (ab 15.10.)", 
+            "prof": "Sonst:0", 
+            "time": "15:45-17:15", 
+            "room": "FB001/002", 
+            "name": "Statistik"
+        }, 
+        {
+            "desc": "Tutorium  (Wing, WT, MB, InnoTex 3) (ab 8.10.)", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FA107", 
+            "name": "Ingenieurmathematik"
+        }
+    ]
+}

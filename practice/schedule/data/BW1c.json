@@ -1,0 +1,195 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Prof. Dr. Georg Fischer", 
+            "time": "08:00-09:30", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "note": "(Beginn: KW 41)"
+        }, 
+        {
+            "prof": "Prof. Dr. Georg Fischer", 
+            "time": "09:45-11:15", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "note": "(Beginn: KW 41)"
+        }, 
+        {
+            "desc": "1c f\u00fcr Dualer, vorgezogen aus 3. Sem. (Beginn: KW 41)", 
+            "prof": "Professoren Logistik", 
+            "time": "11:30-13:00", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Grundlagen Beschaffung, Produktion und Logistik"
+        }, 
+        {
+            "desc": "1c f\u00fcr Dualer, vorgezogen aus 3. Sem. (Beginn: KW 41)", 
+            "prof": "Professoren Logistik", 
+            "time": "14:00-15:30", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Grundlagen Beschaffung, Produktion und Logistik"
+        }, 
+        {
+            "prof": "Norbert Hornsteiner", 
+            "time": "15:45-17:15", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Methodik und Praxis wissenschaftlicher Arbeiten", 
+            "note": "(Beginn KW 41)"
+        }, 
+        {
+            "desc": "MindestTN 12, ab KW 41", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FA103", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Gruppe II)"
+        }
+    ], 
+    "Freitag": [
+        {
+            "prof": "Prof. Dr. Anja Feldberg", 
+            "time": "08:00-09:30", 
+            "room": "FA101", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung Recht"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Pr\u00e4sentation und Moderation"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Prof. Dr. Matthias Mungenast", 
+            "time": "11:30-13:00", 
+            "room": "FA101", 
+            "type": "HF:0", 
+            "name": "Personalf\u00fchrung"
+        }, 
+        {
+            "prof": "Prof. Dr. Matthias Mungenast", 
+            "time": "14:00-15:30", 
+            "room": "FA101", 
+            "type": "HF:0", 
+            "name": "Personalf\u00fchrung"
+        }, 
+        {
+            "desc": "aus dem 2. Sem vorgezogen", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "time": "15:45-17:15", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Bilanzierung"
+        }, 
+        {
+            "desc": "MindestTN 12, ab KW 41", 
+            "prof": "Sonst:0", 
+            "time": "17:30-19:00", 
+            "room": "FA103", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Gruppe II)"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "aus dem 2. Sem vorgezogen", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "time": "08:00-09:30", 
+            "room": "FB023", 
+            "type": "HF:0", 
+            "name": "Bilanzierung"
+        }, 
+        {
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "09:45-11:15", 
+            "room": "FA013", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Volkswirtschaftslehre"
+        }, 
+        {
+            "desc": "Dr. Gerd Kammerer", 
+            "prof": "Sonst:0", 
+            "time": "11:30-13:00", 
+            "room": "FA205/206", 
+            "name": "Mathematischer Br\u00fcckenkurs"
+        }, 
+        {
+            "desc": "ab KW 41", 
+            "prof": "Sonst:0", 
+            "time": "14:00-15:30", 
+            "room": "FA103", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "ab KW 41", 
+            "prof": "Sonst:0", 
+            "time": "14:00-15:30", 
+            "room": "FA108", 
+            "name": "Franz\u00f6sisch Grundstufe (UNIcert I) Kurs 1"
+        }, 
+        {
+            "prof": "FHDual, wird aus dem 3. Semester vorgezogen", 
+            "time": "15:45-17:15", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Wirtschaftsenglisch II"
+        }, 
+        {
+            "prof": "Tutorium  Beginn KW 43", 
+            "time": "17:30-19:00", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung Recht"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "ab KW 41", 
+            "prof": "Sonst:0", 
+            "time": "08:00-09:30", 
+            "room": "FA103", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "ab KW 41", 
+            "prof": "Sonst:0", 
+            "time": "08:00-09:30", 
+            "room": "FA108", 
+            "name": "Franz\u00f6sisch Grundstufe (UNIcert I) Kurs 1"
+        }, 
+        {
+            "prof": "FHDual, wird aus dem 3. Semester vorgezogen, Montagstermin Beginn 41. KW", 
+            "time": "11:30-13:00", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Wirtschaftsenglisch II"
+        }, 
+        {
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "14:00-15:30", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Volkswirtschaftslehre"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "room": "FA008/010", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung und Office Anwendungen"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "room": "FA013", 
+            "type": "HF:0", 
+            "name": "Einf\u00fchrung und Office Anwendungen"
+        }
+    ]
+}

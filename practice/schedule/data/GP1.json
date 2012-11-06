@@ -1,0 +1,38 @@
+{
+    "Dienstag": [
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "MAK", 
+            "time": "08:00-17:00-08:00-17:00", 
+            "name": "Buchf\u00fchrung", 
+            "type": "HF:0#HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "MAK", 
+            "time": "08:00-17:00-08:00-17:00", 
+            "name": "Wissenschaftliches Arbeiten", 
+            "type": "HF:0#HF:0"
+        }
+    ], 
+    "Freitag": [
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "MAK", 
+            "time": "08:00-17:00-08:00-17:00-08:00-17:00-08:00-17:00-08:00-17:00-08:00-17:00", 
+            "name": "Gesundheits\u00f6konomie und politik", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "MAK", 
+            "time": "08:00-17:00-08:00-17:00", 
+            "name": "Wissenschaftliches Arbeiten", 
+            "type": "HF:0#HF:0"
+        }
+    ]
+}

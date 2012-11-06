@@ -1,0 +1,235 @@
+{
+    "Dienstag": [
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Prof. Dinubhai Patel", 
+            "time": "08:00-17:00", 
+            "room": "FD244", 
+            "type": "HF:0", 
+            "name": "F\u00fchrung von internationalen Unternehmen"
+        }, 
+        {
+            "prof": "Prof. Dr. Friedwart Lender", 
+            "time": "08:00-09:30", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "Industrielle Logistik  SP IL"
+        }, 
+        {
+            "desc": "&", 
+            "prof": "Sonst:0", 
+            "time": "09:45-11:15", 
+            "room": "FD242", 
+            "name": "Social Media"
+        }, 
+        {
+            "prof": "Prof. Dr. Friedwart Lender", 
+            "time": "09:45-11:15", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "Industrielle Logistik  SP IL"
+        }, 
+        {
+            "desc": "Betriebliche Sozialpolitik", 
+            "prof": "Prof. Dr. Matthias Mungenast", 
+            "time": "11:30-13:00", 
+            "room": "FB001/002", 
+            "type": "HF:0", 
+            "name": "Fallstudien und Projekte  SP PO", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "prof": "Prof. Dr. Stefan Wengler", 
+            "time": "11:30-13:00", 
+            "room": "FD242", 
+            "type": "HF:0", 
+            "name": "International Marketing  SP IM"
+        }, 
+        {
+            "desc": "Betriebliche Sozialpolitik", 
+            "prof": "Prof. Dr. Matthias Mungenast", 
+            "time": "14:00-15:30", 
+            "room": "FB001/002", 
+            "type": "HF:0", 
+            "name": "Fallstudien und Projekte  SP PO", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "Beginn KW 41", 
+            "prof": "Prof. Dr. Peter Sch\u00e4fer", 
+            "time": "15:45-17:15", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Europ\u00e4isches und Internationales Recht"
+        }
+    ], 
+    "Freitag": [
+        {
+            "prof": "Prof. Dr. Christof Aignesberger", 
+            "time": "08:00-09:30", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Corporate Finance und Bankwirtschaft  SP ICF"
+        }, 
+        {
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "09:45-11:15", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Corporate Finance und Bankwirtschaft  SP ICF"
+        }, 
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "time": "14:00-19:00", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Personalentwicklung und Psychologie  SP PO"
+        }, 
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "time": "14:00-19:00", 
+            "room": "FA013", 
+            "type": "HF:0", 
+            "name": "Personalentwicklung und Psychologie  SP PO"
+        }, 
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Christiane Schwenk", 
+            "time": "14:00-19:00", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Personalentwicklung und Psychologie  SP PO"
+        }, 
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Christiane Schwenk", 
+            "time": "14:00-19:00", 
+            "room": "FA013", 
+            "type": "HF:0", 
+            "name": "Personalentwicklung und Psychologie  SP PO"
+        }, 
+        {
+            "desc": "Personalentwicklung und Psychologie  SP PO", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "time": "08:00-15:30", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Samstag"
+        }, 
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "time": "08:00-15:30", 
+            "room": "FA013", 
+            "type": "HF:0", 
+            "name": "Personalentwicklung und Psychologie  SP PO"
+        }, 
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Christiane Schwenk", 
+            "time": "09:00-17:00", 
+            "room": "FA013", 
+            "type": "HF:0", 
+            "name": "Personalentwicklung und Psychologie  SP PO"
+        }, 
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Christiane Schwenk", 
+            "time": "09:00-17:00", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Personalentwicklung und Psychologie  SP PO"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "time": "08:00-09:30", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "Internationales Controlling  SP ICF"
+        }, 
+        {
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "time": "09:45-11:15", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "Internationales Controlling  SP ICF"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "in englischer Sprache", 
+            "prof": "Prof. Dr. Christof Aignesberger", 
+            "time": "08:00-09:30", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Corporate Finance und Bankwirtschaft  SP ICF"
+        }, 
+        {
+            "prof": "Prof. Dr. Peter Sch\u00e4fer", 
+            "time": "09:45-11:15", 
+            "room": "FD242", 
+            "type": "HF:0", 
+            "name": "Europ\u00e4isches und Internationales Recht"
+        }, 
+        {
+            "desc": "BW Gruppe I; Beginn KW 41", 
+            "prof": "Prof. Dr. Andreas Wagener", 
+            "time": "15:45-17:15", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "MarketingMix  SP IM", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "BW Gruppe I; Beginn KW 41", 
+            "prof": "Prof. Dr. Jens Kirchner", 
+            "time": "17:30-19:00", 
+            "room": "FA107", 
+            "type": "HF:0", 
+            "name": "MarketingMix  SP IM", 
+            "note": "(Gruppe I)"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Prof. Dinubhai Patel", 
+            "time": "08:00-17:00", 
+            "room": "FD244", 
+            "type": "HF:0", 
+            "name": "F\u00fchrung von internationalen Unternehmen"
+        }, 
+        {
+            "desc": "&", 
+            "prof": "Sonst:0", 
+            "time": "11:30-13:00", 
+            "room": "FD242", 
+            "name": "Social Media"
+        }, 
+        {
+            "prof": "Prof. Dr. Friedwart Lender", 
+            "time": "11:30-13:00", 
+            "room": "FB007/009", 
+            "type": "HF:0", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  SP IL"
+        }, 
+        {
+            "prof": "Prof. Dr. Stefan Wengler", 
+            "time": "14:00-15:30", 
+            "room": "FA101", 
+            "type": "HF:0", 
+            "name": "International Marketing  SP IM"
+        }, 
+        {
+            "prof": "Prof. Dr. Friedwart Lender", 
+            "time": "14:00-15:15", 
+            "room": "FB007/009", 
+            "type": "HF:0", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  SP IL"
+        }
+    ]
+}

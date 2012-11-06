@@ -1,0 +1,106 @@
+{
+    "Dienstag": [
+        {
+            "desc": "am 09.10.2012 von 17:30 bis 20:30", 
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30", 
+            "room": "FA014#FD244#FD244#FD244#FD244#FD244#FD244#FD244#FD244#FD244#FD244#FD244#FD244", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "name": "Organisation und Gesch\u00e4ftsprozessmanagement"
+        }, 
+        {}, 
+        {}, 
+        {}, 
+        {}, 
+        {}, 
+        {}
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "am 15.11.2012 von 17:30 bis 20:30", 
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30", 
+            "room": "FD244#FD244#FD244#FD244#FD244#FD244", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)"
+        }, 
+        {}, 
+        {}, 
+        {}
+    ], 
+    "Freitag": [
+        {
+            "desc": "am 12.10.2012 von 17:00 bis 20:00", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "17:00-20:00-17:00-20:00-17:00-20:00-17:00-20:00-17:00-20:00-17:00-20:00-17:00-20:00-17:00-20:00", 
+            "room": "FD244#FD244#FD244#FD244#FD244#FD244#FD244#FD244", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)"
+        }, 
+        {
+            "desc": "Organisation und Gesch\u00e4ftsprozessmanagement", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "11:00-17:00", 
+            "room": "FA008/010", 
+            "type": "HF:0", 
+            "name": "Samstag"
+        }, 
+        {
+            "desc": "Organisation und Gesch\u00e4ftsprozessmanagement", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "10:15-11:00", 
+            "room": "FD244", 
+            "type": "HF:0", 
+            "name": "Samstag"
+        }, 
+        {}, 
+        {}, 
+        {}, 
+        {}
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "am 10.10.2012 von 17:30 bis 20:30", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30", 
+            "room": "FD244#FD244#FD244#FA014#FD244#FD244#FD244#FA014#FA014#FD244#FA014#FA014", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "name": "Business English"
+        }, 
+        {
+            "desc": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "09:00-12:00-09:00-12:00-09:00-12:00", 
+            "room": "FD248#FD248#FD248", 
+            "type": "HF:0#HF:0#HF:0", 
+            "name": "Samstag"
+        }, 
+        {}, 
+        {}, 
+        {}, 
+        {}, 
+        {}, 
+        {}, 
+        {}
+    ], 
+    "Montag": [
+        {
+            "desc": "am 15.10.2012 von 17:30 bis 20:30", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30", 
+            "room": "FD244#FD244#FD244#FD244#FD244", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "name": "Mikro\u00f6konomie"
+        }, 
+        {
+            "desc": "Organisation und Gesch\u00e4ftsprozessmanagement", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "09:30-16:30", 
+            "room": "FA008/010", 
+            "type": "HF:0", 
+            "name": "Samstag"
+        }, 
+        {}, 
+        {}
+    ]
+}

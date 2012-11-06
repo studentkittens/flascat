@@ -1,0 +1,233 @@
+{
+    "Dienstag": [
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Prof. Dinubhai Patel", 
+            "time": "08:00-17:00", 
+            "room": "FD244", 
+            "type": "HF:0", 
+            "name": "F\u00fchrung von internationalen Unternehmen"
+        }, 
+        {
+            "desc": "&", 
+            "prof": "Prof. Dr. Andreas Wagener", 
+            "time": "09:45-11:15", 
+            "room": "FD242", 
+            "type": "HF:0", 
+            "name": "Social Media"
+        }, 
+        {
+            "prof": "Prof. Dr. Stefan Wengler", 
+            "time": "11:30-13:00", 
+            "room": "FD242", 
+            "type": "HF:0", 
+            "name": "International Marketing"
+        }, 
+        {
+            "desc": "Beginn KW 41", 
+            "prof": "Prof. Dr. Peter Sch\u00e4fer", 
+            "time": "14:00-15:30", 
+            "room": "FA109", 
+            "type": "HF:0", 
+            "name": "European Union  History, Legal Framework and Economic Freedoms"
+        }, 
+        {
+            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
+            "time": "15:45-17:15", 
+            "room": "FA015", 
+            "type": "HF:0", 
+            "name": "The New Asian Dragons  Doing Business in Asia"
+        }
+    ], 
+    "Freitag": [
+        {
+            "prof": "Prof. Dr. Christof Aignesberger", 
+            "time": "08:00-09:30", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Corporate Finance und Bankwirtschaft"
+        }, 
+        {
+            "desc": "Interkulturelles Training in deutscher Sprache", 
+            "prof": "am 16.11.2012 von 09:00 bis 18:00", 
+            "time": "09:00-18:00", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Praxisseminar zur Nachbereitung"
+        }, 
+        {
+            "desc": "Interkulturelles Training in englischer Sprache", 
+            "prof": "am 30.11.2012 von 09:00 bis 18:00", 
+            "time": "09:00-18:00", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Praxisseminar zur Nachbereitung"
+        }, 
+        {
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "09:45-11:15", 
+            "room": "FA202", 
+            "type": "HF:0", 
+            "name": "Corporate Finance und Bankwirtschaft"
+        }, 
+        {
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "time": "09:45-11:15", 
+            "room": "FD242", 
+            "type": "HF:0", 
+            "name": "International Accounting"
+        }, 
+        {
+            "desc": "Praxisseminar zur Nachbereitung", 
+            "prof": "am 17.11.2012 von 09:00 bis 18:00", 
+            "time": "09:00-18:00", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Samstag"
+        }, 
+        {
+            "desc": "Interkulturelles Training in englischer Sprache", 
+            "prof": "am 01.12.2012 von 09:00 bis 18:00", 
+            "time": "09:00-18:00", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Praxisseminar zur Nachbereitung"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Prof. Dr. Anja Feldberg", 
+            "time": "11:30-13:00", 
+            "room": "FA204", 
+            "type": "HF:0", 
+            "name": "International Business Negotiations/Contracting: legal and multicultural aspects"
+        }, 
+        {
+            "desc": "Interkulturelles Training in deutscher Sprache", 
+            "prof": "am 15.11.2012 von 14:00 bis 18:00", 
+            "time": "14:00-18:00", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Praxisseminar zur Nachbereitung"
+        }, 
+        {
+            "desc": "Interkulturelles Training in englischer Sprache", 
+            "prof": "am 29.11.2012 von 14:00 bis 18:00", 
+            "time": "14:00-18:00", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Praxisseminar zur Nachbereitung"
+        }, 
+        {
+            "time": "14:00-15:30", 
+            "room": "FA109", 
+            "type": "HF:0", 
+            "name": "Deutsch als Fremdsprache  Kurs A1"
+        }, 
+        {
+            "prof": "Krisztina Schneider", 
+            "time": "14:00-15:30", 
+            "room": "FA106", 
+            "type": "HF:0", 
+            "name": "Deutsch als Fremdsprache  Kurs A2"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "room": "FA109", 
+            "type": "HF:0", 
+            "name": "Deutsch als Fremdsprache  Kurs A1"
+        }, 
+        {
+            "prof": "Krisztina Schneider", 
+            "time": "15:45-17:15", 
+            "room": "FA106", 
+            "type": "HF:0", 
+            "name": "Deutsch als Fremdsprache  Kurs A2"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "in englischer Sprache", 
+            "prof": "Prof. Dr. Christof Aignesberger", 
+            "time": "08:00-09:30", 
+            "room": "FA011", 
+            "type": "HF:0", 
+            "name": "Corporate Finance und Bankwirtschaft"
+        }, 
+        {
+            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
+            "time": "08:00-09:30", 
+            "room": "FA009", 
+            "type": "HF:0", 
+            "name": "Kulturelle Grundlagen des Managements"
+        }, 
+        {
+            "prof": "Juan Carlos Abad Sanz", 
+            "time": "09:45-11:15", 
+            "room": "FA222", 
+            "type": "HF:0", 
+            "name": "European Economics"
+        }, 
+        {
+            "prof": "Krisztina Schneider", 
+            "time": "14:00-15:30", 
+            "room": "FA106", 
+            "type": "HF:0", 
+            "name": "Deutsch als Fremdsprache  Kurs B1/B2"
+        }, 
+        {
+            "prof": "Prof. Dr. Georg Fischer", 
+            "time": "15:45-17:15", 
+            "room": "FA014", 
+            "type": "HF:0", 
+            "name": "Introduction to SAP ERP"
+        }, 
+        {
+            "prof": "Prof. Dr. Anja Feldberg", 
+            "time": "17:30-19:00", 
+            "room": "FA101", 
+            "type": "HF:0", 
+            "name": "International Business Negotiations/Contracting: legal and multicultural aspects"
+        }
+    ], 
+    "Montag": [
+        {
+            "prof": "Krisztina Schneider", 
+            "time": "08:00-09:30", 
+            "room": "FA106", 
+            "type": "HF:0", 
+            "name": "Deutsch als Fremdsprache  Kurs B1/B2"
+        }, 
+        {
+            "desc": "Blockveranstaltung", 
+            "prof": "Prof. Dinubhai Patel", 
+            "time": "08:00-17:00", 
+            "room": "FD244", 
+            "type": "HF:0", 
+            "name": "F\u00fchrung von internationalen Unternehmen"
+        }, 
+        {
+            "desc": "&", 
+            "prof": "Prof. Dr. Andreas Wagener", 
+            "time": "11:30-13:00", 
+            "room": "FD242", 
+            "type": "HF:0", 
+            "name": "Social Media"
+        }, 
+        {
+            "prof": "Prof. Dr. Stefan Wengler", 
+            "time": "14:00-15:30", 
+            "room": "FA101", 
+            "type": "HF:0", 
+            "name": "International Marketing"
+        }, 
+        {
+            "desc": "IM3 + IM5", 
+            "prof": "Juan Carlos Abad Sanz", 
+            "time": "15:45-17:15", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "International Trade"
+        }
+    ]
+}

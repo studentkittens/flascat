@@ -1,0 +1,220 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Wolfgang Uschold", 
+            "time": "09:45-11:15", 
+            "room": "FA102/104", 
+            "type": "HF:0", 
+            "name": "SPSProgrammierung", 
+            "note": "(Wing MT + IT AT 5)"
+        }, 
+        {
+            "desc": "Praktikum  (Wing WT + MT + IT MB 5)", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
+            "time": "11:30-13:00", 
+            "room": "FC018", 
+            "type": "HF:0", 
+            "name": "Maschinenelemente"
+        }, 
+        {
+            "desc": "\u00dcbungen  (Wing IT 3 + MT 5) (Beginn KW 42)", 
+            "prof": "Wolfgang Uschold", 
+            "time": "14:00-15:30", 
+            "room": "FA014", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierungtechnik"
+        }, 
+        {
+            "desc": "\u00dcbungen in wechselnden Gruppen", 
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "15:45-17:15", 
+            "room": "FA102/104 + FB001/002", 
+            "type": "HF:0", 
+            "name": "Produktionsplanung und steuerung"
+        }
+    ], 
+    "Freitag": [
+        {
+            "desc": "(Wing IT5/AT + MT5 MT/MT + Inf5)", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "09:45-11:15", 
+            "room": "FA011", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (MT)"
+        }, 
+        {
+            "desc": "(MB 3 + Wing IT/AT + MT 5)", 
+            "prof": "Wolfgang Major", 
+            "time": "11:30-13:00", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Arbeitsgestaltung und Montagetechnik"
+        }, 
+        {
+            "desc": "(MB 3 + Wing IT/AT + MT 5)", 
+            "prof": "Wolfgang Major", 
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Arbeitsgestaltung und Montagetechnik"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "Praktikum  (Wing IT 3 + Teil Wing MT 5) (ab KW 41)", 
+            "prof": "Wolfgang Uschold", 
+            "time": "09:45-11:15", 
+            "room": "FC009A", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierungtechnik"
+        }, 
+        {
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "09:45-11:15", 
+            "room": "FB203", 
+            "type": "FWPF:0", 
+            "name": "Fertigungstechnik  SP (MB)", 
+            "note": "(WT 3 + IT/MT MB 5)"
+        }, 
+        {
+            "desc": "Praktikum  (Wing IT 3 + Teil Wing MT 5) (ab KW 41)", 
+            "prof": "Wolfgang Uschold", 
+            "time": "11:30-13:00", 
+            "room": "FC009A", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierungtechnik"
+        }, 
+        {
+            "desc": "\u00dcbungen/ Praktikum  KW 02, 03", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FB203 + FC016 + FC019", 
+            "type": "FWPF:0", 
+            "name": "Fertigungstechnik  SP (MB)"
+        }, 
+        {
+            "desc": "\u00dcbungen/ Praktikum  KW 41  43, 45  50", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FC016 + FC019", 
+            "type": "FWPF:0", 
+            "name": "Fertigungstechnik  SP (MB)"
+        }, 
+        {
+            "desc": "\u00dcbungen/ Praktikum  KW 40, 51, 04", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "room": "FB203", 
+            "type": "FWPF:0", 
+            "name": "Fertigungstechnik  SP (MB)"
+        }, 
+        {
+            "desc": "11.10.2012  Sicherheitseinweisung / Gruppeneinteilung  (Voraussetzung f\u00fcr Praktikumsteilnahme, Pflichtveranstaltung)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "14:00-15:30", 
+            "room": "FC009S", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (MT)"
+        }, 
+        {
+            "desc": "Praktikum  (Wing IT5/AT + MT5 MT/MT + Inf5) (Termine nach Plan) (ab KW 42)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "14:00-15:30", 
+            "room": "FC009S", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (MT)"
+        }, 
+        {
+            "desc": "Praktikum  (Wing IT5/AT + MT5 MT/MT + Inf5) (Termine nach Plan) (ab KW 421)", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "time": "15:45-17:15", 
+            "room": "FC009S", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (MT)"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "time": "08:00-09:30", 
+            "room": "FB109", 
+            "type": "HF:0", 
+            "name": "Produktionsplanung und steuerung", 
+            "note": "(Wing + MB P 5)"
+        }, 
+        {
+            "desc": "(MB 3 + Wing IT 3 + Wing  MT 5)", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "09:45-11:15", 
+            "room": "FA205/206", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierungtechnik"
+        }, 
+        {
+            "prof": "Wolfgang Uschold", 
+            "time": "11:30-13:00", 
+            "room": "FA102/104", 
+            "type": "HF:0", 
+            "name": "SPSProgrammierung", 
+            "note": "(Wing MT + IT AT 5)"
+        }, 
+        {
+            "desc": "Praktikum  (Wing MT 5 + MB 3) (ab KW 42)", 
+            "prof": "Wolfgang Uschold", 
+            "time": "15:45-17:15", 
+            "room": "FC007", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierungtechnik"
+        }, 
+        {
+            "desc": "10.10.2012  Sicherheitseinweisung  (Pflicht f\u00fcr Praktikumsteilnahme)", 
+            "prof": "Wolfgang Uschold", 
+            "time": "16:30-17:15", 
+            "room": "FC009A", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierungtechnik"
+        }, 
+        {
+            "desc": "Praktikum  (Wing MT 5 + MB 3)  (ab KW 42)", 
+            "prof": "Wolfgang Uschold", 
+            "time": "17:30-19:00", 
+            "room": "FC007", 
+            "type": "HF:0", 
+            "name": "Grundlagen der Automatisierungtechnik"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "(Wing WT + MT + IT MB 5)", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
+            "time": "08:00-09:30", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Maschinenelemente"
+        }, 
+        {
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "09:45-11:15", 
+            "room": "FA201", 
+            "type": "HF:0", 
+            "name": "Produktionsplanung und steuerung", 
+            "note": "(Wing + MB P 5)"
+        }, 
+        {
+            "desc": "\u00dcbungen  (14t\u00e4gig) (Wing IT5/AT + MT5 MT/MT + Inf5) (Beginn KW 42)", 
+            "prof": "Prof. Dr. Valentin Plenk", 
+            "time": "11:30-13:00", 
+            "room": "FA014", 
+            "type": "FWPF:0", 
+            "name": "Signalverarbeitung  SP (MT)"
+        }, 
+        {
+            "desc": "\u00dcbungen in wechselnden Gruppen", 
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "14:00-15:30", 
+            "room": "FA008/010 + FA007", 
+            "type": "HF:0", 
+            "name": "Produktionsplanung und steuerung"
+        }
+    ]
+}

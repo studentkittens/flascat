@@ -1,0 +1,104 @@
+{
+    "Dienstag": [
+        {
+            "desc": "(UT 5 + M MB 2)  (Beginn 9.10.)", 
+            "prof": "Prof. Dr. Wolfgang Schrott", 
+            "time": "08:00-09:30", 
+            "room": "FA017", 
+            "type": "FWPM:0", 
+            "name": "Interkulturelles Training"
+        }, 
+        {
+            "desc": "(UT 5 + M MB 2)  (Beginn 9.10.)", 
+            "prof": "Prof. Dr. Wolfgang Schrott", 
+            "time": "09:45-11:15", 
+            "room": "FA017", 
+            "type": "FWPM:0", 
+            "name": "Interkulturelles Training"
+        }, 
+        {
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "time": "11:30-13:00", 
+            "room": "FA013", 
+            "type": "HF:0", 
+            "name": "W\u00e4rme und Stoffaustausch", 
+            "note": "(MB + UT 5)"
+        }, 
+        {
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "14:00-15:30", 
+            "room": "FB203", 
+            "type": "FWPM:0", 
+            "name": "Sonderanwendungen der Abwassertechnik", 
+            "note": "(UT + MB (W) 5)"
+        }
+    ], 
+    "Freitag": [
+        {
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "08:00-09:30", 
+            "room": "FB203", 
+            "type": "HF:0", 
+            "name": "Abwasserreinigungstechnik", 
+            "note": "(UT 5 + MB W 5)"
+        }, 
+        {
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "09:45-11:15", 
+            "room": "FB203", 
+            "type": "FWPM:0", 
+            "name": "Sonderanwendungen der Abwassertechnik", 
+            "note": "(UT + MB (W) 5)"
+        }, 
+        {
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "11:30-13:00", 
+            "room": "FB203", 
+            "type": "HF:0", 
+            "name": "Abwasserreinigungstechnik", 
+            "note": "(UT 5 + MB W 5)"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "time": "09:45-11:15", 
+            "room": "FB012", 
+            "type": "HF:0", 
+            "name": "W\u00e4rme und Stoffaustausch", 
+            "note": "(MB + UT 5)"
+        }, 
+        {
+            "desc": "(14t\u00e4gig) (Beginn 10.10.)", 
+            "prof": "Dr. Klaus Hagen", 
+            "time": "14:00-15:30", 
+            "room": "FB203", 
+            "type": "HF:0", 
+            "name": "Wassergewinnung und aufbereitung"
+        }, 
+        {
+            "desc": "(14t\u00e4gig) (Beginn 10.10.)", 
+            "prof": "Dr. Klaus Hagen", 
+            "time": "15:45-17:15", 
+            "room": "FB203", 
+            "type": "HF:0", 
+            "name": "Wassergewinnung und aufbereitung"
+        }, 
+        {
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "17:30-19:00", 
+            "room": "FB003", 
+            "type": "HF:0", 
+            "name": "Wassergewinnung und aufbereitung"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "(UT 5 + TT C7) (Beginn 8.10.)", 
+            "prof": "Mueb_335 + Mueb_Ch1 + Mueb_Ch2 + Mueb_H16", 
+            "time": "11:30-13:00-14:00-15:30-15:45-17:15", 
+            "name": "Umweltanalytik", 
+            "type": "FWPM:0#FWPM:0#FWPM:0"
+        }
+    ]
+}

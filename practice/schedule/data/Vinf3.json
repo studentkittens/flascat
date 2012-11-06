@@ -1,0 +1,42 @@
+{
+    "Dienstag": [
+        {
+            "desc": "\"Erstellung von Applikationen f\u00fcr ein Windows Phone\"  11.03.14.03.2013", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "09:00-17:30", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Praxisblock I"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "desc": "\"Erstellung von Applikationen f\u00fcr ein Windows Phone\"  11.03.14.03.2013", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "09:00-17:30", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Praxisblock I"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "\"Erstellung von Applikationen f\u00fcr ein Windows Phone\"  11.03.14.03.2013", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "09:00-17:30", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Praxisblock I"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "\"Erstellung von Applikationen f\u00fcr ein Windows Phone\"  11.03.14.03.2013", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "09:00-17:30", 
+            "room": "FB006", 
+            "type": "HF:1", 
+            "name": "Praxisblock I"
+        }
+    ]
+}

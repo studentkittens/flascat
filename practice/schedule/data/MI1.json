@@ -1,0 +1,185 @@
+{
+    "Dienstag": [
+        {
+            "prof": "Prof. Ariane Hedayati", 
+            "time": "08:00-09:30", 
+            "room": "FB007/009", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Gestaltung"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Des. Friedrich Bischoff", 
+            "time": "09:45-11:15", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Gestaltung", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "11:30-13:00", 
+            "room": "FB023", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I"
+        }, 
+        {
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "time": "14:00-15:30", 
+            "room": "FB023", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Informationstechnik"
+        }, 
+        {
+            "desc": "InDesign  14t\u00e4gig  Beginn KW 41", 
+            "prof": "J\u00fcrgen Bogedain", 
+            "time": "15:45-17:15", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Anwenderprogramme", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "InDesign  14t\u00e4gig  Beginn KW 40", 
+            "prof": "J\u00fcrgen Bogedain", 
+            "time": "15:45-17:15", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Anwenderprogramme", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "InDesign  14t\u00e4gig  Beginn KW 40", 
+            "prof": "J\u00fcrgen Bogedain", 
+            "time": "17:30-19:00", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Anwenderprogramme", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "InDesign  14t\u00e4gig  Beginn KW 41", 
+            "prof": "J\u00fcrgen Bogedain", 
+            "time": "17:30-19:00", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Anwenderprogramme", 
+            "note": "(Gruppe II)"
+        }
+    ], 
+    "Freitag": [
+        {
+            "desc": "Photoshop", 
+            "prof": "HansPeter Schwarzenbach", 
+            "time": "08:00-09:30", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Anwenderprogramme", 
+            "note": "(Gruppe III)"
+        }, 
+        {
+            "desc": "Photoshop", 
+            "prof": "HansPeter Schwarzenbach", 
+            "time": "09:45-11:15", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Anwenderprogramme", 
+            "note": "(Gruppe IV)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "08:00-09:30", 
+            "room": "FB023", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "09:45-11:15", 
+            "room": "FB012", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I", 
+            "note": "(Gruppe I)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Inf. Peter Peter Rill", 
+            "time": "09:45-11:15", 
+            "room": "FB114", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Des. Friedrich Bischoff", 
+            "time": "11:30-13:00", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Gestaltung", 
+            "note": "(Gruppe II)"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Dipl.Inf. Peter Peter Rill", 
+            "time": "11:30-13:00", 
+            "room": "FB114", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I", 
+            "note": "(Gruppe III)"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "time": "09:45-11:15", 
+            "room": "FB023", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Informationstechnik"
+        }, 
+        {
+            "prof": "Prof. Dr. G\u00fcnther K\u00f6hler", 
+            "time": "11:30-13:00", 
+            "room": "FA013", 
+            "type": "HF:1", 
+            "name": "Diskrete Mathematik"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Ariane Hedayati, Dipl.Des. Friedrich Bischoff", 
+            "time": "15:45-17:15", 
+            "room": "FB010", 
+            "type": "HF:1", 
+            "name": "Grundlagen der Gestaltung", 
+            "note": "(Gruppe III)"
+        }
+    ], 
+    "Montag": [
+        {
+            "prof": "Prof. Dr. G\u00fcnther K\u00f6hler", 
+            "time": "11:30-13:00", 
+            "room": "FB109", 
+            "type": "HF:1", 
+            "name": "Diskrete Mathematik"
+        }, 
+        {
+            "desc": "\u00dcbungen", 
+            "prof": "Prof. Dr. G\u00fcnther K\u00f6hler", 
+            "time": "14:00-15:30", 
+            "room": "FB001/002", 
+            "type": "HF:1", 
+            "name": "Diskrete Mathematik"
+        }, 
+        {
+            "desc": "Tutorium  Beginn KW 42", 
+            "prof": "Herr Michael Schrepfer", 
+            "time": "15:45-17:15", 
+            "room": "FA011", 
+            "type": "HF:1", 
+            "name": "Objektorientierte Programmierung I"
+        }
+    ]
+}
