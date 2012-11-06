@@ -11,7 +11,7 @@
    :data-y: -1000
    :data-scale: 5
 
-.. image:: http://flask.pocoo.org/static/logo/flask.png
+.. image:: static/flask_logo.png
     :width: 500
     :align: center
 
@@ -22,17 +22,17 @@
 Vorwort
 -------
 
+.. slide::
+   :data-x: 0
+   :data-y: 0
+
+
 Präsentation angelehnt an:
     
     http://flask.pocoo.org/docs/quickstart/
 
 What?
 -----
-
-.. slide::
-   :data-x: 0
-   :data-y: 0
-
 * Flask ist ein **Microwebframework**.
 * Fokus: Erweiterbarkeit + gute Dokumentation.
 * Abhängigkeiten:
@@ -88,8 +88,8 @@ einem unformattieren **Hallo Welt** ausgeben.
 
     # Importiere die Flask Libraries, 
     # und instanziere eine Flask-Anwendung.
-    import flask
-    app = flask.Flask(__name__)
+    from flask import Flask
+    app = Flask(__name__)
      
     # hello() soll für ein Zugriff auf 
     # die root-url aufgerufen werden.
@@ -101,6 +101,18 @@ einem unformattieren **Hallo Welt** ausgeben.
     # so lasse die Anwendung laufen.
     if __name__ == "__main__":
         app.run(debug=True)
+
+
+Und nun... Python!
+------------------
+
+|
+|
+|
+|
+
+Say Hello to a new language.
+
 
 Routing & Troubleshooting #1
 ----------------------------
@@ -198,8 +210,10 @@ Debugging
 
 Show the Debugger
 
-moosr
------------
-yey!
+``moosr``
+---------
+
+Unsere kleine Beispielseite mit Flask.
+
 Übung
------------
+-----

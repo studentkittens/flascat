@@ -18,7 +18,7 @@
 <h1>
 <strong>
 Eine Einführung in</strong><a class="headerlink" href="#eine-einfuhrung-in" title="Permalink to this headline">¶</a></h1>
-<img alt="http://flask.pocoo.org/static/logo/flask.png" class="align-center" src="http://flask.pocoo.org/static/logo/flask.png" style="width: 500px;">
+<img alt="_images/flask_logo.png" class="align-center" src="_images/flask_logo.png" style="width: 500px;">
 <div class="line-block">
 <div class="line">
 <br /></div>
@@ -27,7 +27,7 @@ Eine Einführung in</strong><a class="headerlink" href="#eine-einfuhrung-in" tit
 <tt class="docutils literal">
 <span class="pre">http://flask.pocoo.org/</span></tt></p>
 </div>
-<div class="step slide section" data-x="9500.0" data-y="-1000" id="vorwort">
+<div class="step slide section" data-x="1000.0" data-y="0" id="vorwort">
 <h1>
 Vorwort<a class="headerlink" href="#vorwort" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -36,7 +36,7 @@ Präsentation angelehnt an:</p>
 <div><a class="reference external" href="http://flask.pocoo.org/docs/quickstart/">
 http://flask.pocoo.org/docs/quickstart/</a></div></blockquote>
 </div>
-<div class="step slide section" data-x="1000.0" data-y="0" id="what">
+<div class="step slide section" data-x="2000.0" data-y="0" id="what">
 <h1>
 What?<a class="headerlink" href="#what" title="Permalink to this headline">¶</a></h1>
 <ul>
@@ -92,7 +92,7 @@ Statistiken:</strong></p>
 <blockquote>
 <div>800 LOC Code, 1500 LOC Testcases, 200 A4 Seiten Dokumentation.</div></blockquote>
 </div>
-<div class="step slide section" data-x="2000.0" data-y="0" id="how">
+<div class="step slide section" data-x="3000.0" data-y="0" id="how">
 <h1>
 How?<a class="headerlink" href="#how" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -141,8 +141,8 @@ Hallo Welt</strong> ausgeben.</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="c"># Importiere die Flask Libraries,</span>
 <span class="c"># und instanziere eine Flask-Anwendung.</span>
-<span class="kn">import</span> <span class="nn">flask</span>
-<span class="n">app</span> <span class="o">=</span> <span class="n">flask</span><span class="o">.</span><span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
 
 <span class="c"># hello() soll für ein Zugriff auf</span>
 <span class="c"># die root-url aufgerufen werden.</span>
@@ -157,7 +157,23 @@ Hallo Welt</strong> ausgeben.</p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="2000" data-y="800.0" id="routing-troubleshooting-1">
+<div class="step slide section" data-x="2000" data-y="800.0" id="und-nun-python">
+<h1>
+Und nun... Python!<a class="headerlink" href="#und-nun-python" title="Permalink to this headline">¶</a></h1>
+<div class="line-block">
+<div class="line">
+<br /></div>
+<div class="line">
+<br /></div>
+<div class="line">
+<br /></div>
+<div class="line">
+<br /></div>
+</div>
+<p>
+Say Hello to a new language.</p>
+</div>
+<div class="step slide section" data-x="3000" data-y="800.0" id="routing-troubleshooting-1">
 <h1>
 Routing &amp; Troubleshooting #1<a class="headerlink" href="#routing-troubleshooting-1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -178,7 +194,7 @@ Routing</strong>:</p>
 <p>
 &lt;Hier Bild einfügen&gt;</p>
 </div>
-<div class="step slide section" data-x="3000" data-y="800.0" id="routing-troubleshooting-2">
+<div class="step slide section" data-x="0" data-y="1600.0" id="routing-troubleshooting-2">
 <h1>
 Routing &amp; Troubleshooting #2<a class="headerlink" href="#routing-troubleshooting-2" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -215,7 +231,7 @@ mittels eines HTTP Redirects aufrufen.</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="0" data-y="1600.0" id="routing-troubleshooting-3">
+<div class="step slide section" data-x="1000" data-y="1600.0" id="routing-troubleshooting-3">
 <h1>
 Routing &amp; Troubleshooting #3<a class="headerlink" href="#routing-troubleshooting-3" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -274,7 +290,7 @@ Holen eines Images:</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="1000" data-y="1600.0" id="templates-how-to-render-them">
+<div class="step slide section" data-x="2000" data-y="1600.0" id="templates-how-to-render-them">
 <h1>
 Templates &amp; How to render them<a class="headerlink" href="#templates-how-to-render-them" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -309,32 +325,35 @@ Mit <tt class="docutils literal">
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="2000" data-y="1600.0" id="request-data">
+<div class="step slide section" data-x="3000" data-y="1600.0" id="request-data">
 <h1>
 Request Data<a class="headerlink" href="#request-data" title="Permalink to this headline">¶</a></h1>
 <p>
 request.from etc
 POST</p>
 </div>
-<div class="step slide section" data-x="3000" data-y="1600.0" id="sessions">
+<div class="step slide section" data-x="0" data-y="2400.0" id="sessions">
 <h1>
 Sessions<a class="headerlink" href="#sessions" title="Permalink to this headline">¶</a></h1>
 <p>
 login beispiel</p>
 </div>
-<div class="step slide section" data-x="0" data-y="2400.0" id="debugging">
+<div class="step slide section" data-x="1000" data-y="2400.0" id="debugging">
 <h1>
 Debugging<a class="headerlink" href="#debugging" title="Permalink to this headline">¶</a></h1>
 <p>
 Show the Debugger</p>
 </div>
-<div class="step slide section" data-x="1000" data-y="2400.0" id="moosr">
+<div class="step slide section" data-x="2000" data-y="2400.0" id="moosr">
 <h1>
-moosr<a class="headerlink" href="#moosr" title="Permalink to this headline">¶</a></h1>
+<tt class="docutils literal">
+<span class="pre">moosr</span></tt><a class="headerlink" href="#moosr" title="Permalink to this headline">¶</a></h1>
 <p>
-yey!
-Übung
-&#8212;&#8212;&#8212;&#8211;</p>
+Unsere kleine Beispielseite mit Flask.</p>
+</div>
+<div class="step slide section" data-x="3000" data-y="2400.0" id="ubung">
+<h1>
+Übung<a class="headerlink" href="#ubung" title="Permalink to this headline">¶</a></h1>
 </div>
 
 

@@ -1,0 +1,26 @@
+/* Allow customisation */
+
+.impress-enabled .step {
+    font-size:170%;
+    font-family:"Cantarell",Georgia,Serif;
+}
+
+.impress-enabled .step h1 {
+    font-size:200%;
+    text-align:center;
+    line-height:100%;
+    font-family:"Cantarell",Georgia,Serif;
+}
+
+.slide {
+    width: 950px;
+    height: 700px;
+}
+
+body {
+    background: rgb(100, 100, 100);
+}
+
+pre {
+    font-family:"Source Code Pro",Monospace,Serif;
+}
