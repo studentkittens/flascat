@@ -325,33 +325,143 @@ Mit <tt class="docutils literal">
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="3000" data-y="1600.0" id="request-data">
+<div class="step slide section" data-x="3000" data-y="1600.0" id="request-object">
 <h1>
-Request Data<a class="headerlink" href="#request-data" title="Permalink to this headline">¶</a></h1>
+Request Object<a class="headerlink" href="#request-object" title="Permalink to this headline">¶</a></h1>
 <p>
-request.from etc
-POST</p>
+<strong>
+Login Funktion</strong></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;POST&#39;</span><span class="p">,</span> <span class="s">&#39;GET&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">login</span><span class="p">():</span>
+    <span class="n">error</span> <span class="o">=</span> <span class="bp">None</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">valid_login</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">],</span>
+                       <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;pass&#39;</span><span class="p">]):</span>
+            <span class="k">return</span> <span class="n">log_the_user_in</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">error</span> <span class="o">=</span> <span class="s">&#39;Invalid user/pass&#39;</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;login.html&#39;</span><span class="p">,</span> <span class="n">error</span><span class="o">=</span><span class="n">error</span><span class="p">)</span>
+</pre></div>
 </div>
-<div class="step slide section" data-x="0" data-y="2400.0" id="sessions">
-<h1>
-Sessions<a class="headerlink" href="#sessions" title="Permalink to this headline">¶</a></h1>
 <p>
-login beispiel</p>
+<strong>
+Anmerkung</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li>
+über <tt class="docutils literal">
+<span class="pre">request.method</span></tt> wird die HTTP Methode geprüft</li>
+<li>
+über <tt class="docutils literal">
+<span class="pre">request.form</span></tt> können Formulare ausgelesen werden</li>
+</ul>
+</div></blockquote>
 </div>
-<div class="step slide section" data-x="1000" data-y="2400.0" id="debugging">
+<div class="step slide section" data-x="0" data-y="2400.0" id="session-object">
 <h1>
-Debugging<a class="headerlink" href="#debugging" title="Permalink to this headline">¶</a></h1>
+Session Object<a class="headerlink" href="#session-object" title="Permalink to this headline">¶</a></h1>
 <p>
-Show the Debugger</p>
+<strong>
+Defining a session at login</strong></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="k">if</span> <span class="s">&#39;user&#39;</span> <span class="ow">in</span> <span class="n">session</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">&#39;Logged in as </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">escape</span><span class="p">(</span><span class="n">session</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="s">&#39;You are not logged in&#39;</span>
+
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;GET&#39;</span><span class="p">,</span> <span class="s">&#39;POST&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">login</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="n">session</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;index&#39;</span><span class="p">))</span>
+    <span class="k">return</span> <span class="s">&#39;&#39;&#39;</span>
+</pre></div>
 </div>
-<div class="step slide section" data-x="2000" data-y="2400.0" id="moosr">
+<p>
+<strong>
+HTML Form</strong></p>
+<div class="highlight-html">
+<div class="highlight"><pre><span class="nt">&lt;form</span> <span class="na">action=</span><span class="s">&quot;&quot;</span> <span class="na">method=</span><span class="s">&quot;post&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;input</span> <span class="na">type=</span><span class="s">text</span> <span class="na">name=</span><span class="s">user</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;p&gt;&lt;input</span> <span class="na">type=</span><span class="s">submit</span> <span class="na">value=</span><span class="s">Login</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/form&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="step slide section" data-x="1000" data-y="2400.0" id="debugging-inside">
 <h1>
+Debugging Inside<a class="headerlink" href="#debugging-inside" title="Permalink to this headline">¶</a></h1>
+<p>
+<strong>
+Live debugging flask applications</strong></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="n">app</span><span class="o">.</span><span class="n">debug</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>
+wird eine Flask Applikation mit <tt class="docutils literal">
+<span class="pre">debug</span> <span class="pre">=</span> <span class="pre">True</span></tt> gestartet, so wird im
+Browser bei Fehlern der Traceback geprintet. Dieser ist interaktiv, es
+können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden</li>
+<li>
+Demo</li>
+</ul>
+</div>
+<div class="step slide section" data-x="2000" data-y="2400.0" id="server-inside">
+<h1>
+Server Inside *<a class="headerlink" href="#server-inside" title="Permalink to this headline">¶</a></h1>
+<p>
+<strong>
+*kind of</strong></p>
+<blockquote>
+<div><ul>
+<li>
+<p class="first">
+Flask startet beim Starten der Applikation einen Server der Standardmäßig
+auf localhost:5000 horcht</p>
+</li>
+<li>
+<p class="first">
+Server Parameter änderbar</p>
+<blockquote>
+<div><div class="highlight-python">
+<div class="highlight"><pre><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+            <span class="n">host</span><span class="o">=</span><span class="s">&#39;0.0.0.0&#39;</span><span class="p">,</span>
+            <span class="n">port</span><span class="o">=</span><span class="mi">4242</span><span class="p">)</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li>
+<p class="first">
 <tt class="docutils literal">
-<span class="pre">moosr</span></tt><a class="headerlink" href="#moosr" title="Permalink to this headline">¶</a></h1>
+<span class="pre">debug</span></tt> aktiviert den live debugger über den Browser</p>
+</li>
+<li>
+<p class="first">
+<tt class="docutils literal">
+<span class="pre">host</span></tt> definiert die IP-Adresse auf der gelauscht werden soll</p>
+</li>
+<li>
+<p class="first">
+<tt class="docutils literal">
+<span class="pre">port</span></tt> definiert den Port auf dem gelauscht werden soll</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="step slide section" data-x="3000" data-y="2400.0" id="moosr-music-metadata-search-engine">
+<h1>
+moosr - music metadata search engine<a class="headerlink" href="#moosr-music-metadata-search-engine" title="Permalink to this headline">¶</a></h1>
 <p>
 Unsere kleine Beispielseite mit Flask.</p>
 </div>
-<div class="step slide section" data-x="3000" data-y="2400.0" id="ubung">
+<div class="step slide section" data-x="0" data-y="3200.0" id="ubung">
 <h1>
 Übung<a class="headerlink" href="#ubung" title="Permalink to this headline">¶</a></h1>
 </div>

@@ -194,24 +194,104 @@ Templates & How to render them
             </body>
         </html>
 
-Request Data
-------------
+Request Object 
+--------------
 
-request.from etc
-POST 
+**Login Funktion**
 
-Sessions
---------
+.. code-block:: python
 
-login beispiel
+    @app.route('/login', methods=['POST', 'GET'])
+    def login():
+        error = None
+        if request.method == 'POST':  
+            if valid_login(request.form['user'],  
+                           request.form['pass']): 
+                return log_the_user_in(request.form['user'])
+            else:
+                error = 'Invalid user/pass'
+        return render_template('login.html', error=error)
 
-Debugging
----------
+**Anmerkung**
 
-Show the Debugger
+    * über ``request.method`` wird die HTTP Methode geprüft
+    * über ``request.form`` können Formulare ausgelesen werden
 
-``moosr``
----------
+
+
+
+Session Object
+--------------
+
+**Defining a session at login**
+
+.. code-block:: python
+
+    @app.route('/')
+    def index():
+        if 'user' in session:
+            return 'Logged in as %s' % escape(session['user'])
+        return 'You are not logged in'
+
+    @app.route('/login', methods=['GET', 'POST'])
+    def login():
+        if request.method == 'POST':
+            session['user'] = request.form['user']
+            return redirect(url_for('index'))
+        return '''
+
+**HTML Form**
+
+.. code-block:: html
+    
+        <form action="" method="post">
+            <p><input type=text name=user>
+            <p><input type=submit value=Login>
+        </form>
+        
+
+
+Debugging Inside
+----------------
+
+**Live debugging flask applications**
+
+.. code-block:: python
+
+    app.debug = True
+    app.run()
+
+* wird eine Flask Applikation mit ``debug = True`` gestartet, so wird im
+  Browser bei Fehlern der Traceback geprintet. Dieser ist interaktiv, es
+  können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden
+* Demo
+
+
+Server Inside *
+---------------
+
+**\*kind of**
+
+    * Flask startet beim Starten der Applikation einen Server der Standardmäßig
+      auf localhost:5000 horcht
+    
+    * Server Parameter änderbar
+
+        .. code-block:: python
+
+            if __name__ == '__main__':
+                app.run(debug=True,
+                        host='0.0.0.0',
+                        port=4242)
+
+    * ``debug`` aktiviert den live debugger über den Browser
+    * ``host`` definiert die IP-Adresse auf der gelauscht werden soll
+    * ``port`` definiert den Port auf dem gelauscht werden soll
+
+         
+
+moosr - music metadata search engine
+------------------------------------
 
 Unsere kleine Beispielseite mit Flask.
 
