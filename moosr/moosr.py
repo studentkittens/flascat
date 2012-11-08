@@ -275,8 +275,10 @@ def api_root(get_type, search_str, number=1):
                 'image_format': item.image_format,
                 'is_cached': item.is_cached
                 })
-    except IndexError:
+    except (IndexError):
         return 'Search Query does not contain a "+"'
+    except (ValueError):
+        return render_template('404.html'), 404
     else:
         return json.dumps({
             'get_type': get_type,
