@@ -1,114 +1,114 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "Prof. Dr. Michael Rauch", 
-            "prof": "Mueb_H7", 
-            "time": "08:00-09:30-08:00-09:30-08:00-09:30-09:45-11:15-09:45-11:15-09:45-11:15-14:00-15:30-14:00-15:30-14:00-15:30-15:45-17:15-15:45-17:15", 
-            "name": "Praktikum  (14t\u00e4gig 4SWS) (Beginn: KW 40)", 
-            "type": "FWPM:0#HF:0#HF:0#HF:0#FWPM:0#HF:0#FWPM:0#HF:0#HF:0#HF:0#HF:0", 
-            "note": "Textildruck  (TT)#Textildruck  (TC)#Textildruck  (TT)#Textildruck  (TC)#Textildruck  (TT)#Textildruck  (TC)"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "time": "08:00-09:30", 
-            "room": "FA009", 
-            "type": "FWPM:0", 
-            "name": "Physikalische Grundlagen technischer Werkstoffe  (TC)"
-        }, 
-        {
-            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "time": "08:00-09:30", 
-            "room": "FA009", 
-            "type": "FWPM:0", 
-            "name": "Physikalische Grundlagen technischer Werkstoffe  (TT)"
-        }, 
-        {
-            "desc": "(InnoTex + WT  + Wing WT 5)", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "time": "09:45-11:15", 
-            "room": "FA013", 
-            "type": "HF:0", 
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung"
-        }, 
-        {
-            "desc": "Vorlesung/Praktikum  (InnoTex + WT+ Wing WT 5) (Praktikum nur zu bestimmten Terminen)", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "time": "11:30-13:00", 
-            "room": "FA202", 
-            "type": "FWPM:0", 
-            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  (TC)"
-        }, 
-        {
-            "desc": "Vorlesung/Praktikum  (InnoTex + WT+ Wing WT 5) (Praktikum nur zu bestimmten Terminen)", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "time": "11:30-13:00", 
-            "room": "FA202", 
-            "type": "FWPM:0", 
-            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  (TT)"
-        }, 
-        {
-            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "time": "14:00-15:30", 
-            "room": "FA202", 
-            "type": "FWPM:0", 
-            "name": "Physikalische Grundlagen technischer Werkstoffe  (TC)"
-        }, 
-        {
-            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "time": "14:00-15:30", 
-            "room": "FA202", 
-            "type": "FWPM:0", 
-            "name": "Physikalische Grundlagen technischer Werkstoffe  (TT)"
+            "name": "Textilchemie", 
+            "note": "(4 SWS Block)#(4 SWS Block)#F\u00e4rberei  (TC)#(4 SWS Block)#F\u00e4rberei  (TC)#(4 SWS Block)", 
+            "time": "09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
+            "prof": "Mueb_Dru + Mueb_F\u00e4r + Mueb_Sem", 
+            "type": "HF:0#HF:0#HF:0#HF:0", 
+            "desc": "Prof. Dr. Reinhart M\u00f6ckel"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Prof. Oliver Lottes", 
-            "prof": "Prof. PhD Marek Gorywoda", 
+            "name": "Technische Textilien Maschenwaren  (TT)", 
             "time": "08:00-09:30-09:45-11:15-14:00-15:30", 
-            "room": "FA009", 
-            "type": "HF:0#HF:0#HF:0", 
-            "name": "Technische Textilien Maschenwaren  (TT)"
-        }, 
-        {
-            "desc": "Praktikum  (InnoTex + WT  + Wing WT 5)", 
             "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "Prof. Oliver Lottes", 
+            "type": "HF:0#HF:0#HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung", 
             "time": "15:45-17:15", 
-            "room": "FA009", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "Praktikum  (InnoTex + WT  + Wing WT 5)", 
             "type": "HF:0", 
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung"
+            "room": "FA009"
         }, 
         {
-            "desc": "(InnoTex + WT+ Wing WT 5)", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
+            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  (TT)", 
             "time": "17:30-19:00", 
-            "room": "FA013", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "desc": "(InnoTex + WT+ Wing WT 5)", 
             "type": "FWPM:0", 
-            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  (TC)"
+            "room": "FA013"
         }, 
         {
-            "desc": "(InnoTex + WT+ Wing WT 5)", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
+            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  (TC)", 
             "time": "17:30-19:00", 
-            "room": "FA013", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "desc": "(InnoTex + WT+ Wing WT 5)", 
             "type": "FWPM:0", 
-            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  (TT)"
+            "room": "FA013"
         }
     ], 
-    "Montag": [
+    "Dienstag": [
         {
-            "desc": "Prof. Dr. Reinhart M\u00f6ckel", 
-            "prof": "Mueb_Dru + Mueb_F\u00e4r + Mueb_Sem", 
-            "time": "09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
-            "name": "Textilchemie", 
-            "type": "HF:0#HF:0#HF:0#HF:0", 
-            "note": "(4 SWS Block)#(4 SWS Block)#F\u00e4rberei  (TC)#(4 SWS Block)#F\u00e4rberei  (TC)#(4 SWS Block)"
+            "name": "Praktikum  (14t\u00e4gig 4SWS) (Beginn: KW 40)", 
+            "note": "Textildruck  (TT)#Textildruck  (TC)#Textildruck  (TT)#Textildruck  (TC)#Textildruck  (TT)#Textildruck  (TC)", 
+            "time": "08:00-09:30-08:00-09:30-08:00-09:30-09:45-11:15-09:45-11:15-09:45-11:15-14:00-15:30-14:00-15:30-14:00-15:30-15:45-17:15-15:45-17:15", 
+            "prof": "Mueb_H7", 
+            "type": "FWPM:0#HF:0#HF:0#HF:0#FWPM:0#HF:0#FWPM:0#HF:0#HF:0#HF:0#HF:0", 
+            "desc": "Prof. Dr. Michael Rauch"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Physikalische Grundlagen technischer Werkstoffe  (TC)", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
+            "type": "FWPM:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Physikalische Grundlagen technischer Werkstoffe  (TT)", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
+            "type": "FWPM:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "(InnoTex + WT  + Wing WT 5)", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  (TC)", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "desc": "Vorlesung/Praktikum  (InnoTex + WT+ Wing WT 5) (Praktikum nur zu bestimmten Terminen)", 
+            "type": "FWPM:0", 
+            "room": "FA202"
+        }, 
+        {
+            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  (TT)", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "desc": "Vorlesung/Praktikum  (InnoTex + WT+ Wing WT 5) (Praktikum nur zu bestimmten Terminen)", 
+            "type": "FWPM:0", 
+            "room": "FA202"
+        }, 
+        {
+            "name": "Physikalische Grundlagen technischer Werkstoffe  (TC)", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
+            "type": "FWPM:0", 
+            "room": "FA202"
+        }, 
+        {
+            "name": "Physikalische Grundlagen technischer Werkstoffe  (TT)", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
+            "type": "FWPM:0", 
+            "room": "FA202"
         }
     ]
 }

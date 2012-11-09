@@ -1,64 +1,64 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "(4 SWS Block Farbprojekt+Firmenkoop.)", 
-            "prof": "Mueb_H9", 
-            "time": "11:30-13:00-14:00-15:30-15:45-17:15-15:45-17:15", 
-            "name": "Farbprojekt", 
-            "type": "HF:0#HF:0#HF:0#HF:0", 
-            "note": "(Gruppe I)#(Gruppe III)"
-        }
-    ], 
-    "Freitag": [
-        {
-            "time": "11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
             "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
-            "desc": "Kurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine", 
-            "prof": "Mueb_H9A"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "Prof. Martina Ziegenthaler", 
-            "prof": "Mueb_TD621", 
-            "time": "09:45-11:15-11:30-13:00-14:00-15:30", 
-            "room": "Experimentelles dreidimensionales Gestalten 1", 
-            "name": "Kollektionsgestaltung + Schnitttechnik", 
-            "note": "(4 SWS Block)#(Gruppe I)#(4 SWS Block)#(Gruppe I)"
-        }, 
-        {
-            "desc": "T_WPF:0", 
-            "prof": "Mueb_H9A", 
-            "time": "15:45-17:15", 
-            "room": "Experimentelles dreidimensionales Gestalten 1", 
-            "name": "Susanne Winter", 
-            "note": "(4 SWS Block)"
-        }, 
-        {
-            "desc": "T_WPF:0", 
-            "name": "Susanne Winter", 
-            "prof": "Mueb_H9A", 
-            "note": "(4 SWS Block)"
+            "note": "(Gruppe II)", 
+            "time": "08:00-09:30-09:45-11:15-17:15-18:45", 
+            "prof": "Mueb_DrD", 
+            "type": "HF:0", 
+            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Dipl.Des. Stefanie Romig", 
-            "prof": "Mueb_Div", 
-            "time": "08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00-15:45-17:15", 
             "name": "Dessinieren", 
+            "note": "(TD 3/7 + MD 1)#(4 SWS Block)#(Gruppe II)#(4 SWS Block)#(Gruppe II)", 
+            "time": "08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00-15:45-17:15", 
+            "prof": "Mueb_Div", 
             "type": "HF:0", 
-            "note": "(TD 3/7 + MD 1)#(4 SWS Block)#(Gruppe II)#(4 SWS Block)#(Gruppe II)"
+            "desc": "Dipl.Des. Stefanie Romig"
         }
     ], 
-    "Montag": [
+    "Freitag": [
         {
-            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41", 
-            "prof": "Mueb_DrD", 
-            "time": "08:00-09:30-09:45-11:15-17:15-18:45", 
+            "prof": "Mueb_H9A", 
+            "desc": "Kurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine", 
             "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
-            "type": "HF:0", 
-            "note": "(Gruppe II)"
+            "time": "11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Farbprojekt", 
+            "note": "(Gruppe III)#(Gruppe I)", 
+            "time": "11:30-13:00-14:00-15:30-15:45-17:15-15:45-17:15", 
+            "prof": "Mueb_TD621", 
+            "type": "HF:0#HF:0#HF:0#HF:0", 
+            "desc": "(4 SWS Block Farbprojekt+Firmenkoop.)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Kollektionsgestaltung + Schnitttechnik", 
+            "note": "(4 SWS Block)#(Gruppe I)#(4 SWS Block)#(Gruppe I)", 
+            "time": "09:45-11:15-11:30-13:00-14:00-15:30", 
+            "prof": "Mueb_TD621", 
+            "desc": "Prof. Martina Ziegenthaler", 
+            "room": "Experimentelles dreidimensionales Gestalten 1"
+        }, 
+        {
+            "name": "Susanne Winter", 
+            "note": "(4 SWS Block)", 
+            "time": "15:45-17:15", 
+            "prof": "Mueb_H9A", 
+            "desc": "T_WPF:0", 
+            "room": "Experimentelles dreidimensionales Gestalten 1"
+        }, 
+        {
+            "note": "(4 SWS Block)", 
+            "prof": "Mueb_H9A", 
+            "name": "Susanne Winter", 
+            "desc": "T_WPF:0"
         }
     ]
 }

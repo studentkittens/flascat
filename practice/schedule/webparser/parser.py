@@ -6,14 +6,17 @@ from urllib.request import urlopen
 from html.parser import HTMLParser
 from urllib.parse import quote
 
-from pprint import pprint
-
-
 headers = ['room', 'type', 'time', 'note', 'prof', 'name', 'desc']
 
 
 def looks_like_room(data):
-    return re.match('F[A-Z][0-9]+', data) or re.match('F[A-Z][0-9]{3}/F[A-Z][0-9]{3}', data) or re.match('Ex_*', data)
+    return re.search('F[A-Z][0-9]{3}', data) or re.match('Ex_*', data)
+
+
+def looks_like_day(data):
+    data = data.lower().strip()
+    result = data in  ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+    return result or data in ["montag", "dienstag", "mittwoch", "donnerstag", "freitag"]
 
 
 def guess_key_from_data(data):
@@ -37,8 +40,8 @@ class TableHTMLParser(HTMLParser):
         self.__interest = False
         self.schedule = {}
         self._current_list = []
-        self._current_idx = 0
         self._node_idx = 0
+        self._schedule_started = False
 
     def handle_starttag(self, tag, attrs):
         # Be only interested in this <td> tags,
@@ -54,22 +57,21 @@ class TableHTMLParser(HTMLParser):
         data = data.strip()
         if self.__interest and len(data) > 0:
             data = re.sub(r'-*', '', data).strip()
-            if data in ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag"]:
+            if looks_like_day(data):
                 # Add a day as key to the dictionary:
                 self._current_list = self.schedule.setdefault(data, [{}])
-                self._current_idx = 0
-            elif data:
-                node = self._current_list[self._current_idx]
+                self._schedule_started = True
+            elif data and self._schedule_started:
+                node = self._current_list[-1]
                 key = guess_key_from_data(data)
 
                 if node.get(key):
-                    node[key] += '#' + data
+                    node[key] += ('#' + data)
                 else:
                     node[key] = data
 
                 # Match a room like FD177, if so we open a new Node
                 if looks_like_room(data):
-                    self._current_idx += 1
                     self._current_list.append({})
 
     def feed(self, input_data):
@@ -81,21 +83,20 @@ class TableHTMLParser(HTMLParser):
             for idx, node in enumerate(data):
                 if len(node) < 2:
                     del self.schedule[day][idx]
-                    continue
+                else:
+                    # Sanitize time:
+                    if node.get('time'):
+                        node['time'] = node['time'].replace('#', '-')
 
-                # Sanitize time:
-                if node.get('time'):
-                    node['time'] = node['time'].replace('#', '-')
-
-                # Process _tmp
-                if node.get('_tmp'):
-                    split = node.get('_tmp').split('#')
-                    node['name'] = split[0]
-                    if len(split) > 1:
-                        node['prof'] = split[-1]
-                    if len(split) > 2:
-                        node['desc'] = split[1]
-                    del node['_tmp']
+                    # Process _tmp
+                    if node.get('_tmp'):
+                        split = node.get('_tmp').split('#')
+                        node['name'] = split[0]
+                        if len(split) > 1:
+                            node['prof'] = split[-1]
+                        if len(split) > 2:
+                            node['desc'] = split[1]
+                        del node['_tmp']
 
     def print_table(self):
         print(json.dumps(self.schedule, indent=4))
@@ -105,7 +106,6 @@ class TableHTMLParser(HTMLParser):
 
 
 def download_schedule(studiengang, semester):
-    print(type(studiengang))
     data = ''
     url = "http://www.hof-university.de/index.php?id=515&st={st}&fs={fs}&jahr=2012&semester={ws}".format(
             st=quote(studiengang),

@@ -1,67 +1,67 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "(4 SWS Block)  Beginn KW 41", 
-            "prof": "Mueb_DrD", 
-            "time": "08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-14:00-15:30-14:00-15:30-14:00-15:30-15:45-17:15-15:45-17:15-15:45-17:15-15:45-17:15", 
-            "name": "Produktentwicklung", 
-            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
-            "note": "(Gruppe II)#(Gruppe I)#(Gruppe I)#(Gruppe II)#(Gruppe I)#(Gruppe II)#(Gruppe II)#(Gruppe I)"
-        }
-    ], 
-    "Freitag": [
-        {
-            "desc": "Prof. Anita Oswald", 
-            "prof": "Mueb_H9A", 
-            "time": "08:00-09:30-09:45-11:15-11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
-            "name": "Farbe 2", 
-            "type": "HF:0#HF:0", 
-            "note": "(4 SWS Block)#(4 SWS Block)"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "Prof. Dietmar Sp\u00f6rl", 
-            "prof": "Mueb_TD621", 
-            "time": "09:45-11:15-11:30-13:00-14:00-15:30-14:00-15:30-14:00-15:30", 
-            "room": "Experimentelles dreidimensionales Gestalten 1", 
-            "type": "HF:0#HF:0", 
-            "name": "Gestaltungslehre 2 + Objektdesign", 
-            "note": "(4 SWS Block)#(4 SWS Block)#(Gruppe I)#(Gruppe II)"
-        }, 
-        {
-            "desc": "T_WPF:0", 
-            "prof": "Mueb_TD621", 
-            "time": "15:45-17:15-15:45-17:15-15:45-17:15", 
-            "room": "Experimentelles dreidimensionales Gestalten 1", 
-            "name": "Susanne Winter", 
-            "note": "(4 SWS Block)#(Gruppe I)#(Gruppe II)"
-        }, 
-        {
-            "desc": "T_WPF:0", 
-            "name": "Susanne Winter", 
-            "prof": "Mueb_H9A", 
-            "note": "(4 SWS Block)"
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Beginn: KW 41)#(4 SWS Block)#(4 SWS Block)", 
+            "time": "08:00-09:30-08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
+            "prof": "Mueb_Div + Mueb_H9", 
+            "type": "HF:0#HF:0#HF:0", 
+            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "MA Beatrix M\u00fcnzerGlas", 
-            "prof": "Mueb_CAD", 
-            "time": "08:00-09:30-09:45-11:15-11:30-13:00-11:30-13:00-11:30-13:00-14:00-15:30-14:00-15:30-14:00-15:30-14:00-15:30-15:45-17:15-15:45-17:15-15:45-17:15-17:30-19:00-17:30-19:00-17:30-19:00", 
             "name": "Grundlagen Wissenschaftlichen Arbeitens", 
+            "note": "(TD 3 + MD 1)#(TD 3/7 + MD 1)#(Gruppe II)#(Gruppe I)#(Gruppe I)#(Gruppe II)#(Gruppe I)#(Gruppe I)#(Gruppe I)#(Gruppe II)#(Gruppe II)#(Gruppe I)#(Gruppe II)#(Gruppe II)", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00-11:30-13:00-11:30-13:00-14:00-15:30-14:00-15:30-14:00-15:30-14:00-15:30-15:45-17:15-15:45-17:15-15:45-17:15-17:30-19:00-17:30-19:00-17:30-19:00", 
+            "prof": "Mueb_CAD", 
             "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
-            "note": "(TD 3 + MD 1)#(TD 3/7 + MD 1)#(Gruppe I)#(Gruppe II)#(Gruppe I)#(Gruppe I)#(Gruppe II)#(Gruppe I)#(Gruppe I)#(Gruppe II)#(Gruppe II)#(Gruppe I)#(Gruppe II)#(Gruppe II)"
+            "desc": "MA Beatrix M\u00fcnzerGlas"
         }
     ], 
-    "Montag": [
+    "Freitag": [
         {
-            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41", 
-            "prof": "Mueb_Div + Mueb_H9", 
-            "time": "08:00-09:30-08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
-            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
-            "type": "HF:0#HF:0#HF:0", 
-            "note": "(Beginn: KW 41)#(4 SWS Block)#(4 SWS Block)"
+            "name": "Farbe 2", 
+            "note": "(4 SWS Block)#(4 SWS Block)", 
+            "time": "08:00-09:30-09:45-11:15-11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
+            "prof": "Mueb_H9A", 
+            "type": "HF:0#HF:0", 
+            "desc": "Prof. Anita Oswald"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Produktentwicklung", 
+            "note": "(Gruppe II)#(Gruppe I)#(Gruppe I)#(Gruppe II)#(Gruppe II)#(Gruppe I)#(Gruppe I)#(Gruppe II)", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-14:00-15:30-14:00-15:30-14:00-15:30-15:45-17:15-15:45-17:15-15:45-17:15-15:45-17:15", 
+            "prof": "Mueb_DrD", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "desc": "(4 SWS Block)  Beginn KW 41"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Gestaltungslehre 2 + Objektdesign", 
+            "note": "(4 SWS Block)#(4 SWS Block)#(Gruppe II)#(Gruppe I)", 
+            "time": "09:45-11:15-11:30-13:00-14:00-15:30-14:00-15:30-14:00-15:30", 
+            "prof": "Mueb_TD621", 
+            "desc": "Prof. Dietmar Sp\u00f6rl", 
+            "type": "HF:0#HF:0", 
+            "room": "Experimentelles dreidimensionales Gestalten 1"
+        }, 
+        {
+            "name": "Susanne Winter", 
+            "note": "(4 SWS Block)#(Gruppe II)#(Gruppe I)", 
+            "time": "15:45-17:15-15:45-17:15-15:45-17:15", 
+            "prof": "Mueb_TD621", 
+            "desc": "T_WPF:0", 
+            "room": "Experimentelles dreidimensionales Gestalten 1"
+        }, 
+        {
+            "note": "(4 SWS Block)", 
+            "prof": "Mueb_H9A", 
+            "name": "Susanne Winter", 
+            "desc": "T_WPF:0"
         }
     ]
 }

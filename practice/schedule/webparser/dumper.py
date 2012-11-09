@@ -21,12 +21,6 @@ if __name__ == '__main__':
             result = line.split()
             stname = result[-1].replace('_',' ')
             sem = result[:-2]
-            print(stname, '=', end=' ')
             for x in sem:
-                print(type(x), x, end=' ')
-                try:
-                    parse(str(x), str(stname))
-                except IndexError:
-                    pass
-            print()
+                parse(str(x), str(stname))
 

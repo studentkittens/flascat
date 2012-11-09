@@ -1,148 +1,139 @@
 {
-    "Dienstag": [
+    "Mittwoch": [
         {
-            "prof": "RA Kai Gollwitzer", 
+            "name": "Einf\u00fchrung in das \u00d6ffentliche Recht (Staats und Verfassungsrecht) ; Einf\u00fchrung in das \u00f6ffentliche Recht (Staats und Verfassungsrecht)", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Dietmar Boerner", 
+            "type": "HF:0", 
+            "room": "FA107"
+        }, 
+        {
+            "name": "Wirtschaftsprivatrecht Grundlagen", 
+            "note": "(Gruppe II)", 
             "time": "11:30-13:00", 
-            "room": "FA101", 
+            "prof": "DiplWirtschaftsjur. Sabrina Amarell", 
+            "desc": "Vertiefungs\u00fcbungen, Beginn KW 44", 
             "type": "HF:0", 
-            "name": "Juristische Methodenlehre und Fallbearbeitung"
+            "room": "FA222"
         }, 
         {
-            "prof": "14t\u00e4gig  Beginn KW 42", 
+            "name": "Einf\u00fchrung in das wissenschaftliche Arbeiten", 
             "time": "15:45-17:15", 
-            "room": "FA101", 
+            "prof": "Prof. Dr. Martin Wachovius", 
             "type": "HF:0", 
-            "name": "Klausurkurs/Vertiefungs\u00fcbung"
-        }, 
-        {
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "17:30-19:00", 
-            "room": "FA101", 
-            "type": "HF:0", 
-            "name": "Buchf\u00fchrung"
+            "room": "FD175"
         }
     ], 
     "Freitag": [
         {
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "name": "Wirtschaftsprivatrecht Grundlagen", 
             "time": "08:00-09:30", 
-            "room": "FB023", 
-            "type": "HF:0", 
-            "name": "Wirtschaftsprivatrecht Grundlagen"
-        }, 
-        {
             "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "type": "HF:0", 
+            "room": "FB023"
+        }, 
+        {
+            "name": "Wirtschaftsprivatrecht Grundlagen", 
             "time": "09:45-11:15", 
-            "room": "FB023", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
             "type": "HF:0", 
-            "name": "Wirtschaftsprivatrecht Grundlagen"
+            "room": "FB023"
         }, 
         {
-            "prof": "Prof. Dr. Dietmar Boerner", 
+            "name": "Einf\u00fchrung in das \u00d6ffentliche Recht (Staats und Verfassungsrecht) ; Einf\u00fchrung in das \u00f6ffentliche Recht (Staats und Verfassungsrecht)", 
             "time": "11:30-13:00", 
-            "room": "FD177", 
+            "prof": "Prof. Dr. Dietmar Boerner", 
             "type": "HF:0", 
-            "name": "Einf\u00fchrung in das \u00d6ffentliche Recht (Staats und Verfassungsrecht) ; Einf\u00fchrung in das \u00f6ffentliche Recht (Staats und Verfassungsrecht)"
+            "room": "FD177"
         }, 
         {
-            "desc": "Blockveranstaltung", 
-            "prof": "Prof. Dr. Klaus W. Slapnicar", 
+            "name": "Einf\u00fchrung in die Rechtswissenschaft (Rechtsgeschichte, soziologie, philosophie, ethik)", 
             "time": "13:30-19:00", 
-            "room": "FA205/206", 
+            "prof": "Prof. Dr. Klaus W. Slapnicar", 
+            "desc": "Blockveranstaltung", 
             "type": "HF:0", 
-            "name": "Einf\u00fchrung in die Rechtswissenschaft (Rechtsgeschichte, soziologie, philosophie, ethik)"
+            "room": "FA205/206"
         }, 
         {
-            "desc": "Blockveranstaltung", 
-            "prof": "Prof. Dr. Klaus W. Slapnicar", 
+            "name": "Einf\u00fchrung in die Rechtswissenschaft (Rechtsgeschichte, soziologie, philosophie, ethik)", 
             "time": "15:00-19:00", 
-            "room": "FA205/206", 
-            "type": "HF:0", 
-            "name": "Einf\u00fchrung in die Rechtswissenschaft (Rechtsgeschichte, soziologie, philosophie, ethik)"
-        }, 
-        {
-            "desc": "Einf\u00fchrung in die Rechtswissenschaft (Rechtsgeschichte, soziologie, philosophie, ethik)", 
             "prof": "Prof. Dr. Klaus W. Slapnicar", 
-            "time": "08:00-15:30", 
-            "room": "FA205/206", 
-            "type": "HF:0", 
-            "name": "Samstag"
-        }, 
-        {
             "desc": "Blockveranstaltung", 
-            "prof": "Prof. Dr. Klaus W. Slapnicar", 
-            "time": "08:00-15:30", 
-            "room": "FA205/206", 
             "type": "HF:0", 
-            "name": "Einf\u00fchrung in die Rechtswissenschaft (Rechtsgeschichte, soziologie, philosophie, ethik)"
+            "room": "FA205/206"
+        }, 
+        {
+            "name": "Samstag", 
+            "time": "08:00-15:30", 
+            "prof": "Prof. Dr. Klaus W. Slapnicar", 
+            "desc": "Einf\u00fchrung in die Rechtswissenschaft (Rechtsgeschichte, soziologie, philosophie, ethik)", 
+            "type": "HF:0", 
+            "room": "FA205/206"
+        }, 
+        {
+            "name": "Einf\u00fchrung in die Rechtswissenschaft (Rechtsgeschichte, soziologie, philosophie, ethik)", 
+            "time": "08:00-15:30", 
+            "prof": "Prof. Dr. Klaus W. Slapnicar", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA205/206"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Juristische Methodenlehre und Fallbearbeitung", 
+            "time": "11:30-13:00", 
+            "prof": "RA Kai Gollwitzer", 
+            "type": "HF:0", 
+            "room": "FA101"
+        }, 
+        {
+            "name": "Klausurkurs/Vertiefungs\u00fcbung", 
+            "time": "15:45-17:15", 
+            "prof": "14t\u00e4gig  Beginn KW 42", 
+            "type": "HF:0", 
+            "room": "FA101"
+        }, 
+        {
+            "name": "Buchf\u00fchrung", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "type": "HF:0", 
+            "room": "FA101"
         }
     ], 
     "Donnerstag": [
         {
-            "prof": "Prof. Dr. Christof Aignesberger", 
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "note": "(Beginn KW 41)", 
             "time": "08:00-09:30", 
-            "room": "FD242", 
-            "type": "HF:0", 
-            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
-            "note": "(Beginn KW 41)"
-        }, 
-        {
             "prof": "Prof. Dr. Christof Aignesberger", 
-            "time": "09:45-11:15", 
-            "room": "FA203", 
             "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
             "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
-            "note": "(Beginn KW 41)"
-        }, 
-        {
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "time": "11:30-13:00", 
-            "room": "FB023", 
-            "type": "HF:0", 
-            "name": "Wirtschaftsprivatrecht Grundlagen", 
-            "note": "(Beginn KW 41)"
-        }, 
-        {
-            "desc": "Vertiefungs\u00fcbungen (Beginn KW 41)", 
-            "prof": "Prof. Dr. Dietmar Boerner", 
-            "time": "15:45-17:15", 
-            "room": "FD175", 
-            "type": "HF:0", 
-            "name": "Einf\u00fchrung in das \u00d6ffentliche Recht (Staats und Verfassungsrecht) ; Einf\u00fchrung in das \u00f6ffentliche Recht (Staats und Verfassungsrecht)"
-        }
-    ], 
-    "Mittwoch": [
-        {
-            "prof": "Prof. Dr. Dietmar Boerner", 
+            "note": "(Beginn KW 41)", 
             "time": "09:45-11:15", 
-            "room": "FA107", 
+            "prof": "Prof. Dr. Christof Aignesberger", 
             "type": "HF:0", 
-            "name": "Einf\u00fchrung in das \u00d6ffentliche Recht (Staats und Verfassungsrecht) ; Einf\u00fchrung in das \u00f6ffentliche Recht (Staats und Verfassungsrecht)"
+            "room": "FA203"
         }, 
         {
-            "desc": "Vertiefungs\u00fcbungen, Beginn KW 44", 
-            "prof": "DiplWirtschaftsjur. Sabrina Amarell", 
+            "name": "Wirtschaftsprivatrecht Grundlagen", 
+            "note": "(Beginn KW 41)", 
             "time": "11:30-13:00", 
-            "room": "FA222", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
             "type": "HF:0", 
-            "name": "Wirtschaftsprivatrecht Grundlagen", 
-            "note": "(Gruppe II)"
+            "room": "FB023"
         }, 
         {
-            "prof": "Prof. Dr. Martin Wachovius", 
+            "name": "Einf\u00fchrung in das \u00d6ffentliche Recht (Staats und Verfassungsrecht) ; Einf\u00fchrung in das \u00f6ffentliche Recht (Staats und Verfassungsrecht)", 
             "time": "15:45-17:15", 
-            "room": "FD175", 
+            "prof": "Prof. Dr. Dietmar Boerner", 
+            "desc": "Vertiefungs\u00fcbungen (Beginn KW 41)", 
             "type": "HF:0", 
-            "name": "Einf\u00fchrung in das wissenschaftliche Arbeiten"
-        }, 
-        {
-            "desc": "Vertiefungs\u00fcbungen, Beginn KW 44", 
-            "prof": "DiplWirtschaftsjur. Sabrina Amarell", 
-            "time": "17:30-19:00", 
-            "room": "FA222", 
-            "type": "HF:0", 
-            "name": "Wirtschaftsprivatrecht Grundlagen", 
-            "note": "(Gruppe I)"
+            "room": "FD175"
         }
     ]
 }

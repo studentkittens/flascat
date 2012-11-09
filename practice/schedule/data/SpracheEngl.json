@@ -1,100 +1,100 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Wirtschaft", 
+            "room": "FD246", 
+            "time": "08:00-09:30", 
             "prof": "WFSp:0", 
-            "time": "17:30-19:00", 
-            "room": "FA009", 
-            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Technik"
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
         }, 
         {
-            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "name": "Englisch f\u00fcr Textil und Design  Kurs 1 (ab WS 2011: Englisch UNIcert II, Kurs 1a)", 
+            "room": "FA203", 
+            "time": "08:00-09:30-08:00-09:30", 
             "prof": "WFSp:0", 
-            "time": "17:30-19:00", 
-            "room": "FD246", 
-            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Technik"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
-            "prof": "WFSp:0", 
-            "time": "17:30-19:00", 
-            "room": "FA105", 
-            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Technik"
+            "desc": "Kurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW"
         }, 
         {
-            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "name": "Englisch f\u00fcr Textil und Design  Kurs 3 (ab WS 2011: Englisch UNIcert II, Kurs 2a)", 
+            "room": "FA203", 
+            "time": "09:45-11:15-09:45-11:15", 
             "prof": "WFSp:0", 
-            "time": "17:30-19:00", 
+            "desc": "Kurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW"
+        }, 
+        {
+            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Wirtschaft", 
             "room": "FD246", 
-            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Technik"
+            "time": "09:45-11:15", 
+            "prof": "WFSp:0", 
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
+        }, 
+        {
+            "name": "Englisch Perfektionsstufe (UNIcert IV) Kurs 1a ; Englisch Perfektionsstufe (UNIcert IV) Kurs 1 Negotiating Skills", 
+            "room": "FA101", 
+            "time": "09:45-11:15", 
+            "prof": "WFSp:0", 
+            "desc": "Negotiating Skills  Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
-            "prof": "WFSp:0", 
+            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Wirtschaft", 
+            "room": "FD246", 
             "time": "11:30-13:00", 
-            "room": "FD246", 
-            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Wirtschaft"
+            "prof": "WFSp:0", 
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
         }, 
         {
-            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
-            "prof": "WFSp:0", 
-            "time": "14:00-15:30", 
+            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Wirtschaft", 
             "room": "FD246", 
-            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Wirtschaft"
+            "time": "14:00-15:30", 
+            "prof": "WFSp:0", 
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
         }, 
         {
-            "desc": "Marketing Communications  Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
-            "prof": "WFSp:0", 
-            "time": "14:00-15:30", 
+            "name": "Englisch Perfektionsstufe (UNIcert IV) Kurs 1b ; Englisch Perfektionsstufe (UNIcert IV) Kurs 2 Marketing Communications", 
             "room": "FA105", 
-            "name": "Englisch Perfektionsstufe (UNIcert IV) Kurs 1b ; Englisch Perfektionsstufe (UNIcert IV) Kurs 2 Marketing Communications"
+            "time": "14:00-15:30", 
+            "prof": "WFSp:0", 
+            "desc": "Marketing Communications  Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
         }, 
         {
-            "time": "14:00-15:30", 
-            "name": "Englisch f\u00fcr Textil und Design", 
+            "prof": "Mueb_H9", 
             "desc": "nur f\u00fcr Weitforgeschrittene, Einstufungstest UNIcert III oder IV", 
-            "prof": "Mueb_H9"
+            "name": "Englisch f\u00fcr Textil und Design", 
+            "time": "14:00-15:30"
         }
     ], 
-    "Montag": [
+    "Dienstag": [
         {
-            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Technik", 
+            "room": "FA009", 
+            "time": "17:30-19:00", 
             "prof": "WFSp:0", 
-            "time": "08:00-09:30", 
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
+        }, 
+        {
+            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Technik", 
             "room": "FD246", 
-            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Wirtschaft"
+            "time": "17:30-19:00", 
+            "prof": "WFSp:0", 
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Englisch Oberstufe (UNIcert III) Kurs 1  Technik", 
+            "room": "FA105", 
+            "time": "17:30-19:00", 
+            "prof": "WFSp:0", 
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
         }, 
         {
-            "desc": "Kurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW", 
-            "prof": "WFSp:0", 
-            "time": "08:00-09:30-08:00-09:30", 
-            "room": "FA203", 
-            "name": "Englisch f\u00fcr Textil und Design  Kurs 1 (ab WS 2011: Englisch UNIcert II, Kurs 1a)"
-        }, 
-        {
-            "desc": "Kurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW", 
-            "prof": "WFSp:0", 
-            "time": "09:45-11:15-09:45-11:15", 
-            "room": "FA203", 
-            "name": "Englisch f\u00fcr Textil und Design  Kurs 3 (ab WS 2011: Englisch UNIcert II, Kurs 2a)"
-        }, 
-        {
-            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
-            "prof": "WFSp:0", 
-            "time": "09:45-11:15", 
+            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Technik", 
             "room": "FD246", 
-            "name": "Englisch Mittelstufe (UNIcert II) Kurs 1  Wirtschaft"
-        }, 
-        {
-            "desc": "Negotiating Skills  Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "time": "17:30-19:00", 
             "prof": "WFSp:0", 
-            "time": "09:45-11:15", 
-            "room": "FA101", 
-            "name": "Englisch Perfektionsstufe (UNIcert IV) Kurs 1a ; Englisch Perfektionsstufe (UNIcert IV) Kurs 1 Negotiating Skills"
+            "desc": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
         }
     ]
 }

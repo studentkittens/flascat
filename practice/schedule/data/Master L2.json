@@ -1,0 +1,212 @@
+{
+    "Friday": [
+        {
+            "name": "Technologien zur Steuerung und Identifikation", 
+            "time": "08:00-15:30", 
+            "prof": "Dipl.Ing. Roland Fischer", 
+            "desc": "Blockveranstaltung  14t\u00e4gig", 
+            "type": "HF:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "Technologien zur Steuerung und Identifikation", 
+            "time": "08:00-15:30", 
+            "prof": "Dipl.Ing. Roland Fischer", 
+            "desc": "Blockveranstaltung  14t\u00e4gig", 
+            "type": "HF:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "Technologien zur Steuerung und Identifikation", 
+            "time": "08:00-15:30", 
+            "prof": "Dipl.Ing. Roland Fischer", 
+            "desc": "Blockveranstaltung  14t\u00e4gig", 
+            "type": "HF:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "Technologien zur Steuerung und Identifikation", 
+            "time": "08:00-15:30", 
+            "prof": "Dipl.Ing. Roland Fischer", 
+            "desc": "Blockveranstaltung  14t\u00e4gig", 
+            "type": "HF:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "Technologien zur Steuerung und Identifikation", 
+            "time": "08:00-15:30", 
+            "prof": "Dipl.Ing. Roland Fischer", 
+            "desc": "Blockveranstaltung  14t\u00e4gig", 
+            "type": "HF:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "Technologien zur Steuerung und Identifikation", 
+            "time": "08:00-15:30", 
+            "prof": "Dipl.Ing. Roland Fischer", 
+            "desc": "Blockveranstaltung  14t\u00e4gig", 
+            "type": "HF:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "Technologien zur Steuerung und Identifikation", 
+            "time": "08:00-15:30", 
+            "prof": "Dipl.Ing. Roland Fischer", 
+            "desc": "Blockveranstaltung  14t\u00e4gig", 
+            "type": "HF:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "Management logistischer Projektgruppen", 
+            "time": "09:00-15:00", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Saturday", 
+            "time": "09:00-15:00", 
+            "prof": "Thomas Sigl", 
+            "desc": "Tools zur Optimierung und Simulation", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }, 
+        {
+            "name": "Tools zur Optimierung und Simulation", 
+            "time": "09:00-15:00", 
+            "prof": "Thomas Sigl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }, 
+        {
+            "name": "Tools zur Optimierung und Simulation", 
+            "time": "09:00-15:00", 
+            "prof": "Thomas Sigl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }, 
+        {
+            "name": "Tools zur Optimierung und Simulation", 
+            "time": "09:00-15:00", 
+            "prof": "Thomas Sigl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }, 
+        {
+            "name": "Tools zur Optimierung und Simulation", 
+            "time": "09:00-15:00", 
+            "prof": "Thomas Sigl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }
+    ], 
+    "Tuesday": [
+        {
+            "name": "Strategien und F\u00fchrung von Supply Chains", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Strategien und F\u00fchrung von Supply Chains", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Tools zur Optimierung und Simulation", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Gabriele Hornsteiner", 
+            "desc": "14t\u00e4gig, Beginn: KW 41", 
+            "type": "HF:0", 
+            "room": "FA015"
+        }, 
+        {
+            "name": "Tools zur Optimierung und Simulation", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Gabriele Hornsteiner", 
+            "desc": "14t\u00e4gig, Beginn: KW 40", 
+            "type": "HF:0", 
+            "room": "FB012"
+        }, 
+        {
+            "name": "Kundenauftragsabwicklung mit SAP", 
+            "room": "FA102/104 + FA101", 
+            "time": "14:00-15:30", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Brigitte B\u00e4rnreuther"
+        }
+    ], 
+    "Thursday": [
+        {
+            "name": "Management logistischer Projektgruppen", 
+            "time": "13:00-19:00", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }
+    ], 
+    "Wednesday": [
+        {
+            "name": "Kundenauftragsabwicklung mit SAP", 
+            "room": "FA102/104", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Brigitte B\u00e4rnreuther"
+        }, 
+        {
+            "name": "Outsourcing von Logistikdienstleistungen", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Christoph Tripp", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Outsourcing von Logistikdienstleistungen", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Christoph Tripp", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }
+    ], 
+    "Monday": [
+        {
+            "name": "Tools zur Optimierung und Simulation", 
+            "time": "14:00-15:30", 
+            "prof": "Thomas Sigl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA105"
+        }, 
+        {
+            "name": "Informationsveranstaltung", 
+            "time": "15:45-16:15", 
+            "prof": "Prof. Dr. Friedwart Lender", 
+            "desc": "Informationen zu Beginn des Studiums, Raum siehe Vorlesungstermin", 
+            "type": "HF:0", 
+            "room": "FB007/009"
+        }, 
+        {
+            "name": "Management logistischer Projektgruppen", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Christoph Tripp", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Management logistischer Projektgruppen", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. Christoph Tripp", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }
+    ]
+}

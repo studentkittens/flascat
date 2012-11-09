@@ -1,108 +1,108 @@
 {
-    "Dienstag": [
+    "Mittwoch": [
         {
-            "prof": "Prof. Dr. Thomas Schaller", 
+            "name": "Diskrete Mathematik", 
             "time": "09:45-11:15", 
-            "room": "FD177", 
+            "prof": "Prof. Dr. J\u00f6rg Scheidt", 
             "type": "HF:1", 
-            "name": "Grundlagen der Wirtschaftsinformatik"
+            "room": "FD246"
         }, 
         {
-            "prof": "Prof. Dr. Thomas Schaller", 
+            "name": "Buchf\u00fchrung und Bilanzierung", 
             "time": "11:30-13:00", 
-            "room": "FD177", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "desc": "(Gr. IIIIV) (+WI 1+ Wing 1+2)", 
             "type": "HF:1", 
-            "name": "Grundlagen der Wirtschaftsinformatik"
-        }, 
-        {
-            "prof": "Prof. Dr. Barbara Ashauer", 
-            "time": "14:00-15:30", 
-            "room": "FA011", 
-            "type": "HF:1", 
-            "name": "Objektorientierte Programmierung I"
-        }, 
-        {
-            "prof": "Prof. Dr. Philipp Schaible", 
-            "time": "15:45-17:15", 
-            "room": "FB007/009", 
-            "type": "HF:1", 
-            "name": "Grundlagen der Informationstechnik", 
-            "note": "(Inf1 + WI1)"
+            "room": "FB109"
         }
     ], 
     "Freitag": [
         {
-            "desc": "(Gr. IIIIV)  (+WI 1+ Wing 1+2)", 
-            "prof": "Prof. Dr. Ulrich Entrup", 
+            "name": "Buchf\u00fchrung und Bilanzierung", 
             "time": "08:00-09:30", 
-            "room": "FB001/002", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "desc": "(Gr. IIIIV)  (+WI 1+ Wing 1+2)", 
             "type": "HF:1", 
-            "name": "Buchf\u00fchrung und Bilanzierung"
+            "room": "FB001/002"
         }, 
         {
-            "prof": "Prof. Dr. J\u00f6rg Scheidt", 
+            "name": "Diskrete Mathematik", 
             "time": "09:45-11:15", 
-            "room": "FD175", 
+            "prof": "Prof. Dr. J\u00f6rg Scheidt", 
             "type": "HF:1", 
-            "name": "Diskrete Mathematik"
+            "room": "FD175"
         }, 
         {
-            "desc": "\u00dcbungen", 
-            "prof": "Prof. Dr. J\u00f6rg Scheidt,  Florian Wogenstein", 
+            "name": "Diskrete Mathematik", 
             "time": "11:30-13:00", 
-            "room": "FD175", 
+            "prof": "Prof. Dr. J\u00f6rg Scheidt,  Florian Wogenstein", 
+            "desc": "\u00dcbungen", 
             "type": "HF:1", 
-            "name": "Diskrete Mathematik"
+            "room": "FD175"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Grundlagen der Wirtschaftsinformatik", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "type": "HF:1", 
+            "room": "FD177"
+        }, 
+        {
+            "name": "Grundlagen der Wirtschaftsinformatik", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "type": "HF:1", 
+            "room": "FD177"
+        }, 
+        {
+            "name": "Objektorientierte Programmierung I", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "type": "HF:1", 
+            "room": "FA011"
+        }, 
+        {
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "(Inf1 + WI1)", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "type": "HF:1", 
+            "room": "FB007/009"
         }
     ], 
     "Donnerstag": [
         {
-            "prof": "Prof. Dr. Barbara Ashauer", 
+            "name": "Objektorientierte Programmierung I", 
             "time": "09:45-11:15", 
-            "room": "FA009", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
             "type": "HF:1", 
-            "name": "Objektorientierte Programmierung I"
+            "room": "FA009"
         }, 
         {
-            "prof": "Prof. Dr. Philipp Schaible", 
-            "time": "11:30-13:00", 
-            "room": "FB001/002", 
-            "type": "HF:1", 
             "name": "Grundlagen der Informationstechnik", 
-            "note": "(Inf1 + WI1)"
-        }, 
-        {
-            "desc": "\u00dcbungen", 
-            "prof": "Prof. Dr. Barbara Ashauer", 
-            "time": "14:00-15:30", 
-            "room": "FA008/010", 
-            "type": "HF:1", 
-            "name": "Objektorientierte Programmierung I"
-        }, 
-        {
-            "desc": "Tutorium  (Inf1 + WI1) Beginn KW 43", 
-            "prof": "Herr Michael Schrepfer", 
-            "time": "15:45-17:15", 
-            "room": "FA009", 
-            "type": "HF:1", 
-            "name": "Objektorientierte Programmierung I"
-        }
-    ], 
-    "Mittwoch": [
-        {
-            "prof": "Prof. Dr. J\u00f6rg Scheidt", 
-            "time": "09:45-11:15", 
-            "room": "FD246", 
-            "type": "HF:1", 
-            "name": "Diskrete Mathematik"
-        }, 
-        {
-            "desc": "(Gr. IIIIV) (+WI 1+ Wing 1+2)", 
-            "prof": "Prof. Dr. Ulrich Entrup", 
+            "note": "(Inf1 + WI1)", 
             "time": "11:30-13:00", 
-            "room": "FB109", 
+            "prof": "Prof. Dr. Philipp Schaible", 
             "type": "HF:1", 
-            "name": "Buchf\u00fchrung und Bilanzierung"
+            "room": "FB001/002"
+        }, 
+        {
+            "name": "Objektorientierte Programmierung I", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "desc": "\u00dcbungen", 
+            "type": "HF:1", 
+            "room": "FA008/010"
+        }, 
+        {
+            "name": "Objektorientierte Programmierung I", 
+            "time": "15:45-17:15", 
+            "prof": "Herr Michael Schrepfer", 
+            "desc": "Tutorium  (Inf1 + WI1) Beginn KW 43", 
+            "type": "HF:1", 
+            "room": "FA009"
         }
     ]
 }

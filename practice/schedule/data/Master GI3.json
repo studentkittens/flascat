@@ -1,0 +1,173 @@
+{
+    "Friday": [
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "09:45-15:30", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 07.12.2012 von 09:45 bis 15:30", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "09:45-15:30", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 11.01.2013 von 09:45 bis 15:30", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "09:45-15:30", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 23.11.2012 von 09:45 bis 15:30", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "09:45-15:30", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 26.10.2012 von 09:45 bis 15:30", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }
+    ], 
+    "Tuesday": [
+        {
+            "name": "Internationales Marketing", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Stefan Wengler", 
+            "desc": "Beginn KW 41", 
+            "type": "HF:0", 
+            "room": "FA222"
+        }, 
+        {
+            "name": "Internationales Marketing", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Stefan Wengler", 
+            "desc": "Beginn KW 41", 
+            "type": "HF:0", 
+            "room": "FA222"
+        }, 
+        {
+            "name": "Sprach und Gesch\u00e4ftskultur in Deutschland II", 
+            "note": "(Beginn KW 41)", 
+            "time": "14:00-15:30", 
+            "type": "HF:0", 
+            "room": "FA015"
+        }, 
+        {
+            "name": "Deutsch III", 
+            "type": "HF:0", 
+            "room": "FA109", 
+            "time": "15:45-17:15"
+        }
+    ], 
+    "Thursday": [
+        {
+            "name": "Vertragsrecht", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Anja Feldberg", 
+            "desc": "Beginn KW 41", 
+            "type": "HF:0", 
+            "room": "FB005"
+        }, 
+        {
+            "name": "Sprach und Gesch\u00e4ftskultur in Deutschland II", 
+            "type": "HF:0", 
+            "room": "FB003", 
+            "time": "11:30-13:00"
+        }, 
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "14:00-19:00", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 08.11.2012 von 14:00 bis 19:00", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "14:00-19:00", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 25.10.2012 von 14:00 bis 19:00", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "14:00-19:00", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 10.01.2013 von 14:00 bis 19:00", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "14:00-19:00", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 13.12.2012 von 14:00 bis 19:00", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "14:00-19:00", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 06.12.2012 von 14:00 bis 19:00", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Unternehmensf\u00fchrung", 
+            "time": "14:00-19:00", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "desc": "am 24.01.2013 von 14:00 bis 19:00", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }
+    ], 
+    "Wednesday": [
+        {
+            "name": "Vertragsrecht", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Anja Feldberg", 
+            "desc": "Beginn KW 41", 
+            "type": "HF:0", 
+            "room": "FB005"
+        }, 
+        {
+            "name": "Deutsch III", 
+            "time": "09:45-11:15", 
+            "prof": "Krisztina Schneider", 
+            "type": "HF:0", 
+            "room": "FA106"
+        }
+    ], 
+    "Monday": [
+        {
+            "name": "Deutsch III", 
+            "time": "09:45-11:15", 
+            "prof": "Krisztina Schneider", 
+            "type": "HF:0", 
+            "room": "FA106"
+        }, 
+        {
+            "name": "Kosten und Leistungsrechnung", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Georg Fischer", 
+            "desc": "Beginn KW 41", 
+            "type": "HF:0", 
+            "room": "FA015"
+        }, 
+        {
+            "name": "Kosten und Leistungsrechnung", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Georg Fischer", 
+            "desc": "Beginn KW 41", 
+            "type": "HF:0", 
+            "room": "FA015"
+        }
+    ]
+}

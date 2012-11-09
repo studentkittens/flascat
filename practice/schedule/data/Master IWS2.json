@@ -1,0 +1,139 @@
+{
+    "Friday": [
+        {
+            "name": "Praktikum Programmierung von WebAnwendungen", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "type": "HF:0", 
+            "room": "FA014"
+        }, 
+        {
+            "name": "Mobiler Zugriff auf WebAnwendungen", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "type": "FWM:0", 
+            "room": "FB114"
+        }
+    ], 
+    "Tuesday": [
+        {
+            "name": "ECommerce", 
+            "time": "08:00-09:30", 
+            "prof": "Hannes Scheffel", 
+            "desc": "Beginn KW 41, 14t\u00e4gig", 
+            "type": "FWM:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "ECommerce", 
+            "time": "09:45-11:15", 
+            "prof": "Hannes Scheffel", 
+            "desc": "Beginn KW 41, 14t\u00e4gig", 
+            "type": "FWM:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "Content Management", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "type": "FWM:0", 
+            "room": "FA008/010"
+        }, 
+        {
+            "name": "Mobiler Zugriff auf WebAnwendungen", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "type": "FWM:0", 
+            "room": "FB114"
+        }
+    ], 
+    "Thursday": [
+        {
+            "name": "Aktuelle Themen zur Sicherheit im Web", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. J\u00f6rg Scheidt, Prof. Dr. G\u00fcnther K\u00f6hler", 
+            "type": "HF:0", 
+            "room": "FA015"
+        }, 
+        {
+            "name": "Rechtliche Aspekte im Web", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Beatrix Weber", 
+            "desc": "Beginn KW 42 = 18.10.12", 
+            "type": "FWM:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "Rechtliche Aspekte im Web", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Beatrix Weber", 
+            "desc": "Beginn KW 42 = 18.10.12", 
+            "type": "FWM:0", 
+            "room": "FB005"
+        }
+    ], 
+    "Wednesday": [
+        {
+            "name": "Aktuelle Themen zur Sicherheit im Web", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. G\u00fcnther K\u00f6hler, Prof. Dr. J\u00f6rg Scheidt", 
+            "type": "HF:0", 
+            "room": "FA015"
+        }, 
+        {
+            "name": "ECommerce", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Ariane Hedayati", 
+            "type": "FWM:0", 
+            "room": "FB114"
+        }, 
+        {
+            "name": "Praktikum Programmierung von WebAnwendungen", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "type": "HF:0", 
+            "room": "FA014"
+        }
+    ], 
+    "Monday": [
+        {
+            "name": "Information Retrieval 1", 
+            "time": "01:00-02:30", 
+            "prof": "Dozent der VHB", 
+            "desc": "VHB  Uni Bamberg  virtuelle VL", 
+            "type": "FWM:0", 
+            "room": "Ex_Virtuell"
+        }, 
+        {
+            "name": "Information Retrieval 1", 
+            "time": "02:30-04:00", 
+            "prof": "Dozent der VHB", 
+            "desc": "VHB  Uni Bamberg  virtuelle VL", 
+            "type": "FWM:0", 
+            "room": "Ex_Virtuell"
+        }, 
+        {
+            "name": "Content Management", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "type": "FWM:0", 
+            "room": "FB006"
+        }, 
+        {
+            "name": "Einf\u00fchrung in Management, Organisation und Leadership", 
+            "time": "15:45-17:15", 
+            "prof": "Pfarrer Wolfram Lehmann", 
+            "desc": "Beginn KW 41 = 8.10.12", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Einf\u00fchrung in Management, Organisation und Leadership", 
+            "time": "17:30-19:00", 
+            "prof": "Pfarrer Wolfram Lehmann", 
+            "desc": "Beginn KW 41 = 8.10.12", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }
+    ]
+}

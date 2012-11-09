@@ -1,11 +1,11 @@
 {
     "Freitag": [
         {
-            "desc": "Prof. Frieder Wolfram", 
-            "prof": "Mueb_335", 
-            "time": "08:00-09:30", 
             "name": "Kolloquium", 
-            "type": "HF:0"
+            "time": "08:00-09:30", 
+            "prof": "Mueb_335", 
+            "type": "HF:0", 
+            "desc": "Prof. Frieder Wolfram"
         }
     ]
 }

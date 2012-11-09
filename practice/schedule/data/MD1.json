@@ -1,48 +1,48 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "Prof. Dietmar Sp\u00f6rl", 
-            "prof": "Mueb_H9", 
-            "time": "09:45-11:15-11:30-13:00", 
-            "name": "Gestaltung: 2dimensionales Gestalten 1", 
-            "type": "HF:0#HF:0"
-        }
-    ], 
-    "Freitag": [
-        {
-            "desc": "nur KW 43, 45, 47, 48, 50, 54, 4", 
-            "prof": "Mueb_323", 
-            "time": "08:00-09:30-09:45-11:15", 
-            "name": "Entwurf: Typo 1", 
-            "type": "HF:0#HF:0"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "nicht KW 44, 46, 49, 3", 
+            "name": "Wahrnehmungstheorie", 
+            "time": "11:30-13:00-13:30-15:00-15:15-16:45-17:00-18:30-18:45-20:15", 
             "prof": "Mueb_MD614", 
-            "time": "11:30-13:00-14:00-15:30-15:45-17:15", 
-            "name": "Entwurf: Typo 1", 
-            "type": "HF:0#HF:0#HF:0"
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "desc": "Prof. Dietmar Sp\u00f6rl"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "MA Beatrix M\u00fcnzerGlas", 
-            "prof": "Mueb_H10", 
-            "time": "08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30", 
             "name": "Grundlagen Wissenschaftlichen Arbeitens", 
+            "note": "(TD 3 + MD 1)#(TD 3/7 + MD 1)", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30", 
+            "prof": "Mueb_H10", 
             "type": "HF:0#HF:0#HF:0#HF:0", 
-            "note": "(TD 3 + MD 1)#(TD 3/7 + MD 1)"
+            "desc": "MA Beatrix M\u00fcnzerGlas"
         }
     ], 
-    "Montag": [
+    "Freitag": [
         {
-            "desc": "Prof. Dietmar Sp\u00f6rl", 
+            "name": "Entwurf: Typo 1", 
+            "time": "08:00-09:30-09:45-11:15", 
+            "prof": "Mueb_323", 
+            "type": "HF:0#HF:0", 
+            "desc": "nur KW 43, 45, 47, 48, 50, 54, 4"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Gestaltung: 2dimensionales Gestalten 1", 
+            "time": "09:45-11:15-11:30-13:00", 
+            "prof": "Mueb_H9", 
+            "type": "HF:0#HF:0", 
+            "desc": "Prof. Dietmar Sp\u00f6rl"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Entwurf: Typo 1", 
+            "time": "11:30-13:00-14:00-15:30-15:45-17:15", 
             "prof": "Mueb_MD614", 
-            "time": "11:30-13:00-13:30-15:00-15:15-16:45-17:00-18:30-18:45-20:15", 
-            "name": "Wahrnehmungstheorie", 
-            "type": "HF:0#HF:0#HF:0#HF:0#HF:0"
+            "type": "HF:0#HF:0#HF:0", 
+            "desc": "nicht KW 44, 46, 49, 3"
         }
     ]
 }

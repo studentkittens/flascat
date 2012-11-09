@@ -1,97 +1,97 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "prof": "Prof. Dr. Dietmar Wolff", 
-            "time": "08:00-09:30", 
-            "room": "FB003", 
+            "name": "Englisch f\u00fcr Informatiker", 
             "type": "HF:1", 
-            "name": "Pr\u00e4sentation und Kommunikation"
-        }, 
-        {
-            "prof": "Prof. Dr. Dietmar Wolff", 
-            "time": "09:45-11:15", 
-            "room": "FB003", 
-            "type": "HF:1", 
-            "name": "Pr\u00e4sentation und Kommunikation"
-        }, 
-        {
-            "prof": "Prof. Dr. Andreas Wagener", 
-            "time": "11:30-13:00", 
-            "room": "FB003", 
-            "type": "HF:1", 
-            "name": "Marketing"
-        }, 
-        {
-            "desc": "\u00dcbungen", 
-            "prof": "Prof. Dr. Martin Thost", 
-            "time": "14:00-15:30", 
-            "room": "FA012", 
-            "type": "HF:1", 
-            "name": "Software Engineering II"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "time": "09:45-11:15", 
             "room": "FB005", 
-            "type": "HF:1", 
-            "name": "Englisch f\u00fcr Informatiker"
+            "time": "11:30-13:00"
         }, 
         {
-            "prof": "Prof. Dr. Richard G\u00f6bel", 
-            "time": "11:30-13:00", 
-            "room": "FA009", 
-            "type": "HF:1", 
-            "name": "Formale Sprachen", 
-            "note": "(Inf3 + WI3)"
-        }, 
-        {
-            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "name": "Marketing", 
             "time": "14:00-15:30", 
-            "room": "FA102/104", 
+            "prof": "Prof. Dr. Andreas Wagener", 
             "type": "HF:1", 
-            "name": "Formale Sprachen", 
-            "note": "(Inf3 + WI3)"
+            "room": "FB003"
+        }, 
+        {
+            "name": "Logistik", 
+            "note": "(WR 5 + WI 3)", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "type": "HF:1", 
+            "room": "FB109"
         }
     ], 
     "Mittwoch": [
         {
-            "prof": "Prof. Dr. Martin Thost", 
+            "name": "Software Engineering II", 
             "time": "08:00-09:30", 
-            "room": "FB003", 
+            "prof": "Prof. Dr. Martin Thost", 
             "type": "HF:1", 
-            "name": "Software Engineering II"
+            "room": "FB003"
         }, 
         {
-            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "time": "11:30-13:00", 
-            "room": "FB001/002", 
-            "type": "HF:1", 
             "name": "Logistik", 
-            "note": "(WR 5 + WI 3)"
+            "note": "(WR 5 + WI 3)", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "type": "HF:1", 
+            "room": "FB001/002"
         }
     ], 
-    "Montag": [
+    "Dienstag": [
         {
+            "name": "Pr\u00e4sentation und Kommunikation", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Dietmar Wolff", 
+            "type": "HF:1", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Pr\u00e4sentation und Kommunikation", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Dietmar Wolff", 
+            "type": "HF:1", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Marketing", 
             "time": "11:30-13:00", 
-            "room": "FB005", 
-            "type": "HF:1", 
-            "name": "Englisch f\u00fcr Informatiker"
-        }, 
-        {
             "prof": "Prof. Dr. Andreas Wagener", 
-            "time": "14:00-15:30", 
-            "room": "FB003", 
             "type": "HF:1", 
-            "name": "Marketing"
+            "room": "FB003"
         }, 
         {
-            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "time": "15:45-17:15", 
-            "room": "FB109", 
+            "name": "Software Engineering II", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "desc": "\u00dcbungen", 
             "type": "HF:1", 
-            "name": "Logistik", 
-            "note": "(WR 5 + WI 3)"
+            "room": "FA012"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Englisch f\u00fcr Informatiker", 
+            "type": "HF:1", 
+            "room": "FB005", 
+            "time": "09:45-11:15"
+        }, 
+        {
+            "name": "Formale Sprachen", 
+            "note": "(Inf3 + WI3)", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "type": "HF:1", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Formale Sprachen", 
+            "note": "(Inf3 + WI3)", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "type": "HF:1", 
+            "room": "FA102/104"
         }
     ]
 }

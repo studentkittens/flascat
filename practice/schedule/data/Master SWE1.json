@@ -1,0 +1,132 @@
+{
+    "Friday": [
+        {
+            "name": "Efficient Storage of NonRelational Data Types", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "type": "FWM:0", 
+            "room": "FD177"
+        }, 
+        {
+            "name": "Efficient Storage of NonRelational Data Types", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "type": "FWM:0", 
+            "room": "FD177"
+        }
+    ], 
+    "Tuesday": [
+        {
+            "name": "Generic Application Protocols", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Ralph Lano", 
+            "desc": "Beginn KW 42 = ab 16.10.2012  14t\u00e4gig", 
+            "type": "FWM:0", 
+            "room": "FB004A"
+        }, 
+        {
+            "name": "Generic Application Protocols", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Ralph Lano", 
+            "desc": "Beginn KW 42 = ab 16.10.2012  14t\u00e4gig", 
+            "type": "FWM:0", 
+            "room": "FB004A"
+        }, 
+        {
+            "name": "Generic Application Protocols", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Ralph Lano", 
+            "desc": "Beginn KW 42 = ab 16.10.2012  14t\u00e4gig", 
+            "type": "FWM:0", 
+            "room": "FB004A"
+        }, 
+        {
+            "name": "ERP System Architectures", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "type": "HF:0", 
+            "room": "FB006"
+        }, 
+        {
+            "name": "Language Requirement  Englisch", 
+            "time": "17:30-19:00", 
+            "prof": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }
+    ], 
+    "Thursday": [
+        {
+            "name": "Language Requirement  Deutsch A1", 
+            "type": "HF:0", 
+            "room": "FA109", 
+            "time": "14:00-15:30"
+        }, 
+        {
+            "name": "Language Requirement  Deutsch A2", 
+            "time": "14:00-15:30", 
+            "prof": "Krisztina Schneider", 
+            "type": "HF:0", 
+            "room": "FA106"
+        }, 
+        {
+            "name": "Language Requirement  Deutsch A1", 
+            "type": "HF:0", 
+            "room": "FA109", 
+            "time": "15:45-17:15"
+        }, 
+        {
+            "name": "Language Requirement  Deutsch A2", 
+            "time": "15:45-17:15", 
+            "prof": "Krisztina Schneider", 
+            "type": "HF:0", 
+            "room": "FA106"
+        }, 
+        {
+            "name": "Language Requirement  Englisch", 
+            "time": "17:30-19:00", 
+            "prof": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
+            "type": "HF:0", 
+            "room": "FA105"
+        }
+    ], 
+    "Wednesday": [
+        {
+            "name": "Language Requirement  Deutsch B1/B2", 
+            "time": "14:00-15:30", 
+            "prof": "Krisztina Schneider", 
+            "type": "HF:0", 
+            "room": "FA106"
+        }
+    ], 
+    "Monday": [
+        {
+            "name": "Language Requirement  Deutsch B1/B2", 
+            "time": "08:00-09:30", 
+            "prof": "Krisztina Schneider", 
+            "type": "HF:0", 
+            "room": "FA106"
+        }, 
+        {
+            "name": "Computer Aided Software Engineering", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "type": "HF:0", 
+            "room": "FA012"
+        }, 
+        {
+            "name": "ERP System Architectures", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "type": "HF:0", 
+            "room": "FB006"
+        }, 
+        {
+            "name": "Computer Aided Software Engineering", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "type": "HF:0", 
+            "room": "FA012"
+        }
+    ]
+}

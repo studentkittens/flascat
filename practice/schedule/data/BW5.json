@@ -1,186 +1,186 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "Business Planning", 
-            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "name": "Praxisblock I", 
             "time": "08:00-17:00", 
-            "room": "FA103", 
-            "type": "HF:0", 
-            "name": "Praxisblock I"
-        }, 
-        {
-            "desc": "Blockveranstaltung DATEV", 
             "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "08:00-17:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
-        }, 
-        {
             "desc": "DATEV  Teil I", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "08:00-13:00", 
-            "room": "FA012", 
             "type": "HF:0", 
-            "name": "Praxisblock I"
+            "room": "FA012"
         }, 
         {
-            "desc": "Blockveranstaltung  Six Sigma", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
+            "name": "Praxisblock I", 
             "time": "08:00-17:00", 
-            "room": "FB004A", 
+            "prof": "Prof. Dr. Georg Fischer", 
+            "desc": "vor und nachbereitender Praxisblock  \"Erasmus Intensivprogramm: ERP Applications Fusion\" KW 8  Mo  Fr; Anmeldung \u00fcber tseidel@hofuniversity.de", 
             "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
+            "room": "FB006 + FB007/009"
         }, 
         {
-            "desc": "Blockveranstaltung  Personalmarketing/ recruiting", 
-            "prof": "Winnie Haugk", 
+            "name": "Praxisblock I", 
             "time": "08:00-17:00", 
-            "room": "FA203", 
-            "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Planspiel Change Management", 
-            "prof": "Prof. Dr. Gerald Schmola", 
-            "time": "08:00-17:00", 
-            "room": "FA101 + FA103 + FA105 + FA109", 
-            "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
-        }, 
-        {
-            "desc": "DATEV   Prof. Dr. G\u00f6hring  Teil I", 
-            "prof": "am 19.02.2013 von 13:00 bis 17:00", 
-            "time": "13:00-17:00", 
-            "room": "FA012", 
-            "type": "HF:0", 
-            "name": "Praxisblock I"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "Blockveranstaltung DATEV", 
             "prof": "Prof. Dr. Michael Sp\u00f6rl", 
-            "time": "08:00-17:00", 
-            "room": "FA014", 
+            "desc": "Business Planning", 
             "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
+            "room": "FA103"
         }, 
         {
-            "desc": "Blockveranstaltung  Six Sigma", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
+            "name": "Praxisblock I", 
             "time": "08:00-17:00", 
-            "room": "FB004A", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "desc": "vor und nachbereitender Praxisblock  \"Erasmus Intensivprogramm: ERP Applications Fusion\" KW 9  Mo  Fr; Anmeldung \u00fcber tseidel@hofuniversity.de", 
             "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Personalmarketing/ recruiting", 
-            "prof": "Winnie Haugk", 
-            "time": "08:00-17:00", 
-            "room": "FA203", 
-            "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Planspiel Change Management", 
-            "prof": "Prof. Dr. Gerald Schmola", 
-            "time": "08:00-17:00", 
-            "room": "FA101 + FA103 + FA105 + FA109", 
-            "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
+            "room": "FB006 + FB007/009"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Business Planning", 
-            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
-            "time": "08:00-17:00", 
-            "room": "FA103", 
-            "type": "HF:0", 
-            "name": "Praxisblock I"
-        }, 
-        {
-            "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "name": "Praxisblock zur Nachbereitung", 
             "time": "08:00-13:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
-        }, 
-        {
-            "desc": "DATEV   Prof. Dr. G\u00f6hring  Teil I", 
-            "prof": "am 20.02.2013 von 08:00 bis 17:00", 
-            "time": "08:00-17:00", 
-            "room": "FA012", 
-            "type": "HF:0", 
-            "name": "Praxisblock I"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Six Sigma", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "time": "08:00-17:00", 
-            "room": "FB004A", 
-            "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Personalmarketing/ recruiting", 
-            "prof": "Winnie Haugk", 
-            "time": "08:00-17:00", 
-            "room": "FA203", 
-            "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Planspiel Change Management", 
-            "prof": "Prof. Dr. Gerald Schmola", 
-            "time": "08:00-17:00", 
-            "room": "FA101 + FA103 + FA105 + FA109", 
-            "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
-        }, 
-        {
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
             "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
-            "time": "13:00-17:00", 
-            "room": "FA014", 
             "type": "HF:0", 
-            "name": "Praxisblock zur Nachbereitung"
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Praxisblock I", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "desc": "Business Planning", 
+            "type": "HF:0", 
+            "room": "FA103"
+        }, 
+        {
+            "name": "Praxisblock I", 
+            "time": "08:00-17:00", 
+            "prof": "am 20.02.2013 von 08:00 bis 17:00", 
+            "desc": "DATEV   Prof. Dr. G\u00f6hring  Teil I", 
+            "type": "HF:0", 
+            "room": "FA012"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "desc": "Blockveranstaltung  Six Sigma", 
+            "type": "HF:0", 
+            "room": "FB004A"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Winnie Haugk", 
+            "desc": "Blockveranstaltung  Personalmarketing/ recruiting", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "desc": "Blockveranstaltung  Planspiel Change Management", 
+            "type": "HF:0", 
+            "room": "FA101 + FA103 + FA105 + FA109"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "13:00-17:00", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "desc": "Blockveranstaltung DATEV", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
         }
     ], 
-    "Montag": [
+    "Dienstag": [
         {
-            "desc": "vor und nachbereitender Praxisblock  \"Erasmus Intensivprogramm: ERP Applications Fusion\" KW 9  Mo  Fr; Anmeldung \u00fcber tseidel@hofuniversity.de", 
-            "prof": "Prof. Dr. Martin Thost", 
-            "time": "08:00-17:00", 
-            "room": "FB006 + FB007/009", 
-            "type": "HF:0", 
-            "name": "Praxisblock I"
-        }, 
-        {
-            "desc": "vor und nachbereitender Praxisblock  \"Erasmus Intensivprogramm: ERP Applications Fusion\" KW 8  Mo  Fr; Anmeldung \u00fcber tseidel@hofuniversity.de", 
-            "prof": "Prof. Dr. Georg Fischer", 
-            "time": "08:00-17:00", 
-            "room": "FB006 + FB007/009", 
-            "type": "HF:0", 
-            "name": "Praxisblock I"
-        }, 
-        {
-            "desc": "Business Planning", 
-            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
-            "time": "08:00-17:00", 
-            "room": "FA103", 
-            "type": "HF:0", 
-            "name": "Praxisblock I"
-        }, 
-        {
-            "desc": "DATEV  Teil I", 
+            "name": "Praxisblock I", 
+            "time": "08:00-13:00", 
             "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "08:00-17:00", 
-            "room": "FA012", 
+            "desc": "DATEV  Teil I", 
             "type": "HF:0", 
-            "name": "Praxisblock I"
+            "room": "FA012"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "desc": "Blockveranstaltung DATEV", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Praxisblock I", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "desc": "Business Planning", 
+            "type": "HF:0", 
+            "room": "FA103"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "desc": "Blockveranstaltung  Six Sigma", 
+            "type": "HF:0", 
+            "room": "FB004A"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Winnie Haugk", 
+            "desc": "Blockveranstaltung  Personalmarketing/ recruiting", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "desc": "Blockveranstaltung  Planspiel Change Management", 
+            "type": "HF:0", 
+            "room": "FA101 + FA103 + FA105 + FA109"
+        }, 
+        {
+            "name": "Praxisblock I", 
+            "time": "13:00-17:00", 
+            "prof": "am 19.02.2013 von 13:00 bis 17:00", 
+            "desc": "DATEV   Prof. Dr. G\u00f6hring  Teil I", 
+            "type": "HF:0", 
+            "room": "FA012"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "desc": "Blockveranstaltung DATEV", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "desc": "Blockveranstaltung  Six Sigma", 
+            "type": "HF:0", 
+            "room": "FB004A"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Winnie Haugk", 
+            "desc": "Blockveranstaltung  Personalmarketing/ recruiting", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Praxisblock zur Nachbereitung", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "desc": "Blockveranstaltung  Planspiel Change Management", 
+            "type": "HF:0", 
+            "room": "FA101 + FA103 + FA105 + FA109"
         }
     ]
 }

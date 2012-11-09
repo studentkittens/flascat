@@ -1,88 +1,106 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "name": "Kolloquium DATEV  VW SR", 
             "time": "08:00-17:00", 
-            "room": "FA014", 
+            "prof": "am 18.02.2013 von 08:00 bis 17:00", 
+            "desc": "Blockveranstaltung  Teil 1; Prof. Dr. G\u00f6hring", 
             "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
-        }, 
-        {
-            "prof": "Prof. Dr. Beatrix Weber", 
-            "time": "11:30-13:00", 
-            "room": "FA107", 
-            "type": "HF:0", 
-            "name": "Wettbewerbsrecht", 
-            "note": "(WR7)"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Teil 1", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "13:00-17:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
-        }
-    ], 
-    "Freitag": [
-        {
-            "prof": "Heinz Merz", 
-            "time": "11:30-13:00", 
-            "room": "FD244", 
-            "type": "HF:0", 
-            "name": "Vertr\u00e4ge Vertiefung  VW VC"
-        }, 
-        {
-            "prof": "Heinz Merz", 
-            "time": "13:30-15:00", 
-            "room": "FD244", 
-            "type": "HF:0", 
-            "name": "Vertr\u00e4ge Vertiefung  VW VC"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
-            "time": "08:00-17:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
+            "room": "FA014 + FA009 + FA008/010"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "08:00-13:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Teil 1", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "name": "Kolloquium DATEV  VW SR", 
             "time": "08:00-17:00", 
-            "room": "FA014", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "desc": "Blockveranstaltung  Teil 1", 
             "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
+            "room": "FA014 + FA009 + FA008/010"
         }, 
         {
-            "prof": "Prof. Dr. Beatrix Weber", 
-            "time": "09:45-11:15", 
-            "room": "FA009", 
-            "type": "HF:0", 
-            "name": "Wettbewerbsrecht", 
-            "note": "(WR5)"
-        }, 
-        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "08:00-13:00", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
             "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
-            "time": "13:00-17:00", 
-            "room": "FA014", 
             "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Wettbewerbsrecht", 
+            "note": "(WR5)", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Beatrix Weber", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "13:00-17:00", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "desc": "Blockveranstaltung DATEV", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }
+    ], 
+    "Freitag": [
+        {
+            "name": "Vertr\u00e4ge Vertiefung  VW VC", 
+            "time": "11:30-13:00", 
+            "prof": "Heinz Merz", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Vertr\u00e4ge Vertiefung  VW VC", 
+            "time": "13:30-15:00", 
+            "prof": "Heinz Merz", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "08:00-13:00", 
+            "prof": "am 19.02.2013 von 08:00 bis 13:00", 
+            "desc": "Blockveranstaltung  Teil 1; Prof. Dr. G\u00f6hring", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "desc": "Blockveranstaltung DATEV", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Wettbewerbsrecht", 
+            "note": "(WR7)", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Beatrix Weber", 
+            "type": "HF:0", 
+            "room": "FA107"
+        }, 
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "13:00-17:00", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "desc": "Blockveranstaltung  Teil 1", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "desc": "Blockveranstaltung DATEV", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
         }
     ]
 }

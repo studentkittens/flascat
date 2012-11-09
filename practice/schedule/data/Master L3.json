@@ -1,0 +1,30 @@
+{
+    "Friday": [
+        {
+            "name": "Logistikprojekte in der Praxis", 
+            "time": "08:00-19:00", 
+            "prof": "Professoren Logistik", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }, 
+        {
+            "name": "Logistikprojekte in der Praxis", 
+            "time": "08:00-19:00", 
+            "prof": "Professoren Logistik", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FB003"
+        }
+    ], 
+    "Thursday": [
+        {
+            "name": "Logistikprojekte in der Praxis", 
+            "time": "08:00-19:00", 
+            "prof": "Professoren Logistik", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "P_FA204"
+        }
+    ]
+}

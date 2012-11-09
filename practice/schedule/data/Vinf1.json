@@ -1,134 +1,134 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "\u00dcbungen", 
-            "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "time": "08:00-09:30", 
-            "room": "FA014", 
-            "type": "HF:1", 
-            "name": "Betriebssysteme I", 
-            "note": "(Gruppe I)"
-        }, 
-        {
-            "prof": "Prof. Dr. Barbara Ashauer", 
+            "name": "Objektorientierte Programmierung I", 
             "time": "09:45-11:15", 
-            "room": "FA011", 
-            "type": "HF:1", 
-            "name": "Mathematik"
-        }
-    ], 
-    "Freitag": [
-        {
             "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "time": "08:00-09:30", 
-            "room": "FD175", 
             "type": "HF:1", 
-            "name": "Objektorientierte Programmierung I"
+            "room": "FD177"
         }, 
         {
-            "time": "09:45-11:15", 
-            "room": "FB005", 
-            "type": "HF:1", 
-            "name": "Englisch", 
-            "note": "(Gruppe II)"
-        }, 
-        {
-            "desc": "\u00dcbungen", 
-            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
-            "time": "09:45-11:15", 
-            "room": "FA012", 
-            "type": "HF:1", 
-            "name": "Grundlagen Rechnertechnik", 
-            "note": "(Gruppe I)"
-        }, 
-        {
-            "desc": "\u00dcbungen", 
-            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "name": "Betriebssysteme I", 
             "time": "11:30-13:00", 
-            "room": "FA012", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
             "type": "HF:1", 
-            "name": "Grundlagen Rechnertechnik", 
-            "note": "(Gruppe II)"
+            "room": "FD175"
         }, 
         {
-            "time": "11:30-13:00", 
-            "room": "FB005", 
+            "name": "Grundlagen Rechnertechnik", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
             "type": "HF:1", 
-            "name": "Englisch", 
-            "note": "(Gruppe I)"
+            "room": "FD175"
         }
     ], 
     "Donnerstag": [
         {
-            "desc": "\u00dcbungen", 
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "time": "08:00-09:30", 
-            "room": "FB006", 
-            "type": "HF:1", 
             "name": "Objektorientierte Programmierung I", 
-            "note": "(Gruppe I)"
+            "note": "(Gruppe I)", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "desc": "\u00dcbungen", 
+            "type": "HF:1", 
+            "room": "FB006"
         }, 
         {
-            "desc": "\u00dcbungen", 
-            "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "time": "08:00-09:30", 
-            "room": "FA014", 
-            "type": "HF:1", 
             "name": "Betriebssysteme I", 
-            "note": "(Gruppe II)"
-        }, 
-        {
+            "note": "(Gruppe II)", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
             "desc": "\u00dcbungen", 
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "time": "09:45-11:15", 
-            "room": "FB006", 
             "type": "HF:1", 
+            "room": "FA014"
+        }, 
+        {
             "name": "Objektorientierte Programmierung I", 
-            "note": "(Gruppe II)"
+            "note": "(Gruppe II)", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "desc": "\u00dcbungen", 
+            "type": "HF:1", 
+            "room": "FB006"
         }, 
         {
-            "prof": "Prof. Dr. Barbara Ashauer", 
+            "name": "Mathematik", 
             "time": "11:30-13:00", 
-            "room": "FA011", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
             "type": "HF:1", 
-            "name": "Mathematik"
+            "room": "FA011"
         }, 
         {
-            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
+            "name": "Grundlagen der Informatik", 
             "time": "14:00-15:30", 
-            "room": "FD177", 
+            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
             "type": "HF:1", 
-            "name": "Grundlagen der Informatik"
+            "room": "FD177"
         }, 
         {
-            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
+            "name": "Grundlagen der Informatik", 
             "time": "15:45-17:15", 
-            "room": "FD177", 
+            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
             "type": "HF:1", 
-            "name": "Grundlagen der Informatik"
+            "room": "FD177"
         }
     ], 
-    "Montag": [
+    "Dienstag": [
         {
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "time": "09:45-11:15", 
-            "room": "FD177", 
-            "type": "HF:1", 
-            "name": "Objektorientierte Programmierung I"
-        }, 
-        {
+            "name": "Betriebssysteme I", 
+            "note": "(Gruppe I)", 
+            "time": "08:00-09:30", 
             "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "time": "11:30-13:00", 
-            "room": "FD175", 
+            "desc": "\u00dcbungen", 
             "type": "HF:1", 
-            "name": "Betriebssysteme I"
+            "room": "FA014"
         }, 
         {
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "time": "14:00-15:30", 
-            "room": "FD175", 
+            "name": "Mathematik", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
             "type": "HF:1", 
-            "name": "Grundlagen Rechnertechnik"
+            "room": "FA011"
+        }
+    ], 
+    "Freitag": [
+        {
+            "name": "Objektorientierte Programmierung I", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "type": "HF:1", 
+            "room": "FD175"
+        }, 
+        {
+            "name": "Englisch", 
+            "note": "(Gruppe II)", 
+            "time": "09:45-11:15", 
+            "type": "HF:1", 
+            "room": "FB005"
+        }, 
+        {
+            "name": "Grundlagen Rechnertechnik", 
+            "note": "(Gruppe I)", 
+            "time": "09:45-11:15", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "desc": "\u00dcbungen", 
+            "type": "HF:1", 
+            "room": "FA012"
+        }, 
+        {
+            "name": "Grundlagen Rechnertechnik", 
+            "note": "(Gruppe II)", 
+            "time": "11:30-13:00", 
+            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
+            "desc": "\u00dcbungen", 
+            "type": "HF:1", 
+            "room": "FA012"
+        }, 
+        {
+            "name": "Englisch", 
+            "note": "(Gruppe I)", 
+            "time": "11:30-13:00", 
+            "type": "HF:1", 
+            "room": "FB005"
         }
     ]
 }

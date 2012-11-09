@@ -1,0 +1,475 @@
+{
+    "Friday": [
+        {
+            "name": "Mikro\u00f6konomie", 
+            "note": "(Beginn: KW 41)", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "Dr. G\u00fcnter Hofner", 
+            "room": "FA103"
+        }, 
+        {
+            "name": "Forschungskolloqium", 
+            "room": "FA105", 
+            "time": "11:30-13:00", 
+            "prof": "Sonst:0", 
+            "desc": "Dipl.Kfm. Martin Lochm\u00fcller"
+        }, 
+        {
+            "name": "Marke und Kommunikation", 
+            "time": "11:30-19:00", 
+            "prof": "Prof. Dr. Wolfram von Rhein", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Mikro\u00f6konomie", 
+            "note": "(Beginn: KW 41)", 
+            "time": "11:30-13:00", 
+            "prof": "Sonst:0", 
+            "desc": "Dr. G\u00fcnter Hofner", 
+            "room": "FA103"
+        }, 
+        {
+            "name": "Marke und Kommunikation", 
+            "time": "11:30-19:00", 
+            "prof": "Prof. Dr. Wolfram von Rhein", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Planspiel Marketing und Management", 
+            "time": "13:30-15:00", 
+            "prof": "Prof. Dr. Joachim Riedl", 
+            "type": "HF:0", 
+            "room": "FA224"
+        }, 
+        {
+            "name": "Planspiel Marketing und Management", 
+            "time": "15:45-17:15", 
+            "prof": "Dipl.Kfm. Martin Lochm\u00fcller", 
+            "type": "HF:0", 
+            "room": "FA224"
+        }, 
+        {
+            "name": "Planspiel Marketing und Management", 
+            "time": "17:30-19:00", 
+            "prof": "Dipl.Kfm. Martin Lochm\u00fcller", 
+            "type": "HF:0", 
+            "room": "FA224"
+        }, 
+        {
+            "name": "Saturday", 
+            "time": "09:00-15:30", 
+            "prof": "Prof. Dr. Wolfram von Rhein", 
+            "desc": "Marke und Kommunikation", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Marke und Kommunikation", 
+            "time": "09:00-15:30", 
+            "prof": "Prof. Dr. Wolfram von Rhein", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }
+    ], 
+    "Tuesday": [
+        {
+            "name": "Pr\u00e4sentationstechniken", 
+            "time": "08:00-09:30", 
+            "prof": "Dr. Sebastian Zips", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA224"
+        }, 
+        {
+            "name": "Pr\u00e4sentationstechniken", 
+            "time": "08:00-17:15", 
+            "prof": "Dr. Sebastian Zips", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA224"
+        }, 
+        {
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "note": "(Beginn: KW 41)", 
+            "time": "08:00-09:30", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Georg Fischer", 
+            "room": "FA205/206"
+        }, 
+        {
+            "name": "Kooperationsmanagement", 
+            "room": "FA105", 
+            "time": "09:30-11:30", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Jens Kirchner"
+        }, 
+        {
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "note": "(Beginn: KW 41)", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Georg Fischer", 
+            "room": "FA205/206"
+        }, 
+        {
+            "name": "European Union  History, Legal Framework and Economic Freedoms", 
+            "room": "FA109", 
+            "time": "14:00-15:30", 
+            "prof": "Sonst:0", 
+            "desc": "Beginn KW 41"
+        }, 
+        {
+            "name": "Europ\u00e4isches und Internationales Recht", 
+            "room": "FA201", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "Beginn KW 41"
+        }, 
+        {
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "note": "(Beginn KW 41)", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Georg Fischer", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Datenverarbeitung/ Statistik", 
+            "room": "FA105", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "Dr. Gerd Kammerer"
+        }, 
+        {
+            "name": "Marketing Kolloquium", 
+            "room": "FA105", 
+            "time": "17:30-19:00", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Stefan Wengler"
+        }
+    ], 
+    "Thursday": [
+        {
+            "name": "Datenverarbeitung/ Statistik", 
+            "note": "(ab KW 47)", 
+            "time": "08:00-09:30", 
+            "prof": "Sonst:0", 
+            "desc": "Dipl.Inf. Stefan M\u00fcller", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Verhandlungsf\u00fchrung und Moderation", 
+            "type": "HF:0", 
+            "room": "FA105", 
+            "time": "08:00-09:30"
+        }, 
+        {
+            "name": "Datenverarbeitung/ Statistik", 
+            "note": "(KW 40  46", 
+            "time": "08:00-09:30", 
+            "prof": "Sonst:0", 
+            "desc": "Dipl.Inf. Stefan M\u00fcller", 
+            "room": "FA202"
+        }, 
+        {
+            "name": "Datenverarbeitung/ Statistik", 
+            "room": "FA105", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "Dr. Gerd Kammerer"
+        }, 
+        {
+            "name": "Informationsveranstaltung", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Joachim Riedl", 
+            "desc": "Information zu Beginn des Studiums", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
+            "name": "Kosten und Leistungsrechnung", 
+            "room": "FB001/002", 
+            "time": "14:00-15:30", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Michael Seidel"
+        }, 
+        {
+            "name": "Marktforschungsprojekt", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Joachim Riedl", 
+            "type": "HF:0", 
+            "room": "FA107 + FA012"
+        }, 
+        {
+            "name": "Dialogmarketing und Customer Relationship Management", 
+            "time": "15:45-17:15", 
+            "prof": "Dipl.Kfm. Martin Lochm\u00fcller", 
+            "type": "HF:0", 
+            "room": "FA107"
+        }, 
+        {
+            "name": "Marktforschungsprojekt", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. Joachim Riedl", 
+            "type": "HF:0", 
+            "room": "FA107 + FA012"
+        }
+    ], 
+    "Wednesday": [
+        {
+            "name": "MarketingControlling", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Jens Kirchner", 
+            "type": "HF:0", 
+            "room": "FA105"
+        }, 
+        {
+            "name": "Kosten und Leistungsrechnung", 
+            "room": "FA107", 
+            "time": "08:00-09:30", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Michael Seidel"
+        }, 
+        {
+            "name": "European Economics", 
+            "room": "FA222", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "Juan Carlos Abad Sanz"
+        }, 
+        {
+            "name": "Grundlagen der Volkswirtschaftslehre", 
+            "room": "FA013", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Maximilian Walter"
+        }, 
+        {
+            "name": "Europ\u00e4isches und Internationales Recht", 
+            "room": "FD242", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Peter Sch\u00e4fer"
+        }, 
+        {
+            "name": "Datenverarbeitung/ Statistik", 
+            "room": "FA109", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "\u00dcbung Statistik IM 3"
+        }, 
+        {
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "room": "FA011", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Georg Fischer"
+        }, 
+        {
+            "name": "Dienstleistungs und Handelsmarketing", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Willi Darr", 
+            "type": "HF:0", 
+            "room": "FA105"
+        }, 
+        {
+            "name": "Strategisches Internetmarketing", 
+            "room": "FA105", 
+            "time": "11:30-13:00", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Andreas Wagener"
+        }, 
+        {
+            "name": "Englisch Perfektionsstufe (UNIcert IV) Kurs 1b ; Englisch Perfektionsstufe (UNIcert IV) Kurs 2 Marketing Communications", 
+            "room": "FA105", 
+            "time": "14:00-15:30", 
+            "prof": "Sonst:0", 
+            "desc": "Marketing Communications  Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW"
+        }, 
+        {
+            "name": "Controlling und Qualit\u00e4tsmanagement in Gesundheitseinrichtungen", 
+            "room": "FA015", 
+            "time": "14:00-15:30", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Gerald Schmola"
+        }, 
+        {
+            "name": "MarketingMix", 
+            "note": "(Gruppe I)", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "BW Gruppe I; Beginn KW 41", 
+            "room": "FA107"
+        }, 
+        {
+            "name": "Grundlagen der Volkswirtschaftslehre", 
+            "room": "FA202", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Maximilian Walter"
+        }, 
+        {
+            "name": "MarketingMix", 
+            "note": "(Gruppe I)", 
+            "time": "17:30-19:00", 
+            "prof": "Sonst:0", 
+            "desc": "BW Gruppe I; Beginn KW 41", 
+            "room": "FA107"
+        }, 
+        {
+            "name": "Pr\u00e4sentationstechniken", 
+            "time": "18:00-19:30", 
+            "prof": "Dr. Sebastian Zips", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA224"
+        }
+    ], 
+    "Monday": [
+        {
+            "name": "Controlling und Qualit\u00e4tsmanagement in Gesundheitseinrichtungen", 
+            "room": "FD248", 
+            "time": "08:00-13:00", 
+            "prof": "Sonst:0", 
+            "desc": "Blockveranstaltung"
+        }, 
+        {
+            "name": "Distributionslogistik", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Christoph Tripp", 
+            "desc": "am 14.01.2013 von 08:00 bis 09:30", 
+            "type": "HF:0", 
+            "room": "FA105"
+        }, 
+        {
+            "name": "Distributionslogistik", 
+            "time": "08:00-15:30", 
+            "prof": "Prof. Dr. Christoph Tripp", 
+            "desc": "am 19.11.2012 von 08:00 bis 15:30", 
+            "type": "HF:0", 
+            "room": "FA105"
+        }, 
+        {
+            "name": "Distributionslogistik", 
+            "time": "08:00-15:30", 
+            "prof": "Prof. Dr. Christoph Tripp", 
+            "desc": "am 12.11.2012 von 08:00 bis 15:30", 
+            "type": "HF:0", 
+            "room": "FA105"
+        }, 
+        {
+            "name": "Controlling und Qualit\u00e4tsmanagement in Gesundheitseinrichtungen", 
+            "room": "FD248", 
+            "time": "08:00-13:00", 
+            "prof": "Sonst:0", 
+            "desc": "Blockveranstaltung"
+        }, 
+        {
+            "name": "Distributionslogistik", 
+            "time": "08:00-15:30", 
+            "prof": "Prof. Dr. Christoph Tripp", 
+            "desc": "am 05.11.2012 von 08:00 bis 15:30", 
+            "type": "HF:0", 
+            "room": "FA105"
+        }, 
+        {
+            "name": "Grundlagen des Marketing", 
+            "room": "FA105", 
+            "time": "09:45-11:15", 
+            "prof": "Sonst:0", 
+            "desc": "au\u00dfer KW 44, 45, 46, 47"
+        }, 
+        {
+            "name": "Grundlagen des Marketing", 
+            "room": "FA105", 
+            "time": "11:30-13:00", 
+            "prof": "Sonst:0", 
+            "desc": "au\u00dfer KW 44, 45, 46, 47"
+        }, 
+        {
+            "name": "Statistik", 
+            "room": "FA205/206", 
+            "time": "11:30-13:00", 
+            "prof": "Sonst:0", 
+            "desc": "\u00dcbung BW 3a; Beginn KW 41"
+        }, 
+        {
+            "name": "Au\u00dfenwirtschaft", 
+            "room": "FA201", 
+            "time": "14:00-15:30", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Peter Sch\u00e4fer"
+        }, 
+        {
+            "name": "Statistik", 
+            "room": "FB023", 
+            "time": "14:00-15:30", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Gabriele Hornsteiner"
+        }, 
+        {
+            "name": "Grundlagen der Volkswirtschaftslehre", 
+            "room": "FA107", 
+            "time": "14:00-15:30", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Maximilian Walter"
+        }, 
+        {
+            "name": "Grundlagen des Marketing", 
+            "room": "FD242", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "nur KW 41, 49, 50, 51"
+        }, 
+        {
+            "name": "MarketingMix", 
+            "note": "(Gruppe II)", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "BW Gruppe II; Beginn KW 41", 
+            "room": "FA103"
+        }, 
+        {
+            "name": "Au\u00dfenwirtschaft", 
+            "room": "FA201", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "IM3 + IM5"
+        }, 
+        {
+            "name": "Statistik", 
+            "room": "FB023", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Gabriele Hornsteiner"
+        }, 
+        {
+            "name": "Grundlagen der Volkswirtschaftslehre", 
+            "room": "FA107", 
+            "time": "15:45-17:15", 
+            "prof": "Sonst:0", 
+            "desc": "Prof. Dr. Maximilian Walter"
+        }, 
+        {
+            "name": "Grundlagen des Marketing", 
+            "room": "FD242", 
+            "time": "17:30-19:00", 
+            "prof": "Sonst:0", 
+            "desc": "nur KW 41, 49, 50, 51"
+        }, 
+        {
+            "name": "MarketingMix", 
+            "note": "(Gruppe II)", 
+            "time": "17:30-19:00", 
+            "prof": "Sonst:0", 
+            "desc": "BW Gruppe II; Beginn KW 41", 
+            "room": "FA103"
+        }
+    ]
+}

@@ -1,174 +1,174 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
+            "name": "Thermodynamik und Str\u00f6mungslehre", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "desc": "Str\u00f6mungslehre  (Wing WT + MB + UT + WT 3)", 
+            "type": "HF:0", 
+            "room": "FB023"
+        }, 
+        {
+            "name": "Logistik", 
+            "time": "09:45-11:15", 
             "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "time": "08:00-09:30", 
-            "room": "FB001/002", 
             "type": "HF:0", 
-            "name": "Logistik"
+            "room": "FB001/002"
         }, 
         {
-            "prof": "Prof. Dr. Marco Lin\u00df", 
-            "time": "09:45-11:15", 
-            "room": "FB109", 
-            "type": "HF:0", 
-            "name": "Qualit\u00e4tsmanagement"
-        }, 
-        {
-            "desc": "Thermodynamik  (Wing WT + MB + UT + WT 3)", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "time": "15:45-17:15", 
-            "room": "FB023", 
-            "type": "HF:0", 
-            "name": "Thermodynamik und Str\u00f6mungslehre"
-        }, 
-        {
-            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer)", 
-            "prof": "Sonst:0", 
-            "time": "17:30-19:00", 
-            "room": "FB007/009 + FB012", 
-            "name": "Konstruktion"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "time": "08:00-09:30", 
-            "room": "FA009", 
-            "type": "HF:0", 
-            "name": "Physikalische Grundlagen technischer Werkstoffe"
-        }, 
-        {
-            "prof": "Prof. Dr. Marco Lin\u00df", 
-            "time": "09:45-11:15", 
-            "room": "FB203", 
-            "type": "HF:0", 
-            "name": "Fertigungstechnik", 
-            "note": "(WT 3 + IT/MT MB 5)"
-        }, 
-        {
-            "desc": "\u00dcbungen/ Praktikum  KW 02, 03", 
-            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "name": "Qualit\u00e4tsmanagement", 
             "time": "11:30-13:00", 
-            "room": "FB203 + FC016 + FC019", 
-            "type": "HF:0", 
-            "name": "Fertigungstechnik"
-        }, 
-        {
-            "desc": "\u00dcbungen/ Praktikum  KW 41  43, 45  50", 
             "prof": "Prof. Dr. Marco Lin\u00df", 
-            "time": "11:30-13:00", 
-            "room": "FC016 + FC019", 
             "type": "HF:0", 
-            "name": "Fertigungstechnik"
+            "room": "FB001/002"
         }, 
         {
-            "desc": "\u00dcbungen/ Praktikum  KW 40, 51, 04", 
-            "prof": "Prof. Dr. Marco Lin\u00df", 
-            "time": "11:30-13:00", 
-            "room": "FB203", 
-            "type": "HF:0", 
-            "name": "Fertigungstechnik"
-        }, 
-        {
-            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
-            "prof": "Prof. PhD Marek Gorywoda", 
+            "name": "Verkaufskommunikation", 
             "time": "14:00-15:30", 
-            "room": "FA202", 
+            "prof": "Norbert Gebhardt", 
             "type": "HF:0", 
-            "name": "Physikalische Grundlagen technischer Werkstoffe"
+            "room": "FD248"
         }, 
         {
-            "desc": "Tutorium  (Wing, WT, MB, UT 3) (ab 4.10.)", 
-            "prof": "Sonst:0", 
-            "time": "17:30-19:00", 
-            "room": "FA201", 
-            "name": "Kinematik und Dynamik"
+            "name": "Verkaufskommunikation", 
+            "time": "15:45-17:15", 
+            "prof": "Norbert Gebhardt", 
+            "type": "HF:0", 
+            "room": "FD248"
         }, 
         {
-            "desc": "(Wiederholer der Studienarbeit)", 
+            "name": "Statistik", 
+            "room": "FB001/002", 
+            "time": "15:45-17:15", 
             "prof": "Sonst:0", 
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer) (ab 15.10.)"
+        }, 
+        {
+            "name": "Ingenieurmathematik", 
+            "room": "FA107", 
             "time": "17:30-19:00", 
-            "room": "FB005 + FB012", 
-            "name": "Konstruktion"
+            "prof": "Sonst:0", 
+            "desc": "Tutorium  (Wing, WT, MB, InnoTex 3) (ab 8.10.)"
+        }, 
+        {
+            "name": "Thermodynamik und Str\u00f6mungslehre", 
+            "time": "17:30-19:00", 
+            "prof": "Jessica Wittmann", 
+            "desc": "Tutorium Str\u00f6mungslehre  (ab KW 42)", 
+            "type": "HF:0", 
+            "room": "FB109"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
-            "prof": "Sonst:0", 
-            "time": "17:30-19:00", 
+            "name": "Analysis", 
             "room": "FA011", 
-            "name": "Analysis"
+            "time": "17:30-19:00", 
+            "prof": "Sonst:0", 
+            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)"
         }, 
         {
-            "desc": "Tutorium Str\u00f6mungslehre  (ab KW 42)", 
-            "prof": "Jessica Wittmann", 
+            "name": "Thermodynamik und Str\u00f6mungslehre", 
             "time": "19:15-20:45", 
-            "room": "FA203", 
+            "prof": "Jessica Wittmann", 
+            "desc": "Tutorium Str\u00f6mungslehre  (ab KW 42)", 
             "type": "HF:0", 
-            "name": "Thermodynamik und Str\u00f6mungslehre"
+            "room": "FA203"
         }
     ], 
-    "Montag": [
+    "Dienstag": [
         {
-            "desc": "Str\u00f6mungslehre  (Wing WT + MB + UT + WT 3)", 
-            "prof": "Prof. Dr. Robert Honke", 
+            "name": "Logistik", 
             "time": "08:00-09:30", 
-            "room": "FB023", 
-            "type": "HF:0", 
-            "name": "Thermodynamik und Str\u00f6mungslehre"
-        }, 
-        {
             "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "type": "HF:0", 
+            "room": "FB001/002"
+        }, 
+        {
+            "name": "Qualit\u00e4tsmanagement", 
             "time": "09:45-11:15", 
-            "room": "FB001/002", 
-            "type": "HF:0", 
-            "name": "Logistik"
-        }, 
-        {
             "prof": "Prof. Dr. Marco Lin\u00df", 
+            "type": "HF:0", 
+            "room": "FB109"
+        }, 
+        {
+            "name": "Thermodynamik und Str\u00f6mungslehre", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "desc": "Thermodynamik  (Wing WT + MB + UT + WT 3)", 
+            "type": "HF:0", 
+            "room": "FB023"
+        }, 
+        {
+            "name": "Konstruktion", 
+            "room": "FB007/009 + FB012", 
+            "time": "17:30-19:00", 
+            "prof": "Sonst:0", 
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Physikalische Grundlagen technischer Werkstoffe", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Fertigungstechnik", 
+            "note": "(WT 3 + IT/MT MB 5)", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "type": "HF:0", 
+            "room": "FB203"
+        }, 
+        {
+            "name": "Fertigungstechnik", 
             "time": "11:30-13:00", 
-            "room": "FB001/002", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "desc": "\u00dcbungen/ Praktikum  KW 02, 03", 
             "type": "HF:0", 
-            "name": "Qualit\u00e4tsmanagement"
+            "room": "FB203 + FC016 + FC019"
         }, 
         {
-            "prof": "Norbert Gebhardt", 
+            "name": "Fertigungstechnik", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "desc": "\u00dcbungen/ Praktikum  KW 41  43, 45  50", 
+            "type": "HF:0", 
+            "room": "FC016 + FC019"
+        }, 
+        {
+            "name": "Fertigungstechnik", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "desc": "\u00dcbungen/ Praktikum  KW 40, 51, 04", 
+            "type": "HF:0", 
+            "room": "FB203"
+        }, 
+        {
+            "name": "Physikalische Grundlagen technischer Werkstoffe", 
             "time": "14:00-15:30", 
-            "room": "FD248", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "(Wing WT 3 + WT 3 + InnoTex 5)", 
             "type": "HF:0", 
-            "name": "Verkaufskommunikation"
+            "room": "FA202"
         }, 
         {
-            "prof": "Norbert Gebhardt", 
-            "time": "15:45-17:15", 
-            "room": "FD248", 
-            "type": "HF:0", 
-            "name": "Verkaufskommunikation"
-        }, 
-        {
-            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer) (ab 15.10.)", 
-            "prof": "Sonst:0", 
-            "time": "15:45-17:15", 
-            "room": "FB001/002", 
-            "name": "Statistik"
-        }, 
-        {
-            "desc": "Tutorium  (Wing, WT, MB, InnoTex 3) (ab 8.10.)", 
-            "prof": "Sonst:0", 
+            "name": "Kinematik und Dynamik", 
+            "room": "FA201", 
             "time": "17:30-19:00", 
-            "room": "FA107", 
-            "name": "Ingenieurmathematik"
+            "prof": "Sonst:0", 
+            "desc": "Tutorium  (Wing, WT, MB, UT 3) (ab 4.10.)"
         }, 
         {
-            "desc": "Tutorium Str\u00f6mungslehre  (ab KW 42)", 
-            "prof": "Jessica Wittmann", 
+            "name": "Konstruktion", 
+            "room": "FB012 + FB005", 
             "time": "17:30-19:00", 
-            "room": "FB109", 
-            "type": "HF:0", 
-            "name": "Thermodynamik und Str\u00f6mungslehre"
+            "prof": "Sonst:0", 
+            "desc": "(Wiederholer der Studienarbeit)"
         }
     ]
 }

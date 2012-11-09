@@ -1,260 +1,287 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1)", 
-            "prof": "Prof. Dr. Reinhardt Schmalz", 
-            "time": "08:00-09:30", 
-            "room": "FB005", 
-            "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre", 
-            "note": "(Gruppe II)"
-        }, 
-        {
-            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1)", 
-            "prof": "Prof. Dr. Reinhardt Schmalz", 
-            "time": "09:45-11:15", 
-            "room": "FB005", 
-            "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre", 
-            "note": "(Gruppe III)"
-        }, 
-        {
-            "desc": "\u00dcbungen  (Wing 1+2)  (ab KW 41)", 
-            "prof": "Prof. Dr. Wolfgang Richter", 
-            "time": "09:45-11:15", 
-            "room": "FB007/009", 
-            "type": "HF:0", 
             "name": "Analysis", 
-            "note": "(Gruppe IV)"
-        }, 
-        {
-            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1+2)", 
-            "prof": "Prof. Dr. Reinhardt Schmalz", 
+            "note": "(Wing 1+2)", 
             "time": "11:30-13:00", 
-            "room": "FB005", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
             "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre", 
-            "note": "(Gruppe IV)"
+            "room": "FB023"
         }, 
         {
-            "desc": "\u00dcbungen  (Wing 1) (ab KW 41)", 
-            "prof": "Prof. Dr. Wolfgang Richter", 
+            "name": "Analysis", 
+            "note": "(Gruppe III)", 
             "time": "15:45-17:15", 
-            "room": "FB109", 
-            "type": "HF:0", 
-            "name": "Analysis", 
-            "note": "(Gruppe I)"
-        }, 
-        {
-            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer)", 
-            "prof": "Dieter Sammet", 
-            "time": "17:30-19:00", 
-            "room": "FB007/009 + FB012", 
-            "type": "HF:0", 
-            "name": "Konstruktion"
-        }
-    ], 
-    "Freitag": [
-        {
-            "time": "08:00-09:30", 
-            "room": "Externes Rechnungswesen"
-        }, 
-        {
-            "room": "FB001/002", 
-            "type": "HF:0", 
-            "name": "(Gr. IIIIV)  (+WI 1+ Wing 1+2)", 
-            "prof": "Prof. Dr. Ulrich Entrup"
-        }, 
-        {
-            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41) (Wing 1)", 
-            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
-            "time": "09:45-11:15", 
-            "room": "FA203", 
-            "type": "HF:0", 
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
-        }, 
-        {
-            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41)  (Wing 1)", 
-            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
-            "time": "11:30-13:00", 
-            "room": "FA203", 
-            "type": "HF:0", 
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
-        }, 
-        {
-            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41)  (Wing 1)", 
-            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
-            "time": "14:00-15:30", 
-            "room": "FA203", 
-            "type": "HF:0", 
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
-        }, 
-        {
-            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41) (Wing 1)", 
-            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
-            "time": "15:45-17:15", 
-            "room": "FA203", 
-            "type": "HF:0", 
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "(Gr. III+IV) (Wing 1+2)", 
-            "prof": "Prof. Dr. Gerald Schmola", 
-            "time": "09:45-11:15", 
-            "room": "FA201", 
-            "type": "HF:0", 
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
-        }, 
-        {
-            "time": "11:30-13:00", 
-            "room": "Externes Rechnungswesen"
-        }, 
-        {
-            "room": "FA205/206", 
-            "type": "HF:0", 
-            "name": "Prof. Dr. Ulrich Entrup", 
-            "note": "(Gr. III)  (Wing 1)"
-        }, 
-        {
-            "desc": "\u00dcbungen  (Wing 1) (ab KW 41)", 
             "prof": "Prof. Dr. Wolfgang Richter", 
-            "time": "14:00-15:30", 
-            "room": "FA009", 
+            "desc": "\u00dcbungen  (MB Gr. II + Wing Gr. III) (ab KW 46)", 
             "type": "HF:0", 
-            "name": "Analysis", 
-            "note": "(Gruppe II)"
+            "room": "FA009"
         }, 
         {
-            "desc": "Tutorium  ab KW 43", 
+            "name": "Statik und Festigkeitslehre", 
+            "time": "15:45-17:15", 
             "prof": "Tutorium", 
+            "desc": "Tutorium  ab KW 43", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Statistik", 
             "time": "15:45-17:15", 
-            "room": "FB109", 
+            "prof": "Dr. Wolfgang Grond", 
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer) (ab 15.10.)", 
             "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre"
+            "room": "FB001/002"
         }, 
         {
-            "desc": "Tutorium  (Wing, WT, MB, UT 3) (ab 4.10.)", 
+            "name": "Analysis", 
+            "note": "(Gruppe III)", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "desc": "\u00dcbungen  (Wing 1)  (ab KW 41 bis KW 45)", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Ingenieurmathematik", 
+            "time": "17:30-19:00", 
             "prof": "Christian Nolte", 
-            "time": "17:30-19:00", 
-            "room": "FA201", 
+            "desc": "Tutorium  (Wing, WT, MB, InnoTex 3) (ab 8.10.)", 
             "type": "HF:0", 
-            "name": "Kinematik und Dynamik"
-        }, 
-        {
-            "desc": "(Wiederholer der Studienarbeit)", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "time": "17:30-19:00", 
-            "room": "FB005 + FB012", 
-            "type": "HF:0", 
-            "name": "Konstruktion"
+            "room": "FA107"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1)", 
-            "prof": "Prof. Dr. Robert Honke", 
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe I)", 
             "time": "08:00-09:30", 
-            "room": "FD175", 
-            "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre", 
-            "note": "(Gruppe I)"
-        }, 
-        {
-            "time": "09:45-11:15", 
-            "room": "Externes Rechnungswesen"
-        }, 
-        {
-            "room": "FB109", 
-            "type": "HF:0", 
-            "name": "Prof. Dr. Ulrich Entrup", 
-            "note": "(Gr. III) (Wing 1)"
-        }, 
-        {
-            "desc": "(Gr. III+IV) (Wing 1+2)", 
-            "prof": "Prof. Dr. Gerald Schmola", 
-            "time": "09:45-11:15", 
-            "room": "FA201", 
-            "type": "HF:0", 
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
-        }, 
-        {
-            "desc": "Tutorium  ab KW 43", 
-            "prof": "Tutorium", 
-            "time": "11:30-13:00", 
-            "room": "FA202", 
-            "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre"
-        }, 
-        {
-            "time": "11:30-13:00", 
-            "room": "Externes Rechnungswesen"
-        }, 
-        {
-            "room": "FB109", 
-            "type": "HF:0", 
-            "name": "(Gr. IIIIV) (+WI 1+ Wing 1+2)", 
-            "prof": "Prof. Dr. Ulrich Entrup"
-        }, 
-        {
             "prof": "Prof. Dr. Robert Honke", 
-            "time": "14:00-15:30", 
-            "room": "FB023", 
+            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1)", 
             "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre", 
-            "note": "(Wing 1+2)"
+            "room": "FD175"
         }, 
         {
-            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
-            "prof": "Dipl.Ing. Peter Pinter", 
-            "time": "17:30-19:00", 
-            "room": "FA011", 
+            "room": "Externes Rechnungswesen", 
+            "time": "09:45-11:15"
+        }, 
+        {
+            "note": "(Gr. III) (Wing 1)", 
             "type": "HF:0", 
-            "name": "Analysis"
+            "room": "FB109", 
+            "name": "Prof. Dr. Ulrich Entrup"
+        }, 
+        {
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "desc": "(Gr. III+IV) (Wing 1+2)", 
+            "type": "HF:0", 
+            "room": "FA201"
+        }, 
+        {
+            "name": "Statik und Festigkeitslehre", 
+            "time": "11:30-13:00", 
+            "prof": "Tutorium", 
+            "desc": "Tutorium  ab KW 43", 
+            "type": "HF:0", 
+            "room": "FA202"
+        }, 
+        {
+            "room": "Externes Rechnungswesen", 
+            "time": "11:30-13:00"
+        }, 
+        {
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "type": "HF:0", 
+            "room": "FB109", 
+            "name": "(Gr. IIIIV) (+WI 1+ Wing 1+2)"
+        }, 
+        {
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Wing 1+2)", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "type": "HF:0", 
+            "room": "FB023"
+        }, 
+        {
+            "name": "Analysis", 
+            "time": "17:30-19:00", 
+            "prof": "Dipl.Ing. Peter Pinter", 
+            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
+            "type": "HF:0", 
+            "room": "FA011"
         }
     ], 
-    "Montag": [
+    "Freitag": [
         {
-            "prof": "Prof. Dr. Wolfgang Richter", 
-            "time": "11:30-13:00", 
-            "room": "FB023", 
-            "type": "HF:0", 
-            "name": "Analysis", 
-            "note": "(Wing 1+2)"
+            "room": "Externes Rechnungswesen", 
+            "time": "08:00-09:30"
         }, 
         {
-            "desc": "Tutorium  ab KW 43", 
-            "prof": "Tutorium", 
-            "time": "15:45-17:15", 
-            "room": "FA203", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
             "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre"
-        }, 
-        {
-            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer) (ab 15.10.)", 
-            "prof": "Dr. Wolfgang Grond", 
-            "time": "15:45-17:15", 
             "room": "FB001/002", 
-            "type": "HF:0", 
-            "name": "Statistik"
+            "name": "(Gr. IIIIV)  (+WI 1+ Wing 1+2)"
         }, 
         {
-            "desc": "\u00dcbungen  (Wing 1)  (ab KW 41)", 
-            "prof": "Prof. Dr. Wolfgang Richter", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "time": "09:45-11:15", 
+            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
+            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41) (Wing 1)", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "time": "11:30-13:00", 
+            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
+            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41)  (Wing 1)", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "time": "14:00-15:30", 
+            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
+            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41)  (Wing 1)", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
             "time": "15:45-17:15", 
-            "room": "FA009", 
+            "prof": "Dipl.Kfm. Konstantin Pagonidis", 
+            "desc": "(Gr. I+II) (14t\u00e4gig) (Beginn: KW 41) (Wing 1)", 
             "type": "HF:0", 
-            "name": "Analysis", 
-            "note": "(Gruppe III)"
+            "room": "FA203"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe II)", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Reinhardt Schmalz", 
+            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1)", 
+            "type": "HF:0", 
+            "room": "FB005"
         }, 
         {
-            "desc": "Tutorium  (Wing, WT, MB, InnoTex 3) (ab 8.10.)", 
-            "prof": "Christian Nolte", 
-            "time": "17:30-19:00", 
-            "room": "FA107", 
+            "name": "Analysis", 
+            "note": "(Gruppe IV)", 
+            "time": "09:45-11:15", 
+            "prof": "Dipl.Ing. Peter Pinter", 
+            "desc": "\u00dcbungen  (Wing 1+2) (ab KW 46)", 
             "type": "HF:0", 
-            "name": "Ingenieurmathematik"
+            "room": "FB007/009"
+        }, 
+        {
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe III)", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Reinhardt Schmalz", 
+            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1)", 
+            "type": "HF:0", 
+            "room": "FB005"
+        }, 
+        {
+            "name": "Analysis", 
+            "note": "(Gruppe IV)", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "desc": "\u00dcbungen  (Wing 1+2)  (ab KW 41 bis KW 45)", 
+            "type": "HF:0", 
+            "room": "FB007/009"
+        }, 
+        {
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe IV)", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Reinhardt Schmalz", 
+            "desc": "\u00dcbungen  (Beginn KW 42) (Wing 1+2)", 
+            "type": "HF:0", 
+            "room": "FB005"
+        }, 
+        {
+            "name": "Analysis", 
+            "note": "(Gruppe I)", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "desc": "\u00dcbungen  (InnoTex, MB, Wing 1)  (ab KW 46)", 
+            "type": "HF:0", 
+            "room": "FB109"
+        }, 
+        {
+            "name": "Analysis", 
+            "note": "(Gruppe I)", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "desc": "\u00dcbungen  (Wing 1) (ab KW 41 bis KW 45)", 
+            "type": "HF:0", 
+            "room": "FB109"
+        }, 
+        {
+            "name": "Konstruktion", 
+            "time": "17:30-19:00", 
+            "prof": "Dieter Sammet", 
+            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer)", 
+            "type": "HF:0", 
+            "room": "FB007/009 + FB012"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "desc": "(Gr. III+IV) (Wing 1+2)", 
+            "type": "HF:0", 
+            "room": "FA201"
+        }, 
+        {
+            "room": "Externes Rechnungswesen", 
+            "time": "11:30-13:00"
+        }, 
+        {
+            "note": "(Gr. III)  (Wing 1)", 
+            "type": "HF:0", 
+            "room": "FA205/206", 
+            "name": "Prof. Dr. Ulrich Entrup"
+        }, 
+        {
+            "name": "Analysis", 
+            "note": "(Gruppe II)", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "desc": "\u00dcbungen  (Wing 1) (ab KW 41)", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Statik und Festigkeitslehre", 
+            "time": "15:45-17:15", 
+            "prof": "Tutorium", 
+            "desc": "Tutorium  ab KW 43", 
+            "type": "HF:0", 
+            "room": "FB109"
+        }, 
+        {
+            "name": "Kinematik und Dynamik", 
+            "time": "17:30-19:00", 
+            "prof": "Christian Nolte", 
+            "desc": "Tutorium  (Wing, WT, MB, UT 3) (ab 4.10.)", 
+            "type": "HF:0", 
+            "room": "FA201"
+        }, 
+        {
+            "name": "Konstruktion", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "desc": "(Wiederholer der Studienarbeit)", 
+            "type": "HF:0", 
+            "room": "FB012 + FB005"
         }
     ]
 }

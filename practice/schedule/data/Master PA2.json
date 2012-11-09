@@ -1,0 +1,283 @@
+{
+    "Tuesday": [
+        {
+            "name": "Personalentwicklung und beratung in globalen Unternehmen", 
+            "time": "09:00-17:00", 
+            "prof": "Norbert Gebhardt", 
+            "desc": "Blockveranstaltung  Externer Termin NetzschGruppe in Selb", 
+            "type": "HF:0", 
+            "room": "Ex_Extern"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe II)", 
+            "time": "11:30-17:30", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 2", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe II)", 
+            "time": "11:30-17:30", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 2", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe I)", 
+            "time": "11:30-17:30", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 1", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe II)", 
+            "time": "11:30-15:45", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 2", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe II)", 
+            "time": "11:30-15:45", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 2", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe I)", 
+            "time": "11:30-17:30", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 1", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe I)", 
+            "time": "11:30-15:45", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 1", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe II)", 
+            "time": "11:30-15:45", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 2", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe I)", 
+            "time": "11:30-15:45", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 1", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }, 
+        {
+            "name": "Kommunikation, Gespr\u00e4chsf\u00fchrung und Konfliktmanagement", 
+            "note": "(Gruppe I)", 
+            "time": "11:30-15:45", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "desc": "Blockveranstaltung Fachsemester 1", 
+            "type": "HF:0", 
+            "room": "FA204"
+        }
+    ], 
+    "Friday": [
+        {
+            "name": "Interkulturelles Management", 
+            "note": "(Gruppe II)", 
+            "time": "08:00-17:15", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }, 
+        {
+            "name": "Interkulturelles Management", 
+            "note": "(Gruppe II)", 
+            "time": "08:00-17:15", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "Interkulturelles Management", 
+            "note": "(Gruppe I)", 
+            "time": "08:00-17:15", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "Personalentwicklung und beratung in globalen Unternehmen", 
+            "time": "09:45-17:15", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Personalentwicklung und beratung in globalen Unternehmen", 
+            "time": "09:45-19:00", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "Personalentwicklung und beratung in globalen Unternehmen", 
+            "time": "09:45-17:15", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Personalentwicklung und beratung in globalen Unternehmen", 
+            "time": "09:45-13:00", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "Saturday", 
+            "time": "08:00-15:30", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "desc": "Personalentwicklung und beratung in globalen Unternehmen", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "Personalentwicklung und beratung in globalen Unternehmen", 
+            "time": "08:00-15:30", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Personalentwicklung und beratung in globalen Unternehmen", 
+            "time": "08:00-15:30", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA203"
+        }, 
+        {
+            "name": "Interkulturelles Management", 
+            "note": "(Gruppe I)", 
+            "time": "08:00-17:15", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }, 
+        {
+            "name": "Interkulturelles Management", 
+            "note": "(Gruppe II)", 
+            "time": "08:00-15:30", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "Interkulturelles Management", 
+            "note": "(Gruppe I)", 
+            "time": "08:00-15:30", 
+            "prof": "Petra Mehl", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }
+    ], 
+    "Wednesday": [
+        {
+            "name": "Europ\u00e4isches Arbeitsrecht", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Peter Sch\u00e4fer", 
+            "type": "HF:0", 
+            "room": "FA201"
+        }, 
+        {
+            "name": "Individualarbeitsrecht", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
+            "type": "HF:0", 
+            "room": "FA103"
+        }, 
+        {
+            "name": "Compliance im Arbeitsrecht", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Beatrix Weber", 
+            "type": "HF:0", 
+            "room": "FA103"
+        }, 
+        {
+            "name": "Personalauswahl und Personalmarketing", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Matthias Mungenast", 
+            "type": "HF:0", 
+            "room": "FD175"
+        }, 
+        {
+            "name": "Informationsveranstaltung", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Dietmar Boerner", 
+            "desc": "Studieren in Hof, Einf\u00fchrung f\u00fcr Erstsemester  von Studierende f\u00fcr Studierende", 
+            "type": "HF:0", 
+            "room": "FA201"
+        }, 
+        {
+            "name": "Informationsveranstaltung", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. Dietmar Boerner", 
+            "desc": "Studieren in Hof, Einf\u00fchrung f\u00fcr Erstsemester  von Studierende f\u00fcr Studierende", 
+            "type": "HF:0", 
+            "room": "FA014"
+        }
+    ], 
+    "Thursday": [
+        {
+            "name": "Individualarbeitsrecht", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
+            "type": "HF:0", 
+            "room": "FA103"
+        }, 
+        {
+            "name": "Sozialrecht", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Dietmar Boerner", 
+            "type": "HF:0", 
+            "room": "FA103"
+        }, 
+        {
+            "name": "Sozialrecht", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Dietmar Boerner", 
+            "type": "HF:0", 
+            "room": "FA103"
+        }
+    ]
+}

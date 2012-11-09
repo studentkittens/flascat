@@ -1,115 +1,125 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "Spinnerei   (InnoTex + TD 1)", 
-            "prof": "Mueb_Sem", 
-            "time": "08:00-09:30-08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00", 
             "name": "Textile Produktionsverfahren", 
-            "type": "HF:0#HF:0#HF:0#HF:0#HF:0"
-        }
-    ], 
-    "Freitag": [
-        {
-            "desc": "(InnoTex + UT + WT 1)", 
-            "prof": "Prof. Dr. Hans Schmidt", 
-            "time": "08:00-09:30", 
-            "room": "FA009", 
-            "type": "HF:0", 
-            "name": "Allgemeine und anorganische Chemie"
-        }, 
-        {
-            "desc": "(UT + WT + InnoTex 1)", 
-            "prof": "Prof. Dr. Michael Seidel", 
-            "time": "09:45-11:15", 
-            "room": "FA201", 
-            "type": "HF:0", 
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "\u00dcbungen (UT + InnoTex) (ab KW 42)", 
-            "prof": "Prof. Dr. Wolfgang Richter", 
-            "time": "08:00-09:30", 
-            "room": "FA011", 
-            "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre"
-        }, 
-        {
-            "desc": "(InnoTex + UT + WT 1)", 
-            "prof": "Prof. Dr. Hans Schmidt", 
-            "time": "09:45-11:15", 
-            "room": "FB023", 
-            "type": "HF:0", 
-            "name": "Allgemeine und anorganische Chemie"
-        }, 
-        {
-            "desc": "(UT + WT + InnoTex 1)", 
-            "prof": "Prof. Dr. Michael Seidel", 
-            "time": "11:30-13:00", 
-            "room": "FB109", 
-            "type": "HF:0", 
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure"
-        }, 
-        {
-            "desc": "(MB + WT + UT + InnoTex 1)", 
-            "prof": "Prof. Dr. Matthias Kilian", 
-            "time": "14:00-15:30", 
-            "room": "FB023", 
-            "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre"
-        }, 
-        {
-            "desc": "Tutorium  ab KW 43", 
+            "time": "09:45-11:15-11:30-13:00-15:45-17:15", 
             "prof": "Tutorium", 
-            "time": "15:45-17:15", 
-            "room": "FB109", 
-            "type": "HF:0", 
-            "name": "Statik und Festigkeitslehre"
+            "desc": "Maschentechnik  (InnoTex + TD 1)", 
+            "type": "HF:0#HF:0#HF:0", 
+            "room": "FA203"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Praktikum  in M\u00fcnchberg/Hof   siehe Gruppeneinteilung", 
-            "prof": "Tutorium", 
+            "name": "Allgemeine und anorganische Chemie", 
             "time": "08:00-09:30-09:45-11:15-11:30-13:00", 
-            "room": "FA202", 
+            "prof": "Tutorium", 
+            "desc": "Praktikum  in M\u00fcnchberg/Hof   siehe Gruppeneinteilung", 
             "type": "HF:0#HF:0#HF:0", 
-            "name": "Allgemeine und anorganische Chemie"
+            "room": "FA202"
         }, 
         {
-            "desc": "\u00dcbungen  (WT + InnoTex 1)", 
-            "prof": "Prof. Dr. Wolfgang Batrla", 
+            "name": "Analysis", 
             "time": "14:00-15:30", 
-            "room": "FA013", 
-            "type": "HF:0", 
-            "name": "Analysis"
-        }, 
-        {
-            "desc": "(UT + WT + InnoTex 1)", 
             "prof": "Prof. Dr. Wolfgang Batrla", 
-            "time": "15:45-17:15", 
-            "room": "FA205/206", 
+            "desc": "\u00dcbungen  (WT + InnoTex 1) (bis KW 45)", 
             "type": "HF:0", 
-            "name": "Analysis"
+            "room": "FA013"
         }, 
         {
-            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
-            "prof": "Dipl.Ing. Peter Pinter", 
-            "time": "17:30-19:00", 
-            "room": "FA011", 
+            "name": "Analysis", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "desc": "(UT + WT + InnoTex 1)  (ab KW 46)", 
             "type": "HF:0", 
-            "name": "Analysis"
+            "room": "FA013"
+        }, 
+        {
+            "name": "Analysis", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Wolfgang Batrla", 
+            "desc": "(UT + WT + InnoTex 1) (bis KW 45)", 
+            "type": "HF:0", 
+            "room": "FA205/206"
+        }, 
+        {
+            "name": "Analysis", 
+            "time": "17:30-19:00", 
+            "prof": "Dipl.Ing. Peter Pinter", 
+            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
+            "type": "HF:0", 
+            "room": "FA011"
         }
     ], 
-    "Montag": [
+    "Freitag": [
         {
-            "desc": "Maschentechnik  (InnoTex + TD 1)", 
+            "name": "Allgemeine und anorganische Chemie", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "desc": "(InnoTex + UT + WT 1)", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Michael Seidel", 
+            "desc": "(UT + WT + InnoTex 1)", 
+            "type": "HF:0", 
+            "room": "FA201"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Textile Produktionsverfahren", 
+            "note": "(Gruppe I)", 
+            "time": "08:00-09:30-08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00-15:45-17:15", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "desc": "Spinnerei   (InnoTex + TD 1)", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
+            "room": "FB109"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Statik und Festigkeitslehre", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "desc": "\u00dcbungen (UT + InnoTex) (ab KW 42)", 
+            "type": "HF:0", 
+            "room": "FA011"
+        }, 
+        {
+            "name": "Allgemeine und anorganische Chemie", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "desc": "(InnoTex + UT + WT 1)", 
+            "type": "HF:0", 
+            "room": "FB023"
+        }, 
+        {
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Michael Seidel", 
+            "desc": "(UT + WT + InnoTex 1)", 
+            "type": "HF:0", 
+            "room": "FB109"
+        }, 
+        {
+            "name": "Statik und Festigkeitslehre", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Matthias Kilian", 
+            "desc": "(MB + WT + UT + InnoTex 1)", 
+            "type": "HF:0", 
+            "room": "FB023"
+        }, 
+        {
+            "name": "Statik und Festigkeitslehre", 
+            "time": "15:45-17:15", 
             "prof": "Tutorium", 
-            "time": "09:45-11:15-11:30-13:00-15:45-17:15", 
-            "room": "FA203", 
-            "type": "HF:0#HF:0#HF:0", 
-            "name": "Textile Produktionsverfahren"
+            "desc": "Tutorium  ab KW 43", 
+            "type": "HF:0", 
+            "room": "FB109"
         }
     ]
 }

@@ -1,178 +1,178 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
-            "time": "08:00-09:30", 
-            "room": "FA105", 
-            "type": "HF:0", 
             "name": "Fremdsprache I  Englisch", 
-            "note": "(Gruppe I)"
-        }, 
-        {
-            "prof": "Tutorium Beginn KW45", 
+            "note": "(Gruppe I)", 
             "time": "09:45-11:15", 
-            "room": "FA014", 
+            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
             "type": "HF:0", 
-            "name": "Finanzmanagement und Grundlagen der Mathematik"
+            "room": "FA108"
         }, 
         {
-            "prof": "Prof. Dr. Georg Fischer", 
+            "name": "Fremdsprache I  Englisch", 
+            "note": "(Gruppe II)", 
             "time": "11:30-13:00", 
-            "room": "FA202", 
+            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
             "type": "HF:0", 
-            "name": "Betriebliche Leistungsprozesse"
+            "room": "FA108"
         }, 
         {
-            "prof": "Angelika Me\u00dfnerChuchuy", 
-            "time": "15:45-17:15", 
-            "room": "FA009", 
-            "type": "HF:0", 
-            "name": "Fremdsprache II  Spanisch  (als Anf\u00e4ngersprache)"
-        }
-    ], 
-    "Freitag": [
-        {
-            "prof": "Dr. G\u00fcnter Hofner", 
-            "time": "09:45-11:15", 
-            "room": "FA103", 
-            "type": "HF:0", 
-            "name": "Mikro\u00f6konomie", 
-            "note": "(Beginn: KW 41)"
-        }, 
-        {
-            "prof": "Dr. G\u00fcnter Hofner", 
-            "time": "11:30-13:00", 
-            "room": "FA103", 
-            "type": "HF:0", 
-            "name": "Mikro\u00f6konomie", 
-            "note": "(Beginn: KW 41)"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "Gruppe II  IM 1", 
-            "prof": "Prof. Dr. Hans Eigenstetter", 
-            "time": "09:45-11:15", 
-            "room": "FD242", 
-            "type": "HF:0", 
-            "name": "Buchf\u00fchrung", 
-            "note": "(Gruppe II)"
-        }, 
-        {
-            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
-            "time": "11:30-13:00", 
-            "room": "FA013", 
-            "type": "HF:0", 
-            "name": "Pr\u00e4sentationstechnik und wissenschaftliche Arbeitsmethoden"
-        }, 
-        {
-            "desc": "Beginn 41. KW, vorher mit UCKurs verkn\u00fcpft", 
+            "name": "Fremdsprache II  Franz\u00f6sisch", 
+            "time": "14:00-15:30", 
             "prof": "AkORin Ingrid Schmidt", 
+            "desc": "Beginn 43. KW, vorher mit UCKurs verkn\u00fcpft", 
+            "type": "HF:0", 
+            "room": "FA205/206"
+        }, 
+        {
+            "name": "Fremdsprache II  Spanisch", 
             "time": "14:00-15:30", 
-            "room": "FD244", 
+            "prof": "Fortsetzung von UNIcert II, Kurs 1, ab KW 41", 
             "type": "HF:0", 
-            "name": "Fremdsprache II  Franz\u00f6sisch"
-        }, 
-        {
-            "prof": "Angelika Me\u00dfnerChuchuy", 
-            "time": "14:00-15:30", 
-            "room": "FD248", 
-            "type": "HF:0", 
-            "name": "Fremdsprache II  Spanisch  (als Anf\u00e4ngersprache)"
-        }, 
-        {
-            "prof": "Dr. Gerd Kammerer", 
-            "time": "15:45-17:15", 
-            "room": "FA202", 
-            "type": "HF:0", 
-            "name": "Finanzmanagement und Grundlagen der Mathematik"
-        }, 
-        {
-            "desc": "Gruppe I  BW 1b", 
-            "prof": "Prof. Dr. Hans Eigenstetter", 
-            "time": "15:45-17:15", 
-            "room": "FA201", 
-            "type": "HF:0", 
-            "name": "Buchf\u00fchrung", 
-            "note": "(Gruppe I)"
-        }, 
-        {
-            "prof": "Prof. Dr. Christof Aignesberger", 
-            "time": "17:30-19:00", 
-            "room": "FA101", 
-            "type": "HF:0", 
-            "name": "Finanzmanagement und Grundlagen der Mathematik"
+            "room": "FA017"
         }
     ], 
     "Mittwoch": [
         {
-            "prof": "Prof. Dr. Georg Fischer", 
+            "name": "Betriebliche Leistungsprozesse", 
             "time": "08:00-09:30", 
-            "room": "FA202", 
+            "prof": "Prof. Dr. Georg Fischer", 
             "type": "HF:0", 
-            "name": "Betriebliche Leistungsprozesse"
+            "room": "FA202"
         }, 
         {
-            "prof": "Prof. Dr. Christof Aignesberger", 
+            "name": "Finanzmanagement und Grundlagen der Mathematik", 
             "time": "09:45-11:15", 
-            "room": "FA101", 
+            "prof": "Prof. Dr. Christof Aignesberger", 
             "type": "HF:0", 
-            "name": "Finanzmanagement und Grundlagen der Mathematik"
+            "room": "FA101"
         }, 
         {
+            "name": "Fremdsprache II  Spanisch", 
+            "time": "11:30-13:00", 
             "prof": "Fortsetzung von UNIcert II, Kurs 1, ab KW 41", 
-            "time": "11:30-13:00", 
-            "room": "FA015", 
             "type": "HF:0", 
-            "name": "Fremdsprache II  Spanisch"
+            "room": "FA015"
         }, 
         {
-            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
-            "time": "11:30-13:00", 
-            "room": "FA101", 
-            "type": "HF:0", 
             "name": "Fremdsprache I  Englisch", 
-            "note": "(Gruppe II)"
+            "note": "(Gruppe II)", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
+            "type": "HF:0", 
+            "room": "FA101"
         }, 
         {
-            "prof": "Tutorium Beginn KW45", 
+            "name": "Finanzmanagement und Grundlagen der Mathematik", 
             "time": "14:00-15:30", 
-            "room": "FA107", 
+            "prof": "Tutorium Beginn KW45", 
             "type": "HF:0", 
-            "name": "Finanzmanagement und Grundlagen der Mathematik"
+            "room": "FA203"
         }
     ], 
-    "Montag": [
+    "Freitag": [
         {
-            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
+            "name": "Mikro\u00f6konomie", 
+            "note": "(Beginn: KW 41)", 
             "time": "09:45-11:15", 
-            "room": "FA108", 
+            "prof": "Dr. G\u00fcnter Hofner", 
             "type": "HF:0", 
-            "name": "Fremdsprache I  Englisch", 
-            "note": "(Gruppe I)"
+            "room": "FA103"
         }, 
         {
-            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
+            "name": "Mikro\u00f6konomie", 
+            "note": "(Beginn: KW 41)", 
             "time": "11:30-13:00", 
-            "room": "FA108", 
+            "prof": "Dr. G\u00fcnter Hofner", 
             "type": "HF:0", 
+            "room": "FA103"
+        }
+    ], 
+    "Dienstag": [
+        {
             "name": "Fremdsprache I  Englisch", 
-            "note": "(Gruppe II)"
+            "note": "(Gruppe I)", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
+            "type": "HF:0", 
+            "room": "FA105"
         }, 
         {
-            "desc": "Beginn 43. KW, vorher mit UCKurs verkn\u00fcpft", 
+            "name": "Finanzmanagement und Grundlagen der Mathematik", 
+            "time": "09:45-11:15", 
+            "prof": "Tutorium Beginn KW45", 
+            "type": "HF:0", 
+            "room": "FA014"
+        }, 
+        {
+            "name": "Betriebliche Leistungsprozesse", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Georg Fischer", 
+            "type": "HF:0", 
+            "room": "FA202"
+        }, 
+        {
+            "name": "Fremdsprache II  Spanisch  (als Anf\u00e4ngersprache)", 
+            "time": "15:45-17:15", 
+            "prof": "Angelika Me\u00dfnerChuchuy", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Buchf\u00fchrung", 
+            "note": "(Gruppe II)", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Hans Eigenstetter", 
+            "desc": "Gruppe II  IM 1", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
+            "name": "Pr\u00e4sentationstechnik und wissenschaftliche Arbeitsmethoden", 
+            "time": "11:30-13:00", 
+            "prof": "Dipl.Psych. AngelikaMaria W\u00fcrke", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "Fremdsprache II  Franz\u00f6sisch", 
+            "time": "14:00-15:30", 
             "prof": "AkORin Ingrid Schmidt", 
-            "time": "14:00-15:30", 
-            "room": "FA205/206", 
+            "desc": "Beginn 41. KW, vorher mit UCKurs verkn\u00fcpft", 
             "type": "HF:0", 
-            "name": "Fremdsprache II  Franz\u00f6sisch"
+            "room": "FD244"
         }, 
         {
-            "prof": "Fortsetzung von UNIcert II, Kurs 1, ab KW 41", 
+            "name": "Fremdsprache II  Spanisch  (als Anf\u00e4ngersprache)", 
             "time": "14:00-15:30", 
-            "room": "FA017", 
+            "prof": "Angelika Me\u00dfnerChuchuy", 
             "type": "HF:0", 
-            "name": "Fremdsprache II  Spanisch"
+            "room": "FD248"
+        }, 
+        {
+            "name": "Finanzmanagement und Grundlagen der Mathematik", 
+            "time": "15:45-17:15", 
+            "prof": "Dr. Gerd Kammerer", 
+            "type": "HF:0", 
+            "room": "FA202"
+        }, 
+        {
+            "name": "Buchf\u00fchrung", 
+            "note": "(Gruppe I)", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Hans Eigenstetter", 
+            "desc": "Gruppe I  BW 1b", 
+            "type": "HF:0", 
+            "room": "FA201"
+        }, 
+        {
+            "name": "Finanzmanagement und Grundlagen der Mathematik", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. Christof Aignesberger", 
+            "type": "HF:0", 
+            "room": "FA101"
         }
     ]
 }

@@ -1,72 +1,355 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "am 30.10.2012 von 17:30 bis 20:30", 
-            "prof": "am 05.03.2013 von 17:30 bis 20:30", 
-            "time": "17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30", 
-            "room": "FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104#FA102/104", 
-            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
-            "name": "Wirtschafts und Finanzmathematik"
+            "name": "Methodik wissenschaftlichen Arbeitens", 
+            "time": "17:30-20:30", 
+            "prof": "Norbert Hornsteiner", 
+            "desc": "am 15.10.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
         }, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}
-    ], 
-    "Mittwoch": [
         {
-            "desc": "am 31.10.2012 von 17:30 bis 20:30", 
-            "prof": "am 16.01.2013 von 17:30 bis 20:30", 
-            "time": "17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30", 
-            "room": "FA102/104#FA102/104#FD248#FD244#FA102/104", 
-            "type": "HF:0#HF:0#HF:0#HF:0#HF:0", 
-            "name": "Wirtschafts und Finanzmathematik"
+            "name": "Methodik wissenschaftlichen Arbeitens", 
+            "time": "17:30-20:30", 
+            "prof": "Norbert Hornsteiner", 
+            "desc": "am 22.10.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
         }, 
-        {}, 
-        {}
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 11.03.2013 von 17:30 bis 20:30", 
+            "desc": "Pr\u00fcfungstermin", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }
     ], 
     "Donnerstag": [
         {
-            "desc": "am 04.10.2012 von 17:30 bis 20:30", 
-            "prof": "am 28.02.2013 von 17:30 bis 20:30", 
-            "time": "17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30-17:30-20:30", 
-            "room": "FA009#FA009#FD244#FD244#FD244#FD248#FD248#FD248#FD248#FD248#FD248#FD248#FD248#FD248#FD248#FD248#FD248#FD248", 
-            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
-            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre"
-        }, 
-        {
-            "desc": "Buchf\u00fchrung und Bilanzierung", 
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "time": "17:30-20:30", 
             "prof": "Prof. Dr. Thomas Meuche", 
-            "time": "09:00-10:00-09:30-16:30-09:30-16:30-09:30-16:30-09:30-10:30", 
-            "room": "FD244#FD244#FD244#FD244#FD244", 
-            "type": "HF:0#HF:0#HF:0#HF:0#HF:0", 
-            "name": "Samstag"
+            "desc": "am 04.10.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA009"
         }, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}, 
-        {}
-    ], 
-    "Montag": [
         {
-            "desc": "am 15.10.2012 von 17:30 bis 20:30", 
-            "prof": "am 11.03.2013 von 17:30 bis 20:30", 
-            "time": "17:30-20:30-17:30-20:30-17:30-20:30", 
-            "room": "FD248#FD248#FD248", 
-            "type": "HF:0#HF:0#HF:0", 
-            "name": "Methodik wissenschaftlichen Arbeitens"
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "time": "17:30-20:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "am 11.10.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA009"
         }, 
-        {}
+        {
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "time": "17:30-20:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "am 18.10.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "time": "17:30-20:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "am 25.10.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Samstag", 
+            "time": "09:00-10:00", 
+            "prof": "am 27.10.2012 von 09:00 bis 10:00", 
+            "desc": "Buchf\u00fchrung und Bilanzierung", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "time": "17:30-20:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "am 08.11.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "time": "17:30-20:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "am 15.11.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 29.11.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Samstag", 
+            "time": "09:30-16:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 06.12.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 13.12.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 20.12.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 10.01.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Samstag", 
+            "time": "09:30-16:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 17.01.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 24.01.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Samstag", 
+            "time": "09:30-16:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 31.01.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 07.02.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 14.02.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Samstag", 
+            "time": "09:30-10:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 21.02.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 28.02.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 30.10.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 06.11.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 13.11.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 20.11.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 27.11.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 04.12.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 11.12.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 18.12.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 08.01.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 15.01.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 22.01.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 29.01.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 05.02.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 19.02.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 26.02.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 05.03.2013 von 17:30 bis 20:30", 
+            "desc": "Pr\u00fcfungstermin", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 31.10.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 14.11.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }, 
+        {
+            "name": "Buchf\u00fchrung und Bilanzierung", 
+            "time": "17:30-20:30", 
+            "prof": "am 21.11.2012 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FD248"
+        }, 
+        {
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "time": "17:30-20:30", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "desc": "Pr\u00fcfungstermin VWA", 
+            "type": "HF:0", 
+            "room": "FD244"
+        }, 
+        {
+            "name": "Wirtschafts und Finanzmathematik", 
+            "time": "17:30-20:30", 
+            "prof": "am 16.01.2013 von 17:30 bis 20:30", 
+            "type": "HF:0", 
+            "room": "FA102/104"
+        }
     ]
 }

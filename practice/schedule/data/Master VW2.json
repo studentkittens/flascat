@@ -1,0 +1,117 @@
+{
+    "Tuesday": [
+        {
+            "name": "English for Masters of Composite Materials", 
+            "type": "WPF:0", 
+            "room": "FA222", 
+            "time": "11:30-13:00"
+        }, 
+        {
+            "name": "Moderne Beschichtungsverfahren", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "type": "HF:0", 
+            "room": "FA009"
+        }, 
+        {
+            "name": "Modul Qualit\u00e4t und Optimierung  Qualit\u00e4tssicherung", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }
+    ], 
+    "Wednesday": [
+        {
+            "name": "Charakterisierung und Pr\u00fcfung von Verbundwerkstoffen", 
+            "time": "08:00-09:30", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "Praktikum", 
+            "type": "HF:0", 
+            "room": "FA017"
+        }, 
+        {
+            "name": "Charakterisierung und Pr\u00fcfung von Verbundwerkstoffen", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "desc": "Praktikum", 
+            "type": "HF:0", 
+            "room": "FA017"
+        }, 
+        {
+            "name": "Moderne Beschichtungsverfahren", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "type": "HF:0", 
+            "room": "FA017"
+        }, 
+        {
+            "name": "Modul Qualit\u00e4t and Optimierung  Managementprozess Six Sigma", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "type": "HF:0", 
+            "room": "FB004A"
+        }, 
+        {
+            "name": "Charakterisierung und Pr\u00fcfung von Verbundwerkstoffen", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "type": "HF:0", 
+            "room": "FA017"
+        }
+    ], 
+    "Monday": [
+        {
+            "name": "PMCs", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. rer. nat. Werner Wend", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "PMCs", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. rer. nat. Werner Wend", 
+            "type": "HF:0", 
+            "room": "FA013"
+        }, 
+        {
+            "name": "English for Masters of Composite Materials", 
+            "type": "WPF:0", 
+            "room": "FB005", 
+            "time": "14:00-15:30"
+        }, 
+        {
+            "name": "Kunststoff als Leichtbauwerkstoff im Automobilbau", 
+            "time": "15:45-17:15", 
+            "prof": "Dr. Peter Michel", 
+            "desc": "(Master MB + Master VW )", 
+            "type": "WPF:0", 
+            "room": "FB005"
+        }, 
+        {
+            "name": "Apparate und Anlagenbau", 
+            "note": "( M MB + MVW 2)", 
+            "time": "15:45-17:15", 
+            "prof": "Dr. Klaus Ramming", 
+            "type": "WPF:0", 
+            "room": "FA222"
+        }, 
+        {
+            "name": "Kunststoff als Leichtbauwerkstoff im Automobilbau", 
+            "time": "17:30-19:00", 
+            "prof": "Dr. Peter Michel", 
+            "desc": "(Master MB + Master VW )", 
+            "type": "WPF:0", 
+            "room": "FB005"
+        }, 
+        {
+            "name": "Apparate und Anlagenbau", 
+            "note": "( M MB + MVW 2)", 
+            "time": "17:30-19:00", 
+            "prof": "Dr. Klaus Ramming", 
+            "type": "WPF:0", 
+            "room": "FA222"
+        }
+    ]
+}

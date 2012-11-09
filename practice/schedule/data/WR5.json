@@ -1,264 +1,280 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "name": "Kolloquium DATEV  VW SR", 
             "time": "08:00-17:00", 
-            "room": "FA014", 
+            "prof": "am 18.02.2013 von 08:00 bis 17:00", 
+            "desc": "Blockveranstaltung  Teil 1; Prof. Dr. G\u00f6hring", 
             "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
+            "room": "FA014 + FA009 + FA008/010"
         }, 
         {
-            "prof": "Prof. Dr. Beatrix Weber", 
-            "time": "11:30-13:00", 
-            "room": "FA107", 
-            "type": "HF:0", 
-            "name": "Wettbewerbsrecht", 
-            "note": "(WR7)"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Teil 1", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "13:00-17:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
-        }, 
-        {
-            "prof": "Prof. Dr. Beatrix Weber", 
-            "time": "14:00-15:30", 
-            "room": "FA202", 
-            "type": "HF:0", 
-            "name": "Compliance / ITund Datenschutzrecht  VW VC"
-        }, 
-        {
-            "prof": "Prof. Dr. Johannes Schwarz", 
+            "name": "Produktion und Qualit\u00e4tsmanagement", 
+            "note": "(WR 5 + WI 3)", 
             "time": "15:45-17:15", 
-            "room": "FD175", 
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
             "type": "HF:0", 
-            "name": "Insolvenzrecht Vertiefung, Anfechtungstatbest\u00e4nde und Eigenkapitalersatz  VW I"
-        }, 
-        {
-            "prof": "Prof. Dr. Beatrix Weber", 
-            "time": "15:45-17:15", 
-            "room": "FA202", 
-            "type": "HF:0", 
-            "name": "Compliance / ITund Datenschutzrecht  VW VC"
-        }, 
-        {
-            "prof": "Prof. Dr. Johannes Schwarz", 
-            "time": "17:30-19:00", 
-            "room": "FD175", 
-            "type": "HF:0", 
-            "name": "Insolvenzrecht Vertiefung, Anfechtungstatbest\u00e4nde und Eigenkapitalersatz  VW I"
-        }
-    ], 
-    "Freitag": [
-        {
-            "prof": "Prof. Dr. Dietmar Boerner", 
-            "time": "09:45-11:15", 
-            "room": "FA105", 
-            "type": "HF:0", 
-            "name": "Individualarbeitsrecht  Vertiefung  VW P"
-        }, 
-        {
-            "desc": "Blockveranstaltung", 
-            "prof": "Klaus Dehner", 
-            "time": "11:30-15:00", 
-            "room": "FD242", 
-            "type": "HF:0", 
-            "name": "Wirtschaftspr\u00fcfung  VW SR"
-        }, 
-        {
-            "desc": "Blockveranstaltung", 
-            "prof": "Klaus Dehner", 
-            "time": "13:00-16:45", 
-            "room": "FD242", 
-            "type": "HF:0", 
-            "name": "Wirtschaftspr\u00fcfung  VW SR"
-        }, 
-        {
-            "desc": "Blockveranstaltung", 
-            "prof": "Klaus Dehner", 
-            "time": "13:30-16:45", 
-            "room": "FD242", 
-            "type": "HF:0", 
-            "name": "Wirtschaftspr\u00fcfung  VW SR"
-        }, 
-        {
-            "prof": "Prof. Dr. Anja Feldberg", 
-            "time": "14:00-15:30", 
-            "room": "FA101", 
-            "type": "HF:0", 
-            "name": "Gesellschaftsrecht"
-        }, 
-        {
-            "desc": "Wirtschaftspr\u00fcfung  VW SR", 
-            "prof": "Klaus Dehner", 
-            "time": "08:00-13:00", 
-            "room": "FD242", 
-            "type": "HF:0", 
-            "name": "Samstag"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
-            "time": "08:00-17:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
-        }, 
-        {
-            "prof": "Prof. Dr. Heinz Helmreich", 
-            "time": "09:45-11:15", 
-            "room": "FD177", 
-            "type": "HF:0", 
-            "name": "Steuerliche Folgen und Gestaltung in der Unternehmensinsolvenz  VW USI"
-        }, 
-        {
-            "prof": "Prof. Dr. Dietmar Boerner", 
-            "time": "09:45-11:15", 
-            "room": "FD246", 
-            "type": "HF:0", 
-            "name": "Individualarbeitsrecht  Vertiefung  VW P"
-        }, 
-        {
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "11:30-13:00", 
-            "room": "FD242", 
-            "type": "HF:0", 
-            "name": "HGB  Rechnungslegung / HGB  Spezielle Anwendungen  VW SR"
-        }, 
-        {
-            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
-            "time": "11:30-13:00", 
-            "room": "FD177", 
-            "type": "HF:0", 
-            "name": "Atypische Arbeitsverh\u00e4ltnisse  VW P"
-        }, 
-        {
-            "prof": "Heinz Merz", 
-            "time": "14:00-15:30", 
-            "room": "FD246", 
-            "type": "HF:0", 
-            "name": "Vertr\u00e4ge Vertiefung  VW VC"
-        }, 
-        {
-            "prof": "Prof. Dr. Hans Eigenstetter", 
-            "time": "14:00-15:30", 
-            "room": "FD242", 
-            "type": "HF:0", 
-            "name": "Besteuerung der Personengesellschaften  VW SR"
-        }, 
-        {
-            "prof": "Heinz Merz", 
-            "time": "15:45-17:15", 
-            "room": "FD246", 
-            "type": "HF:0", 
-            "name": "Vertr\u00e4ge Vertiefung  VW VC"
-        }, 
-        {
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "15:45-17:15", 
-            "room": "FD242", 
-            "type": "HF:0", 
-            "name": "Wirtschaftspr\u00fcfung  VW SR"
-        }, 
-        {
-            "prof": "Prof. Dr. Heinz Helmreich", 
-            "time": "17:30-19:00", 
-            "room": "FD177", 
-            "type": "HF:0", 
-            "name": "Steuerliche Folgen und Gestaltung in der Unternehmensinsolvenz  VW USI"
+            "room": "FB109"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "08:00-13:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
-        }, 
-        {
-            "desc": "Blockveranstaltung  Teil 1", 
-            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "name": "Kolloquium DATEV  VW SR", 
             "time": "08:00-17:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
-        }, 
-        {
-            "prof": "Prof. Dr. Beatrix Weber", 
-            "time": "09:45-11:15", 
-            "room": "FA009", 
-            "type": "HF:0", 
-            "name": "Wettbewerbsrecht", 
-            "note": "(WR5)"
-        }, 
-        {
-            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "time": "11:30-13:00", 
-            "room": "FB001/002", 
-            "type": "HF:0", 
-            "name": "Produktion und Qualit\u00e4tsmanagement", 
-            "note": "(WR 5 + WI 3)"
-        }, 
-        {
-            "desc": "Blockveranstaltung DATEV", 
-            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
-            "time": "13:00-17:00", 
-            "room": "FA014", 
-            "type": "HF:0", 
-            "name": "Kolloquium DATEV  VW SR"
-        }, 
-        {
-            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
-            "time": "14:00-15:30", 
-            "room": "FA109", 
-            "type": "HF:0", 
-            "name": "Projekt/Fallstudie  VW VC"
-        }, 
-        {
             "prof": "Prof. Dr. Heinz G\u00f6hring", 
-            "time": "15:45-17:15", 
-            "room": "FD242", 
+            "desc": "Blockveranstaltung  Teil 1", 
             "type": "HF:0", 
-            "name": "HGB  Rechnungslegung / HGB  Spezielle Anwendungen  VW SR"
+            "room": "FA014 + FA009 + FA008/010"
         }, 
         {
-            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
-            "time": "15:45-17:15", 
-            "room": "FB109", 
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "08:00-13:00", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "desc": "Blockveranstaltung DATEV", 
             "type": "HF:0", 
-            "name": "Atypische Arbeitsverh\u00e4ltnisse  VW P"
+            "room": "FA014 + FA009 + FA008/010"
         }, 
         {
-            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
-            "time": "17:30-19:00", 
-            "room": "FA109", 
+            "name": "Wettbewerbsrecht", 
+            "note": "(WR5)", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Beatrix Weber", 
             "type": "HF:0", 
-            "name": "Projekt/Fallstudie  VW P"
+            "room": "FA009"
         }, 
         {
+            "name": "Produktion und Qualit\u00e4tsmanagement", 
+            "note": "(WR 5 + WI 3)", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "type": "HF:0", 
+            "room": "FB001/002"
+        }, 
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "13:00-17:00", 
             "prof": "Prof. Dr. Michael Sp\u00f6rl", 
-            "time": "17:30-19:00", 
-            "room": "FA009", 
+            "desc": "Blockveranstaltung DATEV", 
             "type": "HF:0", 
-            "name": "K\u00f6rperschafts und Gewerbesteuer  VW SR"
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Projekt/Fallstudie  VW VC", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
+            "type": "HF:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "HGB  Rechnungslegung / HGB  Spezielle Anwendungen  VW SR", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
+            "name": "Atypische Arbeitsverh\u00e4ltnisse  VW P", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
+            "type": "HF:0", 
+            "room": "FB109"
+        }, 
+        {
+            "name": "Projekt/Fallstudie  VW P", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
+            "type": "HF:0", 
+            "room": "FA109"
+        }, 
+        {
+            "name": "K\u00f6rperschafts und Gewerbesteuer  VW SR", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "type": "HF:0", 
+            "room": "FA009"
         }
     ], 
-    "Montag": [
+    "Freitag": [
         {
-            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "time": "15:45-17:15", 
-            "room": "FB109", 
+            "name": "Individualarbeitsrecht  Vertiefung  VW P", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Dietmar Boerner", 
             "type": "HF:0", 
-            "name": "Produktion und Qualit\u00e4tsmanagement", 
-            "note": "(WR 5 + WI 3)"
+            "room": "FA105"
+        }, 
+        {
+            "name": "Wirtschaftspr\u00fcfung  VW SR", 
+            "time": "11:30-15:00", 
+            "prof": "Klaus Dehner", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
+            "name": "Wirtschaftspr\u00fcfung  VW SR", 
+            "time": "13:00-16:45", 
+            "prof": "Klaus Dehner", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
+            "name": "Wirtschaftspr\u00fcfung  VW SR", 
+            "time": "13:30-16:45", 
+            "prof": "Klaus Dehner", 
+            "desc": "Blockveranstaltung", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
+            "name": "Gesellschaftsrecht", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Anja Feldberg", 
+            "type": "HF:0", 
+            "room": "FA101"
+        }, 
+        {
+            "name": "Samstag", 
+            "time": "08:00-13:00", 
+            "prof": "Klaus Dehner", 
+            "desc": "Wirtschaftspr\u00fcfung  VW SR", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "08:00-13:00", 
+            "prof": "am 19.02.2013 von 08:00 bis 13:00", 
+            "desc": "Blockveranstaltung  Teil 1; Prof. Dr. G\u00f6hring", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "desc": "Blockveranstaltung DATEV", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Wettbewerbsrecht", 
+            "note": "(WR7)", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Beatrix Weber", 
+            "type": "HF:0", 
+            "room": "FA107"
+        }, 
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "13:00-17:00", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "desc": "Blockveranstaltung  Teil 1", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Compliance / ITund Datenschutzrecht  VW VC", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Beatrix Weber", 
+            "type": "HF:0", 
+            "room": "FA202"
+        }, 
+        {
+            "name": "Insolvenzrecht Vertiefung, Anfechtungstatbest\u00e4nde und Eigenkapitalersatz  VW I", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Johannes Schwarz", 
+            "type": "HF:0", 
+            "room": "FD175"
+        }, 
+        {
+            "name": "Compliance / ITund Datenschutzrecht  VW VC", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Beatrix Weber", 
+            "type": "HF:0", 
+            "room": "FA202"
+        }, 
+        {
+            "name": "Insolvenzrecht Vertiefung, Anfechtungstatbest\u00e4nde und Eigenkapitalersatz  VW I", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. Johannes Schwarz", 
+            "type": "HF:0", 
+            "room": "FD175"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Kolloquium DATEV  VW SR", 
+            "time": "08:00-17:00", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "desc": "Blockveranstaltung DATEV", 
+            "type": "HF:0", 
+            "room": "FA014 + FA009 + FA008/010"
+        }, 
+        {
+            "name": "Steuerliche Folgen und Gestaltung in der Unternehmensinsolvenz  VW USI", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Heinz Helmreich", 
+            "type": "HF:0", 
+            "room": "FD177"
+        }, 
+        {
+            "name": "Individualarbeitsrecht  Vertiefung  VW P", 
+            "time": "09:45-11:15", 
+            "prof": "Prof. Dr. Dietmar Boerner", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }, 
+        {
+            "name": "HGB  Rechnungslegung / HGB  Spezielle Anwendungen  VW SR", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
+            "name": "Atypische Arbeitsverh\u00e4ltnisse  VW P", 
+            "time": "11:30-13:00", 
+            "prof": "Prof. Dr. J\u00fcrgen Kemper", 
+            "type": "HF:0", 
+            "room": "FD177"
+        }, 
+        {
+            "name": "Vertr\u00e4ge Vertiefung  VW VC", 
+            "time": "14:00-15:30", 
+            "prof": "Heinz Merz", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }, 
+        {
+            "name": "Besteuerung der Personengesellschaften  VW SR", 
+            "time": "14:00-15:30", 
+            "prof": "Prof. Dr. Hans Eigenstetter", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
+            "name": "Vertr\u00e4ge Vertiefung  VW VC", 
+            "time": "15:45-17:15", 
+            "prof": "Heinz Merz", 
+            "type": "HF:0", 
+            "room": "FD246"
+        }, 
+        {
+            "name": "Wirtschaftspr\u00fcfung  VW SR", 
+            "time": "15:45-17:15", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "type": "HF:0", 
+            "room": "FD242"
+        }, 
+        {
+            "name": "Steuerliche Folgen und Gestaltung in der Unternehmensinsolvenz  VW USI", 
+            "time": "17:30-19:00", 
+            "prof": "Prof. Dr. Heinz Helmreich", 
+            "type": "HF:0", 
+            "room": "FD177"
         }
     ]
 }

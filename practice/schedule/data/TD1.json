@@ -1,51 +1,51 @@
 {
-    "Dienstag": [
+    "Montag": [
         {
-            "desc": "Spinnerei   (InnoTex + TD 1)", 
-            "prof": "Mueb_H8", 
-            "time": "08:00-09:30-09:45-11:15-11:30-13:00", 
-            "name": "Textile Produktionsverfahren", 
-            "type": "HF:0#HF:0#HF:0"
-        }
-    ], 
-    "Freitag": [
-        {
-            "desc": "Dipl.Des. Christine Scholl", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(4 SWS Block)#(4 SWS Block)", 
+            "time": "08:00-09:30-08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
             "prof": "Mueb_H9A", 
-            "time": "08:00-09:30-09:45-11:15-11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
-            "name": "Digitale Bildbearbeitung", 
-            "type": "HF:0#HF:0#FWM:0#FWM:0#FWM:0#FWM:0#FWM:0", 
-            "note": "(4 SWS Block)#(4 SWS Block)"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "desc": "Susanne Winter", 
-            "prof": "Mueb_H9", 
-            "time": "09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
-            "name": "Darstellen", 
-            "type": "HF:0#HF:0#HF:0#HF:0", 
-            "note": "(4 SWS Block)#(4 SWS Block)#(4 SWS Block)#(4 SWS Block)"
+            "type": "FWM:0#FWM:0#HF:0#FWM:0#HF:0#HF:0#HF:0", 
+            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Prof. Anita Oswald", 
-            "prof": "Mueb_H9", 
-            "time": "09:45-11:15-11:30-13:00-14:00-15:30", 
             "name": "Textildesign", 
+            "note": "(4 SWS Block)#(4 SWS Block)", 
+            "time": "09:45-11:15-11:30-13:00-14:00-15:30", 
+            "prof": "Mueb_H9", 
             "type": "HF:0#HF:0#FWM:0", 
-            "note": "(4 SWS Block)#(4 SWS Block)"
+            "desc": "Prof. Anita Oswald"
         }
     ], 
-    "Montag": [
+    "Freitag": [
         {
-            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41", 
+            "name": "Digitale Bildbearbeitung", 
+            "note": "(4 SWS Block)#(4 SWS Block)", 
+            "time": "08:00-09:30-09:45-11:15-11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
             "prof": "Mueb_H9A", 
-            "time": "08:00-09:30-08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
-            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
-            "type": "FWM:0#FWM:0#HF:0#FWM:0#HF:0#HF:0#HF:0", 
-            "note": "(4 SWS Block)#(4 SWS Block)"
+            "type": "HF:0#HF:0#FWM:0#FWM:0#FWM:0#FWM:0#FWM:0", 
+            "desc": "Dipl.Des. Christine Scholl"
+        }
+    ], 
+    "Dienstag": [
+        {
+            "name": "Textile Produktionsverfahren", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00", 
+            "prof": "Mueb_H8", 
+            "type": "HF:0#HF:0#HF:0", 
+            "desc": "Spinnerei   (InnoTex + TD 1)"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "name": "Darstellen", 
+            "note": "(4 SWS Block)#(4 SWS Block)#(4 SWS Block)#(4 SWS Block)", 
+            "time": "09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
+            "prof": "Mueb_H9", 
+            "type": "HF:0#HF:0#HF:0#HF:0", 
+            "desc": "Susanne Winter"
         }
     ]
 }

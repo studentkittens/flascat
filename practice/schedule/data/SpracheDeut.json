@@ -1,48 +1,48 @@
 {
-    "Donnerstag": [
+    "Montag": [
         {
-            "time": "14:00-15:30", 
-            "room": "FA109", 
-            "name": "Deutsch als Fremdsprache  Kurs A1", 
-            "prof": "WFSp:0"
-        }, 
-        {
-            "desc": "Krisztina Schneider", 
-            "prof": "WFSp:0", 
-            "time": "14:00-15:30", 
+            "name": "Deutsch als Fremdsprache  Kurs B1/B2", 
             "room": "FA106", 
-            "name": "Deutsch als Fremdsprache  Kurs A2"
-        }, 
-        {
-            "time": "15:45-17:15", 
-            "room": "FA109", 
-            "name": "Deutsch als Fremdsprache  Kurs A1", 
-            "prof": "WFSp:0"
-        }, 
-        {
-            "desc": "Krisztina Schneider", 
+            "time": "08:00-09:30", 
             "prof": "WFSp:0", 
-            "time": "15:45-17:15", 
-            "room": "FA106", 
-            "name": "Deutsch als Fremdsprache  Kurs A2"
+            "desc": "Krisztina Schneider"
         }
     ], 
     "Mittwoch": [
         {
-            "desc": "Krisztina Schneider", 
-            "prof": "WFSp:0", 
-            "time": "14:00-15:30", 
+            "name": "Deutsch als Fremdsprache  Kurs B1/B2", 
             "room": "FA106", 
-            "name": "Deutsch als Fremdsprache  Kurs B1/B2"
+            "time": "14:00-15:30", 
+            "prof": "WFSp:0", 
+            "desc": "Krisztina Schneider"
         }
     ], 
-    "Montag": [
+    "Donnerstag": [
         {
-            "desc": "Krisztina Schneider", 
+            "name": "Deutsch als Fremdsprache  Kurs A1", 
             "prof": "WFSp:0", 
-            "time": "08:00-09:30", 
+            "room": "FA109", 
+            "time": "14:00-15:30"
+        }, 
+        {
+            "name": "Deutsch als Fremdsprache  Kurs A2", 
             "room": "FA106", 
-            "name": "Deutsch als Fremdsprache  Kurs B1/B2"
+            "time": "14:00-15:30", 
+            "prof": "WFSp:0", 
+            "desc": "Krisztina Schneider"
+        }, 
+        {
+            "name": "Deutsch als Fremdsprache  Kurs A1", 
+            "prof": "WFSp:0", 
+            "room": "FA109", 
+            "time": "15:45-17:15"
+        }, 
+        {
+            "name": "Deutsch als Fremdsprache  Kurs A2", 
+            "room": "FA106", 
+            "time": "15:45-17:15", 
+            "prof": "WFSp:0", 
+            "desc": "Krisztina Schneider"
         }
     ]
 }
