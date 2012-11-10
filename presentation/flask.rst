@@ -323,14 +323,13 @@ Deployment Options
 
 
 
-moosr - music metadata search engine
-------------------------------------
+moosr - Ein Beispielprojekt 
+----------------------------
 
 .. image:: static/moosr.png
-    :height: 400
+    :height: 500
     :align: center
 
-Unsere kleine Beispielseite mit Flask.
 
 
 Übung
