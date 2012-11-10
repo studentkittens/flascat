@@ -5,7 +5,6 @@ import urllib
 import unittest
 import json
 
-
 ###########################################################################
 #                                 Helper                                  #
 ###########################################################################
@@ -45,7 +44,7 @@ class TestRestInterface(unittest.TestCase):
         self.assertTrue(len(data) > 0, 'API Root not reachable (Server running?)')
 
     def test_listcourses(self):
-        data = request('list')
+        data = request('list_courses')
         self.assertTrue(len(data) > 10)
         self.assertTrue('Inf' in data)
         self.assertTrue('Vinf' in data)
