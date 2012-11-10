@@ -46,7 +46,6 @@ class TestRestInterface(unittest.TestCase):
 
     def test_listcourses(self):
         data = request('list')
-        print(data)
         self.assertTrue(len(data) > 10)
         self.assertTrue('Inf' in data)
         self.assertTrue('Vinf' in data)

@@ -24,7 +24,6 @@ def count(studiengang='', semester=-1):
     else:
         return len(glob.glob('data/*.json'))
 
-
 def list_courses():
     jsons = glob.glob('data/*.json')
-    return list(set([path.split('_')[0][len('data'):] for path in jsons]))
+    return list(set([path.split('_')[0][len('data/'):] for path in jsons]))
