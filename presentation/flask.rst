@@ -106,10 +106,9 @@ einem unformattieren **Hallo Welt** ausgeben.
 Und nun... Python!
 ------------------
 
-|
-|
-|
-|
+.. image:: static/pycake.jpg
+    :width: 500
+    :align: center
 
 Say Hello to a new language.
 
@@ -146,7 +145,7 @@ Routing & Troubleshooting #2
      from flask import redirect
      @app.route('/redirect_to_google')
      def hello():
-        return redirect('www.google.de')
+        return redirect('http://www.google.de')
     
   * Würde bei einem GET von ``localhost:5000/redirect_to_google`` ``www.google.de``
     mittels eines HTTP Redirects aufrufen.
@@ -293,7 +292,12 @@ Server Inside *
 moosr - music metadata search engine
 ------------------------------------
 
+.. image:: static/moosr.jpg
+    :height: 400
+    :align: center
+
 Unsere kleine Beispielseite mit Flask.
+
 
 Übung
 -----

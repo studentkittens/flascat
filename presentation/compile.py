@@ -25,8 +25,11 @@ def compile():
     shutil.copytree('_static', 'static')
     copy_each_from('_static', 'html/static')
     shutil.rmtree('html/_images', ignore_errors=True)
-    shutil.copytree('_static', 'html/_images')
     subprocess.call(['impress'])
+    shutil.copytree('_static', 'html/_images')  # python kitteh fixed thiz bugz :)
+    # subprocess.call(['impress']) löscht aus mir unerklärlichen Gründen den
+    # html/_images Ordner, Kopieren nach dem Kopilieren ist zumindest ein
+    # Workaround - will i get kekse now?
 
 
 def usage():
