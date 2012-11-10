@@ -9,7 +9,7 @@ Da wir nette Leute sind haben wir euch ein Skelett bereitgestellt.
 
 import json
 from flask import Flask
-from loader.load import load, count, NoSuchCourse
+from loader.load import load, count, list_courses, NoSuchCourse
 
 app = Flask('practice')
 
@@ -27,14 +27,23 @@ def api(studiengang, semester):
         return '"no results"', 404
 
 
-@app.route('/api/count')
-def api_count():
-    return str(count())
+@app.route('/api/count/<studiengang>')
+def api_count_filter(studiengang):
+    if studiengang == 'all':
+        return str(count())
+    else:
+        return str(count(studiengang=studiengang))
 
 
 @app.route('/api/search')
 def api_search():
     return '...'
+
+
+@app.route('/api/list')
+def api_list():
+    return json.dumps(list_courses())
+
 
 if __name__ == '__main__':
     app.run(debug=True)
