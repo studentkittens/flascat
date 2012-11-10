@@ -11,12 +11,12 @@ def parse(sem, stg):
        semester=sem))
     parser.print_table()
 
-    with open(os.path.join('data', stg + sem + '.json'), 'w') as f:
+    with open(os.path.join('data', stg + '_' + sem + '.json'), 'w') as f:
         f.write(parser.get_json())
 
 
 if __name__ == '__main__':
-    with open('ws2012.list', 'r') as f:
+    with open('webparser/ws2012.list', 'r') as f:
         for line in f:
             result = line.split()
             stname = result[-1].replace('_',' ')
