@@ -450,7 +450,7 @@ Diese Folie soll Spicken verhindern
 -----------------------------------
 
 
-.. image:: static/french_cat.png
+.. image:: static/nfrench_cat.png
    :width: 550
    :align: center
 
@@ -489,7 +489,7 @@ Die Elegante und das Biest:
 Diese Folie auch
 ----------------
 
-.. image:: static/mcdonald.png
+.. image:: static/nmcdonald.png
     :width: 500
     :align: center
 
