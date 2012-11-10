@@ -106,7 +106,7 @@ einem unformattieren **Hallo Welt** ausgeben.
 Und nun... Python!
 ------------------
 
-.. image:: static/pycake.jpg
+.. image:: static/pycake.png
     :width: 500
     :align: center
 
@@ -219,10 +219,10 @@ Request Object
 
 
 
-Session Object
---------------
+Session Object #1
+-----------------
 
-**Defining a session at login**
+**Codeblock um Login zu realisieren**
 
 .. code-block:: python
 
@@ -239,7 +239,21 @@ Session Object
             return redirect(url_for('index'))
         return '''
 
-**HTML Form**
+
+Session Object #2
+-----------------
+
+**Session Management**
+
+.. code-block:: python
+
+    @app.route('/login', methods=['GET', 'POST'])
+            session['user'] = request.form['user']
+            return redirect(url_for('index'))
+        return '''
+
+
+**HTML Formular**
 
 .. code-block:: html
     
@@ -287,12 +301,32 @@ Server Inside *
     * ``host`` definiert die IP-Adresse auf der gelauscht werden soll
     * ``port`` definiert den Port auf dem gelauscht werden soll
 
-         
+
+Deployment Options
+------------------
+
+**Do it yourself - Deploying Flask**
+
+* mod_wsgi (Apache) 
+* Standalone WSGI Containers (Gunicorn Python WSGI HTTP Server)
+* uWSGI
+* FastCGI
+* CGI
+
+
+**Deploying Flask on Business Enterprise Platforms**
+
+* Flask on Heroku
+* Deploying WSGI on dotCloud
+* Flask on Webfaction
+* Google App Engine
+
+
 
 moosr - music metadata search engine
 ------------------------------------
 
-.. image:: static/moosr.jpg
+.. image:: static/moosr.png
     :height: 400
     :align: center
 

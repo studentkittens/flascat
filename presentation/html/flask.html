@@ -160,7 +160,7 @@ Hallo Welt</strong> ausgeben.</p>
 <div class="step slide section" data-x="2000" data-y="800.0" id="und-nun-python">
 <h1>
 Und nun... Python!<a class="headerlink" href="#und-nun-python" title="Permalink to this headline">¶</a></h1>
-<img alt="_images/pycake.jpg" class="align-center" src="_images/pycake.jpg" style="width: 500px;">
+<img alt="_images/pycake.png" class="align-center" src="_images/pycake.png" style="width: 500px;">
 <p>
 Say Hello to a new language.</p>
 </div>
@@ -349,12 +349,12 @@ Anmerkung</strong></p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="0" data-y="2400.0" id="session-object">
+<div class="step slide section" data-x="0" data-y="2400.0" id="session-object-1">
 <h1>
-Session Object<a class="headerlink" href="#session-object" title="Permalink to this headline">¶</a></h1>
+Session Object #1<a class="headerlink" href="#session-object-1" title="Permalink to this headline">¶</a></h1>
 <p>
 <strong>
-Defining a session at login</strong></p>
+Codeblock um Login zu realisieren</strong></p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
@@ -370,9 +370,23 @@ Defining a session at login</strong></p>
     <span class="k">return</span> <span class="s">&#39;&#39;&#39;</span>
 </pre></div>
 </div>
+</div>
+<div class="step slide section" data-x="1000" data-y="2400.0" id="session-object-2">
+<h1>
+Session Object #2<a class="headerlink" href="#session-object-2" title="Permalink to this headline">¶</a></h1>
 <p>
 <strong>
-HTML Form</strong></p>
+Session Management</strong></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;GET&#39;</span><span class="p">,</span> <span class="s">&#39;POST&#39;</span><span class="p">])</span>
+        <span class="n">session</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">]</span>
+        <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;index&#39;</span><span class="p">))</span>
+    <span class="k">return</span> <span class="s">&#39;&#39;&#39;</span>
+</pre></div>
+</div>
+<p>
+<strong>
+HTML Formular</strong></p>
 <div class="highlight-html">
 <div class="highlight"><pre><span class="nt">&lt;form</span> <span class="na">action=</span><span class="s">&quot;&quot;</span> <span class="na">method=</span><span class="s">&quot;post&quot;</span><span class="nt">&gt;</span>
     <span class="nt">&lt;p&gt;&lt;input</span> <span class="na">type=</span><span class="s">text</span> <span class="na">name=</span><span class="s">user</span><span class="nt">&gt;</span>
@@ -381,7 +395,7 @@ HTML Form</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="1000" data-y="2400.0" id="debugging-inside">
+<div class="step slide section" data-x="2000" data-y="2400.0" id="debugging-inside">
 <h1>
 Debugging Inside<a class="headerlink" href="#debugging-inside" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -402,7 +416,7 @@ können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden</li>
 Demo</li>
 </ul>
 </div>
-<div class="step slide section" data-x="2000" data-y="2400.0" id="server-inside">
+<div class="step slide section" data-x="3000" data-y="2400.0" id="server-inside">
 <h1>
 Server Inside *<a class="headerlink" href="#server-inside" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -446,14 +460,46 @@ Server Parameter änderbar</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="3000" data-y="2400.0" id="moosr-music-metadata-search-engine">
+<div class="step slide section" data-x="0" data-y="3200.0" id="deployment-options">
+<h1>
+Deployment Options<a class="headerlink" href="#deployment-options" title="Permalink to this headline">¶</a></h1>
+<p>
+<strong>
+Do it yourself - Deploying Flask</strong></p>
+<ul class="simple">
+<li>
+mod_wsgi (Apache)</li>
+<li>
+Standalone WSGI Containers (Gunicorn Python WSGI HTTP Server)</li>
+<li>
+uWSGI</li>
+<li>
+FastCGI</li>
+<li>
+CGI</li>
+</ul>
+<p>
+<strong>
+Deploying Flask on Business Enterprise Platforms</strong></p>
+<ul class="simple">
+<li>
+Flask on Heroku</li>
+<li>
+Deploying WSGI on dotCloud</li>
+<li>
+Flask on Webfaction</li>
+<li>
+Google App Engine</li>
+</ul>
+</div>
+<div class="step slide section" data-x="1000" data-y="3200.0" id="moosr-music-metadata-search-engine">
 <h1>
 moosr - music metadata search engine<a class="headerlink" href="#moosr-music-metadata-search-engine" title="Permalink to this headline">¶</a></h1>
-<img alt="_images/moosr.jpg" class="align-center" src="_images/moosr.jpg" style="height: 400px;">
+<img alt="_images/moosr.png" class="align-center" src="_images/moosr.png" style="height: 400px;">
 <p>
 Unsere kleine Beispielseite mit Flask.</p>
 </div>
-<div class="step slide section" data-x="0" data-y="3200.0" id="ubung">
+<div class="step slide section" data-x="2000" data-y="3200.0" id="ubung">
 <h1>
 Übung<a class="headerlink" href="#ubung" title="Permalink to this headline">¶</a></h1>
 </div>
