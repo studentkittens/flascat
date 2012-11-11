@@ -201,15 +201,14 @@ Routing & Troubleshooting #3
 
 **URL Building:**
 
-    * Vermeidung von hardgecodeten URLs im Programm:
+    * Vermeidung von hardgecodeten URLs im Programm: ::
 
-        ``url_for('a_name_of_a_view_function')`` 
+        url_for('a_name_of_a_view_function') 
 
 **Statische Komponenten:**
 
-    * Werden in einem ``static/`` folder abgelegt (CSS, Bilder).
-    * Templates gehen per default nach ``templates/``.
-    * Holen eines Images: ::
+    * … werden in einem ``static/`` folder abgelegt (CSS, Bilder).
+    * Templates gehen per default nach ``templates/``. ::
 
         url_for('static/', filename='cover.png')
 
@@ -221,7 +220,7 @@ Templates & How to render them
     * Mit ``render_template('hello.html)`` wird über Jinja2 die Seite
       ``hi.html`` gerendert ::
 
-        @app.route('/<name>')
+        @app.route('/greet/<name>')
         def hello(name):
            return render_template('hi.html',you=name)
 
@@ -237,8 +236,6 @@ Templates & How to render them
 
 Templates #2
 ------------
-
-Hier muss noch for, %body etc rein.
 
 .. code-block:: html
 

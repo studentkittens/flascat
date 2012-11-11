@@ -305,11 +305,10 @@ URL Building:</strong></p>
 <li>
 <p class="first">
 Vermeidung von hardgecodeten URLs im Programm:</p>
-<blockquote>
-<div><p>
-<tt class="docutils literal">
-<span class="pre">url_for('a_name_of_a_view_function')</span></tt></p>
-</div></blockquote>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;a_name_of_a_view_function&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
 </li>
 </ul>
 </div></blockquote>
@@ -320,17 +319,13 @@ Statische Komponenten:</strong></p>
 <div><ul>
 <li>
 <p class="first">
-Werden in einem <tt class="docutils literal">
+… werden in einem <tt class="docutils literal">
 <span class="pre">static/</span></tt> folder abgelegt (CSS, Bilder).</p>
 </li>
 <li>
 <p class="first">
 Templates gehen per default nach <tt class="docutils literal">
 <span class="pre">templates/</span></tt>.</p>
-</li>
-<li>
-<p class="first">
-Holen eines Images:</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;static/&#39;</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s">&#39;cover.png&#39;</span><span class="p">)</span>
 </pre></div>
@@ -354,7 +349,7 @@ Mit <tt class="docutils literal">
 <tt class="docutils literal">
 <span class="pre">hi.html</span></tt> gerendert</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&lt;name&gt;&#39;</span><span class="p">)</span>
+<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/greet/&lt;name&gt;&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;hi.html&#39;</span><span class="p">,</span><span class="n">you</span><span class="o">=</span><span class="n">name</span><span class="p">)</span>
 </pre></div>
@@ -377,8 +372,6 @@ Mit <tt class="docutils literal">
 <div class="step slide section" data-x="3000" data-y="1600.0" id="templates-2">
 <h1>
 Templates #2<a class="headerlink" href="#templates-2" title="Permalink to this headline">¶</a></h1>
-<p>
-Hier muss noch for, %body etc rein.</p>
 <div class="highlight-html">
 <div class="highlight"><pre><span class="c">&lt;!-- userlist.html --&gt;</span>
 <span class="cp">&lt;!doctype html&gt;</span>
