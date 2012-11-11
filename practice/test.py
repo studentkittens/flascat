@@ -45,8 +45,8 @@ class TestRestInterface(unittest.TestCase):
         self.assertTrue(len(data) > 0, 'API Root not reachable (Server running?)')
 
     def test_listcourses(self):
-        data = request('list')
-        self.assertTrue(len(data) > 10)
+        data = request('list_courses')
+        self.assertTrue(len(data) == 30)
         self.assertTrue('Inf' in data)
         self.assertTrue('Vinf' in data)
         self.assertTrue('BW' in data)
@@ -59,6 +59,18 @@ class TestRestInterface(unittest.TestCase):
         data = request('count', 'Inf')
         self.assertTrue(int(data) == 3)
 
+    def test_get(self):
+        data = request('Inf', '5')
+        contain = {
+                "room": "Ex_Virtuell",
+                "name": "Gender und Diversity",
+                "time": "04:00-05:30",
+                "prof": "Dozent der VHB",
+                "type": "AWM:1",
+                "desc": "Virtuelle Vorlesung"
+        }
+        self.assertTrue(contain in data['Montag'])
+
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(failfast=True)
 
