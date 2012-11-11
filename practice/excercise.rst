@@ -30,6 +30,7 @@ Testen könnt ihr die Aufgaben **a)** und **b)** indem ihr ``test.py`` ausführt
 
     OK
 
+Die Musterlösung stellen wir gegen Ende der Stunde dann auf Dropbox.
 
 Aufgaben
 --------
@@ -99,7 +100,7 @@ Aufgaben
     
     In ``templates/simple_table.html`` ist eine leichte Hilfestellung bzgl. HTML Tables.
 
-    *Beispiel:*
+    *Beispiel (... zoomen ...):*
 
     .. image:: table_screenshot.png
         :align: left
