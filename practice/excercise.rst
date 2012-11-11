@@ -97,7 +97,7 @@ Aufgaben
     Nutze dazu die Methode ``render_template()`` und schreibe ein Jinja2 Template dass fähig 
     ist den Stundenplan als HTML zu rendern.
     
-    In ``templates/hello.html`` ist eine leichte Hilfestellung bzgl. HTML Tables.
+    In ``templates/simple_table.html`` ist eine leichte Hilfestellung bzgl. HTML Tables.
 
     *Beispiel:*
 
