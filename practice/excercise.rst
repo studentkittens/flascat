@@ -13,21 +13,24 @@ Ihr müsst lediglich ``app.py`` für diese Übung anpassen, ein Skelett für ein
 liegt dort bereits vor.
 
 Ausführen könnt ihr eure Anwendung indem ihr in das Directory ``practice`` navigiert, und
-dort ``app.py`` ausführt. Danach könnt ihr einem Webbrowser (zB Chromium) eurer Wahl,
+dort ``app.py`` ausführt. Wenn alles gut ging, dann könnt ihr unter ``localhost:5000``
+in euren Webbrowser eine Begrüßungsmessage sehen.
 
 Testen könnt ihr die Aufgaben **a)** und **b)** indem ihr ``test.py`` ausführt: ::
 
-    $ python2 test.py
+    $ python test.py
     ** Querying: http://localhost:5000/api/count/all
     ** Querying: http://localhost:5000/api/count/Inf
     ** Querying: http://localhost:5000/api/list
     ** Querying: http://localhost:5000/api
+    ...
     
     ----------------------------------------------------------------------
     Ran 4 tests in 0.016s
 
     OK
 
+Die Musterlösung stellen wir gegen Ende der Stunde dann auf Dropbox.
 
 Aufgaben
 --------
@@ -36,10 +39,11 @@ Aufgaben
 
     Erweitere ``app.py`` so dass eine Abfrage von ``localhost:5000/api/Inf/5``
     unseren aktuellen Stundenplan liefert. Der Studiengang ``Inf`` und das Semester
-    soll dabei entsprechend durch andere Studiengänge wie ``BW`` ersetzt werden.
+    soll dabei entsprechend durch andere Studiengänge wie ``BW`` ersetzt werden können.
 
     *Beispiel Antwort:* ::
 
+        $ curl localhost:5000/api/Inf/5
         {
             "Dienstag": [
                 {
@@ -94,9 +98,9 @@ Aufgaben
     Nutze dazu die Methode ``render_template()`` und schreibe ein Jinja2 Template dass fähig 
     ist den Stundenplan als HTML zu rendern.
     
-    Inn ``templates/hello.html`` ist eine leichte Hilfestellung bzgl. HTML Tables.
+    In ``templates/simple_table.html`` ist eine leichte Hilfestellung bzgl. HTML Tables.
 
-    *Beispiel:*
+    *Beispiel (... zoomen ...):*
 
     .. image:: table_screenshot.png
         :align: left

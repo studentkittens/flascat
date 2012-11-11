@@ -109,7 +109,7 @@ endobj
 % 'R10': class PDFInfo 
 10 0 obj
 << /Author ()
- /CreationDate (D:20121110100631-01'00')
+ /CreationDate (D:20121111035245-01'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -139,7 +139,7 @@ endobj
 << /Dest [ 6 0 R
  /XYZ
  62.69291
- 434.8236
+ 390.8236
  0 ]
  /Parent 11 0 R
  /Prev 12 0 R
@@ -156,7 +156,7 @@ endobj
 % 'R15': class PDFStream 
 15 0 obj
 % page stream
-<< /Length 5058 >>
+<< /Length 4813 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -185,19 +185,19 @@ BT 1 0 0 1 0 14 Tm 1.809982 Tw 12 TL /F1 10 Tf 0 0 0 rg (Wir haben bereits ein M
 Q
 Q
 q
-1 0 0 1 62.69291 606.0236 cm
+1 0 0 1 62.69291 594.0236 cm
 q
-BT 1 0 0 1 0 14 Tm .70284 Tw 12 TL /F1 10 Tf 0 0 0 rg (Ausf\374hren k\366nnt ihr eure Anwendung indem ihr in das Directory ) Tj /F3 10 Tf (practice ) Tj /F1 10 Tf (navigiert, und dort ) Tj /F3 10 Tf (app.py) Tj T* 0 Tw /F1 10 Tf (ausf\374hrt. Danach k\366nnt ihr einem Webbrowser \(zB Chromium\) eurer Wahl,) Tj T* ET
+BT 1 0 0 1 0 26 Tm .70284 Tw 12 TL /F1 10 Tf 0 0 0 rg (Ausf\374hren k\366nnt ihr eure Anwendung indem ihr in das Directory ) Tj /F3 10 Tf (practice ) Tj /F1 10 Tf (navigiert, und dort ) Tj /F3 10 Tf (app.py) Tj T* 0 Tw 2.799213 Tw /F1 10 Tf (ausf\374hrt. Wenn alles gut ging, dann k\366nnt ihr unter ) Tj /F3 10 Tf (localhost:5000 ) Tj /F1 10 Tf (in euren Webbrowser eine) Tj T* 0 Tw (Begr\374\337ungsmessage sehen.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 588.0236 cm
+1 0 0 1 62.69291 576.0236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Testen k\366nnt ihr die Aufgaben ) Tj /F2 10 Tf (a\) ) Tj /F1 10 Tf (und ) Tj /F2 10 Tf (b\) ) Tj /F1 10 Tf (indem ihr ) Tj /F3 10 Tf (test.py ) Tj /F1 10 Tf (ausf\374hrt:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 446.8236 cm
+1 0 0 1 62.69291 422.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -207,52 +207,59 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 132 re B*
+n -6 -6 468.6898 144 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 110 Tm /F3 10 Tf 12 TL ($ python2 test.py) Tj T* (** Querying: http://localhost:5000/api/count/all) Tj T* (** Querying: http://localhost:5000/api/count/Inf) Tj T* (** Querying: http://localhost:5000/api/list) Tj T* (** Querying: http://localhost:5000/api) Tj T*  T* (----------------------------------------------------------------------) Tj T* (Ran 4 tests in 0.016s) Tj T*  T* (OK) Tj T* ET
+BT 1 0 0 1 0 122 Tm /F3 10 Tf 12 TL ($ python test.py) Tj T* (** Querying: http://localhost:5000/api/count/all) Tj T* (** Querying: http://localhost:5000/api/count/Inf) Tj T* (** Querying: http://localhost:5000/api/list) Tj T* (** Querying: http://localhost:5000/api) Tj T* (...) Tj T*  T* (----------------------------------------------------------------------) Tj T* (Ran 4 tests in 0.016s) Tj T*  T* (OK) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 413.8236 cm
+1 0 0 1 62.69291 402.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Die Musterl\366sung stellen wir gegen Ende der Stunde dann auf Dropbox.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 369.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Aufgaben) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 395.8236 cm
+1 0 0 1 62.69291 351.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (a\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 389.8236 cm
+1 0 0 1 62.69291 345.8236 cm
 Q
 q
-1 0 0 1 62.69291 110.4591 cm
+1 0 0 1 62.69291 99.56798 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 243.3645 cm
+1 0 0 1 20 210.2556 cm
 q
-BT 1 0 0 1 0 26 Tm 2.03664 Tw 12 TL /F1 10 Tf 0 0 0 rg (Erweitere ) Tj /F3 10 Tf (app.py ) Tj /F1 10 Tf (so dass eine Abfrage von ) Tj /F3 10 Tf (localhost:5000/api/Inf/5 ) Tj /F1 10 Tf (unseren aktuellen) Tj T* 0 Tw .65748 Tw (Stundenplan liefert. Der Studiengang ) Tj /F3 10 Tf (Inf ) Tj /F1 10 Tf (und das Semester soll dabei entsprechend durch andere) Tj T* 0 Tw (Studieng\344nge wie ) Tj /F3 10 Tf (BW ) Tj /F1 10 Tf (ersetzt werden.) Tj T* ET
+BT 1 0 0 1 0 26 Tm 2.03664 Tw 12 TL /F1 10 Tf 0 0 0 rg (Erweitere ) Tj /F3 10 Tf (app.py ) Tj /F1 10 Tf (so dass eine Abfrage von ) Tj /F3 10 Tf (localhost:5000/api/Inf/5 ) Tj /F1 10 Tf (unseren aktuellen) Tj T* 0 Tw .65748 Tw (Stundenplan liefert. Der Studiengang ) Tj /F3 10 Tf (Inf ) Tj /F1 10 Tf (und das Semester soll dabei entsprechend durch andere) Tj T* 0 Tw (Studieng\344nge wie ) Tj /F3 10 Tf (BW ) Tj /F1 10 Tf (ersetzt werden k\366nnen.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 20 225.3645 cm
+1 0 0 1 20 192.2556 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (Beispiel Antwort:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 20 92 cm
+1 0 0 1 20 50 cm
 q
 q
 .740925 0 0 .740925 0 0 cm
@@ -262,22 +269,39 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 606 168 re B*
+n -6 -6 606 180 re B*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 146 Tm /F3 10 Tf 12 TL ({) Tj T* (    "Dienstag": [) Tj T* (        {) Tj T* (            "desc": "\\"Erstellung von Applikationen f\\u00fcr ein Windows Phone\\" 11.03.14.03.2013",) Tj T* (            "name": "Praxisblock I",) Tj T* (            "prof": "Prof. Dr. Martin Thost",) Tj T* (            "room": "FB006",) Tj T* (            "time": "09:00-17:30",) Tj T* (            "type": "HF:1") Tj T* (        }) Tj T* (    ],) Tj T* (    ...) Tj T* (}) Tj T* ET
+BT 1 0 0 1 0 158 Tm /F3 10 Tf 12 TL ($ curl localhost:5000/api/Inf/5) Tj T* ({) Tj T* (    "Dienstag": [) Tj T* (        {) Tj T* (            "desc": "\\"Erstellung von Applikationen f\\u00fcr ein Windows Phone\\" 11.03.14.03.2013",) Tj T* (            "name": "Praxisblock I",) Tj T* (            "prof": "Prof. Dr. Martin Thost",) Tj T* (            "room": "FB006",) Tj T* (            "time": "09:00-17:30",) Tj T* (            "type": "HF:1") Tj T* (        }) Tj T* (    ],) Tj T* (    ...) Tj T* (}) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 20 42 cm
+1 0 0 1 20 0 cm
 q
 BT 1 0 0 1 0 26 Tm 5.11498 Tw 12 TL /F1 10 Tf 0 0 0 rg (F\374r das Abfragen eines Python Dictionaries mit dem Stundenplan k\366nnt ihr die Funktion) Tj T* 0 Tw 2.627251 Tw /F3 10 Tf (load\(studiengang,) Tj ( ) Tj (semester\) ) Tj /F1 10 Tf (nutzen. F\374r das Umwandeln in valides JSON k\366nnt ihr die) Tj T* 0 Tw (eingebaute Funktion ) Tj /F3 10 Tf (json.dumps\(python_object\) ) Tj /F1 10 Tf (nutzen.) Tj T* ET
 Q
 Q
+q
+Q
+Q
+ 
+endstream
+endobj
+% 'R16': class PDFStream 
+16 0 obj
+% page stream
+<< /Length 4834 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
 q
 1 0 0 1 20 0 cm
 q
@@ -288,29 +312,20 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 110.4591 cm
+1 0 0 1 62.69291 729.0236 cm
 Q
 q
-1 0 0 1 62.69291 92.45908 cm
+1 0 0 1 62.69291 711.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (b\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 86.45908 cm
+1 0 0 1 62.69291 705.0236 cm
 Q
- 
-endstream
-endobj
-% 'R16': class PDFStream 
-16 0 obj
-% page stream
-<< /Length 4143 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 504.2283 cm
+1 0 0 1 62.69291 444.2283 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -453,58 +468,58 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 504.2283 cm
+1 0 0 1 62.69291 444.2283 cm
 Q
 q
-1 0 0 1 62.69291 486.2283 cm
+1 0 0 1 62.69291 426.2283 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (c\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 480.2283 cm
+1 0 0 1 62.69291 420.2283 cm
 Q
 q
-1 0 0 1 62.69291 295.2966 cm
+1 0 0 1 62.69291 249.1083 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
 q
-1 0 0 1 20 160.9317 cm
+1 0 0 1 20 147.12 cm
 q
 BT 1 0 0 1 0 14 Tm 35.43163 Tw 12 TL /F1 10 Tf 0 0 0 rg (Erweitere die Flask-Anwendung um eine weitere URL) Tj T* 0 Tw /F3 10 Tf (localhost:5000/view/) Tj (<) Tj (studiengang) Tj (>) Tj (/) Tj (<) Tj (semester) Tj (>) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 20 142.9317 cm
+1 0 0 1 20 129.12 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Diese soll bei Aufruf von beispielsweise ) Tj /F3 10 Tf (view/Inf/5 ) Tj /F1 10 Tf (unseren Stundenplan rendern.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 20 112.9317 cm
+1 0 0 1 20 99.12 cm
 q
 BT 1 0 0 1 0 14 Tm .260751 Tw 12 TL /F1 10 Tf 0 0 0 rg (Nutze dazu die Methode ) Tj /F3 10 Tf (render_template\(\) ) Tj /F1 10 Tf (und schreibe ein Jinja2 Template dass f\344hig ist den) Tj T* 0 Tw (Stundenplan als HTML zu rendern.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 20 94.93173 cm
+1 0 0 1 20 81.12 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Inn ) Tj /F3 10 Tf (templates/hello.html ) Tj /F1 10 Tf (ist eine leichte Hilfestellung bzgl. HTML Tables.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (In ) Tj /F3 10 Tf (templates/simple_table.html ) Tj /F1 10 Tf (ist eine leichte Hilfestellung bzgl. HTML Tables.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 20 76.93173 cm
+1 0 0 1 20 63.12 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (Beispiel:) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (Beispiel \(... zoomen ...\):) Tj T* ET
 Q
 Q
 q
 1 0 0 1 20 0 cm
 q
-449.8898 0 0 76.93173 0 0 cm
+369.12 0 0 63.12 0 0 cm
 /FormXob.8c74bc506f82e0a9a058396beb860d24 Do
 Q
 Q
@@ -512,7 +527,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 295.2966 cm
+1 0 0 1 62.69291 249.1083 cm
 Q
  
 endstream
@@ -555,18 +570,18 @@ xref
 0000035161 00000 n
 0000035313 00000 n
 0000035428 00000 n
-0000040585 00000 n
-0000044831 00000 n
-0000044937 00000 n
-0000045014 00000 n
+0000040340 00000 n
+0000045277 00000 n
+0000045383 00000 n
+0000045460 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(O\373,[qA\006?%?J\264\022\211e\030) (O\373,[qA\006?%?J\264\022\211e\030)] 
+ [(\346\030i`\232\340yq+&:\377\352\002\253\252) (\346\030i`\232\340yq+&:\377\352\002\253\252)] 
 
  /Info 10 0 R
  /Root 9 0 R
  /Size 20 >>
 startxref
-45061
+45507
 %%EOF
