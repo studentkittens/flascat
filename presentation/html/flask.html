@@ -172,7 +172,33 @@ Und nun... Python!<a class="headerlink" href="#und-nun-python" title="Permalink 
 <p>
 Say Hello to a new language.</p>
 </div>
-<div class="step slide section" data-x="3000" data-y="800.0" id="routing-troubleshooting-1">
+<div class="step slide section" data-x="3000" data-y="800.0" id="view-functions">
+<h1>
+View Functions<a class="headerlink" href="#view-functions" title="Permalink to this headline">¶</a></h1>
+<p>
+<strong>
+Visualise good animals</strong></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">show_good_ones</span><span class="p">():</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;turtle&#39;</span><span class="p">,</span> <span class="s">&#39;owl&#39;</span><span class="p">,</span> <span class="s">&#39;dog&#39;</span><span class="p">,</span>
+                 <span class="s">&#39;kitteh&#39;</span><span class="p">,</span> <span class="s">&#39;koala&#39;</span><span class="p">,</span> <span class="s">&#39;moose&#39;</span><span class="p">]</span>
+    <span class="n">good</span> <span class="o">=</span> <span class="p">[</span><span class="n">y</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">db</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">]</span>
+    <span class="n">good</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">good</span><span class="p">)</span> <span class="c"># data selected by magic criteria</span>
+    <span class="k">return</span> <span class="n">good</span>      <span class="c"># alternativ mit Template</span>
+                     <span class="c"># return render_template(</span>
+                     <span class="c">#         &#39;good.html&#39;, vgood=good)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>
+View Funktionen dienen zum visualisieren von Daten</li>
+</ul>
+</div>
+<div class="step slide section" data-x="0" data-y="1600.0" id="routing-troubleshooting-1">
 <h1>
 Routing &amp; Troubleshooting #1<a class="headerlink" href="#routing-troubleshooting-1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -194,7 +220,7 @@ Routing</strong>:</p>
 Gerendertes html im Browser:</strong>:</p>
 <hr class="docutils">
 <b>Hello Workshop</b></div>
-<div class="step slide section" data-x="0" data-y="1600.0" id="routing-troubleshooting-2">
+<div class="step slide section" data-x="1000" data-y="1600.0" id="routing-troubleshooting-2">
 <h1>
 Routing &amp; Troubleshooting #2<a class="headerlink" href="#routing-troubleshooting-2" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -231,7 +257,7 @@ mittels eines HTTP Redirects aufrufen.</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="1000" data-y="1600.0" id="routing-troubleshooting-3">
+<div class="step slide section" data-x="2000" data-y="1600.0" id="routing-troubleshooting-3">
 <h1>
 Routing &amp; Troubleshooting #3<a class="headerlink" href="#routing-troubleshooting-3" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -290,7 +316,7 @@ Holen eines Images:</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="2000" data-y="1600.0" id="templates-how-to-render-them">
+<div class="step slide section" data-x="3000" data-y="1600.0" id="templates-how-to-render-them">
 <h1>
 Templates &amp; How to render them<a class="headerlink" href="#templates-how-to-render-them" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -325,7 +351,7 @@ Mit <tt class="docutils literal">
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="3000" data-y="1600.0" id="request-object">
+<div class="step slide section" data-x="0" data-y="2400.0" id="request-object">
 <h1>
 Request Object<a class="headerlink" href="#request-object" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -358,7 +384,7 @@ Anmerkung</strong></p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="0" data-y="2400.0" id="session-object-1">
+<div class="step slide section" data-x="1000" data-y="2400.0" id="session-object-1">
 <h1>
 Session Object #1<a class="headerlink" href="#session-object-1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -381,7 +407,7 @@ Codeblock um Login zu realisieren</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="1000" data-y="2400.0" id="session-object-2">
+<div class="step slide section" data-x="2000" data-y="2400.0" id="session-object-2">
 <h1>
 Session Object #2<a class="headerlink" href="#session-object-2" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -405,7 +431,7 @@ HTML Formular</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="2000" data-y="2400.0" id="debugging-inside-1">
+<div class="step slide section" data-x="3000" data-y="2400.0" id="debugging-inside-1">
 <h1>
 Debugging Inside #1<a class="headerlink" href="#debugging-inside-1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -416,6 +442,10 @@ Live debugging flask applications</strong></p>
 <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
 </pre></div>
 </div>
+<div class="line-block">
+<div class="line">
+<br /></div>
+</div>
 <ul class="simple">
 <li>
 wird eine Flask Applikation mit <tt class="docutils literal">
@@ -424,7 +454,7 @@ Browser bei Fehlern der Traceback geprintet. Dieser ist interaktiv, es
 können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden</li>
 </ul>
 </div>
-<div class="step slide section" data-x="3000" data-y="2400.0" id="debugging-inside-2">
+<div class="step slide section" data-x="0" data-y="3200.0" id="debugging-inside-2">
 <h1>
 Debugging Inside #2<a class="headerlink" href="#debugging-inside-2" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -449,7 +479,7 @@ Lets demo!</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="0" data-y="3200.0" id="server-inside">
+<div class="step slide section" data-x="1000" data-y="3200.0" id="server-inside">
 <h1>
 Server Inside *<a class="headerlink" href="#server-inside" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -493,7 +523,7 @@ Server Parameter änderbar</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="1000" data-y="3200.0" id="deployment-options">
+<div class="step slide section" data-x="2000" data-y="3200.0" id="deployment-options">
 <h1>
 Deployment Options<a class="headerlink" href="#deployment-options" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -525,12 +555,12 @@ Flask on Webfaction</li>
 Google App Engine</li>
 </ul>
 </div>
-<div class="step slide section" data-x="2000" data-y="3200.0" id="moosr-ein-beispielprojekt">
+<div class="step slide section" data-x="3000" data-y="3200.0" id="moosr-ein-beispielprojekt">
 <h1>
 moosr - Ein Beispielprojekt<a class="headerlink" href="#moosr-ein-beispielprojekt" title="Permalink to this headline">¶</a></h1>
 <img alt="_images/moosr.png" class="align-center" src="_images/moosr.png" style="height: 500px;">
 </div>
-<div class="step slide section" data-x="3000" data-y="3200.0" id="ubung">
+<div class="step slide section" data-x="0" data-y="4000.0" id="ubung">
 <h1>
 Übung<a class="headerlink" href="#ubung" title="Permalink to this headline">¶</a></h1>
 </div>

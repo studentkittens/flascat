@@ -115,6 +115,28 @@ Und nun... Python!
 Say Hello to a new language.
 
 
+View Functions
+--------------
+
+**Visualise good animals**
+
+.. code-block:: python
+
+    @app.route("/")
+    def show_good_ones():
+        db = ['turtle', 'owl', 'dog',
+                     'kitteh', 'koala', 'moose']
+        good = [y for x, y in enumerate(db) if x % 2 != 0]
+        good = str(good) # data selected by magic criteria
+        return good      # alternativ mit Template 
+                         # return render_template(
+                         #         'good.html', vgood=good)
+
+    if __name__ == "__main__":
+        app.run(debug=True)
+
+* View Funktionen dienen zum visualisieren von Daten
+
 Routing & Troubleshooting #1
 ----------------------------
 
@@ -283,6 +305,8 @@ Debugging Inside #1
 
     app.debug = True
     app.run()
+
+|
 
 * wird eine Flask Applikation mit ``debug = True`` gestartet, so wird im
   Browser bei Fehlern der Traceback geprintet. Dieser ist interaktiv, es
