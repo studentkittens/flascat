@@ -417,12 +417,12 @@ Request Object</strong> dient u.a. dazu POST Daten auszulesen.</p>
         <span class="k">return</span> <span class="s">&#39;&#39;&#39;&lt;form action=&quot;&quot; method=&quot;post&quot;&gt;</span>
 <span class="s">                    &lt;p&gt;&lt;input type=text name=text&gt;</span>
 <span class="s">                    &lt;p&gt;&lt;input type=submit value=Sub&gt;</span>
-<span class="s">                &lt;/form&gt;&#39;&#39;&#39;</span>
+<span class="s">                  &lt;/form&gt;&#39;&#39;&#39;</span>
 </pre></div>
 </div>
 <p>
 <strong>
-Anmerkung</strong></p>
+Anmerkung:</strong></p>
 <blockquote>
 <div><ul class="simple">
 <li>
@@ -492,7 +492,43 @@ HTML Formular (login.html):</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="3000" data-y="2400.0" id="debugging-inside-1">
+<div class="step slide section" data-x="3000" data-y="2400.0" id="url-parameter">
+<h1>
+URL Parameter<a class="headerlink" href="#url-parameter" title="Permalink to this headline">¶</a></h1>
+<ul>
+<li>
+<p class="first">
+Im Web/RESTful APIs sieht man oft sowas wie:</p>
+<blockquote>
+<div><p>
+<a class="reference external" href="http://www.lastfm.com/api/?method=artist.getSimilar&amp;apikey=xyz">
+http://www.lastfm.com/api/?method=artist.getSimilar&amp;apikey=xyz</a></p>
+</div></blockquote>
+</li>
+<li>
+<p class="first">
+→    Einfacher Weg um optionale Parameter zu realisieren (wie <tt class="docutils literal">
+<span class="pre">**kwargs</span></tt>)</p>
+</li>
+<li>
+<p class="first">
+Flask legt diese Parameter als Dictionary im Request Objekt ab:</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/api&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">api_root</span><span class="p">():</span>
+    <span class="n">method</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">args</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;method&#39;</span><span class="p">)</span>
+    <span class="n">apikey</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">args</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;apikey&#39;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">apikey</span> <span class="o">==</span> <span class="s">&#39;xyz&#39;</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">make_xml_response</span><span class="p">(</span><span class="n">method</span><span class="p">,</span> <span class="n">apikey</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">&#39;Acces Denied&#39;</span><span class="p">,</span> <span class="mi">404</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="step slide section" data-x="0" data-y="3200.0" id="debugging-inside-1">
 <h1>
 Debugging Inside #1<a class="headerlink" href="#debugging-inside-1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -520,7 +556,7 @@ Switch nicht sonderlich auf Produktivsystemen.</li>
 Aber das war euch ja klar.</li>
 </ul>
 </div>
-<div class="step slide section" data-x="0" data-y="3200.0" id="debugging-inside-2">
+<div class="step slide section" data-x="1000" data-y="3200.0" id="debugging-inside-2">
 <h1>
 Debugging Inside #2<a class="headerlink" href="#debugging-inside-2" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -545,7 +581,7 @@ Let&#8217;s demo!</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="1000" data-y="3200.0" id="server-inside">
+<div class="step slide section" data-x="2000" data-y="3200.0" id="server-inside">
 <h1>
 Server Inside *<a class="headerlink" href="#server-inside" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -589,7 +625,7 @@ Server Parameter änderbar</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="2000" data-y="3200.0" id="deployment-options">
+<div class="step slide section" data-x="3000" data-y="3200.0" id="deployment-options">
 <h1>
 Deployment Options<a class="headerlink" href="#deployment-options" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -621,69 +657,49 @@ Flask on Webfaction</li>
 Google App Engine</li>
 </ul>
 </div>
-<div class="step slide section" data-x="3000" data-y="3200.0" id="ausblick">
+<div class="step slide section" data-x="0" data-y="4000.0" id="ausblick">
 <h1>
 Ausblick<a class="headerlink" href="#ausblick" title="Permalink to this headline">¶</a></h1>
 <p>
 <strong>
 Also known as</strong>: Wozu wir keine Zeit mehr hatten:</p>
 <blockquote>
-<div><ul>
+<div><ul class="simple">
 <li>
-<p class="first">
 Datenbankintegration. (Das <tt class="docutils literal">
-<span class="pre">g</span></tt> Objekt)</p>
-</li>
+<span class="pre">g</span></tt> Objekt)</li>
 <li>
-<p class="first">
 File Uploads (<tt class="docutils literal">
-<span class="pre">request.files</span></tt>)</p>
-</li>
+<span class="pre">request.files</span></tt>)</li>
 <li>
-<p class="first">
-Cookies</p>
-</li>
+Cookies</li>
 <li>
-<p class="first">
 Logging (<tt class="docutils literal">
-<span class="pre">app.logger.warning(msg)</span></tt>)</p>
-</li>
+<span class="pre">app.logger.warning(msg)</span></tt>)</li>
 <li>
-<p class="first">
 Message Flashing (<tt class="docutils literal">
-<span class="pre">flash</span></tt>)</p>
-</li>
+<span class="pre">flash</span></tt>)</li>
 <li>
-<p class="first">
-Blueprints (verschiedene Seiten für Admin/User zB.)</p>
-</li>
+Blueprints (verschiedene Seiten für Admin/User zB.)</li>
 <li>
-<p class="first">
-Extensions (wie SQL Object Mapper)</p>
-</li>
+Extensions (wie SQL Object Mapper)</li>
 <li>
-<p class="first">
-URL Params wie <tt class="docutils literal">
-<span class="pre">?key=value</span></tt></p>
-<div class="highlight-python">
-<div class="highlight"><pre><span class="n">searchword</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">args</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;key&#39;</span><span class="p">,</span> <span class="s">&#39;&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</li>
-<li>
-<p class="first">
-…</p>
-</li>
+…</li>
 </ul>
 </div></blockquote>
+<p>
+Wir empfehlen auch das ausführliche Tutorial auf der Flaskseite:</p>
+<blockquote>
+<div><a class="reference external" href="http://flask.pocoo.org/docs/tutorial/">
+http://flask.pocoo.org/docs/tutorial/</a></div></blockquote>
 </div>
-<div class="step slide section" data-x="0" data-y="4000.0" id="moosr-ein-beispielprojekt">
+<div class="step slide section" data-x="1000" data-y="4000.0" id="moosr-ein-beispielprojekt">
 <h1>
 <tt class="docutils literal">
 <span class="pre">moosr</span></tt> - Ein Beispielprojekt<a class="headerlink" href="#moosr-ein-beispielprojekt" title="Permalink to this headline">¶</a></h1>
 <img alt="_images/moosr.png" class="align-center" src="_images/moosr.png" style="height: 500px;">
 </div>
-<div class="step slide section" data-x="1000" data-y="4000.0" id="practice">
+<div class="step slide section" data-x="2000" data-y="4000.0" id="practice">
 <h1>
 Practice!<a class="headerlink" href="#practice" title="Permalink to this headline">¶</a></h1>
 <div class="line-block">

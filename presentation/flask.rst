@@ -280,9 +280,9 @@ Das **Request Object** dient u.a. dazu POST Daten auszulesen.
             return '''<form action="" method="post">
                         <p><input type=text name=text>
                         <p><input type=submit value=Sub>
-                    </form>'''
+                      </form>'''
 
-**Anmerkung**
+**Anmerkung:**
 
     * Über ``request.method`` (String) wird die HTTP Methode geprüft
     * Über ``request.form`` (Dictionary) können Formulare ausgelesen werden
@@ -342,6 +342,27 @@ Session Object #2
             <p><input type=submit value=Login>
         </form>
         
+
+URL Parameter
+-------------
+
+* Im Web/RESTful APIs sieht man oft sowas wie: 
+
+    http://www.lastfm.com/api/?method=artist.getSimilar&apikey=xyz
+
+* →    Einfacher Weg um optionale Parameter zu realisieren (wie ``**kwargs``)
+* Flask legt diese Parameter als Dictionary im Request Objekt ab: ::
+
+        @app.route('/api')
+        def api_root():
+            method = request.args.get('method')
+            apikey = request.args.get('apikey')
+
+            if apikey == 'xyz':
+                return make_xml_response(method, apikey)
+            else:
+                return 'Acces Denied', 404
+       
 
 
 Debugging Inside #1
@@ -443,11 +464,11 @@ Ausblick
     * Message Flashing (``flash``)
     * Blueprints (verschiedene Seiten für Admin/User zB.)
     * Extensions (wie SQL Object Mapper)
-    * URL Params wie ``?key=value`` ::
-
-        searchword = request.args.get('key', '')
-
     * …
+
+Wir empfehlen auch das ausführliche Tutorial auf der Flaskseite: 
+
+    http://flask.pocoo.org/docs/tutorial/
 
 
 ``moosr`` - Ein Beispielprojekt 
