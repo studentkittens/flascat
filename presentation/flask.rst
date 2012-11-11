@@ -69,12 +69,14 @@ Im Vergleich zu Django:
 
 Features
 --------
+|
+|
 
-* Handhabung von Authentifizierung, Cookies, Sessions
-* konfigurierbares Caching
-* Internationalisierung
-* eine Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)
-* Kompatibilität zu vielen Datenbankmanagementsystemen 
+    * Handhabung von Authentifizierung, Cookies, Sessions
+    * konfigurierbares Caching
+    * Internationalisierung
+    * eine Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)
+    * Kompatibilität zu vielen Datenbankmanagementsystemen 
 
 
 Hello World!
@@ -127,9 +129,16 @@ Routing & Troubleshooting #1
         def hello():
             return compose_hello('Workshop')
       
+
+**Gerendertes html im Browser:**:
+
 -----
 
-<Hier Bild einfügen>
+
+.. raw:: html
+
+    <b>Hello Workshop</b> 
+
 
 
 Routing & Troubleshooting #2
@@ -206,7 +215,7 @@ Request Object
         if request.method == 'POST':  
             if valid_login(request.form['user'],  
                            request.form['pass']): 
-                return log_the_user_in(request.form['user'])
+                return log_user(request.form['user'])
             else:
                 error = 'Invalid user/pass'
         return render_template('login.html', error=error)
@@ -229,7 +238,8 @@ Session Object #1
     @app.route('/')
     def index():
         if 'user' in session:
-            return 'Logged in as %s' % escape(session['user'])
+            return 'Logged in as %s' % escape(
+                                       session['user'])
         return 'You are not logged in'
 
     @app.route('/login', methods=['GET', 'POST'])
@@ -264,8 +274,8 @@ Session Object #2
         
 
 
-Debugging Inside
-----------------
+Debugging Inside #1
+-------------------
 
 **Live debugging flask applications**
 
@@ -277,7 +287,31 @@ Debugging Inside
 * wird eine Flask Applikation mit ``debug = True`` gestartet, so wird im
   Browser bei Fehlern der Traceback geprintet. Dieser ist interaktiv, es
   können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden
-* Demo
+
+
+
+Debugging Inside #2
+-------------------
+
+**Lets demo!**
+
+.. code-block:: python
+
+    from flask import Flask
+    app = Flask(__name__)
+
+
+    @app.route("/<name>")
+    def hello(name):
+        answer = 42
+        if name == 'lybrial':
+            raise Exception('Critical Error.')
+        else:
+           return "Hello {0}," \
+                  "the answer is {1}!".format(name, answer)
+
+    if __name__ == "__main__":
+        app.run(debug=True)
 
 
 Server Inside *

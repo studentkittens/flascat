@@ -115,7 +115,14 @@ zB.: Datenbank und Templateengine austauschbar.</li>
 <div class="step slide section" data-x="0" data-y="800.0" id="features">
 <h1>
 Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
+<div class="line-block">
+<div class="line">
+<br /></div>
+<div class="line">
+<br /></div>
+</div>
+<blockquote>
+<div><ul class="simple">
 <li>
 Handhabung von Authentifizierung, Cookies, Sessions</li>
 <li>
@@ -127,6 +134,7 @@ eine Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Objec
 <li>
 Kompatibilität zu vielen Datenbankmanagementsystemen</li>
 </ul>
+</div></blockquote>
 </div>
 <div class="step slide section" data-x="1000" data-y="800.0" id="hello-world">
 <h1>
@@ -181,10 +189,11 @@ Routing</strong>:</p>
 </pre></div>
 </div>
 </div></blockquote>
-<hr class="docutils">
 <p>
-&lt;Hier Bild einfügen&gt;</p>
-</div>
+<strong>
+Gerendertes html im Browser:</strong>:</p>
+<hr class="docutils">
+<b>Hello Workshop</b></div>
 <div class="step slide section" data-x="0" data-y="1600.0" id="routing-troubleshooting-2">
 <h1>
 Routing &amp; Troubleshooting #2<a class="headerlink" href="#routing-troubleshooting-2" title="Permalink to this headline">¶</a></h1>
@@ -329,7 +338,7 @@ Login Funktion</strong></p>
     <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">&#39;POST&#39;</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">valid_login</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">],</span>
                        <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;pass&#39;</span><span class="p">]):</span>
-            <span class="k">return</span> <span class="n">log_the_user_in</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">])</span>
+            <span class="k">return</span> <span class="n">log_user</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">])</span>
         <span class="k">else</span><span class="p">:</span>
             <span class="n">error</span> <span class="o">=</span> <span class="s">&#39;Invalid user/pass&#39;</span>
     <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;login.html&#39;</span><span class="p">,</span> <span class="n">error</span><span class="o">=</span><span class="n">error</span><span class="p">)</span>
@@ -359,7 +368,8 @@ Codeblock um Login zu realisieren</strong></p>
 <div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
     <span class="k">if</span> <span class="s">&#39;user&#39;</span> <span class="ow">in</span> <span class="n">session</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s">&#39;Logged in as </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">escape</span><span class="p">(</span><span class="n">session</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">])</span>
+        <span class="k">return</span> <span class="s">&#39;Logged in as </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">escape</span><span class="p">(</span>
+                                   <span class="n">session</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">])</span>
     <span class="k">return</span> <span class="s">&#39;You are not logged in&#39;</span>
 
 <span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;GET&#39;</span><span class="p">,</span> <span class="s">&#39;POST&#39;</span><span class="p">])</span>
@@ -395,9 +405,9 @@ HTML Formular</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="2000" data-y="2400.0" id="debugging-inside">
+<div class="step slide section" data-x="2000" data-y="2400.0" id="debugging-inside-1">
 <h1>
-Debugging Inside<a class="headerlink" href="#debugging-inside" title="Permalink to this headline">¶</a></h1>
+Debugging Inside #1<a class="headerlink" href="#debugging-inside-1" title="Permalink to this headline">¶</a></h1>
 <p>
 <strong>
 Live debugging flask applications</strong></p>
@@ -412,11 +422,34 @@ wird eine Flask Applikation mit <tt class="docutils literal">
 <span class="pre">debug</span> <span class="pre">=</span> <span class="pre">True</span></tt> gestartet, so wird im
 Browser bei Fehlern der Traceback geprintet. Dieser ist interaktiv, es
 können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden</li>
-<li>
-Demo</li>
 </ul>
 </div>
-<div class="step slide section" data-x="3000" data-y="2400.0" id="server-inside">
+<div class="step slide section" data-x="3000" data-y="2400.0" id="debugging-inside-2">
+<h1>
+Debugging Inside #2<a class="headerlink" href="#debugging-inside-2" title="Permalink to this headline">¶</a></h1>
+<p>
+<strong>
+Lets demo!</strong></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+
+
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&quot;/&lt;name&gt;&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="n">answer</span> <span class="o">=</span> <span class="mi">42</span>
+    <span class="k">if</span> <span class="n">name</span> <span class="o">==</span> <span class="s">&#39;lybrial&#39;</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s">&#39;Critical Error.&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+       <span class="k">return</span> <span class="s">&quot;Hello {0},&quot;</span> \
+              <span class="s">&quot;the answer is {1}!&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">answer</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="step slide section" data-x="0" data-y="3200.0" id="server-inside">
 <h1>
 Server Inside *<a class="headerlink" href="#server-inside" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -460,7 +493,7 @@ Server Parameter änderbar</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="0" data-y="3200.0" id="deployment-options">
+<div class="step slide section" data-x="1000" data-y="3200.0" id="deployment-options">
 <h1>
 Deployment Options<a class="headerlink" href="#deployment-options" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -492,12 +525,12 @@ Flask on Webfaction</li>
 Google App Engine</li>
 </ul>
 </div>
-<div class="step slide section" data-x="1000" data-y="3200.0" id="moosr-ein-beispielprojekt">
+<div class="step slide section" data-x="2000" data-y="3200.0" id="moosr-ein-beispielprojekt">
 <h1>
 moosr - Ein Beispielprojekt<a class="headerlink" href="#moosr-ein-beispielprojekt" title="Permalink to this headline">¶</a></h1>
 <img alt="_images/moosr.png" class="align-center" src="_images/moosr.png" style="height: 500px;">
 </div>
-<div class="step slide section" data-x="2000" data-y="3200.0" id="ubung">
+<div class="step slide section" data-x="3000" data-y="3200.0" id="ubung">
 <h1>
 Übung<a class="headerlink" href="#ubung" title="Permalink to this headline">¶</a></h1>
 </div>
