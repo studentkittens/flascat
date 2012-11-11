@@ -19,26 +19,22 @@
 
 ``http://flask.pocoo.org/``
 
-Vorwort
--------
+**Präsentation angelehnt an den** `Flask Quickstart <http://flask.pocoo.org/docs/quickstart>`_
+
+
+Um was geht's?
+--------------
 
 .. slide::
    :data-x: 0
    :data-y: 0
 
-
-Präsentation angelehnt an:
-    
-    http://flask.pocoo.org/docs/quickstart/
-
-What?
------
 * Flask ist ein **Microwebframework**.
-* Fokus: Erweiterbarkeit + gute Dokumentation.
+* **Fokus:** Erweiterbarkeit + gute Dokumentation.
 * Abhängigkeiten:
 
-    * ``Werkzeug``: WSGI Middleware.
-    * ``Jinja2``: Eine Template Engine.
+    * `Werkzeug <http://werkzeug.pocoo.org/>`_: WSGI Middleware.
+    * `Jinja2 <http://jinja.pocoo.org/`Jinja2>`_: Eine Template Engine.
 
 * BSD Lizenz → Kommerzielle Projekte möglich.
 
@@ -49,33 +45,38 @@ What?
     | *Flask aims to keep the core simple but extensible.*
     | *Flask won’t make many decisions for you, such as what database to use.*
 
-**Statistiken:**
+**Anderer Grund:**
 
     800 LOC Code, 1500 LOC Testcases, 200 A4 Seiten Dokumentation.
 
-How?
-----
+Warum nicht Django?
+-------------------
 
-Python2 only. Python 3 Port in ferner Zukunft.
+|
 
-
-Im Vergleich zu Django:
+**Im Vergleich zu Django**:
 
     * Beschränkung auf Kernfunktionalität.
     * don't reinvent the wheel.
     * Modular, Erweiterung durch Plugins.
     * zB.: Datenbank und Templateengine austauschbar. 
 
+**Anmerkung**: 
 
-Features
---------
+    * Flask läuft momentan nur mit Python 2.x.
+    * Python 3.x Port ist in Arbeit.
+    * Django läuft bereits auf Python 3.x.
+
+Weitere Features
+----------------
+
 |
 |
 
     * Handhabung von Authentifizierung, Cookies, Sessions
-    * konfigurierbares Caching
+    * Konfigurierbares Caching
     * Internationalisierung
-    * eine Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)
+    * Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)
     * Kompatibilität zu vielen Datenbankmanagementsystemen 
 
 
@@ -91,7 +92,7 @@ einem unformattieren **Hallo Welt** ausgeben.
     # Importiere die Flask Libraries, 
     # und instanziere eine Flask-Anwendung.
     from flask import Flask
-    app = Flask(__name__)
+    app = Flask('MyFirstFlaskApp')
      
     # hello() soll für ein Zugriff auf 
     # die root-url aufgerufen werden.
@@ -105,37 +106,37 @@ einem unformattieren **Hallo Welt** ausgeben.
         app.run(debug=True)
 
 
-Und nun... Python!
-------------------
+Und nun…  Schlangen!
+---------------------
 
 .. image:: static/pycake.png
     :width: 500
     :align: center
 
-Say Hello to a new language.
-
 
 View Functions
 --------------
 
-**Visualise good animals**
+**Gute Tiere anzeigen:**
 
 .. code-block:: python
 
     @app.route("/")
     def show_good_ones():
-        db = ['turtle', 'owl', 'dog',
-                     'kitteh', 'koala', 'moose']
+        # Fake-Daten aus der Datenbank
+        db = ['turtle', 'owl',   'dog',
+              'kitteh', 'koala', 'moose']
+
+        # Tue etwas mit den Daten
         good = [y for x, y in enumerate(db) if x % 2 != 0]
-        good = str(good) # data selected by magic criteria
-        return good      # alternativ mit Template 
-                         # return render_template(
-                         #         'good.html', vgood=good)
+
+        # Visualisiere sie (hier einfach "raw")
+        return str(good)
 
     if __name__ == "__main__":
         app.run(debug=True)
 
-* View Funktionen dienen zum visualisieren von Daten
+* *View Funktionen* dienen zum visualisieren von Daten
 
 Routing & Troubleshooting #1
 ----------------------------
@@ -145,21 +146,26 @@ Routing & Troubleshooting #1
     ::
 
         def compose_hello(name):
-            return '<b>Hello ' + name + '!</b>'
+            return '<h1><b>Hello ' + name + '!</b></h1>'
 
         @app.route('/hello')
         def hello():
-            return compose_hello('Workshop')
+            return compose_hello('Workshop'), 200
       
 
-**Gerendertes html im Browser:**:
+**Gerendertes HTML im Browser:**
 
 -----
 
 
 .. raw:: html
 
-    <b>Hello Workshop</b> 
+    <h1><b>Hello Workshop</b></h1> 
+
+:: 
+    
+    <h1><b>Hello Workshop</b></h1> 
+    
 
 
 
@@ -180,25 +186,29 @@ Routing & Troubleshooting #2
     
   * Würde bei einem GET von ``localhost:5000/redirect_to_google`` ``www.google.de``
     mittels eines HTTP Redirects aufrufen.
+  * Lässt man das Protokoll (``http://``) weg, so wird innerhalb der Seitengrenzen redirected,
+    also zu ``localhost:5000/www.google.de``.
+
+    
 
 
 Routing & Troubleshooting #3
 ----------------------------
 
-**HTTP Verben**:
+**HTTP Verben:**
 
     * ``GET``, ``POST``, ``PUT``, ``HEAD``, ``OPTIONS``
 
-**URLs konstruieren**:
+**URL Building:**
 
     * Vermeidung von hardgecodeten URLs im Programm:
 
         ``url_for('a_name_of_a_view_function')`` 
 
-**Statische Komponenten**:
+**Statische Komponenten:**
 
     * Werden in einem ``static/`` folder abgelegt (CSS, Bilder).
-    * Templates gehen per default nach ``template/``.
+    * Templates gehen per default nach ``templates/``.
     * Holen eines Images: ::
 
         url_for('static/', filename='cover.png')
@@ -208,44 +218,74 @@ Templates & How to render them
 
 **Templates**
 
-    * Mit ``render_template('hello.html)`` wird über Jinja die Seite
-      ``hello.html`` gerendert ::
+    * Mit ``render_template('hello.html)`` wird über Jinja2 die Seite
+      ``hi.html`` gerendert ::
 
-        @app.route('/<n>')
-        def hello(n):
-            return render_template('hello.html',n=n)
+        @app.route('/<name>')
+        def hello(name):
+           return render_template('hi.html',you=name)
 
     * .. code-block:: html
 
-        <!-- hello.html -->
+        <!-- hi.html -->
         <html>
             <body>
-                <h1>Hello {{ n }}!</h1>
+                <h1>Hello {{ you }}!</h1>
             </body>
         </html>
+
+
+Templates #2
+------------
+
+Hier muss noch for, %body etc rein.
+
+.. code-block:: html
+
+    <!-- userlist.html -->
+    <!doctype html>
+    <title>Userlist</title>
+
+    <ul>
+    {% for user in users %}
+        {% if user != 'admin' %}
+            <li>{{ user }}</li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+
+**Rendern des Templates aus einer View Funtkion:**
+
+::
+
+    users = ['admin', 'sam', 'phil']
+    return render_template('userlist.html', users=users)
+
+    
+
 
 Request Object 
 --------------
 
-**Login Funktion**
+Das **Request Object** dient u.a. dazu POST Daten auszulesen.
 
-.. code-block:: python
+::
 
     @app.route('/login', methods=['POST', 'GET'])
     def login():
-        error = None
         if request.method == 'POST':  
-            if valid_login(request.form['user'],  
-                           request.form['pass']): 
-                return log_user(request.form['user'])
-            else:
-                error = 'Invalid user/pass'
-        return render_template('login.html', error=error)
+            return '<b>' + request.form['text'] + '</b>'
+        else:
+            return '''<form action="" method="post">
+                        <p><input type=text name=text>
+                        <p><input type=submit value=Sub>
+                    </form>'''
 
 **Anmerkung**
 
-    * über ``request.method`` wird die HTTP Methode geprüft
-    * über ``request.form`` können Formulare ausgelesen werden
+    * Über ``request.method`` (String) wird die HTTP Methode geprüft
+    * Über ``request.form`` (Dictionary) können Formulare ausgelesen werden
 
 
 
@@ -253,39 +293,47 @@ Request Object
 Session Object #1
 -----------------
 
-**Codeblock um Login zu realisieren**
+**Codeblock um Login zu realisieren:**
 
-.. code-block:: python
+::
+
+    from flask import Flask, session, redirect
+    from flask import escape, request, url_for
+
+    app = Flask(__name__)
 
     @app.route('/')
     def index():
         if 'user' in session:
-            return 'Logged in as %s' % escape(
-                                       session['user'])
-        return 'You are not logged in'
+            return 'You are: ' + escape(session['user'])
+        return 'You are not logged in!'
 
     @app.route('/login', methods=['GET', 'POST'])
     def login():
         if request.method == 'POST':
             session['user'] = request.form['user']
             return redirect(url_for('index'))
-        return '''
+        return render_template('login.html')
 
 
 Session Object #2
 -----------------
 
-**Session Management**
+**Logout:**
 
-.. code-block:: python
+::
 
-    @app.route('/login', methods=['GET', 'POST'])
-            session['user'] = request.form['user']
-            return redirect(url_for('index'))
-        return '''
+    @app.route('/logout')
+    def logout():
+        session.pop('username', None)
+        return redirect(url_for('index'))
 
 
-**HTML Formular**
+**Secret Key:** ::
+
+    app.secret_key = '68b329da9893e34099c7d8ad5cb9c940'
+
+**HTML Formular (login.html):**
 
 .. code-block:: html
     
@@ -301,7 +349,7 @@ Debugging Inside #1
 
 **Live debugging flask applications**
 
-.. code-block:: python
+::
 
     app.debug = True
     app.run()
@@ -310,14 +358,17 @@ Debugging Inside #1
 
 * wird eine Flask Applikation mit ``debug = True`` gestartet, so wird im
   Browser bei Fehlern der Traceback geprintet. Dieser ist interaktiv, es
-  können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden
+  können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden.
+* Da man willkürlich Code im Browser eintippen kann empfiehlt sich dieser
+  Switch nicht sonderlich auf Produktivsystemen.
+* Aber das war euch ja klar.
 
 
 
 Debugging Inside #2
 -------------------
 
-**Lets demo!**
+**Let's demo!**
 
 .. code-block:: python
 
@@ -380,9 +431,27 @@ Deployment Options
 * Google App Engine
 
 
+Ausblick
+--------
 
-moosr - Ein Beispielprojekt 
-----------------------------
+**Also known as**: Wozu wir keine Zeit mehr hatten:
+
+    * Datenbankintegration. (Das ``g`` Objekt)
+    * File Uploads (``request.files``)
+    * Cookies
+    * Logging (``app.logger.warning(msg)``)
+    * Message Flashing (``flash``)
+    * Blueprints (verschiedene Seiten für Admin/User zB.)
+    * Extensions (wie SQL Object Mapper)
+    * URL Params wie ``?key=value`` ::
+
+        searchword = request.args.get('key', '')
+
+    * …
+
+
+``moosr`` - Ein Beispielprojekt 
+-------------------------------
 
 .. image:: static/moosr.png
     :height: 500
@@ -390,5 +459,26 @@ moosr - Ein Beispielprojekt
 
 
 
-Übung
------
+Practice!
+---------
+
+|
+
+.. raw:: html
+
+    <h1>→ Ihr seid dran!</h1>
+
+* Bitte die VM starten.
+* Auf dem Desktop findet ihr eine ``Excercise.pdf``.
+* Im Homedirectory findet ihr unter ``flascat/practice`` die Dateien.
+* Unter Chromium ist ``localhost:5000`` die Startseite.
+* Der Vortag ist auch auf dem Desktop verlinkt.
+* Zusätzlich findet ihr den Flask Userguide dort.
+
+.. code-block:: bash
+
+    $ cd ~/flascat/practice
+    $ gedit app.py    # Übungsdatei öffnen
+    $ python app.py   # Flask Server starten
+    $ python test.py  # Eure Bemühungen testen
+

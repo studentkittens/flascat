@@ -26,19 +26,14 @@ Eine Einführung in</strong><a class="headerlink" href="#eine-einfuhrung-in" tit
 <p>
 <tt class="docutils literal">
 <span class="pre">http://flask.pocoo.org/</span></tt></p>
-</div>
-<div class="step slide section" data-x="1000.0" data-y="0" id="vorwort">
-<h1>
-Vorwort<a class="headerlink" href="#vorwort" title="Permalink to this headline">¶</a></h1>
 <p>
-Präsentation angelehnt an:</p>
-<blockquote>
-<div><a class="reference external" href="http://flask.pocoo.org/docs/quickstart/">
-http://flask.pocoo.org/docs/quickstart/</a></div></blockquote>
+<strong>
+Präsentation angelehnt an den</strong> <a class="reference external" href="http://flask.pocoo.org/docs/quickstart">
+Flask Quickstart</a></p>
 </div>
-<div class="step slide section" data-x="2000.0" data-y="0" id="what">
+<div class="step slide section" data-x="1000.0" data-y="0" id="um-was-geht-s">
 <h1>
-What?<a class="headerlink" href="#what" title="Permalink to this headline">¶</a></h1>
+Um was geht&#8217;s?<a class="headerlink" href="#um-was-geht-s" title="Permalink to this headline">¶</a></h1>
 <ul>
 <li>
 <p class="first">
@@ -47,7 +42,8 @@ Microwebframework</strong>.</p>
 </li>
 <li>
 <p class="first">
-Fokus: Erweiterbarkeit + gute Dokumentation.</p>
+<strong>
+Fokus:</strong> Erweiterbarkeit + gute Dokumentation.</p>
 </li>
 <li>
 <p class="first">
@@ -55,11 +51,11 @@ Abhängigkeiten:</p>
 <blockquote>
 <div><ul class="simple">
 <li>
-<tt class="docutils literal">
-<span class="pre">Werkzeug</span></tt>: WSGI Middleware.</li>
+<a class="reference external" href="http://werkzeug.pocoo.org/">
+Werkzeug</a>: WSGI Middleware.</li>
 <li>
-<tt class="docutils literal">
-<span class="pre">Jinja2</span></tt>: Eine Template Engine.</li>
+<a class="reference external" href="http://jinja.pocoo.org/`Jinja2">
+Jinja2</a>: Eine Template Engine.</li>
 </ul>
 </div></blockquote>
 </li>
@@ -88,17 +84,20 @@ Flask won’t make many decisions for you, such as what database to use.</em></d
 </dl>
 <p>
 <strong>
-Statistiken:</strong></p>
+Anderer Grund:</strong></p>
 <blockquote>
 <div>800 LOC Code, 1500 LOC Testcases, 200 A4 Seiten Dokumentation.</div></blockquote>
 </div>
-<div class="step slide section" data-x="3000.0" data-y="0" id="how">
+<div class="step slide section" data-x="2000.0" data-y="0" id="warum-nicht-django">
 <h1>
-How?<a class="headerlink" href="#how" title="Permalink to this headline">¶</a></h1>
+Warum nicht Django?<a class="headerlink" href="#warum-nicht-django" title="Permalink to this headline">¶</a></h1>
+<div class="line-block">
+<div class="line">
+<br /></div>
+</div>
 <p>
-Python2 only. Python 3 Port in ferner Zukunft.</p>
-<p>
-Im Vergleich zu Django:</p>
+<strong>
+Im Vergleich zu Django</strong>:</p>
 <blockquote>
 <div><ul class="simple">
 <li>
@@ -111,10 +110,23 @@ Modular, Erweiterung durch Plugins.</li>
 zB.: Datenbank und Templateengine austauschbar.</li>
 </ul>
 </div></blockquote>
+<p>
+<strong>
+Anmerkung</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li>
+Flask läuft momentan nur mit Python 2.x.</li>
+<li>
+Python 3.x Port ist in Arbeit.</li>
+<li>
+Django läuft bereits auf Python 3.x.</li>
+</ul>
+</div></blockquote>
 </div>
-<div class="step slide section" data-x="0" data-y="800.0" id="features">
+<div class="step slide section" data-x="3000.0" data-y="0" id="weitere-features">
 <h1>
-Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h1>
+Weitere Features<a class="headerlink" href="#weitere-features" title="Permalink to this headline">¶</a></h1>
 <div class="line-block">
 <div class="line">
 <br /></div>
@@ -126,17 +138,17 @@ Features<a class="headerlink" href="#features" title="Permalink to this headline
 <li>
 Handhabung von Authentifizierung, Cookies, Sessions</li>
 <li>
-konfigurierbares Caching</li>
+Konfigurierbares Caching</li>
 <li>
 Internationalisierung</li>
 <li>
-eine Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)</li>
+Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)</li>
 <li>
 Kompatibilität zu vielen Datenbankmanagementsystemen</li>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="1000" data-y="800.0" id="hello-world">
+<div class="step slide section" data-x="0" data-y="800.0" id="hello-world">
 <h1>
 Hello World!<a class="headerlink" href="#hello-world" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -150,7 +162,7 @@ Hallo Welt</strong> ausgeben.</p>
 <div class="highlight"><pre><span class="c"># Importiere die Flask Libraries,</span>
 <span class="c"># und instanziere eine Flask-Anwendung.</span>
 <span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
-<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="s">&#39;MyFirstFlaskApp&#39;</span><span class="p">)</span>
 
 <span class="c"># hello() soll für ein Zugriff auf</span>
 <span class="c"># die root-url aufgerufen werden.</span>
@@ -165,29 +177,29 @@ Hallo Welt</strong> ausgeben.</p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="2000" data-y="800.0" id="und-nun-python">
+<div class="step slide section" data-x="1000" data-y="800.0" id="und-nun-schlangen">
 <h1>
-Und nun... Python!<a class="headerlink" href="#und-nun-python" title="Permalink to this headline">¶</a></h1>
+Und nun…  Schlangen!<a class="headerlink" href="#und-nun-schlangen" title="Permalink to this headline">¶</a></h1>
 <img alt="_images/pycake.png" class="align-center" src="_images/pycake.png" style="width: 500px;">
-<p>
-Say Hello to a new language.</p>
 </div>
-<div class="step slide section" data-x="3000" data-y="800.0" id="view-functions">
+<div class="step slide section" data-x="2000" data-y="800.0" id="view-functions">
 <h1>
 View Functions<a class="headerlink" href="#view-functions" title="Permalink to this headline">¶</a></h1>
 <p>
 <strong>
-Visualise good animals</strong></p>
+Gute Tiere anzeigen:</strong></p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">show_good_ones</span><span class="p">():</span>
-    <span class="n">db</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;turtle&#39;</span><span class="p">,</span> <span class="s">&#39;owl&#39;</span><span class="p">,</span> <span class="s">&#39;dog&#39;</span><span class="p">,</span>
-                 <span class="s">&#39;kitteh&#39;</span><span class="p">,</span> <span class="s">&#39;koala&#39;</span><span class="p">,</span> <span class="s">&#39;moose&#39;</span><span class="p">]</span>
+    <span class="c"># Fake-Daten aus der Datenbank</span>
+    <span class="n">db</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;turtle&#39;</span><span class="p">,</span> <span class="s">&#39;owl&#39;</span><span class="p">,</span>   <span class="s">&#39;dog&#39;</span><span class="p">,</span>
+          <span class="s">&#39;kitteh&#39;</span><span class="p">,</span> <span class="s">&#39;koala&#39;</span><span class="p">,</span> <span class="s">&#39;moose&#39;</span><span class="p">]</span>
+
+    <span class="c"># Tue etwas mit den Daten</span>
     <span class="n">good</span> <span class="o">=</span> <span class="p">[</span><span class="n">y</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">db</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">]</span>
-    <span class="n">good</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">good</span><span class="p">)</span> <span class="c"># data selected by magic criteria</span>
-    <span class="k">return</span> <span class="n">good</span>      <span class="c"># alternativ mit Template</span>
-                     <span class="c"># return render_template(</span>
-                     <span class="c">#         &#39;good.html&#39;, vgood=good)</span>
+
+    <span class="c"># Visualisiere sie (hier einfach &quot;raw&quot;)</span>
+    <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">good</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span>
     <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
@@ -195,10 +207,11 @@ Visualise good animals</strong></p>
 </div>
 <ul class="simple">
 <li>
-View Funktionen dienen zum visualisieren von Daten</li>
+<em>
+View Funktionen</em> dienen zum visualisieren von Daten</li>
 </ul>
 </div>
-<div class="step slide section" data-x="0" data-y="1600.0" id="routing-troubleshooting-1">
+<div class="step slide section" data-x="3000" data-y="800.0" id="routing-troubleshooting-1">
 <h1>
 Routing &amp; Troubleshooting #1<a class="headerlink" href="#routing-troubleshooting-1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -207,20 +220,23 @@ Routing</strong>:</p>
 <blockquote>
 <div><div class="highlight-python">
 <div class="highlight"><pre><span class="k">def</span> <span class="nf">compose_hello</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
-    <span class="k">return</span> <span class="s">&#39;&lt;b&gt;Hello &#39;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">&#39;!&lt;/b&gt;&#39;</span>
+    <span class="k">return</span> <span class="s">&#39;&lt;h1&gt;&lt;b&gt;Hello &#39;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">&#39;!&lt;/b&gt;&lt;/h1&gt;&#39;</span>
 
 <span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/hello&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
-    <span class="k">return</span> <span class="n">compose_hello</span><span class="p">(</span><span class="s">&#39;Workshop&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">compose_hello</span><span class="p">(</span><span class="s">&#39;Workshop&#39;</span><span class="p">),</span> <span class="mi">200</span>
 </pre></div>
 </div>
 </div></blockquote>
 <p>
 <strong>
-Gerendertes html im Browser:</strong>:</p>
+Gerendertes HTML im Browser:</strong></p>
 <hr class="docutils">
-<b>Hello Workshop</b></div>
-<div class="step slide section" data-x="1000" data-y="1600.0" id="routing-troubleshooting-2">
+<h1><b>Hello Workshop</b></h1><div class="highlight-python">
+<pre>&lt;h1&gt;&lt;b&gt;Hello Workshop&lt;/b&gt;&lt;/h1&gt;</pre>
+</div>
+</div>
+<div class="step slide section" data-x="0" data-y="1600.0" id="routing-troubleshooting-2">
 <h1>
 Routing &amp; Troubleshooting #2<a class="headerlink" href="#routing-troubleshooting-2" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -254,15 +270,22 @@ Würde bei einem GET von <tt class="docutils literal">
 <span class="pre">www.google.de</span></tt>
 mittels eines HTTP Redirects aufrufen.</p>
 </li>
+<li>
+<p class="first">
+Lässt man das Protokoll (<tt class="docutils literal">
+<span class="pre">http://</span></tt>) weg, so wird innerhalb der Seitengrenzen redirected,
+also zu <tt class="docutils literal">
+<span class="pre">localhost:5000/www.google.de</span></tt>.</p>
+</li>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="2000" data-y="1600.0" id="routing-troubleshooting-3">
+<div class="step slide section" data-x="1000" data-y="1600.0" id="routing-troubleshooting-3">
 <h1>
 Routing &amp; Troubleshooting #3<a class="headerlink" href="#routing-troubleshooting-3" title="Permalink to this headline">¶</a></h1>
 <p>
 <strong>
-HTTP Verben</strong>:</p>
+HTTP Verben:</strong></p>
 <blockquote>
 <div><ul class="simple">
 <li>
@@ -276,7 +299,7 @@ HTTP Verben</strong>:</p>
 </div></blockquote>
 <p>
 <strong>
-URLs konstruieren</strong>:</p>
+URL Building:</strong></p>
 <blockquote>
 <div><ul>
 <li>
@@ -292,7 +315,7 @@ Vermeidung von hardgecodeten URLs im Programm:</p>
 </div></blockquote>
 <p>
 <strong>
-Statische Komponenten</strong>:</p>
+Statische Komponenten:</strong></p>
 <blockquote>
 <div><ul>
 <li>
@@ -303,7 +326,7 @@ Werden in einem <tt class="docutils literal">
 <li>
 <p class="first">
 Templates gehen per default nach <tt class="docutils literal">
-<span class="pre">template/</span></tt>.</p>
+<span class="pre">templates/</span></tt>.</p>
 </li>
 <li>
 <p class="first">
@@ -316,7 +339,7 @@ Holen eines Images:</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="3000" data-y="1600.0" id="templates-how-to-render-them">
+<div class="step slide section" data-x="2000" data-y="1600.0" id="templates-how-to-render-them">
 <h1>
 Templates &amp; How to render them<a class="headerlink" href="#templates-how-to-render-them" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -327,22 +350,22 @@ Templates</strong></p>
 <li>
 <p class="first">
 Mit <tt class="docutils literal">
-<span class="pre">render_template('hello.html)</span></tt> wird über Jinja die Seite
+<span class="pre">render_template('hello.html)</span></tt> wird über Jinja2 die Seite
 <tt class="docutils literal">
-<span class="pre">hello.html</span></tt> gerendert</p>
+<span class="pre">hi.html</span></tt> gerendert</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&lt;n&gt;&#39;</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;hello.html&#39;</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="n">n</span><span class="p">)</span>
+<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&lt;name&gt;&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+   <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;hi.html&#39;</span><span class="p">,</span><span class="n">you</span><span class="o">=</span><span class="n">name</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
 <li>
 <div class="first highlight-html">
-<div class="highlight"><pre><span class="c">&lt;!-- hello.html --&gt;</span>
+<div class="highlight"><pre><span class="c">&lt;!-- hi.html --&gt;</span>
 <span class="nt">&lt;html&gt;</span>
     <span class="nt">&lt;body&gt;</span>
-        <span class="nt">&lt;h1&gt;</span>Hello {{ n }}!<span class="nt">&lt;/h1&gt;</span>
+        <span class="nt">&lt;h1&gt;</span>Hello {{ you }}!<span class="nt">&lt;/h1&gt;</span>
     <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
 </pre></div>
@@ -351,23 +374,50 @@ Mit <tt class="docutils literal">
 </ul>
 </div></blockquote>
 </div>
+<div class="step slide section" data-x="3000" data-y="1600.0" id="templates-2">
+<h1>
+Templates #2<a class="headerlink" href="#templates-2" title="Permalink to this headline">¶</a></h1>
+<p>
+Hier muss noch for, %body etc rein.</p>
+<div class="highlight-html">
+<div class="highlight"><pre><span class="c">&lt;!-- userlist.html --&gt;</span>
+<span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;title&gt;</span>Userlist<span class="nt">&lt;/title&gt;</span>
+
+<span class="nt">&lt;ul&gt;</span>
+{% for user in users %}
+    {% if user != &#39;admin&#39; %}
+        <span class="nt">&lt;li&gt;</span>{{ user }}<span class="nt">&lt;/li&gt;</span>
+    {% endif %}
+{% endfor %}
+<span class="nt">&lt;/ul&gt;</span>
+</pre></div>
+</div>
+<p>
+<strong>
+Rendern des Templates aus einer View Funtkion:</strong></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="n">users</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;admin&#39;</span><span class="p">,</span> <span class="s">&#39;sam&#39;</span><span class="p">,</span> <span class="s">&#39;phil&#39;</span><span class="p">]</span>
+<span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;userlist.html&#39;</span><span class="p">,</span> <span class="n">users</span><span class="o">=</span><span class="n">users</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
 <div class="step slide section" data-x="0" data-y="2400.0" id="request-object">
 <h1>
 Request Object<a class="headerlink" href="#request-object" title="Permalink to this headline">¶</a></h1>
 <p>
-<strong>
-Login Funktion</strong></p>
+Das <strong>
+Request Object</strong> dient u.a. dazu POST Daten auszulesen.</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;POST&#39;</span><span class="p">,</span> <span class="s">&#39;GET&#39;</span><span class="p">])</span>
 <span class="k">def</span> <span class="nf">login</span><span class="p">():</span>
-    <span class="n">error</span> <span class="o">=</span> <span class="bp">None</span>
     <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">&#39;POST&#39;</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">valid_login</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">],</span>
-                       <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;pass&#39;</span><span class="p">]):</span>
-            <span class="k">return</span> <span class="n">log_user</span><span class="p">(</span><span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">])</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">error</span> <span class="o">=</span> <span class="s">&#39;Invalid user/pass&#39;</span>
-    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;login.html&#39;</span><span class="p">,</span> <span class="n">error</span><span class="o">=</span><span class="n">error</span><span class="p">)</span>
+        <span class="k">return</span> <span class="s">&#39;&lt;b&gt;&#39;</span> <span class="o">+</span> <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s">&#39;&lt;/b&gt;&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s">&#39;&#39;&#39;&lt;form action=&quot;&quot; method=&quot;post&quot;&gt;</span>
+<span class="s">                    &lt;p&gt;&lt;input type=text name=text&gt;</span>
+<span class="s">                    &lt;p&gt;&lt;input type=submit value=Sub&gt;</span>
+<span class="s">                &lt;/form&gt;&#39;&#39;&#39;</span>
 </pre></div>
 </div>
 <p>
@@ -376,11 +426,11 @@ Anmerkung</strong></p>
 <blockquote>
 <div><ul class="simple">
 <li>
-über <tt class="docutils literal">
-<span class="pre">request.method</span></tt> wird die HTTP Methode geprüft</li>
+Über <tt class="docutils literal">
+<span class="pre">request.method</span></tt> (String) wird die HTTP Methode geprüft</li>
 <li>
-über <tt class="docutils literal">
-<span class="pre">request.form</span></tt> können Formulare ausgelesen werden</li>
+Über <tt class="docutils literal">
+<span class="pre">request.form</span></tt> (Dictionary) können Formulare ausgelesen werden</li>
 </ul>
 </div></blockquote>
 </div>
@@ -389,21 +439,25 @@ Anmerkung</strong></p>
 Session Object #1<a class="headerlink" href="#session-object-1" title="Permalink to this headline">¶</a></h1>
 <p>
 <strong>
-Codeblock um Login zu realisieren</strong></p>
+Codeblock um Login zu realisieren:</strong></p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">redirect</span>
+<span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">escape</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">url_for</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
     <span class="k">if</span> <span class="s">&#39;user&#39;</span> <span class="ow">in</span> <span class="n">session</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s">&#39;Logged in as </span><span class="si">%s</span><span class="s">&#39;</span> <span class="o">%</span> <span class="n">escape</span><span class="p">(</span>
-                                   <span class="n">session</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">])</span>
-    <span class="k">return</span> <span class="s">&#39;You are not logged in&#39;</span>
+        <span class="k">return</span> <span class="s">&#39;You are: &#39;</span> <span class="o">+</span> <span class="n">escape</span><span class="p">(</span><span class="n">session</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="s">&#39;You are not logged in!&#39;</span>
 
 <span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;GET&#39;</span><span class="p">,</span> <span class="s">&#39;POST&#39;</span><span class="p">])</span>
 <span class="k">def</span> <span class="nf">login</span><span class="p">():</span>
     <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">&#39;POST&#39;</span><span class="p">:</span>
         <span class="n">session</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">]</span>
         <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;index&#39;</span><span class="p">))</span>
-    <span class="k">return</span> <span class="s">&#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;login.html&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -412,17 +466,24 @@ Codeblock um Login zu realisieren</strong></p>
 Session Object #2<a class="headerlink" href="#session-object-2" title="Permalink to this headline">¶</a></h1>
 <p>
 <strong>
-Session Management</strong></p>
+Logout:</strong></p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;GET&#39;</span><span class="p">,</span> <span class="s">&#39;POST&#39;</span><span class="p">])</span>
-        <span class="n">session</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">]</span>
-        <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;index&#39;</span><span class="p">))</span>
-    <span class="k">return</span> <span class="s">&#39;&#39;&#39;</span>
+<div class="highlight"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/logout&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">logout</span><span class="p">():</span>
+    <span class="n">session</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&#39;username&#39;</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;index&#39;</span><span class="p">))</span>
 </pre></div>
 </div>
 <p>
 <strong>
-HTML Formular</strong></p>
+Secret Key:</strong></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="n">app</span><span class="o">.</span><span class="n">secret_key</span> <span class="o">=</span> <span class="s">&#39;68b329da9893e34099c7d8ad5cb9c940&#39;</span>
+</pre></div>
+</div>
+<p>
+<strong>
+HTML Formular (login.html):</strong></p>
 <div class="highlight-html">
 <div class="highlight"><pre><span class="nt">&lt;form</span> <span class="na">action=</span><span class="s">&quot;&quot;</span> <span class="na">method=</span><span class="s">&quot;post&quot;</span><span class="nt">&gt;</span>
     <span class="nt">&lt;p&gt;&lt;input</span> <span class="na">type=</span><span class="s">text</span> <span class="na">name=</span><span class="s">user</span><span class="nt">&gt;</span>
@@ -451,7 +512,12 @@ Live debugging flask applications</strong></p>
 wird eine Flask Applikation mit <tt class="docutils literal">
 <span class="pre">debug</span> <span class="pre">=</span> <span class="pre">True</span></tt> gestartet, so wird im
 Browser bei Fehlern der Traceback geprintet. Dieser ist interaktiv, es
-können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden</li>
+können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden.</li>
+<li>
+Da man willkürlich Code im Browser eintippen kann empfiehlt sich dieser
+Switch nicht sonderlich auf Produktivsystemen.</li>
+<li>
+Aber das war euch ja klar.</li>
 </ul>
 </div>
 <div class="step slide section" data-x="0" data-y="3200.0" id="debugging-inside-2">
@@ -459,7 +525,7 @@ können Variablen ausgelesen und Kommandos interaktiv abgesetzt werden</li>
 Debugging Inside #2<a class="headerlink" href="#debugging-inside-2" title="Permalink to this headline">¶</a></h1>
 <p>
 <strong>
-Lets demo!</strong></p>
+Let&#8217;s demo!</strong></p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
 <span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
@@ -555,14 +621,99 @@ Flask on Webfaction</li>
 Google App Engine</li>
 </ul>
 </div>
-<div class="step slide section" data-x="3000" data-y="3200.0" id="moosr-ein-beispielprojekt">
+<div class="step slide section" data-x="3000" data-y="3200.0" id="ausblick">
 <h1>
-moosr - Ein Beispielprojekt<a class="headerlink" href="#moosr-ein-beispielprojekt" title="Permalink to this headline">¶</a></h1>
+Ausblick<a class="headerlink" href="#ausblick" title="Permalink to this headline">¶</a></h1>
+<p>
+<strong>
+Also known as</strong>: Wozu wir keine Zeit mehr hatten:</p>
+<blockquote>
+<div><ul>
+<li>
+<p class="first">
+Datenbankintegration. (Das <tt class="docutils literal">
+<span class="pre">g</span></tt> Objekt)</p>
+</li>
+<li>
+<p class="first">
+File Uploads (<tt class="docutils literal">
+<span class="pre">request.files</span></tt>)</p>
+</li>
+<li>
+<p class="first">
+Cookies</p>
+</li>
+<li>
+<p class="first">
+Logging (<tt class="docutils literal">
+<span class="pre">app.logger.warning(msg)</span></tt>)</p>
+</li>
+<li>
+<p class="first">
+Message Flashing (<tt class="docutils literal">
+<span class="pre">flash</span></tt>)</p>
+</li>
+<li>
+<p class="first">
+Blueprints (verschiedene Seiten für Admin/User zB.)</p>
+</li>
+<li>
+<p class="first">
+Extensions (wie SQL Object Mapper)</p>
+</li>
+<li>
+<p class="first">
+URL Params wie <tt class="docutils literal">
+<span class="pre">?key=value</span></tt></p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="n">searchword</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">args</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;key&#39;</span><span class="p">,</span> <span class="s">&#39;&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li>
+<p class="first">
+…</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="step slide section" data-x="0" data-y="4000.0" id="moosr-ein-beispielprojekt">
+<h1>
+<tt class="docutils literal">
+<span class="pre">moosr</span></tt> - Ein Beispielprojekt<a class="headerlink" href="#moosr-ein-beispielprojekt" title="Permalink to this headline">¶</a></h1>
 <img alt="_images/moosr.png" class="align-center" src="_images/moosr.png" style="height: 500px;">
 </div>
-<div class="step slide section" data-x="0" data-y="4000.0" id="ubung">
+<div class="step slide section" data-x="1000" data-y="4000.0" id="practice">
 <h1>
-Übung<a class="headerlink" href="#ubung" title="Permalink to this headline">¶</a></h1>
+Practice!<a class="headerlink" href="#practice" title="Permalink to this headline">¶</a></h1>
+<div class="line-block">
+<div class="line">
+<br /></div>
+</div>
+<h1>→ Ihr seid dran!</h1><ul class="simple">
+<li>
+Bitte die VM starten.</li>
+<li>
+Auf dem Desktop findet ihr eine <tt class="docutils literal">
+<span class="pre">Excercise.pdf</span></tt>.</li>
+<li>
+Im Homedirectory findet ihr unter <tt class="docutils literal">
+<span class="pre">flascat/practice</span></tt> die Dateien.</li>
+<li>
+Unter Chromium ist <tt class="docutils literal">
+<span class="pre">localhost:5000</span></tt> die Startseite.</li>
+<li>
+Der Vortag ist auch auf dem Desktop verlinkt.</li>
+<li>
+Zusätzlich findet ihr den Flask Userguide dort.</li>
+</ul>
+<div class="highlight-bash">
+<div class="highlight"><pre><span class="nv">$ </span><span class="nb">cd</span> ~/flascat/practice
+<span class="nv">$ </span>gedit app.py    <span class="c"># Übungsdatei öffnen</span>
+<span class="nv">$ </span>python app.py   <span class="c"># Flask Server starten</span>
+<span class="nv">$ </span>python test.py  <span class="c"># Eure Bemühungen testen</span>
+</pre></div>
+</div>
 </div>
 
 
