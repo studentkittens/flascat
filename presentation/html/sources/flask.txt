@@ -76,8 +76,10 @@ Weitere Features
     * Handhabung von Authentifizierung, Cookies, Sessions
     * Konfigurierbares Caching
     * Internationalisierung
-    * Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)
-    * Kompatibilität zu vielen Datenbankmanagementsystemen 
+    * Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt
+
+      * ORM (Object-Relational-Mapper) als Plugin.
+    * Kompatibilität zu vielen Datenbankmanagementsystemen.
 
 
 Hello World!
@@ -417,11 +419,9 @@ Server Inside *
 **\*kind of**
 
     * Flask startet beim Starten der Applikation einen Server der Standardmäßig
-      auf localhost:5000 horcht
+      auf localhost:5000 horcht.
     
-    * Server Parameter änderbar
-
-        .. code-block:: python
+    * Server Parameter änderbar: ::
 
             if __name__ == '__main__':
                 app.run(debug=True,
@@ -464,6 +464,7 @@ Ausblick
     * Message Flashing (``flash``)
     * Blueprints (verschiedene Seiten für Admin/User zB.)
     * Extensions (wie SQL Object Mapper)
+    * Caching
     * …
 
 Wir empfehlen auch das ausführliche Tutorial auf der Flaskseite: 

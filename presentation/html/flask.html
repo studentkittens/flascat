@@ -142,9 +142,13 @@ Konfigurierbares Caching</li>
 <li>
 Internationalisierung</li>
 <li>
-Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt (ORM, Object-Relational-Mapper)</li>
+Abstraktionsschicht für Datenbanken, die dynamisch SQL erzeugt<ul>
 <li>
-Kompatibilität zu vielen Datenbankmanagementsystemen</li>
+ORM (Object-Relational-Mapper) als Plugin.</li>
+</ul>
+</li>
+<li>
+Kompatibilität zu vielen Datenbankmanagementsystemen.</li>
 </ul>
 </div></blockquote>
 </div>
@@ -595,20 +599,18 @@ Server Inside *<a class="headerlink" href="#server-inside" title="Permalink to t
 <li>
 <p class="first">
 Flask startet beim Starten der Applikation einen Server der Standardmäßig
-auf localhost:5000 horcht</p>
+auf localhost:5000 horcht.</p>
 </li>
 <li>
 <p class="first">
-Server Parameter änderbar</p>
-<blockquote>
-<div><div class="highlight-python">
+Server Parameter änderbar:</p>
+<div class="highlight-python">
 <div class="highlight"><pre><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
     <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
             <span class="n">host</span><span class="o">=</span><span class="s">&#39;0.0.0.0&#39;</span><span class="p">,</span>
             <span class="n">port</span><span class="o">=</span><span class="mi">4242</span><span class="p">)</span>
 </pre></div>
 </div>
-</div></blockquote>
 </li>
 <li>
 <p class="first">
@@ -684,6 +686,8 @@ Message Flashing (<tt class="docutils literal">
 Blueprints (verschiedene Seiten für Admin/User zB.)</li>
 <li>
 Extensions (wie SQL Object Mapper)</li>
+<li>
+Caching</li>
 <li>
 …</li>
 </ul>
