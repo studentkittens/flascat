@@ -113,6 +113,10 @@ Und nun…  Schlangen!
     :width: 500
     :align: center
 
+|
+|
+
+:ref:`python-part`
 
 View Functions
 --------------
@@ -121,7 +125,7 @@ View Functions
 
 .. code-block:: python
 
-    @app.route("/")
+    @app.route('/')
     def show_good_ones():
         # Fake-Daten aus der Datenbank
         db = ['turtle', 'owl',   'dog',
@@ -133,10 +137,10 @@ View Functions
         # Visualisiere sie (hier einfach "raw")
         return str(good)
 
-    if __name__ == "__main__":
+    if __name__ == '__main__':
         app.run(debug=True)
 
-* *View Funktionen* dienen zum visualisieren von Daten
+* *View Funktionen* dienen zum Visualisieren von Daten
 
 Routing & Troubleshooting #1
 ----------------------------
@@ -153,7 +157,7 @@ Routing & Troubleshooting #1
             return compose_hello('Workshop'), 200
       
 
-**Gerendertes HTML im Browser:**
+**Gerendertes HTML im Browser (localhost:5000):**
 
 -----
 
@@ -275,8 +279,8 @@ Das **Request Object** dient u.a. dazu POST Daten auszulesen.
             return '<b>' + request.form['text'] + '</b>'
         else:
             return '''<form action="" method="post">
-                        <p><input type=text name=text>
-                        <p><input type=submit value=Sub>
+                        <p><input type=text name=text></p>
+                        <p><input type=submit value=Sub></p>
                       </form>'''
 
 **Anmerkung:**
@@ -335,8 +339,8 @@ Session Object #2
 .. code-block:: html
     
         <form action="" method="post">
-            <p><input type=text name=user>
-            <p><input type=submit value=Login>
+            <p><input type=text name=user></p>
+            <p><input type=submit value=Login></p>
         </form>
         
 
@@ -358,7 +362,7 @@ URL Parameter
             if apikey == 'xyz':
                 return make_xml_response(method, apikey)
             else:
-                return 'Acces Denied', 404
+                return 'Access Denied', 404
        
 
 
@@ -394,16 +398,16 @@ Debugging Inside #2
     app = Flask(__name__)
 
 
-    @app.route("/<name>")
+    @app.route('/<name>')
     def hello(name):
         answer = 42
         if name == 'lybrial':
-            raise Exception('Critical Error.')
+            raise Exception('Clitical Error.')
         else:
            return "Hello {0}," \
                   "the answer is {1}!".format(name, answer)
 
-    if __name__ == "__main__":
+    if __name__ == '__main__':
         app.run(debug=True)
 
 
@@ -456,7 +460,6 @@ Ausblick
 
     * Datenbankintegration. (Das ``g`` Objekt)
     * File Uploads (``request.files``)
-    * Cookies
     * Logging (``app.logger.warning(msg)``)
     * Message Flashing (``flash``)
     * Blueprints (verschiedene Seiten für Admin/User zB.)

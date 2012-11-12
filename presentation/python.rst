@@ -39,9 +39,9 @@ Vorwort
 
 * Kurzbeschreibung von Python: 
 
-    | *Python is a general-purpose, interpreted, garbage-collected,*
-    | *typeless high-level programming language whose*
-    | *design philosophy emphasizes code readability.*
+    | *Python is a general-purpose, interpreted, (optionally-),*
+    | *garbage-collected, typeless high-level programming language*
+    | *whose design philosophy emphasizes code readability.*
 
 * **Paradigmen:** Object-Oriented, Imperative, Funktional, Prozedual, Reflektiv
 

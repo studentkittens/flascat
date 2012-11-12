@@ -28,4 +28,4 @@ Inhaltverzeichniss
 
 -----
 
-**Bitte für Tag 2 VirtualBox installieren! Für Tag 1? Bpython?**
+**Spätestens für Tag 2 VirtualBox installieren!**
