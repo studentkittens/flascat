@@ -203,7 +203,7 @@ Listen<a class="headerlink" href="#listen" title="Permalink to this headline">¶
 <p>
 Listen werden wie Arrays in anderen Sprachen genutzt:</p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">42</span><span class="p">,</span> <span class="s">&#39;Apple&#39;</span><span class="p">,</span> <span class="p">[]]</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="s">&#39;Apple&#39;</span><span class="p">,</span> <span class="p">[]]</span>
 </pre></div>
 </div>
 <p>
@@ -213,11 +213,12 @@ Zugriff auf Elemente und ,,Slicing&#8217;&#8217; (wie <tt class="docutils litera
 Im Allgemeinen: <tt class="docutils literal">
 <span class="pre">liste[start{:end{:step}}]</span></tt></p>
 <div class="highlight-python">
-<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">42</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="go">42</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
 <span class="go">[42, &#39;Apple&#39;]</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[:</span><span class="mi">1</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 <span class="go">[42, &#39;Apple&#39;]</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_list</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
 <span class="go">[42, []]</span>
@@ -233,13 +234,10 @@ Tupel<a class="headerlink" href="#tupel" title="Permalink to this headline">¶</
 <ul>
 <li>
 <p class="first">
-Tupel sind wie Listen, nur dass sie Immutable sind.</p>
-</li>
-<li>
-<p class="first">
-Statt mit eckigen Klammern werden sie mit runden Klammern definiert:</p>
+Tupel sind wie Listen, nur mit runden Klammern + Immutable</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_tuple</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_tuple</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">pointless_tuple</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span> <span class="c"># Nope, TypeError.</span>
 </pre></div>
 </div>
@@ -259,6 +257,15 @@ Ein Tupel mit einem Element wird mit folgender Syntax deklariert:</p>
 <div class="highlight-python">
 <div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">one_elem_tuple</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,)</span> <span class="c"># Sieht seltsam aus</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">one_elem_tuple</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">([</span><span class="mi">1</span><span class="p">])</span> <span class="c"># Alternative</span>
+</pre></div>
+</div>
+</li>
+<li>
+<p class="first">
+Tuple Zuweisung (<strong>
+wichtig!</strong>):</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="mi">42</span><span class="p">,</span> <span class="mi">21</span><span class="p">)</span>
 </pre></div>
 </div>
 </li>
@@ -329,12 +336,13 @@ Schleifen<a class="headerlink" href="#schleifen" title="Permalink to this headli
     <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>           <span class="c"># 1  = Start (optional)</span>
                        <span class="c"># 10 = End</span>
                        <span class="c"># 2  = Step (optional)</span>
-<span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">char</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="s">&#39;Hello&#39;</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="n">char</span><span class="p">)</span>   <span class="c"># In C-Ähnlichen Sprachen:</span>
-    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="s">&#39;l&#39;</span><span class="p">:</span>       <span class="c"># for(int i=1; i&lt;10; i+=2) {</span>
-        <span class="k">break</span>          <span class="c">#   printf(&quot;%d\n&quot;, i)</span>
-    <span class="k">else</span><span class="p">:</span>              <span class="c"># }</span>
-        <span class="k">continue</span>       <span class="c"># Kontrolle: continue, break</span>
+
+<span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="nb">chr</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="s">&#39;Hello&#39;</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="nb">chr</span><span class="p">)</span>    <span class="c"># In C-Ähnlichen Sprachen:</span>
+    <span class="k">if</span> <span class="nb">chr</span> <span class="o">==</span> <span class="s">&#39;l&#39;</span><span class="p">:</span>     <span class="c"># char * s = &quot;Hello&quot;</span>
+        <span class="k">break</span>          <span class="c"># for(int i=1; i&lt;10; i+=2) {</span>
+    <span class="k">else</span><span class="p">:</span>              <span class="c">#   printf(&quot;s[%d]=%d\n&quot;,s[i],i)</span>
+        <span class="k">continue</span>       <span class="c"># }</span>
 </pre></div>
 </div>
 <ul class="simple">
@@ -773,7 +781,7 @@ Higher Order Functions (aka Closures)<a class="headerlink" href="#higher-order-f
 <li>
 In Python können Funktionen Funktionen zurückgeben.</li>
 <li>
-Da Funktionen auch nur Objekte sind können &#8220;speziliasierte&#8221; Funktionen auch zur Laufzeit instanziert werden.</li>
+Da Funktionen auch nur Objekte sind können &#8220;spezillisierte&#8221; Funktionen auch zur Laufzeit instanziert werden.</li>
 </ul>
 <p>
 <em>

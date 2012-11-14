@@ -20,12 +20,12 @@ import plyr
 import Image
 
 # Flask imports
-from flask import Flask, request, render_template, flash, redirect, url_for
+from flask import Flask, request, render_template, flash, redirect, url_for, Response
 
 # Instance the Flask Application itself
 app = Flask(__name__)
 
-# echo '' | md5sum, actually rather bad key :-)
+# echo '' | md5sum, actually, a rather bad key :-)
 app.secret_key = '68b329da9893e34099c7d8ad5cb9c940'
 
 # tagcloud
@@ -290,10 +290,7 @@ def api_root(get_type, search_str, number=1):
             'results': response
             }, indent=4, sort_keys=True)
 
-	rv = app.make_response(data)
-	rv.mimetype = 'application/json'
-	return rv
-
+	return Response(data, mimetype='application/json')
 
 
 @app.route('/home')

@@ -112,17 +112,18 @@ Listen
 
 Listen werden wie Arrays in anderen Sprachen genutzt: ::
 
-    >>> pointless_list = [42, 'Apple', []]
+    >>> pointless_list = [7, 'Apple', []]
 
 Zugriff auf Elemente und ,,Slicing'' (wie ``subList()``):
 
 Im Allgemeinen: ``liste[start{:end{:step}}]`` ::
     
+    >>> pointless_list[0] = 42
     >>> pointless_list[0] 
     42
     >>> pointless_list[0:2]
     [42, 'Apple']
-    >>> pointless_list[:1]
+    >>> pointless_list[:-1]
     [42, 'Apple']
     >>> pointless_list[0:3:2]
     [42, []]
@@ -133,10 +134,10 @@ Im Allgemeinen: ``liste[start{:end{:step}}]`` ::
 Tupel
 -----
 
-* Tupel sind wie Listen, nur dass sie Immutable sind. 
-* Statt mit eckigen Klammern werden sie mit runden Klammern definiert: ::
+* Tupel sind wie Listen, nur mit runden Klammern + Immutable
 
     >>> pointless_tuple = (1, 2, 3)
+    >>> pointless_tuple = 1, 2, 3
     >>> pointless_tuple[0] = 2 # Nope, TypeError.
 
 * Tupel werden immer dann verwendet wenn man Dinge in einer bestimmten Reihenfolge packen muss.
@@ -147,6 +148,10 @@ Tupel
 
     >>> one_elem_tuple = (1,) # Sieht seltsam aus
     >>> one_elem_tuple = tuple([1]) # Alternative
+
+* Tuple Zuweisung (**wichtig!**): ::
+
+    >>> a, b = (42, 21)
 
 Dictionaries
 ------------
@@ -208,12 +213,13 @@ Schleifen
         print(i)           # 1  = Start (optional) 
                            # 10 = End 
                            # 2  = Step (optional)
-    for idx, char in enumerate('Hello'):
-        print(idx, char)   # In C-Ähnlichen Sprachen:
-        if i == 'l':       # for(int i=1; i<10; i+=2) {
-            break          #   printf("%d\n", i)
-        else:              # }
-            continue       # Kontrolle: continue, break
+
+    for idx, chr in enumerate('Hello'):
+        print(idx, chr)    # In C-Ähnlichen Sprachen:
+        if chr == 'l':     # char * s = "Hello"
+            break          # for(int i=1; i<10; i+=2) {
+        else:              #   printf("s[%d]=%d\n",s[i],i)
+            continue       # }
 
 * → ``range()`` und ``enumerate()`` geben Iteratoren zurück. 
 
@@ -551,7 +557,7 @@ Higher Order Functions (aka Closures)
 ------------------------------------------------------------
 
 * In Python können Funktionen Funktionen zurückgeben.
-* Da Funktionen auch nur Objekte sind können "speziliasierte" Funktionen auch zur Laufzeit instanziert werden.
+* Da Funktionen auch nur Objekte sind können "spezillisierte" Funktionen auch zur Laufzeit instanziert werden.
 
 *Beispiel*: Eine Funktion die einen speziellen Greeter zurückgibt. ::
 
