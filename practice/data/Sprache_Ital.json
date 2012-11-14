@@ -1,20 +1,18 @@
 {
     "Montag": [
         {
-            "name": "Italienisch Grundstufe (UNIcert I) Kurs 1", 
-            "room": "FA105", 
             "time": "17:30-19:00", 
-            "prof": "WFSp:0", 
-            "desc": "MindestTN 12, ab KW 41"
+            "desc": "MindestTN 12, ab KW 41\nOStRin Gabriele Schiffers\nWFSp:0", 
+            "room": "FA105", 
+            "name": "Italienisch Grundstufe (UNIcert I) Kurs 1"
         }
     ], 
     "Mittwoch": [
         {
-            "name": "Italienisch Grundstufe (UNIcert I) Kurs 1", 
-            "room": "FA105", 
             "time": "17:30-19:00", 
-            "prof": "WFSp:0", 
-            "desc": "MindestTN 12, ab KW 41"
+            "desc": "MindestTN 12, ab KW 41\nOStRin Gabriele Schiffers\nWFSp:0", 
+            "room": "FA105", 
+            "name": "Italienisch Grundstufe (UNIcert I) Kurs 1"
         }
     ]
 }

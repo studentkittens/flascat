@@ -1,134 +1,126 @@
 {
-    "Montag": [
-        {
-            "name": "Objektorientierte Programmierung I", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "HF:1", 
-            "room": "FD177"
-        }, 
-        {
-            "name": "Betriebssysteme I", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "type": "HF:1", 
-            "room": "FD175"
-        }, 
-        {
-            "name": "Grundlagen Rechnertechnik", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "type": "HF:1", 
-            "room": "FD175"
-        }
-    ], 
-    "Donnerstag": [
-        {
-            "name": "Objektorientierte Programmierung I", 
-            "note": "(Gruppe I)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FB006"
-        }, 
-        {
-            "name": "Betriebssysteme I", 
-            "note": "(Gruppe II)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA014"
-        }, 
-        {
-            "name": "Objektorientierte Programmierung I", 
-            "note": "(Gruppe II)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FB006"
-        }, 
-        {
-            "name": "Mathematik", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Barbara Ashauer", 
-            "type": "HF:1", 
-            "room": "FA011"
-        }, 
-        {
-            "name": "Grundlagen der Informatik", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
-            "type": "HF:1", 
-            "room": "FD177"
-        }, 
-        {
-            "name": "Grundlagen der Informatik", 
-            "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
-            "type": "HF:1", 
-            "room": "FD177"
-        }
-    ], 
     "Dienstag": [
         {
+            "room": "FA014", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "08:00-09:30", 
             "name": "Betriebssysteme I", 
             "note": "(Gruppe I)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA014"
+            "type": "HF:1"
         }, 
         {
-            "name": "Mathematik", 
-            "time": "09:45-11:15", 
+            "room": "FA011", 
             "prof": "Prof. Dr. Barbara Ashauer", 
-            "type": "HF:1", 
-            "room": "FA011"
+            "time": "09:45-11:15", 
+            "name": "Mathematik", 
+            "type": "HF:1"
+        }
+    ], 
+    "Montag": [
+        {
+            "room": "FD177", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "09:45-11:15", 
+            "name": "Objektorientierte Programmierung I", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FD175", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "11:30-13:00", 
+            "name": "Betriebssysteme I", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FD175", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "14:00-15:30", 
+            "name": "Grundlagen Rechnertechnik", 
+            "type": "HF:1"
         }
     ], 
     "Freitag": [
         {
-            "name": "Objektorientierte Programmierung I", 
-            "time": "08:00-09:30", 
+            "room": "FD175", 
             "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "HF:1", 
-            "room": "FD175"
+            "time": "08:00-09:30", 
+            "name": "Objektorientierte Programmierung I", 
+            "type": "HF:1"
         }, 
         {
+            "room": "FB005", 
+            "time": "09:45-11:15", 
             "name": "Englisch", 
             "note": "(Gruppe II)", 
-            "time": "09:45-11:15", 
-            "type": "HF:1", 
-            "room": "FB005"
+            "type": "HF:1"
         }, 
         {
+            "room": "FA012", 
+            "time": "09:45-11:15", 
             "name": "Grundlagen Rechnertechnik", 
             "note": "(Gruppe I)", 
-            "time": "09:45-11:15", 
-            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA012"
+            "type": "HF:1"
         }, 
         {
+            "room": "FA012", 
+            "time": "11:30-13:00", 
             "name": "Grundlagen Rechnertechnik", 
             "note": "(Gruppe II)", 
-            "time": "11:30-13:00", 
-            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA012"
+            "type": "HF:1"
         }, 
         {
+            "room": "FB005", 
+            "time": "11:30-13:00", 
             "name": "Englisch", 
             "note": "(Gruppe I)", 
+            "type": "HF:1"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "room": "FB006", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "08:00-09:30", 
+            "name": "Objektorientierte Programmierung I", 
+            "note": "(Gruppe I)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FA014", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "08:00-09:30", 
+            "name": "Betriebssysteme I", 
+            "note": "(Gruppe II)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FB006", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "09:45-11:15", 
+            "name": "Objektorientierte Programmierung I", 
+            "note": "(Gruppe II)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FA011", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
             "time": "11:30-13:00", 
-            "type": "HF:1", 
-            "room": "FB005"
+            "name": "Mathematik", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FD177", 
+            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
+            "time": "14:00-15:30", 
+            "name": "Grundlagen der Informatik", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FD177", 
+            "prof": "Prof. Dr. Thomas Schaller,  Dominik Reichelt", 
+            "time": "15:45-17:15", 
+            "name": "Grundlagen der Informatik", 
+            "type": "HF:1"
         }
     ]
 }

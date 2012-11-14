@@ -1,239 +1,218 @@
 {
-    "Montag": [
+    "Dienstag": [
         {
-            "name": "Praxisblock III", 
-            "time": "09:00-16:00", 
-            "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "\"Trends im SoftwareEngineering / Gesch\u00e4ftsprozessautomation   18.02.22.02.2013", 
-            "type": "HF:1", 
-            "room": "FA101 + FA102/104 + FB012"
-        }, 
-        {
-            "name": "Seminar", 
-            "time": "11:30-13:00", 
+            "room": "FB023", 
             "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "HF:1", 
-            "room": "FA009"
+            "time": "08:00-09:30", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Inf3+MI3+Vinf5)", 
+            "type": "HF:1"
         }, 
         {
-            "name": "SoftwareProjektmanagement", 
-            "time": "14:00-15:30", 
-            "prof": "Dipl.Inf. Stefan M\u00fcller", 
-            "type": "HF:1", 
-            "room": "FA009"
+            "room": "FA101 + FA102/104 + FB012", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "09:00-16:00", 
+            "name": "Praxisblock III", 
+            "type": "HF:1"
         }, 
         {
-            "name": "Software Engineering II", 
-            "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Philipp Schaible", 
-            "type": "HF:1", 
-            "room": "FD175"
+            "room": "FB006", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "09:45-11:15", 
+            "name": "Praktikum Programmieren", 
+            "type": "HF:1"
         }, 
         {
-            "name": "Wissens, Innovations und Technologiemanagement", 
-            "note": "(ab 15.10.)", 
+            "room": "FA013", 
+            "prof": "Ulrich Lang", 
             "time": "17:30-19:00", 
-            "prof": "Dr. Wolfgang Grond", 
-            "type": "AWPF:1", 
-            "room": "FA013"
+            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten", 
+            "type": "AWPF:1"
         }, 
         {
-            "name": "Unternehmen in der Region HochFranken", 
-            "time": "18:00-19:30", 
-            "prof": "Abschlussveranstaltung  (14.01.13)", 
-            "type": "AWPF:1", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "time": "18:00-19:30", 
-            "prof": "Einf\u00fchrungsveranstaltung  (08.10.12)", 
-            "type": "AWPF:1", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "type": "AWPF:1", 
-            "room": "Ex_Extern", 
-            "time": "18:00-19:30"
+            "room": "FB023", 
+            "prof": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
+            "time": "19:15-20:45", 
+            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure", 
+            "type": "AWPF:1"
         }
     ], 
-    "Mittwoch": [
+    "Montag": [
         {
-            "name": "Software Engineering II", 
-            "note": "(Gruppe I)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Philipp Schaible", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA008/010"
-        }, 
-        {
-            "name": "Effizientes Programmieren mit C/C++", 
-            "note": "(Gruppe II)", 
-            "time": "08:00-09:30", 
-            "prof": "Dipl.Inf. Stefan M\u00fcller", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA012"
-        }, 
-        {
-            "name": "Praxisblock III", 
-            "time": "09:00-16:00", 
+            "room": "FA101 + FA102/104 + FB012", 
             "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "\"Trends im SoftwareEngineering / Gesch\u00e4ftsprozessautomation   18.02.22.02.2013", 
-            "type": "HF:1", 
-            "room": "FA101 + FA102/104 + FB012"
+            "time": "09:00-16:00", 
+            "name": "Praxisblock III", 
+            "type": "HF:1"
         }, 
         {
-            "name": "Software Engineering II", 
-            "note": "(Gruppe II)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Philipp Schaible", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA008/010"
-        }, 
-        {
-            "name": "Effizientes Programmieren mit C/C++", 
-            "note": "(Gruppe I)", 
-            "time": "09:45-11:15", 
-            "prof": "Dipl.Inf. Stefan M\u00fcller", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA012"
-        }, 
-        {
-            "name": "SoftwareProjektmanagement", 
+            "room": "FA009", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
             "time": "11:30-13:00", 
-            "prof": "Dipl.Inf. Stefan M\u00fcller", 
-            "type": "HF:1", 
-            "room": "FA008/010"
+            "name": "Seminar", 
+            "type": "HF:1"
         }, 
         {
-            "name": "Sport und Gesundheit", 
             "time": "14:00-15:30", 
-            "prof": "G\u00fcnther Schwab", 
-            "type": "AWPF:1", 
-            "room": "FA201"
+            "room": "FA009", 
+            "name": "SoftwareProjektmanagement", 
+            "type": "HF:1"
         }, 
         {
-            "name": "Geographische Informationssysteme", 
-            "note": "(Gruppe I)", 
+            "room": "FD175", 
+            "prof": "Prof. Dr. Philipp Schaible", 
             "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Richard G\u00f6bel,  Carsten Kropf", 
-            "desc": "ab KW 47    (Vinf+Inf+MI 5)  \u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA102/104"
+            "name": "Software Engineering II", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Dr. Wolfgang Grond", 
+            "time": "17:30-19:00", 
+            "name": "Wissens, Innovations und Technologiemanagement", 
+            "note": "(ab 15.10.)", 
+            "type": "AWPF:1"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWPF:1"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWPF:1"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "Ex_Extern", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWPF:1"
         }
     ], 
     "Freitag": [
         {
-            "name": "Praxisblock III", 
-            "time": "09:00-16:00", 
+            "room": "FA101 + FA102/104 + FB012", 
             "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "\"Trends im SoftwareEngineering / Gesch\u00e4ftsprozessautomation   18.02.22.02.2013", 
-            "type": "HF:1", 
-            "room": "FA101 + FA102/104 + FB012"
+            "time": "09:00-16:00", 
+            "name": "Praxisblock III", 
+            "type": "HF:1"
         }, 
         {
-            "name": "Seminar", 
-            "time": "09:45-11:15", 
+            "room": "FA009", 
             "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "HF:1", 
-            "room": "FA009"
+            "time": "09:45-11:15", 
+            "name": "Seminar", 
+            "type": "HF:1"
         }, 
         {
+            "room": "FB001/002", 
+            "prof": "Prof. Dr. Richard G\u00f6bel,  Carsten Kropf", 
+            "time": "11:30-13:00", 
             "name": "Geographische Informationssysteme", 
             "note": "(Vinf+Inf+MI 5)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Richard G\u00f6bel,  Carsten Kropf", 
-            "type": "HF:1", 
-            "room": "FB001/002"
-        }
-    ], 
-    "Dienstag": [
-        {
-            "name": "Effizientes Programmieren mit C/C++", 
-            "note": "(Inf3+MI3+Vinf5)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "HF:1", 
-            "room": "FB023"
-        }, 
-        {
-            "name": "Praxisblock III", 
-            "time": "09:00-16:00", 
-            "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "\"Trends im SoftwareEngineering / Gesch\u00e4ftsprozessautomation   18.02.22.02.2013", 
-            "type": "HF:1", 
-            "room": "FA101 + FA102/104 + FB012"
-        }, 
-        {
-            "name": "Praktikum Programmieren", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "HF:1", 
-            "room": "FB006"
-        }, 
-        {
-            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten", 
-            "time": "17:30-19:00", 
-            "prof": "Ulrich Lang", 
-            "type": "AWPF:1", 
-            "room": "FA013"
-        }, 
-        {
-            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure", 
-            "time": "19:15-20:45", 
-            "prof": "Prof. Dr. med. Johannes Bodky", 
-            "desc": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
-            "type": "AWPF:1", 
-            "room": "FB023"
+            "type": "HF:1"
         }
     ], 
     "Donnerstag": [
         {
+            "room": "FA102/104", 
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "time": "08:00-09:30", 
             "name": "Geographische Informationssysteme", 
             "note": "(Gruppe I)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Richard G\u00f6bel", 
-            "desc": "KW 40  46     (Vinf+Inf+MI 5)   \u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA102/104"
+            "type": "HF:1"
         }, 
         {
-            "name": "Praxisblock III", 
-            "time": "09:00-16:00", 
+            "room": "FA101 + FA102/104 + FB012", 
             "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "\"Trends im SoftwareEngineering / Gesch\u00e4ftsprozessautomation   18.02.22.02.2013", 
-            "type": "HF:1", 
-            "room": "FA101 + FA102/104 + FB012"
+            "time": "09:00-16:00", 
+            "name": "Praxisblock III", 
+            "type": "HF:1"
         }, 
         {
-            "name": "Geographische Informationssysteme", 
-            "note": "(Gruppe II)", 
-            "time": "09:45-11:15", 
+            "room": "FA102/104", 
             "prof": "Prof. Dr. Richard G\u00f6bel,  Carsten Kropf", 
-            "desc": "ab KW 47    (Vinf+Inf+MI 5)  \u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA102/104"
-        }, 
-        {
+            "time": "09:45-11:15", 
             "name": "Geographische Informationssysteme", 
             "note": "(Gruppe II)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Richard G\u00f6bel", 
-            "desc": "KW 40  46     (Vinf+Inf+MI 5)   \u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA102/104"
+            "type": "HF:1"
         }, 
         {
-            "name": "Praktikum Programmieren", 
-            "time": "11:30-13:00", 
+            "room": "FA102/104", 
+            "prof": "Prof. Dr. Richard G\u00f6bel", 
+            "time": "09:45-11:15", 
+            "name": "Geographische Informationssysteme", 
+            "note": "(Gruppe II)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FA008/010", 
             "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "HF:1", 
-            "room": "FA008/010"
+            "time": "11:30-13:00", 
+            "name": "Praktikum Programmieren", 
+            "type": "HF:1"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FA008/010", 
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "08:00-09:30", 
+            "name": "Software Engineering II", 
+            "note": "(Gruppe I)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FA012", 
+            "time": "08:00-09:30", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Gruppe II)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FA101 + FA102/104 + FB012", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "09:00-16:00", 
+            "name": "Praxisblock III", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FA008/010", 
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "09:45-11:15", 
+            "name": "Software Engineering II", 
+            "note": "(Gruppe II)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FA012", 
+            "time": "09:45-11:15", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Gruppe I)", 
+            "type": "HF:1"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FA008/010", 
+            "name": "SoftwareProjektmanagement", 
+            "type": "HF:1"
+        }, 
+        {
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "name": "Sport und Gesundheit", 
+            "type": "AWPF:1"
+        }, 
+        {
+            "room": "FA102/104", 
+            "prof": "Prof. Dr. Richard G\u00f6bel,  Carsten Kropf", 
+            "time": "15:45-17:15", 
+            "name": "Geographische Informationssysteme", 
+            "note": "(Gruppe I)", 
+            "type": "HF:1"
         }
     ]
 }

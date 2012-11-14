@@ -1,406 +1,349 @@
 {
-    "Montag": [
-        {
-            "name": "Mikro\u00f6konomie", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 15.10.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Mikro\u00f6konomie", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 05.11.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Mikro\u00f6konomie", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "Pr\u00fcfungstermin", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "Pr\u00fcfungstermin", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Samstag", 
-            "time": "09:30-16:30", 
-            "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "Organisation und Gesch\u00e4ftsprozessmanagement", 
-            "type": "HF:0", 
-            "room": "FA008/010"
-        }, 
-        {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "Pr\u00fcfungstermin", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }
-    ], 
-    "Mittwoch": [
-        {
-            "name": "Business English", 
-            "time": "17:30-20:30", 
-            "prof": "am 10.10.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Business English", 
-            "time": "17:30-20:30", 
-            "prof": "am 17.10.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Business English", 
-            "time": "17:30-20:30", 
-            "prof": "am 24.10.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "am 31.10.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FA014"
-        }, 
-        {
-            "name": "Business English", 
-            "time": "17:30-20:30", 
-            "prof": "am 07.11.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Business English", 
-            "time": "17:30-20:30", 
-            "prof": "am 14.11.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Business English", 
-            "time": "17:30-20:30", 
-            "prof": "am 21.11.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "am 05.12.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FA014"
-        }, 
-        {
-            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "am 12.12.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FA014"
-        }, 
-        {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 09.01.2013 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Samstag", 
-            "time": "09:00-12:00", 
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "type": "HF:0", 
-            "room": "FD248"
-        }, 
-        {
-            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "am 16.01.2013 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FA014"
-        }, 
-        {
-            "name": "Samstag", 
-            "time": "09:00-12:00", 
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "type": "HF:0", 
-            "room": "FD248"
-        }, 
-        {
-            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "am 23.01.2013 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FA014"
-        }, 
-        {
-            "name": "Samstag", 
-            "time": "09:00-12:00", 
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "type": "HF:0", 
-            "room": "FD248"
-        }
-    ], 
     "Dienstag": [
         {
-            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
-            "time": "17:30-20:30", 
+            "room": "FA014", 
             "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "am 09.10.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FA014"
+            "time": "17:30-20:30", 
+            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
+            "type": "HF:0"
         }, 
         {
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "17:30-20:30", 
             "name": "Mikro\u00f6konomie", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 16.10.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "type": "HF:0"
         }, 
         {
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "17:30-20:30", 
             "name": "Mikro\u00f6konomie", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 23.10.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "type": "HF:0"
         }, 
         {
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "17:30-20:30", 
             "name": "Mikro\u00f6konomie", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 13.11.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "type": "HF:0"
         }, 
         {
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "17:30-20:30", 
             "name": "Mikro\u00f6konomie", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 20.11.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "type": "HF:0"
         }, 
         {
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "17:30-20:30", 
             "name": "Mikro\u00f6konomie", 
-            "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 27.11.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "type": "HF:0"
         }, 
         {
-            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
-            "time": "17:30-20:30", 
+            "room": "FD244", 
             "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 11.12.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:30-20:30", 
+            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
-            "time": "17:30-20:30", 
+            "room": "FD244", 
             "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 18.12.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:30-20:30", 
+            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
-            "time": "17:30-20:30", 
+            "room": "FD244", 
             "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 08.01.2013 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:30-20:30", 
+            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
-            "time": "17:30-20:30", 
+            "room": "FD244", 
             "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 15.01.2013 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:30-20:30", 
+            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
-            "time": "17:30-20:30", 
+            "room": "FD244", 
             "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 22.01.2013 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:30-20:30", 
+            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
-            "time": "17:30-20:30", 
+            "room": "FD244", 
             "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 29.01.2013 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:30-20:30", 
+            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
-            "time": "17:30-20:30", 
+            "room": "FD244", 
             "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 05.02.2013 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:30-20:30", 
+            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
+            "type": "HF:0"
         }
     ], 
-    "Donnerstag": [
+    "Montag": [
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
             "time": "17:30-20:30", 
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 15.11.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
             "name": "Mikro\u00f6konomie", 
-            "time": "17:30-20:30", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD244", 
             "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 22.11.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
-            "name": "Business English", 
             "time": "17:30-20:30", 
-            "prof": "am 29.11.2012 von 17:30 bis 20:30", 
-            "desc": "Pr\u00fcfungstermin", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "name": "Mikro\u00f6konomie", 
+            "type": "HF:0"
         }, 
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
             "time": "17:30-20:30", 
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 06.12.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "name": "Mikro\u00f6konomie", 
+            "type": "HF:0"
         }, 
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
             "time": "17:30-20:30", 
-            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 20.12.2012 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
-        }, 
-        {
             "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA008/010", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "09:30-16:30", 
+            "name": "Samstag", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD244", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
             "time": "17:30-20:30", 
-            "prof": "Prof. Dr. Maximilian Walter", 
-            "desc": "am 31.01.2013 von 17:30 bis 20:30", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
         }
     ], 
     "Freitag": [
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:00-20:00", 
+            "room": "FD244", 
             "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 12.10.2012 von 17:00 bis 20:00", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:00-20:00", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:00-20:00", 
+            "room": "FD244", 
             "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 19.10.2012 von 17:00 bis 20:00", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:00-20:00", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:00-20:00", 
+            "room": "FD244", 
             "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 26.10.2012 von 17:00 bis 20:00", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:00-20:00", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Samstag", 
+            "room": "FA008/010", 
+            "prof": "Prof. Dr. Thomas Schaller", 
             "time": "11:00-17:00", 
-            "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "Organisation und Gesch\u00e4ftsprozessmanagement", 
-            "type": "HF:0", 
-            "room": "FA008/010"
-        }, 
-        {
             "name": "Samstag", 
-            "time": "10:15-11:00", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD244", 
             "prof": "Prof. Dr. Thomas Schaller", 
-            "desc": "Organisation und Gesch\u00e4ftsprozessmanagement", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "10:15-11:00", 
+            "name": "Samstag", 
+            "type": "HF:0"
         }, 
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:00-20:00", 
+            "room": "FD244", 
             "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 09.11.2012 von 17:00 bis 20:00", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:00-20:00", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:00-20:00", 
+            "room": "FD244", 
             "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 16.11.2012 von 17:00 bis 20:00", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:00-20:00", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:00-20:00", 
+            "room": "FD244", 
             "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 23.11.2012 von 17:00 bis 20:00", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:00-20:00", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:00-20:00", 
+            "room": "FD244", 
             "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 14.12.2012 von 17:00 bis 20:00", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:00-20:00", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
-            "time": "17:00-20:00", 
+            "room": "FD244", 
             "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
-            "desc": "am 21.12.2012 von 17:00 bis 20:00", 
-            "type": "HF:0", 
-            "room": "FD244"
+            "time": "17:00-20:00", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "time": "17:30-20:30", 
+            "room": "FD244", 
+            "name": "Business English", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "17:30-20:30", 
+            "room": "FD244", 
+            "name": "Business English", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "17:30-20:30", 
+            "room": "FD244", 
+            "name": "Business English", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA014", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "17:30-20:30", 
+            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "17:30-20:30", 
+            "room": "FD244", 
+            "name": "Business English", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "17:30-20:30", 
+            "room": "FD244", 
+            "name": "Business English", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA014", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "17:30-20:30", 
+            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA014", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "17:30-20:30", 
+            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD244", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "17:30-20:30", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD248", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "09:00-12:00", 
+            "name": "Samstag", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA014", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "17:30-20:30", 
+            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD248", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "09:00-12:00", 
+            "name": "Samstag", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA014", 
+            "prof": "Prof. Dr. Thomas Schaller", 
+            "time": "17:30-20:30", 
+            "name": "Organisation und Gesch\u00e4ftsprozessmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD248", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "09:00-12:00", 
+            "name": "Samstag", 
+            "type": "HF:0"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "room": "FD244", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "17:30-20:30", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "17:30-20:30", 
+            "name": "Mikro\u00f6konomie", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "17:30-20:30", 
+            "room": "FD244", 
+            "name": "Business English", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD244", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "17:30-20:30", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD244", 
+            "prof": "Prof. Dr. Maximilian Walter", 
+            "time": "17:30-20:30", 
+            "name": "Makro\u00f6konomie einschl. Finanzwissenschaft", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD244", 
+            "prof": "Prof. Dr. J\u00fcrgen Lehmann", 
+            "time": "17:30-20:30", 
+            "name": "B\u00fcrgerliches Recht I (Allg. Teil und Sachenrecht)", 
+            "type": "HF:0"
         }
     ]
 }

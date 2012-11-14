@@ -1,229 +1,215 @@
 {
-    "Montag": [
-        {
-            "name": "Produktionsplanung und steuerung  (SP (P)", 
-            "note": "(Wing + MB P 5)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Ina L\u00f6bus", 
-            "type": "HF:0", 
-            "room": "FA201"
-        }, 
-        {
-            "name": "CAE (CADCAMFEM)  SP (P)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Robert Honke", 
-            "desc": "bis KW 45", 
-            "type": "HF:0", 
-            "room": "FD246"
-        }, 
-        {
-            "name": "Produktionsplanung und steuerung  (SP (P)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Ina L\u00f6bus", 
-            "desc": "\u00dcbungen in wechselnden Gruppen", 
-            "type": "HF:0", 
-            "room": "FA008/010 + FA007"
-        }, 
-        {
-            "name": "Umweltmikrobiologie / Toxikologie  SP (W)", 
-            "note": "(UT 3 + MB W 5)", 
-            "time": "15:45-17:15", 
-            "prof": "Dr. Andreas Hofmann", 
-            "type": "HF:0", 
-            "room": "FA017"
-        }
-    ], 
-    "Mittwoch": [
-        {
-            "name": "Produktionsplanung und steuerung  (SP (P)", 
-            "note": "(Wing + MB P 5)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "type": "HF:0", 
-            "room": "FB109"
-        }, 
-        {
-            "name": "W\u00e4rme und Stoffaustausch", 
-            "note": "(MB + UT 5)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "type": "HF:0", 
-            "room": "FB012"
-        }, 
-        {
-            "name": "Mechanische Verfahrenstechnik", 
-            "time": "11:30-13:00", 
-            "prof": "Praktikum / Vorlesung", 
-            "type": "HF:0", 
-            "room": "FC018"
-        }, 
-        {
-            "name": "Wassergewinnung und aufbereitung  SP (W)", 
-            "time": "14:00-15:30", 
-            "prof": "Dr. Klaus Hagen", 
-            "desc": "(14t\u00e4gig) (Beginn 10.10.)", 
-            "type": "HF:0", 
-            "room": "FB203"
-        }, 
-        {
-            "name": "Innovationsmanagement  SP (P)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Andreas Schmid", 
-            "desc": "(14t\u00e4gig)  (Beginn 17.10.)", 
-            "type": "FWPM:0", 
-            "room": "FB203"
-        }, 
-        {
-            "name": "Wassergewinnung und aufbereitung  SP (W)", 
-            "time": "15:45-17:15", 
-            "prof": "Dr. Klaus Hagen", 
-            "desc": "(14t\u00e4gig) (Beginn 10.10.)", 
-            "type": "HF:0", 
-            "room": "FB203"
-        }, 
-        {
-            "name": "Innovationsmanagement  SP (P)", 
-            "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Andreas Schmid", 
-            "desc": "(14t\u00e4gig)  (Beginn 17.10.)", 
-            "type": "FWPM:0", 
-            "room": "FB203"
-        }, 
-        {
-            "name": "Wassergewinnung und aufbereitung  SP (W)", 
-            "time": "17:30-19:00", 
-            "prof": "Prof. Dr. Hans Schmidt", 
-            "type": "HF:0", 
-            "room": "FB003"
-        }, 
-        {
-            "name": "Innovationsmanagement  SP (P)", 
-            "time": "17:30-19:00", 
-            "prof": "Prof. Dr. Andreas Schmid", 
-            "type": "FWPM:0", 
-            "room": "FB203"
-        }
-    ], 
     "Dienstag": [
         {
-            "name": "CAE (CADCAMFEM)  SP (P)", 
+            "room": "FB012", 
+            "prof": "Prof. Dr. Robert Honke", 
             "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Robert Honke", 
-            "type": "HF:0", 
-            "room": "FB012"
-        }, 
-        {
             "name": "CAE (CADCAMFEM)  SP (P)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Robert Honke", 
-            "desc": "ab KW 46", 
-            "type": "HF:0", 
-            "room": "FA015"
+            "type": "HF:0"
         }, 
         {
+            "room": "FA015", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "time": "09:45-11:15", 
+            "name": "CAE (CADCAMFEM)  SP (P)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD246", 
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "09:45-11:15", 
             "name": "Umweltmikrobiologie / Toxikologie  SP (W)", 
             "note": "(UT 3 + MB W 5)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Andreas Schmid", 
-            "type": "HF:0", 
-            "room": "FD246"
+            "type": "HF:0"
         }, 
         {
+            "room": "FA013", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "time": "11:30-13:00", 
             "name": "W\u00e4rme und Stoffaustausch", 
             "note": "(MB + UT 5)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "type": "HF:0", 
-            "room": "FA013"
+            "type": "HF:0"
         }, 
         {
+            "room": "FB203", 
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "14:00-15:30", 
             "name": "Sonderanwendungen der Abwassertechnik  SP (W)", 
             "note": "(UT + MB (W) 5)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Andreas Schmid", 
-            "type": "FWPM:0", 
-            "room": "FB203"
+            "type": "FWPM:0"
         }, 
         {
-            "name": "Mechanische Verfahrenstechnik", 
-            "time": "14:00-15:30", 
+            "room": "FD246", 
             "prof": "Prof. Dr. Margarete BlankBewersdorff", 
-            "type": "HF:0", 
-            "room": "FD246"
+            "time": "14:00-15:30", 
+            "name": "Mechanische Verfahrenstechnik", 
+            "type": "HF:0"
+        }
+    ], 
+    "Montag": [
+        {
+            "room": "FA201", 
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "09:45-11:15", 
+            "name": "Produktionsplanung und steuerung  (SP (P)", 
+            "note": "(Wing + MB P 5)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD246", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "time": "11:30-13:00", 
+            "name": "CAE (CADCAMFEM)  SP (P)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA008/010 + FA007", 
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "14:00-15:30", 
+            "name": "Produktionsplanung und steuerung  (SP (P)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA017", 
+            "prof": "Dr. Andreas Hofmann", 
+            "time": "15:45-17:15", 
+            "name": "Umweltmikrobiologie / Toxikologie  SP (W)", 
+            "note": "(UT 3 + MB W 5)", 
+            "type": "HF:0"
         }
     ], 
     "Freitag": [
         {
+            "room": "FB203", 
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "08:00-09:30", 
             "name": "Abwasserreinigungstechnik  SP (W)", 
             "note": "(UT 5 + MB W 5)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Andreas Schmid", 
-            "type": "HF:0", 
-            "room": "FB203"
+            "type": "HF:0"
         }, 
         {
+            "room": "FB203", 
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "09:45-11:15", 
             "name": "Sonderanwendungen der Abwassertechnik  SP (W)", 
             "note": "(UT + MB (W) 5)", 
+            "type": "FWPM:0"
+        }, 
+        {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
             "time": "09:45-11:15", 
+            "name": "Rapid Prototyping  SP (P)", 
+            "type": "FWPM:0"
+        }, 
+        {
+            "room": "FC014", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "09:45-11:15", 
+            "name": "Rapid Prototyping  SP (P)", 
+            "type": "FWPM:0"
+        }, 
+        {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "09:45-11:15", 
+            "name": "Rapid Prototyping  SP (P)", 
+            "type": "FWPM:0"
+        }, 
+        {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "11:30-13:00", 
+            "name": "Rapid Prototyping  SP (P)", 
+            "type": "FWPM:0"
+        }, 
+        {
+            "room": "FC014", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "11:30-13:00", 
+            "name": "Rapid Prototyping  SP (P)", 
+            "type": "FWPM:0"
+        }, 
+        {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "11:30-13:00", 
+            "name": "Rapid Prototyping  SP (P)", 
+            "type": "FWPM:0"
+        }, 
+        {
+            "room": "FB203", 
             "prof": "Prof. Dr. Andreas Schmid", 
-            "type": "FWPM:0", 
-            "room": "FB203"
-        }, 
-        {
-            "name": "Rapid Prototyping  SP (P)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Vorlesung   (MB (P) + Wing WT/KT + WT 5) (14t\u00e4gig)  (ab KW 44)", 
-            "type": "FWPM:0", 
-            "room": "FB012"
-        }, 
-        {
-            "name": "Rapid Prototyping  SP (P)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Praktikum   (MB (P) + Wing WT/KT + WT 5) (14t\u00e4gig) (ab KW 43)", 
-            "type": "FWPM:0", 
-            "room": "FC014"
-        }, 
-        {
-            "name": "Rapid Prototyping  SP (P)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "(MB (P) + Wing WT/KT + WT 5) (KW 4042)", 
-            "type": "FWPM:0", 
-            "room": "FB012"
-        }, 
-        {
-            "name": "Rapid Prototyping  SP (P)", 
             "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Vorlesung   (MB (P) + Wing WT/KT + WT 5) (14t\u00e4gig)  (ab KW 44)", 
-            "type": "FWPM:0", 
-            "room": "FB012"
-        }, 
-        {
-            "name": "Rapid Prototyping  SP (P)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Praktikum   (MB (P) + Wing WT/KT + WTT 5) (14t\u00e4gig)  (ab KW 43)", 
-            "type": "FWPM:0", 
-            "room": "FC014"
-        }, 
-        {
-            "name": "Rapid Prototyping  SP (P)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "(MB (P) + Wing WT/KT + WT 5) (KW 4042)", 
-            "type": "FWPM:0", 
-            "room": "FB012"
-        }, 
-        {
             "name": "Abwasserreinigungstechnik  SP (W)", 
             "note": "(UT 5 + MB W 5)", 
+            "type": "HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FB109", 
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "time": "08:00-09:30", 
+            "name": "Produktionsplanung und steuerung  (SP (P)", 
+            "note": "(Wing + MB P 5)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "time": "09:45-11:15", 
+            "name": "W\u00e4rme und Stoffaustausch", 
+            "note": "(MB + UT 5)", 
+            "type": "HF:0"
+        }, 
+        {
             "time": "11:30-13:00", 
+            "room": "FC018", 
+            "name": "Mechanische Verfahrenstechnik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB203", 
+            "prof": "Dr. Klaus Hagen", 
+            "time": "14:00-15:30", 
+            "name": "Wassergewinnung und aufbereitung  SP (W)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB203", 
             "prof": "Prof. Dr. Andreas Schmid", 
-            "type": "HF:0", 
-            "room": "FB203"
+            "time": "14:00-15:30", 
+            "name": "Innovationsmanagement  SP (P)", 
+            "type": "FWPM:0"
+        }, 
+        {
+            "room": "FB203", 
+            "prof": "Dr. Klaus Hagen", 
+            "time": "15:45-17:15", 
+            "name": "Wassergewinnung und aufbereitung  SP (W)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB203", 
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "15:45-17:15", 
+            "name": "Innovationsmanagement  SP (P)", 
+            "type": "FWPM:0"
+        }, 
+        {
+            "room": "FB003", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "17:30-19:00", 
+            "name": "Wassergewinnung und aufbereitung  SP (W)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB203", 
+            "prof": "Prof. Dr. Andreas Schmid", 
+            "time": "17:30-19:00", 
+            "name": "Innovationsmanagement  SP (P)", 
+            "type": "FWPM:0"
         }
     ]
 }

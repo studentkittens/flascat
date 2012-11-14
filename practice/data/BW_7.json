@@ -1,1 +1,575 @@
-{}
+{
+    "Dienstag": [
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Friedwart Lender", 
+            "time": "08:00-09:30", 
+            "name": "Industrielle Logistik  V L", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Friedwart Lender", 
+            "time": "09:45-11:15", 
+            "name": "Industrielle Logistik  V L", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB001/002", 
+            "prof": "Betriebliche Sozialpolitik", 
+            "time": "11:30-13:00", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V PO", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB001/002", 
+            "prof": "Betriebliche Sozialpolitik", 
+            "time": "14:00-15:30", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V PO", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA201", 
+            "prof": "Norbert Hornsteiner", 
+            "time": "17:30-19:00", 
+            "name": "Bachelorseminar", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "time": "19:00-20:30", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V UU", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA101", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "time": "19:00-20:30", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V UU", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB023", 
+            "prof": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
+            "time": "19:15-20:45", 
+            "name": "Gesundheitswirtschaftliches Kolloquium  V GM", 
+            "type": "HF:0"
+        }
+    ], 
+    "Montag": [
+        {
+            "room": "FD248", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "time": "08:00-13:00", 
+            "name": "Controlling und Qualit\u00e4tsmanagement in Gesundheitseinrichtungen  V GM", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD248", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "time": "08:00-13:00", 
+            "name": "Controlling und Qualit\u00e4tsmanagement in Gesundheitseinrichtungen  V GM", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA204", 
+            "time": "09:45-11:15", 
+            "name": "Moderation", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "desc": "Onlineanmeldung KW 40  Beginn KW 41  max. 17 TN\nDipl.Psych. AngelikaMaria W\u00fcrke\nDivWM:0", 
+            "room": "FA204", 
+            "name": "Stresspr\u00e4vention und Zeitmanagement"
+        }, 
+        {
+            "room": "FB007/009", 
+            "prof": "Prof. Dr. Friedwart Lender", 
+            "time": "11:30-13:00", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V L", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA204", 
+            "time": "14:00-15:30", 
+            "name": "Moderation", 
+            "note": "(Gruppe III)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Pfarrer Wolfram Lehmann", 
+            "time": "14:00-15:30", 
+            "name": "Projektmanagement  V UU", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB007/009", 
+            "prof": "Prof. Dr. Friedwart Lender", 
+            "time": "14:00-15:15", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V L", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA103", 
+            "prof": "Prof. Dr. Andreas Wagener", 
+            "time": "15:45-17:15", 
+            "name": "MarketingMix  V M", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "room": "FA101", 
+            "name": "Planungsinstrumente und Plankostenrechnung  V CF", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA103", 
+            "prof": "Prof. Dr. Jens Kirchner", 
+            "time": "17:30-19:00", 
+            "name": "MarketingMix  V M", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "17:30-19:00", 
+            "room": "FA203", 
+            "name": "Pr\u00e4sentation und Rhetorik", 
+            "prof": "Klaus KarlKraus"
+        }, 
+        {
+            "time": "17:30-19:00", 
+            "room": "FA101", 
+            "name": "Planungsinstrumente und Plankostenrechnung  V CF", 
+            "type": "HF:0"
+        }
+    ], 
+    "Freitag": [
+        {
+            "time": "08:00-17:15", 
+            "room": "FA013", 
+            "name": "Arbeiten und F\u00fchren in internationalen Unternehmen", 
+            "prof": "Navid Nazemian"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Prof. Dr. Christof Aignesberger", 
+            "time": "08:00-09:30", 
+            "name": "Finanzmanagement  V CF", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "09:45-11:15", 
+            "name": "Finanzmanagement  V CF", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "09:45-11:15", 
+            "room": "FA015", 
+            "name": "Organisationsentwicklung"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Joachim Riedl", 
+            "time": "09:45-11:15", 
+            "name": "Sektorales Marketing  V M", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Klaus Dehner", 
+            "time": "11:30-15:00", 
+            "name": "Wirtschaftspr\u00fcfung  V SR", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Joachim Riedl", 
+            "time": "11:30-13:00", 
+            "name": "Sektorales Marketing  V M", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring,  Eric Schreiber", 
+            "time": "13:00-20:00", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V UU", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Klaus Dehner", 
+            "time": "13:00-16:45", 
+            "name": "Wirtschaftspr\u00fcfung  V SR", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "Ex_Extern", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "13:30-17:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA102/104", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "13:30-18:30", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA204", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "13:30-17:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "13:30-17:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Klaus Dehner", 
+            "time": "13:30-16:45", 
+            "name": "Wirtschaftspr\u00fcfung  V SR", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "13:30-17:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "time": "14:00-19:00", 
+            "name": "Psychologie  V PO", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA017 + FA015 + FA011 + FA009", 
+            "prof": "Prof. Dr. Gerald Schmola,  Oliver Schuster", 
+            "time": "14:00-19:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Christiane Schwenk", 
+            "time": "14:00-19:00", 
+            "name": "Personalentwicklung  V PO", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "time": "14:00-19:00", 
+            "name": "Psychologie  V PO", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Christiane Schwenk", 
+            "time": "14:00-19:00", 
+            "name": "Personalentwicklung  V PO", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA109 + FA017 + FA015 + FA013 + FA011 + FA009", 
+            "prof": "Oliver Liebsch,  Oliver Schuster", 
+            "time": "14:00-20:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA203 + FA017 + FA015 + FA013 + FA011 + FA009", 
+            "prof": "Oliver Liebsch,  Oliver Schuster", 
+            "time": "14:00-20:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring,  Eric Schreiber", 
+            "time": "08:00-17:00", 
+            "name": "Samstag", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "time": "08:00-15:30", 
+            "name": "Psychologie  V PO", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA017 + FA015 + FA011 + FA009", 
+            "prof": "Prof. Dr. Gerald Schmola,  Oliver Schuster", 
+            "time": "08:00-17:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA008/010 + FA012 + FA014", 
+            "prof": "Prof. Dr. Gerald Schmola,  Oliver Schuster", 
+            "time": "08:00-17:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Dr. Robin M\u00fcller", 
+            "time": "08:00-15:30", 
+            "name": "Psychologie  V PO", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA109 + FA101 + FA017 + FA013 + FA011 + FA009", 
+            "prof": "Oliver Liebsch,  Oliver Schuster", 
+            "time": "08:00-18:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "08:00-17:15", 
+            "room": "FA013", 
+            "name": "Arbeiten und F\u00fchren in internationalen Unternehmen", 
+            "prof": "Navid Nazemian"
+        }, 
+        {
+            "room": "FA103 + FA101 + FA017 + FA013 + FA011 + FA009", 
+            "prof": "Oliver Liebsch,  Oliver Schuster", 
+            "time": "08:00-18:00", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Klaus Dehner", 
+            "time": "08:00-13:00", 
+            "name": "Wirtschaftspr\u00fcfung  V SR", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA102/104", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "08:30-16:30", 
+            "name": "Betriebswirtschaftliches Kolloquium", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Christiane Schwenk", 
+            "time": "09:00-17:00", 
+            "name": "Personalentwicklung  V PO", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Christiane Schwenk", 
+            "time": "09:00-17:00", 
+            "name": "Personalentwicklung  V PO", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA222", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "time": "09:00-17:00", 
+            "name": "PCgest\u00fctzte Businessplanung  V UU", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FC009S", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "time": "09:00-17:00", 
+            "name": "PCgest\u00fctzte Businessplanung  V UU", 
+            "type": "HF:0"
+        }, 
+        {
+            "desc": "Blockveranstaltung\nam 03.11.2012 von 09:00 bis 14:00\nDivWM:0", 
+            "room": "FA105", 
+            "prof": "Klaus KarlKraus", 
+            "time": "09:00-14:00", 
+            "name": "Pr\u00e4sentation und Rhetorik"
+        }, 
+        {
+            "desc": "Blockveranstaltung\nam 17.11.2012 von 09:00 bis 14:00\nDivWM:0", 
+            "room": "FA105", 
+            "prof": "Klaus KarlKraus", 
+            "time": "09:00-14:00", 
+            "name": "Pr\u00e4sentation und Rhetorik"
+        }, 
+        {
+            "room": "FA222", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "time": "09:00-17:00", 
+            "name": "PCgest\u00fctzte Businessplanung  V UU", 
+            "type": "HF:0"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "time": "08:00-09:30", 
+            "name": "Grundlagen des Controlling  V CF", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA204", 
+            "time": "09:45-11:15", 
+            "name": "Moderation", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "time": "09:45-11:15", 
+            "name": "Grundlagen des Controlling  V CF", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA015", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "time": "11:30-13:00", 
+            "name": "Rechtliche und politische Rahmenbedingungen im Gesundheitswesen  V GM", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "time": "11:30-13:00", 
+            "name": "HGB  Rechnungslegung / HGB  Spezielle Anwendungen  V SR", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA105", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "14:00-15:30", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V PO", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Hans Eigenstetter", 
+            "time": "14:00-15:30", 
+            "name": "Besteuerung der Personengesellschaften  V SR", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA015", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "time": "14:00-15:30", 
+            "name": "Rechtliche und politische Rahmenbedingungen im Gesundheitswesen  V GM", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA105", 
+            "prof": "Prof. Dr. Thomas Meuche", 
+            "time": "15:45-17:15", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V PO", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "desc": "Onlineanmeldung KW 40  Beginn KW 41  max. 20 TN\nDipl.Psych. AngelikaMaria W\u00fcrke\nDivWM:0", 
+            "room": "FA204", 
+            "name": "Gespr\u00e4chsf\u00fchrung"
+        }, 
+        {
+            "time": "15:45-20:45", 
+            "room": "FA013", 
+            "name": "Arbeiten und F\u00fchren in internationalen Unternehmen", 
+            "prof": "Navid Nazemian"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "time": "15:45-17:15", 
+            "name": "Wirtschaftspr\u00fcfung  V SR", 
+            "type": "HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FA015", 
+            "prof": "Prof. Dr. Michael Seidel", 
+            "time": "09:45-11:15", 
+            "name": "Nachfolgemanagement  V UU", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FD177", 
+            "name": "Kommunikation in Konfliktsituationen", 
+            "prof": "Dr. Claudia Jau\u00df"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FA201", 
+            "name": "Gesundheitswirtschaftliches Kolloquium  V GM", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA015", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "time": "14:00-15:30", 
+            "name": "Controlling und Qualit\u00e4tsmanagement in Gesundheitseinrichtungen  V GM", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Andreas Wagener", 
+            "time": "15:45-17:15", 
+            "name": "MarketingMix  V M", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "time": "15:45-17:15", 
+            "name": "HGB  Rechnungslegung / HGB  Spezielle Anwendungen  V SR", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Jens Kirchner", 
+            "time": "17:30-19:00", 
+            "name": "MarketingMix  V M", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA009", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "time": "17:30-19:00", 
+            "name": "K\u00f6rperschafts und Gewerbesteuer  V SR", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA101", 
+            "prof": "Prof. Dr. Heinz G\u00f6hring", 
+            "time": "19:00-20:30", 
+            "name": "Fallstudien, Planspiele und \u00e4hnliche praxisnahe LV  V UU", 
+            "type": "HF:0"
+        }
+    ]
+}

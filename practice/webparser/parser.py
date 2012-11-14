@@ -10,13 +10,24 @@ headers = ['room', 'type', 'time', 'note', 'prof', 'name', 'desc']
 
 
 def looks_like_room(data):
-    return re.search('F[A-Z][0-9]{3}', data) or re.match('Ex_*', data)
+    return re.match('F[A-Z][0-9]{3}', data) or re.match('Ex_*', data)
 
 
 def looks_like_day(data):
     data = data.lower().strip()
     result = data in  ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
     return result or data in ["montag", "dienstag", "mittwoch", "donnerstag", "freitag"]
+
+
+def looks_like_prof(data):
+    tags = ['Herr', 'Prof.', 'Dr.']
+    for tag in tags:
+        if tag in data:
+            return True
+    else:
+        # Check if it consists of two words (Firstname Lastname)
+        # (This should be easier with \w but I'm to dumb right now)
+        return re.match('[A-Z][a-z]+\s+[A-Z][a-z]+', data)
 
 
 def guess_key_from_data(data):
@@ -92,10 +103,16 @@ class TableHTMLParser(HTMLParser):
                     if node.get('_tmp'):
                         split = node.get('_tmp').split('#')
                         node['name'] = split[0]
-                        if len(split) > 1:
-                            node['prof'] = split[-1]
+                        del split[0]
+
+                        # Find something that looks like Prof
+                        for data in split:
+                            if looks_like_prof(data):
+                                node['prof'] = data
+                                split.remove(data)
+
                         if len(split) > 2:
-                            node['desc'] = split[1]
+                            node['desc'] = '\n'.join(split)
                         del node['_tmp']
 
     def print_table(self):

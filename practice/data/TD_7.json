@@ -1,64 +1,60 @@
 {
-    "Montag": [
+    "Dienstag": [
         {
-            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
-            "note": "(Gruppe II)", 
-            "time": "08:00-09:30-09:45-11:15-17:15-18:45", 
-            "prof": "Mueb_DrD", 
-            "type": "HF:0", 
-            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41"
+            "desc": "(4 SWS Block Farbprojekt+Firmenkoop.)\nMueb_H9A\nFirmenkooperation\n(4 SWS Block Farbprojekt+Firmenkoop. hintereinander)\nMueb_H9A\nDesignprojekt\nMueb_TD621\nDesignprojekt\nMueb_H9", 
+            "prof": "Prof. Dietmar Sp\u00f6rl", 
+            "time": "11:30-13:00-14:00-15:30-15:45-17:15-15:45-17:15", 
+            "name": "Farbprojekt", 
+            "note": "(Gruppe I)#(Gruppe III)", 
+            "type": "HF:0#HF:0#HF:0#HF:0"
         }
     ], 
-    "Mittwoch": [
+    "Montag": [
         {
-            "name": "Dessinieren", 
-            "note": "(TD 3/7 + MD 1)#(4 SWS Block)#(Gruppe II)#(4 SWS Block)#(Gruppe II)", 
-            "time": "08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00-15:45-17:15", 
-            "prof": "Mueb_Div", 
-            "type": "HF:0", 
-            "desc": "Dipl.Des. Stefanie Romig"
+            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41\nT_WPF:0\nMueb_H9A\nEnglisch f\u00fcr Textil und Design  Kurs 3 (ab WS 2011: Englisch UNIcert II, Kurs 2a)\nKurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW\nT_WPF:0\nMueb_H1\nDesignprojekt\nMueb_DrD", 
+            "prof": "Prof. Michael Barta", 
+            "time": "08:00-09:30-09:45-11:15-17:15-18:45", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
         }
     ], 
     "Freitag": [
         {
-            "prof": "Mueb_H9A", 
-            "desc": "Kurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine", 
+            "time": "11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
+            "desc": "Kurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 25.01.2013 von 11:30 bis 16:45\nT_WPF:0\nMueb_H9A\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 09.11.2012 von 11:30 bis 16:45\nT_WPF:0\nMueb_H9A\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 02.11.2012 von 11:30 bis 16:45\nT_WPF:0\nMueb_H9A\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 26.10.2012 von 11:30 bis 16:45\nT_WPF:0\nMueb_H9A\nSamstag\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 10.11.2012 von 09:45 bis 15:00\nT_WPF:0\nMueb_H9A", 
             "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
-            "time": "11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00"
-        }
-    ], 
-    "Dienstag": [
-        {
-            "name": "Farbprojekt", 
-            "note": "(Gruppe III)#(Gruppe I)", 
-            "time": "11:30-13:00-14:00-15:30-15:45-17:15-15:45-17:15", 
-            "prof": "Mueb_TD621", 
-            "type": "HF:0#HF:0#HF:0#HF:0", 
-            "desc": "(4 SWS Block Farbprojekt+Firmenkoop.)"
+            "prof": "Spanisch Grundstufe (UNIcert I) Kurs 1"
         }
     ], 
     "Donnerstag": [
         {
-            "name": "Kollektionsgestaltung + Schnitttechnik", 
-            "note": "(4 SWS Block)#(Gruppe I)#(4 SWS Block)#(Gruppe I)", 
+            "desc": "T_WPF:0\nMueb_TD621\nKollektionsgestaltung + Schnitttechnik\nT_WPF:0\nMueb_TD621", 
+            "room": "Experimentelles dreidimensionales Gestalten 1", 
+            "prof": "Prof. Martina Ziegenthaler", 
             "time": "09:45-11:15-11:30-13:00-14:00-15:30", 
-            "prof": "Mueb_TD621", 
-            "desc": "Prof. Martina Ziegenthaler", 
-            "room": "Experimentelles dreidimensionales Gestalten 1"
+            "name": "Kollektionsgestaltung + Schnitttechnik", 
+            "note": "(4 SWS Block)#(Gruppe I)#(4 SWS Block)#(Gruppe I)"
         }, 
         {
-            "name": "Susanne Winter", 
-            "note": "(4 SWS Block)", 
             "time": "15:45-17:15", 
-            "prof": "Mueb_H9A", 
-            "desc": "T_WPF:0", 
-            "room": "Experimentelles dreidimensionales Gestalten 1"
+            "room": "Experimentelles dreidimensionales Gestalten 1", 
+            "note": "(4 SWS Block)", 
+            "name": "Susanne Winter"
         }, 
         {
-            "note": "(4 SWS Block)", 
-            "prof": "Mueb_H9A", 
             "name": "Susanne Winter", 
-            "desc": "T_WPF:0"
+            "note": "(4 SWS Block)"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "Dipl.Des. Stefanie Romig\nMueb_H9A\nDesign und Mediengeschichte\nMA Beatrix M\u00fcnzerGlas\nT_WPF:0\nMueb_H16\nKollektionsgestaltung + Schnitttechnik\nT_WPF:0\nMueb_TD621\nKollektionsgestaltung + Schnitttechnik\nT_WPF:0\nMueb_TD621\nModezeichnen\nT_WPF:0\nMueb_Div", 
+            "prof": "Prof. Martina Ziegenthaler", 
+            "time": "08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00-15:45-17:15", 
+            "name": "Dessinieren", 
+            "note": "(TD 3/7 + MD 1)#(4 SWS Block)#(Gruppe II)#(4 SWS Block)#(Gruppe II)", 
+            "type": "HF:0"
         }
     ]
 }

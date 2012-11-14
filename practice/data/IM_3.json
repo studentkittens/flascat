@@ -1,1 +1,176 @@
-{}
+{
+    "Dienstag": [
+        {
+            "room": "FA103", 
+            "prof": "Prof. Dr. Jens Kirchner", 
+            "time": "14:00-15:30", 
+            "name": "Marktprozesse", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA105", 
+            "prof": "Dr. Gerd Kammerer", 
+            "time": "15:45-17:15", 
+            "name": "Datenverarbeitung/ Statistik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA011", 
+            "prof": "Prof. Dr. Jens Kirchner", 
+            "time": "17:30-19:00", 
+            "name": "Marktprozesse", 
+            "type": "HF:0"
+        }
+    ], 
+    "Montag": [
+        {
+            "room": "FD175", 
+            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
+            "time": "08:00-09:30", 
+            "name": "Fremdsprache I  Englisch", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA103", 
+            "prof": "Angelika Me\u00dfnerChuchuy", 
+            "time": "09:45-11:15", 
+            "name": "Fremdsprache II  Spanisch", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA017", 
+            "time": "11:30-13:00", 
+            "name": "Fremdsprache II  Spanisch", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA109", 
+            "prof": "Angelika Me\u00dfnerChuchuy", 
+            "time": "11:30-13:00", 
+            "name": "Fremdsprache II  Franz\u00f6sisch", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA201", 
+            "prof": "Prof. Dr. Peter Sch\u00e4fer", 
+            "time": "14:00-15:30", 
+            "name": "Au\u00dfenwirtschaft", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA201", 
+            "prof": "Juan Carlos Abad Sanz", 
+            "time": "15:45-17:15", 
+            "name": "Au\u00dfenwirtschaft", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD175", 
+            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
+            "time": "17:30-19:00", 
+            "name": "Fremdsprache I  Englisch", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }
+    ], 
+    "Freitag": [
+        {
+            "room": "FB003", 
+            "prof": "Interkulturelles Training in deutscher Sprache", 
+            "time": "09:00-18:00", 
+            "name": "Praxisseminar zur Nachbereitung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB003", 
+            "prof": "Interkulturelles Training in englischer Sprache", 
+            "time": "09:00-18:00", 
+            "name": "Praxisseminar zur Nachbereitung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB003", 
+            "prof": "Interkulturelles Training in deutscher Sprache", 
+            "time": "09:00-18:00", 
+            "name": "Samstag", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB003", 
+            "prof": "Interkulturelles Training in englischer Sprache", 
+            "time": "09:00-18:00", 
+            "name": "Praxisseminar zur Nachbereitung", 
+            "type": "HF:0"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "room": "FA102/104", 
+            "time": "08:00-09:30", 
+            "name": "Datenverarbeitung/ Statistik", 
+            "note": "(ab KW 47)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA202", 
+            "time": "08:00-09:30", 
+            "name": "Datenverarbeitung/ Statistik", 
+            "note": "(KW 40  46", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA105", 
+            "prof": "Dr. Gerd Kammerer", 
+            "time": "09:45-11:15", 
+            "name": "Datenverarbeitung/ Statistik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA101", 
+            "prof": "Prof. Dr. Matthias Mungenast", 
+            "time": "11:30-13:00", 
+            "name": "Organisation und Personalmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB003", 
+            "prof": "Interkulturelles Training in deutscher Sprache", 
+            "time": "14:00-18:00", 
+            "name": "Praxisseminar zur Nachbereitung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB003", 
+            "prof": "Interkulturelles Training in englischer Sprache", 
+            "time": "14:00-18:00", 
+            "name": "Praxisseminar zur Nachbereitung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA101", 
+            "prof": "Prof. Dr. Matthias Mungenast", 
+            "time": "14:00-15:30", 
+            "name": "Organisation und Personalmanagement", 
+            "type": "HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FA009", 
+            "prof": "Prof. Dr. J\u00fcrgen Gatz", 
+            "time": "08:00-09:30", 
+            "name": "Kulturelle Grundlagen des Managements", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA109", 
+            "prof": "Dr. Gerd Kammerer", 
+            "time": "09:45-11:15", 
+            "name": "Datenverarbeitung/ Statistik", 
+            "type": "HF:0"
+        }
+    ]
+}

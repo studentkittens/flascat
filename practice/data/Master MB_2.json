@@ -1,121 +1,115 @@
 {
     "Tuesday": [
         {
-            "name": "Personalf\u00fchrung und interkulturelle Kompetenz", 
+            "room": "FA017", 
+            "prof": "Prof. Dr. Wolfgang Schrott", 
             "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Wolfgang Schrott", 
-            "desc": "(UT 5 + M MB 2)  (Beginn 9.10.)", 
-            "type": "FWM:0", 
-            "room": "FA017"
-        }, 
-        {
             "name": "Personalf\u00fchrung und interkulturelle Kompetenz", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Wolfgang Schrott", 
-            "desc": "(UT 5 + M MB 2)  (Beginn 9.10.)", 
-            "type": "FWM:0", 
-            "room": "FA017"
+            "type": "FWM:0"
         }, 
         {
+            "room": "FA017", 
+            "prof": "Prof. Dr. Wolfgang Schrott", 
+            "time": "09:45-11:15", 
+            "name": "Personalf\u00fchrung und interkulturelle Kompetenz", 
+            "type": "FWM:0"
+        }, 
+        {
+            "room": "FB012", 
+            "time": "14:00-15:30", 
             "name": "Prof. Dr. Matthias Kilian", 
             "note": "FEM  SP (S)", 
-            "time": "14:00-15:30", 
-            "type": "HF:0", 
-            "room": "FB012"
+            "type": "HF:0"
         }, 
         {
-            "name": "CFD/Numerischer W\u00e4rmetransport  SP (S)", 
+            "room": "FB012", 
+            "prof": "Prof. Dr. Robert Honke", 
             "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Robert Honke", 
-            "type": "HF:0", 
-            "room": "FB012"
-        }
-    ], 
-    "Wednesday": [
-        {
-            "name": "Prof. Dr. Matthias Kilian", 
-            "note": "MKS  SP (S)#(bis KW 45)", 
-            "time": "09:45-11:15", 
-            "type": "HF:0", 
-            "room": "FB003"
-        }, 
-        {
             "name": "CFD/Numerischer W\u00e4rmetransport  SP (S)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Robert Honke", 
-            "type": "HF:0", 
-            "room": "FB012"
+            "type": "HF:0"
         }
     ], 
     "Monday": [
         {
+            "room": "FB012", 
+            "time": "09:45-11:15", 
             "name": "Prof. Dr. Robert Honke", 
             "note": "FEM  SP (S)", 
-            "time": "09:45-11:15", 
-            "type": "HF:0", 
-            "room": "FB012"
+            "type": "HF:0"
         }, 
         {
+            "room": "FB012", 
+            "time": "11:30-13:00", 
             "name": "Prof. Dr. Matthias Kilian", 
             "note": "MKS  SP (S)#(ab  KW 46)", 
-            "time": "11:30-13:00", 
-            "type": "HF:0", 
-            "room": "FB012"
+            "type": "HF:0"
         }, 
         {
+            "room": "FB012", 
+            "time": "14:00-15:30", 
             "name": "Prof. Dr. Matthias Kilian", 
             "note": "MKS  SP (S)", 
-            "time": "14:00-15:30", 
-            "type": "HF:0", 
-            "room": "FB012"
+            "type": "HF:0"
         }, 
         {
+            "room": "FB005", 
+            "prof": "Dr. Peter Michel", 
+            "time": "15:45-17:15", 
             "name": "Kunststoff als Leichtbauwerkstoff im Automobilbau  SP (S)", 
-            "time": "15:45-17:15", 
-            "prof": "Dr. Peter Michel", 
-            "desc": "(Master MB + Master VW )", 
-            "type": "FWM:0", 
-            "room": "FB005"
+            "type": "FWM:0"
         }, 
         {
+            "room": "FB005", 
+            "prof": "Dr. Peter Michel", 
+            "time": "15:45-17:15", 
             "name": "Kunststoff als Leichtbauwerkstoff im Automobilbau  SP (ET)", 
-            "time": "15:45-17:15", 
-            "prof": "Dr. Peter Michel", 
-            "desc": "(Master MB + Master VW )", 
-            "type": "FWM:0", 
-            "room": "FB005"
+            "type": "FWM:0"
         }, 
         {
+            "room": "FA222", 
+            "prof": "Dr. Klaus Ramming", 
+            "time": "15:45-17:15", 
             "name": "Apparate und Anlagenbau  SP (S)", 
             "note": "( M MB + MVW 2)", 
-            "time": "15:45-17:15", 
-            "prof": "Dr. Klaus Ramming", 
-            "type": "FWM:0", 
-            "room": "FA222"
+            "type": "FWM:0"
         }, 
         {
-            "name": "Kunststoff als Leichtbauwerkstoff im Automobilbau  SP (S)", 
-            "time": "17:30-19:00", 
+            "room": "FB005", 
             "prof": "Dr. Peter Michel", 
-            "desc": "(Master MB + Master VW )", 
-            "type": "FWM:0", 
-            "room": "FB005"
-        }, 
-        {
+            "time": "17:30-19:00", 
             "name": "Kunststoff als Leichtbauwerkstoff im Automobilbau  SP (ET)", 
-            "time": "17:30-19:00", 
-            "prof": "Dr. Peter Michel", 
-            "desc": "(Master MB + Master VW )", 
-            "type": "FWM:0", 
-            "room": "FB005"
+            "type": "FWM:0"
         }, 
         {
+            "room": "FB005", 
+            "prof": "Dr. Peter Michel", 
+            "time": "17:30-19:00", 
+            "name": "Kunststoff als Leichtbauwerkstoff im Automobilbau  SP (S)", 
+            "type": "FWM:0"
+        }, 
+        {
+            "room": "FA222", 
+            "prof": "Dr. Klaus Ramming", 
+            "time": "17:30-19:00", 
             "name": "Apparate und Anlagenbau  SP (S)", 
             "note": "( M MB + MVW 2)", 
-            "time": "17:30-19:00", 
-            "prof": "Dr. Klaus Ramming", 
-            "type": "FWM:0", 
-            "room": "FA222"
+            "type": "FWM:0"
+        }
+    ], 
+    "Wednesday": [
+        {
+            "room": "FB003", 
+            "time": "09:45-11:15", 
+            "name": "Prof. Dr. Matthias Kilian", 
+            "note": "MKS  SP (S)#(bis KW 45)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "time": "11:30-13:00", 
+            "name": "CFD/Numerischer W\u00e4rmetransport  SP (S)", 
+            "type": "HF:0"
         }
     ]
 }

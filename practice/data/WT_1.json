@@ -1,197 +1,173 @@
 {
-    "Montag": [
+    "Dienstag": [
         {
-            "name": "Analysis", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Wolfgang Richter", 
-            "desc": "\u00dcbungen (UT + WT 1)  (ab KW 46)", 
-            "type": "HF:0", 
-            "room": "FA009"
-        }, 
-        {
-            "name": "Statik und Festigkeitslehre", 
-            "time": "15:45-17:15", 
-            "prof": "Tutorium", 
-            "desc": "Tutorium  ab KW 43", 
-            "type": "HF:0", 
-            "room": "FA203"
-        }, 
-        {
+            "room": "FB109", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "08:00-09:30", 
             "name": "Grundlagen der Informationstechnik", 
-            "note": "\u00dcbungen  (ab KW 41)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB201 + FB203 + FB205 + FB206", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "09:45-11:15", 
+            "name": "Allgemeine und anorganische Chemie", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB201 + FB203 + FB205 + FB206", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "11:30-13:00", 
+            "name": "Allgemeine und anorganische Chemie", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB109", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "14:00-15:30", 
+            "name": "Statik und Festigkeitslehre", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB110", 
+            "prof": "Prof. Dr. Dieter Bauer", 
             "time": "15:45-17:15", 
-            "prof": "Dipl.Ing. J\u00fcrgen Rubitzko", 
-            "type": "HF:0", 
-            "room": "FA014"
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "\u00dcbungen  (ab KW 41)", 
+            "type": "HF:0"
         }
     ], 
-    "Mittwoch": [
+    "Montag": [
         {
-            "name": "Allgemeine und anorganische Chemie", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Hans Schmidt", 
-            "desc": "Praktikum", 
-            "type": "HF:0", 
-            "room": "FB201 + FB203 + FB205 + FB206"
-        }, 
-        {
-            "name": "Allgemeine und anorganische Chemie", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Hans Schmidt", 
-            "desc": "Praktikum", 
-            "type": "HF:0", 
-            "room": "FB201 + FB203 + FB205 + FB206"
-        }, 
-        {
-            "name": "Statik und Festigkeitslehre", 
-            "time": "11:30-13:00", 
-            "prof": "Tutorium", 
-            "desc": "Tutorium  ab KW 43", 
-            "type": "HF:0", 
-            "room": "FA202"
-        }, 
-        {
-            "name": "Programmieren f\u00fcr Ingenieure", 
-            "note": "(MB 1+2 + WT 1)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Dieter Bauer", 
-            "type": "HF:0", 
-            "room": "FB023"
-        }, 
-        {
-            "name": "Analysis", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Wolfgang Batrla", 
-            "desc": "\u00dcbungen  (WT + InnoTex 1) (bis KW 45)", 
-            "type": "HF:0", 
-            "room": "FA013"
-        }, 
-        {
-            "name": "Analysis", 
-            "time": "15:45-17:15", 
+            "room": "FA009", 
             "prof": "Prof. Dr. Wolfgang Richter", 
-            "desc": "(UT + WT + InnoTex 1)  (ab KW 46)", 
-            "type": "HF:0", 
-            "room": "FA013"
+            "time": "09:45-11:15", 
+            "name": "Analysis", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Analysis", 
             "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Wolfgang Batrla", 
-            "desc": "(UT + WT + InnoTex 1) (bis KW 45)", 
-            "type": "HF:0", 
-            "room": "FA205/206"
+            "room": "FA203", 
+            "name": "Statik und Festigkeitslehre", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Analysis", 
-            "time": "17:30-19:00", 
-            "prof": "Dipl.Ing. Peter Pinter", 
-            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)", 
-            "type": "HF:0", 
-            "room": "FA011"
+            "room": "FA014", 
+            "time": "15:45-17:15", 
+            "name": "Grundlagen der Informationstechnik", 
+            "note": "\u00dcbungen  (ab KW 41)", 
+            "type": "HF:0"
         }
     ], 
     "Freitag": [
         {
-            "name": "Allgemeine und anorganische Chemie", 
-            "time": "08:00-09:30", 
+            "room": "FA009", 
             "prof": "Prof. Dr. Hans Schmidt", 
-            "desc": "(InnoTex + UT + WT 1)", 
-            "type": "HF:0", 
-            "room": "FA009"
+            "time": "08:00-09:30", 
+            "name": "Allgemeine und anorganische Chemie", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
-            "time": "09:45-11:15", 
+            "room": "FA201", 
             "prof": "Prof. Dr. Michael Seidel", 
-            "desc": "(UT + WT + InnoTex 1)", 
-            "type": "HF:0", 
-            "room": "FA201"
-        }
-    ], 
-    "Dienstag": [
-        {
-            "name": "Grundlagen der Informationstechnik", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "(MB 1+2 + WT 1 + InnoTex 3)", 
-            "type": "HF:0", 
-            "room": "FB109"
-        }, 
-        {
-            "name": "Allgemeine und anorganische Chemie", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Hans Schmidt", 
-            "desc": "Praktikum", 
-            "type": "HF:0", 
-            "room": "FB201 + FB203 + FB205 + FB206"
-        }, 
-        {
-            "name": "Allgemeine und anorganische Chemie", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Hans Schmidt", 
-            "desc": "Praktikum", 
-            "type": "HF:0", 
-            "room": "FB201 + FB203 + FB205 + FB206"
-        }, 
-        {
-            "name": "Statik und Festigkeitslehre", 
-            "note": "(Gruppe I)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Wolfgang Richter", 
-            "desc": "\u00dcbungen  (MB 1+2 + WT 1) (ab KW 42) + Gruppe III", 
-            "type": "HF:0", 
-            "room": "FB109"
-        }, 
-        {
-            "name": "Programmieren f\u00fcr Ingenieure", 
-            "note": "\u00dcbungen  (ab KW 41)", 
-            "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Dieter Bauer", 
-            "type": "HF:0", 
-            "room": "FB110"
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "type": "HF:0"
         }
     ], 
     "Donnerstag": [
         {
+            "room": "FB109", 
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "08:00-09:30", 
             "name": "Programmieren f\u00fcr Ingenieure", 
             "note": "(MB 1+2 + WT 1)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Dieter Bauer", 
-            "type": "HF:0", 
-            "room": "FB109"
+            "type": "HF:0"
         }, 
         {
-            "name": "Allgemeine und anorganische Chemie", 
-            "time": "09:45-11:15", 
+            "room": "FB023", 
             "prof": "Prof. Dr. Hans Schmidt", 
-            "desc": "(InnoTex + UT + WT 1)", 
-            "type": "HF:0", 
-            "room": "FB023"
+            "time": "09:45-11:15", 
+            "name": "Allgemeine und anorganische Chemie", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
-            "time": "11:30-13:00", 
+            "room": "FB109", 
             "prof": "Prof. Dr. Michael Seidel", 
-            "desc": "(UT + WT + InnoTex 1)", 
-            "type": "HF:0", 
-            "room": "FB109"
+            "time": "11:30-13:00", 
+            "name": "Betriebswirtschaftliche Grundlagen f\u00fcr Ingenieure", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Statik und Festigkeitslehre", 
-            "time": "14:00-15:30", 
+            "room": "FB023", 
             "prof": "Prof. Dr. Matthias Kilian", 
-            "desc": "(MB + WT + UT + InnoTex 1)", 
-            "type": "HF:0", 
-            "room": "FB023"
+            "time": "14:00-15:30", 
+            "name": "Statik und Festigkeitslehre", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Statik und Festigkeitslehre", 
             "time": "15:45-17:15", 
-            "prof": "Tutorium", 
-            "desc": "Tutorium  ab KW 43", 
-            "type": "HF:0", 
-            "room": "FB109"
+            "room": "FB109", 
+            "name": "Statik und Festigkeitslehre", 
+            "type": "HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FB201 + FB203 + FB205 + FB206", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "08:00-09:30", 
+            "name": "Allgemeine und anorganische Chemie", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB201 + FB203 + FB205 + FB206", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "09:45-11:15", 
+            "name": "Allgemeine und anorganische Chemie", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FA202", 
+            "name": "Statik und Festigkeitslehre", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB023", 
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "11:30-13:00", 
+            "name": "Programmieren f\u00fcr Ingenieure", 
+            "note": "(MB 1+2 + WT 1)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Prof. Dr. Wolfgang Batrla", 
+            "time": "14:00-15:30", 
+            "name": "Analysis", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Prof. Dr. Wolfgang Richter", 
+            "time": "15:45-17:15", 
+            "name": "Analysis", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA205/206", 
+            "prof": "Prof. Dr. Wolfgang Batrla", 
+            "time": "15:45-17:15", 
+            "name": "Analysis", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "17:30-19:00", 
+            "room": "FA011", 
+            "name": "Analysis", 
+            "type": "HF:0"
         }
     ]
 }

@@ -1,1 +1,38 @@
-{}
+{
+    "Dienstag": [
+        {
+            "desc": "Blockveranstaltung\nam 13.11.2012 von 08:00 bis 17:00\nMAK\nBuchf\u00fchrung\nBlockveranstaltung\nam 11.12.2012 von 08:00 bis 17:00\nMAK", 
+            "prof": "Prof. Dr. FranzXaver Boos", 
+            "time": "08:00-17:00-08:00-17:00", 
+            "name": "Buchf\u00fchrung", 
+            "type": "HF:0#HF:0"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Blockveranstaltung\nam 12.11.2012 von 08:00 bis 17:00\nMAK\nBuchf\u00fchrung\nBlockveranstaltung\nam 10.12.2012 von 08:00 bis 17:00\nMAK", 
+            "prof": "Prof. Dr. FranzXaver Boos", 
+            "time": "08:00-17:00-08:00-17:00", 
+            "name": "Wissenschaftliches Arbeiten", 
+            "type": "HF:0#HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "Blockveranstaltung\nam 14.11.2012 von 08:00 bis 17:00\nMAK\nGrundlagen des Managements von Gesundheitseinrichtungen\nBlockveranstaltung\nam 12.12.2012 von 08:00 bis 17:00\nMAK", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "time": "08:00-17:00-08:00-17:00", 
+            "name": "Wissenschaftliches Arbeiten", 
+            "type": "HF:0#HF:0"
+        }
+    ], 
+    "Freitag": [
+        {
+            "desc": "Blockveranstaltung\nam 12.10.2012 von 08:00 bis 17:00\nMAK\nSamstag\nGrundlagen des Managements von Gesundheitseinrichtungen\nBlockveranstaltung\nam 13.10.2012 von 08:00 bis 17:00\nMAK\nGrundlagen des Managements von Gesundheitseinrichtungen\nBlockveranstaltung\nam 11.01.2013 von 08:00 bis 17:00\nMAK\nSamstag\nBlockveranstaltung\nam 12.01.2013 von 08:00 bis 17:00\nMAK\nGesundheits\u00f6konomie und politik\nBlockveranstaltung\nam 15.02.2013 von 08:00 bis 17:00\nMAK\nSamstag\nGesundheits\u00f6konomie und politik\nBlockveranstaltung\nam 16.02.2013 von 08:00 bis 17:00\nMAK", 
+            "prof": "Prof. Dr. Gerald Schmola", 
+            "time": "08:00-17:00-08:00-17:00-08:00-17:00-08:00-17:00-08:00-17:00-08:00-17:00", 
+            "name": "Gesundheits\u00f6konomie und politik", 
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0"
+        }
+    ]
+}

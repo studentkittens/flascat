@@ -1,51 +1,51 @@
 {
-    "Montag": [
+    "Dienstag": [
         {
-            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
-            "note": "(4 SWS Block)#(4 SWS Block)", 
-            "time": "08:00-09:30-08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
-            "prof": "Mueb_H9A", 
-            "type": "FWM:0#FWM:0#HF:0#FWM:0#HF:0#HF:0#HF:0", 
-            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41"
+            "desc": "Spinnerei   (InnoTex + TD 1)\nMueb_H16\nWeberei   (InnoTex + TD 1)\nMueb_H16\nProf. Dr. Reinhart M\u00f6ckel\nMueb_H8", 
+            "prof": "Textile Rohstoffe", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00", 
+            "name": "Textile Produktionsverfahren", 
+            "type": "HF:0#HF:0#HF:0"
         }
     ], 
-    "Mittwoch": [
+    "Montag": [
         {
-            "name": "Textildesign", 
+            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41\nMueb_H9A\nEnglisch f\u00fcr Textil und Design  Kurs 1 (ab WS 2011: Englisch UNIcert II, Kurs 1a)\nKurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW\nMueb_H1\nMaschentechnik  (InnoTex + TD 1)\nMueb_H16\nEnglisch f\u00fcr Textil und Design  Kurs 3 (ab WS 2011: Englisch UNIcert II, Kurs 2a)\nKurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW\nMueb_H1\nWahrnehmungstheorie\nMueb_H9\nFarbe 1\nMueb_H9A\nFarbe 1\nMueb_H9A", 
+            "prof": "Prof. Michael Barta", 
+            "time": "08:00-09:30-08:00-09:30-09:45-11:15-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
             "note": "(4 SWS Block)#(4 SWS Block)", 
-            "time": "09:45-11:15-11:30-13:00-14:00-15:30", 
-            "prof": "Mueb_H9", 
-            "type": "HF:0#HF:0#FWM:0", 
-            "desc": "Prof. Anita Oswald"
+            "type": "FWM:0#FWM:0#HF:0#FWM:0#HF:0#HF:0#HF:0"
         }
     ], 
     "Freitag": [
         {
+            "desc": "Dipl.Des. Christine Scholl\nMueb_MD614\nDipl.Des. Christine Scholl\nMueb_MD614\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 25.01.2013 von 11:30 bis 16:45\nMueb_H9A\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 09.11.2012 von 11:30 bis 16:45\nMueb_H9A\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 02.11.2012 von 11:30 bis 16:45\nMueb_H9A\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 26.10.2012 von 11:30 bis 16:45\nMueb_H9A\nSamstag\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 10.11.2012 von 09:45 bis 15:00\nMueb_H9A", 
+            "prof": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "time": "08:00-09:30-09:45-11:15-11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
             "name": "Digitale Bildbearbeitung", 
             "note": "(4 SWS Block)#(4 SWS Block)", 
-            "time": "08:00-09:30-09:45-11:15-11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
-            "prof": "Mueb_H9A", 
-            "type": "HF:0#HF:0#FWM:0#FWM:0#FWM:0#FWM:0#FWM:0", 
-            "desc": "Dipl.Des. Christine Scholl"
-        }
-    ], 
-    "Dienstag": [
-        {
-            "name": "Textile Produktionsverfahren", 
-            "time": "08:00-09:30-09:45-11:15-11:30-13:00", 
-            "prof": "Mueb_H8", 
-            "type": "HF:0#HF:0#HF:0", 
-            "desc": "Spinnerei   (InnoTex + TD 1)"
+            "type": "HF:0#HF:0#FWM:0#FWM:0#FWM:0#FWM:0#FWM:0"
         }
     ], 
     "Donnerstag": [
         {
+            "desc": "Mueb_H9A\nDarstellen\nMueb_H9A\nGestaltung 1\nMueb_H9\nGestaltung 1\nMueb_H9", 
+            "prof": "Prof. Dietmar Sp\u00f6rl", 
+            "time": "09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
             "name": "Darstellen", 
             "note": "(4 SWS Block)#(4 SWS Block)#(4 SWS Block)#(4 SWS Block)", 
-            "time": "09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15", 
-            "prof": "Mueb_H9", 
-            "type": "HF:0#HF:0#HF:0#HF:0", 
-            "desc": "Susanne Winter"
+            "type": "HF:0#HF:0#HF:0#HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "desc": "Mueb_H9A\nTextildesign\nMueb_H9A\nEnglisch f\u00fcr Textil und Design\nnur f\u00fcr Weitforgeschrittene, Einstufungstest UNIcert III oder IV\nMueb_H9", 
+            "prof": "Prof. Anita Oswald", 
+            "time": "09:45-11:15-11:30-13:00-14:00-15:30", 
+            "name": "Textildesign", 
+            "note": "(4 SWS Block)#(4 SWS Block)", 
+            "type": "HF:0#HF:0#FWM:0"
         }
     ]
 }

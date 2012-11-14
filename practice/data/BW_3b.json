@@ -1,1 +1,240 @@
-{}
+{
+    "Dienstag": [
+        {
+            "time": "09:45-11:15", 
+            "room": "FA101", 
+            "name": "Kosten und Leistungsrechnung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA105", 
+            "time": "11:30-13:00", 
+            "name": "Wirtschaftsenglisch II", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD246", 
+            "time": "11:30-13:00", 
+            "name": "Wirtschaftsenglisch II", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB007/009", 
+            "prof": "Dr. Gerd Kammerer", 
+            "time": "14:00-15:30", 
+            "name": "Statistik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA205/206", 
+            "prof": "Professoren Logistik", 
+            "time": "15:45-17:15", 
+            "name": "Grundlagen Beschaffung, Produktion und Logistik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Peter Sch\u00e4fer", 
+            "time": "17:30-19:00", 
+            "name": "EURecht", 
+            "note": "(alte SPO)", 
+            "type": "HF:0"
+        }
+    ], 
+    "Montag": [
+        {
+            "room": "FA202", 
+            "prof": "Tutorium Investitionswirtschaft, Start KW 46", 
+            "time": "09:45-11:15", 
+            "name": "Finanz und Investitionswirtschaft", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA204", 
+            "time": "09:45-11:15", 
+            "name": "Moderation", 
+            "note": "(Gruppe I)", 
+            "type": "SMK:0"
+        }, 
+        {
+            "room": "FA205/206", 
+            "prof": "Dr. Gerd Kammerer", 
+            "time": "09:45-11:15", 
+            "name": "Wirtschaftsmathematik", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FA101", 
+            "name": "Kosten und Leistungsrechnung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA204", 
+            "time": "14:00-15:30", 
+            "name": "Moderation", 
+            "note": "(Gruppe III)", 
+            "type": "SMK:0"
+        }, 
+        {
+            "room": "FB023", 
+            "prof": "Prof. Dr. Gabriele Hornsteiner", 
+            "time": "14:00-15:30", 
+            "name": "Statistik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB023", 
+            "prof": "Prof. Dr. Gabriele Hornsteiner", 
+            "time": "15:45-17:15", 
+            "name": "Statistik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA203", 
+            "prof": "Klaus KarlKraus", 
+            "time": "17:30-19:00", 
+            "name": "Pr\u00e4sentation und Rhetorik", 
+            "type": "SMK:0"
+        }
+    ], 
+    "Freitag": [
+        {
+            "time": "09:45-11:15", 
+            "room": "FA015", 
+            "name": "Organisationsentwicklung", 
+            "type": "SMK:0"
+        }, 
+        {
+            "time": "13:15-18:30", 
+            "room": "FA008/010", 
+            "name": "Informationsmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "13:15-18:30", 
+            "room": "FA008/010", 
+            "name": "Informationsmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "13:15-18:30", 
+            "room": "FA008/010", 
+            "name": "Informationsmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "13:15-18:30", 
+            "room": "FA008/010", 
+            "name": "Informationsmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "desc": "Pr\u00e4sentation und Rhetorik\nBlockveranstaltung\nam 03.11.2012 von 09:00 bis 14:00", 
+            "room": "FA105", 
+            "prof": "Klaus KarlKraus", 
+            "time": "09:00-14:00", 
+            "name": "Samstag", 
+            "type": "SMK:0"
+        }, 
+        {
+            "room": "FA105", 
+            "prof": "Klaus KarlKraus", 
+            "time": "09:00-14:00", 
+            "name": "Pr\u00e4sentation und Rhetorik", 
+            "type": "SMK:0"
+        }
+    ], 
+    "Donnerstag": [
+        {
+            "room": "FA101", 
+            "prof": "Teil Investitionswirtschaft", 
+            "time": "08:00-09:30", 
+            "name": "Finanz und Investitionswirtschaft", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA204", 
+            "time": "09:45-11:15", 
+            "name": "Moderation", 
+            "note": "(Gruppe II)", 
+            "type": "SMK:0"
+        }, 
+        {
+            "room": "FA101", 
+            "prof": "Teil Finanzwirtschaft", 
+            "time": "09:45-11:15", 
+            "name": "Finanz und Investitionswirtschaft", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA105", 
+            "time": "11:30-13:00", 
+            "name": "Wirtschaftsenglisch II", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD246", 
+            "time": "11:30-13:00", 
+            "name": "Wirtschaftsenglisch II", 
+            "note": "(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB109", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "time": "14:00-15:30", 
+            "name": "Einkommenssteuer", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "room": "FA204", 
+            "name": "Gespr\u00e4chsf\u00fchrung", 
+            "type": "SMK:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FB007/009", 
+            "prof": "Professoren Logistik", 
+            "time": "08:00-09:30", 
+            "name": "Grundlagen Beschaffung, Produktion und Logistik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB001/002", 
+            "prof": "Prof. Dr. Michael Sp\u00f6rl", 
+            "time": "09:45-11:15", 
+            "name": "Einkommenssteuer", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB203", 
+            "prof": "Tutorium Investitionswirtschaft, Start KW 46", 
+            "time": "11:30-13:00", 
+            "name": "Finanz und Investitionswirtschaft", 
+            "note": "(Gruppe III)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD177", 
+            "prof": "Dr. Claudia Jau\u00df", 
+            "time": "11:30-13:00", 
+            "name": "Kommunikation in Konfliktsituationen", 
+            "type": "SMK:0"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Tutorium Investitionswirtschaft, Start KW 44", 
+            "time": "14:00-15:30", 
+            "name": "Finanz und Investitionswirtschaft", 
+            "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }
+    ]
+}

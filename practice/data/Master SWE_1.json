@@ -1,132 +1,127 @@
 {
     "Friday": [
         {
-            "name": "Efficient Storage of NonRelational Data Types", 
-            "time": "08:00-09:30", 
+            "room": "FD177", 
             "prof": "Prof. Dr. Richard G\u00f6bel", 
-            "type": "FWM:0", 
-            "room": "FD177"
+            "time": "08:00-09:30", 
+            "name": "Efficient Storage of NonRelational Data Types", 
+            "type": "FWM:0"
         }, 
         {
-            "name": "Efficient Storage of NonRelational Data Types", 
-            "time": "09:45-11:15", 
+            "room": "FD177", 
             "prof": "Prof. Dr. Richard G\u00f6bel", 
-            "type": "FWM:0", 
-            "room": "FD177"
+            "time": "09:45-11:15", 
+            "name": "Efficient Storage of NonRelational Data Types", 
+            "type": "FWM:0"
         }
     ], 
     "Tuesday": [
         {
-            "name": "Generic Application Protocols", 
+            "room": "FB004A", 
+            "prof": "Prof. Dr. Ralph Lano", 
             "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Ralph Lano", 
-            "desc": "Beginn KW 42 = ab 16.10.2012  14t\u00e4gig", 
-            "type": "FWM:0", 
-            "room": "FB004A"
+            "name": "Generic Application Protocols", 
+            "type": "FWM:0"
         }, 
         {
-            "name": "Generic Application Protocols", 
+            "room": "FB004A", 
+            "prof": "Prof. Dr. Ralph Lano", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Ralph Lano", 
-            "desc": "Beginn KW 42 = ab 16.10.2012  14t\u00e4gig", 
-            "type": "FWM:0", 
-            "room": "FB004A"
-        }, 
-        {
             "name": "Generic Application Protocols", 
-            "time": "11:30-13:00", 
+            "type": "FWM:0"
+        }, 
+        {
+            "room": "FB004A", 
             "prof": "Prof. Dr. Ralph Lano", 
-            "desc": "Beginn KW 42 = ab 16.10.2012  14t\u00e4gig", 
-            "type": "FWM:0", 
-            "room": "FB004A"
+            "time": "11:30-13:00", 
+            "name": "Generic Application Protocols", 
+            "type": "FWM:0"
         }, 
         {
-            "name": "ERP System Architectures", 
-            "time": "15:45-17:15", 
+            "room": "FB006", 
             "prof": "Prof. Dr. Martin Thost", 
-            "type": "HF:0", 
-            "room": "FB006"
-        }, 
-        {
-            "name": "Language Requirement  Englisch", 
-            "time": "17:30-19:00", 
-            "prof": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
-            "type": "HF:0", 
-            "room": "FA009"
-        }
-    ], 
-    "Thursday": [
-        {
-            "name": "Language Requirement  Deutsch A1", 
-            "type": "HF:0", 
-            "room": "FA109", 
-            "time": "14:00-15:30"
-        }, 
-        {
-            "name": "Language Requirement  Deutsch A2", 
-            "time": "14:00-15:30", 
-            "prof": "Krisztina Schneider", 
-            "type": "HF:0", 
-            "room": "FA106"
-        }, 
-        {
-            "name": "Language Requirement  Deutsch A1", 
-            "type": "HF:0", 
-            "room": "FA109", 
-            "time": "15:45-17:15"
-        }, 
-        {
-            "name": "Language Requirement  Deutsch A2", 
             "time": "15:45-17:15", 
-            "prof": "Krisztina Schneider", 
-            "type": "HF:0", 
-            "room": "FA106"
+            "name": "ERP System Architectures", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Language Requirement  Englisch", 
             "time": "17:30-19:00", 
-            "prof": "Einstufungstest in der ersten Vorlesungswoche  MindestTN 10, ab 41. KW", 
-            "type": "HF:0", 
-            "room": "FA105"
-        }
-    ], 
-    "Wednesday": [
-        {
-            "name": "Language Requirement  Deutsch B1/B2", 
-            "time": "14:00-15:30", 
-            "prof": "Krisztina Schneider", 
-            "type": "HF:0", 
-            "room": "FA106"
+            "room": "FA009", 
+            "name": "Language Requirement  Englisch", 
+            "type": "HF:0"
         }
     ], 
     "Monday": [
         {
-            "name": "Language Requirement  Deutsch B1/B2", 
-            "time": "08:00-09:30", 
+            "room": "FA106", 
             "prof": "Krisztina Schneider", 
-            "type": "HF:0", 
-            "room": "FA106"
+            "time": "08:00-09:30", 
+            "name": "Language Requirement  Deutsch B1/B2", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Computer Aided Software Engineering", 
+            "room": "FA012", 
+            "prof": "Prof. Dr. Martin Thost", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Martin Thost", 
-            "type": "HF:0", 
-            "room": "FA012"
-        }, 
-        {
-            "name": "ERP System Architectures", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Martin Thost", 
-            "type": "HF:0", 
-            "room": "FB006"
-        }, 
-        {
             "name": "Computer Aided Software Engineering", 
-            "time": "15:45-17:15", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB006", 
             "prof": "Prof. Dr. Martin Thost", 
-            "type": "HF:0", 
-            "room": "FA012"
+            "time": "11:30-13:00", 
+            "name": "ERP System Architectures", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA012", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "15:45-17:15", 
+            "name": "Computer Aided Software Engineering", 
+            "type": "HF:0"
+        }
+    ], 
+    "Wednesday": [
+        {
+            "room": "FA106", 
+            "prof": "Krisztina Schneider", 
+            "time": "14:00-15:30", 
+            "name": "Language Requirement  Deutsch B1/B2", 
+            "type": "HF:0"
+        }
+    ], 
+    "Thursday": [
+        {
+            "time": "14:00-15:30", 
+            "room": "FA109", 
+            "name": "Language Requirement  Deutsch A1", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA106", 
+            "prof": "Krisztina Schneider", 
+            "time": "14:00-15:30", 
+            "name": "Language Requirement  Deutsch A2", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "room": "FA109", 
+            "name": "Language Requirement  Deutsch A1", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA106", 
+            "prof": "Krisztina Schneider", 
+            "time": "15:45-17:15", 
+            "name": "Language Requirement  Deutsch A2", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "17:30-19:00", 
+            "room": "FA105", 
+            "name": "Language Requirement  Englisch", 
+            "type": "HF:0"
         }
     ]
 }

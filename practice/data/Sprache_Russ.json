@@ -1,18 +1,16 @@
 {
     "Montag": [
         {
-            "name": "Russisch UNIcertBasis Grundkurs 2", 
-            "room": "FA109", 
             "time": "08:00-09:30", 
-            "prof": "WFSp:0", 
-            "desc": "Fortsetzung von UNIcert I, Kurs 2  MindestTN 10, ab KW 41"
+            "room": "FA109", 
+            "name": "Russisch UNIcertBasis Grundkurs 2", 
+            "prof": "Elena Tumanjan"
         }, 
         {
-            "name": "Russisch UNIcertBasis Grundkurs 2", 
-            "room": "FA109", 
             "time": "09:45-11:15", 
-            "prof": "WFSp:0", 
-            "desc": "Fortsetzung von UNIcert I, Kurs 2  MindestTN 10, ab KW 41"
+            "room": "FA109", 
+            "name": "Russisch UNIcertBasis Grundkurs 2", 
+            "prof": "Elena Tumanjan"
         }
     ]
 }

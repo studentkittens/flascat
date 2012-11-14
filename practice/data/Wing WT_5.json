@@ -1,365 +1,329 @@
 {
-    "Montag": [
+    "Dienstag": [
         {
-            "name": "Gender und Diversity", 
-            "time": "04:00-05:30", 
-            "prof": "Dozent der VHB", 
-            "desc": "Virtuelle Vorlesung", 
-            "type": "AWPF:0", 
-            "room": "Ex_Virtuell"
-        }, 
-        {
-            "name": "Maschinenelemente", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
-            "desc": "(Wing WT + MT + IT MB 5)", 
-            "type": "HF:0", 
-            "room": "FA201"
-        }, 
-        {
-            "name": "Produktionsplanung und steuerung", 
-            "note": "(Wing + MB P 5)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Ina L\u00f6bus", 
-            "type": "HF:0", 
-            "room": "FA201"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
-            "time": "11:30-12:15", 
+            "room": "FC008 + FC003", 
             "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "(Wing WT OT 5 + WT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA201"
+            "time": "09:45-11:15", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
+            "type": "FWPF:0"
         }, 
         {
-            "name": "Produktionsplanung und steuerung", 
+            "room": "FA015", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "09:45-11:15", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FC018", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
+            "time": "11:30-13:00", 
+            "name": "Maschinenelemente", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FC008 + FC003", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "11:30-13:00", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA203", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "11:30-13:00", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
             "time": "14:00-15:30", 
+            "name": "Kunststoffrheologie  SP (KT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA008/010 + FB001/002", 
             "prof": "Prof. Dr. Ina L\u00f6bus", 
-            "desc": "\u00dcbungen in wechselnden Gruppen", 
-            "type": "HF:0", 
-            "room": "FA008/010 + FA007"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr dicke Schichten  SP (OT)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
-            "desc": "Praktikum  (14t\u00e4gig, 4std.) (Wing WT OT + WT OT 5) (Beginn KW 42)", 
-            "type": "FWPF:0", 
-            "room": "FC001 + FC002"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr dicke Schichten  SP (OT)", 
             "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
-            "desc": "Praktikum  (14t\u00e4gig, 4std.) (Wing WT OT + WT OT 5) (Beginn KW 42)", 
-            "type": "FWPF:0", 
-            "room": "FC001 + FC002"
+            "name": "Produktionsplanung und steuerung", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Wissens, Innovations und Technologiemanagement", 
-            "note": "(ab 15.10.)", 
+            "room": "FA013", 
+            "prof": "Ulrich Lang", 
             "time": "17:30-19:00", 
-            "prof": "Dr. Wolfgang Grond", 
-            "type": "AWPF:0", 
-            "room": "FA013"
+            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten", 
+            "type": "AWPF:0"
         }, 
         {
-            "name": "Die interdisziplin\u00e4ren Aufgaben eines Wirtschaftsingenieurs im Unternehmen", 
-            "time": "17:30-19:00", 
-            "prof": "Dipl.Wirt.Ing.(FH) Jan Seemann", 
-            "type": "AWPF:0", 
-            "room": "FA009"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "time": "18:00-19:30", 
-            "prof": "Abschlussveranstaltung  (14.01.13)", 
-            "type": "AWPF:0", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "time": "18:00-19:30", 
-            "prof": "Einf\u00fchrungsveranstaltung  (08.10.12)", 
-            "type": "AWPF:0", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "type": "AWPF:0", 
-            "room": "Ex_Extern", 
-            "time": "18:00-19:30"
+            "room": "FB023", 
+            "prof": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
+            "time": "19:15-20:45", 
+            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure", 
+            "type": "AWPF:0"
         }
     ], 
-    "Mittwoch": [
+    "Montag": [
         {
+            "room": "Ex_Virtuell", 
+            "prof": "Virtuelle Vorlesung", 
+            "time": "04:00-05:30", 
+            "name": "Gender und Diversity", 
+            "type": "AWPF:0"
+        }, 
+        {
+            "room": "FA201", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
+            "time": "08:00-09:30", 
+            "name": "Maschinenelemente", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA201", 
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "09:45-11:15", 
             "name": "Produktionsplanung und steuerung", 
             "note": "(Wing + MB P 5)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "type": "HF:0", 
-            "room": "FB109"
+            "type": "HF:0"
         }, 
         {
-            "name": "Beschichtungstechnik f\u00fcr dicke Schichten  SP (OT)", 
-            "time": "11:30-13:00", 
+            "room": "FA201", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "11:30-12:15", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA008/010 + FA007", 
+            "prof": "Prof. Dr. Ina L\u00f6bus", 
+            "time": "14:00-15:30", 
+            "name": "Produktionsplanung und steuerung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FC001 + FC002", 
             "prof": "Prof. Dr. Margarete BlankBewersdorff", 
-            "desc": "(Wing WT OT + WT OT 5)", 
-            "type": "FWPF:0", 
-            "room": "FD175"
-        }, 
-        {
-            "name": "Sport und Gesundheit", 
             "time": "14:00-15:30", 
-            "prof": "G\u00fcnther Schwab", 
-            "type": "AWPF:0", 
-            "room": "FA201"
+            "name": "Beschichtungstechnik f\u00fcr dicke Schichten  SP (OT)", 
+            "type": "FWPF:0"
         }, 
         {
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (OT)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "Praktikum  (InnoTex + WT  + Wing WT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA009"
-        }, 
-        {
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (KT)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "Praktikum  (InnoTex + WT  + Wing WT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA009"
-        }, 
-        {
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (KT)", 
+            "room": "FC001 + FC002", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
             "time": "15:45-17:15", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "Praktikum  (InnoTex + WT  + Wing WT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA009"
+            "name": "Beschichtungstechnik f\u00fcr dicke Schichten  SP (OT)", 
+            "type": "FWPF:0"
         }, 
         {
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (OT)", 
-            "time": "15:45-17:15", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "Praktikum  (InnoTex + WT  + Wing WT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA009"
-        }, 
-        {
-            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  SP (KT)", 
+            "room": "FA013", 
+            "prof": "Dr. Wolfgang Grond", 
             "time": "17:30-19:00", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "(InnoTex + WT+ Wing WT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA013"
+            "name": "Wissens, Innovations und Technologiemanagement", 
+            "note": "(ab 15.10.)", 
+            "type": "AWPF:0"
         }, 
         {
-            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  SP (OT)", 
             "time": "17:30-19:00", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "(InnoTex + WT+ Wing WT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA013"
+            "room": "FA009", 
+            "name": "Die interdisziplin\u00e4ren Aufgaben eines Wirtschaftsingenieurs im Unternehmen", 
+            "type": "AWPF:0"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWPF:0"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWPF:0"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "Ex_Extern", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWPF:0"
         }
     ], 
     "Freitag": [
         {
-            "name": "Rapid Prototyping  SP (KT)", 
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Vorlesung   (MB (P) + Wing WT/KT + WT 5) (14t\u00e4gig)  (ab KW 44)", 
-            "type": "FWPF:0", 
-            "room": "FB012"
+            "name": "Rapid Prototyping  SP (KT)", 
+            "type": "FWPF:0"
         }, 
         {
-            "name": "Rapid Prototyping  SP (KT)", 
+            "room": "FC014", 
+            "prof": "Prof. Dr. Herbert Reichel", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Praktikum   (MB (P) + Wing WT/KT + WT 5) (14t\u00e4gig) (ab KW 43)", 
-            "type": "FWPF:0", 
-            "room": "FC014"
+            "name": "Rapid Prototyping  SP (KT)", 
+            "type": "FWPF:0"
         }, 
         {
-            "name": "Rapid Prototyping  SP (KT)", 
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "(MB (P) + Wing WT/KT + WT 5) (KW 4042)", 
-            "type": "FWPF:0", 
-            "room": "FB012"
-        }, 
-        {
             "name": "Rapid Prototyping  SP (KT)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Vorlesung   (MB (P) + Wing WT/KT + WT 5) (14t\u00e4gig)  (ab KW 44)", 
-            "type": "FWPF:0", 
-            "room": "FB012"
+            "type": "FWPF:0"
         }, 
         {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "11:30-13:00", 
             "name": "Rapid Prototyping  SP (KT)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Praktikum   (MB (P) + Wing WT/KT + WTT 5) (14t\u00e4gig)  (ab KW 43)", 
-            "type": "FWPF:0", 
-            "room": "FC014"
+            "type": "FWPF:0"
         }, 
         {
+            "room": "FC014", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "11:30-13:00", 
             "name": "Rapid Prototyping  SP (KT)", 
-            "time": "11:30-13:00", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FB012", 
             "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "(MB (P) + Wing WT/KT + WT 5) (KW 4042)", 
-            "type": "FWPF:0", 
-            "room": "FB012"
-        }
-    ], 
-    "Dienstag": [
-        {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "Praktikum  (Wing WT OT 5 + WT 5) (KW 44  04)", 
-            "type": "FWPF:0", 
-            "room": "FC008 + FC003"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "Praktikum  (Wing WT OT 5 + WT 5) (KW 41  43)", 
-            "type": "FWPF:0", 
-            "room": "FA015"
-        }, 
-        {
-            "name": "Maschinenelemente", 
             "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
-            "desc": "Praktikum  (Wing WT + MT + IT MB 5)", 
-            "type": "HF:0", 
-            "room": "FC018"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "Praktikum  (Wing WT OT 5 + WT 5) (KW 44  04)", 
-            "type": "FWPF:0", 
-            "room": "FC008 + FC003"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten  SP (OT)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "Praktikum  (Wing WT OT 5 + WT 5) (KW 41  43)", 
-            "type": "FWPF:0", 
-            "room": "FA203"
-        }, 
-        {
-            "name": "Kunststoffrheologie  SP (KT)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "(Wing WT KT + WT KT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA107"
-        }, 
-        {
-            "name": "Produktionsplanung und steuerung", 
-            "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Ina L\u00f6bus", 
-            "desc": "\u00dcbungen in wechselnden Gruppen", 
-            "type": "HF:0", 
-            "room": "FA102/104 + FB001/002"
-        }, 
-        {
-            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten", 
-            "time": "17:30-19:00", 
-            "prof": "Ulrich Lang", 
-            "type": "AWPF:0", 
-            "room": "FA013"
-        }, 
-        {
-            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure", 
-            "time": "19:15-20:45", 
-            "prof": "Prof. Dr. med. Johannes Bodky", 
-            "desc": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
-            "type": "AWPF:0", 
-            "room": "FB023"
+            "name": "Rapid Prototyping  SP (KT)", 
+            "type": "FWPF:0"
         }
     ], 
     "Donnerstag": [
         {
-            "name": "Kunststoffrheologie  SP (KT)", 
+            "room": "FA013", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
             "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "(Wing WT KT + WT KT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA013"
+            "name": "Kunststoffrheologie  SP (KT)", 
+            "type": "FWPF:0"
         }, 
         {
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (OT)", 
-            "time": "09:45-11:15", 
+            "room": "FA013", 
             "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "(InnoTex + WT  + Wing WT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA013"
-        }, 
-        {
+            "time": "09:45-11:15", 
             "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (KT)", 
-            "time": "09:45-11:15", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA013", 
             "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "(InnoTex + WT  + Wing WT 5)", 
-            "type": "FWPF:0", 
-            "room": "FA013"
+            "time": "09:45-11:15", 
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (OT)", 
+            "type": "FWPF:0"
         }, 
         {
-            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  SP (KT)", 
-            "time": "11:30-13:00", 
+            "room": "FA202", 
             "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "Vorlesung/Praktikum  (InnoTex + WT+ Wing WT 5) (Praktikum nur zu bestimmten Terminen)", 
-            "type": "FWPF:0", 
-            "room": "FA202"
-        }, 
-        {
+            "time": "11:30-13:00", 
             "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  SP (OT)", 
-            "time": "11:30-13:00", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA202", 
             "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "Vorlesung/Praktikum  (InnoTex + WT+ Wing WT 5) (Praktikum nur zu bestimmten Terminen)", 
-            "type": "FWPF:0", 
-            "room": "FA202"
+            "time": "11:30-13:00", 
+            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  SP (KT)", 
+            "type": "FWPF:0"
         }, 
         {
+            "room": "FA011", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "14:00-15:30", 
             "name": "Werkzeugbau  SP (KT)", 
             "note": "(Wing WT + WT 5)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "type": "FWPF:0", 
-            "room": "FA011"
+            "type": "FWPF:0"
         }, 
         {
+            "room": "FA011", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "14:00-15:30", 
             "name": "Werkzeugbau  SP (OT)", 
             "note": "(Wing WT + WT 5)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "type": "FWPF:0", 
-            "room": "FA011"
+            "type": "FWPF:0"
         }, 
         {
-            "name": "Werkzeugbau  SP (OT)", 
-            "note": "(Wing WT + WT 5)", 
+            "room": "FA011", 
+            "prof": "Prof. Dr. Herbert Reichel", 
             "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "type": "FWPF:0", 
-            "room": "FA011"
+            "name": "Werkzeugbau  SP (OT)", 
+            "note": "(Wing WT + WT 5)", 
+            "type": "FWPF:0"
         }, 
         {
+            "room": "FA011", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "15:45-17:15", 
             "name": "Werkzeugbau  SP (KT)", 
             "note": "(Wing WT + WT 5)", 
+            "type": "FWPF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FB109", 
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "time": "08:00-09:30", 
+            "name": "Produktionsplanung und steuerung", 
+            "note": "(Wing + MB P 5)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD175", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
+            "time": "11:30-13:00", 
+            "name": "Beschichtungstechnik f\u00fcr dicke Schichten  SP (OT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "name": "Sport und Gesundheit", 
+            "type": "AWPF:0"
+        }, 
+        {
+            "room": "FA009", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "time": "14:00-15:30", 
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (KT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA009", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "time": "14:00-15:30", 
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (OT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA009", 
+            "prof": "Prof. PhD Marek Gorywoda", 
             "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "type": "FWPF:0", 
-            "room": "FA011"
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (KT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA009", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "time": "15:45-17:15", 
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung  SP (OT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "time": "17:30-19:00", 
+            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  SP (OT)", 
+            "type": "FWPF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "time": "17:30-19:00", 
+            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen  SP (KT)", 
+            "type": "FWPF:0"
         }
     ]
 }

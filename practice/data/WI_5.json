@@ -1,267 +1,258 @@
 {
-    "Montag": [
+    "Dienstag": [
         {
-            "name": "Gender und Diversity", 
-            "time": "04:00-05:30", 
-            "prof": "Dozent der VHB", 
-            "desc": "Virtuelle Vorlesung", 
-            "type": "AWM:1", 
-            "room": "Ex_Virtuell"
-        }, 
-        {
-            "name": "TCPIPRouting I", 
-            "note": "(Inf+MI+WI 5)", 
-            "time": "11:30-13:00", 
-            "prof": "Dipl.Inf. Stefan M\u00fcller", 
-            "type": "FWM:1", 
-            "room": "FB102"
-        }, 
-        {
-            "name": "ITManagement", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "FWM:1", 
-            "room": "FA014"
-        }, 
-        {
-            "name": "Wissens, Innovations und Technologiemanagement", 
-            "note": "(ab 15.10.)", 
-            "time": "17:30-19:00", 
-            "prof": "Dr. Wolfgang Grond", 
-            "type": "AWM:1", 
-            "room": "FA013"
-        }, 
-        {
-            "name": "Wiederverwendungsbasierte Entwicklung von Systemen", 
-            "note": "(Inf5 + WI5)", 
-            "time": "17:30-19:00", 
-            "prof": "Prof. Dr. Philipp Schaible", 
-            "type": "FWM:1", 
-            "room": "FD177"
-        }, 
-        {
-            "name": "Einf\u00fchrung in Microsoft Dynamics NAV", 
-            "type": "FWM:1", 
-            "room": "FB114", 
-            "time": "17:30-19:00"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "time": "18:00-19:30", 
-            "prof": "Abschlussveranstaltung  (14.01.13)", 
-            "type": "AWM:1", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "time": "18:00-19:30", 
-            "prof": "Einf\u00fchrungsveranstaltung  (08.10.12)", 
-            "type": "AWM:1", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "type": "AWM:1", 
-            "room": "Ex_Extern", 
-            "time": "18:00-19:30"
-        }
-    ], 
-    "Mittwoch": [
-        {
-            "name": "Informationssysteme und ITInfrastrukturen", 
-            "note": "(Inf+MI+WI5)", 
+            "room": "FA107", 
+            "prof": "Prof. Dr. Friedwart Lender", 
             "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
-            "type": "FWM:1", 
-            "room": "FB012"
+            "name": "Industrielle Logistik", 
+            "type": "FWM:1"
         }, 
         {
-            "name": "Betriebswirtschaftliche Informationssysteme", 
+            "room": "FA107", 
+            "prof": "Prof. Dr. Friedwart Lender", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "type": "FWM:1", 
-            "room": "FA102/104"
+            "name": "Industrielle Logistik", 
+            "type": "FWM:1"
         }, 
         {
+            "room": "FB102", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "11:30-13:00", 
             "name": "RoutingSwitchingTroubleshooting 1", 
             "note": "(Inf+MI+WI5)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "type": "FWM:1", 
-            "room": "FB102"
+            "type": "FWM:1"
         }, 
         {
+            "room": "FB114", 
+            "prof": "Prof. Dr. Horst Heineck", 
+            "time": "11:30-13:00", 
             "name": "Oracle 11g Release 2  Administration Workshop I", 
             "note": "(Inf+MI+WI5)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Horst Heineck", 
-            "type": "FWM:1", 
-            "room": "FB114"
+            "type": "FWM:1"
         }, 
         {
-            "name": "Sport und Gesundheit", 
+            "room": "FA008/010 + FA101", 
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
             "time": "14:00-15:30", 
-            "prof": "G\u00fcnther Schwab", 
-            "type": "AWM:1", 
-            "room": "FA201"
+            "name": "Betriebswirtschaftliche Informationssysteme", 
+            "type": "FWM:1"
         }, 
         {
-            "name": "MarketingMix", 
-            "note": "(Gruppe I)", 
-            "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Andreas Wagener", 
-            "desc": "BW Gruppe I; Beginn KW 41", 
-            "type": "FWM:1", 
-            "room": "FA107"
+            "room": "FA017", 
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "14:00-15:30", 
+            "name": "Wiederverwendungsbasierte Entwicklung von Systemen", 
+            "note": "(Inf5 + WI5)", 
+            "type": "FWM:1"
         }, 
         {
-            "name": "MarketingMix", 
-            "note": "(Gruppe I)", 
+            "room": "FA013", 
+            "prof": "Ulrich Lang", 
             "time": "17:30-19:00", 
-            "prof": "Prof. Dr. Jens Kirchner", 
-            "desc": "BW Gruppe I; Beginn KW 41", 
-            "type": "FWM:1", 
-            "room": "FA107"
+            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten", 
+            "type": "AWM:1"
+        }, 
+        {
+            "time": "17:30-19:00", 
+            "room": "FB114", 
+            "name": "Einf\u00fchrung in Microsoft Dynamics NAV", 
+            "type": "FWM:1"
+        }, 
+        {
+            "room": "FB023", 
+            "prof": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
+            "time": "19:15-20:45", 
+            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure", 
+            "type": "AWM:1"
+        }
+    ], 
+    "Montag": [
+        {
+            "room": "Ex_Virtuell", 
+            "prof": "Virtuelle Vorlesung", 
+            "time": "04:00-05:30", 
+            "name": "Gender und Diversity", 
+            "type": "AWM:1"
+        }, 
+        {
+            "room": "FB102", 
+            "time": "11:30-13:00", 
+            "name": "TCPIPRouting I", 
+            "note": "(Inf+MI+WI 5)", 
+            "type": "FWM:1"
+        }, 
+        {
+            "room": "FA014", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "14:00-15:30", 
+            "name": "ITManagement", 
+            "type": "FWM:1"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Dr. Wolfgang Grond", 
+            "time": "17:30-19:00", 
+            "name": "Wissens, Innovations und Technologiemanagement", 
+            "note": "(ab 15.10.)", 
+            "type": "AWM:1"
+        }, 
+        {
+            "room": "FD177", 
+            "prof": "Prof. Dr. Philipp Schaible", 
+            "time": "17:30-19:00", 
+            "name": "Wiederverwendungsbasierte Entwicklung von Systemen", 
+            "note": "(Inf5 + WI5)", 
+            "type": "FWM:1"
+        }, 
+        {
+            "time": "17:30-19:00", 
+            "room": "FB114", 
+            "name": "Einf\u00fchrung in Microsoft Dynamics NAV", 
+            "type": "FWM:1"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWM:1"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWM:1"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "Ex_Extern", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWM:1"
         }
     ], 
     "Freitag": [
         {
-            "name": "Datensicherheit in Rechnernetzwerken", 
-            "time": "08:00-09:30", 
+            "room": "FA105", 
             "prof": "Prof. Dr. J\u00f6rg Scheidt", 
-            "type": "FWM:1", 
-            "room": "FA105"
+            "time": "08:00-09:30", 
+            "name": "Datensicherheit in Rechnernetzwerken", 
+            "note": "(Inf+MI+WI5)", 
+            "type": "FWM:1"
         }, 
         {
+            "room": "FB102", 
+            "time": "09:45-11:15", 
             "name": "TCPIPRouting I", 
             "note": "(Inf+MI+WI 5)", 
-            "time": "09:45-11:15", 
-            "prof": "Dipl.Inf. Stefan M\u00fcller", 
-            "type": "FWM:1", 
-            "room": "FB102"
+            "type": "FWM:1"
         }, 
         {
-            "name": "ITManagement", 
-            "time": "11:30-13:00", 
+            "room": "FA014", 
             "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "FWM:1", 
-            "room": "FA014"
-        }
-    ], 
-    "Dienstag": [
-        {
-            "name": "Industrielle Logistik", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Friedwart Lender", 
-            "type": "FWM:1", 
-            "room": "FA107"
-        }, 
-        {
-            "name": "Industrielle Logistik", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Friedwart Lender", 
-            "type": "FWM:1", 
-            "room": "FA107"
-        }, 
-        {
-            "name": "RoutingSwitchingTroubleshooting 1", 
-            "note": "(Inf+MI+WI5)", 
             "time": "11:30-13:00", 
-            "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "type": "FWM:1", 
-            "room": "FB102"
-        }, 
-        {
-            "name": "Oracle 11g Release 2  Administration Workshop I", 
-            "note": "(Inf+MI+WI5)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Horst Heineck", 
-            "type": "FWM:1", 
-            "room": "FB114"
-        }, 
-        {
-            "name": "Betriebswirtschaftliche Informationssysteme", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "type": "FWM:1", 
-            "room": "FA102/104 + FA101"
-        }, 
-        {
-            "name": "Wiederverwendungsbasierte Entwicklung von Systemen", 
-            "note": "(Inf5 + WI5)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Philipp Schaible", 
-            "type": "FWM:1", 
-            "room": "FA017"
-        }, 
-        {
-            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten", 
-            "time": "17:30-19:00", 
-            "prof": "Ulrich Lang", 
-            "type": "AWM:1", 
-            "room": "FA013"
-        }, 
-        {
-            "name": "Einf\u00fchrung in Microsoft Dynamics NAV", 
-            "type": "FWM:1", 
-            "room": "FB114", 
-            "time": "17:30-19:00"
-        }, 
-        {
-            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure", 
-            "time": "19:15-20:45", 
-            "prof": "Prof. Dr. med. Johannes Bodky", 
-            "desc": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
-            "type": "AWM:1", 
-            "room": "FB023"
+            "name": "ITManagement", 
+            "type": "FWM:1"
         }
     ], 
     "Donnerstag": [
         {
-            "name": "Grundlagen des Controlling", 
+            "room": "FA107", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
             "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Ulrich Entrup", 
-            "type": "FWM:1", 
-            "room": "FA107"
-        }, 
-        {
             "name": "Grundlagen des Controlling", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Ulrich Entrup", 
-            "type": "FWM:1", 
-            "room": "FA107"
+            "type": "FWM:1"
         }, 
         {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "time": "09:45-11:15", 
+            "name": "Grundlagen des Controlling", 
+            "type": "FWM:1"
+        }, 
+        {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "time": "11:30-13:00", 
             "name": "Informationssysteme und ITInfrastrukturen", 
             "note": "(Inf+MI+WI5)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
-            "type": "FWM:1", 
-            "room": "FB012"
+            "type": "FWM:1"
         }, 
         {
-            "name": "Datensicherheit in Rechnernetzwerken", 
-            "time": "11:30-13:00", 
+            "room": "FA109", 
             "prof": "Prof. Dr. J\u00f6rg Scheidt,  Florian Wogenstein", 
-            "desc": "\u00dcbungen", 
-            "type": "FWM:1", 
-            "room": "FA109"
+            "time": "11:30-13:00", 
+            "name": "Datensicherheit in Rechnernetzwerken", 
+            "type": "FWM:1"
         }, 
         {
-            "name": "Webtechnologie und Webmarketing mit Open Source Software", 
-            "note": "(Inf+MI+WI5)", 
+            "room": "FB114", 
+            "prof": "Dr. Alois KastnerMaresch", 
             "time": "14:00-15:30", 
-            "prof": "Dr. Alois KastnerMaresch", 
-            "type": "FWM:1", 
-            "room": "FB114"
-        }, 
-        {
             "name": "Webtechnologie und Webmarketing mit Open Source Software", 
             "note": "(Inf+MI+WI5)", 
-            "time": "15:45-17:15", 
+            "type": "FWM:1"
+        }, 
+        {
+            "room": "FB114", 
             "prof": "Dr. Alois KastnerMaresch", 
-            "type": "FWM:1", 
-            "room": "FB114"
+            "time": "15:45-17:15", 
+            "name": "Webtechnologie und Webmarketing mit Open Source Software", 
+            "note": "(Inf+MI+WI5)", 
+            "type": "FWM:1"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Ren\u00e9 Peinl", 
+            "time": "08:00-09:30", 
+            "name": "Informationssysteme und ITInfrastrukturen", 
+            "note": "(Inf+MI+WI5)", 
+            "type": "FWM:1"
+        }, 
+        {
+            "room": "FA102/104", 
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "time": "09:45-11:15", 
+            "name": "Betriebswirtschaftliche Informationssysteme", 
+            "type": "FWM:1"
+        }, 
+        {
+            "room": "FB102", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "11:30-13:00", 
+            "name": "RoutingSwitchingTroubleshooting 1", 
+            "note": "(Inf+MI+WI5)", 
+            "type": "FWM:1"
+        }, 
+        {
+            "room": "FB114", 
+            "prof": "Prof. Dr. Horst Heineck", 
+            "time": "11:30-13:00", 
+            "name": "Oracle 11g Release 2  Administration Workshop I", 
+            "note": "(Inf+MI+WI5)", 
+            "type": "FWM:1"
+        }, 
+        {
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "name": "Sport und Gesundheit", 
+            "type": "AWM:1"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Andreas Wagener", 
+            "time": "15:45-17:15", 
+            "name": "MarketingMix", 
+            "note": "(Gruppe I)", 
+            "type": "FWM:1"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Jens Kirchner", 
+            "time": "17:30-19:00", 
+            "name": "MarketingMix", 
+            "note": "(Gruppe I)", 
+            "type": "FWM:1"
         }
     ]
 }

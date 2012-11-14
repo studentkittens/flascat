@@ -1,235 +1,210 @@
 {
-    "Montag": [
+    "Dienstag": [
         {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
-            "time": "11:30-12:15", 
+            "room": "FC008 + FC003", 
             "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "(Wing WT OT 5 + WT 5)", 
-            "type": "HF:0", 
-            "room": "FA201"
+            "time": "09:45-11:15", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Beschichtungstechnik f\u00fcr dicke Schichten   STR (OT)", 
+            "room": "FA015", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "09:45-11:15", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FC008 + FC003", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "11:30-13:00", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA203", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "11:30-13:00", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA107", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
             "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
-            "desc": "Praktikum  (14t\u00e4gig, 4std.) (Wing WT OT + WT OT 5) (Beginn KW 42)", 
-            "type": "HF:0", 
-            "room": "FC001 + FC002"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr dicke Schichten   STR (OT)", 
-            "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
-            "desc": "Praktikum  (14t\u00e4gig, 4std.) (Wing WT OT + WT OT 5) (Beginn KW 42)", 
-            "type": "HF:0", 
-            "room": "FC001 + FC002"
+            "name": "Kunststoffrheologie   STR (KT)", 
+            "type": "HF:0"
         }
     ], 
-    "Mittwoch": [
+    "Montag": [
         {
-            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
-            "time": "00:00-01:30", 
-            "prof": "Prof. Dr. Hans Schmidt", 
-            "desc": "Vorlesung/Praktikum  (Termine nach Absprache)", 
-            "type": "HF:0", 
-            "room": "FB203"
+            "room": "FA201", 
+            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
+            "time": "11:30-12:15", 
+            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
-            "time": "01:30-03:00", 
-            "prof": "Prof. Dr. Hans Schmidt", 
-            "desc": "Vorlesung/Praktikum   (Termine nach Absprache)", 
-            "type": "HF:0", 
-            "room": "FB203"
-        }, 
-        {
-            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "Praktikum  (nach Absprache)", 
-            "type": "HF:0", 
-            "room": "FA017"
-        }, 
-        {
-            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "Praktikum  (nach Absprache)", 
-            "type": "HF:0", 
-            "room": "FA017"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr dicke Schichten   STR (OT)", 
-            "time": "11:30-13:00", 
+            "room": "FC001 + FC002", 
             "prof": "Prof. Dr. Margarete BlankBewersdorff", 
-            "desc": "(Wing WT OT + WT OT 5)", 
-            "type": "HF:0", 
-            "room": "FD175"
-        }, 
-        {
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung", 
             "time": "14:00-15:30", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "Praktikum  (InnoTex + WT  + Wing WT 5)", 
-            "type": "HF:0", 
-            "room": "FA009"
+            "name": "Beschichtungstechnik f\u00fcr dicke Schichten   STR (OT)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung", 
+            "room": "FC001 + FC002", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
             "time": "15:45-17:15", 
-            "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "Praktikum  (InnoTex + WT  + Wing WT 5)", 
-            "type": "HF:0", 
-            "room": "FA009"
-        }, 
-        {
-            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen", 
-            "time": "17:30-19:00", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "(InnoTex + WT+ Wing WT 5)", 
-            "type": "HF:0", 
-            "room": "FA013"
+            "name": "Beschichtungstechnik f\u00fcr dicke Schichten   STR (OT)", 
+            "type": "HF:0"
         }
     ], 
     "Freitag": [
         {
-            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
-            "time": "08:00-09:30", 
+            "room": "FA015", 
             "prof": "Prof. PhD Marek Gorywoda", 
-            "type": "HF:0", 
-            "room": "FA015"
+            "time": "08:00-09:30", 
+            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Rapid Prototyping", 
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Vorlesung   (MB (P) + Wing WT/KT + WT 5) (14t\u00e4gig)  (ab KW 44)", 
-            "type": "HF:0", 
-            "room": "FB012"
+            "name": "Rapid Prototyping", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Rapid Prototyping", 
+            "room": "FC014", 
+            "prof": "Prof. Dr. Herbert Reichel", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Praktikum   (MB (P) + Wing WT/KT + WT 5) (14t\u00e4gig) (ab KW 43)", 
-            "type": "HF:0", 
-            "room": "FC014"
+            "name": "Rapid Prototyping", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Rapid Prototyping", 
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "(MB (P) + Wing WT/KT + WT 5) (KW 4042)", 
-            "type": "HF:0", 
-            "room": "FB012"
-        }, 
-        {
             "name": "Rapid Prototyping", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Vorlesung   (MB (P) + Wing WT/KT + WT 5) (14t\u00e4gig)  (ab KW 44)", 
-            "type": "HF:0", 
-            "room": "FB012"
+            "type": "HF:0"
         }, 
         {
+            "room": "FB012", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "11:30-13:00", 
             "name": "Rapid Prototyping", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "Praktikum   (MB (P) + Wing WT/KT + WTT 5) (14t\u00e4gig)  (ab KW 43)", 
-            "type": "HF:0", 
-            "room": "FC014"
+            "type": "HF:0"
         }, 
         {
+            "room": "FC014", 
+            "prof": "Prof. Dr. Herbert Reichel", 
+            "time": "11:30-13:00", 
             "name": "Rapid Prototyping", 
-            "time": "11:30-13:00", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB012", 
             "prof": "Prof. Dr. Herbert Reichel", 
-            "desc": "(MB (P) + Wing WT/KT + WT 5) (KW 4042)", 
-            "type": "HF:0", 
-            "room": "FB012"
-        }
-    ], 
-    "Dienstag": [
-        {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "Praktikum  (Wing WT OT 5 + WT 5) (KW 44  04)", 
-            "type": "HF:0", 
-            "room": "FC008 + FC003"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "Praktikum  (Wing WT OT 5 + WT 5) (KW 41  43)", 
-            "type": "HF:0", 
-            "room": "FA015"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
             "time": "11:30-13:00", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "Praktikum  (Wing WT OT 5 + WT 5) (KW 44  04)", 
-            "type": "HF:0", 
-            "room": "FC008 + FC003"
-        }, 
-        {
-            "name": "Beschichtungstechnik f\u00fcr d\u00fcnne Schichten   STR (OT)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. J\u00f6rg Krumeich", 
-            "desc": "Praktikum  (Wing WT OT 5 + WT 5) (KW 41  43)", 
-            "type": "HF:0", 
-            "room": "FA203"
-        }, 
-        {
-            "name": "Kunststoffrheologie   STR (KT)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "(Wing WT KT + WT KT 5)", 
-            "type": "HF:0", 
-            "room": "FA107"
+            "name": "Rapid Prototyping", 
+            "type": "HF:0"
         }
     ], 
     "Donnerstag": [
         {
-            "name": "Kunststoffrheologie   STR (KT)", 
+            "room": "FA013", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
             "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "(Wing WT KT + WT KT 5)", 
-            "type": "HF:0", 
-            "room": "FA013"
+            "name": "Kunststoffrheologie   STR (KT)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung", 
-            "time": "09:45-11:15", 
+            "room": "FA013", 
             "prof": "Prof. PhD Marek Gorywoda", 
-            "desc": "(InnoTex + WT  + Wing WT 5)", 
-            "type": "HF:0", 
-            "room": "FA013"
+            "time": "09:45-11:15", 
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen", 
-            "time": "11:30-13:00", 
+            "room": "FA202", 
             "prof": "Prof. Dr. Herbert Peiffer", 
-            "desc": "Vorlesung/Praktikum  (InnoTex + WT+ Wing WT 5) (Praktikum nur zu bestimmten Terminen)", 
-            "type": "HF:0", 
-            "room": "FA202"
+            "time": "11:30-13:00", 
+            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Werkzeugbau", 
-            "note": "(Wing WT + WT 5)", 
+            "room": "FA011", 
+            "prof": "Prof. Dr. Herbert Reichel", 
             "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Herbert Reichel", 
-            "type": "HF:0", 
-            "room": "FA011"
-        }, 
-        {
             "name": "Werkzeugbau", 
             "note": "(Wing WT + WT 5)", 
-            "time": "15:45-17:15", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA011", 
             "prof": "Prof. Dr. Herbert Reichel", 
-            "type": "HF:0", 
-            "room": "FA011"
+            "time": "15:45-17:15", 
+            "name": "Werkzeugbau", 
+            "note": "(Wing WT + WT 5)", 
+            "type": "HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FB203", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "00:00-01:30", 
+            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB203", 
+            "prof": "Prof. Dr. Hans Schmidt", 
+            "time": "01:30-03:00", 
+            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA017", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "time": "08:00-09:30", 
+            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA017", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "time": "09:45-11:15", 
+            "name": "Moderne Methoden der Werkstoff und Oberfl\u00e4chenuntersuchung   STR (OT)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD175", 
+            "prof": "Prof. Dr. Margarete BlankBewersdorff", 
+            "time": "11:30-13:00", 
+            "name": "Beschichtungstechnik f\u00fcr dicke Schichten   STR (OT)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA009", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "time": "14:00-15:30", 
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA009", 
+            "prof": "Prof. PhD Marek Gorywoda", 
+            "time": "15:45-17:15", 
+            "name": "Mechanische Eigenschaften und deren Pr\u00fcfung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Prof. Dr. Herbert Peiffer", 
+            "time": "17:30-19:00", 
+            "name": "Oberfl\u00e4chenbehandlung von Kunststoffen", 
+            "type": "HF:0"
         }
     ]
 }

@@ -1,27 +1,21 @@
 {
     "Friday": [
         {
-            "name": "Ger\u00e4tepraktikum Mafo", 
-            "room": "FA224", 
             "time": "09:45-11:15", 
-            "prof": "Sonst:0", 
-            "desc": "Dipl.Kfm. Martin Lochm\u00fcller"
+            "room": "FA224", 
+            "name": "Ger\u00e4tepraktikum Mafo"
         }
     ], 
     "Thursday": [
         {
-            "name": "Ger\u00e4tepraktikum Mafo", 
-            "room": "FA224", 
             "time": "14:00-15:30", 
-            "prof": "Sonst:0", 
-            "desc": "Dipl.Kfm. Martin Lochm\u00fcller"
+            "room": "FA224", 
+            "name": "Ger\u00e4tepraktikum Mafo"
         }, 
         {
-            "name": "Ger\u00e4tepraktikum Mafo", 
-            "room": "FA224", 
             "time": "17:30-19:00", 
-            "prof": "Sonst:0", 
-            "desc": "Dipl.Kfm. Martin Lochm\u00fcller"
+            "room": "FA224", 
+            "name": "Ger\u00e4tepraktikum Mafo"
         }
     ]
 }

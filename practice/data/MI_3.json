@@ -1,162 +1,143 @@
 {
-    "Mittwoch": [
+    "Dienstag": [
         {
-            "name": "Grundlagen des Marketing", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Ina G\u00fcnther", 
-            "type": "HF:1", 
-            "room": "FD175"
+            "room": "FB023", 
+            "prof": "Prof. Dr. Hartmut Wunderatsch", 
+            "time": "08:00-09:30", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Inf3+MI3+Vinf5)", 
+            "type": "HF:1"
         }, 
         {
-            "name": "Kommunikationsdesign I", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Ina G\u00fcnther", 
-            "type": "HF:1", 
-            "room": "FA011"
-        }, 
-        {
-            "name": "Internettechniken", 
-            "time": "15:45-17:15", 
+            "room": "FA008/010", 
             "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "desc": "(Inf3 + MI3)  Vorlesung", 
-            "type": "HF:1", 
-            "room": "FB007/009"
+            "time": "09:45-11:15", 
+            "name": "Internettechniken", 
+            "note": "(Gruppe I)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FB007/009", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "time": "11:30-13:00", 
+            "name": "Software Engineering II", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FD177", 
+            "prof": "Prof. Ina G\u00fcnther", 
+            "time": "14:00-15:30", 
+            "name": "Grundlagen des Marketing", 
+            "type": "HF:1"
         }
     ], 
     "Freitag": [
         {
+            "room": "FB114", 
+            "time": "08:00-09:30", 
             "name": "Fotografie", 
             "note": "(Gruppe I)", 
-            "time": "08:00-09:30", 
-            "prof": "Dipl.Inf. J\u00fcrgen Ott", 
-            "desc": "Vorlesung", 
-            "type": "HF:1", 
-            "room": "FB114"
+            "type": "HF:1"
         }, 
         {
+            "room": "FB007/009", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "time": "09:45-11:15", 
             "name": "Software Engineering II", 
             "note": "(Gruppe I)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Barbara Ashauer", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FB007/009"
+            "type": "HF:1"
         }, 
         {
+            "room": "FB007/009", 
+            "prof": "Prof. Dr. Barbara Ashauer", 
+            "time": "11:30-13:00", 
             "name": "Software Engineering II", 
             "note": "(Gruppe II)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Barbara Ashauer", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FB007/009"
+            "type": "HF:1"
         }, 
         {
+            "room": "FB010", 
+            "time": "11:30-13:00", 
             "name": "Fotografie", 
             "note": "(Gruppe I)", 
-            "time": "11:30-13:00", 
-            "prof": "Dipl.Inf. J\u00fcrgen Ott", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FB010"
-        }
-    ], 
-    "Dienstag": [
-        {
-            "name": "Effizientes Programmieren mit C/C++", 
-            "note": "(Inf3+MI3+Vinf5)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Hartmut Wunderatsch", 
-            "type": "HF:1", 
-            "room": "FB023"
-        }, 
-        {
-            "name": "Internettechniken", 
-            "note": "(Gruppe I)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "desc": "(Inf3 + MI3)  \u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FA008/010"
-        }, 
-        {
-            "name": "Software Engineering II", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Barbara Ashauer", 
-            "type": "HF:1", 
-            "room": "FB007/009"
-        }, 
-        {
-            "name": "Grundlagen des Marketing", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Ina G\u00fcnther", 
-            "type": "HF:1", 
-            "room": "FD177"
+            "type": "HF:1"
         }
     ], 
     "Donnerstag": [
         {
+            "room": "FB114", 
+            "time": "08:00-09:30", 
             "name": "Fotografie", 
             "note": "(Gruppe II)", 
-            "time": "08:00-09:30", 
-            "prof": "Dipl.Inf. J\u00fcrgen Ott", 
-            "desc": "Vorlesung", 
-            "type": "HF:1", 
-            "room": "FB114"
+            "type": "HF:1"
         }, 
         {
+            "room": "FA008/010", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "09:45-11:15", 
             "name": "Internettechniken", 
             "note": "(Gruppe II)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. J\u00fcrgen Heym", 
-            "desc": "(Inf3 + MI3)  \u00dcbungen (Beginn: KW 41)", 
-            "type": "HF:1", 
-            "room": "FA008/010"
+            "type": "HF:1"
         }, 
         {
+            "room": "FB010", 
+            "time": "09:45-11:15", 
             "name": "Fotografie", 
             "note": "(Gruppe II)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FD175", 
+            "prof": "Prof. Ina G\u00fcnther", 
+            "time": "11:30-13:00", 
+            "name": "Kommunikationsdesign I", 
+            "note": "(Gruppe I)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FB006", 
+            "time": "11:30-13:00", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Gruppe II)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FD175", 
+            "prof": "Prof. Ina G\u00fcnther", 
+            "time": "14:00-15:30", 
+            "name": "Kommunikationsdesign I", 
+            "note": "(Gruppe II)", 
+            "type": "HF:1"
+        }, 
+        {
+            "room": "FB006", 
+            "time": "14:00-15:30", 
+            "name": "Effizientes Programmieren mit C/C++", 
+            "note": "(Gruppe I)", 
+            "type": "HF:1"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FD175", 
+            "prof": "Prof. Ina G\u00fcnther", 
             "time": "09:45-11:15", 
-            "prof": "Dipl.Inf. J\u00fcrgen Ott", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FB010"
+            "name": "Grundlagen des Marketing", 
+            "type": "HF:1"
         }, 
         {
-            "name": "Kommunikationsdesign I", 
-            "note": "(Gruppe I)", 
-            "time": "11:30-13:00", 
+            "room": "FA011", 
             "prof": "Prof. Ina G\u00fcnther", 
-            "desc": "\u00dcbungen  Beginn KW 41", 
-            "type": "HF:1", 
-            "room": "FD175"
-        }, 
-        {
-            "name": "Effizientes Programmieren mit C/C++", 
-            "note": "(Gruppe II)", 
             "time": "11:30-13:00", 
-            "prof": "Dipl.Inf. Stefan M\u00fcller", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FB006"
-        }, 
-        {
             "name": "Kommunikationsdesign I", 
-            "note": "(Gruppe II)", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Ina G\u00fcnther", 
-            "desc": "\u00dcbungen  Beginn KW 41", 
-            "type": "HF:1", 
-            "room": "FD175"
+            "type": "HF:1"
         }, 
         {
-            "name": "Effizientes Programmieren mit C/C++", 
-            "note": "(Gruppe I)", 
-            "time": "14:00-15:30", 
-            "prof": "Dipl.Inf. Stefan M\u00fcller", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:1", 
-            "room": "FB006"
+            "room": "FB007/009", 
+            "prof": "Prof. Dr. J\u00fcrgen Heym", 
+            "time": "15:45-17:15", 
+            "name": "Internettechniken", 
+            "type": "HF:1"
         }
     ]
 }

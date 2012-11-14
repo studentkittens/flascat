@@ -1,42 +1,38 @@
 {
-    "Montag": [
-        {
-            "name": "Praxisblock I", 
-            "time": "09:00-17:30", 
-            "prof": "Prof. Dr. Martin Thost", 
-            "desc": "\"Erstellung von Applikationen f\u00fcr ein Windows Phone\"  11.03.14.03.2013", 
-            "type": "HF:1", 
-            "room": "FB006"
-        }
-    ], 
-    "Mittwoch": [
-        {
-            "name": "Praxisblock I", 
-            "time": "09:00-17:30", 
-            "prof": "Prof. Dr. Martin Thost", 
-            "desc": "\"Erstellung von Applikationen f\u00fcr ein Windows Phone\"  11.03.14.03.2013", 
-            "type": "HF:1", 
-            "room": "FB006"
-        }
-    ], 
     "Dienstag": [
         {
-            "name": "Praxisblock I", 
-            "time": "09:00-17:30", 
+            "room": "FB006", 
             "prof": "Prof. Dr. Martin Thost", 
-            "desc": "\"Erstellung von Applikationen f\u00fcr ein Windows Phone\"  11.03.14.03.2013", 
-            "type": "HF:1", 
-            "room": "FB006"
+            "time": "09:00-17:30", 
+            "name": "Praxisblock I", 
+            "type": "HF:1"
+        }
+    ], 
+    "Montag": [
+        {
+            "room": "FB006", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "09:00-17:30", 
+            "name": "Praxisblock I", 
+            "type": "HF:1"
         }
     ], 
     "Donnerstag": [
         {
-            "name": "Praxisblock I", 
-            "time": "09:00-17:30", 
+            "room": "FB006", 
             "prof": "Prof. Dr. Martin Thost", 
-            "desc": "\"Erstellung von Applikationen f\u00fcr ein Windows Phone\"  11.03.14.03.2013", 
-            "type": "HF:1", 
-            "room": "FB006"
+            "time": "09:00-17:30", 
+            "name": "Praxisblock I", 
+            "type": "HF:1"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FB006", 
+            "prof": "Prof. Dr. Martin Thost", 
+            "time": "09:00-17:30", 
+            "name": "Praxisblock I", 
+            "type": "HF:1"
         }
     ]
 }

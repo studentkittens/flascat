@@ -1,168 +1,158 @@
 {
-    "Montag": [
+    "Dienstag": [
         {
-            "name": "Grundlagen der Volkswirtschaftslehre", 
-            "time": "11:30-13:00", 
-            "prof": "Dr. G\u00fcnter Hofner", 
-            "desc": "Beginn KW 41", 
-            "type": "HF:0", 
-            "room": "FA203"
+            "room": "FA205/206", 
+            "prof": "Prof. Dr. Georg Fischer", 
+            "time": "08:00-09:30", 
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "note": "(Beginn: KW 41)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Grundlagen der Volkswirtschaftslehre", 
-            "time": "14:00-15:30", 
-            "prof": "Dr. G\u00fcnter Hofner", 
-            "desc": "Beginn KW 41", 
-            "type": "HF:0", 
-            "room": "FA203"
+            "room": "FA205/206", 
+            "prof": "Prof. Dr. Georg Fischer", 
+            "time": "09:45-11:15", 
+            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
+            "note": "(Beginn: KW 41)", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Methodik und Praxis wissenschaftlicher Arbeiten", 
+            "room": "FA013", 
             "time": "15:45-17:15", 
-            "prof": "Norbert Hornsteiner", 
-            "desc": "Beginn KW 41", 
-            "type": "HF:0", 
-            "room": "FA202"
+            "name": "Wirtschaftsenglisch I  Grundlagen", 
+            "note": "(Beginn KW 41)#(Gruppe I)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA103", 
+            "time": "15:45-17:15", 
+            "name": "Wirtschaftsenglisch I  Grundlagen", 
+            "note": "(Beginn KW 41)#(Gruppe II)", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB005", 
+            "time": "15:45-17:15", 
+            "name": "Wirtschaftsenglisch I  Grundlagen", 
+            "note": "(Beginn KW 41)#(Gruppe III)", 
+            "type": "HF:0"
         }
     ], 
-    "Mittwoch": [
+    "Montag": [
         {
-            "name": "Bilanzierung", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Ulrich Entrup", 
-            "desc": "aus dem 2. Sem vorgezogen", 
-            "type": "HF:0", 
-            "room": "FB023"
-        }, 
-        {
-            "name": "Personalf\u00fchrung", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Matthias Mungenast", 
-            "type": "HF:0", 
-            "room": "FD177"
-        }, 
-        {
-            "name": "Mathematischer Br\u00fcckenkurs", 
-            "room": "FA205/206", 
+            "room": "FA203", 
+            "prof": "Dr. G\u00fcnter Hofner", 
             "time": "11:30-13:00", 
-            "prof": "Sonst:0", 
-            "desc": "Dr. Gerd Kammerer"
+            "name": "Grundlagen der Volkswirtschaftslehre", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Personalf\u00fchrung", 
+            "room": "FA203", 
+            "prof": "Dr. G\u00fcnter Hofner", 
+            "time": "14:00-15:30", 
+            "name": "Grundlagen der Volkswirtschaftslehre", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA202", 
+            "prof": "Norbert Hornsteiner", 
             "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Matthias Mungenast", 
-            "type": "HF:0", 
-            "room": "FD177"
-        }, 
-        {
-            "name": "Einf\u00fchrung Recht", 
-            "time": "17:30-19:00", 
-            "prof": "Tutorium  Beginn KW 43", 
-            "type": "HF:0", 
-            "room": "FA201"
+            "name": "Methodik und Praxis wissenschaftlicher Arbeiten", 
+            "type": "HF:0"
         }
     ], 
     "Freitag": [
         {
-            "name": "Einf\u00fchrung und Office Anwendungen", 
-            "type": "HF:0", 
-            "room": "FA008/010", 
-            "time": "09:45-11:15"
-        }, 
-        {
-            "name": "Einf\u00fchrung Recht", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Anja Feldberg", 
-            "type": "HF:0", 
-            "room": "FA101"
-        }
-    ], 
-    "Dienstag": [
-        {
-            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
-            "note": "(Beginn: KW 41)", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Georg Fischer", 
-            "type": "HF:0", 
-            "room": "FA205/206"
-        }, 
-        {
-            "name": "Einf\u00fchrung in die Betriebswirtschaftslehre", 
-            "note": "(Beginn: KW 41)", 
             "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Georg Fischer", 
-            "type": "HF:0", 
-            "room": "FA205/206"
+            "room": "FA008/010", 
+            "name": "Einf\u00fchrung und Office Anwendungen", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Wirtschaftsenglisch I  Grundlagen", 
-            "note": "(Beginn KW 41)#(Gruppe I)", 
-            "time": "15:45-17:15", 
-            "type": "HF:0", 
-            "room": "FA013"
-        }, 
-        {
-            "name": "Wirtschaftsenglisch I  Grundlagen", 
-            "note": "(Beginn KW 41)#(Gruppe II)", 
-            "time": "15:45-17:15", 
-            "prof": "AkORin Ingrid Schmidt", 
-            "type": "HF:0", 
-            "room": "FA103"
-        }, 
-        {
-            "name": "Wirtschaftsenglisch I  Grundlagen", 
-            "note": "(Beginn KW 41)#(Gruppe III)", 
-            "time": "15:45-17:15", 
-            "type": "HF:0", 
-            "room": "FB005"
+            "room": "FA101", 
+            "prof": "Prof. Dr. Anja Feldberg", 
+            "time": "11:30-13:00", 
+            "name": "Einf\u00fchrung Recht", 
+            "type": "HF:0"
         }
     ], 
     "Donnerstag": [
         {
-            "name": "Einf\u00fchrung und Office Anwendungen", 
-            "type": "HF:0", 
+            "time": "09:45-11:15", 
             "room": "FA011", 
-            "time": "09:45-11:15"
+            "name": "Einf\u00fchrung und Office Anwendungen", 
+            "type": "HF:0"
         }, 
         {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Hans Eigenstetter", 
+            "time": "09:45-11:15", 
             "name": "Buchf\u00fchrung", 
             "note": "(Gruppe II)", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Hans Eigenstetter", 
-            "desc": "Gruppe II  IM 1", 
-            "type": "HF:0", 
-            "room": "FD242"
+            "type": "HF:0"
         }, 
         {
-            "name": "Pr\u00e4sentation und Moderation", 
-            "type": "HF:0", 
+            "time": "11:30-13:00", 
             "room": "FA201", 
-            "time": "11:30-13:00"
+            "name": "Pr\u00e4sentation und Moderation", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Wirtschaftsenglisch I  Grundlagen", 
             "time": "14:00-15:30", 
-            "prof": "\u00dcbungen f\u00fcr BW 1b Gr. I  III", 
-            "type": "HF:0", 
-            "room": "FB005"
+            "room": "FB005", 
+            "name": "Wirtschaftsenglisch I  Grundlagen", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Bilanzierung", 
-            "time": "15:45-17:15", 
+            "room": "FB023", 
             "prof": "Prof. Dr. Ulrich Entrup", 
-            "desc": "aus dem 2. Sem vorgezogen", 
-            "type": "HF:0", 
-            "room": "FB023"
+            "time": "15:45-17:15", 
+            "name": "Bilanzierung", 
+            "type": "HF:0"
         }, 
         {
+            "room": "FA201", 
+            "prof": "Prof. Dr. Hans Eigenstetter", 
+            "time": "15:45-17:15", 
             "name": "Buchf\u00fchrung", 
             "note": "(Gruppe I)", 
+            "type": "HF:0"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FB023", 
+            "prof": "Prof. Dr. Ulrich Entrup", 
+            "time": "08:00-09:30", 
+            "name": "Bilanzierung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FD177", 
+            "prof": "Prof. Dr. Matthias Mungenast", 
+            "time": "09:45-11:15", 
+            "name": "Personalf\u00fchrung", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "11:30-13:00", 
+            "room": "FA205/206", 
+            "name": "Mathematischer Br\u00fcckenkurs", 
+            "prof": "Dr. Gerd Kammerer"
+        }, 
+        {
+            "room": "FD177", 
+            "prof": "Prof. Dr. Matthias Mungenast", 
             "time": "15:45-17:15", 
-            "prof": "Prof. Dr. Hans Eigenstetter", 
-            "desc": "Gruppe I  BW 1b", 
-            "type": "HF:0", 
-            "room": "FA201"
+            "name": "Personalf\u00fchrung", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA201", 
+            "prof": "Tutorium  Beginn KW 43", 
+            "time": "17:30-19:00", 
+            "name": "Einf\u00fchrung Recht", 
+            "type": "HF:0"
         }
     ]
 }

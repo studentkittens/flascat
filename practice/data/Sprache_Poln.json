@@ -1,20 +1,18 @@
 {
     "Montag": [
         {
-            "name": "Polnisch UNIcertBasis Grundkurs 1", 
-            "room": "FA222", 
             "time": "08:00-09:30", 
-            "prof": "WFSp:0", 
-            "desc": "MindestTN 12, ab KW 41"
+            "room": "FA222", 
+            "name": "Polnisch UNIcertBasis Grundkurs 1", 
+            "prof": "Aldona Schmidt"
         }
     ], 
     "Mittwoch": [
         {
-            "name": "Polnisch UNIcertBasis Grundkurs 1", 
-            "room": "FA015", 
             "time": "17:30-19:00", 
-            "prof": "WFSp:0", 
-            "desc": "MindestTN 12, ab KW 41"
+            "room": "FA015", 
+            "name": "Polnisch UNIcertBasis Grundkurs 1", 
+            "prof": "Aldona Schmidt"
         }
     ]
 }

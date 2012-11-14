@@ -1,51 +1,47 @@
 {
-    "Montag": [
-        {
-            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
-            "time": "08:00-09:30-08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15-18:00-19:30", 
-            "prof": "T_WPF:0", 
-            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41", 
-            "type": "HF:0#HF:0#HF:0", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "room": "FB001/002", 
-            "time": "18:00-19:30", 
-            "prof": "T_WPF:0", 
-            "desc": "Einf\u00fchrungsveranstaltung  (08.10.12)"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "prof": "T_WPF:0", 
-            "room": "Ex_Extern", 
-            "time": "18:00-19:30"
-        }
-    ], 
-    "Mittwoch": [
-        {
-            "prof": "Mueb_H9", 
-            "desc": "nur f\u00fcr Weitforgeschrittene, Einstufungstest UNIcert III oder IV", 
-            "name": "Englisch f\u00fcr Textil und Design", 
-            "time": "14:00-15:30"
-        }
-    ], 
     "Dienstag": [
         {
+            "desc": "Vorlesung\nMueb_H7\nVorlesung\nMueb_H7\nPraktikum\nMueb_Ch1 + Mueb_Dru + Mueb_F\u00e4r + Mueb_H7\nMethoden der Produkt und Verfahrensentwicklung mit Pr\nMueb_Ch2 + Mueb_CAD\nMethoden der Produkt und Verfahrensentwicklung mit Pr\nMueb_Ch2 + Mueb_CAD\nMethoden der Produkt und Verfahrensentwicklung mit Pr\nMueb_Ch2 + Mueb_CAD", 
+            "prof": "Prof. Dr. Reinhart M\u00f6ckel", 
+            "time": "08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15-17:30-19:00", 
             "name": "Textile Verbundwerkstoffe mit Pr", 
             "note": "(6 SWS Block)#(6 SWS Block)#(6 SWS Block)", 
-            "time": "08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15-17:30-19:00", 
-            "prof": "Mueb_Ch2 + Mueb_CAD", 
-            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0", 
-            "desc": "Vorlesung"
+            "type": "HF:0#HF:0#HF:0#HF:0#HF:0#HF:0"
+        }
+    ], 
+    "Montag": [
+        {
+            "desc": "Kurs findet in M\u00fcnchberg statt  MindestTN 12, ab KW 41\nT_WPF:0\nMueb_H9A\nEnglisch f\u00fcr Textil und Design  Kurs 1 (ab WS 2011: Englisch UNIcert II, Kurs 1a)\nKurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW\nT_WPF:0\nMueb_H1\nEnglisch f\u00fcr Textil und Design  Kurs 3 (ab WS 2011: Englisch UNIcert II, Kurs 2a)\nKurs in M\u00fcnchberg  MindestTN 10,  ab 41. KW\nT_WPF:0\nMueb_H1\nUmweltanalytik mit Pr\n(UT 5 + TT C7) (Beginn 8.10.)\nMueb_Ch2 + Mueb_H16\nUmweltanalytik mit Pr\nPraktikum  (UT 5 + TT C7)  (Beginn 8.10.)\nMueb_Ch1 + Mueb_Ch2 + Mueb_H16\nUmweltanalytik mit Pr\nPraktikum  (UT 5 + TT C7) (14t\u00e4gig,  (Beginn 8.10.)\nMueb_Ch1 + Mueb_Ch2 + Mueb_H16\nUnternehmen in der Region HochFranken\nAbschlussveranstaltung  (14.01.13)\nT_WPF:0", 
+            "room": "FB001/002", 
+            "prof": "Prof. Dr. Wolfgang Schrott", 
+            "time": "08:00-09:30-08:00-09:30-09:45-11:15-11:30-13:00-14:00-15:30-15:45-17:15-18:00-19:30", 
+            "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
+            "type": "HF:0#HF:0#HF:0"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "Ex_Extern", 
+            "name": "Unternehmen in der Region HochFranken"
         }
     ], 
     "Freitag": [
         {
-            "prof": "Mueb_H9A", 
-            "desc": "Kurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine", 
+            "time": "11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00", 
+            "desc": "Kurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 25.01.2013 von 11:30 bis 16:45\nT_WPF:0\nMueb_H9A\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 09.11.2012 von 11:30 bis 16:45\nT_WPF:0\nMueb_H9A\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 02.11.2012 von 11:30 bis 16:45\nT_WPF:0\nMueb_H9A\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 26.10.2012 von 11:30 bis 16:45\nT_WPF:0\nMueb_H9A\nSamstag\nKurs findet in M\u00fcnchberg statt, 2 SWS Montag, 2 SWS als Blocktermine\nam 10.11.2012 von 09:45 bis 15:00\nT_WPF:0\nMueb_H9A", 
             "name": "Spanisch Grundstufe (UNIcert I) Kurs 1", 
-            "time": "11:30-16:45-11:30-16:45-11:30-16:45-11:30-16:45-09:45-15:00"
+            "prof": "Spanisch Grundstufe (UNIcert I) Kurs 1"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "time": "14:00-15:30", 
+            "desc": "nur f\u00fcr Weitforgeschrittene, Einstufungstest UNIcert III oder IV\nT_WPF:0\nMueb_H9", 
+            "name": "Englisch f\u00fcr Textil und Design"
         }
     ]
 }

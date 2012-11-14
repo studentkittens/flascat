@@ -1,190 +1,176 @@
 {
-    "Montag": [
-        {
-            "name": "Gender und Diversity", 
-            "time": "04:00-05:30", 
-            "prof": "Dozent der VHB", 
-            "desc": "Virtuelle Vorlesung", 
-            "type": "AWPM:0", 
-            "room": "Ex_Virtuell"
-        }, 
-        {
-            "name": "Grundlagen der Elektrotechnik", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Dieter Bauer", 
-            "desc": "(MB 1+2 + Wing MT 3) (ab KW 41)", 
-            "type": "HF:0", 
-            "room": "FB109"
-        }, 
-        {
-            "name": "Logistik", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "type": "HF:0", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Qualit\u00e4tsmanagement", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Marco Lin\u00df", 
-            "type": "HF:0", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Dynamische Simulation mechatronischer Systeme", 
-            "time": "14:00-15:30", 
-            "prof": "Prof. Dr. Robert Honke", 
-            "type": "HF:0", 
-            "room": "FA013"
-        }, 
-        {
-            "name": "Statistik", 
-            "room": "FB001/002", 
-            "time": "15:45-17:15", 
-            "prof": "Sonst:0", 
-            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer) (ab 15.10.)"
-        }, 
-        {
-            "name": "Ingenieurmathematik", 
-            "room": "FA107", 
-            "time": "17:30-19:00", 
-            "prof": "Sonst:0", 
-            "desc": "Tutorium  (Wing, WT, MB, InnoTex 3) (ab 8.10.)"
-        }, 
-        {
-            "name": "Wissens, Innovations und Technologiemanagement", 
-            "note": "(ab 15.10.)", 
-            "time": "17:30-19:00", 
-            "prof": "Dr. Wolfgang Grond", 
-            "type": "AWPM:0", 
-            "room": "FA013"
-        }, 
-        {
-            "name": "Die interdisziplin\u00e4ren Aufgaben eines Wirtschaftsingenieurs im Unternehmen", 
-            "time": "17:30-19:00", 
-            "prof": "Dipl.Wirt.Ing.(FH) Jan Seemann", 
-            "type": "AWPM:0", 
-            "room": "FA009"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "time": "18:00-19:30", 
-            "prof": "Abschlussveranstaltung  (14.01.13)", 
-            "type": "AWPM:0", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "time": "18:00-19:30", 
-            "prof": "Einf\u00fchrungsveranstaltung  (08.10.12)", 
-            "type": "AWPM:0", 
-            "room": "FB001/002"
-        }, 
-        {
-            "name": "Unternehmen in der Region HochFranken", 
-            "type": "AWPM:0", 
-            "room": "Ex_Extern", 
-            "time": "18:00-19:30"
-        }
-    ], 
-    "Mittwoch": [
-        {
-            "name": "Verkaufskommunikation", 
-            "time": "08:00-09:30", 
-            "prof": "Prof. Dr. Dietmar Wolff", 
-            "type": "HF:0", 
-            "room": "FD242"
-        }, 
-        {
-            "name": "Dynamische Simulation mechatronischer Systeme", 
-            "time": "09:45-11:15", 
-            "prof": "Prof. Dr. Robert Honke", 
-            "desc": "\u00dcbungen", 
-            "type": "HF:0", 
-            "room": "FA014"
-        }, 
-        {
-            "name": "Sport und Gesundheit", 
-            "time": "14:00-15:30", 
-            "prof": "G\u00fcnther Schwab", 
-            "type": "AWPM:0", 
-            "room": "FA201"
-        }, 
-        {
-            "name": "Analysis", 
-            "room": "FA011", 
-            "time": "17:30-19:00", 
-            "prof": "Sonst:0", 
-            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)"
-        }
-    ], 
     "Dienstag": [
         {
-            "name": "Logistik", 
-            "time": "08:00-09:30", 
+            "room": "FB001/002", 
             "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
-            "type": "HF:0", 
-            "room": "FB001/002"
+            "time": "08:00-09:30", 
+            "name": "Logistik", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Qualit\u00e4tsmanagement", 
-            "time": "09:45-11:15", 
+            "room": "FB109", 
             "prof": "Prof. Dr. Marco Lin\u00df", 
-            "type": "HF:0", 
-            "room": "FB109"
+            "time": "09:45-11:15", 
+            "name": "Qualit\u00e4tsmanagement", 
+            "type": "HF:0"
         }, 
         {
+            "room": "FB105 + FB110", 
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "11:30-13:00", 
             "name": "Grundlagen der Elektrotechnik", 
             "note": "\u00dcbungen  (ab KW 41)", 
-            "time": "11:30-13:00", 
-            "prof": "Prof. Dr. Dieter Bauer", 
-            "type": "HF:0", 
-            "room": "FB105 + FB110"
+            "type": "HF:0"
         }, 
         {
-            "name": "Verkaufskommunikation", 
-            "time": "14:00-15:30", 
+            "room": "FD242", 
             "prof": "Prof. Dr. Dietmar Wolff", 
-            "type": "HF:0", 
-            "room": "FD242"
+            "time": "14:00-15:30", 
+            "name": "Verkaufskommunikation", 
+            "type": "HF:0"
         }, 
         {
-            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten", 
-            "time": "17:30-19:00", 
+            "room": "FA013", 
             "prof": "Ulrich Lang", 
-            "type": "AWPM:0", 
-            "room": "FA013"
-        }, 
-        {
-            "name": "Konstruktion", 
-            "room": "FB007/009 + FB012", 
             "time": "17:30-19:00", 
-            "prof": "Sonst:0", 
-            "desc": "Tutorium  (f\u00fcr Schieber und Wiederholer)"
+            "name": "Meteorologie  nicht nur f\u00fcr Privatpiloten", 
+            "type": "AWPM:0"
         }, 
         {
-            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure", 
+            "time": "17:30-19:00", 
+            "room": "FB012 + FB007/009", 
+            "name": "Konstruktion", 
+            "prof": "Dieter Sammet"
+        }, 
+        {
+            "room": "FB023", 
+            "prof": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
             "time": "19:15-20:45", 
-            "prof": "Prof. Dr. med. Johannes Bodky", 
-            "desc": "Teil Grundlagen der Medizin und Medizintechnik  Beginn KW 41", 
-            "type": "AWPM:0", 
-            "room": "FB023"
+            "name": "Grundlagen der Medizin und der Medizintechnik f\u00fcr Informatiker und Ingenieure", 
+            "type": "AWPM:0"
+        }
+    ], 
+    "Montag": [
+        {
+            "room": "Ex_Virtuell", 
+            "prof": "Virtuelle Vorlesung", 
+            "time": "04:00-05:30", 
+            "name": "Gender und Diversity", 
+            "type": "AWPM:0"
+        }, 
+        {
+            "room": "FB109", 
+            "prof": "Prof. Dr. Dieter Bauer", 
+            "time": "08:00-09:30", 
+            "name": "Grundlagen der Elektrotechnik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB001/002", 
+            "prof": "Prof. Dr. Brigitte B\u00e4rnreuther", 
+            "time": "09:45-11:15", 
+            "name": "Logistik", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FB001/002", 
+            "prof": "Prof. Dr. Marco Lin\u00df", 
+            "time": "11:30-13:00", 
+            "name": "Qualit\u00e4tsmanagement", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "time": "14:00-15:30", 
+            "name": "Dynamische Simulation mechatronischer Systeme", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "15:45-17:15", 
+            "room": "FB001/002", 
+            "name": "Statistik", 
+            "prof": "Dr. Wolfgang Grond"
+        }, 
+        {
+            "time": "17:30-19:00", 
+            "room": "FA107", 
+            "name": "Ingenieurmathematik", 
+            "prof": "Christian Nolte"
+        }, 
+        {
+            "room": "FA013", 
+            "prof": "Dr. Wolfgang Grond", 
+            "time": "17:30-19:00", 
+            "name": "Wissens, Innovations und Technologiemanagement", 
+            "note": "(ab 15.10.)", 
+            "type": "AWPM:0"
+        }, 
+        {
+            "time": "17:30-19:00", 
+            "room": "FA009", 
+            "name": "Die interdisziplin\u00e4ren Aufgaben eines Wirtschaftsingenieurs im Unternehmen", 
+            "type": "AWPM:0"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWPM:0"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "FB001/002", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWPM:0"
+        }, 
+        {
+            "time": "18:00-19:30", 
+            "room": "Ex_Extern", 
+            "name": "Unternehmen in der Region HochFranken", 
+            "type": "AWPM:0"
         }
     ], 
     "Donnerstag": [
         {
-            "name": "Kinematik und Dynamik", 
-            "room": "FA201", 
             "time": "17:30-19:00", 
-            "prof": "Sonst:0", 
-            "desc": "Tutorium  (Wing, WT, MB, UT 3) (ab 4.10.)"
+            "room": "FA201", 
+            "name": "Kinematik und Dynamik", 
+            "prof": "Christian Nolte"
         }, 
         {
-            "name": "Konstruktion", 
-            "room": "FB012 + FB005", 
             "time": "17:30-19:00", 
-            "prof": "Sonst:0", 
-            "desc": "(Wiederholer der Studienarbeit)"
+            "room": "FB012 + FB005", 
+            "name": "Konstruktion", 
+            "prof": "Prof. Dr. Herbert Reichel"
+        }
+    ], 
+    "Mittwoch": [
+        {
+            "room": "FD242", 
+            "prof": "Prof. Dr. Dietmar Wolff", 
+            "time": "08:00-09:30", 
+            "name": "Verkaufskommunikation", 
+            "type": "HF:0"
+        }, 
+        {
+            "room": "FA014", 
+            "prof": "Prof. Dr. Robert Honke", 
+            "time": "09:45-11:15", 
+            "name": "Dynamische Simulation mechatronischer Systeme", 
+            "type": "HF:0"
+        }, 
+        {
+            "time": "14:00-15:30", 
+            "room": "FA201", 
+            "name": "Sport und Gesundheit", 
+            "type": "AWPM:0"
+        }, 
+        {
+            "time": "17:30-19:00", 
+            "desc": "Zusatz\u00fcbungen f\u00fcr Wiederholer  (Alle Sem 1+2+3)\nDipl.Ing. Peter Pinter\nSonst:0", 
+            "room": "FA011", 
+            "name": "Analysis"
         }
     ]
 }
