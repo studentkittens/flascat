@@ -25,7 +25,7 @@ from flask import Flask, request, render_template, flash, redirect, url_for
 # Instance the Flask Application itself
 app = Flask(__name__)
 
-# echo '' | md5sum
+# echo '' | md5sum, actually rather bad key :-)
 app.secret_key = '68b329da9893e34099c7d8ad5cb9c940'
 
 # tagcloud
@@ -236,6 +236,10 @@ def do_query(get_type, number=1, search_str=''):
     try:
 
         qry = configure_query(get_type, search_str, number)
+    except IndexError:
+        flash('It seems you also need an artist/album/title.')
+        return redirect(url_for('main_page'))
+    else:
         flash('Searching for items...')
         results = qry.commit()
         flash('Found %d items' % len(results))
@@ -253,9 +257,6 @@ def do_query(get_type, number=1, search_str=''):
         else:
             flash('Woah! It seems no items were found!')
             return redirect(url_for('main_page'))
-    except IndexError:
-        flash('It seems you also need an artist/album/title.')
-        return redirect(url_for('main_page'))
 
 
 @app.route('/api/<get_type>/<int:number>/<search_str>')
@@ -280,7 +281,7 @@ def api_root(get_type, search_str, number=1):
     except (ValueError):
         return render_template('404.html'), 404
     else:
-        return json.dumps({
+        data = json.dumps({
             'get_type': get_type,
             'artist': qry.artist,
             'album': qry.album,
@@ -288,6 +289,11 @@ def api_root(get_type, search_str, number=1):
             'number': qry.number,
             'results': response
             }, indent=4, sort_keys=True)
+
+	rv = app.make_response(data)
+	rv.mimetype = 'application/json'
+	return rv
+
 
 
 @app.route('/home')
