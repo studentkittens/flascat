@@ -10,16 +10,19 @@ Jetzt müsst ihr sie nur noch erweitern.
 
 # Imports sind von der Musterlösung. Kleiner Hint...
 import json
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template
 from loader.load import load, count, list_courses, NoSuchCourse
+
+###########################################################################
+#                           Was schon da ist...                           #
+###########################################################################
 
 app = Flask('practice')
 
 
 @app.route('/')
 def root():
-    return '<b>Well nothing here yet. Thats your job.</b>'
-
+    return '<b>Your job to fill something in here.</b>'
 
 ###########################################################################
 #                              Let it run...                              #

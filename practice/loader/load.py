@@ -11,18 +11,19 @@ class NoSuchCourse(Exception):
 
 def load(studiengang, semester):
     try:
-        path = 'data/%s_%d.json' % (studiengang, semester)
+        path = 'data/%s_%s.json' % (studiengang, semester)
         with open(path, 'r') as f:
             return json.load(f)
     except IOError:
         raise NoSuchCourse('Cannot locate ' + path)
 
 
-def count(studiengang='', semester=-1):
+def count(studiengang=''):
     if studiengang:
         return len(glob.glob('data/%s_*.json' % studiengang))
     else:
         return len(glob.glob('data/*.json'))
+
 
 def list_courses():
     jsons = glob.glob('data/*.json')

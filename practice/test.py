@@ -43,6 +43,7 @@ class TestA(unittest.TestCase):
         print('** Running Tests for a')
         self.test_reachable()
         self.test_get()
+        self.test_badinput()
         print('** Done!')
 
     def test_reachable(self):
@@ -55,11 +56,14 @@ class TestA(unittest.TestCase):
                 "room": "Ex_Virtuell",
                 "name": "Gender und Diversity",
                 "time": "04:00-05:30",
-                "prof": "Dozent der VHB",
-                "type": "AWM:1",
-                "desc": "Virtuelle Vorlesung"
+                "prof": "Virtuelle Vorlesung",
+                "type": "AWM:1"
         }
         self.assertTrue(contain in data['Montag'])
+
+    def test_badinput(self):
+        data = request('Inf', '42')
+        self.assertTrue({} == data)
 
 
 class TestB(unittest.TestCase):
@@ -67,8 +71,6 @@ class TestB(unittest.TestCase):
         print('** Running Tests for b)')
         self.test_reachable()
         self.test_listcourses()
-        self.test_countall()
-        self.test_countinf()
         print('** Done!')
 
     def test_reachable(self):
@@ -77,10 +79,23 @@ class TestB(unittest.TestCase):
 
     def test_listcourses(self):
         data = request('list_courses')
-        self.assertTrue(len(data) == 30)
+        self.assertTrue(len(data) == 271)
         self.assertTrue('Inf' in data)
         self.assertTrue('Vinf' in data)
         self.assertTrue('BW' in data)
+
+
+class TestC(unittest.TestCase):
+    def runTest(self):
+        print('** Running Tests for c)')
+        self.test_reachable()
+        self.test_countall()
+        self.test_countinf()
+        print('** Done!')
+
+    def test_reachable(self):
+        data = request()
+        self.assertTrue(len(data) > 0, 'API Root not reachable (Server running?)')
 
     def test_countall(self):
         data = request('count', 'all')
@@ -99,8 +114,11 @@ if __name__ == '__main__':
     if 'b' in sys.argv:
         suite.addTest(TestB())
 
-    if 'a' not in sys.argv and 'b' not in sys.argv:
-        print('Usage: ' + sys.argv[0] + ' (a|b)')
+    if 'c' in sys.argv:
+        suite.addTest(TestC())
+
+    if suite.countTestCases() is 0:
+        print('Usage: ' + sys.argv[0] + ' (a|b|c)')
         sys.exit(-1)
 
     unittest.TextTestRunner().run(suite)
