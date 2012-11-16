@@ -1,3 +1,7 @@
+.. header ::
+
+    ###Page###/###Total###
+
 **RESTful Interfaces und Templates mit Flask**
 ==============================================
 
@@ -15,7 +19,9 @@ Ausführen könnt ihr eure Anwendung indem ihr in das Directory ``practice`` nav
 dort ``app.py`` ausführt. Wenn alles gut ging, dann könnt ihr unter http://localhost:5000
 in euren Webbrowser eine Begrüßungsmessage sehen.
 
-Testen könnt ihr die Aufgaben **a)**, **b)** und **c)** indem ihr ``test.py`` ausführt: ::
+Testen könnt ihr die Aufgaben **a)**, **b)** und **c)** indem ihr ``test.py`` ausführt:
+    
+.. code-block:: bash
 
     $ python test.py a b c
     ** Querying: http://localhost:5000/api/count/all
@@ -42,7 +48,10 @@ Aufgaben
     unseren aktuellen Stundenplan liefert. Der Studiengang ``Inf`` und das Semester
     soll dabei entsprechend durch andere Studiengänge wie ``BW`` ersetzt werden können.
 
-    *Beispiel Antwort:* ::
+    *Beispiel Antwort:*
+
+    .. code-block:: bash
+       :linenos:
 
         $ curl localhost:5000/api/Inf/5
         {
@@ -68,7 +77,9 @@ Aufgaben
     
     http://localhost:5000/api/list_courses soll eine sortierte Liste aller Studiengänge wiedergeben.
 
-    *Beispiel:* ::
+    *Beispiel:*
+    
+    .. code-block:: bash
 
         $ curl localhost:5000/api/list_courses
         ["BBB", "BW", "GP", "IM", "Inf", ..., "Wing MT", "Wing WT"]
@@ -83,7 +94,9 @@ Aufgaben
     
     Für den speziellen Studiengang ``all`` sollen alle Studiengänge gezählt werden.
     
-    *Beispiel:* ::
+    *Beispiel:*
+    
+    .. code-block:: bash
     
         $ curl localhost:5000/api/count/Inf
         3
