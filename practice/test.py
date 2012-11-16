@@ -4,6 +4,7 @@
 import urllib
 import unittest
 import json
+import sys
 
 ###########################################################################
 #                                 Helper                                  #
@@ -37,30 +38,16 @@ def request(*args):
 #                               Test Cases                                #
 ###########################################################################
 
-class TestRestInterface(unittest.TestCase):
+class TestA(unittest.TestCase):
+    def runTest(self):
+        print('** Running Tests for a')
+        self.test_reachable()
+        self.test_get()
+        print('** Done!')
 
     def test_reachable(self):
         data = request()
         self.assertTrue(len(data) > 0, 'API Root not reachable (Server running?)')
-
-    def test_listcourses(self):
-        data = request('list_courses')
-<<<<<<< HEAD
-        self.assertTrue(len(data) > 10)
-=======
-        self.assertTrue(len(data) == 30)
->>>>>>> practice
-        self.assertTrue('Inf' in data)
-        self.assertTrue('Vinf' in data)
-        self.assertTrue('BW' in data)
-
-    def test_countall(self):
-        data = request('count', 'all')
-        self.assertTrue(int(data) == 84)
-
-    def test_countinf(self):
-        data = request('count', 'Inf')
-        self.assertTrue(int(data) == 3)
 
     def test_get(self):
         data = request('Inf', '5')
@@ -74,6 +61,46 @@ class TestRestInterface(unittest.TestCase):
         }
         self.assertTrue(contain in data['Montag'])
 
-if __name__ == '__main__':
-    unittest.main(failfast=True)
 
+class TestB(unittest.TestCase):
+    def runTest(self):
+        print('** Running Tests for b)')
+        self.test_reachable()
+        self.test_listcourses()
+        self.test_countall()
+        self.test_countinf()
+        print('** Done!')
+
+    def test_reachable(self):
+        data = request()
+        self.assertTrue(len(data) > 0, 'API Root not reachable (Server running?)')
+
+    def test_listcourses(self):
+        data = request('list_courses')
+        self.assertTrue(len(data) == 30)
+        self.assertTrue('Inf' in data)
+        self.assertTrue('Vinf' in data)
+        self.assertTrue('BW' in data)
+
+    def test_countall(self):
+        data = request('count', 'all')
+        self.assertTrue(int(data) == 84)
+
+    def test_countinf(self):
+        data = request('count', 'Inf')
+        self.assertTrue(int(data) == 3)
+
+if __name__ == '__main__':
+    suite = unittest.TestSuite()
+
+    if 'a' in sys.argv:
+        suite.addTest(TestA())
+
+    if 'b' in sys.argv:
+        suite.addTest(TestB())
+
+    if 'a' not in sys.argv and 'b' not in sys.argv:
+        print('Usage: ' + sys.argv[0] + ' (a|b)')
+        sys.exit(-1)
+
+    unittest.TextTestRunner().run(suite)

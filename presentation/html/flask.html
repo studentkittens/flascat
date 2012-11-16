@@ -409,7 +409,38 @@ Rendern des Templates aus einer View Funtkion:</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="0" data-y="2400.0" id="request-object">
+<div class="step slide section" data-x="0" data-y="2400.0" id="templates-3">
+<h1>
+Templates #3<a class="headerlink" href="#templates-3" title="Permalink to this headline">¶</a></h1>
+<p>
+<strong>
+parent.html:</strong></p>
+<div class="highlight-html">
+<div class="highlight"><pre><span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Flaskr<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Flaskr Headline<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        {% block body %}{% endblock %}
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
+</div>
+<p>
+<strong>
+child.html:</strong></p>
+<div class="highlight-html">
+<div class="highlight"><pre>{% extends &quot;parent.html&quot; %}
+{% block body %}
+    <span class="nt">&lt;p&gt;</span>Hello I am a child<span class="nt">&lt;/p&gt;</span>
+{% endblock %}
+</pre></div>
+</div>
+<ul class="simple">
+<li>
+Nützlich zur Realisierung verschachtelter Layouts.</li>
+</ul>
+</div>
+<div class="step slide section" data-x="1000" data-y="2400.0" id="request-object">
 <h1>
 Request Object<a class="headerlink" href="#request-object" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -441,7 +472,7 @@ Anmerkung:</strong></p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="1000" data-y="2400.0" id="session-object-1">
+<div class="step slide section" data-x="2000" data-y="2400.0" id="session-object-1">
 <h1>
 Session Object #1<a class="headerlink" href="#session-object-1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -468,7 +499,7 @@ Codeblock um Login zu realisieren:</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="2000" data-y="2400.0" id="session-object-2">
+<div class="step slide section" data-x="3000" data-y="2400.0" id="session-object-2">
 <h1>
 Session Object #2<a class="headerlink" href="#session-object-2" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -499,7 +530,7 @@ HTML Formular (login.html):</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="3000" data-y="2400.0" id="url-parameter">
+<div class="step slide section" data-x="0" data-y="3200.0" id="url-parameter">
 <h1>
 URL Parameter<a class="headerlink" href="#url-parameter" title="Permalink to this headline">¶</a></h1>
 <ul>
@@ -535,7 +566,7 @@ Flask legt diese Parameter als Dictionary im Request Objekt ab:</p>
 </li>
 </ul>
 </div>
-<div class="step slide section" data-x="0" data-y="3200.0" id="debugging-inside-1">
+<div class="step slide section" data-x="1000" data-y="3200.0" id="debugging-inside-1">
 <h1>
 Debugging Inside #1<a class="headerlink" href="#debugging-inside-1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -563,7 +594,7 @@ Switch nicht sonderlich auf Produktivsystemen.</li>
 Aber das war euch ja klar.</li>
 </ul>
 </div>
-<div class="step slide section" data-x="1000" data-y="3200.0" id="debugging-inside-2">
+<div class="step slide section" data-x="2000" data-y="3200.0" id="debugging-inside-2">
 <h1>
 Debugging Inside #2<a class="headerlink" href="#debugging-inside-2" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -588,7 +619,7 @@ Let&#8217;s demo!</strong></p>
 </pre></div>
 </div>
 </div>
-<div class="step slide section" data-x="2000" data-y="3200.0" id="server-inside">
+<div class="step slide section" data-x="3000" data-y="3200.0" id="server-inside">
 <h1>
 Server Inside *<a class="headerlink" href="#server-inside" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -630,7 +661,7 @@ Server Parameter änderbar:</p>
 </ul>
 </div></blockquote>
 </div>
-<div class="step slide section" data-x="3000" data-y="3200.0" id="deployment-options">
+<div class="step slide section" data-x="0" data-y="4000.0" id="deployment-options">
 <h1>
 Deployment Options<a class="headerlink" href="#deployment-options" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -662,7 +693,7 @@ Flask on Webfaction</li>
 Google App Engine</li>
 </ul>
 </div>
-<div class="step slide section" data-x="0" data-y="4000.0" id="ausblick">
+<div class="step slide section" data-x="1000" data-y="4000.0" id="ausblick">
 <h1>
 Ausblick<a class="headerlink" href="#ausblick" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -698,13 +729,13 @@ Wir empfehlen auch das ausführliche Tutorial auf der Flaskseite:</p>
 <div><a class="reference external" href="http://flask.pocoo.org/docs/tutorial/">
 http://flask.pocoo.org/docs/tutorial/</a></div></blockquote>
 </div>
-<div class="step slide section" data-x="1000" data-y="4000.0" id="moosr-ein-beispielprojekt">
+<div class="step slide section" data-x="2000" data-y="4000.0" id="moosr-ein-beispielprojekt">
 <h1>
 <tt class="docutils literal">
 <span class="pre">moosr</span></tt> - Ein Beispielprojekt<a class="headerlink" href="#moosr-ein-beispielprojekt" title="Permalink to this headline">¶</a></h1>
 <img alt="_images/moosr.png" class="align-center" src="_images/moosr.png" style="height: 500px;">
 </div>
-<div class="step slide section" data-x="2000" data-y="4000.0" id="practice">
+<div class="step slide section" data-x="3000" data-y="4000.0" id="practice">
 <h1>
 Practice!<a class="headerlink" href="#practice" title="Permalink to this headline">¶</a></h1>
 <div class="line-block">

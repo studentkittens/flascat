@@ -268,6 +268,35 @@ Templates #2
     
 
 
+Templates #3
+------------
+
+**parent.html:**
+
+.. code-block:: html 
+
+    <html>
+        <title>Flaskr</title>
+        <h1>Flaskr Headline</h1>
+        <body>
+            {% block body %}{% endblock %}
+        </body>
+    </html>
+
+
+**child.html:**
+
+.. code-block:: html 
+
+    {% extends "parent.html" %}
+    {% block body %}
+        <p>Hello I am a child</p>
+    {% endblock %}
+
+* Nützlich zur Realisierung verschachtelter Layouts.
+
+
+
 Request Object 
 --------------
 
