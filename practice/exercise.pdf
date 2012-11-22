@@ -3037,7 +3037,7 @@ endobj
 % 'R31': class PDFInfo 
 31 0 obj
 << /Author ()
- /CreationDate (D:20121116041832-01'00')
+ /CreationDate (D:20121116073528-01'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -3085,7 +3085,7 @@ endobj
 % 'R36': class PDFStream 
 36 0 obj
 % page stream
-<< /Length 8235 >>
+<< /Length 8246 >>
 stream
 1 0 0 1 0 0 cm 
 q
@@ -3141,7 +3141,7 @@ Q
 q
 .960784 .960784 .862745 rg
 n 0 123 9.632812 12 re f*
-BT 1 0 0 1 0 124 Tm 12 TL .733333 .376471 .835294 rg /F3+0 8 Tf 12 TL ($ ) Tj 0 0 0 rg (python test.py a b c) Tj T* (** Querying: http://localhost:5000/api/count/all) Tj T* (** Querying: http://localhost:5000/api/count/Inf) Tj T* (** Querying: http://localhost:5000/api/list) Tj T* (** Querying: http://localhost:5000/api) Tj T* (...) Tj T*  T* (----------------------------------------------------------------------) Tj T* (Ran 4 tests in 0.016s) Tj T*  T* (OK) Tj T* ET
+BT 1 0 0 1 0 124 Tm 12 TL .721569 .52549 .043137 rg /F3+0 8 Tf 12 TL ($ ) Tj 0 0 0 rg (python test.py a b c) Tj T* (** Querying: http://localhost:5000/api/count/all) Tj T* (** Querying: http://localhost:5000/api/count/Inf) Tj T* (** Querying: http://localhost:5000/api/list) Tj T* (** Querying: http://localhost:5000/api) Tj T* (...) Tj T*  T* (----------------------------------------------------------------------) Tj T* (Ran 4 tests in 0.016s) Tj T*  T* (OK) Tj T* ET
 Q
 Q
 Q
@@ -3295,7 +3295,7 @@ n 43.34766 15 0 12 re f*
 n 0 3 14.44922 12 re f*
 .960784 .960784 .862745 rg
 n 19.26562 3 4.816406 12 re f*
-BT 1 0 0 1 0 148 Tm 12 TL 0 0 0 rg /F3+0 8 Tf 12 TL ( 1 ) Tj ( ) Tj .733333 .376471 .835294 rg ($ ) Tj 0 0 0 rg (curl localhost:5000/api/Inf/5) Tj  T* ( 2 ) Tj ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* ( 3 ) Tj (     ) Tj .25098 .439216 .627451 rg ("Dienstag") Tj 0 0 0 rg (: ) Tj .4 .4 .4 rg ([{) Tj 0 0 0 rg  T* ( 4 ) Tj (         ) Tj .25098 .439216 .627451 rg ("room") Tj 0 0 0 rg (: ) Tj .25098 .439216 .627451 rg ("FB102") Tj 0 0 0 rg (,) Tj  T* ( 5 ) Tj (         ) Tj .25098 .439216 .627451 rg ("prof") Tj 0 0 0 rg (: ) Tj .25098 .439216 .627451 rg ("Prof. Dr. J\\u00fcrgen Heym") Tj 0 0 0 rg (,) Tj  T* ( 6 ) Tj (         ) Tj .25098 .439216 .627451 rg ("time") Tj 0 0 0 rg (: ) Tj .25098 .439216 .627451 rg ("11:30-13:00") Tj 0 0 0 rg (,) Tj  T* ( 7 ) Tj (         ) Tj .25098 .439216 .627451 rg ("name") Tj 0 0 0 rg (: ) Tj .25098 .439216 .627451 rg ("RoutingSwitchingTroubleshooting 1") Tj 0 0 0 rg (,) Tj  T* ( 8 ) Tj (         ) Tj .25098 .439216 .627451 rg ("note") Tj 0 0 0 rg (: ) Tj .25098 .439216 .627451 rg ("\(Inf+MI+WI5\)") Tj 0 0 0 rg (,) Tj  T* ( 9 ) Tj (         ) Tj .25098 .439216 .627451 rg ("type") Tj 0 0 0 rg (: ) Tj .25098 .439216 .627451 rg ("FWM:1") Tj 0 0 0 rg  T* (10 ) Tj (     ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (,) Tj  T* (11 ) Tj (     ...) Tj  T* (12 ) Tj (     ) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T* (13 ) Tj ( ) Tj .4 .4 .4 rg (}) Tj T* ET
+BT 1 0 0 1 0 148 Tm 12 TL 0 0 0 rg /F3+0 8 Tf 12 TL ( 1 ) Tj ( ) Tj .721569 .52549 .043137 rg ($ ) Tj 0 0 0 rg (curl localhost:5000/api/Inf/5) Tj  T* ( 2 ) Tj ( ) Tj .4 .4 .4 rg ({) Tj 0 0 0 rg  T* ( 3 ) Tj (     ) Tj .733333 .266667 .266667 rg ("Dienstag") Tj 0 0 0 rg (: ) Tj .4 .4 .4 rg ([{) Tj 0 0 0 rg  T* ( 4 ) Tj (         ) Tj .733333 .266667 .266667 rg ("room") Tj 0 0 0 rg (: ) Tj .733333 .266667 .266667 rg ("FB102") Tj 0 0 0 rg (,) Tj  T* ( 5 ) Tj (         ) Tj .733333 .266667 .266667 rg ("prof") Tj 0 0 0 rg (: ) Tj .733333 .266667 .266667 rg ("Prof. Dr. J\\u00fcrgen Heym") Tj 0 0 0 rg (,) Tj  T* ( 6 ) Tj (         ) Tj .733333 .266667 .266667 rg ("time") Tj 0 0 0 rg (: ) Tj .733333 .266667 .266667 rg ("11:30-13:00") Tj 0 0 0 rg (,) Tj  T* ( 7 ) Tj (         ) Tj .733333 .266667 .266667 rg ("name") Tj 0 0 0 rg (: ) Tj .733333 .266667 .266667 rg ("RoutingSwitchingTroubleshooting 1") Tj 0 0 0 rg (,) Tj  T* ( 8 ) Tj (         ) Tj .733333 .266667 .266667 rg ("note") Tj 0 0 0 rg (: ) Tj .733333 .266667 .266667 rg ("\(Inf+MI+WI5\)") Tj 0 0 0 rg (,) Tj  T* ( 9 ) Tj (         ) Tj .733333 .266667 .266667 rg ("type") Tj 0 0 0 rg (: ) Tj .733333 .266667 .266667 rg ("FWM:1") Tj 0 0 0 rg  T* (10 ) Tj (     ) Tj .4 .4 .4 rg (}) Tj 0 0 0 rg (,) Tj  T* (11 ) Tj (     ...) Tj  T* (12 ) Tj (     ) Tj .4 .4 .4 rg (]) Tj 0 0 0 rg  T* (13 ) Tj ( ) Tj .4 .4 .4 rg (}) Tj T* ET
 Q
 Q
 Q
@@ -3316,7 +3316,7 @@ endobj
 % 'R37': class PDFStream 
 37 0 obj
 % page stream
-<< /Length 7119 >>
+<< /Length 7123 >>
 stream
 1 0 0 1 0 0 cm 
 q
@@ -3402,7 +3402,7 @@ n 183.0234 3 43.34766 12 re f*
 n 236.0039 3 43.34766 12 re f*
 .960784 .960784 .862745 rg
 n 279.3516 3 4.816406 12 re f*
-BT 1 0 0 1 0 16 Tm 12 TL .733333 .376471 .835294 rg /F3+0 8 Tf 12 TL ($ ) Tj 0 0 0 rg (curl localhost:5000/api/list_courses) Tj T* .4 .4 .4 rg ([) Tj .25098 .439216 .627451 rg ("BBB") Tj 0 0 0 rg (, ) Tj .25098 .439216 .627451 rg ("BW") Tj 0 0 0 rg (, ) Tj .25098 .439216 .627451 rg ("GP") Tj 0 0 0 rg (, ) Tj .25098 .439216 .627451 rg ("IM") Tj 0 0 0 rg (, ) Tj .25098 .439216 .627451 rg ("Inf") Tj 0 0 0 rg (, ..., ) Tj .25098 .439216 .627451 rg ("Wing MT") Tj 0 0 0 rg (, ) Tj .25098 .439216 .627451 rg ("Wing WT") Tj .4 .4 .4 rg (]) Tj T* ET
+BT 1 0 0 1 0 16 Tm 12 TL .721569 .52549 .043137 rg /F3+0 8 Tf 12 TL ($ ) Tj 0 0 0 rg (curl localhost:5000/api/list_courses) Tj T* .4 .4 .4 rg ([) Tj .733333 .266667 .266667 rg ("BBB") Tj 0 0 0 rg (, ) Tj .733333 .266667 .266667 rg ("BW") Tj 0 0 0 rg (, ) Tj .733333 .266667 .266667 rg ("GP") Tj 0 0 0 rg (, ) Tj .733333 .266667 .266667 rg ("IM") Tj 0 0 0 rg (, ) Tj .733333 .266667 .266667 rg ("Inf") Tj 0 0 0 rg (, ..., ) Tj .733333 .266667 .266667 rg ("Wing MT") Tj 0 0 0 rg (, ) Tj .733333 .266667 .266667 rg ("Wing WT") Tj .4 .4 .4 rg (]) Tj T* ET
 Q
 Q
 Q
@@ -3477,7 +3477,7 @@ q
 n 0 39 9.632812 12 re f*
 .960784 .960784 .862745 rg
 n 0 15 9.632812 12 re f*
-BT 1 0 0 1 0 40 Tm 12 TL .733333 .376471 .835294 rg /F3+0 8 Tf 12 TL ($ ) Tj 0 0 0 rg (curl localhost:5000/api/count/Inf) Tj T* (3) Tj T* .733333 .376471 .835294 rg ($ ) Tj 0 0 0 rg (curl localhost:5000/api/count/all) Tj T* (84) Tj T* ET
+BT 1 0 0 1 0 40 Tm 12 TL .721569 .52549 .043137 rg /F3+0 8 Tf 12 TL ($ ) Tj 0 0 0 rg (curl localhost:5000/api/count/Inf) Tj T* (3) Tj T* .721569 .52549 .043137 rg ($ ) Tj 0 0 0 rg (curl localhost:5000/api/count/all) Tj T* (84) Tj T* ET
 Q
 Q
 Q
@@ -3736,20 +3736,20 @@ xref
 0002352271 00000 n
 0002352423 00000 n
 0002352547 00000 n
-0002360881 00000 n
-0002368099 00000 n
-0002369386 00000 n
-0002369505 00000 n
-0002369582 00000 n
-0002369659 00000 n
+0002360892 00000 n
+0002368114 00000 n
+0002369401 00000 n
+0002369520 00000 n
+0002369597 00000 n
+0002369674 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\234\304\257\362\246\327U>\\\364\300#*QY\377) (\234\304\257\362\246\327U>\\\364\300#*QY\377)] 
+ [(\013\347\365|\253\331\242bP\347\260w3B"\322) (\013\347\365|\253\331\242bP\347\260w3B"\322)] 
 
  /Info 31 0 R
  /Root 30 0 R
  /Size 43 >>
 startxref
-2369706
+2369721
 %%EOF
