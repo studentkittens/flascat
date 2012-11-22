@@ -16,6 +16,7 @@
 .. image:: static/xkcd.png
    :align: center
 
+
 Vorwort
 -------
 
@@ -44,6 +45,59 @@ Vorwort
     | *whose design philosophy emphasizes code readability.*
 
 * **Paradigmen:** Object-Oriented, Imperative, Funktional, Prozedual, Reflektiv
+
+
+Wozu überhaupt?
+---------------
+
+* Einsatzzwecke: 
+
+    * … Wissenschaftlichen Bereich (``numpy``, ``SciPy`` bei NASA)
+    * … Webprogrammierung (``Flask``, ``Zope``, ``Django``)
+    * … Systemprogrammierung (**Admintasks**, **Networking**)
+    * … Prototyping (**3-10x** Entwicklungsgeschwindigkeit)
+    * … als ,,Glue'' (Compiler für C/++, Java verfügbar)
+    * … integrierte ,,Scriptsprache'' (``Blender3D``, viele Spiele)
+    * … Educationbereich (Primäre Sprache auf dem Raspberry)
+    * … öfter als man denkt. ☻
+
+* Andere Gründe:
+
+    * Einfach erlernbar (Ehrlich!)
+    * Meist schnell genug.
+    * Plattformunabhängig.
+    * … 
+
+
+History!
+--------
+
+* Entstanden 1991 (älter als Java, mit 1995)
+
+.. image:: static/guido.jpg
+    :align: center
+
+* (Ursprüngliche) Designziele:
+
+  * Als Ergänzung zu C++, Ersetzung von Shellscripts.
+  * Code der sich wie einfaches Englisch liest.
+  * Kurze Entwicklungszeiträume.
+  * *Batteries included.*
+
+Wiederverwendung
+----------------
+
+* Guido's Time Machine
+
+  * *sehr* wenig Boilerplate Code
+  * PEP8
+    ... Viele coole Datentypen...  <-- KITTEH
+
+
+  * Vermeidet:
+
+.. image:: static/exhaustion.jpg
+    :align: center
 
 Die Shell (REPL)
 ----------------
@@ -737,6 +791,49 @@ Das Testframework ist mit dem Modul ``unittest`` in die Sprache eingebaut: ::
 
     if __name__ == '__main__':
         unittest.main()
+
+Python2 vs. Python3
+-------------------
+
+Auf Python3 Seite:
+
+    * Einfache Unicodeünterstützung.
+    * Alles leitet von ``object`` ab.
+    * Syntaxänderungen und Änderungen an der C-API.
+
+    * Leider **inkompatibel** zu Python2.
+      
+      * Viele Features aber backported.
+
+    * Manche externe Libraries **noch** Python2 basiert (Flask)!
+
+       * Python2 wird allerdings noch lange supported.
+
+* Oft noch Python 2 per Default installiert (Debian, Mac OS X).
+* Für die Übungen / Flask wird Python2 verwendet!
+* (Fast) Alle Beispiele liefen in beiden Versionen.
+
+
+Interpreter / Compiler
+----------------------
+
+|
+|
+
+Es gibt eine Reihe verschiedener Intepreter / Compiler für Python:
+
+* ``CPython`` - Der *Referenz* Interpreter. 
+* ``Jython`` - Ein ByteCode Compiler für die JVM. **\***
+* ``IronPython`` - Die .Net Variante von ``Jython``.
+* ``Cython`` - Übersetzt Python zu C-Code. **\***
+* ``PyPy`` - Ein Interpreter/JIT Compiler in Python.
+* ``Stackless Python`` - Interpreter; Verbesserter Threadingsupport.
+
+----
+
+|
+
+**\*** Es handelt sich um Spracherweiterungen.
 
 Fragen?
 -------

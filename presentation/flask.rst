@@ -49,10 +49,15 @@ Um was geht's?
 
     800 LOC Code, 1500 LOC Testcases, 200 A4 Seiten Dokumentation.
 
+Architektur
+-----------
+
+
+  Schaubild (Jinja, Werkzeug, SQlite3, Twisted)
+
 Warum nicht Django?
 -------------------
 
-|
 
 **Im Vergleich zu Django**:
 
@@ -60,12 +65,15 @@ Warum nicht Django?
     * don't reinvent the wheel.
     * Modular, Erweiterung durch Plugins.
     * zB.: Datenbank und Templateengine austauschbar. 
+    * Sehr viel kleiner / handlicher.
+    * Skalierbarkeit.
 
 **Anmerkung**: 
 
     * Flask läuft momentan nur mit Python 2.x.
     * Python 3.x Port ist in Arbeit.
     * Django läuft bereits auf Python 3.x.
+    * Admin Funktionalität.
 
 Weitere Features
 ----------------
@@ -80,6 +88,8 @@ Weitere Features
 
       * ORM (Object-Relational-Mapper) als Plugin.
     * Kompatibilität zu vielen Datenbankmanagementsystemen.
+    * Kein Zwang bestimmte Software zu nutzen,
+      →  Wiederverwendung anderer Frameworks! 
 
 
 Hello World!
@@ -391,7 +401,8 @@ URL Parameter
             apikey = request.args.get('apikey')
 
             if apikey == 'xyz':
-                return make_xml_response(method, apikey)
+                xml_data = make_xml_response(method, apikey)
+                return Response(xml_data, mimetype='text/xml')
             else:
                 return 'Access Denied', 404
        
