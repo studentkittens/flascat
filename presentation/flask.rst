@@ -53,7 +53,9 @@ Architektur
 -----------
 
 
-  Schaubild (Jinja, Werkzeug, SQlite3, Twisted)
+.. image:: static/schaubild.png
+    :align: center
+    :width: 85%
 
 Warum nicht Django?
 -------------------
