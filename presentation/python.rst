@@ -74,29 +74,27 @@ History!
 
 * Entstanden 1991 (älter als Java, mit 1995)
 
-.. image:: static/guido.jpg
+.. image:: static/guido_our_god.png
     :align: center
+    :scale: 42%
 
 * (Ursprüngliche) Designziele:
 
   * Als Ergänzung zu C++, Ersetzung von Shellscripts.
   * Code der sich wie einfaches Englisch liest.
   * Kurze Entwicklungszeiträume.
-  * *Batteries included.*
 
 Wiederverwendung
 ----------------
 
-* Guido's Time Machine
-
+  * Guido's Time Machine
   * *sehr* wenig Boilerplate Code
+  * *Batteries included.*
   * PEP8
-    ... Viele coole Datentypen...  <-- KITTEH
-
 
   * Vermeidet:
 
-.. image:: static/exhaustion.jpg
+.. image:: static/exhaustion.png
     :align: center
 
 Die Shell (REPL)
