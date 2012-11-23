@@ -505,7 +505,10 @@ Ausblick
     * Logging (``app.logger.warning(msg)``)
     * Message Flashing (``flash``)
     * Blueprints (verschiedene Seiten für Admin/User zB.)
-    * Extensions (wie SQL Object Mapper)
+    * Extensions, zB:
+
+      * Flask-Admin, Flask-OpenID, Flask-SQLAlchemy
+      * Frozen-Flask, Flask-OAuth, Flask-XML-RPC …
     * Caching
     * …
 
