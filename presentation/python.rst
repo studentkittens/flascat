@@ -21,7 +21,6 @@ Vorwort
 -------
 
 .. slide::
-   :data-x: 0
    :data-y: 0
 
 * Eine Stunde ist wenig Zeit um eine ganze, umfangreiche Sprache zu vermitteln, 
@@ -76,7 +75,7 @@ History!
 
 .. image:: static/guido_our_god.png
     :align: center
-    :scale: 42%
+    :scale: 35%
 
 * (Ursprüngliche) Designziele:
 
@@ -88,14 +87,19 @@ Wiederverwendung
 ----------------
 
   * Guido's Time Machine
-  * *sehr* wenig Boilerplate Code
-  * *Batteries included.*
+
+    * Batteries included
+
+  * sehr wenig Boilerplate Code
   * PEP8
 
-  * Vermeidet:
+| 
+
+  **Vermeidet:**
 
 .. image:: static/exhaustion.png
     :align: center
+    :scale: 70%
 
 Die Shell (REPL)
 ----------------
