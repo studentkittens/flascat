@@ -22,18 +22,22 @@
     </head>
     <body>
         <div id="mainmenue">
-            <a href="{{ url_for('home_page') }}">
-                <button class="button" type="button">Developers</button>
-            </a>
-            <a href="{{ url_for('home_page') }}">
-                <button class="button" type="button">Help!</button>
-            </a>
-            <a href="{{ url_for('home_page') }}">
-                <button class="button" type="button">About us</button>
-            </a>
-            <a href="{{ url_for('home_page') }}">
-                <button class="button" type="button">Impressum</button>
-            </a>
+
+            <button class="button">
+                <a href="{{ url_for('home_page') }}"target="_blank">Developers</a>
+            </button>
+            <button class="button">
+                <a href="{{ url_for('home_page') }}"target="_blank">Help!</a>
+            </button>
+            <button class="button">
+                <a href="{{ url_for('home_page') }}"target="_blank">About us</a>
+            </button>
+            <button class="button">
+                <a href="{{ url_for('home_page') }}"target="_blank">Impressum</a>
+            </button>
+            <button class="button">
+                <a href="{{ url_for('home_page') }}"target="_blank">Blog</a>
+            </button>
         </div>
         <div id="container">
             <div id="header">
@@ -52,7 +56,7 @@
                         </select>
                         <select name="number" class="search_buttons">
                             {% for i in range(1, 21) %}
-                                <option value="{{ i }}">{{ i }} Item</option>
+                            <option value="{{ i }}">{{ i }} Item</option>
                             {% endfor %}
                         </select>
 
@@ -75,24 +79,24 @@
         </div>
     </div>
     <div id="footer">
-    <noscript>
-        <a href="http://flattr.com/thing/302682/libglyr" target="_blank">
-            <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
+        <noscript>
+            <a href="http://flattr.com/thing/302682/libglyr" target="_blank">
+                <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
+            </a>
+        </noscript>
+        <a class="FlattrButton" title="Make a Donation!" lang="de"
+            style="display:none;" rev="flattr;button:compact"
+            href="http://github.com/sahib/glyr"
+            popup=0
+            >
+            Make a donation to the poor libglyr developers.
         </a>
-    </noscript>
-    <a class="FlattrButton" title="Make a Donation!" lang="de"
-        style="display:none;" rev="flattr;button:compact"
-        href="http://github.com/sahib/glyr"
-        popup=0
-    >
-        Make a donation to the poor libglyr developers.
-    </a>
-    <img src="{{url_for('static', filename='icon_flickr.png')}}" alt="flickr button" height="25px">
-    <img src="{{url_for('static', filename='icon_googleplus.png')}}"alt="google plus button" height="25px">
-    <img src="{{url_for('static', filename='icon_facebook.png')}}"alt="facebook button" height="25px">
-    <img src="{{url_for('static', filename='icon_twitter.png')}}"alt="twitter button" height="25px">
-    <img src="{{url_for('static', filename='icon_email.png')}}"alt="email button" height="25px">
-    <img src="{{url_for('static', filename='icon_rss.png')}}"alt="rss button" height="25px">
-</div>
+        <img src="{{url_for('static', filename='icon_flickr.png')}}" alt="flickr button" height="25px">
+        <img src="{{url_for('static', filename='icon_googleplus.png')}}"alt="google plus button" height="25px">
+        <img src="{{url_for('static', filename='icon_facebook.png')}}"alt="facebook button" height="25px">
+        <img src="{{url_for('static', filename='icon_twitter.png')}}"alt="twitter button" height="25px">
+        <img src="{{url_for('static', filename='icon_email.png')}}"alt="email button" height="25px">
+        <img src="{{url_for('static', filename='icon_rss.png')}}"alt="rss button" height="25px">
+    </div>
 </body>
 </html>
