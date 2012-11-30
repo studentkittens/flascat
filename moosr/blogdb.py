@@ -36,11 +36,9 @@ def connect_db():
     return sqlite3.connect('moosr.db')
 
 
-@app.before_request
-def before_request():
+def setup():
     g.db = connect_db()
 
 
-@app.teardown_request
-def teardown_request(exception):
+def teardown(exception):
     g.db.close()

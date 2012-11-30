@@ -9,12 +9,12 @@ TAGCLOUD = {}
 
 def tagcloud_save(path):
     'Save the tagcloud to path'
-    pickle.dump(tagcloud, open(path, 'wb'))
+    pickle.dump(TAGCLOUD, open(path, 'wb'))
 
 
 def tagcloud_add(get_type, search_str):
     'Add the search node defined by get_type and search_str to tagcloud'
-    taglist = tagcloud.setdefault(get_type, [])
+    taglist = TAGCLOUD.setdefault(get_type, [])
 
     # See if it is already in the list,
     # if so we increment the tag_size

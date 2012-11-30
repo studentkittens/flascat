@@ -4,10 +4,7 @@
 # Standard Modules
 import json
 import random
-import sqlite3
-from contextlib import closing
 
-# This is great.
 from functools import partial
 
 # Flask imports
@@ -21,6 +18,7 @@ import helper
 import tagcloud
 import render
 import user_login
+import blogdb
 
 
 # Instance the Flask Application itself
@@ -170,6 +168,9 @@ def main_page():
 
     return render_template('cloud.html', tags=tags)
 
+
+###########################################################################
+#                               Blog Stuff                                #
 ###########################################################################
 
 
@@ -190,32 +191,21 @@ def add_entry():
     return redirect(url_for('show_entries'))
 
 
-def init_db():
-    with closing(connect_db()) as db:
-        with app.open_resource('database.sql') as f:
-            db.cursor().executescript(f.read())
-        db.commit()
-
-
-def connect_db():
-    return sqlite3.connect('moosr.db')
-
-
-@app.before_request
-def before_request():
-    g.db = connect_db()
-
-
-@app.teardown_request
-def teardown_request(exception):
-    g.db.close()
 ###########################################################################
 #                               Let it run!                               #
 ###########################################################################
 
 if __name__ == '__main__':
+    app.before_request(blogdb.setup)
+    app.teardown_request(blogdb.teardown)
+
     tagcloud_path = 'tagcloud.pickle'
     tagcloud.tagcloud_load(tagcloud_path)
     user_login.setup(app)
-    app.run(debug=True)
-    tagcloud.tagcloud_save(tagcloud_path)
+
+    try:
+        app.run(debug=True)
+    except KeyboardInterrupt:
+        print('-- Interrupt.')
+    finally:
+        tagcloud.tagcloud_save(tagcloud_path)
