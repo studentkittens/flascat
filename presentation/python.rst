@@ -727,6 +727,10 @@ Als Beispiel könnte man eine Mutex-Klasse implementieren: ::
 Die Philosophie
 ---------------
 
+|
+
+**Pragma statt Dogma!**
+    Es gibt keinen ,,goldenen Hammer''.
 **Zen of Python:**
     In der Python-Shell abrufbar als: ``import this``
 **Explizit ist besser als Implizit**
@@ -737,12 +741,7 @@ Die Philosophie
     Und man sollte ihn nicht widerwillig lesen müssen.
 **Programmieren sollte Spass machen.**
     Gegen Compiler/Sprache/Konfiguration kämpfen macht wenig Spaß.
-**If the implementation is hard to explain, it's a bad idea.**
-    If the implementation is easy to explain, it may be a good idea.
-**Special cases aren't special enough to break the rules.**
-    Although practicality beats purity.
-**Fehler sollten stets behandelt werden.**
-    Wobei explizites Ignorieren auch eine Behandlungsform ist.
+    
 
 
 It's short!
