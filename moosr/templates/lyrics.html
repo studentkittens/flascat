@@ -1,5 +1,5 @@
-{% extends "layout.html" %}
-{% block body %}
+{% extends "search_home.html" %}
+{% block result %}
 {% for item in lyrics_list %}
 <div id="content">
     {{ item['lyrics_text']|safe }}

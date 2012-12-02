@@ -1,5 +1,5 @@
-{% extends "layout.html" %}
-{% block body %}
+{% extends "search_home.html" %}
+{% block result %}
 <div id="tagcloud">
     {% for tag in tags %}
     <a href="{{ url_for('do_query', search_str=tag[1], get_type=tag[0], number=1) }}" class="tag{{tag[2]}}">

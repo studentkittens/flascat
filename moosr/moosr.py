@@ -4,11 +4,12 @@
 # Standard Modules
 import json
 import random
+import os
 
 from functools import partial
 
 # Flask imports
-from flask import Flask, request, render_template, flash, redirect, url_for, Response, g
+from flask import Flask, request, render_template, flash, redirect, url_for, Response, g, session, abort
 
 # Login
 from flask.ext.login import login_required
@@ -37,6 +38,34 @@ app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 ###########################################################################
 #                            Routing functions                            #
 ###########################################################################
+
+
+def get_page_content(name):
+    try:
+        with open(os.path.join('pages', name), 'r') as f:
+            return unicode(f.read(), 'utf-8')
+    except (IOError, OSError):
+        return u'<b>Warning:</b> No text found!'
+
+
+@app.route('/impressum')
+def show_impressum():
+    return render_template('staticpage.html', input_text=get_page_content('impressum.html'))
+
+
+@app.route('/developers')
+def show_developers():
+    return render_template('staticpage.html', input_text=get_page_content('developers.html'))
+
+
+@app.route('/aboutus')
+def show_aboutus():
+    return render_template('staticpage.html', input_text=get_page_content('aboutus.html'))
+
+
+@app.route('/help')
+def show_help():
+    return render_template('staticpage.html', input_text=get_page_content('help.html'))
 
 
 @app.route('/do_search', methods=['POST', 'GET'])
@@ -176,16 +205,18 @@ def main_page():
 
 @app.route('/blog')
 def show_entries():
-    cur = g.db.execute('select title, text from entries order by id desc')
-    entries = [dict(title=row[0], text=row[1]) for row in cur.fetchall()]
+    cur = g.db.execute('select title, text, username from entries order by id desc')
+    entries = [dict(title=row[0], text=row[1], username=row[2]) for row in cur.fetchall()]
     return render_template('show_entries.html', entries=entries)
 
 
-@app.route('/add')
+@app.route('/add', methods=['POST'])
 def add_entry():
-
-    g.db.execute('insert into entries (title, text) values (?, ?)',
-                 ["das hier ist ein titel", "das hier ist ein wunderschoner text"])
+    userobject = session.get('logged_in')
+    if not userobject:
+        abort(401)
+    g.db.execute('insert into entries (title, text, username) values (?, ?, ?)',
+                 [request.form['title'], request.form['text'], userobject.name])
     g.db.commit()
     flash('New entry was successfully posted')
     return redirect(url_for('show_entries'))

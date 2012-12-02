@@ -18,7 +18,6 @@ html, body {
     margin: 0px;
 }
 
-
 /*****************************************************************************
  * main menue static bar 
  ****************************************************************************/
@@ -139,38 +138,68 @@ html, body {
     padding-left: 240px;
 }
 
+a#button, a#button:visited {
+    background: url(/static/simple_button.png) repeat-x;
+    width: 100px;
+    height: 10px;  
+    padding:10px 0;
+    text-align:center;
+    border:1px solid #608925;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+    font-weight:bold;
+    text-transform:uppercase;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color:#FFF;
+    text-decoration: none;
+    opacity:.85;
+}
+
+a#button:hover {
+    border-color:#49671d;
+}
+
+a#button:active {
+    background-position:  0 -200px;
+    padding:11px 0 9px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+}
 /*****************************************************************************
  * nice green buttons for main menue 
  * http://designshack.net/articles/css/6-useful-css-button-recipes-you-can-copy-paste 
  ****************************************************************************/
-.button {
-    /*basic styles*/
-    width: 120px;
-    height: 30px;  
-    color: black; 
-    background-color: #99CF00;
-    text-align: center; 
-    margin: 5px 10px 5px; 
+//.button {
+//    /*basic styles*/
+//    width: 120px;
+//    height: 30px;  
+//    color: black; 
+//    background-color: #99CF00;
+//    text-align: center; 
+//    margin: 5px 10px 5px; 
+//
+//    /*gradient styles*/
+//    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700));
+//    background: -moz-linear-gradient(19% 75% 90deg,#6DB700, #99CF00);
+//
+//    /*border styles*/
+//    border-left: solid 1px #c3f83a;
+//    border-top: solid 1px #c3f83a;
+//    border-right: solid 1px #82a528;
+//    border-bottom: solid 1px #58701b;
+//    -moz-border-radius: 2px;
+//    -webkit-border-radius: 2px;
+//    border-radius: 5px;
+//    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700))
+//}
+//
+//.button:hover {
+//    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6DB700), to(#99CF00));
+//    background: -moz-linear-gradient(19% 75% 90deg,#99CF00, #6DB700);
+//}
+//
 
-    /*gradient styles*/
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700));
-    background: -moz-linear-gradient(19% 75% 90deg,#6DB700, #99CF00);
 
-    /*border styles*/
-    border-left: solid 1px #c3f83a;
-    border-top: solid 1px #c3f83a;
-    border-right: solid 1px #82a528;
-    border-bottom: solid 1px #58701b;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 5px;
-    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700))
-}
-
-.button:hover {
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6DB700), to(#99CF00));
-    background: -moz-linear-gradient(19% 75% 90deg,#99CF00, #6DB700);
-}
 
 
 /*****************************************************************************
@@ -211,6 +240,10 @@ html, body {
     color:black;
 }
 
+/* Do not display newlines after <form> */
+form {
+    display: inline;
+}
 
 /*****************************************************************************
  *  tag cloud elements 
@@ -234,3 +267,9 @@ html, body {
 
 #tagcloud a{ text-decoration:none; }
 #tagcloud a:hover{ text-decoration:underline; }
+
+#content        { list-style: none; margin: 0; padding: 0; }
+#content li     { margin: 0.8em 1.2em; }
+#content li h2  { margin-left: -1em; }
+#add-entry      { font-size: 0.9em; border-bottom: 1px solid #ccc; }
+#add-entry dl   { font-weight: bold; }
