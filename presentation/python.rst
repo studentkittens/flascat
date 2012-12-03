@@ -663,7 +663,7 @@ Higher Order Functions (aka Closures)
 ------------------------------------------------------------
 
 * In Python können Funktionen Funktionen zurückgeben.
-* Da Funktionen auch nur Objekte sind können "spezillisierte" Funktionen auch zur Laufzeit instanziert werden.
+* Da Funktionen auch nur Objekte sind können "spezialisierte" Funktionen auch zur Laufzeit instanziert werden.
 
 *Beispiel*: Eine Funktion die einen speziellen Greeter zurückgibt. ::
 
