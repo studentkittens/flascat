@@ -584,6 +584,56 @@ Für harte Männer: http://learnpythonthehardway.org/book/ (Empfehlung!) ☻
     sl.append(42)
     print(sl)
 
+Operatorüberladung
+------------------
+
+Auf Wunsch von Thomas:
+
+::
+
+    class SillyVec(object):
+        def __init__(self, coord=(0, 0, 0)):
+            self._coord = coord
+
+        def __iter__(self):
+            return iter(self._coord)
+
+        def __add__(self, rhs):
+            self._coord = tuple(map(lambda x, y: x + y,
+                                      self._coord, rhs))
+            return self
+
+        def __str__(self):
+            return str(self._coord)
+
+::
+
+    __contains__, __eq__, __getitem__, __len__, __getattr__
+
+
+Multiple Inheritance
+--------------------
+
+Auf Wunsch von Herrn Schaible:
+
+::
+
+    class Base(A, B, C):
+        pass
+
+Methodenauflösung nach …
+
+    * … Depth First.
+    * … links nach rechts.
+    * … Rekursiv.
+    * … immer eine Instanz.
+    * … Erst A rekursiv, dann B rekursiv, dann C.
+
+
+|
+
+Siehe auch Tafelbild.
+
 λ!
 --
 
