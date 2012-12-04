@@ -814,6 +814,9 @@ Auf Python3 Seite:
 * Für die Übungen / Flask wird Python2 verwendet!
 * (Fast) Alle Beispiele liefen in beiden Versionen.
 
+.. raw:: html
+
+    <h2>Python2 is the present, Python3 the future.</h2>
 
 Interpreter / Compiler
 ----------------------
