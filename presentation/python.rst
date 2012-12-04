@@ -584,6 +584,32 @@ Für harte Männer: http://learnpythonthehardway.org/book/ (Empfehlung!) ☻
     sl.append(42)
     print(sl)
 
+Operatorüberladung
+------------------
+
+Auf Wunsch von Thomas:
+
+::
+
+    class SimpleVec(object):
+        def __init__(self, *coord):
+            self._coord = coord
+
+        def __iter__(self):
+            return iter(self._coord)
+
+        def __add__(self, rhs):
+            self._coord = tuple(map(lambda x, y: x + y,
+                                      self._coord, rhs))
+            return self
+
+        def __repr__(self):
+            return repr(self._coord)
+
+::
+
+    __contains__, __eq__, __getitem__, __len__, __getattr__
+
 λ!
 --
 
@@ -609,11 +635,34 @@ Vergleiche:
 Python switcht bei Integer Overflows intern auf eine BigInteger Repräsentation.
 Das ist zwar weniger performant als good ol' Java, aber einfach bequemer.
 
+Multiple Inheritance
+--------------------
+
+Auf Wunsch von Herrn Schaible:
+
+::
+
+    class Base(A, B, C):
+        pass
+
+Methodenauflösung nach …
+
+    * … Depth First.
+    * … links nach rechts.
+    * … Rekursiv.
+    * … immer eine Instanz.
+    * … Erst A rekursiv, dann B rekursiv, dann C.
+
+
+|
+
+Siehe auch Tafelbild.
+
 Higher Order Functions (aka Closures)
 ------------------------------------------------------------
 
 * In Python können Funktionen Funktionen zurückgeben.
-* Da Funktionen auch nur Objekte sind können "spezillisierte" Funktionen auch zur Laufzeit instanziert werden.
+* Da Funktionen auch nur Objekte sind können "spezialisierte" Funktionen auch zur Laufzeit instanziert werden.
 
 *Beispiel*: Eine Funktion die einen speziellen Greeter zurückgibt. ::
 
@@ -628,7 +677,7 @@ Higher Order Functions (aka Closures)
      >>> f()
      Hello Python!
 
-in Java vielleicht am ehesten vergleichbar mit dem ``Factory`` Pattern.
+Eine Art ``Factory`` Pattern für Funktionen.
 
 
 Dekoratoren

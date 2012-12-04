@@ -323,7 +323,7 @@ Das **Request Object** dient u.a. dazu POST Daten auszulesen.
         else:
             return '''<form action="" method="post">
                         <p><input type=text name=text></p>
-                        <p><input type=submit value=Sub></p>
+                        <p><input type=submit value=Do></p>
                       </form>'''
 
 **Anmerkung:**
@@ -448,7 +448,7 @@ Debugging Inside #2
         if name == 'lybrial':
             raise Exception('Clitical Error.')
         else:
-           return "Hello {0}," \
+            return "Hello {0}," \
                   "the answer is {1}!".format(name, answer)
 
     if __name__ == '__main__':
