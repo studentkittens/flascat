@@ -8,9 +8,11 @@ A demonstration of Flask, a Python microwebframework.
 Also included: 
 
     * A Python Crashcourse in ``presentation/html/index.html``.
+    * The slides rendered as PDF: ``presentation/Flask.pdf``
     * Slides for Introducing Flask in ``presentation/html``.
     * An example app in ``moosr/`` (A music-metadata search website).
-
+      Read here for extended stuff! :-)
+    
 
 Structure
 ---------
@@ -39,4 +41,9 @@ Structure
 
     Other Stuff. :-)
 
-    
+``practice/``
+
+    The practice we hold for the presentation. Includes a PDF with the
+    description. 
+
+    Under ``solution.py`` you'll find a possible solution!
