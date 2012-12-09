@@ -1,0 +1,56 @@
+<!doctype html>
+<title>Schedule</title>
+<style>
+    /* From http://pythoughts.com/table-style-css/ */
+    #table {
+        border: 1px solid #DFDFDF;
+        background-color: #F9F9F9;
+        width: 100%;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        font-family: Arial,"Bitstream Vera Sans",Helvetica,Verdana,sans-serif;
+        color: #333;
+    }
+    #table td, #table th {
+        border-top-color: white;
+        border-bottom: 1px solid #DFDFDF;
+        color: #555;
+    }
+    #table th {
+        text-shadow: rgba(255, 255, 255, 0.796875) 0px 1px 0px;
+        font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+        font-weight: normal;
+        padding: 7px 7px 8px;
+        text-align: left;
+        line-height: 1.3em;
+        font-size: 14px;
+    }
+    #table td {
+        font-size: 12px;
+        padding: 4px 7px 2px;
+        vertical-align: top;
+    }
+</style>
+<div class=page>
+    <table id="table">
+    {% for day in ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag',
+    'Freitag'] %}
+        <thead>
+            <th><h1>{{ day }}</h1></th>
+        </thead>
+        <thead>
+            <th><i>Raum</i></th>
+            <th><i>Zeit</i></th>
+            <th><i>Name</i></th>
+        </thead>
+        {% for lecture in input_data[day] %}
+        <tbody>
+            <td>{{ lecture.get('room') }}</td>
+            <td>{{ lecture.get('time') }}</td>
+            <td>{{ lecture.get('name') }}</td>
+        </tbody>
+        {% endfor %}
+    {% endfor %}
+    </table> 
+</div>
