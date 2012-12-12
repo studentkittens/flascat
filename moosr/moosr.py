@@ -60,7 +60,7 @@ def show_developers():
 
 @app.route('/aboutus')
 def show_aboutus():
-    return render_template('staticpage.html', input_text=get_page_content('aboutus.html'))
+    return render_template('staticpage.html', input_text=get_page_content('about_us.html'))
 
 
 @app.route('/help')
