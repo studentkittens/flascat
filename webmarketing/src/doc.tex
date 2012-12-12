@@ -3,7 +3,10 @@
 % default stuff 
 \usepackage[utf8]{inputenc}
 \usepackage{ngerman}
+\usepackage{hyperref}
 \linespread{1.25}
+\usepackage{listings} 
+\lstset{numbers=left, numberstyle=\tiny, numbersep=5pt} \lstset{language=Perl}
 
 % beautiful colors like redrubin ;)
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -90,7 +93,7 @@ integriert soziale Dienste wie Twitter und Facebook.
 
 
 \section{Wie können wir unsere Leistung durch eine
-Spezialisierung abgrenzen und unsere Stärken
+    Spezialisierung abgrenzen und unsere Stärken
 optimal zur Geltung bringen?}
 Unsere Dienstleistung konzentriert sich auf die Bereitstellung einer
 leichtgewichtigen Webschnittstelle die sowohl andere Webseiten als auch
@@ -130,7 +133,7 @@ aufzufinden. Unsere Dienstleistung soll diese Angebotslücke schließen.
 
 
 \section{Welche Innovationsstrategie / Trojanische Pferde können wir entwickeln?
-Wie können wir einen Fuss in die Tür bekommen?
+    Wie können wir einen Fuss in die Tür bekommen?
 Was könnte ein zwingender Nutzen sein?}
 Im Moment gibt es kein Angebot dass verschiedene Metadaten maschinenlesbar 
 in einem Angebot bündelt. Unser Angebot kann auf anderen Webseiten leicht durch
@@ -146,7 +149,7 @@ vorhanden.
 
 
 \section{Wie können wir ein Angebot mit PR bekannt
-machen und nicht nur durch
+    machen und nicht nur durch
 Anzeigenwerbung?}
 
 Durch den Einsatz von sozialen Medien wie Twitter oder Facebook kann ein
@@ -155,8 +158,8 @@ verschiedenen Fachzeitschriften/Fachseiten getestet und empfohlen werden.
 
 
 \section{Welche Risiken gibt es dafür, dass die Zielgruppe
-die Leistung nicht nutzen könnte?
-Was kann potentielle Kunden eventuell
+    die Leistung nicht nutzen könnte?
+    Was kann potentielle Kunden eventuell
 abschrecken?}
 Ein mögliches Risiko wäre eine zu komplexe Entwickler unfreundliche API. Um
 dieses Risiko zu minimieren wird darauf geachtet die API und Seite nach offenzen
@@ -169,7 +172,7 @@ Produkt aufmerksam gemacht werden.
 
 
 \label{Markenname}\section{Können wir einen Markennamen generieren?
-Wenn das Potential gross ist, dann kann sich
+    Wenn das Potential gross ist, dann kann sich
 dies lohnen!}
 Diese Frage trifft nicht direkt zu da es sich bei moosr um ein
 nicht kommerzielles Produkt handelt wo die Etablierung eines Markennamens
@@ -184,7 +187,7 @@ Folgende 'Strategien' wären denkbar:
 
 
 \section{Welches Key-Visual (Schlüsselbild) / Key-
-Theme (Schlüsselthema) können wir
+    Theme (Schlüsselthema) können wir
 verwenden? Wiedererkennung ist alles!}
 
 Knallige verspielte Farben um ein junges Publikum anzusprechen, da diese
@@ -194,23 +197,23 @@ technischen Herausfoderungen hat.
 ** LOGO **
 
 \section{Können wir eine Strategie entwickeln, wie wir
-mit PR und Vorträgen an die Zielgruppe oder
+    mit PR und Vorträgen an die Zielgruppe oder
 deren Meinungsführer direkt rankommen?}
 
 Nein, Frage trifft nicht zu.
 
 \section{Wie können wir einen Markenaufbau zum Nulltarif
-erreichen?
-Dazu müssen wir einen einmaligen Gattungsbegriff
+    erreichen?
+    Dazu müssen wir einen einmaligen Gattungsbegriff
 für unsere Leistungen schaffen!}
 
 Siehe \ref{Markenname} 
 Wir setzen auf Mundpropaganda siehe nächste Frage.
 
 \section{Wie können wir Mundpropaganda
-unterstützen?
-Z.B. Gewinnspiel, Spezielle Mehrwerte (z.B.
-Broschüre mit Tipps, ...)}
+    unterstützen?
+    Z.B. Gewinnspiel, Spezielle Mehrwerte (z.B.
+Broschüre mit Tipps,...)}
 Bei genügend Mundpropaganda und positiver Rezession verbreitet sich der
 Service/Produkt automatisch über verschiedene Plattformen und Distributionen.
 
@@ -237,13 +240,66 @@ Der Dienst an sich ist relativ selbsttragend, da außer den Serverkosten
 keinerlei laufende Kosten anfallen sollten.
 
 \chapter{Konzept Web}
+
 \chapter{Google Optimierung}
+\section{Duplicate Content}
+Mit mit Framework Flask lässt sich auf einfache Art und Weise \emph{duplicate
+content} vermeiden. Hier zu kann technisch die \emph{url\_for()} Funktion
+verwendet werden die einem die URL eines bestimmten Elements oder einer
+View-Funktion zurückliefert. Im Folgenden Beispiel wird die Funktionsweise
+erläutert:
+\begin{verbatim}
+                        @app.route('/hello')
+                        def hello_func():
+                            return 'Hello World'
+\end{verbatim}
+
+Die Url \url{http://www.moosr.org/hello} wir im Beispiel auf die Funktion
+\emph{hello\_dunc()} gemappt. Beim Aufruf von \emph{url\_for('hello\_func')} wir
+die Url \url{http://www.moosr.org/hello} zurückgeliefert. Durch den konsistenten
+Zugriff über \emph{url\_for()} wird bei bei unserem Projekt
+\emph{duplicate content} vermieden.
+
+
+\section{Titel/Metadaten individuell}
+\section{Einfache Url}
+\section{Linktexte}
+\section{Saubere Navigation}
 
 
 \chapter{Technische Implementierung}
+\section{Vorwort - technische Implementierung}
 Als technische Grundlage für moosr wird ein Webframework verwendet, da dieses an
 die benötigten Bedürfnisse (Suchmaschine) am relativ gut angepasst werden kann.
 
+Als Webframework haben wir uns mit Absprache mit Herrn Prof. Dr. Alois
+Kastner-Maresch auf das Python Microwebframework Flask geenigt da wir das
+Framework in der Vorlesung \emph{Wiederverwendungsbasierte Entwicklung von
+Systemen} in einer Studienarbeit erarbeiten und das dort gewonnene Wissen (Flask
+und Python) praktisch in der Vorlesung ,,Webtechnologie und Webmarketing 
+mit Open Source'' umsetzen möchten.
+
+\subsection{Flask}
+Das Microwebframework benutzt \emph{Jinja} als Template Renderengine und
+\emph{Werkzeugs} als WSGI Middleware. Die Pakete selbst können mit pip gezogen
+werden
+
+
+Da die Webpräsentation primär als Dienstleistung zu sehen ist kommen bei der
+Implementierung neben dem Framework selbst hauptsächlich auf die beiden
+libraries \emph{libglyr} und \emph{sqlite3} zum Einsatz.
+
+\subsection{libglyr}
+Libglyr ist eine library zum auffinden von Musikmetadaten. 
+\\
+    \url{https://github.com/sahib/glyr}
+
+
+\subsection{sqlite3}
+Sqlite3 ist eine sehr weit genutzte und bekannte embedded Datenbank, welche für
+unseren Einsatz optimal ist.
+\\
+\url{http://www.sqlite.org/}
 
 \chapter{Weiteres}
 
