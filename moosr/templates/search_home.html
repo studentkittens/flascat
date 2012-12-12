@@ -1,10 +1,12 @@
 {% extends "layout.html" %}
 {% block body %}
 <div id="header">
+    <br />
+    <br />
     <a href="{{ url_for('main_page') }}">
-        <p><img src="{{url_for('static', filename='elchlogo.png')}}"
+        <img src="{{url_for('static', filename='elchlogo.png')}}"
         alt="singing octocat; src:
-        http://octodex.github.com/images/aidorucat.png" height="120"></p>
+        http://octodex.github.com/images/aidorucat.png" height="150">
     </a>
     <div id="searchbar">
         <form action="{{ url_for('do_search') }}"  method=post>

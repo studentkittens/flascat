@@ -9,6 +9,15 @@ html, body {
     font-family: helvetica, sans-serif;
 }
 
+#content {
+    background-color: #fdf9ef;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    width: 750px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin: 30px auto;
+}
 
 #footer_grass {
     background: url("grass.png") repeat-x scroll center top transparent;
@@ -181,4 +190,23 @@ form {
     text-align:center;
     padding: 0.5em;
     width: 300px;
+}
+
+/***************************************************************************
+ *                                 Results                                 *
+ ***************************************************************************/
+
+
+#picture_frame{
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20);
+    padding: 7px;
+    width: 50px auto;
+    height: 50px auto;
+    border: 1px solid rgb(221, 221, 221);
+    background: white;
+}
+
+#song_header{
+    padding: 20px 10px 30px 10px;
+    text-align:center;
 }

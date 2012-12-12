@@ -44,7 +44,7 @@
                 {% if messages %}
                 <div id='flash_box'>
                     <!-- Only draw the latest flash message. -->
-                    <b>News Flash:</b> {{ messages[-1] }}
+                    <b>Info:</b> {{ messages[-1] }}
                 </div>
                 {% endif %}
                 {% endwith %}
@@ -64,7 +64,7 @@
         <table>
             <tr>
                 <th><h3>Social</h3></th>
-                <th><h3>Ressources</h3></th>
+                <th><h3>Sitemap</h3></th>
                 <th><h3>External Links</h3></th>
             </tr>
             <tr>
@@ -72,7 +72,9 @@
                     <img src="{{url_for('static', filename='icon_flickr.png')}}" alt="flickr button" height="15px">
                     <a href="www.google.de">Flickr Album</a>
                 </td>
-                <td>About us</td>
+                <td>
+                    <a href="{{ url_for('main_page') }}">Searchpage</a>
+                </td>
                 <td>Last.fm</td>
             </tr>
             <tr>
@@ -80,7 +82,9 @@
                     <img src="{{url_for('static', filename='icon_googleplus.png')}}"alt="google plus button" height="15px">
                     <a class="footer_link" href="www.google.de">Google+ Page</a>
                 </td>
-                <td>Developers</td>
+                <td>
+                    <a href="{{ url_for('show_developers') }}">Developers</a>
+                </td>
                 <td>Bandcamp</td>
             </tr>
         </tr>
@@ -88,20 +92,27 @@
             <td><img src="{{url_for('static', filename='icon_facebook.png')}}"alt="facebook button" height="15px">
                 <a class="footer_link" href="www.google.de">Facebook Page</a>
             </td>
-            <td>Search</td>
+            <td>
+                <a href="{{ url_for('show_aboutus') }}">About us</a>
+            </td>
             <td>Spotify</td>
         </tr>
         <tr>
             <td><img src="{{url_for('static', filename='icon_twitter.png')}}"alt="twitter button" height="15px">
                 <a href="www.google.de">Our Twitter Feed</a>
             </td>
-            <td></td>
+            <td>
+                <a href="{{ url_for('show_impressum') }}">Impressum</a>
+            </td>
             <td>Libglyr</td>
         </tr>
         <tr>
             <td>
                 <img src="{{url_for('static', filename='icon_email.png')}}"alt="email button" height="15px">
                 <a href="www.google.de">Email us!</a>
+            </td>
+            <td>
+                <a href="{{ url_for('show_help') }}">Help</a>
             </td>
         </tr>
         <tr>
