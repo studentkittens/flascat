@@ -1,261 +1,99 @@
-/*****************************************************************************
- *  moosr css layout 
- *  authors: Christopher Pahl, Christoph Piechula
- *
- *
- *
- *
- *
- *  global layout defaults 
- ****************************************************************************/
-#searchbar, #container, header, html, body {background: #FFCCCC;}
-#content {background: white;}
+/***************************************************************************
+ *                               Base Layout                               *
+ ***************************************************************************/
 
 html, body {
-    font-family:"'Cantarell',Sans-serif";
-    font-size: 12px;
-    padding: 0px;
-    margin: 0px;
+    height: 70%;
+    background: #f4f1e5;
+    color: #544738;
+    font-family: helvetica, sans-serif;
 }
 
-/*****************************************************************************
- * main menue static bar 
- ****************************************************************************/
-#mainmenue{
-    position: fixed;
-    font-family: sans-serif;
-    width: 100%;
-    padding: -1px 0;
-    top: 0;
-    padding: 3px 0;
-    left: 0;
-    text-align: center;
-    margin: 0;
-    background: black;
-    -webkit-transition: background-color 0.25s linear;
-    -webkit-box-shadow: 0 0 10px #000;
-    -moz-box-shadow: 0 0 10px #000;
-    z-index: 10;
+
+#footer_grass {
+    background: url("grass.png") repeat-x scroll center top transparent;
+    height: 39px;
+    margin-top: -33px;
 }
 
-/*****************************************************************************
- * footer static bar 
- ****************************************************************************/
+#footer_art.default {
+    background-image: url("wald.png");
+}
+
+#footer_art {
+    background: none repeat scroll 0% 0% transparent;
+    height: 180px;
+    margin-top: 0px;
+    clear: center;
+}
+
 #footer {
-    position: fixed;
-    font-family: sans-serif;
-    width: 100%;
-    padding: 3px 0;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    margin: 0;
-    background: black;
-    -webkit-transition: background-color 0.25s linear;
-    -webkit-box-shadow: 0 0 10px #000;
-    -moz-box-shadow: 0 0 10px #000;
-    z-index: 10;
+    clear: left;
+    background: none repeat scroll 0% 0% rgb(211, 215, 207);
+    color: rgb(85, 87, 83);
+    padding: 20px 0px;
+}
+
+/* Stick footer from:
+ * http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -300px;
+}
+
+#footer, .push {
+    height: 300px;
 }
 
 
-/*****************************************************************************
- * element area, global container for all rendered/searched stuff 
- ****************************************************************************/
-#container{
-    margin: 60px auto;
-    background-position: bottom;
-    width: 900px ;
-    padding: 0.8em;
-}
-
-/*****************************************************************************
- * logo header 
- ****************************************************************************/
-#header{
-    text-align: center;
-    margin: 10px auto;
-    width: 800px;
-    border: none; 
-    padding: 0.8em;
-}
-
-
-
-/*****************************************************************************
- * flash msg nfo box 
- ****************************************************************************/
-#flash_box {
-    background: #99CF00;
-    margin: 10px auto;
-    text-align:center;
-    padding: 0.5em;
-    border: 1px solid #AACBE2;
-    width: 300px;
-    border-left: solid 1px #c3f83a;
-    border-top: solid 1px #c3f83a;
-    border-right: solid 1px #82a528;
-    border-bottom: solid 1px #58701b;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 5px;
-}
-
-
-/*****************************************************************************
- *  content area, here goes all thiz nice content found 
- ****************************************************************************/
-#content{
-    margin: 10px auto;
-    width: 800px;
-    border: 1px solid #ccc;
-    padding: 0.8em;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-}
-
-
-/*****************************************************************************
- * Frame and content renderd on cover search 
- ****************************************************************************/
-#picture_frame{
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20);
-    padding: 7px;
-    width: 50px auto;
-    height: 50px auto;
-    border: 1px solid rgb(221, 221, 221);
-    background: white;
-}
-
-
-#song_header{
-    padding: 30px 10px 70px 10px;
-    text-align:center;
-}
-
-.cover_stats{
+#footer_links {
     text-align: left;
-    font-size: 14px;
-    padding-left: 240px;
+    width: 700px;
+    margin-left: auto ;
+    margin-right: auto ;
 }
 
-a#button, a#button:visited {
-    background: url(/static/simple_button.png) repeat-x;
-    width: 100px;
-    height: 10px;  
-    padding:10px 0;
-    text-align:center;
-    border:1px solid #608925;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
-    font-weight:bold;
-    text-transform:uppercase;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    color:#FFF;
-    text-decoration: none;
-    opacity:.85;
+#footer_links a{
+    font-size:1em; color:#555555; line-height:1em;
+    text-decoration:none;
 }
 
-a#button:hover {
-    border-color:#49671d;
+#footer_links a:hover {
+    background-color:#7A991A;
+    color: #FFF;
 }
 
-a#button:active {
-    background-position:  0 -200px;
-    padding:11px 0 9px;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
-}
-/*****************************************************************************
- * nice green buttons for main menue 
- * http://designshack.net/articles/css/6-useful-css-button-recipes-you-can-copy-paste 
- ****************************************************************************/
-//.button {
-//    /*basic styles*/
-//    width: 120px;
-//    height: 30px;  
-//    color: black; 
-//    background-color: #99CF00;
-//    text-align: center; 
-//    margin: 5px 10px 5px; 
-//
-//    /*gradient styles*/
-//    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700));
-//    background: -moz-linear-gradient(19% 75% 90deg,#6DB700, #99CF00);
-//
-//    /*border styles*/
-//    border-left: solid 1px #c3f83a;
-//    border-top: solid 1px #c3f83a;
-//    border-right: solid 1px #82a528;
-//    border-bottom: solid 1px #58701b;
-//    -moz-border-radius: 2px;
-//    -webkit-border-radius: 2px;
-//    border-radius: 5px;
-//    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700))
-//}
-//
-//.button:hover {
-//    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6DB700), to(#99CF00));
-//    background: -moz-linear-gradient(19% 75% 90deg,#99CF00, #6DB700);
-//}
-//
-
-
-
-
-/*****************************************************************************
- * search form 
- ****************************************************************************/
-.search_form{
-    background-color:#ffffff;
-    border:1px solid #dbdbdb;
-    padding:5px;
-    -webkit-border-radius:7px;
-    -moz-border-radius:7px;
+#footer_links td,th{
+    padding: 0px 20px;
 }
 
-
-/*****************************************************************************
- *  search buttons design 
- ****************************************************************************/
-.search_buttons{
-
-    /*basic styles*/
-    width: 80px;
-    height: 30px;  
-    color: black; 
-    background-color: #99CF00;
-    text-align: center;  
-    border-left: solid 1px #c3f83a;
-    border-top: solid 1px #c3f83a;
-    border-right: solid 1px #82a528;
-    border-bottom: solid 1px #58701b;
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700))
+#container {
+    width: 900px;
+    margin-left: auto ;
+    margin-right: auto ;
 }
 
-.search_button:active {
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6DB700), to(#99CF00));
-    background: -moz-linear-gradient(19% 75% 90deg,#99CF00, #6DB700);
-    color:black;
+#header {
+    text-align: center;
+    width: 800px;
+    margin-left: auto ;
+    margin-right: auto ;
 }
 
-/* Do not display newlines after <form> */
-form {
-    display: inline;
-}
+/*******************************************************************************
+ *                                Tagcloud                                     *
+ * http://www.web-spirit.de/webdesign-tutorial/6/CSS-Tagcloud-(Schlagwortwolke)
+ *******************************************************************************/
 
-/*****************************************************************************
- *  tag cloud elements 
- *  http://www.web-spirit.de/webdesign-tutorial/6/CSS-Tagcloud-(Schlagwortwolke)
- ****************************************************************************/
 .tag1{ font-size:1em; color:#555555; line-height:1em; }
 .tag2{ font-size:1.2em; color:#606060; line-height:1em; }
 .tag3{ font-size:1.4em; color:#808080; line-height:1em; }
 .tag4{ font-size:2em; color:#808080; line-height:1em; }
 
 #tagcloud{
-    margin: 10px auto;
+    margin: 30px auto;
     width: 500px;
     border: 1px solid #ccc;
     text-align:center;
@@ -268,8 +106,79 @@ form {
 #tagcloud a{ text-decoration:none; }
 #tagcloud a:hover{ text-decoration:underline; }
 
-#content        { list-style: none; margin: 0; padding: 0; }
-#content li     { margin: 0.8em 1.2em; }
-#content li h2  { margin-left: -1em; }
-#add-entry      { font-size: 0.9em; border-bottom: 1px solid #ccc; }
-#add-entry dl   { font-weight: bold; }
+
+/***************************************************************************
+ *                            Main Menu Buttons                            *
+ ***************************************************************************/
+
+#mainmenu {
+    width: 900px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#mainmenu ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+#mainmenu li
+{
+    float:left;
+}
+#mainmenu a:link, #mainmenu a:visited
+{
+    display:block;
+    width:120px;
+    color: #544738;
+    background-color:#98bf21;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+}
+#mainmenu a:hover,a:active
+{
+    background-color:#7A991A;
+    color: #FFF;
+}
+
+/***************************************************************************
+ *                               Search bar                                *
+ ***************************************************************************/
+
+.search_buttons{
+    width: 80px;
+    height: 30px;  
+    background-color: #98bf21;
+    text-align: center;  
+    border:1px solid #dbdbdb;
+}
+
+.search_button:active {
+    background-color: #98bf21;
+}
+
+/* Do not display newlines after <form> */
+form {
+    display: inline;
+}
+
+.search_form{
+    background-color:#ffffff;
+    border:1px solid #dbdbdb;
+    padding:6px;
+}
+
+/***************************************************************************
+ *                                  Flash                                  *
+ ***************************************************************************/
+
+#flash_box {
+    background: #98bf21;
+    margin: 10px auto;
+    text-align:center;
+    padding: 0.5em;
+    width: 300px;
+}

@@ -17,57 +17,117 @@
         <meta name="keywords" content="lyric, cover, search, artist, album, metadata">
         <meta name="author" content="Kitteh & Elk">
         <meta charset="utf-8">
-        <title>moosr</title>
+        <title>Search with moosr</title>
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='layout.css') }}">
     </head>
     <body>
-        <div id="mainmenue">
-            <a id="button" href="{{ url_for('show_developers') }}">Developers</a>
-            <a id="button" href="{{ url_for('show_entries') }}">Blog</a>
-            <a id="button" href="{{ url_for('show_aboutus') }}">About us</a>
-            <a id="button" href="{{ url_for('show_impressum') }}">Impressum</a>
-            <a id="button" href="{{ url_for('show_help') }}">Help</a>
-            {% if session.logged_in %}
-            <a id="button" href="{{ url_for('logout') }}">Logout</a>
-            {% else %}
-            <a id="button" href="{{ url_for('login') }}">Login</a>
-            {% endif %}
+        <div id="mainmenu">
+            <ul>
+                <li><a href="{{ url_for('main_page') }}">Search</a></li>
+                <li><a href="{{ url_for('show_developers') }}">Developers</a></li>
+                <li><a href="{{ url_for('show_entries') }}">Blog</a></li>
+                <li><a href="{{ url_for('show_aboutus') }}">About us</a></li>
+                <li><a href="{{ url_for('show_impressum') }}">Impressum</a></li>
+                <li><a href="{{ url_for('show_help') }}">Help</a></li>
+                {% if session.logged_in %}
+                <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                {% else %}
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+                {% endif %}
+            </ul>
+            <br />
         </div>
-        <div id="container">
-            <!-- Flashbox (right under the searchbar) -->
-            {% with messages = get_flashed_messages() %}
-            {% if messages %}
-            <div id='flash_box'>
-                <!-- Only draw the latest flash message. -->
-                <b>News Flash:</b> {{ messages[-1] }}
-            </div>
-            {% endif %}
-            {% endwith %}
+        <div class="wrapper">
+            <div id="container">
+                <!-- Flashbox (right under the searchbar) -->
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <div id='flash_box'>
+                    <!-- Only draw the latest flash message. -->
+                    <b>News Flash:</b> {{ messages[-1] }}
+                </div>
+                {% endif %}
+                {% endwith %}
 
-            <!-- Render inherited content here -->
-            {% block body %}
-            {% endblock %}
+                <!-- Render inherited content here -->
+                {% block body %}
+                {% endblock %}
+            </div>
+            <div class="push"></div>
         </div>
     </div>
-    <div id="footer">
-        <noscript>
-            <a href="http://flattr.com/thing/302682/libglyr" target="_blank">
-                <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
-            </a>
-        </noscript>
-        <a class="FlattrButton" title="Make a Donation!" lang="de"
-            style="display:none;" rev="flattr;button:compact"
-            href="http://github.com/sahib/glyr"
-            popup=0
-            >
-            Make a donation to the poor libglyr developers.
-        </a>
-        <img src="{{url_for('static', filename='icon_flickr.png')}}" alt="flickr button" height="25px">
-        <img src="{{url_for('static', filename='icon_googleplus.png')}}"alt="google plus button" height="25px">
-        <img src="{{url_for('static', filename='icon_facebook.png')}}"alt="facebook button" height="25px">
-        <img src="{{url_for('static', filename='icon_twitter.png')}}"alt="twitter button" height="25px">
-        <img src="{{url_for('static', filename='icon_email.png')}}"alt="email button" height="25px">
-        <img src="{{url_for('static', filename='icon_rss.png')}}"alt="rss button" height="25px">
-    </div>
+</div>
+<div id="footer_art" class="default"></div>
+<div id="footer_grass"></div>
+<div id="footer">
+    <div id="footer_links" align="center">
+        <table>
+            <tr>
+                <th><h3>Social</h3></th>
+                <th><h3>Ressources</h3></th>
+                <th><h3>External Links</h3></th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="{{url_for('static', filename='icon_flickr.png')}}" alt="flickr button" height="15px">
+                    <a href="www.google.de">Flickr Album</a>
+                </td>
+                <td>About us</td>
+                <td>Last.fm</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="{{url_for('static', filename='icon_googleplus.png')}}"alt="google plus button" height="15px">
+                    <a class="footer_link" href="www.google.de">Google+ Page</a>
+                </td>
+                <td>Developers</td>
+                <td>Bandcamp</td>
+            </tr>
+        </tr>
+        <tr>
+            <td><img src="{{url_for('static', filename='icon_facebook.png')}}"alt="facebook button" height="15px">
+                <a class="footer_link" href="www.google.de">Facebook Page</a>
+            </td>
+            <td>Search</td>
+            <td>Spotify</td>
+        </tr>
+        <tr>
+            <td><img src="{{url_for('static', filename='icon_twitter.png')}}"alt="twitter button" height="15px">
+                <a href="www.google.de">Our Twitter Feed</a>
+            </td>
+            <td></td>
+            <td>Libglyr</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="{{url_for('static', filename='icon_email.png')}}"alt="email button" height="15px">
+                <a href="www.google.de">Email us!</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="{{url_for('static', filename='icon_rss.png')}}"alt="rss button" height="15px">
+                <a href="www.google.de">Blog RSS Feed</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <noscript>
+                    <a href="http://flattr.com/thing/302682/libglyr" target="_blank">
+                        <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" />
+                    </a>
+                </noscript>
+                <a class="FlattrButton" title="Make a Donation!" lang="de"
+                    style="display:none;" rev="flattr;button:compact"
+                    href="http://github.com/sahib/glyr"
+                    popup=0
+                    >
+                    Make a donation to the poor libglyr developers.
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+</div>
 </body>
 </html>

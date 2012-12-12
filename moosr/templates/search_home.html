@@ -2,7 +2,9 @@
 {% block body %}
 <div id="header">
     <a href="{{ url_for('main_page') }}">
-        <p><img src="{{url_for('static', filename='logo_full.png')}}" alt="singing octocat; src: http://octodex.github.com/images/aidorucat.png" height="150"></p>
+        <p><img src="{{url_for('static', filename='elchlogo.png')}}"
+        alt="singing octocat; src:
+        http://octodex.github.com/images/aidorucat.png" height="120"></p>
     </a>
     <div id="searchbar">
         <form action="{{ url_for('do_search') }}"  method=post>
@@ -16,7 +18,7 @@
             </select>
             <select name="number" class="search_buttons">
                 {% for i in range(1, 21) %}
-                <option value="{{ i }}">{{ i }} Item</option>
+                <option value="{{ i }}">{{ i }} Items</option>
                 {% endfor %}
             </select>
 
