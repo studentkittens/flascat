@@ -5,6 +5,7 @@
 import json
 import random
 import os
+import StringIO
 
 from functools import partial
 
@@ -47,7 +48,7 @@ app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 ###########################################################################
 
 
-def get_page_content(name):
+def get_html_content(name):
     try:
         with open(os.path.join('pages', name), 'r') as f:
             return unicode(f.read(), 'utf-8')
@@ -55,33 +56,29 @@ def get_page_content(name):
         return u'<b>Warning:</b> No text found!'
 
 
-@app.route('/rst/<path:page>/')
-def get_page(page):
+def get_page_content(page):
     html = rst_pages.get(page)
-    print(html)
-    return render_template("staticpage.html", page=html)
+    return render_template("staticpage.html", page=html.body)
 
 
 @app.route('/impressum')
 def show_impressum():
-    html = rst_pages.get('impressum')
-    print(html, dir(html))
-    return render_template('staticpage.html', input_text=html.body)
+    return get_page_content('impressum')
 
 
 @app.route('/developers')
 def show_developers():
-    return render_template('staticpage.html', input_text=get_page_content('developers.html'))
+    return get_page_content('developers')
 
 
 @app.route('/aboutus')
 def show_aboutus():
-    return render_template('staticpage.html', input_text=get_page_content('about_us.html'))
+    return get_page_content('aboutus')
 
 
 @app.route('/help')
 def show_help():
-    return render_template('staticpage.html', input_text=get_page_content('help.html'))
+    return get_page_content('help')
 
 
 @app.route('/do_search', methods=['POST', 'GET'])
@@ -231,8 +228,13 @@ def add_entry():
     userobject = session.get('logged_in')
     if not userobject:
         abort(401)
+
+    with open('pages/last_blog_post.rst', 'w') as f:
+        f.write(request.form['text'])
+
+    rst_html = rst_pages.get('last_blog_post')
     g.db.execute('insert into entries (title, text, username) values (?, ?, ?)',
-                 [request.form['title'], request.form['text'], userobject.name])
+                 [request.form['title'], rst_html.body, userobject.name])
     g.db.commit()
     flash('New entry was successfully posted')
     return redirect(url_for('show_entries'))
