@@ -227,7 +227,7 @@ def show_entries():
 
 @app.route('/blog/entry/<post_id>')
 def show_blog_entry(post_id):
-    cur = g.db.execute('select title, text, username from entries where id = ?', post_id)
+    cur = g.db.execute('select title, text, username from entries where id = ?;', post_id)
     results = cur.fetchall()
     if len(results) is 0:
         abort(404)

@@ -244,3 +244,7 @@ form {
     margin-right: auto ;
     margin: 15px auto;
 }
+
+h1 {
+    text-align: center;
+}

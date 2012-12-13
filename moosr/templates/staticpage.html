@@ -1,5 +1,11 @@
 {% extends "layout.html" %}
 {% block body %}
+<!-- <meta>-->
+<title>{{ input_title }}</title>
+<meta name="description" content="{{ input_text[:50] }}..." />
+<meta name="keywords" content="input_keywords" />
+<!-- </meta>-->
+
 <div id="content">
     <h2>{{ input_title|safe }}</h2>
     <hr />
