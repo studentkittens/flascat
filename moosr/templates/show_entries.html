@@ -14,9 +14,13 @@
 <ul id="content" id="add-entry">
     {% for entry in entries %}
     <div id="blogpost">
-            <h2>{{ entry.title }}<h4><i>by</i> {{entry.username}}</h4></h2>
-            <hr />
-            {{ entry.text|safe }}
+        <a href={{ url_for('show_blog_entry', post_id=entry.post_id) }}>
+            <h2>{{ entry.title }}</h2>
+        </a>
+        <i>by</i> {{entry.username}}
+        <br />
+        <br />
+        {{ entry.text|safe }}
     </div>
     {% else %}
     <div id="blogpost">
