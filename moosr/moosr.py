@@ -14,6 +14,9 @@ from flask import Flask, request, render_template, flash, redirect, url_for, Res
 # Login
 from flask.ext.login import login_required
 
+# RST Pages
+from flask.ext.rstpages import RSTPages
+
 # Own modules
 import helper
 import tagcloud
@@ -24,6 +27,10 @@ import blogdb
 
 # Instance the Flask Application itself
 app = Flask(__name__)
+
+
+# RST Converter
+rst_pages = RSTPages(app)
 
 
 # echo '' | md5sum, actually, a rather bad key :-)
@@ -48,9 +55,18 @@ def get_page_content(name):
         return u'<b>Warning:</b> No text found!'
 
 
+@app.route('/rst/<path:page>/')
+def get_page(page):
+    html = rst_pages.get(page)
+    print(html)
+    return render_template("staticpage.html", page=html)
+
+
 @app.route('/impressum')
 def show_impressum():
-    return render_template('staticpage.html', input_text=get_page_content('impressum.html'))
+    html = rst_pages.get('impressum')
+    print(html, dir(html))
+    return render_template('staticpage.html', input_text=html.body)
 
 
 @app.route('/developers')

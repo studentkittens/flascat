@@ -4,16 +4,16 @@ WIR SOLLTEN UNS AN DEN ALOIS FOLIEN RICHTEN BEI ALLEN ARBEITEN! ALOIS WILL DAS S
 Elch
 ----
 
-* Screenshots von fertiger Seite mit Erläuterungen/Text -> stark auf
-  minialismus, saubere Struktur konzentriert hinarbeiten
+* technische Arbeiten am CMS
+* Googleoptimierung -> Dokumentation ausarbeiten ... Metadaten automatisch
+  angepasst etc (Titel...) siehe Folien
 * pro optimierter Seite Keywords siehe E-Mail
     - blog, home, faq, developers, paar blogpöste, eine Metadatenseite
       (Verlinkung)
+* Screenshots von fertiger Seite mit Erläuterungen/Text -> stark auf
+  minialismus, saubere Struktur konzentriert hinarbeiten
 * Sprache auf "junges" Publikum beziehen
-* Googleoptimierung -> Dokumentation ausarbeiten ... Metadaten automatisch
-  angepasst etc (Titel...) siehe Folien
 * moosr started -> mossr service, moosrsearch suchmaschine
-* technische Arbeiten am CMS
 * Bericht über eine Band 
 * Bericht über ein Album
 
