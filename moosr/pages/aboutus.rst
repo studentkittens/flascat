@@ -1,7 +1,6 @@
 About us
 ========
 
-
 Wer oder was ist moosr? 
 ------------------------
 
@@ -11,7 +10,6 @@ Bei uns findest du nicht nur Informationen zu den neusten Trends und Künstlern 
 der Independent Musikszene, sondern auch Gleichgesinnte die diese Passion teilen.
 Egal ob Pop, Ska, Indie, Reggae, Liedermaching, Rock, Alternative, Gothic,
 Industrial, Bellydance, EBM, Synthpop, Fusion Indie oder andere... wir sind überall dabei! 
-
 
 Moosr informiert!
 -----------------
@@ -26,25 +24,22 @@ Moosr vermittelt!
 
 Tickets zu den Festivals oder Fanartikel findest du in unseren Shop (link)!
 
-
-Die Moosr Searchengine "moosrsearch"
+Die Moosr Searchengine "moosrdata"
 ------------------------------------
 
-Moosrsearch ist eine Metadatensuchmaschine, die verschiedene
+Moosrdata ist eine Metadatensuchmaschine, die verschiedene
 Metadatensuchdienste zu einem bündelt. Cover, Artist-Biographien, Songtexte,
-Artistphotos. Moosrsearch findet alles für dich!
+Artistphotos. Moosrdata findet alles für dich!
 
-Moosrsearch bietet für Entwickler von Musikplayern als einziger Dienst die
+Moosrdata bietet für Entwickler von Musikplayern als einziger Dienst die
 Möglichkeit auf verschiedene Musikmetadaten zentral zuzugreifen, das spart Zeit
 und Nerven.
-
 
 Moosr inside your player!
 -------------------------
 
 Möchtest du unsere API als Entwickler nutzen dann schau dich in unserer
 Developers Section (link) um.
-
 
 You and moosr?
 ---------------
