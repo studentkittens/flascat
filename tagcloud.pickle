@@ -6,18 +6,18 @@ p1
 S'Knorkator'
 p3
 tp4
-asS'artistphoto'
+asS'cover'
 p5
 (lp6
-(I4
-S'Avril Lavigne'
-p7
-tp8
-asS'cover'
-p9
-(lp10
 (I2
 S'Rammstein + Mutter'
+p7
+tp8
+asS'artistphoto'
+p9
+(lp10
+(I4
+S'Avril Lavigne'
 p11
 tp12
 asS'lyrics'
