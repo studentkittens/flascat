@@ -13,7 +13,7 @@ html, body {
     background-color: #fdf9ef;
     padding: 10px 10px;
     border: 1px solid #ccc;
-    width: 750px;
+    width: 850px;
     margin-left: auto ;
     margin-right: auto ;
     margin: 30px auto;
@@ -126,17 +126,19 @@ html, body {
     margin-right: auto ;
 }
 
-#mainmenu ul
+ul
 {
     list-style-type:none;
     margin:0;
     padding:0;
     overflow:hidden;
 }
+
 #mainmenu li
 {
     float:left;
 }
+
 #mainmenu a:link, #mainmenu a:visited
 {
     display:block;
@@ -147,6 +149,7 @@ html, body {
     padding:4px;
     text-decoration:none;
 }
+
 #mainmenu a:hover,a:active
 {
     background-color:#7A991A;
@@ -209,4 +212,18 @@ form {
 #song_header{
     padding: 20px 10px 30px 10px;
     text-align:center;
+}
+
+/***************************************************************************
+ *                                  Blog                                   *
+ ***************************************************************************/
+
+#blogpost {
+    background-color: #fffcf3;
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    width: 820px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin: 15px auto;
 }

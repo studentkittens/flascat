@@ -58,7 +58,8 @@ def get_html_content(name):
 
 def get_page_content(page):
     html = rst_pages.get(page)
-    return render_template("staticpage.html", page=html.body)
+    print(html, html.body)
+    return render_template("staticpage.html", input_text=html.body)
 
 
 @app.route('/impressum')
