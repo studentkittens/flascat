@@ -1,11 +1,13 @@
 {% extends "layout.html" %}
+{% block head %}
+    <title>{{ input_title }}</title>
+    <meta name="description" content="{{ input_title }}..." />
+    {% if input_keywords %}
+    <meta name="keywords" content="{{ input_keywords }}" />
+    {% endif %}
+    <meta name="robots" content="{{ input_indexing }}"/>
+{% endblock %}
 {% block body %}
-<!-- <meta>-->
-<title>{{ input_title }}</title>
-<meta name="description" content="{{ input_title }}..." />
-<meta name="keywords" content="input_keywords" />
-<!-- </meta>-->
-
 <div id="content">
     <h2>{{ input_title|safe }}</h2>
     <hr />

@@ -10,7 +10,7 @@ import os
 from functools import partial
 
 # Flask imports
-from flask import Flask, request, render_template, flash, redirect, url_for, Response, g, session, abort
+from flask import Flask, request, render_template, flash, redirect, url_for, Response, g, session, abort, send_from_directory
 
 # Login
 from flask.ext.login import login_required
@@ -56,24 +56,30 @@ def get_html_content(name):
         return u'<b>Warning:</b> No text found!'
 
 
-def get_page_content(page):
+def get_page_content(page, robot_index='all', keywords=[]):
     html = rst_pages.get(page)
-    return render_template("staticpage.html", input_text=html.body, input_title=html.title)
+    return render_template("staticpage.html",
+                           input_text=html.body,
+                           input_title=html.title,
+                           input_indexing=robot_index,
+                           input_keywords=', '.join(keywords))
 
 
 @app.route('/impressum')
 def show_impressum():
-    return get_page_content('impressum')
+    return get_page_content('impressum', robot_index='noindex')
 
 
 @app.route('/developers')
 def show_developers():
-    return get_page_content('developers')
+    return get_page_content('developers', keywords=['API', 'Manual', 'Reference',
+                                                    'Metadata', 'Developer'])
 
 
-@app.route('/aboutus')
+@app.route('/about-us')
 def show_aboutus():
-    return get_page_content('aboutus')
+    return get_page_content('aboutus', keywords=['About Us', 'Moosr', 'Inide',
+                                                 'Music', ''])
 
 
 @app.route('/help')
@@ -218,23 +224,23 @@ def main_page():
 
 @app.route('/blog')
 def show_entries():
-    cur = g.db.execute('select title, text, username, id from entries order by id desc')
-    entries = [dict(title=row[0], text=row[1], username=row[2], post_id=row[3])
+    cur = g.db.execute('select title, short_title, text, username, id from entries order by id desc')
+    entries = [dict(title=row[0], short_title=row[1], text=row[2], username=row[3])
                for row in cur.fetchall()]
 
     return render_template('show_entries.html', entries=entries)
 
 
-@app.route('/blog/entry/<int:post_id>')
-def show_blog_entry(post_id):
-    cur = g.db.execute('select title, text, username from entries where id = ?;', [post_id])
+@app.route('/blog/entry/<post_short_name>')
+def show_blog_entry(post_short_name):
+    cur = g.db.execute('select title, short_title, text, username from entries where short_title = ?;', [post_short_name])
     results = cur.fetchall()
     if len(results) is 0:
         abort(404)
 
     entry = results[0]
-    post_title = entry[0] + ' <small><em>by ' + entry[2] + '</em></small>'
-    return render_template('staticpage.html', input_text=entry[1], input_title=post_title)
+    post_title = entry[0] + ' <small><em>by ' + entry[3] + '</em></small>'
+    return render_template('staticpage.html', input_text=entry[2], input_title=post_title)
 
 
 @app.route('/add', methods=['POST'])
@@ -247,12 +253,19 @@ def add_entry():
         f.write(request.form['text'])
 
     rst_html = rst_pages.get('last_blog_post')
-    g.db.execute('insert into entries (title, text, username) values (?, ?, ?)',
-                 [request.form['title'], rst_html.body, userobject.name])
+    g.db.execute('insert into entries (title, short_title, text, username) values (?, ?, ?, ?)',
+                 [request.form['title'], request.form['short_title'],
+                  rst_html.body, userobject.name])
+
     g.db.commit()
     flash('New entry was successfully posted')
     return redirect(url_for('show_entries'))
 
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'),
+                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 ###########################################################################
 #                               Let it run!                               #

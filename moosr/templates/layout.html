@@ -13,12 +13,13 @@
                 t.parentNode.insertBefore(s, t);
             })();
         </script>
-        <meta name="description" content="A music metadata search engine." />
-        <meta name="keywords" content="lyric, cover, search, artist, album, metadata" />
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='layout.css') }}">
         <meta name="author" content="Christoph Piechula, Christopher Pahl" />
         <meta charset="utf-8">
-        <title>Search with moosr</title>
-        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='layout.css') }}">
+
+        <!-- Above are "Defaults", can be overwritten by subtemplates -->
+        {% block head %}
+        {% endblock %}
     </head>
     <body>
         <div id="mainmenu">
