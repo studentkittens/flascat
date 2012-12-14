@@ -13,9 +13,9 @@
                 t.parentNode.insertBefore(s, t);
             })();
         </script>
-        <meta name="description" content="A music metadata search engine.">
-        <meta name="keywords" content="lyric, cover, search, artist, album, metadata">
-        <meta name="author" content="Kitteh & Elk">
+        <meta name="description" content="A music metadata search engine." />
+        <meta name="keywords" content="lyric, cover, search, artist, album, metadata" />
+        <meta name="author" content="Christoph Piechula, Christopher Pahl" />
         <meta charset="utf-8">
         <title>Search with moosr</title>
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='layout.css') }}">
@@ -26,8 +26,8 @@
                 <li><a href="{{ url_for('main_page') }}">Search</a></li>
                 <li><a href="{{ url_for('show_developers') }}">Developers</a></li>
                 <li><a href="{{ url_for('show_entries') }}">Blog</a></li>
-                <li><a href="{{ url_for('show_aboutus') }}">About us</a></li>
-                <li><a href="{{ url_for('show_impressum') }}">Impressum</a></li>
+                <li><a href="{{ url_for('show_aboutus') }}">Forum</a></li>
+                <li><a href="{{ url_for('show_impressum') }}">Shop</a></li>
                 <li><a href="{{ url_for('show_help') }}">Help</a></li>
                 {% if session.logged_in %}
                 <li><a href="{{ url_for('logout') }}">Logout</a></li>
@@ -75,7 +75,7 @@
                 <td>
                     <a href="{{ url_for('main_page') }}">Searchpage</a>
                 </td>
-                <td>Last.fm</td>
+                <td><a href="http://www.last.fm">Last.fm</a></td>
             </tr>
             <tr>
                 <td>
@@ -85,7 +85,7 @@
                 <td>
                     <a href="{{ url_for('show_developers') }}">Developers</a>
                 </td>
-                <td>Bandcamp</td>
+                <td><a href="http://www.bandcamp.com">Bandcamp</a></td>
             </tr>
         </tr>
         <tr>
@@ -95,7 +95,7 @@
             <td>
                 <a href="{{ url_for('show_aboutus') }}">About us</a>
             </td>
-            <td>Spotify</td>
+            <td><a href="http://www.spotify.com">Spotify</a></td>
         </tr>
         <tr>
             <td><img src="{{url_for('static', filename='icon_twitter.png')}}"alt="twitter button" height="15px">
@@ -104,7 +104,7 @@
             <td>
                 <a href="{{ url_for('show_impressum') }}">Impressum</a>
             </td>
-            <td>Libglyr</td>
+            <td><a href="http://www.github.com/sahib/glyr">libglyr</a></td>
         </tr>
         <tr>
             <td>
@@ -119,6 +119,9 @@
             <td>
                 <img src="{{url_for('static', filename='icon_rss.png')}}"alt="rss button" height="15px">
                 <a href="www.google.de">Blog RSS Feed</a>
+            </td>
+            <td>
+                <a href="{{ url_for('show_impressum') }}">Forums</a>
             </td>
         </tr>
         <tr>
@@ -135,6 +138,9 @@
                     >
                     Make a donation to the poor libglyr developers.
                 </a>
+            </td>
+            <td>
+                <a href="{{ url_for('show_impressum') }}">Shop</a>
             </td>
         </tr>
     </table>

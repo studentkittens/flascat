@@ -1,5 +1,14 @@
 {% extends "layout.html" %}
 {% block body %}
+
+<!-- <meta>-->
+<title>Moosr Blog</title>
+<meta name="description" content="Blog about Indiemusic" />
+<meta name="keywords" content="Inide, Band, Artist, Festival" />
+<!-- </meta>-->
+
+<h1>A blog about Music</h1>
+
 {% if session.logged_in %}
 <form action="{{ url_for('add_entry') }}" method=post class=add-entry>
     <dl>
@@ -20,7 +29,10 @@
         <i>by</i> {{entry.username}}
         <br />
         <br />
-        {{ entry.text|safe }}
+        <small>{{ entry.text[0:200]|safe }}</small>
+        <a href={{ url_for('show_blog_entry', post_id=entry.post_id) }}>
+            <i><small><small><small>... [READ MORE]</small></small></small></i>
+        </a>
     </div>
     {% else %}
     <div id="blogpost">
