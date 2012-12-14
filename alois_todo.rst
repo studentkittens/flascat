@@ -24,7 +24,6 @@ Elch bereits hat bearbeitet
 Kitteh
 ------
 
-* keyvisual und claim
 * Markt/Marketing/Positionierung...
 * Zur Idee noch paar Worte
 * Positionierungsfrage leicht überarbeiten (nicht moosrsearch only)
@@ -41,4 +40,5 @@ Kitteh
 Kitteh bereits hat bearbeitet
 -----------------------------
 * developers
+* keyvisual und claim
 
