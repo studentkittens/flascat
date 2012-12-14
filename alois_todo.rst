@@ -17,10 +17,13 @@ Elch
 * Bericht über eine Band 
 * Bericht über ein Album
 
+Elch bereits hat bearbeitet
+---------------------------
+
+
 Kitteh
 ------
 
-* developers
 * keyvisual und claim
 * Markt/Marketing/Positionierung...
 * Zur Idee noch paar Worte
@@ -33,4 +36,9 @@ Kitteh
   Hotspots
 * moosr started -> mossr service, moosrsearch suchmaschine
 * Bericht über ein Festival
+
+
+Kitteh bereits hat bearbeitet
+-----------------------------
+* developers
 
