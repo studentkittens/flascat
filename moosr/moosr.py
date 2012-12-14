@@ -225,9 +225,9 @@ def show_entries():
     return render_template('show_entries.html', entries=entries)
 
 
-@app.route('/blog/entry/<post_id>')
+@app.route('/blog/entry/<int:post_id>')
 def show_blog_entry(post_id):
-    cur = g.db.execute('select title, text, username from entries where id = ?;', post_id)
+    cur = g.db.execute('select title, text, username from entries where id = ?;', [post_id])
     results = cur.fetchall()
     if len(results) is 0:
         abort(404)
