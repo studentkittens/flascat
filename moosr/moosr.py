@@ -58,8 +58,7 @@ def get_html_content(name):
 
 def get_page_content(page):
     html = rst_pages.get(page)
-    print(html, html.body)
-    return render_template("staticpage.html", input_text=html.body)
+    return render_template("staticpage.html", input_text=html.body, input_title=html.title)
 
 
 @app.route('/impressum')
@@ -219,9 +218,23 @@ def main_page():
 
 @app.route('/blog')
 def show_entries():
-    cur = g.db.execute('select title, text, username from entries order by id desc')
-    entries = [dict(title=row[0], text=row[1], username=row[2]) for row in cur.fetchall()]
+    cur = g.db.execute('select title, text, username, id from entries order by id desc')
+    entries = [dict(title=row[0], text=row[1], username=row[2], post_id=row[3])
+               for row in cur.fetchall()]
+
     return render_template('show_entries.html', entries=entries)
+
+
+@app.route('/blog/entry/<post_id>')
+def show_blog_entry(post_id):
+    cur = g.db.execute('select title, text, username from entries where id = ?', post_id)
+    results = cur.fetchall()
+    if len(results) is 0:
+        abort(404)
+
+    entry = results[0]
+    post_title = entry[0] + ' <small><em>by ' + entry[2] + '</em></small>'
+    return render_template('staticpage.html', input_text=entry[1], input_title=post_title)
 
 
 @app.route('/add', methods=['POST'])

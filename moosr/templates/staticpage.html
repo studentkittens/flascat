@@ -1,6 +1,9 @@
 {% extends "layout.html" %}
 {% block body %}
 <div id="content">
+    <h2>{{ input_title|safe }}</h2>
+    <hr />
+    <br />
     {{ input_text|safe }}
 </div>
 {% endblock %}
