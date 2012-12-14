@@ -85,7 +85,7 @@ Beispiel für die Suche des Liedes ,,Innocence'' von ,,Avril Lavigne'':
 
 ::
 
-    http://www.moosr.org/api/lyrics/3/Avril Lavigne+Innocence
+    http://www.moosr.org/api/lyrics/3/Avril%20Lavigne+Innocence
 
 
 Beim Zugriff der API über "query" wird ein Json Dokument zurückgeliefert.
@@ -93,14 +93,16 @@ Bei folgender beispielhafter Anfrage
 
 ::
 
-    http://www.moosr.org/query/artistphoto/3/Avril Lavigne
+    http://www.moosr.org/query/artistphoto/3/Avril%20Lavigne
 
 
 wird nach Artistphotos der Künstlerin "Avril Lavigne" gesucht, die Anzahl
 der Ergebnisse wurde hierbei auf drei beschränkt. Die Anfrage würde folgendes Json
 Dokument zurückliefern:
 
-.. code-block:: json
+
+.. sourcecode:: json
+    :linenos:
 
     {
     "album": "", 
