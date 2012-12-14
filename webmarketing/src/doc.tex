@@ -6,14 +6,11 @@
 \usepackage{hyperref}
 \linespread{1.25}
 \usepackage{listings} 
+\usepackage{graphicx}
 \lstset{numbers=left, numberstyle=\tiny, numbersep=5pt} \lstset{language=Perl}
 
 % beautiful colors like redrubin ;)
 \usepackage[usenames,dvipsnames]{xcolor}
-
-
-
-
 
 \title{Studienarbeit Webtechnologie und Webmarketing mit OpenSource Software \\
     \textcolor{WildStrawberry}{\huge{moosr}} \\
@@ -30,13 +27,16 @@ Christopher Pahl, Christoph Piechula}
 \begin{document}
 \maketitle
 \tableofcontents
+
+%################################################################################
+
 \chapter{Die Idee}
-Im Netz gibt es eine unglaubliche Menge an Seiten die sich darauf spezialisiert
+Im Netz gibt es eine riesige Menge an Seiten die sich darauf spezialisiert
 haben Informationen jeglicher Art zu Musikstücken, Künstlern und ähnlichem zu
 liefern.
 \\
-Die Reichweite geht dabei von Songtexten bis Tagging-Informationen die von
-Musikabspielprogramm ausgelesen werden kann. Es gibt Streamingdienste wie last.fm,
+Die Reichweite geht dabei von Songtexten bis hin zu Tagging-Informationen die von
+Musikabspielprogrammem ausgelesen werden kann. Es gibt Streamingdienste wie last.fm,
 oder Spotify die neben der eigentlichen Musik auch entsprechende Metadaten anbieten. 
 Im Falle von last.fm sogar mit einer gut nutzbaren Webschnittstelle.
 \\
@@ -49,11 +49,12 @@ Unsere Idee ist nun eine Metadatensuche zu bauen, die möglichst viele
 Metadatentypen bündelt und dabei auch über eine Web-API nutzbar ist.
 \\
 Um diese Idee abzurunden wollen wir uns einen Namen in der Indie Musik Szene
-schaffen und bieten neben der Suchleistung zugleich einen ,,Treffpunkt'' für Indie
+schaffen und bieten neben der Suchdienstleistung zugleich einen ,,Treffpunkt'' für Indie
 Musik Liebhaber, Liedermacher und freischaffende Künstler an.
 
-\chapter{Webmarketing - 20 Fragen}
+%################################################################################
 
+\chapter{Webmarketing - 20 Fragen}
 \label{wettbewerb}\section{Welche besonderen Eigenschaften, Stärken,
 Alleinstellungsmerkmale hat (m)eine Leistung?}
 
@@ -62,7 +63,7 @@ Liebhaber, Liedermacher und Künstler und kombiniert diese mit einer Metadaten S
 die Cover-Art Suche, Songtext-Suche, Biographie-Suche und Artistphoto-Suche in
 einer Dienstleistung bündelt.
 \\
-Änbieter mit ähnlichen Dienstleitungen: \\
+Anbieter mit ähnlichen Dienstleitungen: \\
 
 \begin{itemize}
     \item http://www.allcdcovers.com
@@ -77,26 +78,23 @@ Vermarktungskonzepte haben Mitbewerber?}
 
 \paragraph{Last.fm}
 Der Anbieter Last.fm spezialisiert sich Hauptsächlich auf Musikstreaming.
-Desweiteren bietet er eine Metadatenschnittstelle an, die Artistbiographien,
-Coverart und Artistphotos liefern kann. Kompatible Clients und Webseiten können
+Desweiteren bietet er eine Metadatenschnittstelle an, die Artist-Biographien,
+Cover-Art und Artist-Photos liefern kann. Kompatible Clients und Webseiten können
 daher diese anzeigen.
 
-
 \paragraph{allcdcovers}
-Dieser Anbieter hat sich auf besonders hochauflösende Coverart Images
+Dieser Anbieter hat sich auf besonders hochauflösende Cover-Art Images
 spezialisiert. Außerdem bietet er zudem Bilder von der CD Rückseite und dem
 Inlet an.
 
 \paragraph{albumart}
 Der Anbieter Albumart ähnelt unserem Angebot noch am ehesten. Allerdings
-beschränkt er sich lediglich auf CD und DVD Coverart.
-
+beschränkt er sich lediglich auf CD und DVD Cover-Art.
 
 \paragraph{lyrics.wikia}
 Dieses Angebot ist in einer Wiki-ähnlichen Struktur organisiert. Leider bietet
 dieser Anbieter nur Songtexte an, allerdings verlinkt er auf andere Angebote und
 integriert soziale Dienste wie Twitter und Facebook.
-
 
 \section{Wie können wir unsere Leistung durch eine
     Spezialisierung abgrenzen und unsere Stärken
@@ -111,13 +109,12 @@ Allerdings versteht sich unser Angebot als eine Art ,,Metaprovider``, der sich
 auf andere Dienstleister wie beispielsweise last.fm stützt und diese bündelt.
 
 Als Anlaufstelle für eine große Community fühlen wir uns verpflichtet diese
-neben unserem Suchservice über Neuigkeiten der Indie Musik Sezene sowie über
-Newcommer und Festivals auf dem laufenden zu halten. 
+neben unserem Suchservice über Neuigkeiten der Indie Musik Szene sowie über
+Newcomer und Festivals auf dem laufenden zu halten. 
 
 Auf technischer Seite legen wir großen Wert auf Transparenz und die Integration
 freier Software. Das Angebot soll eine schnelle Bildung einer Community
 gewährleisten.
-
 
 
 \section{Was ist die erfolgversprechendste Zielgruppe?}
@@ -135,7 +132,6 @@ Dienstleistung zu vernachlässigen.
 \section{Wer sind die wichtigsten Meinungsführer?
 Können wir Empfehlungs-Statements bekommen?}
 Frage trifft auf unsere Dienstleistung nicht zu.
-
 
 
 \section{Was sind die brennenden Probleme der
@@ -169,7 +165,7 @@ Anzeigenwerbung?}
 Durch den Einsatz von sozialen Medien wie Twitter oder Facebook kann ein
 positives Meinungsbild suggeriert werden. Desweiteren kann der Service von
 verschiedenen Fachseiten getestet und empfohlen werden. Aufgrund der breiten
-Anwesenheit unserer Dienstleistung die sich über verscheidene soziale Netze
+Anwesenheit unserer Dienstleistung die sich über verschiedene soziale Netze
 von Facebook bis hin zu Flicker streut sollte es problemlos möglich sein unsere
 Dienstleistung einem breitem Publikum zukommen zu lassen.
 
@@ -249,24 +245,43 @@ Neuigkeiten und liefern Metadaten.
 
 \section{Welches Leitbild und welche Ziele verfolgen wir
 für die Ansprache der Zielgruppe?}
-
 Frage trifft nicht auf unseren Service zu.
 
+%################################################################################
+
 \chapter{Keyvisual und Claim}
-Beim Keyvisual wurde als Logo ein Elch mit Saiten und Musiknoten im Geweih
-gewählt. Die Wahl eines Tieres als Logo ist hier leicht an das Vorbild Napster
-angelehnt welches eine Katze mit Kopfhörern zeigt. Es wurde bewusst ein Elch
+Beim Key-Visual wurde als Logo ein Elch mit Saiten und Musiknoten im Geweih
+gewählt.
+\\
+Die Wahl eines Tieres als Logo ist hier leicht an das Vorbild Napster
+angelehnt welches eine Katze mit Kopfhörern zeigt.
+
+\begin{center}
+    \includegraphics[scale=0.4]{./napster.jpeg}
+\end{center}
+
+Es wurde bewusst ein Elch
 ausgewählt, dieser soll symbolisch die anfangs überwiegend aus den
-skandinavischen ländern antreibende Kraft der Indie Musik Bewegung visuell
+skandinavischen Ländern antreibende Kraft der Indie Musik Bewegung visuell
 darstellen. Desweiteren sollen die Saiten im Geweih den Zusammenhalt der
 Communiy wiederspiegeln, der grimmige Blick ist eine ,,Kampferklärung'' an die
 Mainstream Musik Branche. Der comichafte Ansatz soll hier primär ein junges
 Publikum ansprechen.
+\section{Key-visual}
 
+\begin{center}
+    \includegraphics[scale=0.4]{./elchlogo.png}
+\end{center}
+\section{Claim}
 Claim siehe\ref{claim}.
+
+%################################################################################
 
 \chapter{Markt/Marketing/Positionierung/Wettbewerb}
 Siehe\ref{wettbewerb}
+
+%################################################################################
+
 \chapter{Finanzierung}
 Da unsere Dienstleistung nicht kommerziellen Ursprungs ist trifft diese Frage
 nicht direkt zu. Mögliche Einnahmequellen wären Spenden und mögliche kostenpflichtige API
@@ -274,7 +289,11 @@ Anpassungen für ,,Kunden'' kommerzieller Musikplayer und Contentanbieter.
 Der Dienst an sich ist relativ selbsttragend, da außer den Serverkosten
 keinerlei laufende Kosten anfallen sollten.
 
+%################################################################################
+
 \chapter{Konzept Web}
+
+%################################################################################
 
 \chapter{Google Optimierung}
 \section{Duplicate Content}
@@ -301,6 +320,7 @@ Zugriff über \emph{url\_for()} wird bei bei unserem Projekt
 \section{Linktexte}
 \section{Saubere Navigation}
 
+%################################################################################
 
 \chapter{Technische Implementierung}
 \section{Vorwort - technische Implementierung}
@@ -327,7 +347,7 @@ libraries \emph{libglyr} und \emph{sqlite3} zum Einsatz.
 \subsection{libglyr}
 Libglyr ist eine library zum auffinden von Musikmetadaten. 
 \\
-    \url{https://github.com/sahib/glyr}
+\url{https://github.com/sahib/glyr}
 
 
 \subsection{sqlite3}
@@ -335,6 +355,8 @@ Sqlite3 ist eine sehr weit genutzte und bekannte embedded Datenbank, welche für
 unseren Einsatz optimal ist.
 \\
 \url{http://www.sqlite.org/}
+
+%################################################################################
 
 \chapter{Weiteres}
 Unsere Dienstleistung soll sich hauptsächlich durch ihre Spezialisierung auf
