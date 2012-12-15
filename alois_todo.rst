@@ -4,7 +4,6 @@ WIR SOLLTEN UNS AN DEN ALOIS FOLIEN RICHTEN BEI ALLEN ARBEITEN! ALOIS WILL DAS S
 Elch
 ----
 
-* technische Arbeiten am CMS
 * Googleoptimierung -> Dokumentation ausarbeiten ... Metadaten automatisch
   angepasst etc (Titel...) siehe Folien
 * pro optimierter Seite Keywords siehe E-Mail
@@ -19,11 +18,13 @@ Elch
 
 Elch bereits hat bearbeitet
 ---------------------------
+* technische Arbeiten am CMS
 
 
 Kitteh
 ------
 
+* keyvisual und claim
 * Markt/Marketing/Positionierung...
 * Positionierungsfrage leicht überarbeiten (nicht moosrsearch only)
 * pro optimierter Seite Keywords siehe E-Mail
@@ -41,4 +42,3 @@ Kitteh bereits hat bearbeitet
 * developers
 * keyvisual und claim
 * Zur Idee noch paar Worte
-

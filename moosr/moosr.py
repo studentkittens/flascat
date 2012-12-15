@@ -5,7 +5,7 @@
 import json
 import random
 import os
-import StringIO
+
 
 from functools import partial
 
