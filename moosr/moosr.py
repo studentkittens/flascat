@@ -250,7 +250,9 @@ def add_entry():
         abort(401)
 
     with open('pages/last_blog_post.rst', 'w') as f:
-        f.write(request.form['text'])
+        blog_post = request.form['text']
+        print(blog_post, type(blog_post))
+        f.write(request.form['text'].encode('utf-8'))
 
     rst_html = rst_pages.get('last_blog_post')
     g.db.execute('insert into entries (title, short_title, text, username) values (?, ?, ?, ?)',
