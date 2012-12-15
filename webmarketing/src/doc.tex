@@ -9,6 +9,25 @@
 \usepackage{graphicx}
 \lstset{numbers=left, numberstyle=\tiny, numbersep=5pt} \lstset{language=Perl}
 
+%Kopf- und Fußzeile
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhf{}
+
+%Kopfzeile links bzw. innen
+\fancyhead[L]{\nouppercase{\leftmark}}
+%Kopfzeile rechts bzw. außen
+\fancyhead[R]{\today}
+%Linie oben
+\renewcommand{\headrulewidth}{0.5pt}
+
+%Fußzeile links bzw. innen
+\fancyfoot[L]{moosr}
+%Fußzeile rechts bzw. außen
+\fancyfoot[R]{\thepage}
+%Linie unten
+\renewcommand{\footrulewidth}{0.5pt}
+
 % beautiful colors like redrubin ;)
 \usepackage[usenames,dvipsnames]{xcolor}
 
