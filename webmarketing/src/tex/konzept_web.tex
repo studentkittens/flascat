@@ -12,23 +12,24 @@ möglich zu halten und den Benutzer nicht mit Werbebannern oder sinnsollen
 Informationen zu belästigen.
 \\
 Das an den Key-Visual angepasste Farbklima sieht wie folgt aus:
+
 \begin{table}[h!]
-  \centering
+\centering
 \begin{tabular*}{\textwidth}{lll|l}
 
     Farbe & Name & Farbwerte & Einsatzgebiet \\
     \hline
     
-    \multirow{3}{*}
+\multirow{3}{*}
     {
     \begin{tikzpicture}
         \draw [line width=0.5pt,fill=a]
         (0,0) -- (1.2,0) -- (1.2,1.2) -- (0,1.2) -- cycle;
     \end{tikzpicture}
     }
-    & a & HEX \#597F00 & \\
-    & & RGB 89,127,0 \\
-    & & & \\ %CMYK 30/0/100/50
+    & a & HEX \#FDF9EF & Hintergrundfarbe für Contentbereich\\
+    & & RGB 253, 249, 239 \\
+    & &  \\
     \hline
 
 \multirow{3}{*}
@@ -38,9 +39,33 @@ Das an den Key-Visual angepasste Farbklima sieht wie folgt aus:
         (0,0) -- (1.2,0) -- (1.2,1.2) -- (0,1.2) -- cycle;
     \end{tikzpicture}
     }
-    & b & HEX \#85FB00 & \\
-    & & RGB 133,191,0 & \\
-    & & & \\ %CMYK 30/0/100/25
+    & b & HEX \#F4F1E5 &  Hintergrund \\ 
+    & & RGB  244, 241, 229 & \\
+    & &  \\
+    \hline
+
+\multirow{3}{*}
+    {
+    \begin{tikzpicture}
+        \draw [line width=0.5pt,fill=c]
+        (0,0) -- (1.2,0) -- (1.2,1.2) -- (0,1.2) -- cycle;
+    \end{tikzpicture}
+    }
+    & c & HEX \#544738 &  Standard Schriftfarbe \\
+    & & RGB 84, 71, 56 & \\
+    & &  \\
+    \hline
+
+\multirow{3}{*}
+    {
+    \begin{tikzpicture}
+        \draw [line width=0.5pt,fill=d]
+        (0,0) -- (1.2,0) -- (1.2,1.2) -- (0,1.2) -- cycle;
+    \end{tikzpicture}
+    }
+    & d & HEX \#98BF21 &   Buttonflächen \\
+    & & RGB 152, 191, 33 & \\
+    & &  \\
     \hline
 
 \multirow{3}{*}
@@ -50,23 +75,11 @@ Das an den Key-Visual angepasste Farbklima sieht wie folgt aus:
         (0,0) -- (1.2,0) -- (1.2,1.2) -- (0,1.2) -- cycle;
     \end{tikzpicture}
     }
-    & e & HEX \#A0E500 & \\
-    & & RGB 160,229,0 & \\
-    & & & \\ %CMYK 0/0/0/0 & des Contentbereichs
+    & e & HEX \#C2C5BE &  Footer Hintergrundfarbe \\
+    & & RGB 194, 197, 190 &\\ 
+    & &  \\
     \hline
-
-    \multirow{3}{*}
-    {
-    \begin{tikzpicture}
-        \draw [line width=0.5pt,fill=c]
-        (0,0) -- (1.2,0) -- (1.2,1.2) -- (0,1.2) -- cycle;
-    \end{tikzpicture}
-    }
-    & c & HEX \#B2FF00 & \\
-    & & RGB 178,255,0 & \\
-    & & & \\ %CMYK 30/0/100/0
-    \hline
-
+   
 \multirow{3}{*}
     {
     \begin{tikzpicture}
@@ -74,21 +87,21 @@ Das an den Key-Visual angepasste Farbklima sieht wie folgt aus:
         (0,0) -- (1.2,0) -- (1.2,1.2) -- (0,1.2) -- cycle;
     \end{tikzpicture}
     }
-    & f & HEX \#4C4A44 & \\
-    & & RGB 76,74,68 & \\
-    & & & \\
+    & f & HEX \#BBBBBB &  Tagcloud Schriftfarbe \\
+    & & RGB 187, 187, 187  & \\
+    & &  \\
     \hline
    
-    \multirow{3}{*}
+\multirow{3}{*}
     {
     \begin{tikzpicture}
         \draw [line width=0.5pt,fill=g]
         (0,0) -- (1.2,0) -- (1.2,1.2) -- (0,1.2) -- cycle;
     \end{tikzpicture}
     }
-    & g & HEX \#000000 & \\
-    & & RGB 0,0,0 & \\
-    & & & \\
+    & g & HEX \#303030 &  Tagcloud Farbe \\
+    & & RGB 48, 48, 48  & \\
+    & &  \\
 
 \end{tabular*}
    \caption{Farbschema}
