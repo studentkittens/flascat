@@ -24,9 +24,7 @@ Elch bereits hat bearbeitet
 Kitteh
 ------
 
-* keyvisual und claim
 * Markt/Marketing/Positionierung...
-* Positionierungsfrage leicht überarbeiten (nicht moosrsearch only)
 * pro optimierter Seite Keywords siehe E-Mail
     - blog, home, faq, developers, paar blogpöste, eine Metadatenseite
       (Verlinkung)
@@ -42,3 +40,4 @@ Kitteh bereits hat bearbeitet
 * developers
 * keyvisual und claim
 * Zur Idee noch paar Worte
+* Positionierungsfrage leicht überarbeiten (nicht moosrsearch only)
