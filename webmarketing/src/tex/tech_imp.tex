@@ -1,0 +1,34 @@
+
+\chapter{Technische Implementierung}
+\section{Vorwort - technische Implementierung}
+Als technische Grundlage für moosr wird ein Webframework verwendet, da dieses an
+die benötigten Bedürfnisse (Suchmaschine) am relativ gut angepasst werden kann.
+
+Als Webframework haben wir uns mit Absprache mit Herrn Prof. Dr. Alois
+Kastner-Maresch auf das Python Microwebframework Flask geenigt da wir das
+Framework in der Vorlesung \emph{Wiederverwendungsbasierte Entwicklung von
+Systemen} in einer Studienarbeit erarbeiten und das dort gewonnene Wissen (Flask
+und Python) praktisch in der Vorlesung ,,Webtechnologie und Webmarketing 
+mit Open Source'' umsetzen möchten.
+
+\subsection{Flask}
+Das Microwebframework benutzt \emph{Jinja} als Template Renderengine und
+\emph{Werkzeugs} als WSGI Middleware. Die Pakete selbst können mit pip gezogen
+werden
+
+
+Da die Webpräsentation primär als Dienstleistung zu sehen ist kommen bei der
+Implementierung neben dem Framework selbst hauptsächlich auf die beiden
+libraries \emph{libglyr} und \emph{sqlite3} zum Einsatz.
+
+\subsection{libglyr}
+Libglyr ist eine library zum auffinden von Musikmetadaten. 
+\\
+\url{https://github.com/sahib/glyr}
+
+
+\subsection{sqlite3}
+Sqlite3 ist eine sehr weit genutzte und bekannte embedded Datenbank, welche für
+unseren Einsatz optimal ist.
+\\
+\url{http://www.sqlite.org/}

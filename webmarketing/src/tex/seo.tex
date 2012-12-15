@@ -1,0 +1,25 @@
+
+\chapter{Google Optimierung}
+\section{Duplicate Content}
+Mit mit Framework Flask lässt sich auf einfache Art und Weise \emph{duplicate
+content} vermeiden. Hier zu kann technisch die \emph{url\_for()} Funktion
+verwendet werden die einem die URL eines bestimmten Elements oder einer
+View-Funktion zurückliefert. Im Folgenden Beispiel wird die Funktionsweise
+erläutert:
+\begin{verbatim}
+                        @app.route('/hello')
+                        def hello_func():
+                            return 'Hello World'
+\end{verbatim}
+
+Die Url \url{http://www.moosr.org/hello} wir im Beispiel auf die Funktion
+\emph{hello\_dunc()} gemappt. Beim Aufruf von \emph{url\_for('hello\_func')} wir
+die Url \url{http://www.moosr.org/hello} zurückgeliefert. Durch den konsistenten
+Zugriff über \emph{url\_for()} wird bei bei unserem Projekt
+\emph{duplicate content} vermieden.
+
+
+\section{Titel/Metadaten individuell}
+\section{Einfache Url}
+\section{Linktexte}
+\section{Saubere Navigation}
