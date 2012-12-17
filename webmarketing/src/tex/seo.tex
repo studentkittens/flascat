@@ -1,36 +1,100 @@
 \chapter{Google Optimierung}
 
-\section{Duplicate Content}
-Mit mit Framework Flask lässt sich auf einfache Art und Weise \emph{duplicate
-content} vermeiden. Hier zu kann technisch die \emph{url\_for()} Funktion
-verwendet werden die einem die URL eines bestimmten Elements oder einer
-View-Funktion zurückliefert. Im Folgenden Beispiel wird die Funktionsweise
-erläutert:
-
-\begin{verbatim}
-                        @app.route('/hello')
-                        def hello_func():
-                            return 'Hello World'
-\end{verbatim}
-
-Die Url \url{http://www.moosr.org/hello} wir im Beispiel auf die Funktion
-\emph{hello\_dunc()} gemappt. Beim Aufruf von \emph{url\_for('hello\_func')} wir
-die Url \url{http://www.moosr.org/hello} zurückgeliefert. Durch den konsistenten
-Zugriff über \emph{url\_for()} wird bei bei unserem Projekt
-\emph{duplicate content} vermieden.
-
-
-
 \section{Duplicate Content vermeiden}
 Durch den Einsatz von Flask als Webframework haben wir volle Kontrolle über
-die Festlegung einzelner URLs. 
+die Festlegung einzelner URLs. Die Definition einer View-Funktion erfordert die
+Angabe einer URL. Doppelte URLs sind in Flask nicht erlaubt. Innerhalb der
+Templates ist dabei nur eine Referenzierung dieser URL via der \emph{url\_for}
+Funktion möglich. Es folgt ein Beispiel für eine View Funktion, und ein Fragment
+eines Templates:
+\\
+\\
+\begin{verbatim}
+    # File: app.py
+    # Aufruf bei GET www.moosr.org/search
+    @app.route('/search')
+    def view_search_page():
+        return render_template('search.html')
+
+    --------------- HIER KNICKEN -----------------
+
+    <!-- File: search.html -->
+    <!-- {{ Text }} wird durch Template Engine ersetzt -->
+    <a href="{{ url_for('view_search_page') }}">Link to Search Page</a>
+    <!-- ... -->
+\end{verbatim}
+
+Durch die konstante Festlegung und dem konsistenten Zugriff wird effektiv
+externer Duplicate Content vermieden. 
+\\
+\\
+Um internen Duplicate Content zu vermeiden wird als Leitlinie stets zwischen
+Beiträgen verlinkt. Texte zu kopieren ist verboten. Desweiteren ist auf unserer 
+Seite ohnehin der Content jeweils unabhängig voneinander.
+\\
+Der einzige Fall in dem Interner Duplikat Content vorkommt ist die verkürzte
+Blogansicht, bei der nur ein Teaser des Blogeintrags vorhanden ist. Die
+Blogübersicht ist allerdings mittels des meta-Tags aus der Indexierung
+ausgenommen. Der Link zu den eigentlichen Einträgen wird hingegen befolgt!
+
+\begin{verbatim}
+    <meta name="robots" content="noindex, follow, noarchive">
+\end{verbatim}
+
 \section{Content Seiten über Navigation erreichbar}
 
 
-\section{Artikel über mehrere Seiten strecken}
-\section{Festlegbare Linktexte}
-\section{Einfache URLs erzeugen}
 
+
+\section{Artikel über mehrere Seiten strecken}
+
+
+
+\section{Festlegbare Linktexte}
+
+\section{Einfache URLs erzeugen}
+Unsere URL-Struktur basiert auf folgenden Kriterien:
+\begin{itemize}
+\item Keine Query-Parameter via \emph{?key=value}
+\item Beschreiben die Seite kurz und prägnant.
+\item Keine IDs in der URLs. Kurze Titel sind zu bevorzugen.
+\item Möglichst kurz, ohne viele Zwischenebenen.
+\end{itemize}
+
+
+Beispiele aus unserer URL-Struktur:
+\begin{enumerate}
+    \item \emph{/blog} Blogübersicht.
+    \item \emph{/blog/entry/knorkator} Blogeintrag mit dem Kurztitel ,,Knorkator.''
+          Der tatsächliche Name des Eintrags ist dabei länger. Der kurze Titel
+          eignet sich für Linktexte und als Bestandteil der URL.
+    \item \emph{/developers}, \emph{/about-us} Statische Contentseite.
+    \item \emph{/search} Dynamische Metadatensuchseite.
+    \item \emph{/query/artistphoto/1/Avril\%20Lavigne} Anzeige der Suchresultate
+    eines Künstlerbildes von Avril Lavigne.
+    \item \emph{/api/artistphoto/1/Avril\%20Lavigne} Wie oben, aber Anzeige
+    eines JSON Dokuments, statt einer HTML Repräsentation.
+\end{enumerate}
 
 \section{Editierbare Metadaten}
+Jeder Blogeintrag hat einen definierten langen Titel, einen kurzen, prägnanten
+Titel der für Linktexte und URLs eingesetzt werden kann, sowie einige Meta-Tags:
 
+
+Statische Seiten haben ähnliche Attribute, haben allerdings keinen kurzen Titel.
+Ein Beispiel:
+
+\begin{verbatim}
+    <!-- Kurzbeschreibung der Seite -->
+    <meta name="description" content="Guide for API Usage" />
+    <!-- Keywords innerhalb des Contents -->
+    <meta name="keywords" content="API, Manual, Reference, Metadata, Developer" />
+    <!-- Erlaube ausdrücklich Indizierung -->
+    <meta name="robots" content="all"/>
+\end{verbatim}
+
+
+
+
+Wir haben der Abgabe wie gewünscht einige statische Seiten beigepackt anhand denen sie SEO
+validieren können.
