@@ -2,7 +2,7 @@ Knorkator auf Haltestelle Woodstock im polnischen Küstrin
 ---------------------------------------------------------
 
 .. image:: http://upload.wikimedia.org/wikipedia/commons/4/49/Knorkator_Frankenthal.jpg
-    :width: 300
+    :width: 400
     :align: center
 
 
@@ -45,7 +45,7 @@ Tickets
 -------
 
 Bezugsquellen für Festival Tickets findet ihr in unserer Webshops Kategorie
-unter `Webshop:`_ ...
+unter `Webshop`_ ...
 
 .. _Webshop: http://localhost:5000/impressum
 
@@ -53,13 +53,12 @@ unter `Webshop:`_ ...
 Archivbilder Haltestelle Woodstock 1980 - 2012
 ----------------------------------------------
 
-    * www.flickr.com/photos/moosr/woodstock1988 
-    * www.flickr.com/photos/moosr/woodstock2004
-    * www.flickr.com/photos/moosr/woodstock2012 
+    * http://www.flickr.com/photos/moosr/woodstock1988 
+    * http://www.flickr.com/photos/moosr/woodstock2004
+    * http://www.flickr.com/photos/moosr/woodstock2012 
 
 
 Weitere Infos zum Festival
 --------------------------
-    * www.haltestelle-woodstock.pl
 
-
+    * http://www.haltestelle-woodstock.pl
