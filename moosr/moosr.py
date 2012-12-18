@@ -225,8 +225,8 @@ def main_page():
 
 @app.route('/blog')
 def show_entries():
-    cur = g.db.execute('select title, short_title, text, username, id from entries order by id desc')
-    entries = [dict(title=row[0], short_title=row[1], text=row[2], username=row[3])
+    cur = g.db.execute('select title, short_title, text, username, post_date, id from entries order by id desc')
+    entries = [dict(title=row[0], short_title=row[1], text=row[2], username=row[3], post_date=row[4])
                for row in cur.fetchall()]
 
     return render_template('show_entries.html', entries=entries)
