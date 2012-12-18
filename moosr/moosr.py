@@ -5,6 +5,7 @@
 import json
 import random
 import os
+import time
 
 
 from functools import partial
@@ -231,9 +232,16 @@ def show_entries():
     return render_template('show_entries.html', entries=entries)
 
 
+@app.route('/blog/archive')
+def show_archive():
+    cur = g.db.execute('select post_date, short_title from entries order by id desc')
+    entries = [dict(post_date=row[0], short_title=row[1]) for row in cur.fetchall()]
+    return render_template('archive.html', entries=entries)
+
+
 @app.route('/blog/entry/<post_short_name>')
 def show_blog_entry(post_short_name):
-    cur = g.db.execute('select title, short_title, text, username from entries where short_title = ?;', [post_short_name])
+    cur = g.db.execute('select title, short_title, text, username, post_date from entries where short_title = ?;', [post_short_name])
     results = cur.fetchall()
     if len(results) is 0:
         abort(404)
@@ -253,9 +261,10 @@ def add_entry():
         f.write(request.form['text'].encode('utf-8'))
 
     rst_html = rst_pages.get('last_blog_post')
-    g.db.execute('insert into entries (title, short_title, text, username) values (?, ?, ?, ?)',
+    g.db.execute('insert into entries (title, short_title, text, username, post_date) values (?, ?, ?, ?, ?)',
                  [request.form['title'], request.form['short_title'],
-                  rst_html.body, userobject.name])
+                  rst_html.body, userobject.name],
+                  time.strftime('%d/%m/%Y - %H:%M', time.localtime(time.time())))
 
     g.db.commit()
     flash('New entry was successfully posted')
