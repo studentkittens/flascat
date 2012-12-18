@@ -37,7 +37,12 @@
         <br />
         <hr />
         <br />
-        <small>{{ entry.text[0:400]|safe }}</small>
+        {% for img_url in entry.image_urls %}
+            <img src="{{ img_url }}" width="400"></img>
+        {% endfor %}
+        <br />
+
+        <small>{{ entry.text[0:400]|striptags|safe }}</small>
         <a href={{ url_for('show_blog_entry', post_short_name=entry.short_title) }}>
             <i><small><small><small>&hellip; [READ MORE]</small></small></small></i>
         </a>

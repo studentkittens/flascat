@@ -232,12 +232,36 @@ def main_page():
 #                               Blog Stuff                                #
 ###########################################################################
 
+def get_image_tags_from_html(text):
+    'Dirty HACK by eddY'
+    SEARCH_TAG = 'src="'
+    taglen = len(SEARCH_TAG)
+    last_idx = 0
+
+    img_list = []
+
+    while True:
+        idx = text.find(SEARCH_TAG, last_idx)
+        if idx is -1:
+            break
+        else:
+            last_idx = idx + 1
+            marks = text.find('"', idx + taglen)
+            img_list.append(text[idx + taglen:marks])
+
+    return img_list
+
 
 @app.route('/blog')
 def show_entries():
     cur = g.db.execute('select title, short_title, text, username, post_date, id from entries order by id desc')
-    entries = [dict(title=row[0], short_title=row[1], text=row[2], username=row[3], post_date=row[4])
-               for row in cur.fetchall()]
+    entries = [dict(title=row[0],
+        short_title=row[1],
+        text=row[2],
+        username=row[3],
+        post_date=row[4],
+        image_urls=get_image_tags_from_html(row[2]))
+        for row in cur.fetchall()]
 
     return render_template('show_entries.html', entries=entries)
 

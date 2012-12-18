@@ -1,5 +1,6 @@
+=============
 Hier ist FAQ?
--------------
+=============
 
 Hier im F.A.Q. Bereich bekommst du einen kleinen Überblick über die meist
 gestellten Fragen.
@@ -11,7 +12,7 @@ Moosr ist eine Plattform für für Musikliebhaber und Musiker die ihre Interesse
 mit gleichgesinnten Teilen wollen.
 
 Wer steckt hinter moosr?
------------------------
+------------------------
 
 Hinter moosr stecken die zwei Informatiker Christopher 'Elk'  Pahl und Christoph
 'Kitteh' Piechula der Hochschule Hof. Das Projekt, welches einst als Studienarbeit
@@ -24,8 +25,8 @@ Kann ich an moosr mitwirken? Wenn ja, wie?
 ------------------------------------------
 
 Jeder kann aktiv an moosr mitwirken! Möchtest du als Redakteur Texte verfassen
- oder bestimmte Themen im Forum betreuen dann meld dich doch einfach per E-Mail
- bei uns.
+oder bestimmte Themen im Forum betreuen dann meld dich doch einfach per E-Mail
+bei uns.
 
 Wie funktioniert moosrdata?
 ---------------------------
