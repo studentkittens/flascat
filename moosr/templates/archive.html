@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block body %}
+<h2>Blog Archive</h2>
+<div id="content">
+    <table cellpadding="10">
+    <tr>
+        <td><b>Posted On</b></th>
+        <td><b>Titel</b></th>
+        <td><b>Author</b></th>
+    <tr>
+    {% for entry in entries %}
+        <tr>
+            <td>{{ entry.post_date}}</td>
+            <td><a href="{{ url_for('show_blog_entry', post_short_name=entry.short_title) }}">{{ entry.short_title }}</td>
+            <td>{{ entry.username }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+</div>
+{% endblock %}
