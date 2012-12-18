@@ -55,10 +55,36 @@ wiederum auf der Blogübersicht verlinkt ist.
 
 \label{Content_Strecken}
 \section{Artikel über mehrere Seiten strecken}
-
+Aus Gründen der Usability haben wir auf den Punkt verzichtet. Unsere Blogposts
+werden in der Übersicht nur mittels eines \emph{Teasers} gezeigt, bei dem auf
+eine Detailansicht verlinkt ist. Zudem verlinken wir innerhalb des Archives auf
+alle Blogposts. 
+\\
+\\
+Momentan wächst die Postübersicht bis ins theoretisch ,,unendliche'' an.
+Unsere Seite bietet sonst kein Content an der sich auf mehrere Seiten ausbreiten
+ließe. Zudem empfiehlt Google selbst im Namen der Usability darauf zu
+verzichten:
+Link fehlt
 
 
 \section{Festlegbare Linktexte}
+Dieses Verhalten wurde vollkommen implementiert. Siehe hier  zu folgenden
+Screenshot:
+
+Beispielsweise kann man bei Blogeinträgen einen langen und einen kurzen Titel
+bestimmen. Der lange Titel wird als Überschrift für die Detailansicht und für
+die Blogübersicht benutzt. Der kurze Titel wird in der Url und innerhalb von den
+Link-Texten benutzt. 
+\\
+\\
+Unwichtige Seiten wie beispielsweise das Impressum haben im Headtag ein Metatag
+stehen:
+\begin{verbatim}
+    <meta name="robots" content="noindex, follow, noarchive">
+\end{verbatim}
+Dadurch werden diese vom Indizieren ausgenommen, die darin enthaltenen Links
+werden aber dennoch ausgewertet.
 
 \section{Einfache URLs erzeugen}
 Unsere URL-Struktur basiert auf folgenden Kriterien:
