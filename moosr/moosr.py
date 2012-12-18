@@ -263,8 +263,9 @@ def add_entry():
     rst_html = rst_pages.get('last_blog_post')
     g.db.execute('insert into entries (title, short_title, text, username, post_date) values (?, ?, ?, ?, ?)',
                  [request.form['title'], request.form['short_title'],
-                  rst_html.body, userobject.name],
-                  time.strftime('%d/%m/%Y - %H:%M', time.localtime(time.time())))
+                  rst_html.body, userobject.name,
+                  time.strftime('%d/%m/%Y - %H:%M', time.localtime(time.time()))]
+                )
 
     g.db.commit()
     flash('New entry was successfully posted')
