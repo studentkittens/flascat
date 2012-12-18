@@ -1,6 +1,14 @@
 Knorkator auf Haltestelle Woodstock im polnischen Küstrin
 ---------------------------------------------------------
 
+.. image:: http://upload.wikimedia.org/wikipedia/commons/4/49/Knorkator_Frankenthal.jpg
+    :width: 300
+    :align: center
+
+
+Knorkator die Band
+------------------
+
 Mit ihren geistreichen sowie absurden Texten wie ,,Ein ganz besonderer Mann'' oder ,,GV''
 begeistern und schockieren sie tausende von Menschen tag täglich - die Rede ist
 von Knorkator. Keine andere deutsche Band treibt es so weit an die Spitze wie die
@@ -19,11 +27,39 @@ wie einer risiegen Schaumstoffkeule, mit dem das Publikum geschlagen oder
 auch mal mit geschreddertem Obst und Gemüse ,,beschossen'' wird.
 
 Ihre Musikinstrumente bestehen zum Teil aus einfachen Haushaltsgegenständen, wie
-Klobürsten und Klodeckeln. Stumpen und alf Ator treten meist grotesk bekleidet
+Klobürsten und Klodeckeln. Stumpen und Alf Ator treten meist grotesk bekleidet
 auf.
 
-Ihr versührt das Verlangen dies mal live erleben zu wollen? Dann nichts wie ab
+
+Knorkator und Freunde?
+----------------------
+
+Neben Knorkator treten auch J.B.O., Donald Dark und Excrementory Grindfuckers
+und Größen wie das Farin Urlaub Racing Team.
+
+Ihr verspührt das Verlangen dies mal live erleben zu wollen? Dann nichts wie ab
 nach ins polnische Küstrin auf eins der größten internationalen Haltestelle
-Woodstock Festivals!
+Woodstock Festivals? Dann holt euch eure Tickets!
+
+Tickets
+-------
+
+Bezugsquellen für Festival Tickets findet ihr in unserer Webshops Kategorie
+unter `Webshop:`_ ...
+
+.. _Webshop: http://localhost:5000/impressum
+
+
+Archivbilder Haltestelle Woodstock 1980 - 2012
+----------------------------------------------
+
+    * www.flickr.com/photos/moosr/woodstock1988 
+    * www.flickr.com/photos/moosr/woodstock2004
+    * www.flickr.com/photos/moosr/woodstock2012 
+
+
+Weitere Infos zum Festival
+--------------------------
+    * www.haltestelle-woodstock.pl
 
 
