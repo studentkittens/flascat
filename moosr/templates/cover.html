@@ -1,4 +1,15 @@
 {% extends "search_home.html" %}
+{% block head %}
+    {% if option_list[0]['album'] %}
+        <title>Cover "{{ meta_info['album'] }}" by {{ meta_info['artist'] }}</title>
+    {% else %}
+        <title>Artistphoto of {{ meta_info['artist'] }}</title>
+    {% endif %}
+    <meta name="description" content="Image View of an Item"/>
+    <meta name="keywords" content="{{ meta_info['artist'], meta_info['album'], meta_info['get_type']}}"/>
+    <meta name="robots" content="all">
+{% endblock %}
+
 {% block result %}
 {% for item in option_list %}
 <div id="content">

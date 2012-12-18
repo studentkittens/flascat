@@ -79,23 +79,23 @@ def show_developers():
 
 @app.route('/about-us')
 def show_aboutus():
-    return get_page_content('aboutus', keywords=['About Us', 'Moosr', 'Inide',
+    return get_page_content('aboutus', keywords=['About Us', 'Moosr', 'Inside',
                                                  'Music', ''])
 
 
 @app.route('/faq')
 def show_faq():
-    return get_page_content('faq')
+    return get_page_content('faq', keywords=['Frequently', 'Asked', 'Questions'])
 
 
 @app.route('/shop')
 def show_shop():
-    return get_page_content('shop')
+    return get_page_content('shop', keywords=['Shop', 'Links', 'Merchandise'])
 
 
 @app.route('/forum')
 def show_forum():
-    return get_page_content('forum')
+    return get_page_content('forum', keywords=['Community', 'Posts', 'Forum'])
 
 
 @app.route('/do_search', methods=['POST', 'GET'])
@@ -145,7 +145,7 @@ def do_query(get_type, number=1, search_str=''):
             }
 
             # Try to render the results.
-            return render_dict[get_type](results)
+            return render_dict[get_type](qry, results)
         else:
             flash('Woah! It seems no items were found!')
             return redirect(url_for('main_page'))

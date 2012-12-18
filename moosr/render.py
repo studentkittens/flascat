@@ -9,7 +9,7 @@ import helper
 ###########################################################################
 
 
-def render_lyrics(results, newlines=1):
+def render_lyrics(qry, results, newlines=1):
     '''
     Try to render a list of lyrics as textboxes.
 
@@ -29,7 +29,7 @@ def render_lyrics(results, newlines=1):
     return render_template('lyrics.html', lyrics_list=lyrics_list)
 
 
-def render_cover(results):
+def render_cover(qry, results):
     '''
     Try to render the cover-list as list of cover-templates.
 
@@ -48,11 +48,22 @@ def render_cover(results):
             pass
 
         option_list.append({
+                'artist': qry.artist,
+                'album': qry.album,
+                'title': qry.title,
+                'get_type ': qry.get_type,
                 'image_path': item.source_url,
                 'image_size': helper.get_imagesize_from_cache(item),
-                'is_cached':  item.is_cached,
-                'provider':   item.provider,
+                'is_cached': item.is_cached,
+                'provider': item.provider,
                 'source_url_full': item.source_url,
                 'source_url_short': helper.get_url_domain(item.source_url)
         })
-    return render_template('cover.html', option_list=option_list)
+
+    meta_info = {
+            'artist': qry.artist,
+            'album': qry.album,
+            'title': qry.title,
+            'get_type': qry.get_type
+    }
+    return render_template('cover.html', option_list=option_list, meta_info=meta_info)
