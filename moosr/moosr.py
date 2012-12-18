@@ -234,8 +234,8 @@ def show_entries():
 
 @app.route('/blog/archive')
 def show_archive():
-    cur = g.db.execute('select post_date, short_title from entries order by id desc')
-    entries = [dict(post_date=row[0], short_title=row[1]) for row in cur.fetchall()]
+    cur = g.db.execute('select post_date, short_title, username from entries order by id desc')
+    entries = [dict(post_date=row[0], short_title=row[1], username=row[2]) for row in cur.fetchall()]
     return render_template('archive.html', entries=entries)
 
 
