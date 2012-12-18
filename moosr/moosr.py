@@ -244,21 +244,28 @@ def show_entries():
 
 @app.route('/blog/archive')
 def show_archive():
-    cur = g.db.execute('select post_date, short_title, username from entries order by id desc')
-    entries = [dict(post_date=row[0], short_title=row[1], username=row[2]) for row in cur.fetchall()]
+    cur = g.db.execute('select post_date, short_title, username, keywords, title from entries order by id desc')
+    entries = [dict(post_date=row[0], short_title=row[1], username=row[2], keywords=row[3], title=row[4])
+            for row in cur.fetchall()]
     return render_template('archive.html', entries=entries)
 
 
 @app.route('/blog/entry/<post_short_name>')
 def show_blog_entry(post_short_name):
-    cur = g.db.execute('select title, short_title, text, username, post_date from entries where short_title = ?;', [post_short_name])
+    cur = g.db.execute('select title, short_title, text, username, post_date, keywords from entries where short_title = ?;', [post_short_name])
     results = cur.fetchall()
     if len(results) is 0:
         abort(404)
 
     entry = results[0]
-    post_title = entry[0] + ' <small><em>by ' + entry[3] + '</em></small>'
-    return render_template('staticpage.html', input_text=entry[2], input_title=post_title)
+    post_title = entry[0] + ' <small><em>by ' + entry[3] + '</em> [Posted on ' + entry[4] + ']</small>'
+    return render_template('staticpage.html',
+            input_text=entry[2],
+            input_title=post_title,
+            short_title=entry[1],
+            input_keywords=entry[5],
+            input_indexing='all'
+    )
 
 
 @app.route('/add', methods=['POST'])
@@ -271,10 +278,11 @@ def add_entry():
         f.write(request.form['text'].encode('utf-8'))
 
     rst_html = rst_pages.get('last_blog_post')
-    g.db.execute('insert into entries (title, short_title, text, username, post_date) values (?, ?, ?, ?, ?)',
+    g.db.execute('insert into entries (title, short_title, text, username, post_date, keywords) values (?, ?, ?, ?, ?, ?)',
                  [request.form['title'], request.form['short_title'],
                   rst_html.body, userobject.name,
-                  time.strftime('%d/%m/%Y - %H:%M', time.localtime(time.time()))]
+                  time.strftime('%d/%m/%Y - %H:%M', time.localtime(time.time())),
+                  request.form['keywords']]
                 )
 
     g.db.commit()

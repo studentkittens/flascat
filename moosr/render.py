@@ -26,7 +26,13 @@ def render_lyrics(qry, results, newlines=1):
         except UnicodeDecodeError as err:
             print('Warning: Cannot render lyrics due to bad encoding: ', err)
 
-    return render_template('lyrics.html', lyrics_list=lyrics_list)
+    meta_info = {
+            'artist': qry.artist,
+            'album': qry.album,
+            'title': qry.title,
+            'get_type': qry.get_type
+    }
+    return render_template('lyrics.html', lyrics_list=lyrics_list, meta_info=meta_info)
 
 
 def render_cover(qry, results):
@@ -48,9 +54,6 @@ def render_cover(qry, results):
             pass
 
         option_list.append({
-                'artist': qry.artist,
-                'album': qry.album,
-                'title': qry.title,
                 'get_type ': qry.get_type,
                 'image_path': item.source_url,
                 'image_size': helper.get_imagesize_from_cache(item),

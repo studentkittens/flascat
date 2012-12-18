@@ -1,4 +1,16 @@
 {% extends "search_home.html" %}
+
+{% block head %}
+    {% if meta_info['title'] %}
+        <title>Songtext "{{ meta_info['title'] }}" by {{ meta_info['artist'] }}</title>
+    {% else %}
+        <title>Artistbio of {{ meta_info['artist'] }}</title>
+    {% endif %}
+    <meta name="description" content="Text View of an Item"/>
+    <meta name="keywords" content="{{ meta_info['artist'] }}, {{ meta_info['title'] or 'Title' }}, {{ meta_info['get_type'] }}"/>
+    <meta name="robots" content="all">
+{% endblock %}
+
 {% block result %}
 {% for item in lyrics_list %}
 <div id="content">

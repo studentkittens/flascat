@@ -6,7 +6,7 @@
         <title>Artistphoto of {{ meta_info['artist'] }}</title>
     {% endif %}
     <meta name="description" content="Image View of an Item"/>
-    <meta name="keywords" content="{{ meta_info['artist'], meta_info['album'], meta_info['get_type']}}"/>
+    <meta name="keywords" content="{{ meta_info['artist'] }}, {{ meta_info['album'] or 'Album' }}, {{ meta_info['get_type'] }}"/>
     <meta name="robots" content="all">
 {% endblock %}
 

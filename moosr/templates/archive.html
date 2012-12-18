@@ -2,19 +2,27 @@
 {% block body %}
 <h2>Blog Archive</h2>
 <div id="content">
-    <table cellpadding="10">
-    <tr>
-        <td><b>Posted On</b></th>
-        <td><b>Titel</b></th>
-        <td><b>Author</b></th>
-    <tr>
-    {% for entry in entries %}
+    {% if entries %}
+        <table cellpadding="10">
         <tr>
-            <td>{{ entry.post_date}}</td>
-            <td><a href="{{ url_for('show_blog_entry', post_short_name=entry.short_title) }}">{{ entry.short_title }}</td>
-            <td>{{ entry.username }}</td>
-        </tr>
-    {% endfor %}
-    </table>
+            <td><b>Posted On</b></th>
+            <td><b>Short Titel</b></th>
+            <td><b>Author</b></th>
+            <td><b>Keywords</b></th>
+            <td><b>Full Titel</b></th>
+        <tr>
+        {% for entry in entries %}
+            <tr>
+                <td>{{ entry.post_date}}</td>
+                <td><a href="{{ url_for('show_blog_entry', post_short_name=entry.short_title) }}">{{ entry.short_title }}</a></td>
+                <td>{{ entry.username }}</td>
+                <td>{{ entry.keywords }}</td>
+                <td>{{ entry.title }}</td>
+            </tr>
+        {% endfor %}
+        </table>
+    {% else %}
+        <i>Oh! No Posts in the Blog!</i>
+    {% endif %}
 </div>
 {% endblock %}
