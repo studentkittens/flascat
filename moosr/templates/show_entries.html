@@ -9,7 +9,7 @@
 
 {% block body %}
 <h1>A blog about Music</h1> 
-
+<small><center><a href="{{ url_for('show_archive') }}">[Archive]</a></center></small>
 {% if session.logged_in %}
 <form action="{{ url_for('add_entry') }}" method=post class=add-entry>
     <dl>
