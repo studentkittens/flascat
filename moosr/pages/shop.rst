@@ -34,7 +34,7 @@ auch bald auf Flickr zu finden.
     * Flickr Fanartikel Gallery: http://flickr.com/moosr/fanartikel
 
 
-Tickets, Tickets, Tickest!
+Tickets, Tickets, Tickets!
 ==========================
 
 Hast du gerade über ein Konzert oder Festival erfahren dann findest du die
