@@ -27,9 +27,9 @@
                 <li><a href="{{ url_for('main_page') }}">Search</a></li>
                 <li><a href="{{ url_for('show_developers') }}">Developers</a></li>
                 <li><a href="{{ url_for('show_entries') }}">Blog</a></li>
-                <li><a href="{{ url_for('show_aboutus') }}">Forum</a></li>
-                <li><a href="{{ url_for('show_impressum') }}">Shop</a></li>
-                <li><a href="{{ url_for('show_help') }}">Help</a></li>
+                <li><a href="{{ url_for('show_forum') }}">Forum</a></li>
+                <li><a href="{{ url_for('show_shop') }}">Shop</a></li>
+                <li><a href="{{ url_for('show_faq') }}">FAQ</a></li>
                 {% if session.logged_in %}
                 <li><a href="{{ url_for('logout') }}">Logout</a></li>
                 {% else %}
@@ -114,7 +114,7 @@
                 <a href="www.google.de">Email us!</a>
             </td>
             <td>
-                <a href="{{ url_for('show_help') }}">Help</a>
+                <a href="{{ url_for('show_faq') }}">FAQ</a>
             </td>
         </tr>
         <tr>

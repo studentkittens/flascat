@@ -83,9 +83,19 @@ def show_aboutus():
                                                  'Music', ''])
 
 
-@app.route('/help')
-def show_help():
-    return get_page_content('help')
+@app.route('/faq')
+def show_faq():
+    return get_page_content('faq')
+
+
+@app.route('/shop')
+def show_shop():
+    return get_page_content('shop')
+
+
+@app.route('/forum')
+def show_forum():
+    return get_page_content('forum')
 
 
 @app.route('/do_search', methods=['POST', 'GET'])
