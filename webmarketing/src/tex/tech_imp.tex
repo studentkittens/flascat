@@ -35,7 +35,7 @@ unseren Einsatz optimal ist.
 
 
 \section{Historisches}
- 
+
 Wie bereits erwähnt ging die aktuelle Seite aus einer Studienarbeit im Fach 
 ,,Wiederverwendungsbasierte Entwicklung von Systemen'' hervor. Die
 Metadatensuchmaschine wurde im Rahmen dieser implementiert. Siehe Screenshot:
@@ -44,9 +44,18 @@ Metadatensuchmaschine wurde im Rahmen dieser implementiert. Siehe Screenshot:
 \includegraphics[scale=0.5]{../screenshots/old_site.png}
 \end{center}
 
-In Kapitel 6 (Siehe \ref{konzept_web}) sind bereits viele technische Details erläutert.
 
 \section{Implementierung}
 
-* TODO: Tagcloud
-* TODO: Allet selbstjemacht Meister
+In Kapitel 6 (Siehe \ref{konzept_web}) sind bereits viele technische Details erläutert.
+
+\paragraph{Tagcloud}
+Die implementierte Tagcloud holt sich immer aus der Datenbank die zu einem
+bestimmten Zeipunkt am meist gesuchten Schlagwörter raus. Dadurch wird die
+Linkkraft auf bestimmten Ergebnisse dynamisch angepasst wodurch möglicherweise
+Google-User die nach diesem aktuell populären Ergebnis googlen auf unsere Seite
+geleitet werden.
+\\
+\\
+Alles bis auf das Forum wurde von uns mittels dem Microwebframework Flask in
+Python implementiert. 

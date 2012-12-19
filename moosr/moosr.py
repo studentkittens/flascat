@@ -196,14 +196,6 @@ def logout():
     return user_login.do_logout(request)
 
 
-@app.route('/home')
-def home_page():
-    '''
-    A Todo point...
-    '''
-    return 'No content here yet.', 404
-
-
 @app.errorhandler(404)
 def page_not_found(e):
     '''
@@ -314,16 +306,13 @@ def add_entry():
     return redirect(url_for('show_entries'))
 
 
-@app.route('/favicon.ico')
-def favicon():
-    return send_from_directory(os.path.join(app.root_path, 'static'),
-                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
+#@app.route('/favicon.ico')
+#def favicon():
+#    return send_from_directory(os.path.join(app.root_path, 'static'),
+#                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
-###########################################################################
-#                               Let it run!                               #
-###########################################################################
 
-if __name__ == '__main__':
+def setup():
     app.before_request(blogdb.setup)
     app.teardown_request(blogdb.teardown)
 
@@ -331,6 +320,13 @@ if __name__ == '__main__':
     tagcloud.tagcloud_load(tagcloud_path)
     user_login.setup(app)
 
+
+###########################################################################
+#                               Let it run!                               #
+###########################################################################
+
+if __name__ == '__main__':
+    setup()
     try:
         app.run(debug=True)
     except KeyboardInterrupt:

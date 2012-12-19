@@ -1,0 +1,256 @@
+/***************************************************************************
+ *                               Base Layout                               *
+ ***************************************************************************/
+
+html, body {
+    height: 70%;
+    background: #f4f1e5;
+    color: #544738;
+    font-family: helvetica, sans-serif;
+}
+
+#content {
+    background-color: #fdf9ef;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    width: 850px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin: 30px auto;
+}
+
+#footer_grass {
+    background: url("grass.png") repeat-x scroll center top transparent;
+    height: 39px;
+    margin-top: -33px;
+}
+
+#footer_art.default {
+    background-image: url("wald.png");
+}
+
+#footer_art {
+    background: none repeat scroll 0% 0% transparent;
+    height: 180px;
+    margin-top: 0px;
+    clear: center;
+}
+
+#footer {
+    clear: left;
+    background: none repeat scroll 0% 0% rgb(211, 215, 207);
+    color: rgb(85, 87, 83);
+    padding: 20px 0px;
+}
+
+/* Stick footer from:
+ * http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -300px;
+}
+
+#footer, .push {
+    height: 300px;
+}
+
+
+#footer_links {
+    text-align: left;
+    width: 700px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#footer_links a{
+    font-size:1em; color:#555555; line-height:1em;
+    text-decoration:none;
+}
+
+#footer_links a:hover {
+    background-color:#7A991A;
+    color: #FFF;
+}
+
+#footer_links td,th{
+    padding: 0px 20px;
+}
+
+#container {
+    width: 900px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#header {
+    text-align: center;
+    width: 800px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+
+/***************************************************************************
+ *                                  Links                                  *
+ ***************************************************************************/
+
+a:link, a:visited
+{
+    color: #544738;
+    text-decoration:none;
+}
+
+a:hover,a:active
+{
+    background-color:#7A991A;
+}
+
+/* Special Case: Logo */
+#logo_link:hover {
+    border: none !important;
+    display: block;
+}
+
+
+/*******************************************************************************
+ *                                Tagcloud                                     *
+ * http://www.web-spirit.de/webdesign-tutorial/6/CSS-Tagcloud-(Schlagwortwolke)
+ *******************************************************************************/
+
+.tag1{ font-size:1em; color:#555555; line-height:1em; }
+.tag2{ font-size:1.2em; color:#606060; line-height:1em; }
+.tag3{ font-size:1.4em; color:#808080; line-height:1em; }
+.tag4{ font-size:2em; color:#808080; line-height:1em; }
+
+#tagcloud{
+    margin: 30px auto;
+    width: 500px;
+    border: 1px solid #ccc;
+    text-align:center;
+    background: #303030; 
+    padding:10px 5px 10px 5px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+}
+
+#tagcloud a{ text-decoration:none; color: #BBB; }
+#tagcloud a:hover{ text-decoration:underline; }
+
+
+/***************************************************************************
+ *                            Main Menu Buttons                            *
+ ***************************************************************************/
+
+#mainmenu {
+    width: 950px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+#mainmenu ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+#mainmenu li
+{
+    float:left;
+}
+
+#mainmenu a:link, #mainmenu a:visited
+{
+    display:block;
+    width:120px;
+    color: #544738;
+    background-color:#98bf21;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+}
+
+#mainmenu a:hover,a:active
+{
+    background-color:#7A991A;
+    color: #FFF;
+}
+
+/***************************************************************************
+ *                               Search bar                                *
+ ***************************************************************************/
+
+.search_buttons{
+    width: 80px;
+    height: 30px;  
+    background-color: #98bf21;
+    text-align: center;  
+    border:1px solid #dbdbdb;
+}
+
+.search_button:active {
+    background-color: #98bf21;
+}
+
+/* Do not display newlines after <form> */
+form {
+    display: inline;
+}
+
+.search_form{
+    background-color:#ffffff;
+    border:1px solid #dbdbdb;
+    padding:6px;
+}
+
+/***************************************************************************
+ *                                  Flash                                  *
+ ***************************************************************************/
+
+#flash_box {
+    background: #98bf21;
+    margin: 10px auto;
+    text-align:center;
+    padding: 0.5em;
+    width: 300px;
+}
+
+/***************************************************************************
+ *                                 Results                                 *
+ ***************************************************************************/
+
+
+#picture_frame, #blogpost img, #content img {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.20);
+    padding: 7px;
+    width: 50px auto;
+    height: 50px auto;
+    border: 1px solid rgb(221, 221, 221);
+    background: white;
+}
+
+#song_header{
+    padding: 20px 10px 30px 10px;
+    text-align:center;
+}
+
+/***************************************************************************
+ *                                  Blog                                   *
+ ***************************************************************************/
+
+#blogpost {
+    background-color: #fffcf3;
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    width: 820px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin: 15px auto;
+}
+
+h1 {
+    text-align: center;
+}

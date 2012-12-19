@@ -124,7 +124,7 @@ Folgende Hauptkategorien wurden auf moosr umgesetzt:
 
 \label{moosrdata_ref}
 \begin{center}
-\includegraphics[scale=0.5]{../screenshots/moosrdata.png}
+\includegraphics[width=\textwidth]{../screenshots/moosrdata.png}
 \end{center}
 
 \paragraph{moosrdata}
@@ -136,15 +136,23 @@ gezeigt.
 \\
 \\
 Bei einer Suche wird ein angepasstes Layout angezeigt. 
+Hier als Beispiel das Layout bei der Anzeige von Coverart:
 
-TODO: Screenshot. Lyrics, Cover
+\begin{center}
+\includegraphics[width=\textwidth]{../screenshots/moosrdata_cover_results.png}
+\end{center}
+
+Textuelle Resultate werden folgendermaßen angezeigt:
+\begin{center}
+\includegraphics[width=\textwidth]{../screenshots/moosrdata_lyrics_results.png}
+\end{center}
 
 
 \newpage
 \paragraph{Developers}
 \label{static_page}
 \begin{center}
-\includegraphics[scale=0.5]{../screenshots/developers.png}
+\includegraphics[width=\textwidth]{../screenshots/developers.png}
 \end{center}
 
 Die Kategorie \emph{Developers} ist eine Seite mit statischem Content. Hier
@@ -160,7 +168,7 @@ uns in Flask implementiert damit diese die SEO Anforderungen optimal beherrscht.
 \\
 Die Loginmaske erlaubt ein SEO-gerechtes Eintragen von Artikeln:
 \begin{center}
-\includegraphics[scale=0.5]{../screenshots/post_entry.png}
+\includegraphics[width=\textwidth]{../screenshots/post_entry.png}
 \end{center}
 
 Die Beiträge sind dabei in reStructuredText zu verfassen. Beim Posten werden
@@ -170,7 +178,38 @@ diese zu HTML konvertiert. Siehe dazu die reStructuredText Dokumentation:
 \url{http://docutils.sourceforge.net/docs/user/rst/quickstart.html}
 \end{center}
 
-TODO: Make screenshots.
+Momentan enthält 4 von uns verfasste Beiträge die ebenfalls gut von Google
+gerankt werden sollen. Hierbei wurde darauf geachtet dass ein primäres und
+mehrere sekundäre Keywords wie gewünscht festgelegt wurden und diese mehrmals im
+Text wiederholt wurden. Diese wurden beim Verfassen des Blogeintrags als
+Keywords festgelegt und somit vom Blogsystem als Meta-Keywords in den HTML
+Quelltext geschrieben.
+
+\begin{verbatim}
+    <meta name="keywords" content="Coppelius, Band, Kammercore, Klassik" />
+\end{verbatim}
+
+Es folgt ein Screenshot des Blogübersichts. Es wird nicht der vollständige
+Beitrag angezeigt sonder jeweils nur ein Bild und ein Teaser:
+
+\begin{center}
+\includegraphics[width=\textwidth]{../screenshots/blog_overview.png}
+\end{center}
+
+In der Übersicht ist die Detailansicht des Beitrags verlinkt. Darin ist der
+vollständige Beitrag sichtbar: 
+
+\begin{center}
+\includegraphics[width=\textwidth]{../screenshots/blog_detail.png}
+\end{center}
+
+Das Archiv bietet eine Übersicht über alle vorhanden Posts, und listet das
+Datum, den Autor, den Kurztitel sowie die Keywords auf. Durch das Archiv sollen
+auch ältere, nicht mehr andersweitige verlinkte Posts Linkkraft erhalten.
+
+\begin{center}
+\includegraphics[width=\textwidth]{../screenshots/blog_archive.png}
+\end{center}
 
 \paragraph{Webshop}
 In der Kategorie \emph{Webshop} befinden sich Seitenlinks und Beschreibungen zu
@@ -213,7 +252,7 @@ Die Seite enthält statischen Content, und ähnelt daher \ref{static_page}.
 \paragraph{Login}
 
 \begin{center}
-\includegraphics[scale=0.5]{../screenshots/login.png}
+\includegraphics[width=0.5\textwidth]{../screenshots/login.png}
 \end{center}
 
 Hier ist der \emph{Loginbereich} der primär für \emph{Redakteure} interessant
