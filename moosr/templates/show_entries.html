@@ -37,9 +37,9 @@
         <br />
         <hr />
         <br />
-        {% for img_url in entry.image_urls %}
-            <img src="{{ img_url }}" width="400"></img>
-        {% endfor %}
+        {% if entry.image_urls %}
+            <img src="{{ entry.image_urls[0] }}" width="400"></img>
+        {% endif %}
         <br />
 
         <small>{{ entry.text[0:400]|striptags|safe }}</small>

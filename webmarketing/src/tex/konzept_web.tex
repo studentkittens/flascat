@@ -117,13 +117,29 @@ Das an den Key-Visual angepasste Farbklima sieht wie folgt aus:
 \section{Webservice Kategorien}
 Folgende Hauptkategorien wurden auf moosr umgesetzt:
 
+\newpage
+
+\paragraph{Layoutübersicht}
+
+\label{moosrdata_ref}
+\begin{center}
+\includegraphics[scale=0.5]{../screenshots/moosrdata.png}
+\end{center}
+
 \paragraph{moosrdata}
 Hier befindet sich die der Kernpunkt unserer Dienstleistung, die Metadaten
 Suchmaschine. Diese Seite bietet dynamischen Content in Form einer
 \emph{Tagcloud} mit den zu einem bestimmten Zeipunkt am häufigsten gesuchtenn
-Metadaten.
+Metadaten. Die Suche ist auch in der Übersicht unter \ref{moosrdata_ref}
+gezeigt.
 
+\newpage
 \paragraph{Developers}
+\label{static_page}
+\begin{center}
+\includegraphics[scale=0.5]{../screenshots/developers.png}
+\end{center}
+
 Die Kategorie \emph{Developers} ist eine Seite mit statischem Content. Hier
 werden für interessierte Entwickler alle Informationen zu unserer HTML
 Darstellung und JSON API erläutert.
@@ -133,11 +149,20 @@ Der \emph{Blog} ist eine Seite mit wachsendem Content. Über diese Seite wollen
 wir unsere Community auf dem Laufenden halten über Newcomer aus der Szene und
 Berichte über Alben, Festivals etc. verfassen. Die ,,Blogsoftware'' wurde von
 uns in Flask implementiert damit diese die SEO Anforderungen optimal beherrscht.
+\\
+\\
+Die Loginmaske erlaubt ein SEO-gerechtes Eintragen von Artikeln:
+\begin{center}
+\includegraphics[scale=0.5]{../screenshots/post_entry.png}
+\end{center}
+
+TODO: Make screenshots.
 
 \paragraph{Webshop}
 In der Kategorie \emph{Webshop} befinden sich Seitenlinks und Beschreibungen zu
 Webshops mit Tickets und Fanartikeln. Diese Seite enthält hauptsächlich
-statischen Content.
+statischen Content, daher wurde auf einen Screenshot verzichtet. Siehe
+\ref{static_page}.
 
 \paragraph{Forum}
 Das \emph{Forum} ist der Haupttreffpunkt für die Community. Hier können sich
@@ -149,18 +174,34 @@ z.B. FluxBB
 \end{center}
 gut eignen. Siehe \url{https://bbs.archlinux.de/} für eine beispielhafte
 Umsetzung mit FluxBB.
+\\
+\\
+Da in unserer Version die Seite noch ein Platzhalter ist wurde auf ein Screenshot
+verzichtet.
+
 
 \paragraph{About Us}
 In der Kategorie \emph{About Us} erläutern wir dem Kunden das Spektrum unserer
 Dienstleistung. Diese Seite ist zugleich unsere \emph{Startseite}. Diese Seite
 enthält wieder statischen Content der unsere Dienstleistung klar und direkt
 beschreibt.
+\\
+\\
+Die Seite enthält statischen Content, und ähnelt daher \ref{static_page}.
 
 \paragraph{F.A.Q.}
 Der \emph{F.A.Q.} Bereich bietet Interessierten Antworten auf die häufig
 gestellen Fragen. Der Content ist statisch und ändert sich kaum. 
+\\
+\\
+Die Seite enthält statischen Content, und ähnelt daher \ref{static_page}.
 
 \paragraph{Login}
+
+\begin{center}
+\includegraphics[scale=0.5]{../screenshots/login.png}
+\end{center}
+
 Hier ist der \emph{Loginbereich} der primär für \emph{Redakteure} interessant
 ist die Beiträge auf der Blogseite veröffentlichen möchten. Auf der Loginseite
 selbst ist kein weiterer zusätzlicher Content vorhanden.
@@ -171,6 +212,8 @@ Texten ist verboten. Dadurch wollen wir die Orginalität unseres Contents
 gewährleisten.
 
 \section{Footer-Bereich}
+Der Footer Bereich ist oben in der Übersicht abgebildet (Siehe
+\ref{moosrdata_ref}).
 Im \emph{Footer} befinden sich Links zu folgenden Seiten:
 
 \paragraph{Social}
@@ -187,6 +230,9 @@ Seite zu informieren)
 \item RSS Feed zum Blog
 \end{itemize}
 
+Siehe auf der linken Seite in der Übersicht.
+\\
+\\
 Wir haben uns bewusst für die Auslagerung von großen Bildergallerien auf Flickr
 entschieden weil wir so Bilderreihen von Festivals oder Community-Treffs online
 stellen können ohne dass hierbei Datenvolumen Kosten auf unserer Seite
@@ -204,7 +250,7 @@ alle wichtigen Bereiche unserer Seite zu kommen.
 Unter ,,Featured Posts'' befinden sich einige von Hand ausgewählte Blogposts,
 die hier verlinkt werden.
 
-\paragrap
+\paragraph{External Links}
 Hier sind Links zu den von uns verwendeten Libraries wie z.B. libglyr. Dadurch
 informieren wir nicht nur über die Technologien die wir verwenden sondern
 ermöglichen es der Community auch indirekt an moosr über die Entwicklung an
@@ -212,9 +258,3 @@ Thirdparty-Libraries mitzuarbeiten.
 \\
 \\
 Zudem finden sich hier externe Anbieter die unser Angebot ergänzen.
-
-\paragraph{External Links}
-Hier findet man nochmal die Links zu den Webshops.
-
-\section{Erläuterte Screenshots}
-TODO
