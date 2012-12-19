@@ -1,5 +1,6 @@
 \chapter{Konzept Web}
 
+\label{konzept_web}
 \section{Allgemein}
 
 Unsere Dienstleistung konzentriert sich ähnlich der Unix Philosophie auf eine
@@ -132,6 +133,12 @@ Suchmaschine. Diese Seite bietet dynamischen Content in Form einer
 \emph{Tagcloud} mit den zu einem bestimmten Zeipunkt am häufigsten gesuchtenn
 Metadaten. Die Suche ist auch in der Übersicht unter \ref{moosrdata_ref}
 gezeigt.
+\\
+\\
+Bei einer Suche wird ein angepasstes Layout angezeigt. 
+
+TODO: Screenshot. Lyrics, Cover
+
 
 \newpage
 \paragraph{Developers}
@@ -154,6 +161,13 @@ uns in Flask implementiert damit diese die SEO Anforderungen optimal beherrscht.
 Die Loginmaske erlaubt ein SEO-gerechtes Eintragen von Artikeln:
 \begin{center}
 \includegraphics[scale=0.5]{../screenshots/post_entry.png}
+\end{center}
+
+Die Beiträge sind dabei in reStructuredText zu verfassen. Beim Posten werden
+diese zu HTML konvertiert. Siehe dazu die reStructuredText Dokumentation:
+
+\begin{center}
+\url{http://docutils.sourceforge.net/docs/user/rst/quickstart.html}
 \end{center}
 
 TODO: Make screenshots.
@@ -212,6 +226,8 @@ Texten ist verboten. Dadurch wollen wir die Orginalität unseres Contents
 gewährleisten.
 
 \section{Footer-Bereich}
+In grafischer Hinsicht findet sich eine ,,Waldszene''. Diese haben wir vom 
+,,Gnome Reference Manual'' \footnote{\url{http://developer.gnome.org/glib/}} übernommen.
 Der Footer Bereich ist oben in der Übersicht abgebildet (Siehe
 \ref{moosrdata_ref}).
 Im \emph{Footer} befinden sich Links zu folgenden Seiten:

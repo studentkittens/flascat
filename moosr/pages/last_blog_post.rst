@@ -1,98 +1,107 @@
-.. image:: http://archiv.praeco-medii-aevi.de/MAV/COPPELIUS%20Zinnober%20Presse%2003.jpg
+.. image:: http://www.dasniveau.de/wp-content/uploads/2012/03/Pressefoto-3.jpg
     :width: 400
     :align: center
 
-Heute in unserer Vorstellungsrunde stellen wir euch die koppelianische Kappelle
-vor. 
+Die Band, die Barden
+--------------------
 
-Geschichtliches
----------------
-
-Laut eigener Aussage hat sich die Band vor 200 Jahren in Wien gegründet, damals
-noch als klassische Kammermusikkappelle. Allerdings wurden sie kurz darauf von
-einem Blitz getroffen und touren seitdem elektrisch verstärkt um das Weltenrund.
+Sie werden  ,,Die Barden aus Berlin'' genannt und ihr Motto ist ,,Das Niveau
+sinkt für Sie''. Es geht um die beiden Jungs aus Berlin, Sören Vogelsang und
+Martin Spiess. Gegründet im Jahr 2008 auf einem Festival. Die Texte handeln von
+schönen Frauen, kaltem Bier, dem Morgen danach und grimmigen Trollen.
 
 
+**Warnung:** Der folgende Text enthält einige Spoiler, also am besten nur lesen
+wenn ihr das Album schon *völlig* legal erworben habt!
 
-.. image:: http://www.allmystery.de/i/b379b26_coppelius-logo-coppelius001.jpg
-   :width: 400
-   :align: center
 
-Stil
-----
-
-Die Band selbst nennt ihren Stil ,,Kammercore'' - ein Kofferwort aus
-,,Kammermusik'' und ,,Metalcore''. Allerdings enthält die Musik der Band
-keinerlei Elemente aus dem Metalcore, dies ist einfach als Hommage an die 
-vielen Genre-Namen die auf ,,core' enden zu sehen.
-
-Coppelius verwendet als Instrumente elektrisch verstärkte Kontrabässe statt 
-E-Gitarren und Klarinetten anstatt Keyboards. Das einzige Zugeständnis an
-andere Bands bildet das Schlagzeug das der Band den typischen ,,Beat'' gibt.
-
-Gesanglich wird auf klaren, klassischen Gesang zurückgegriffen. Sänger gibt es
-dabei gleich vier am Stück. Meistenteils singt dabei der ,,Butler'' der Band
-Bastille, er wird aber von den beiden Klarinettisten ,,Comte Caspar'' und ,,Max
-Coppella'' und dem E-Kontrabassisten ,,Graf Lindorf'' im Chor unterstützt.
-
-Die Texte sind zumeist Englisch, in einigen populären Ausnahmen aber auch
-Deutsch. 
-
-Falls jemand nach einer prägnanten Beschreibung des Stils fragen würde: 
-,,Iron Maiden vor 200 Jahren mit Klassik und intelligenten Texten''
-
-Auftritte
+Das Album
 ---------
 
-Unter Kennern ist Coppelius längst bekannt. Auf Konzerten sieht man sowohl das
-Publikum als auch die Band in der Kleidung des 18 Jahrhunderts gekleidet. 
-Dazu gehören Gehrock, Vatermörder, Frack, Zylinder und jeder Menge weiße
-Schminke. Man könnte Coppelius als Gesamtkunstwerk bezeichnen.
+**01 Das Niveau:**
 
-Texte
+    Der Opener ist schlicht selbstbetitelt, und erzählt wie die Band zu ihren
+    Namen kam. Außerdem tritt die befreundete Band ,,Hasenscheiße'' auf.
+    Ein sehr launiger Opener des Albums.
+
+**02 Ach so:**
+
+    ,,...Ach so, ich bin ja Barde'' ist der Refrain des Liedes. Davor beschreibt
+    der Protagonist wie ekelhaft er selbst doch ist und fragt sich warum seine
+    Umwelt ihn noch mag.
+    Ein schönes Lied zum ,,nebenher'' hören.
+    
+**03 Lieder übers Vögeln:**
+
+    In diesem Lied geht es darum dass die Zuhörer immer Lieder übers ,,Vögeln''
+    wollen...der Protagonist bittet seine Zuhörer sich doch Lieder übers
+    Stricken oder verkrüppelte Krieger zu wünschen oder Sex mit Tieren.
+    Ein recht amüsantes und rythmisches aber doch recht niveauloses Lied.
+
+**04 Die Frage:**
+
+    Gitarre und Gesang. Es geht um Räuber und Sex... und um Sex mit Trollen,
+    Seemännern, Waldläufern und Leichen und dem Niveau. Dabei fragt jeder Partei
+    ,,schon mal Sex mit <Partei> gehabt?'' Ein dem Niveau typisches nivveauloses
+    Lied das Spaß macht.
+    
+**05 Werbung I:**
+
+    Eine Zwischensequenz mit musikalisch vorgetragener Werbung.
+
+
+**06 Der Letzte Stern:**
+
+    Eine Ballade. Erstaunlicherweise das einzige ernste Lied des Albums.
+    Definitiv mal reinhören!
+
+**07 Beim Pissen gemeuchelt:**
+
+    Wohl das stärkste Lied des Albums das davon handelt dass der Barde beim
+    Pissen in allen möglichen Lebenssituationen gemeuchelt wird. 
+    Ein richtiger Ohrwurm, dieses Lied rundet das erste Album perfekt ab!
+
+**08 Der Morgen danach:**
+
+    Es ähnelt dem Lied ,,Lieder übers Vögeln''. Der Barde singt wie er besoffen
+    neben einer Frau aufwacht, dabei ändert sich die Frau pro Strophe bis hin zu
+    Nekrophilie.
+    Ein schönes Lied zum einschlafen am Abend.
+
+**09 Das Lied über die tiefe Zerrissenheit der menschlichen Seele:**
+
+    Ein Lied dass sich selbst beschreibt. Ja ja ja, nein, danke, oder? Ahuga.    
+
+**10 Randerscheinung:**
+
+    Ein halbernstes Lied dass in einem traurigen Grundton gespielt wird. 
+    Es wird beschrieben wie der Barde aus seiner schweren Kindheit in das 
+    schwerere Erwachsenenleben übergeht.
+
+    Das Highlight ist hier dabei das meisterhaft eingesetzte Klavier.
+
+**11 Der Letzte Stern (reprise):**
+
+    Ein Wiederaufnahme des Klassikers. (Instrumental)
+
+Fazit
 -----
 
-Laut eigener Aussage hat die Band den damals lebenden E.T.A Hoffmann
-,,maßgeblich inspiriert'' und nicht andersrum, wie viele heutige Zeitgenossen
-behaupten. Ähnlich wie E.T.A Hoffmann's Texte handeln die von Coppelius von
-Dingen wie Drogenerlebnissen, Frauen und Musik. Man könnte sagen dass dies
-,,Sex, Drugs & Rock'n'Roll'' aus dem koppelianischen Zeitalter ist.
-Dazu kommt eine große Portion Humor, Selbstreferenz und Selbstkritik.
+Ein wunderschönes Album das an der einen oder anderen Stelle zum Nachdenken
+anregt. Auch wenn die Lieder doch recht niveaulos sind steckt doch hier und da
+ein bisschen Wahrheit drin. 
+Eine Band so wie ein Album das definitv nicht für jeden was ist. Dennoch eine
+sehr lustvoll abgestimmtes Album das Spass macht. 
 
+Hörproben findet ihr wie immer bei last.fm:
 
-Anspieltipps
-------------
+        http://www.lastfm.de/music/Das+NIVEAU/Lose+Album
 
-Zum einfachen Anhören verlinken wir hier einfach auf die offizielle Bandseite
-auf YouTube:
+Wer Lust bekommen hat findet wie immer einen Webshop in unserer Kategorie wo er
+das Album erwerben kann. Denkt dran, nur Original ist legal!
 
-    * Risiko - http://www.youtube.com/watch?v=n-Hk5lH4cCY 
-    * Operation - http://www.youtube.com/watch?v=qM0F4lIQBFs
-    * Lilienthal - http://www.youtube.com/watch?v=rdet_aQk4SE
+.. image:: http://userserve-ak.last.fm/serve/500/45546855/Lose+Album+CovermitNiveau.jpg
+    :width: 400
+    :align: center
 
-Diskografie (Nur Alben)
------------------------
-
-* **2007** Time-Zeit
-    
-    .. image:: http://www.fan4z.de/catalog/images/coppelius_timezeit.jpg?osCsid=dac998ebbdfc602f97b8db39f557180d
-        :width: 300
-        :align: center
-
-* **2009** Tumult
-    
-    .. image:: http://www.track4-info.de/blog/wp-content/uploads/2009/09/Coppelius_288_coppelius_tum.jpg
-        :width: 300
-        :align: center
-
-* **2010** Zinnober
-    
-    .. image:: http://www.mindbreed.de/v20/wp-content/uploads/2011/05/coppelius-zinnober-i.jpg
-        :width: 300
-        :align: center
-
-* **2013** Extrablatt
-
-    .. image:: http://sphotos-a.xx.fbcdn.net/hphotos-prn1/c0.0.843.403/p843x403/154667_10151322874894497_782339461_n.jpg
-        :width: 300
-        :align: center
+*Unser Fazit:* Vier von Fünf Sternen!
