@@ -1,6 +1,11 @@
 About us
 ========
 
+.. image:: static/elchlogo.png
+    :width: 830
+    :align: center
+    :alt: Moosr Logo
+
 Wer oder was ist moosr? 
 ------------------------
 

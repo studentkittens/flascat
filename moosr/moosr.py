@@ -246,13 +246,14 @@ def get_image_tags_from_html(text):
 
 @app.route('/blog')
 def show_entries():
-    cur = g.db.execute('select title, short_title, text, username, post_date, id from entries order by id desc')
+    cur = g.db.execute('select title, short_title, text, username, post_date, keywords, id from entries order by id desc')
     entries = [dict(title=row[0],
         short_title=row[1],
         text=row[2],
         username=row[3],
         post_date=row[4],
-        image_urls=get_image_tags_from_html(row[2]))
+        image_urls=get_image_tags_from_html(row[2]),
+        keywords=row[5])
         for row in cur.fetchall()]
 
     return render_template('show_entries.html', entries=entries)

@@ -4,6 +4,7 @@ Knorkator auf Haltestelle Woodstock Festival
 .. image:: http://upload.wikimedia.org/wikipedia/commons/4/49/Knorkator_Frankenthal.jpg
     :width: 400
     :align: center
+    :alt: Knorkator live auf Woodstock
 
 Knorkator die Band
 ------------------
@@ -20,6 +21,7 @@ dem Künstlernamen ,,Buzz Dee'' sind die Lieblinge der eingefleischten Fans.
 .. image:: http://www.knorkator.de/wp-content/uploads/2010/12/presse-2004-axt.jpg
     :width: 300
     :align: center
+    :alt: Herr Stumpen sollte man keine Axt geben
 
 In den ersten 15 Jahren ihres Bestehens gab die Band über 700 Konzerte und
 traten auf diversen großen Festivals weltweit auf. Als Vorgruppe von der
