@@ -23,11 +23,21 @@ Möchtest du über Indiefastivals informiert werden oder willst du die neusten
 News zu deiner Lieblings Indieband? - dann abonniere unseren Newsletter (link)
 oder einen RSS Feed und wir halten dich auf dem Laufenden!
 
+Oder du schaust ab und zu in unserem Blog rein:
+
+.. raw:: html
+
+    <center><a href="/blog">Direktlink</a></center>
+
 
 Moosr vermittelt!
 -----------------
 
-Tickets zu den Festivals oder Fanartikel findest du in unseren Shop (link)!
+Tickets zu den Festivals oder Fanartikel findest du in unseren Shop!
+
+.. raw:: html
+
+    <center><a href="/shop">Direktlink</a></center>
 
 Die Moosr Searchengine "moosrdata"
 ------------------------------------
@@ -40,11 +50,22 @@ Moosrdata bietet für Entwickler von Musikplayern als einziger Dienst die
 Möglichkeit auf verschiedene Musikmetadaten zentral zuzugreifen, das spart Zeit
 und Nerven.
 
+Ihr findet sie im Menü unter ,,Search'' oder über diesen Link:
+
+.. raw:: html
+
+    <center><a href="/search">Direktlink</a></center>
+
+
 Moosr inside your player!
 -------------------------
 
 Möchtest du unsere API als Entwickler nutzen dann schau dich in unserer
 Developers Section (link) um.
+
+.. raw:: html
+
+    <center><a href="/developers">Direktlink</a></center>
 
 You and moosr?
 ---------------

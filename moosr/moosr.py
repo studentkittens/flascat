@@ -204,8 +204,8 @@ def page_not_found(e):
     return render_template('404.html'), 404
 
 
-@app.route('/')
-def main_page():
+@app.route('/search')
+def search_page():
     '''
     The mainpage seen on localhost:5000
     '''
@@ -219,6 +219,10 @@ def main_page():
 
     return render_template('cloud.html', tags=tags)
 
+
+@app.route('/')
+def index():
+    return redirect(url_for('show_aboutus'))
 
 ###########################################################################
 #                               Blog Stuff                                #

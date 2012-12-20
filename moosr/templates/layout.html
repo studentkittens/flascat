@@ -24,7 +24,7 @@
     <body>
         <div id="mainmenu">
             <ul>
-                <li><a href="{{ url_for('main_page') }}">Search</a></li>
+                <li><a href="{{ url_for('search_page') }}">Search</a></li>
                 <li><a href="{{ url_for('show_developers') }}">Developers</a></li>
                 <li><a href="{{ url_for('show_entries') }}">Blog</a></li>
                 <li><a href="{{ url_for('show_forum') }}">Forum</a></li>
@@ -75,7 +75,7 @@
                     <a href="www.google.de">Flickr Album</a>
                 </td>
                 <td>
-                    <a href="{{ url_for('main_page') }}">Searchpage</a>
+                    <a href="{{ url_for('search_page') }}">Searchpage</a>
                 </td>
                 <td><a href="{{ url_for('show_blog_entry', post_short_name='band-coppelius') }}">Band: Coppelius</a></td>
                 <td><a href="http://www.last.fm">Last.fm</a></td>
