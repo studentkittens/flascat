@@ -861,8 +861,13 @@ Operatorüberladung<a class="headerlink" href="#operatoruberladung" title="Perma
 <p>
 Auf Wunsch von Thomas:</p>
 <div class="highlight-python">
+<<<<<<< HEAD
 <div class="highlight"><pre><span class="k">class</span> <span class="nc">SimpleVec</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">coord</span><span class="p">):</span>
+=======
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">SillyVec</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">coord</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)):</span>
+>>>>>>> alois
         <span class="bp">self</span><span class="o">.</span><span class="n">_coord</span> <span class="o">=</span> <span class="n">coord</span>
 
     <span class="k">def</span> <span class="nf">__iter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -873,8 +878,13 @@ Auf Wunsch von Thomas:</p>
                                   <span class="bp">self</span><span class="o">.</span><span class="n">_coord</span><span class="p">,</span> <span class="n">rhs</span><span class="p">))</span>
         <span class="k">return</span> <span class="bp">self</span>
 
+<<<<<<< HEAD
     <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="nb">repr</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_coord</span><span class="p">)</span>
+=======
+    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_coord</span><span class="p">)</span>
+>>>>>>> alois
 </pre></div>
 </div>
 <div class="highlight-python">
@@ -882,7 +892,44 @@ Auf Wunsch von Thomas:</p>
 </pre></div>
 </div>
 </div>
+<<<<<<< HEAD
 <div class="step slide section" data-x="0" data-y="5600.0" id="id1">
+=======
+<div class="step slide section" data-x="0" data-y="5600.0" id="multiple-inheritance">
+<h1>
+Multiple Inheritance<a class="headerlink" href="#multiple-inheritance" title="Permalink to this headline">¶</a></h1>
+<p>
+Auf Wunsch von Herrn Schaible:</p>
+<div class="highlight-python">
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">Base</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">,</span> <span class="n">C</span><span class="p">):</span>
+    <span class="k">pass</span>
+</pre></div>
+</div>
+<p>
+Methodenauflösung nach …</p>
+<blockquote>
+<div><ul class="simple">
+<li>
+… Depth First.</li>
+<li>
+… links nach rechts.</li>
+<li>
+… Rekursiv.</li>
+<li>
+… immer eine Instanz.</li>
+<li>
+… Erst A rekursiv, dann B rekursiv, dann C.</li>
+</ul>
+</div></blockquote>
+<div class="line-block">
+<div class="line">
+<br /></div>
+</div>
+<p>
+Siehe auch Tafelbild.</p>
+</div>
+<div class="step slide section" data-x="1000" data-y="5600.0" id="id1">
+>>>>>>> alois
 <h1>
 λ!<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <p>
@@ -907,6 +954,7 @@ Vergleiche:</p>
 Python switcht bei Integer Overflows intern auf eine BigInteger Repräsentation.
 Das ist zwar weniger performant als good ol&#8217; Java, aber einfach bequemer.</p>
 </div>
+<<<<<<< HEAD
 <div class="step slide section" data-x="1000" data-y="5600.0" id="multiple-inheritance">
 <h1>
 Multiple Inheritance<a class="headerlink" href="#multiple-inheritance" title="Permalink to this headline">¶</a></h1>
@@ -940,6 +988,8 @@ Methodenauflösung nach …</p>
 <p>
 Siehe auch Tafelbild.</p>
 </div>
+=======
+>>>>>>> alois
 <div class="step slide section" data-x="2000" data-y="5600.0" id="higher-order-functions-aka-closures">
 <h1>
 Higher Order Functions (aka Closures)<a class="headerlink" href="#higher-order-functions-aka-closures" title="Permalink to this headline">¶</a></h1>
@@ -1229,7 +1279,11 @@ Für die Übungen / Flask wird Python2 verwendet!</li>
 <li>
 (Fast) Alle Beispiele liefen in beiden Versionen.</li>
 </ul>
+<<<<<<< HEAD
 <h2>Python2 is the present, Python3 the future.</h2></div>
+=======
+</div>
+>>>>>>> alois
 <div class="step slide section" data-x="3000" data-y="7200.0" id="interpreter-compiler">
 <h1>
 Interpreter / Compiler<a class="headerlink" href="#interpreter-compiler" title="Permalink to this headline">¶</a></h1>

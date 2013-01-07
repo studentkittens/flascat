@@ -7,6 +7,7 @@ Keywords(Niveau, Barde, Lied)
 .. image:: http://www.dasniveau.de/wp-content/uploads/2012/03/Pressefoto-3.jpg
     :width: 400
     :align: center
+    :alt: Sören und Martin sind Das Niveau
 
 Die Band, die Barden
 --------------------

@@ -7,6 +7,7 @@ Keywords=[Coppelius, Band, Kammercore, Klassik]
 .. image:: http://img.fotocommunity.com/images/Musik-Konzert/Clubkonzerte/Bastille-von-Coppelius-a26958975.jpg
     :width: 400
     :align: center
+    :alt: Der Butler Bastille auf einem Konzert
 
 Heute in unserer Vorstellungsrunde stellen wir euch die koppelianische Kappelle
 vor. 
@@ -23,6 +24,7 @@ einem Blitz getroffen und touren seitdem elektrisch verstärkt um das Weltenrund
 .. image:: http://www.allmystery.de/i/b379b26_coppelius-logo-coppelius001.jpg
    :width: 400
    :align: center
+   :alt: Das Logo von Coppelius
 
 Stil
 ----
@@ -84,21 +86,25 @@ Diskografie (Nur Alben)
     .. image:: http://www.fan4z.de/catalog/images/coppelius_timezeit.jpg?osCsid=dac998ebbdfc602f97b8db39f557180d
         :width: 300
         :align: center
+        :alt: Cover von Time-Zeit
 
 * **2009** Tumult
     
     .. image:: http://www.track4-info.de/blog/wp-content/uploads/2009/09/Coppelius_288_coppelius_tum.jpg
         :width: 300
         :align: center
+        :alt: Cover von Tumult
 
 * **2010** Zinnober
     
     .. image:: http://www.mindbreed.de/v20/wp-content/uploads/2011/05/coppelius-zinnober-i.jpg
         :width: 300
         :align: center
+        :alt: Cover von Zinnober 
 
 * **2013** Extrablatt
 
     .. image:: http://sphotos-a.xx.fbcdn.net/hphotos-prn1/c0.0.843.403/p843x403/154667_10151322874894497_782339461_n.jpg
         :width: 300
         :align: center
+        :alt: Mögliches Cover von ,,Extrablatt'' 

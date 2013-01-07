@@ -6,6 +6,7 @@ keywords=[Moosr, Community, Metadata, Blog, Indie]
 
 
 .. image:: static/elchlogo.png
+    :alt: Unser Logo!
 
 
 **Moosrdata:**
