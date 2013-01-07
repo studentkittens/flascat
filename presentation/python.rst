@@ -591,13 +591,8 @@ Auf Wunsch von Thomas:
 
 ::
 
-<<<<<<< HEAD
-    class SimpleVec(object):
-        def __init__(self, *coord):
-=======
     class SillyVec(object):
         def __init__(self, coord=(0, 0, 0)):
->>>>>>> alois
             self._coord = coord
 
         def __iter__(self):
@@ -608,20 +603,15 @@ Auf Wunsch von Thomas:
                                       self._coord, rhs))
             return self
 
-<<<<<<< HEAD
         def __repr__(self):
             return repr(self._coord)
-=======
+
         def __str__(self):
             return str(self._coord)
->>>>>>> alois
 
 ::
 
     __contains__, __eq__, __getitem__, __len__, __getattr__
-
-<<<<<<< HEAD
-=======
 
 Multiple Inheritance
 --------------------
@@ -646,7 +636,6 @@ Methodenauflösung nach …
 
 Siehe auch Tafelbild.
 
->>>>>>> alois
 λ!
 --
 
